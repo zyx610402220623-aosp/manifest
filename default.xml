@@ -3,7 +3,11 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
+<<<<<<< HEAD   (edde87 Add OpenWnn and junit)
   <default revision="donut"
+=======
+  <default revision="cupcake"
+>>>>>>> BRANCH (c54402 Add projects necessary to build on dream)
            remote="korg" />
 
   <project path="build" name="platform/build">
@@ -67,6 +71,10 @@
   <project path="packages/apps/Sync" name="platform/packages/apps/Sync" />
   <project path="packages/apps/Updater" name="platform/packages/apps/Updater" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
+
+  <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
+  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
 
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
