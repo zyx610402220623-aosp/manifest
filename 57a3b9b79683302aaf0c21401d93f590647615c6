@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAH33///r8\u003d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1002621
+      },
+      "writtenOn": "2012-07-26T19:12:20Z",
+      "side": 1,
+      "message": "please add\n\u003cproject path\u003d\"external/hamcrest\" name\u003d\"platform/external/hamcrest\" /\u003e",
+      "revId": "57a3b9b79683302aaf0c21401d93f590647615c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33///r4\u003d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1002621
+      },
+      "writtenOn": "2012-07-26T19:12:20Z",
+      "side": 1,
+      "message": "please add\n\n  \u003cproject path\u003d\"prebuilts/misc\" name\u003d\"platform/prebuilts/misc\" /\u003e\n  \u003cproject path\u003d\"prebuilts/ndk\" name\u003d\"platform/prebuilts/ndk\" /\u003e\n  \u003cproject path\u003d\"prebuilts/sdk\" name\u003d\"platform/prebuilts/sdk\" /\u003e",
+      "revId": "57a3b9b79683302aaf0c21401d93f590647615c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
