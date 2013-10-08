@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1d0c93d_1ba003e4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1002975
+      },
+      "writtenOn": "2013-10-08T21:20:56Z",
+      "side": 1,
+      "message": "whatsa hardwark",
+      "revId": "d6a5d20e540b7d38d1fc1e909087bbf85166da76",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
