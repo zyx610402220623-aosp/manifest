@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "deaa69eb_3e1ec7ef",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2013-11-24T00:17:04Z",
+      "side": 0,
+      "message": "so it looks like this was moved up but the darwin version dropped? I think these were both added recently in AOSP and should both remain? bccheng added them I think.",
+      "revId": "57929524870c3dca9322f04601b71d6c4b1a35f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
