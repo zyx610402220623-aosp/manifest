@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1e8fa1ae_a723c839",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 381,
+      "author": {
+        "id": 1006257
+      },
+      "writtenOn": "2013-11-24T00:28:45Z",
+      "side": 1,
+      "message": "--\u003e darwin",
+      "revId": "303c2559ffea2f14ab9613c4cbd1553bbcd2c824",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e8aa59d_f3cf583f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 397,
+      "author": {
+        "id": 1006257
+      },
+      "writtenOn": "2013-11-24T00:28:45Z",
+      "side": 1,
+      "message": "--\u003e linux",
+      "revId": "303c2559ffea2f14ab9613c4cbd1553bbcd2c824",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
