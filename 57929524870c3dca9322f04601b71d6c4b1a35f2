@@ -34,6 +34,24 @@
       "revId": "57929524870c3dca9322f04601b71d6c4b1a35f2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "deaa69eb_3ed6c78e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 383,
+      "author": {
+        "id": 1000234
+      },
+      "writtenOn": "2013-11-24T07:40:24Z",
+      "side": 0,
+      "message": "The aarch64 change looks ok to me (there is still one for linux and one for darwin).",
+      "parentUuid": "1e8fa1ae_87f88c63",
+      "revId": "57929524870c3dca9322f04601b71d6c4b1a35f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
