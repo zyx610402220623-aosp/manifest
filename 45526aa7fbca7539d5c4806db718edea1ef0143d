@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0f3a11a9_87debaf3",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 376,
+      "author": {
+        "id": 1006257
+      },
+      "writtenOn": "2014-02-22T00:24:04Z",
+      "side": 1,
+      "message": "this should be moved down.",
+      "range": {
+        "startLine": 376,
+        "startChar": 27,
+        "endLine": 376,
+        "endChar": 32
+      },
+      "revId": "45526aa7fbca7539d5c4806db718edea1ef0143d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
