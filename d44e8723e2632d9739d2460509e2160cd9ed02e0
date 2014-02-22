@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2f78b56e_6717ea65",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1005480
+      },
+      "writtenOn": "2014-02-22T02:14:34Z",
+      "side": 1,
+      "message": "non pdk?\nDoesn\u0027t it affect the headers?",
+      "range": {
+        "startLine": 154,
+        "startChar": 63,
+        "endLine": 154,
+        "endChar": 64
+      },
+      "revId": "d44e8723e2632d9739d2460509e2160cd9ed02e0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
