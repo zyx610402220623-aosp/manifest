@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9c156131_6d57bd1e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1040328
+      },
+      "writtenOn": "2014-02-26T19:39:52Z",
+      "side": 1,
+      "message": "if you look at the top of http://src.chromium.org/viewvc/chrome/trunk/src/android_webview/build/aosp_manifest_dev.xml\nyou\u0027ll see that I have a separate remote that allows uploading reviews for changes landed on the chromium-dev branch. Would it be possible to do something similar here?",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 22
+      },
+      "revId": "8ee6b2827e459da5a623e4572fc0c60f9b002683",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9c156131_8d52112d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1040328
+      },
+      "writtenOn": "2014-02-26T19:39:52Z",
+      "side": 1,
+      "message": "this is great, thanks!",
+      "range": {
+        "startLine": 70,
+        "startChar": 64,
+        "endLine": 70,
+        "endChar": 76
+      },
+      "revId": "8ee6b2827e459da5a623e4572fc0c60f9b002683",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c0a6d15_ec1bd384",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1040328
+      },
+      "writtenOn": "2014-02-26T19:39:52Z",
+      "side": 1,
+      "message": "could you remove these and the ones down to v8, please?",
+      "range": {
+        "startLine": 71,
+        "startChar": 44,
+        "endLine": 71,
+        "endChar": 48
+      },
+      "revId": "8ee6b2827e459da5a623e4572fc0c60f9b002683",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
