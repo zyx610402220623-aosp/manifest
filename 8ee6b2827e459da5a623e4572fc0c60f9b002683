@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1cf89137_9f6905d2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1006257
+      },
+      "writtenOn": "2014-02-26T19:48:32Z",
+      "side": 1,
+      "message": "Ah, yea I need a review line, but one remote should be fine.  If people upload changes for another project, their change will just get rejected.",
+      "parentUuid": "9c156131_6d57bd1e",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 22
+      },
+      "revId": "8ee6b2827e459da5a623e4572fc0c60f9b002683",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9c156131_8d52112d",
         "filename": "default.xml",
         "patchSetId": 1
@@ -59,6 +83,30 @@
       "writtenOn": "2014-02-26T19:39:52Z",
       "side": 1,
       "message": "could you remove these and the ones down to v8, please?",
+      "range": {
+        "startLine": 71,
+        "startChar": 44,
+        "endLine": 71,
+        "endChar": 48
+      },
+      "revId": "8ee6b2827e459da5a623e4572fc0c60f9b002683",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1cf89137_3f467171",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1006257
+      },
+      "writtenOn": "2014-02-26T19:48:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c0a6d15_ec1bd384",
       "range": {
         "startLine": 71,
         "startChar": 44,
