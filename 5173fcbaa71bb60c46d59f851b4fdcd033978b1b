@@ -22,6 +22,30 @@
       "revId": "5173fcbaa71bb60c46d59f851b4fdcd033978b1b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "19f8a337_43bcda4b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2014-03-27T22:13:45Z",
+      "side": 1,
+      "message": "Well, it can compile both target and host. The master-art name kind of tells the completeness.",
+      "parentUuid": "590f7b24_6f60cc1a",
+      "range": {
+        "startLine": 9,
+        "startChar": 65,
+        "endLine": 9,
+        "endChar": 75
+      },
+      "revId": "5173fcbaa71bb60c46d59f851b4fdcd033978b1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
