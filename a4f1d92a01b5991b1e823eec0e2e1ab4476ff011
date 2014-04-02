@@ -22,6 +22,30 @@
       "revId": "a4f1d92a01b5991b1e823eec0e2e1ab4476ff011",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "59b93ba9_2a867fbb",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2014-04-02T07:38:59Z",
+      "side": 1,
+      "message": "You mean for device/generic/art I don\u0027t need pdk? Or for all projects?\n\nI actually have no idea what\u0027s the implication of groups here :( This is merely a copy/paste of another manifest.",
+      "parentUuid": "b92f97b4_2b8c49da",
+      "range": {
+        "startLine": 18,
+        "startChar": 62,
+        "endLine": 18,
+        "endChar": 76
+      },
+      "revId": "a4f1d92a01b5991b1e823eec0e2e1ab4476ff011",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
