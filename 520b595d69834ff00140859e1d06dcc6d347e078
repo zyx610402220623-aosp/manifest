@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "79643f9a_e8dc738a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 151,
+      "author": {
+        "id": 1003981
+      },
+      "writtenOn": "2014-04-09T23:44:06Z",
+      "side": 1,
+      "message": "I meant if we should tag them with groups\u003d\"pdk\" as some other projects do.",
+      "revId": "520b595d69834ff00140859e1d06dcc6d347e078",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
