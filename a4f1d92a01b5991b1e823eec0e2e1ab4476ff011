@@ -46,6 +46,30 @@
       "revId": "a4f1d92a01b5991b1e823eec0e2e1ab4476ff011",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "598a1b9e_1fff637f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2014-04-14T18:37:20Z",
+      "side": 1,
+      "message": "this is only in this manifest right? So I\u0027m not sure what it would be copy and paste from. or did it get added to aosp/master as well?",
+      "parentUuid": "59b93ba9_2a867fbb",
+      "range": {
+        "startLine": 18,
+        "startChar": 62,
+        "endLine": 18,
+        "endChar": 76
+      },
+      "revId": "a4f1d92a01b5991b1e823eec0e2e1ab4476ff011",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
