@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e5aa4352_ba8395ee",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1041673
+      },
+      "writtenOn": "2014-04-22T20:23:44Z",
+      "side": 0,
+      "message": "chrome build appears to be out of sync with this change... \n\nexternal/chromium_org/GypAndroid.*.mk files are referencing angle_dx11",
+      "revId": "d5baddc6ba2e7333548b0457ac7edd1dd08becbb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
