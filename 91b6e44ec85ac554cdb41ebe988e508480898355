@@ -16,6 +16,24 @@
       "revId": "91b6e44ec85ac554cdb41ebe988e508480898355",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f10a43e_493e2dab",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1010055
+      },
+      "writtenOn": "2014-05-17T01:33:32Z",
+      "side": 1,
+      "message": "Ah, sorry, didn\u0027t notice. Is there also a reason for revision\u003d\"master\" missing from  the gtest project here? (I see it is there in ub-tools-idea133 branch, but not in -release branch.",
+      "parentUuid": "5f15a02d_ad94b55f",
+      "revId": "91b6e44ec85ac554cdb41ebe988e508480898355",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
