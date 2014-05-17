@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f0aac14_5b1957dc",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2014-05-17T01:12:56Z",
+      "side": 1,
+      "message": "Can you spare a space before \u0027/\u003e\u0027 for both projects?",
+      "revId": "f9318865e954995dd2b72f1520188d638bc9a732",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
