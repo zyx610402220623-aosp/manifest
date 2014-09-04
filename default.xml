@@ -8,9 +8,14 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
+  <project path="tools/buildSrc" name="platform/tools/buildSrc">
+    <copyfile src="base/build.gradle"      dest="tools/build.gradle" />
+    <copyfile src="base/settings.gradle"   dest="tools/settings.gradle" />
+    <copyfile src="base/gradlew"           dest="tools/gradlew" />
+    <copyfile src="base/gradlew.bat"       dest="tools/gradlew.bat" />
+    <copyfile src="base/gradle.properties" dest="tools/gradle.properties" />
   </project>
+<<<<<<< HEAD   (e7c38b Add platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androide)
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -461,5 +466,34 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+=======
+>>>>>>> BRANCH (1806a2 added clang 3.5 prebuilts for emulator builds, refactoring)
 
+  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" />
+  <project path="sdk" name="platform/sdk" />
+  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" />
+  <project path="tools/base" name="platform/tools/base" />
+  <project path="tools/emulator" name="platform/tools/emulator" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" />
+  <project path="tools/gradle" name="platform/tools/gradle" />
+  <project path="tools/idea" name="platform/tools/idea" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" />
+  <project path="tools/swt" name="platform/tools/swt" />
+
+  <!-- these projects use the master branch -->
+  <project path="external/ant-glob" name="platform/external/ant-glob" revision="master" />
+  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" revision="master" />
+  <project path="external/emma" name="platform/external/emma" revision="master"/>
+  <project path="external/gtest" name="platform/external/gtest" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" revision="master" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" revision="master" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" revision="master" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" revision="master"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="master" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" revision="master"/>
 </manifest>
