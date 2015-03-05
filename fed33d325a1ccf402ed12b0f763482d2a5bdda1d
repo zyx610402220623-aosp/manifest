@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d75b503d_07b716f0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-03-05T17:19:11Z",
+      "side": 1,
+      "message": "spare a space?",
+      "range": {
+        "startLine": 19,
+        "startChar": 56,
+        "endLine": 19,
+        "endChar": 58
+      },
+      "revId": "fed33d325a1ccf402ed12b0f763482d2a5bdda1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
