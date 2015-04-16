@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "907ac6a8_ade2804f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-04-16T20:43:27Z",
+      "side": 1,
+      "message": "This is a new project. So remove the pdk part",
+      "range": {
+        "startLine": 247,
+        "startChar": 76,
+        "endLine": 247,
+        "endChar": 79
+      },
+      "revId": "7e3222fa0f8312beae1e66d0acbfec604800e1f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
