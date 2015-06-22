@@ -16,6 +16,24 @@
       "revId": "937dddfe2a28bedac52c22787c8feb13585eb0fe",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7ef6069f_9f51435e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1057759
+      },
+      "writtenOn": "2015-06-22T22:55:58Z",
+      "side": 1,
+      "message": "Unfortunately, I just copied and pasted from whatever was in internal master.  I don\u0027t really understand the significance of these groups.  What is pdk-cs-fs vs pdk?",
+      "parentUuid": "5efea270_194f2cb6",
+      "revId": "937dddfe2a28bedac52c22787c8feb13585eb0fe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
