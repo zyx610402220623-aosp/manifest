@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5efea270_194f2cb6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-06-22T22:41:09Z",
+      "side": 1,
+      "message": "what\u0027s pdk-fs? did you mean \"pdk\" instead?",
+      "revId": "937dddfe2a28bedac52c22787c8feb13585eb0fe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
