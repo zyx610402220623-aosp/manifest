@@ -34,6 +34,24 @@
       "revId": "937dddfe2a28bedac52c22787c8feb13585eb0fe",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9e7adaa8_a062888d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2015-06-23T00:26:01Z",
+      "side": 1,
+      "message": "i know what \"pdk\" is --- it means \"this project should be visible in source form in the Partner Development Kit\". i don\u0027t know what \"pdk-fs\" (or \"pdk-cw-fs\", which i think \"pdk-fs\" is a bad copy \u0026 paste of; my guess is that \"cw\" is ClockWork aka \"watches\").\n\nso if you don\u0027t know either, switch it to \"pdk\" :-)",
+      "parentUuid": "7ef6069f_9f51435e",
+      "revId": "937dddfe2a28bedac52c22787c8feb13585eb0fe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
