@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de8ff2ab_61b8d0b2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2015-06-25T22:26:11Z",
+      "side": 1,
+      "message": "We don\u0027t actually depend on this yet, but it would make working on the NDK a pain to remove it and we will eventually.",
+      "revId": "5d4b567b7e3b4e788a2d170b9a34778290535539",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
