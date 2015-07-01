@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1317c5d9_b8b7b942",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-07-01T20:58:05Z",
+      "side": 1,
+      "message": "Please drop off the groups tag",
+      "range": {
+        "startLine": 176,
+        "startChar": 78,
+        "endLine": 176,
+        "endChar": 81
+      },
+      "revId": "3738a3afb860ea117bd55686c839a7c06ef3a1ab",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
