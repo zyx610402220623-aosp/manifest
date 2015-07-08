@@ -22,6 +22,30 @@
       "revId": "9ec1d72671da9b9d6950ba90a7f12a2333e76eff",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "58e87a65_e853c760",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-07-08T19:36:11Z",
+      "side": 1,
+      "message": "Yes, please remove the \"pdk\" part.",
+      "parentUuid": "135425e3_7cf4fefb",
+      "range": {
+        "startLine": 17,
+        "startChar": 104,
+        "endLine": 17,
+        "endChar": 116
+      },
+      "revId": "9ec1d72671da9b9d6950ba90a7f12a2333e76eff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
