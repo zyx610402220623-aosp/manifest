@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "987af2a8_fac4c185",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-07-10T17:32:03Z",
+      "side": 1,
+      "message": "Please spare a space before \"/\u003e\"",
+      "range": {
+        "startLine": 223,
+        "startChar": 68,
+        "endLine": 223,
+        "endChar": 71
+      },
+      "revId": "9bc413d3ca9e91ac5c58377af421b11552c49ff3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
