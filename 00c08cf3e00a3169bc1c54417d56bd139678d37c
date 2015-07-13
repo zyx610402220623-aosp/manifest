@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d8762a12_06a25ab9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2015-07-13T20:21:49Z",
+      "side": 0,
+      "message": "This can hopefully go",
+      "revId": "00c08cf3e00a3169bc1c54417d56bd139678d37c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d8762a12_e6437e60",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2015-07-13T20:21:49Z",
+      "side": 0,
+      "message": "Should figure out if we still need these.",
+      "revId": "00c08cf3e00a3169bc1c54417d56bd139678d37c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
