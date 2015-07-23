@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "0ddfa2f3_b87ab8dd",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2015-07-23T20:20:25Z",
+      "side": 1,
+      "message": "I have the .gitignore changes queued in a change that needs build/kati to work, I\u0027ll split them out so they can be submitted first.",
+      "parentUuid": "4dd51ace_8890b4a6",
+      "revId": "1dfedc1f2da0bd0d2679e67321270e65d87e13a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6dfe5e71_b81ee1ef",
         "filename": "default.xml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-07-23T20:13:22Z",
       "side": 1,
       "message": "Should we take the opportunity to just put these in alphabetical order like the rest?",
+      "revId": "1dfedc1f2da0bd0d2679e67321270e65d87e13a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ddfa2f3_186e6423",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2015-07-23T20:20:25Z",
+      "side": 1,
+      "message": "build/soong is eventually going to have copyfile or linkfile rules like build does, in case that changes your opinion on where it should go.",
+      "parentUuid": "6dfe5e71_b81ee1ef",
       "revId": "1dfedc1f2da0bd0d2679e67321270e65d87e13a9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
