@@ -105,6 +105,24 @@
       "revId": "1dfedc1f2da0bd0d2679e67321270e65d87e13a9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d86fa2e_492c611d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1010572
+      },
+      "writtenOn": "2015-07-24T04:06:59Z",
+      "side": 1,
+      "message": "I\u0027m not opinionated enough",
+      "parentUuid": "edf16ea3_51beb61f",
+      "revId": "1dfedc1f2da0bd0d2679e67321270e65d87e13a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
