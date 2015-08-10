@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "07bea3e2_c0fbb4ec",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 251,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-08-10T21:30:52Z",
+      "side": 1,
+      "message": "Please remove the \u0027groups\u0027 part.",
+      "range": {
+        "startLine": 251,
+        "startChar": 82,
+        "endLine": 251,
+        "endChar": 83
+      },
+      "revId": "12d9af8ee2f324c5dc74df12aa8ac2b75c3f1fbf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
