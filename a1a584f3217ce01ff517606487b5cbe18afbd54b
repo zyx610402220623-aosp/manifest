@@ -22,6 +22,30 @@
       "revId": "a1a584f3217ce01ff517606487b5cbe18afbd54b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c42ba915_ef654a10",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-08-27T23:41:24Z",
+      "side": 1,
+      "message": "No need to drop the groups tag. The rule of thumb is not to add any new pdk groups without properly replications and keeping the existing groups helps all the manifest in a consistent state.",
+      "parentUuid": "046221c0_a0d82067",
+      "range": {
+        "startLine": 15,
+        "startChar": 77,
+        "endLine": 15,
+        "endChar": 89
+      },
+      "revId": "a1a584f3217ce01ff517606487b5cbe18afbd54b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
