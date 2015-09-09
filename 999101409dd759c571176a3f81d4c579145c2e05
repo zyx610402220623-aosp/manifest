@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "244c8613_84ee0ced",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 500,
+      "author": {
+        "id": 1080776
+      },
+      "writtenOn": "2015-09-09T22:40:16Z",
+      "side": 1,
+      "message": "Spoke to gauravsh, this should be added only to the internal manifest. Modifying and updating the documentation.",
+      "range": {
+        "startLine": 500,
+        "startChar": 72,
+        "endLine": 500,
+        "endChar": 84
+      },
+      "revId": "999101409dd759c571176a3f81d4c579145c2e05",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
