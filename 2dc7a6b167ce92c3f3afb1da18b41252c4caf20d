@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "30592d74_0b52229e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2015-10-08T21:11:24Z",
+      "side": 1,
+      "message": "This is a duplicate of the above path for windows-x86 (that gets mapped into the 3.6 space). I can remove the old paths once I have the new paths switched over in the build-llvm.py script.",
+      "revId": "2dc7a6b167ce92c3f3afb1da18b41252c4caf20d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
