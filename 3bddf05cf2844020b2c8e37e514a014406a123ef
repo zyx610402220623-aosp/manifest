@@ -46,6 +46,30 @@
       "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5947b23e_6cbc5bf0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2015-10-21T07:50:44Z",
+      "side": 1,
+      "message": "Isn\u0027t that the -c option of repo?",
+      "parentUuid": "19337ad8_aacc6f9c",
+      "range": {
+        "startLine": 12,
+        "startChar": 54,
+        "endLine": 12,
+        "endChar": 59
+      },
+      "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
