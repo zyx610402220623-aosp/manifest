@@ -70,6 +70,30 @@
       "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3942fe30_abf709b8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2015-10-21T07:52:35Z",
+      "side": 1,
+      "message": "No. -c just pulls down the current branch. clone-depth\u003d1 discards old commits and just gives you the top-level objects from when you init. As you sync further, you will build up history again, but there is a plan to have sync reset that as well. This way, you don\u0027t have to track/store the history of old prebuilt binaries locally. It saves on disk space.",
+      "parentUuid": "5947b23e_6cbc5bf0",
+      "range": {
+        "startLine": 12,
+        "startChar": 54,
+        "endLine": 12,
+        "endChar": 59
+      },
+      "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
