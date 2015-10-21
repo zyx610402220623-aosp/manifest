@@ -94,6 +94,30 @@
       "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f97ea64f_41d91255",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2015-10-21T07:57:18Z",
+      "side": 1,
+      "message": "Oh, I read your initial reply to \"only take the current branch\". Thanks for explaining the details.",
+      "parentUuid": "3942fe30_abf709b8",
+      "range": {
+        "startLine": 12,
+        "startChar": 54,
+        "endLine": 12,
+        "endChar": 59
+      },
+      "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
