@@ -22,6 +22,30 @@
       "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "19337ad8_aacc6f9c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2015-10-21T07:47:58Z",
+      "side": 1,
+      "message": "For fresh syncs, it will only take the commit history from the very top objects. It skips all the other history. There should eventually be some repo support for resetting/fixing this too, since you don\u0027t need the older revisions (usually).",
+      "parentUuid": "79739694_55bf0ce5",
+      "range": {
+        "startLine": 12,
+        "startChar": 54,
+        "endLine": 12,
+        "endChar": 59
+      },
+      "revId": "3bddf05cf2844020b2c8e37e514a014406a123ef",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
