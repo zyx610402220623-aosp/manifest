@@ -16,6 +16,24 @@
       "revId": "b12a59b4991fb8b3500465b443f6dfeae0557563",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fb2e9f8f_5f04bb2d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2015-11-13T06:32:19Z",
+      "side": 1,
+      "message": "Need them for the linkers to build the device libs.",
+      "parentUuid": "b6da7ea7_bd912904",
+      "revId": "b12a59b4991fb8b3500465b443f6dfeae0557563",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
