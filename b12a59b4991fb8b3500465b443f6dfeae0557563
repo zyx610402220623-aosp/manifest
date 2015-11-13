@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b6da7ea7_bd912904",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2015-11-13T01:12:21Z",
+      "side": 1,
+      "message": "Do we really need all of these toolchains? I don\u0027t think this needs any device toolchains, does it?",
+      "revId": "b12a59b4991fb8b3500465b443f6dfeae0557563",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
