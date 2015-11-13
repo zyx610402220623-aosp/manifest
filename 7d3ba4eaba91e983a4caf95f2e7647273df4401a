@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3b2597a9_1c9f6183",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1063563
+      },
+      "writtenOn": "2015-11-13T17:29:37Z",
+      "side": 1,
+      "message": "We have pending CLs to remove build rules for Galaxy, NoiseField, and PhaseBeam.  But this CL removes not only those 3 from the manifest, but also Basic, HoloSpiral, and MagicSmoke.  Should we be removing build rules for the latter 3 as well?",
+      "revId": "7d3ba4eaba91e983a4caf95f2e7647273df4401a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
