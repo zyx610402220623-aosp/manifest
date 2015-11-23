@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fbb05f0b_de1961c8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1072350
+      },
+      "writtenOn": "2015-11-23T18:57:10Z",
+      "side": 1,
+      "message": "This change description is misleading. This is only removing the projects from the manifest, and adding the system/tpm project instead. Please fix.",
+      "revId": "ba827e08696d72664c0d260781593f89f5895e69",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
