@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bb2a67bd_ddd2ab7d",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2015-11-23T20:43:20Z",
+      "side": 1,
+      "message": "pdk is still here.",
+      "range": {
+        "startLine": 97,
+        "startChar": 76,
+        "endLine": 97,
+        "endChar": 79
+      },
+      "revId": "5055faeea2d923aaded553711b552440381587a7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
