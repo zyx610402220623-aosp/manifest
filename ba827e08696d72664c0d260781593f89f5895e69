@@ -16,6 +16,24 @@
       "revId": "ba827e08696d72664c0d260781593f89f5895e69",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3bed97ca_8123aa98",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1080776
+      },
+      "writtenOn": "2015-11-23T19:04:22Z",
+      "side": 1,
+      "message": "Doesnt the brillo/manifest track aosp? If not I will change that too (and modify the commit description)",
+      "parentUuid": "fbb05f0b_de1961c8",
+      "revId": "ba827e08696d72664c0d260781593f89f5895e69",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
