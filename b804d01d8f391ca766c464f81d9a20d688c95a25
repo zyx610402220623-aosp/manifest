@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "601bdcb8_262ad671",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2015-12-07T16:38:53Z",
+      "side": 1,
+      "message": "You could unpin this as well, I think.",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 140
+      },
+      "revId": "b804d01d8f391ca766c464f81d9a20d688c95a25",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
