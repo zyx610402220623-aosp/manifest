@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "676db610_6c2db481",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1078059
+      },
+      "writtenOn": "2016-01-14T02:25:36Z",
+      "side": 1,
+      "message": "This should cover Windows 7 through 10. IIRC, there won\u0027t be any more versions after 10. I tried just using negation, e.g., \"-platform-linux,-platform-darwin\", but it doesn\u0027t work. :(",
+      "range": {
+        "startLine": 18,
+        "startChar": 125,
+        "endLine": 18,
+        "endChar": 217
+      },
+      "revId": "d567ff6f7019c2c4bd97600333e2f62b4e9c1ae2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
