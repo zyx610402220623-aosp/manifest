@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94b81aa8_4d218d46",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2016-01-22T22:56:52Z",
+      "side": 1,
+      "message": "Please remove the groups tag.",
+      "range": {
+        "startLine": 108,
+        "startChar": 70,
+        "endLine": 108,
+        "endChar": 82
+      },
+      "revId": "fccedc902007c5a75ff58e3b101e503f3a6d472c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
