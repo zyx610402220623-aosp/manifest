@@ -16,6 +16,24 @@
       "revId": "e3c5fb514d07709ece4f607f3d5c72d0ac720b48",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fde93cd0_3c859131",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2016-02-10T15:51:34Z",
+      "side": 1,
+      "message": "And also to bug 27115139, as this CL avoids that issue as well?",
+      "parentUuid": "5da5e8c5_e20a4842",
+      "revId": "e3c5fb514d07709ece4f607f3d5c72d0ac720b48",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
