@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "62a5a9c6_058096e9",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 1060151
+      },
+      "writtenOn": "2016-02-20T01:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a29b218c_0ae65f93",
+      "range": {
+        "startLine": 273,
+        "startChar": 70,
+        "endLine": 273,
+        "endChar": 73
+      },
+      "revId": "824b225f5fc29f6185943a7ad965cb9c2f501ca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a29b218c_eaea1b55",
         "filename": "default.xml",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "62be89e4_1ddfd31e",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 433,
+      "author": {
+        "id": 1060151
+      },
+      "writtenOn": "2016-02-20T01:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a29b218c_eaea1b55",
+      "range": {
+        "startLine": 433,
+        "startChar": 106,
+        "endLine": 433,
+        "endChar": 109
+      },
+      "revId": "824b225f5fc29f6185943a7ad965cb9c2f501ca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e2b0b90b_9e8e391a",
         "filename": "default.xml",
         "patchSetId": 2
@@ -59,6 +107,30 @@
       "writtenOn": "2016-02-20T01:03:54Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 528,
+        "startChar": 90,
+        "endLine": 528,
+        "endChar": 93
+      },
+      "revId": "824b225f5fc29f6185943a7ad965cb9c2f501ca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "22d0113b_3ea72d1b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 528,
+      "author": {
+        "id": 1060151
+      },
+      "writtenOn": "2016-02-20T01:22:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2b0b90b_9e8e391a",
       "range": {
         "startLine": 528,
         "startChar": 90,
