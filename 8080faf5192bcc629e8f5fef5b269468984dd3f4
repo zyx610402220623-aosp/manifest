@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2981592_0bcae592",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2016-02-22T18:58:30Z",
+      "side": 1,
+      "message": "Added stephenli@ for pdk",
+      "range": {
+        "startLine": 137,
+        "startChar": 94,
+        "endLine": 137,
+        "endChar": 97
+      },
+      "revId": "8080faf5192bcc629e8f5fef5b269468984dd3f4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
