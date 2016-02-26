@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "02e4ed24_d4d35724",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2016-02-26T23:15:18Z",
+      "side": 1,
+      "message": "Please remove \u0027persistent-\u0027.",
+      "range": {
+        "startLine": 40,
+        "startChar": 28,
+        "endLine": 40,
+        "endChar": 29
+      },
+      "revId": "f3263333372cfef2b4d5c739c65f23de3f831a69",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
