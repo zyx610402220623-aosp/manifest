@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bc27caf3_15f88528",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-03-23T23:21:10Z",
+      "side": 1,
+      "message": "Should be mapped to external/vulkan-validation-layers.",
+      "revId": "494bae08860a517f37917912d91efc14cf3579e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc27caf3_f5f4d137",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-03-23T23:21:10Z",
+      "side": 1,
+      "message": "Already mapped on L14",
+      "revId": "494bae08860a517f37917912d91efc14cf3579e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
