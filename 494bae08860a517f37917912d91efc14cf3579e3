@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "bc27caf3_b8f530a6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1097108
+      },
+      "writtenOn": "2016-03-24T00:22:33Z",
+      "side": 1,
+      "message": "It\u0027s the entire LoaderAndValidationLayer repository, we are only using the validation layer part.\nIt\u0027s not a big deal, just need to update the name in a couple places.",
+      "parentUuid": "bc27caf3_58b23412",
+      "revId": "494bae08860a517f37917912d91efc14cf3579e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bc27caf3_f5f4d137",
         "filename": "default.xml",
         "patchSetId": 1
@@ -102,6 +120,24 @@
       "side": 1,
       "message": "But they are the same project, at the same revision. Manifests should not map the same project twice.",
       "parentUuid": "bc27caf3_f51df145",
+      "revId": "494bae08860a517f37917912d91efc14cf3579e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc27caf3_18039c5e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1097108
+      },
+      "writtenOn": "2016-03-24T00:22:33Z",
+      "side": 1,
+      "message": "Both shaderc and the validation layers use glslang, but they may not be using the same HEAD at the same time. Now that everything is released, the risk is much lower, but it is possible for the two to get out of sync. The behavior I know will work for the validation loader is to checkout the glslang SHA indicated in the glslang_revision file in the Vulkan repo. (I\u0027m not doing that at the moment since everything is current right now. But I need to add that to work reliably over time.)\nI\u0027ll check with the shaderc folks and see if they have any particular requirements around the version of glslang they use.",
+      "parentUuid": "bc27caf3_38af80ab",
       "revId": "494bae08860a517f37917912d91efc14cf3579e3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
