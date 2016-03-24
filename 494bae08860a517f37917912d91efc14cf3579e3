@@ -141,6 +141,24 @@
       "revId": "494bae08860a517f37917912d91efc14cf3579e3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc27caf3_3824a0f5",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-03-24T00:34:26Z",
+      "side": 1,
+      "message": "\u003e Both shaderc and the validation layers use glslang, but they may not be using the same HEAD at the same time.\n\nBut they are. That\u0027s how you\u0027ve written the manifest.",
+      "parentUuid": "bc27caf3_18039c5e",
+      "revId": "494bae08860a517f37917912d91efc14cf3579e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
