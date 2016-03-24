@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "bc27caf3_58b23412",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-03-24T00:11:58Z",
+      "side": 1,
+      "message": "Not if it makes the name inaccurate. It isn\u0027t all of vulkan, it\u0027s the validation layers, right?",
+      "parentUuid": "bc27caf3_950d951e",
+      "revId": "494bae08860a517f37917912d91efc14cf3579e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bc27caf3_f5f4d137",
         "filename": "default.xml",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "The Vulkan validation layers may use a slightly different version than what shaderc is using, thus I made a separate mapping.\nThat\u0027s why I added the extra level as well\nvulkan/vulkan\nvulkan/glslang",
       "parentUuid": "bc27caf3_f5f4d137",
+      "revId": "494bae08860a517f37917912d91efc14cf3579e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bc27caf3_38af80ab",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-03-24T00:11:58Z",
+      "side": 1,
+      "message": "But they are the same project, at the same revision. Manifests should not map the same project twice.",
+      "parentUuid": "bc27caf3_f51df145",
       "revId": "494bae08860a517f37917912d91efc14cf3579e3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
