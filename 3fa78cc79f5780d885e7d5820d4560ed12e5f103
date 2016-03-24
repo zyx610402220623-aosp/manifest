@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fc16a2ff_17d77607",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-03-24T18:36:50Z",
+      "side": 1,
+      "message": "Is this the mirrored branch? We can\u0027t do that because we don\u0027t own the upstream branch. Changes submitted upstream might break our build, and are a security risk.",
+      "range": {
+        "startLine": 17,
+        "startChar": 112,
+        "endLine": 17,
+        "endChar": 135
+      },
+      "revId": "3fa78cc79f5780d885e7d5820d4560ed12e5f103",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
