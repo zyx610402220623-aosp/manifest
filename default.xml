@@ -55,5 +55,6 @@
   <project path="toolchain/python" name="toolchain/python" />
   <project path="toolchain/sed" name="toolchain/sed" />
   <project path="toolchain/yasm" name="toolchain/yasm" />
+  <project path="toolchain/xz" name="toolchain/xz" />
 
 </manifest>
