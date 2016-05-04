@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed97d352_5be6effa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-05-04T22:46:50Z",
+      "side": 1,
+      "message": "You should figure out what you need and what you don\u0027t. Having too much is going to cause a lot of unnecessary builds.",
+      "revId": "f7f74b87307e921167b1e5fcbf38a0113c509c02",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
