@@ -16,6 +16,24 @@
       "revId": "f7f74b87307e921167b1e5fcbf38a0113c509c02",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed97d352_1b1387aa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1097108
+      },
+      "writtenOn": "2016-05-04T22:50:08Z",
+      "side": 1,
+      "message": "Sage advice.",
+      "parentUuid": "ed97d352_5be6effa",
+      "revId": "f7f74b87307e921167b1e5fcbf38a0113c509c02",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
