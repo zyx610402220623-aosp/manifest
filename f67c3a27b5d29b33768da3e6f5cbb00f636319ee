@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d480bfd_2707f80e",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-05-05T21:14:14Z",
+      "side": 1,
+      "message": "nit",
+      "range": {
+        "startLine": 8,
+        "startChar": 78,
+        "endLine": 8,
+        "endChar": 79
+      },
+      "revId": "f67c3a27b5d29b33768da3e6f5cbb00f636319ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2d480bfd_e7fd9018",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-05-05T21:14:14Z",
+      "side": 1,
+      "message": "Delete them if you\u0027re not using them.",
+      "revId": "f67c3a27b5d29b33768da3e6f5cbb00f636319ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
