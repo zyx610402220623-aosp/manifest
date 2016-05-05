@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d480bfd_cd0c352d",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2016-05-05T22:50:55Z",
+      "side": 1,
+      "message": "Still have this nit. Extra slash. Otherwise LGTM.",
+      "range": {
+        "startLine": 8,
+        "startChar": 78,
+        "endLine": 8,
+        "endChar": 79
+      },
+      "revId": "ddcd139faefa8b7d56bdde316efd0a658a19a15d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
