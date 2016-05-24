@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7c2abbc0_e946d543",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1078059
+      },
+      "writtenOn": "2016-05-24T17:48:09Z",
+      "side": 1,
+      "message": "Nit: alphabetical ordering please.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 176
+      },
+      "revId": "cf416d2e72a5eb54dce49ce3cb8f2fe09c3ae28f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
