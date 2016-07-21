@@ -1,0 +1,10 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Paul Duffin <paulduffin@google.com>
+Code-Review+1: Stephen Li <stephenli@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Thu, 21 Jul 2016 17:58:09 +0000
+Reviewed-on: https://android-review.googlesource.com/249706
+Project: platform/manifest
+Branch: refs/heads/master
