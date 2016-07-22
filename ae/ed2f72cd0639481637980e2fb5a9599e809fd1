@@ -1,0 +1,9 @@
+Autosubmit+1: Xin Li <delphij@google.com>
+Presubmit-Ready+1: Xin Li <delphij@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Verified+1: Xin Li <delphij@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Fri, 22 Jul 2016 23:21:42 +0000
+Reviewed-on: https://android-review.googlesource.com/250176
+Project: platform/manifest
+Branch: refs/heads/master
