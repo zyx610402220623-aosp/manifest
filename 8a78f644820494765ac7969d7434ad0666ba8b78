@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7bcd7378_4823730e",
+        "filename": "project.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2016-08-17T00:51:43Z",
+      "side": 1,
+      "message": "I think they also need code review +2 and verified +1?\n\nThe change itself is good though.",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 43
+      },
+      "revId": "8a78f644820494765ac7969d7434ad0666ba8b78",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
