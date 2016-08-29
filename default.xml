@@ -539,7 +539,7 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adp8064,adt-infra,angler,apps_nfc,apps_stk,arm,broadcom_pdk,broadcom_wlan,bullhead,cts,darwin,device,dragon,drm_gralloc,drm_hwcomposer,eclipse,flounder,frameworks_ims,fugu,generic_fs,hikey,intel,intel_sensors,invensense,libxml2,libyuv,linux,marvell_bt,mips,motodev,notdefault,omap3,omap4,omap4-aah,pdk,pdk-cw-fs,pdk-fs,qcom,qcom_audio,qcom_display,qcom_gps,qcom_keymaster,qcom_msm8960,qcom_msm8994,qcom_msm8996,qcom_msm8x26,qcom_msm8x27,qcom_msm8x74,qcom_msm8x84,qcom_wlan,shamu,tools,tradefed,vboot,x86" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
