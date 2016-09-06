@@ -1,0 +1,10 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Dan Albert <danalbert@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Autosubmit+1: Dan Albert <danalbert@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Tue, 06 Sep 2016 22:47:16 +0000
+Reviewed-on: https://android-review.googlesource.com/269728
+Project: platform/manifest
+Branch: refs/heads/master
