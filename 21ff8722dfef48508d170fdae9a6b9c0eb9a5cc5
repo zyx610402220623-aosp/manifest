@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b89c276_1307aebf",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2016-09-13T17:52:03Z",
+      "side": 1,
+      "message": "presumably omap3 is dead too?",
+      "revId": "21ff8722dfef48508d170fdae9a6b9c0eb9a5cc5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
