@@ -1,0 +1,9 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Stephen Hines <srhines@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Wed, 14 Sep 2016 22:13:32 +0000
+Reviewed-on: https://android-review.googlesource.com/273872
+Project: platform/manifest
+Branch: refs/heads/llvm
