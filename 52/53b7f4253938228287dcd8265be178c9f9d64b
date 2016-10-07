@@ -1,0 +1,11 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Verified+1: Benoit Lamarche <benoitlamarche@google.com>
+Code-Review+1: Surendra Vispute <svispute@google.com>
+Code-Review+1: Benoit Lamarche <benoitlamarche@google.com>
+Code-Review+2: Jean-Philippe Lesot <jplesot@google.com>
+Submitted-by: Benoit Lamarche <benoitlamarche@google.com>
+Submitted-at: Fri, 07 Oct 2016 10:15:42 +0000
+Reviewed-on: https://android-review.googlesource.com/285342
+Project: platform/manifest
+Branch: refs/heads/ub-jack-optim-dev
