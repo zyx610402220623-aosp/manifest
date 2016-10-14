@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1c963b08_3def8f06",
+        "filename": "GLOBAL-PREUPLOAD.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2016-10-14T23:17:29Z",
+      "side": 1,
+      "message": "Ugh, can we point this one to clang-stable as well? Did I just not export this yet?",
+      "revId": "e9fc10b020af94bb750dca0695ec4afa8bebbbb1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
