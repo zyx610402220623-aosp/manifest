@@ -16,6 +16,24 @@
       "revId": "e9fc10b020af94bb750dca0695ec4afa8bebbbb1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5cd8b33a_1ff28380",
+        "filename": "GLOBAL-PREUPLOAD.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1066743
+      },
+      "writtenOn": "2016-10-18T04:58:04Z",
+      "side": 1,
+      "message": "Sorry for the late reply. Not yet, this script is only available in external/clang (or at the very least I did not find it here: https://googleplex-android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+/master/clang-3217047/bin/ )",
+      "parentUuid": "1c963b08_3def8f06",
+      "revId": "e9fc10b020af94bb750dca0695ec4afa8bebbbb1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
