@@ -1,0 +1,8 @@
+Code-Review+2: Dan Albert <danalbert@google.com>
+Verified+1: Miao Wang <miaowang@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Miao Wang <miaowang@google.com>
+Submitted-at: Sat, 22 Oct 2016 00:21:32 +0000
+Reviewed-on: https://android-review.googlesource.com/291477
+Project: platform/manifest
+Branch: refs/heads/master-ndk
