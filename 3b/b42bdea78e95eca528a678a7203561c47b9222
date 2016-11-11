@@ -1,0 +1,8 @@
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Dan Albert <danalbert@google.com>
+Submitted-by: Kuan-Tung Pan <kuantung@google.com>
+Submitted-at: Fri, 11 Nov 2016 23:53:02 +0000
+Reviewed-on: https://android-review.googlesource.com/302882
+Project: platform/manifest
+Branch: refs/heads/ndk-r14-release
