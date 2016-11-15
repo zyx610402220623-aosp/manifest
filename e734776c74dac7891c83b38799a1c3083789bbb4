@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7037600d_1b6705d0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 516,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2016-11-15T21:10:29Z",
+      "side": 1,
+      "message": "Please remove \u0027groups\u003d\"pdk\"\u0027 as the internal master does not have it.",
+      "range": {
+        "startLine": 516,
+        "startChar": 66,
+        "endLine": 516,
+        "endChar": 79
+      },
+      "revId": "e734776c74dac7891c83b38799a1c3083789bbb4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
