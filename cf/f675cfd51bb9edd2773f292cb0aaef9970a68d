@@ -1,0 +1,9 @@
+Verified+1: Xin Li <delphij@google.com>
+Autosubmit+1: Xin Li <delphij@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 18 Nov 2016 18:27:48 +0000
+Reviewed-on: https://android-review.googlesource.com/305023
+Project: platform/manifest
+Branch: refs/heads/nougat-cts-dev
