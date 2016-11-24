@@ -1,0 +1,9 @@
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+Submitted-by: Thomas Joseph Avila <tavila@google.com>
+Submitted-at: Thu, 24 Nov 2016 00:25:07 +0000
+Reviewed-on: https://android-review.googlesource.com/307245
+Project: platform/manifest
+Branch: refs/heads/master
