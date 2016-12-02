@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6dedc706_d0e37ced",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1095958
+      },
+      "writtenOn": "2016-12-02T19:16:00Z",
+      "side": 1,
+      "message": "It\u0027s more precise to call this the \"master\" manifest since it\u0027s on the master branch.",
+      "range": {
+        "startLine": 7,
+        "startChar": 37,
+        "endLine": 7,
+        "endChar": 44
+      },
+      "revId": "2fb7fefc90e62d816599498f9fb2ec55796f1c66",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
