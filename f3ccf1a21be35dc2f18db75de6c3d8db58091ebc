@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6dedc706_c104c5c9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2016-12-06T00:42:31Z",
+      "side": 1,
+      "message": "sort?",
+      "revId": "f3ccf1a21be35dc2f18db75de6c3d8db58091ebc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
