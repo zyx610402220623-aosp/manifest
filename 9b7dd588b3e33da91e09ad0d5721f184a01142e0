@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2d8f4f3f_8ef2dbb7",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 1072728
+      },
+      "writtenOn": "2016-12-06T03:22:28Z",
+      "side": 1,
+      "message": "optional - do we need the PDK tag for security?",
+      "range": {
+        "startLine": 537,
+        "startChar": 100,
+        "endLine": 537,
+        "endChar": 103
+      },
+      "revId": "9b7dd588b3e33da91e09ad0d5721f184a01142e0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
