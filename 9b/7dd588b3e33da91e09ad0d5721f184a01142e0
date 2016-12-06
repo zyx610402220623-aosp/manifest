@@ -1,0 +1,9 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Verified+1: Xin Li <delphij@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Tue, 06 Dec 2016 18:08:40 +0000
+Reviewed-on: https://android-review.googlesource.com/310350
+Project: platform/manifest
+Branch: refs/heads/master
