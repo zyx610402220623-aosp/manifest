@@ -1,0 +1,11 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Lingfeng Yang <lfy@google.com>
+Code-Review+2: Bjoern Johansson <bjoernj@google.com>
+Code-Review+2: Yurii Zubrytskyi <zyy@google.com>
+Verified+1: Yurii Zubrytskyi <zyy@google.com>
+Autosubmit+1: Yurii Zubrytskyi <zyy@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 08 Dec 2016 17:57:00 +0000
+Reviewed-on: https://android-review.googlesource.com/310747
+Project: platform/manifest
+Branch: refs/heads/emu-master-dev
