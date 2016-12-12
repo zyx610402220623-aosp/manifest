@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a3d7fbc_e17069f5",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 1072728
+      },
+      "writtenOn": "2016-12-12T20:16:53Z",
+      "side": 1,
+      "message": "remove fuzz since that\u0027s not buildable yet due to some changes missed in hardware/interfaces?",
+      "range": {
+        "startLine": 544,
+        "startChar": 35,
+        "endLine": 544,
+        "endChar": 39
+      },
+      "revId": "68386c935b4b5b981c75c5edf6bcea1e772692eb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
