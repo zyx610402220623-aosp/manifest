@@ -1,0 +1,10 @@
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Code-Review+1: Bowgo Tsai <bowgotsai@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Wed, 14 Dec 2016 00:32:43 +0000
+Reviewed-on: https://android-review.googlesource.com/310283
+Project: platform/manifest
+Branch: refs/heads/master
