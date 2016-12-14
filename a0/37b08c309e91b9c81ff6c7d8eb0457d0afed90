@@ -1,0 +1,12 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+Code-Review+1: Joe LaPenna <jlapenna@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Joe LaPenna <jlapenna@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 14 Dec 2016 02:45:44 +0000
+Reviewed-on: https://android-review.googlesource.com/312743
+Project: platform/manifest
+Branch: refs/heads/master
