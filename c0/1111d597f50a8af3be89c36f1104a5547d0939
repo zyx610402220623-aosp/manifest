@@ -1,0 +1,10 @@
+Presubmit-Ready+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Stephen Li <stephenli@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Autosubmit+1: Philip P. Moltmann <moltmann@google.com>
+Verified+1: Stephen Li <stephenli@google.com>
+Submitted-by: Kuan-Tung Pan <kuantung@google.com>
+Submitted-at: Thu, 15 Dec 2016 19:15:01 +0000
+Reviewed-on: https://android-review.googlesource.com/314051
+Project: platform/manifest
+Branch: refs/heads/master
