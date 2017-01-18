@@ -46,6 +46,54 @@
       "revId": "d001b0ec31e08c6f15ea8b567336cd8574b35e2d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "885bce3e_a79e0a51",
+        "filename": "project.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2017-01-18T22:18:47Z",
+      "side": 1,
+      "message": "\u003e those approvers are part of Maintainers?\n\nActually thinking through, I think it was because refs/heads/* have gaven submit to the group already and these approvers are very likely members of Android Maintainers already.",
+      "parentUuid": "885bce3e_274fba2a",
+      "range": {
+        "startLine": 68,
+        "startChar": 24,
+        "endLine": 68,
+        "endChar": 35
+      },
+      "revId": "d001b0ec31e08c6f15ea8b567336cd8574b35e2d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "885bce3e_879b0661",
+        "filename": "project.config",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2017-01-18T22:18:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "885bce3e_47318ec2",
+      "range": {
+        "startLine": 68,
+        "startChar": 24,
+        "endLine": 68,
+        "endChar": 35
+      },
+      "revId": "d001b0ec31e08c6f15ea8b567336cd8574b35e2d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
