@@ -1,0 +1,9 @@
+Autosubmit+1: Xin Li <delphij@google.com>
+Presubmit-Ready+1: Xin Li <delphij@google.com>
+Verified+1: Xin Li <delphij@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Fri, 20 Jan 2017 22:32:30 +0000
+Reviewed-on: https://android-review.googlesource.com/326258
+Project: platform/manifest
+Branch: refs/heads/nougat-mr1-cts-dev
