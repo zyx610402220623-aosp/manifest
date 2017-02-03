@@ -1,0 +1,9 @@
+Verified+1: Joe Baker-Malone <jbakermalone@google.com>
+Code-Review+1: Joe Baker-Malone <jbakermalone@google.com>
+Code-Review+2: Bo Hu <bohu@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Joe Baker-Malone <jbakermalone@google.com>
+Submitted-at: Fri, 03 Feb 2017 17:52:04 +0000
+Reviewed-on: https://android-review.googlesource.com/332243
+Project: platform/manifest
+Branch: refs/heads/emu-2.3-release
