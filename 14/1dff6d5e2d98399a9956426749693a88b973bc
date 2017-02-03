@@ -1,0 +1,10 @@
+Presubmit-Ready+1: Treehugger Robot <treehugger-gerrit@google.com>
+Presubmit-Ready+1: Keun Soo Yim <yim@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Autosubmit+1: Keun Soo Yim <yim@google.com>
+Verified+1: Xin Li <delphij@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Fri, 03 Feb 2017 22:59:42 +0000
+Reviewed-on: https://android-review.googlesource.com/333087
+Project: platform/manifest
+Branch: refs/heads/master
