@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a41e4ca8_c3611743",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1099511
+      },
+      "writtenOn": "2017-02-08T20:09:18Z",
+      "side": 1,
+      "message": "Shouldn\u0027t libnfnetlink before libnl?",
+      "range": {
+        "startLine": 218,
+        "startChar": 91,
+        "endLine": 218,
+        "endChar": 93
+      },
+      "revId": "e407420a149dec2b8515d0922a5a974c83f57cd5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
