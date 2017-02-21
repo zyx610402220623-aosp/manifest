@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "25c3f054_5c5d2228",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 1072728
+      },
+      "writtenOn": "2017-02-21T22:43:46Z",
+      "side": 1,
+      "message": "HAL- or security-related ones are not currently.",
+      "range": {
+        "startLine": 557,
+        "startChar": 85,
+        "endLine": 558,
+        "endChar": 96
+      },
+      "revId": "f362c3cf1dba1386316c50c1e3b54c3f3c78d66e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
