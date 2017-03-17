@@ -1,0 +1,11 @@
+Presubmit-Ready+1: Philip P. Moltmann <moltmann@google.com>
+Code-Review+1: Dan Willemsen <dwillemsen@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Autosubmit+1: Philip P. Moltmann <moltmann@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Fri, 17 Mar 2017 00:13:29 +0000
+Reviewed-on: https://android-review.googlesource.com/354351
+Project: platform/manifest
+Branch: refs/heads/master
