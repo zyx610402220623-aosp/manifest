@@ -7,7 +7,15 @@
   <default revision="master"
            remote="aosp"
            sync-j="4" />
+  <notice>
+The TradeFed Manifest Branch has been deprecated for Android Versions >= O.
 
+Please migrate your development workflow to work directly in the platform
+checkout. Currently active development is done in Master, with branch
+support coming in the future.
+
+Thank you in advance for migrating your workflow.
+  </notice>
   <project path="build" name="platform/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
