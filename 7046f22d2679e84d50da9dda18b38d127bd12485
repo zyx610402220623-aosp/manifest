@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "06d94074_59090a8a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2017-03-29T17:36:16Z",
+      "side": 1,
+      "message": "Could you please move this to line 19 to maintain the existing order?",
+      "revId": "7046f22d2679e84d50da9dda18b38d127bd12485",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
