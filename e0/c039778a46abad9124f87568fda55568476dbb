@@ -1,0 +1,10 @@
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Verified+1: Bill Rassieur <rassb@google.com>
+Code-Review+2: Bill Rassieur <rassb@google.com>
+Autosubmit+1: Kevin Cheng <kevcheng@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 06 Apr 2017 17:34:30 +0000
+Reviewed-on: https://android-review.googlesource.com/356910
+Project: platform/manifest
+Branch: refs/heads/master
