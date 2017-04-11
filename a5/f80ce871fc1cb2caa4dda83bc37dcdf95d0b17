@@ -1,0 +1,9 @@
+Code-Review+2: Colin Cross <ccross@android.com>
+Code-Review+2: Nicolas Geoffray <ngeoffray@google.com>
+Presubmit-Verified-1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Igor Murashkin <iam@google.com>
+Submitted-by: Igor Murashkin <iam@google.com>
+Submitted-at: Tue, 11 Apr 2017 18:03:36 +0000
+Reviewed-on: https://android-review.googlesource.com/369672
+Project: platform/manifest
+Branch: refs/heads/master-art
