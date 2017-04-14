@@ -1,0 +1,8 @@
+Code-Review+2: Andreas Gampe <agampe@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: David Sehr <sehr@google.com>
+Submitted-by: David Sehr <sehr@google.com>
+Submitted-at: Fri, 14 Apr 2017 17:40:26 +0000
+Reviewed-on: https://android-review.googlesource.com/372828
+Project: platform/manifest
+Branch: refs/heads/master-art
