@@ -17,8 +17,14 @@
   </project>
 
   <project path="external/angle" name="platform/external/angle" />
+<<<<<<< HEAD   (c2be79 DO NOT MERGE ANYWHERE Add manifest for emu-2.4-release [ts:1)
   <project path="external/gtest" name="platform/external/gtest"  />
   <project path="external/google-benchmark" name="platform/external/google-benchmark"  />
+=======
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/gtest" name="platform/external/gtest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+>>>>>>> BRANCH (10965d Add adt-infra project to manifest.)
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu" />
   <project path="frameworks/native" name="platform/frameworks/native"  />
