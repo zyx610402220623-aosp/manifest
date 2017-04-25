@@ -4,8 +4,13 @@
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
   <default revision="marshmallow-cts-release" remote="aosp" sync-j="4"/>
 
+<<<<<<< HEAD   (88ac9b "updated manifest from marshmallow-cts-dev@55eadd01")
   <project path="build" name="platform/build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
+=======
+  <project path="build" name="platform/build" revision="marshmallow-cts-dev" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+>>>>>>> BRANCH (55eadd Add revision for platform/build)
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"/>
   <project path="art" name="platform/art" groups="pdk"/>
