@@ -1,0 +1,9 @@
+Verified+1: Bill Rassieur <rassb@google.com>
+Code-Review+2: Bill Rassieur <rassb@google.com>
+Code-Review+1: Guang Zhu <guangzhu@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Bill Rassieur <rassb@google.com>
+Submitted-at: Wed, 03 May 2017 21:47:15 +0000
+Reviewed-on: https://android-review.googlesource.com/383312
+Project: platform/manifest
+Branch: refs/heads/tradefed
