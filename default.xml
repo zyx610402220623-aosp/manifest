@@ -12,6 +12,7 @@
     <copyfile dest="tools/gradle.properties" src="base/gradle.properties" />
   </project>
 
+<<<<<<< HEAD   (3d9552 Pin manifest of emu-2.4-release)
   <project name="platform/external/angle" path="external/angle" revision="abc983f68aacbaf0e6885fb64337d1b681cdbd9b" />
   <project name="platform/external/adt-infra" path="external/adt-infra" revision="32d478e595397f032b83fda8e7aaf405cc5d77af" />
   <project name="platform/external/gtest" path="external/gtest" revision="26a684189fde027536f4e2cfd3f17ef899c452fc" />
@@ -45,5 +46,40 @@
   <project name="platform/tools/emulator" path="tools/emulator" revision="93a7010407cecb1df00a398b341ca3194e39c05c" />
   <project name="platform/tools/external/gradle" path="tools/external/gradle" revision="9e974d38e545acdc351f5219dfa80cb378201ebe" />
   <project name="platform/tools/gradle" path="tools/gradle" revision="a2330f7489be0646584ef74bce939c4b5083af2e" />
+=======
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/gtest" name="platform/external/gtest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/qemu" name="platform/external/qemu" />
+  <project path="frameworks/native" name="platform/frameworks/native" revision="lollipop-release" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" />
+  <project path="prebuilts/android-emulator-build/archive" name="platform/prebuilts/android-emulator-build/archive" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/common" name="platform/prebuilts/android-emulator-build/common" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/curl" name="platform/prebuilts/android-emulator-build/curl" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/mesa" name="platform/prebuilts/android-emulator-build/mesa" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/mesa-deps" name="platform/prebuilts/android-emulator-build/mesa-deps" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/protobuf" name="platform/prebuilts/android-emulator-build/protobuf" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" />
+  <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" clone-depth="1" revision="master" />
+  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" clone-depth="1" />
+  <project path="prebuilts/clang/darwin-x86/sdk/3.5" name="platform/prebuilts/clang/darwin-x86/sdk/3.5" revision="master" />
+  <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" />
+  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" />
+  <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="master" />
+  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" clone-depth="1" />
+  <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" />
+  <project path="prebuilts/ninja/windows-x86" name="platform/prebuilts/ninja/windows-x86" clone-depth="1" />
+  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
+  <project path="sdk" name="platform/sdk" />
+  <project path="tools/emulator" name="platform/tools/emulator" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" revision="master"/>
+  <project path="tools/gradle" name="platform/tools/gradle" />
+>>>>>>> BRANCH (10965d Add adt-infra project to manifest.)
 
 </manifest>
