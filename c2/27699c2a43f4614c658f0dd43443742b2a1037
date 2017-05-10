@@ -1,0 +1,11 @@
+Autosubmit+1: Nan Zhang <nanzhang@google.com>
+Code-Review+1: Dan Willemsen <dwillemsen@google.com>
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Presubmit-Ready+1: Nan Zhang <nanzhang@google.com>
+Submitted-by: Nan Zhang <nanzhang@google.com>
+Submitted-at: Wed, 10 May 2017 23:33:25 +0000
+Reviewed-on: https://android-review.googlesource.com/390296
+Project: platform/manifest
+Branch: refs/heads/master
