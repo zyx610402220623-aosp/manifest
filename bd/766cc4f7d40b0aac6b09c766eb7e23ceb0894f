@@ -1,0 +1,8 @@
+Verified+1: Bill Rassieur <rassb@google.com>
+Code-Review+2: Bill Rassieur <rassb@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Bill Rassieur <rassb@google.com>
+Submitted-at: Thu, 11 May 2017 18:03:32 +0000
+Reviewed-on: https://android-review.googlesource.com/394836
+Project: platform/manifest
+Branch: refs/heads/ub-renderscript-test
