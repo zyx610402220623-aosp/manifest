@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "98f9902d_25e22979",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2017-05-26T06:08:10Z",
+      "side": 1,
+      "message": "yes",
+      "parentUuid": "6296cc1d_768be226",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 18
+      },
+      "revId": "0f7d3f967da1562508023db7b97fa998737f16f6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d01d91dc_0eac73e4",
         "filename": "/COMMIT_MSG",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2017-05-25T16:04:24Z",
       "side": 1,
       "message": "A perfunctory \"Test: make \u003csomething\u003e\" would be good.",
+      "revId": "0f7d3f967da1562508023db7b97fa998737f16f6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fd06aa4b_d3bbaab4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2017-05-26T06:08:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d01d91dc_0eac73e4",
       "revId": "0f7d3f967da1562508023db7b97fa998737f16f6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
