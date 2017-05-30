@@ -1,0 +1,12 @@
+Autosubmit+1: Keun Soo Yim <yim@google.com>
+Autosubmit+1: Xin Li <delphij@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Verified+1: Xin Li <delphij@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 30 May 2017 19:21:15 +0000
+Reviewed-on: https://android-review.googlesource.com/404838
+Project: platform/manifest
+Branch: refs/heads/master
