@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7c60027c_8d3f71a0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2017-06-16T22:40:03Z",
+      "side": 1,
+      "message": "groups\u003d\"pdk\" ?",
+      "range": {
+        "startLine": 279,
+        "startChar": 58,
+        "endLine": 279,
+        "endChar": 60
+      },
+      "revId": "c00b2f2a922c3339f5e5f354a41fc16bd6db7f60",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
