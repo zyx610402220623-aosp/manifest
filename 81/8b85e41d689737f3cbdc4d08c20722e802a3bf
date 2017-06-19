@@ -1,0 +1,11 @@
+Verified+1: Bill Rassieur <rassb@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Code-Review+2: Bill Rassieur <rassb@google.com>
+Code-Review+1: Alan Leung <acleung@google.com>
+Autosubmit+1: Alan Leung <acleung@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 19 Jun 2017 16:59:42 +0000
+Reviewed-on: https://android-review.googlesource.com/416995
+Project: platform/manifest
+Branch: refs/heads/master
