@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "79ec079a_15e81858",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2017-06-28T21:49:01Z",
+      "side": 1,
+      "message": "Are these getting used in the emulator builds?  If not, consider removing them in a future CL?",
+      "range": {
+        "startLine": 37,
+        "startChar": 1,
+        "endLine": 39,
+        "endChar": 124
+      },
+      "revId": "86448d8fa79ab9978616adbad58df4b49f692d88",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
