@@ -22,6 +22,30 @@
       "revId": "86448d8fa79ab9978616adbad58df4b49f692d88",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d7e4b05e_fbcca9c6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2017-06-28T21:51:14Z",
+      "side": 1,
+      "message": "No, they will be deleted, just like the old glibc2.11.\n\nUnfortunately it seems our presubmit checks cannot handle these repo changes very well. So we have to take multiple steps.",
+      "parentUuid": "79ec079a_15e81858",
+      "range": {
+        "startLine": 37,
+        "startChar": 1,
+        "endLine": 39,
+        "endChar": 124
+      },
+      "revId": "86448d8fa79ab9978616adbad58df4b49f692d88",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
