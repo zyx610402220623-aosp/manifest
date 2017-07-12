@@ -1,0 +1,10 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Keun Soo Yim <yim@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 12 Jul 2017 00:43:38 +0000
+Reviewed-on: https://android-review.googlesource.com/424402
+Project: platform/manifest
+Branch: refs/heads/master
