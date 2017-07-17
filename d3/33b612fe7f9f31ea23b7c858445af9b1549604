@@ -1,0 +1,10 @@
+Code-Review+1: Stephen Hines <srhines@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Autosubmit+1: Pirama Arumuga Nainar <pirama@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 17 Jul 2017 20:36:44 +0000
+Reviewed-on: https://android-review.googlesource.com/437536
+Project: platform/manifest
+Branch: refs/heads/llvm-toolchain
