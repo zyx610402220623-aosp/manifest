@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "63b09d6b_7a5604fa",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1041833
+      },
+      "writtenOn": "2017-07-18T16:22:11Z",
+      "side": 1,
+      "message": "This is build/make in the master manifest. Dan, Colin, should I change this?",
+      "range": {
+        "startLine": 11,
+        "startChar": 17,
+        "endLine": 11,
+        "endChar": 22
+      },
+      "revId": "a58aee2ad4f935099961c24bcba33a5a4e2b017f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
