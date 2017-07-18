@@ -1,0 +1,9 @@
+Code-Review+2: Colin Cross <ccross@android.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Andreas Gampe <agampe@google.com>
+Autosubmit+1: Andreas Gampe <agampe@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 18 Jul 2017 21:59:25 +0000
+Reviewed-on: https://android-review.googlesource.com/438061
+Project: platform/manifest
+Branch: refs/heads/master-art
