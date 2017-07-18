@@ -22,6 +22,30 @@
       "revId": "312f7e729e48fbaa58f15ea40c3aabd9c4ca8add",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a5aa5946_4c20b3db",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1041833
+      },
+      "writtenOn": "2017-07-18T21:59:05Z",
+      "side": 1,
+      "message": "As the commit message states, I added some, actually. I prefer this to be as close to the master manifest as possible, so diff-ing is easy. This is now down to three changed lines (for clone-depth; and of course a ton of removals).",
+      "parentUuid": "9d421574_9b7dd144",
+      "range": {
+        "startLine": 11,
+        "startChar": 58,
+        "endLine": 11,
+        "endChar": 63
+      },
+      "revId": "312f7e729e48fbaa58f15ea40c3aabd9c4ca8add",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
