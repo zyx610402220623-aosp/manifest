@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9d421574_9b7dd144",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2017-07-18T21:55:34Z",
+      "side": 1,
+      "message": "You could strip out all of the groups if you wanted, they are irrelevant here.",
+      "range": {
+        "startLine": 11,
+        "startChar": 58,
+        "endLine": 11,
+        "endChar": 63
+      },
+      "revId": "312f7e729e48fbaa58f15ea40c3aabd9c4ca8add",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
