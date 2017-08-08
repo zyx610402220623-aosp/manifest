@@ -1,0 +1,10 @@
+Autosubmit+1: Dan Willemsen <dwillemsen@google.com>
+Presubmit-Verified-1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Verified+1: Bill Rassieur <rassb@google.com>
+Code-Review+2: Bill Rassieur <rassb@google.com>
+Submitted-by: Dan Willemsen <dwillemsen@google.com>
+Submitted-at: Tue, 08 Aug 2017 01:44:14 +0000
+Reviewed-on: https://android-review.googlesource.com/453296
+Project: platform/manifest
+Branch: refs/heads/master
