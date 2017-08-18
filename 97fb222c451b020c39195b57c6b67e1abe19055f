@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8ce082d6_34b52235",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1118598
+      },
+      "writtenOn": "2017-08-18T18:23:52Z",
+      "side": 1,
+      "message": "Can you point to the associated CL? It makes it easier to review and to understand when reviewing later",
+      "range": {
+        "startLine": 12,
+        "startChar": 32,
+        "endLine": 12,
+        "endChar": 66
+      },
+      "revId": "97fb222c451b020c39195b57c6b67e1abe19055f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
