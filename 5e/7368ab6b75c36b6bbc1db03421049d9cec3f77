@@ -1,0 +1,9 @@
+Code-Review+2: Nicolas Norvez <norvez@google.com>
+Verified+1: Tao Wu <lepton@google.com>
+Autosubmit+1: Tao Wu <lepton@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Tao Wu <lepton@google.com>
+Submitted-at: Fri, 18 Aug 2017 18:40:00 +0000
+Reviewed-on: https://android-review.googlesource.com/461618
+Project: platform/manifest
+Branch: refs/heads/emu-2.4-arc
