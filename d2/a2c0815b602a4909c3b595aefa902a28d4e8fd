@@ -1,0 +1,9 @@
+Code-Review+2: Bill Yi <byi@google.com>
+PDK-Review+1: Bill Yi <byi@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Presubmit-Ready+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Tue, 22 Aug 2017 18:09:10 +0000
+Reviewed-on: https://android-review.googlesource.com/463721
+Project: platform/manifest
+Branch: refs/heads/master
