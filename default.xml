@@ -17,7 +17,7 @@
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" revision="3.3" clone-depth="1" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" revision="4.1" clone-depth="1" />
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed" />
 
   <!-- Project -->
