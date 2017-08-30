@@ -1,0 +1,11 @@
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+Code-Review+1: Andreas Gampe <agampe@google.com>
+Code-Review+1: Brian Carlstrom <bdc@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Alex Light <allight@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 30 Aug 2017 20:02:12 +0000
+Reviewed-on: https://android-review.googlesource.com/470157
+Project: platform/manifest
+Branch: refs/heads/master
