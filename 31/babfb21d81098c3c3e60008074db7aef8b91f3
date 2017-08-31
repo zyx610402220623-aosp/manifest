@@ -1,0 +1,11 @@
+Verified+1: Colin Cross <ccross@android.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Autosubmit+1: Colin Cross <ccross@android.com>
+PDK-Review+1: Stephen Li <stephenli@google.com>
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 31 Aug 2017 01:23:18 +0000
+Reviewed-on: https://android-review.googlesource.com/473041
+Project: platform/manifest
+Branch: refs/heads/master
