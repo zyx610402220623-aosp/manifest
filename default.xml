@@ -37,6 +37,9 @@
   <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" groups="linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="linux" clone-depth="1" />
 
+  <!-- toolchain jdk prebuilts -->
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" />
+
   <!-- dependency source -->
   <project path="development" name="platform/development" />
   <project path="external/clang" name="platform/external/clang" />
@@ -51,6 +54,8 @@
 
   <!-- target projects -->
   <project path="toolchain/go" name="toolchain/go" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="external/desugar" name="platform/external/desugar" />
   <project path="external/ninja" name="platform/external/ninja" />
-
+  <project path="external/r8" name="platform/external/r8" />
 </manifest>
