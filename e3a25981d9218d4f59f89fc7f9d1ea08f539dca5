@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f3fcb9f9_f04d6919",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2017-09-23T00:09:19Z",
+      "side": 1,
+      "message": ":(",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 82
+      },
+      "revId": "e3a25981d9218d4f59f89fc7f9d1ea08f539dca5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
