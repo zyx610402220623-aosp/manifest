@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ec44f3e2_eeeb57d8",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2017-10-04T20:09:48Z",
+      "side": 1,
+      "message": "Not necessary. \"master\" is the default revision.",
+      "range": {
+        "startLine": 66,
+        "startChar": 66,
+        "endLine": 66,
+        "endChar": 83
+      },
+      "revId": "47ea0a41fbc97f7c67183663bbe46b4cda0c3b86",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2c489537_48560fdf",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2017-10-04T20:09:48Z",
+      "side": 1,
+      "message": "ditto.",
+      "range": {
+        "startLine": 68,
+        "startChar": 66,
+        "endLine": 68,
+        "endChar": 83
+      },
+      "revId": "47ea0a41fbc97f7c67183663bbe46b4cda0c3b86",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
