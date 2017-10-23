@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "161ea078_575564bc",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2017-10-23T18:27:02Z",
+      "side": 1,
+      "message": "no need since the default revision is \"master\"",
+      "range": {
+        "startLine": 30,
+        "startChar": 92,
+        "endLine": 30,
+        "endChar": 109
+      },
+      "revId": "a83592c34c5680d67cf86d225922e8c51216f5ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
