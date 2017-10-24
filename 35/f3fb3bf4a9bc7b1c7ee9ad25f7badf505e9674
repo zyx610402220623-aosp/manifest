@@ -1,0 +1,6 @@
+Code-Review+2: Android Merger <android-build-merger@google.com>
+Submitted-by: Android Merger <android-build-merger@google.com>
+Submitted-at: Tue, 24 Oct 2017 19:48:11 +0000
+Reviewed-on: https://android-review.googlesource.com/519618
+Project: platform/manifest
+Branch: refs/heads/master-plus-llvm
