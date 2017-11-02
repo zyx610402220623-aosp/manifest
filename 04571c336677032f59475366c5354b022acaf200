@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f1276597_a454a513",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 504,
+      "author": {
+        "id": 1003723
+      },
+      "writtenOn": "2017-11-02T05:31:08Z",
+      "side": 1,
+      "message": "this should be \"pdk\" not \"pdk-fs\"\n\nthe terminology is confusing, but it is okay to be source in all pdk builds, not just pdf-fs",
+      "range": {
+        "startLine": 504,
+        "startChar": 86,
+        "endLine": 504,
+        "endChar": 92
+      },
+      "revId": "04571c336677032f59475366c5354b022acaf200",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
