@@ -1,0 +1,9 @@
+Code-Review+2: Andreas Gampe <agampe@google.com>
+Code-Review+2: Igor Murashkin <iam@google.com>
+Verified+1: Alex Light <allight@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Alex Light <allight@google.com>
+Submitted-at: Fri, 03 Nov 2017 22:40:21 +0000
+Reviewed-on: https://android-review.googlesource.com/529121
+Project: platform/manifest
+Branch: refs/heads/master-art
