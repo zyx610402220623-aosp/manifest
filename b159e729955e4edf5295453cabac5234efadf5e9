@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94a7d9ca_fb9ff362",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2017-12-07T05:46:03Z",
+      "side": 1,
+      "message": "fyi, please use \"path\" and \"name\" order like other projects.",
+      "range": {
+        "startLine": 62,
+        "startChar": 107,
+        "endLine": 62,
+        "endChar": 0
+      },
+      "revId": "b159e729955e4edf5295453cabac5234efadf5e9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
