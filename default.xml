@@ -336,11 +336,11 @@
   <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="015cad7d4d05020782c7506649d6d6127185094b" />
   <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="d738e7df70bdc3fc844201bd1311996f41e6c2c7" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex" revision="de34952ae6022d84c3000a818b6c476b6f85a859" />
-  <project groups="pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" revision="f32cb96854f6592444e76f9fa4740675bb10c145" />
+  <project groups="pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" revision="oreo-vts-dev" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" revision="70a324ae3c141003bc0100c033a03728015a6646" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/ml" path="frameworks/ml" revision="00cee902ec6ac3d80f3dab80097dbf13e0a475d9" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" revision="74fde7f748f1847bcbe724d73b6184de1dcba95c" />
-  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="e025438a0339bd89662a7c7fac49299ad7143380" />
+  <project groups="pdk" name="platform/frameworks/native" path="frameworks/native" revision="oreo-vts-dev" />
   <project groups="pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" revision="a0d4e3108663202564a6833b76770075b8e5b767" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/bluetooth" path="frameworks/opt/bluetooth" revision="5032f689a917fedae242251ce250c34e421e5b69" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="3f01563afad6b3d2f0546a6260ef958a8173deb6" />
@@ -552,13 +552,13 @@
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="b577051d8eca0348187029c7aba4260ea25c68fd" />
   <project groups="pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" revision="6133dcdcbf57226f52ae1136e914f027eda41a93" />
   <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="cbd13457c9fb3201e4fa895a68943813d4627037" />
-  <project groups="pdk" name="platform/system/libfmq" path="system/libfmq" revision="3b0963fcc88969e1c400b78fd42bb362d24c318d" />
+  <project groups="pdk" name="platform/system/libfmq" path="system/libfmq" revision="oreo-vts-dev" />
   <project groups="pdk" name="platform/system/libhidl" path="system/libhidl" revision="6162097e1326888700f798986ec6f7279d9113f0" />
-  <project groups="pdk" name="platform/system/libhwbinder" path="system/libhwbinder" revision="15f553d3def3eb798be5f670f44f1f8df4abc7d2" />
+  <project groups="pdk" name="platform/system/libhwbinder" path="system/libhwbinder" revision="oreo-vts-dev" />
   <project groups="pdk" name="platform/system/libufdt" path="system/libufdt" revision="0632abbc1cf296365437fd93f362304939c663c9" />
   <project groups="pdk" name="platform/system/libvintf" path="system/libvintf" revision="23a565b0248498e37b564bc5ca8c22954554bbef" />
   <project groups="pdk" name="platform/system/media" path="system/media" revision="9ce9728da9c20458dd7e7fe64bf4f8a7ad088a30" />
-  <project groups="pdk" name="platform/system/netd" path="system/netd" revision="d5107caae42634697282c5da2afda5821f7586da" />
+  <project groups="pdk" name="platform/system/netd" path="system/netd" revision="oreo-vts-dev" />
   <project groups="pdk" name="platform/system/nfc" path="system/nfc" revision="4397b81776e532638cfd64ca7101a93250803540" />
   <project name="platform/system/nvram" path="system/nvram" revision="203741bb9893763af77574b9b4a807753770f565" />
   <project groups="pdk" name="platform/system/security" path="system/security" revision="ea391f63be47c50ddd77e61e62965286cb07945d" />
