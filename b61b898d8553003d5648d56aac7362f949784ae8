@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "f86ed76a_ca0c0121",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1121338
+      },
+      "writtenOn": "2018-01-18T03:11:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb19b761_c86a4bd1",
+      "range": {
+        "startLine": 12,
+        "startChar": 30,
+        "endLine": 12,
+        "endChar": 32
+      },
+      "revId": "b61b898d8553003d5648d56aac7362f949784ae8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e0592024_3601f0ab",
         "filename": "default.xml",
         "patchSetId": 1
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "d8f5e121_855eb271",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1121338
+      },
+      "writtenOn": "2018-01-18T03:11:46Z",
+      "side": 1,
+      "message": "Fixed as discussed.",
+      "parentUuid": "e0592024_3601f0ab",
+      "revId": "b61b898d8553003d5648d56aac7362f949784ae8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "445cc7bf_7e41846a",
         "filename": "default.xml",
         "patchSetId": 1
@@ -53,6 +95,24 @@
       "writtenOn": "2018-01-18T02:15:27Z",
       "side": 1,
       "message": "What is this needed for?",
+      "revId": "b61b898d8553003d5648d56aac7362f949784ae8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "967f169e_fb70d1db",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1121338
+      },
+      "writtenOn": "2018-01-18T03:11:46Z",
+      "side": 1,
+      "message": "my bad, I missed this out, I was basing this CL on the manifest that aosp-build-tools. Then I realized we don\u0027t support building header-abi-dumper for Windows. This should be taken out.",
+      "parentUuid": "445cc7bf_7e41846a",
       "revId": "b61b898d8553003d5648d56aac7362f949784ae8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
