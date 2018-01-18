@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e0592024_3601f0ab",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2018-01-18T02:15:27Z",
+      "side": 1,
+      "message": "Do you want this to be clone-depth 1 for this branch though? Isn\u0027t this the kind of checkout where you might want to dig through history?",
+      "revId": "b61b898d8553003d5648d56aac7362f949784ae8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "445cc7bf_7e41846a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2018-01-18T02:15:27Z",
+      "side": 1,
+      "message": "What is this needed for?",
+      "revId": "b61b898d8553003d5648d56aac7362f949784ae8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
