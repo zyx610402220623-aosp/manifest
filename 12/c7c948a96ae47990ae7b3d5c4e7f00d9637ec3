@@ -1,0 +1,9 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Janis Danisevskis <jdanis@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 18 Jan 2018 17:49:03 +0000
+Reviewed-on: https://android-review.googlesource.com/591432
+Project: platform/manifest
+Branch: refs/heads/master
