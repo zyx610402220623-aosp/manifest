@@ -1,0 +1,9 @@
+Code-Review+2: Andreas Gampe <agampe@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Andreas Gampe <agampe@google.com>
+Autosubmit+1: Pirama Arumuga Nainar <pirama@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 19 Jan 2018 00:49:09 +0000
+Reviewed-on: https://android-review.googlesource.com/593536
+Project: platform/manifest
+Branch: refs/heads/master-art-host
