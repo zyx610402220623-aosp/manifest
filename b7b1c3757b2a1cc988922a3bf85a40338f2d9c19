@@ -22,6 +22,30 @@
       "revId": "b7b1c3757b2a1cc988922a3bf85a40338f2d9c19",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "53d9af6c_6ddf7d9c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2018-01-22T16:26:00Z",
+      "side": 1,
+      "message": "That\u0027s the validation step I got from the build team when they questioned one of my \"verified+1\" vote :)",
+      "parentUuid": "69836149_75967a20",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 64
+      },
+      "revId": "b7b1c3757b2a1cc988922a3bf85a40338f2d9c19",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
