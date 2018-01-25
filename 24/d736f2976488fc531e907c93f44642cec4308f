@@ -1,0 +1,10 @@
+Autosubmit+1: Idries Hamadi <idries@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 25 Jan 2018 17:46:52 +0000
+Reviewed-on: https://android-review.googlesource.com/587434
+Project: platform/manifest
+Branch: refs/heads/master
