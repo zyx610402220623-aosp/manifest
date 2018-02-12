@@ -58,6 +58,12 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device,pdk" />
   <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
+<<<<<<< HEAD   (54f4fa resolve merge conflicts of c1fbeb7414adc72fc8c7c106f1a09a897)
+=======
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device" />
+  <project path="device/google/cuttlefish_common" name="device/google/cuttlefish_common" groups="device" />
+  <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device" clone-depth="1" />
+>>>>>>> BRANCH (c1fbeb Reconcile with internal master.)
   <project path="device/google/dragon" name="device/google/dragon" groups="device,dragon" />
   <project path="device/google/dragon-kernel" name="device/google/dragon-kernel" groups="device,dragon" clone-depth="1" />
   <project path="device/google/marlin" name="device/google/marlin" groups="device,marlin,pdk" />
@@ -681,6 +687,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+<<<<<<< HEAD   (54f4fa resolve merge conflicts of c1fbeb7414adc72fc8c7c106f1a09a897)
 
   <project path="toolchain/llvm" name="toolchain/llvm" />
   <project path="toolchain/llvm_android" name="toolchain/llvm_android" />
@@ -699,6 +706,8 @@
   <!-- NDK headers/libraries -->
   <project path="toolchain/prebuilts/ndk/r15" name="toolchain/prebuilts/ndk/r15" />
   <project path="toolchain/prebuilts/ndk/r16" name="toolchain/prebuilts/ndk/r16" />
+=======
+>>>>>>> BRANCH (c1fbeb Reconcile with internal master.)
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
