@@ -1,0 +1,9 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Nicolas Geoffray <ngeoffray@google.com>
+Code-Review+2: Nicolas Geoffray <ngeoffray@google.com>
+Autosubmit+1: Jiyong Park <jiyong@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Sun, 18 Feb 2018 14:22:24 +0000
+Reviewed-on: https://android-review.googlesource.com/618087
+Project: platform/manifest
+Branch: refs/heads/master-art
