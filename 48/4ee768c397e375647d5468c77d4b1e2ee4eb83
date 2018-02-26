@@ -1,0 +1,11 @@
+Code-Review+1: Gaurav Sarode <sgaurav@google.com>
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+PDK-Review+1: Kuan-Tung Pan <kuantung@google.com>
+Autosubmit+1: Janis Danisevskis <jdanis@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 26 Feb 2018 18:48:26 +0000
+Reviewed-on: https://android-review.googlesource.com/626507
+Project: platform/manifest
+Branch: refs/heads/master
