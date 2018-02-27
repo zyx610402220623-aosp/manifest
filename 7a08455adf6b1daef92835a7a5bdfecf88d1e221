@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "42ac7e36_13bd581c",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2018-02-27T18:23:48Z",
+      "side": 1,
+      "message": "If you are going to submit this along with the switchover (http://aosp/628309), might as well remove glibc2.11 from the manifest.",
+      "revId": "7a08455adf6b1daef92835a7a5bdfecf88d1e221",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
