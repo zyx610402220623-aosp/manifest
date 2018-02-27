@@ -1,0 +1,10 @@
+Autosubmit+1: Eugene Susla <eugenesusla@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+PDK-Review+1: Raul Enrique Vielma <raulenrique@google.com>
+Code-Review+2: Raul Enrique Vielma <raulenrique@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 27 Feb 2018 22:51:56 +0000
+Reviewed-on: https://android-review.googlesource.com/628726
+Project: platform/manifest
+Branch: refs/heads/master
