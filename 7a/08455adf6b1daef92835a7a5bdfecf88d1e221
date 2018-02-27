@@ -1,0 +1,11 @@
+Autosubmit+1: Ryan Prichard <rprichard@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Elliott Hughes <enh@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Code-Review+1: Pirama Arumuga Nainar <pirama@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 27 Feb 2018 19:11:08 +0000
+Reviewed-on: https://android-review.googlesource.com/628307
+Project: platform/manifest
+Branch: refs/heads/mingw
