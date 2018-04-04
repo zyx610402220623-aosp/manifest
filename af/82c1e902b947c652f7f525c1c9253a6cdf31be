@@ -1,0 +1,9 @@
+Verified+1: Erwin Jansen <jansene@google.com>
+Code-Review+1: Erwin Jansen <jansene@google.com>
+Code-Review+2: Lingfeng Yang <lfy@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Erwin Jansen <jansene@google.com>
+Submitted-at: Wed, 04 Apr 2018 23:02:48 +0000
+Reviewed-on: https://android-review.googlesource.com/656720
+Project: platform/manifest
+Branch: refs/heads/emu-master-dev
