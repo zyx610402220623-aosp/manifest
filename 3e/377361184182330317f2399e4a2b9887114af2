@@ -1,0 +1,9 @@
+Verified+1: Kuan-Tung Pan <kuantung@google.com>
+Code-Review+2: Kuan-Tung Pan <kuantung@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Michael Butler <butlermichael@google.com>
+Submitted-by: android-build-prod (mdb) <android-build-team-robot@google.com>
+Submitted-at: Thu, 26 Apr 2018 22:42:56 +0000
+Reviewed-on: https://android-review.googlesource.com/673490
+Project: platform/manifest
+Branch: refs/heads/oreo-mr1-vts-dev
