@@ -1,0 +1,10 @@
+Autosubmit+1: Adora Zhang <qiaozhang@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Raul Enrique Vielma <raulenrique@google.com>
+Verified+1: Raul Enrique Vielma <raulenrique@google.com>
+Code-Review+2: Raul Enrique Vielma <raulenrique@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 22 Jun 2018 21:15:14 +0000
+Reviewed-on: https://android-review.googlesource.com/708272
+Project: platform/manifest
+Branch: refs/heads/master
