@@ -1,0 +1,9 @@
+Verified+1: Inna Palant <ipalant@google.com>
+Code-Review+2: Bill Rassieur <rassb@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Bill Rassieur <rassb@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 26 Jun 2018 21:57:36 +0000
+Reviewed-on: https://android-review.googlesource.com/710106
+Project: platform/manifest
+Branch: refs/heads/emu-master-qemu
