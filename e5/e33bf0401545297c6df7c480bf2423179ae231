@@ -1,0 +1,9 @@
+Verified+1: Tao Wu <lepton@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Tao Wu <lepton@google.com>
+Submitted-at: Tue, 17 Jul 2018 00:10:26 +0000
+Reviewed-on: https://android-review.googlesource.com/718030
+Project: platform/manifest
+Branch: refs/heads/emu-master-dev
