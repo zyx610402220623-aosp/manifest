@@ -1,0 +1,10 @@
+Autosubmit+1: Elliott Hughes <enh@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 19 Jul 2018 20:15:14 +0000
+Reviewed-on: https://android-review.googlesource.com/719447
+Project: platform/manifest
+Branch: refs/heads/master
