@@ -1,0 +1,11 @@
+Autosubmit+1: Igor Murashkin <iam@google.com>
+Presubmit-Ready+1: Igor Murashkin <iam@google.com>
+Code-Review+1: Andreas Gampe <agampe@google.com>
+Code-Review+2: Raul Enrique Vielma <raulenrique@google.com>
+PDK-Review+1: Raul Enrique Vielma <raulenrique@google.com>
+Verified+1: Raul Enrique Vielma <raulenrique@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 26 Jul 2018 02:55:07 +0000
+Reviewed-on: https://android-review.googlesource.com/721947
+Project: platform/manifest
+Branch: refs/heads/master
