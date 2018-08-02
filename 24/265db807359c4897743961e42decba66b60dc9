@@ -1,0 +1,9 @@
+Build-Cop-Override+1: Steven Moreland <smoreland@google.com>
+Autosubmit+1: Aurimas Liutikas <aurimas@google.com>
+Presubmit-Ready+1: Aurimas Liutikas <aurimas@google.com>
+PDK-Review+1: Dan Willemsen <dwillemsen@google.com>
+Submitted-by: Dan Willemsen <dwillemsen@google.com>
+Submitted-at: Thu, 02 Aug 2018 20:48:46 +0000
+Reviewed-on: https://android-review.googlesource.com/725386
+Project: platform/manifest
+Branch: refs/heads/master
