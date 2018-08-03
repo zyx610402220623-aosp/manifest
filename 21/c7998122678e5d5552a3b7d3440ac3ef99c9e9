@@ -1,0 +1,9 @@
+Code-Review+2: Bill Yi <byi@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: John Stuart <johnstuart@google.com>
+Verified+1: Bill Yi <byi@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 03 Aug 2018 22:13:25 +0000
+Reviewed-on: https://android-review.googlesource.com/725950
+Project: platform/manifest
+Branch: refs/heads/master-art
