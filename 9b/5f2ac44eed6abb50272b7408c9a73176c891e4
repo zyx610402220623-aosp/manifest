@@ -1,0 +1,11 @@
+Verified+1: Alan Viverette <alanv@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+Autosubmit+1: Alan Viverette <alanv@google.com>
+Code-Review+1: andrewlewis <andrewlewis@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 08 Aug 2018 16:29:31 +0000
+Reviewed-on: https://android-review.googlesource.com/727985
+Project: platform/manifest
+Branch: refs/heads/androidx-master-dev
