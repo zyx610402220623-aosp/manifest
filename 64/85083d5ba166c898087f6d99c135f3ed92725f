@@ -1,0 +1,11 @@
+Verified+1: Raul Enrique Vielma <raulenrique@google.com>
+PDK-Review+1: Raul Enrique Vielma <raulenrique@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Code-Review+2: Raul Enrique Vielma <raulenrique@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Jiyong Park <jiyong@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 08 Aug 2018 23:09:08 +0000
+Reviewed-on: https://android-review.googlesource.com/727626
+Project: platform/manifest
+Branch: refs/heads/master
