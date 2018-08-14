@@ -1,0 +1,9 @@
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+DrNo-Review+1: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Inna Palant <ipalant@google.com>
+Submitted-at: Tue, 14 Aug 2018 19:27:23 +0000
+Reviewed-on: https://android-review.googlesource.com/731488
+Project: platform/manifest
+Branch: refs/heads/pie-cts-dev
