@@ -1,0 +1,11 @@
+Code-Review+1: Igor Murashkin <iam@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Autosubmit+1: Igor Murashkin <iam@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 14 Aug 2018 21:41:57 +0000
+Reviewed-on: https://android-review.googlesource.com/731556
+Project: platform/manifest
+Branch: refs/heads/master
