@@ -22,6 +22,30 @@
       "revId": "f5c87d8d2dc2ed02b1577b319f5c8121de2f98f0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5e9e15fe_b9e87816",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2018-08-14T14:55:44Z",
+      "side": 1,
+      "message": "aha.. to prevent conflict with the internal master...",
+      "parentUuid": "b4aa31c5_4f051fdb",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 52
+      },
+      "revId": "f5c87d8d2dc2ed02b1577b319f5c8121de2f98f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
