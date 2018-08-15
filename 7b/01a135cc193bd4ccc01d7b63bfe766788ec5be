@@ -1,0 +1,10 @@
+Autosubmit+1: Elliott Hughes <enh@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 15 Aug 2018 22:56:35 +0000
+Reviewed-on: https://android-review.googlesource.com/729458
+Project: platform/manifest
+Branch: refs/heads/master
