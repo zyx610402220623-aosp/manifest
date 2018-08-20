@@ -1,0 +1,8 @@
+Code-Review+2: Nicolas Geoffray <ngeoffray@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Roland Levillain <rpl@google.com>
+Submitted-by: Roland Levillain <rpl@google.com>
+Submitted-at: Mon, 20 Aug 2018 16:57:12 +0000
+Reviewed-on: https://android-review.googlesource.com/734809
+Project: platform/manifest
+Branch: refs/heads/master-art
