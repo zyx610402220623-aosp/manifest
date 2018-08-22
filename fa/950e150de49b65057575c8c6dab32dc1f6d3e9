@@ -1,0 +1,9 @@
+Code-Review+2: Bill Rassieur <rassb@google.com>
+Presubmit-Ready+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Bill Rassieur <rassb@google.com>
+PDK-Review+1: Xin Li <delphij@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Wed, 22 Aug 2018 17:35:29 +0000
+Reviewed-on: https://android-review.googlesource.com/736382
+Project: platform/manifest
+Branch: refs/heads/master
