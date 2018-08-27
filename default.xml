@@ -6,6 +6,11 @@
   <default revision="emu-master-qemu-release"
            remote="aosp"
            sync-j="4" />
+<<<<<<< HEAD   (da3719 DO NOT MERGE ANYWHERE Create manifest for emu-master-qemu-re)
+=======
+
+  <project path="build" name="platform/build" />
+>>>>>>> BRANCH (02c9f8 Added platform/build to manifest)
   <project path="tools/buildSrc" name="platform/tools/buildSrc">
     <copyfile src="base/build.gradle"      dest="tools/build.gradle" />
     <copyfile src="base/settings.gradle"   dest="tools/settings.gradle" />
@@ -15,13 +20,28 @@
   </project>
   <project path="external/angle" name="platform/external/angle" />
   <project path="external/adt-infra" name="platform/external/adt-infra" />
+<<<<<<< HEAD   (da3719 DO NOT MERGE ANYWHERE Create manifest for emu-master-qemu-re)
   <project path="external/gtest" name="platform/external/gtest"  />
   <project path="external/google-benchmark" name="platform/external/google-benchmark"  />
   <project path="external/libyuv" name="platform/external/libyuv" />
+=======
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
+  <project path="external/gtest" name="platform/external/gtest" revision="master" />
+  <project path="external/googletest" name="platform/external/googletest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+  <project path="external/libyuv" name="platform/external/libyuv" revision="master"/>
+>>>>>>> BRANCH (02c9f8 Added platform/build to manifest)
   <project path="external/protobuf" name="platform/external/protobuf" />
+<<<<<<< HEAD   (da3719 DO NOT MERGE ANYWHERE Create manifest for emu-master-qemu-re)
   <project path="external/qemu" name="platform/external/qemu"  />
   <project path="external/tinyobjloader" name="platform/external/tinyobjloader" />
   <project path="frameworks/native" name="platform/frameworks/native"  />
+=======
+  <project path="external/qemu" name="platform/external/qemu" revision="emu-master-qemu"/>
+  <project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="master"/>
+  <project path="external/virglrenderer" name="platform/external/virglrenderer" />
+  <project path="frameworks/native" name="platform/frameworks/native" revision="lollipop-release" />
+>>>>>>> BRANCH (02c9f8 Added platform/build to manifest)
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" />
   <project path="prebuilts/android-emulator-build/archive" name="platform/prebuilts/android-emulator-build/archive" clone-depth="1" />
   <project path="prebuilts/android-emulator-build/common" name="platform/prebuilts/android-emulator-build/common" clone-depth="1" />
@@ -45,6 +65,10 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools"  />
   <project path="sdk" name="platform/sdk" />
   <project path="tools/emulator" name="platform/tools/emulator" />
+<<<<<<< HEAD   (da3719 DO NOT MERGE ANYWHERE Create manifest for emu-master-qemu-re)
   <project path="tools/external/gradle" name="platform/tools/external/gradle" />
+=======
+  <project path="tools/external/gradle" name="platform/tools/external/gradle"/>
+>>>>>>> BRANCH (02c9f8 Added platform/build to manifest)
   <project path="tools/gradle" name="platform/tools/gradle" />
 </manifest>
