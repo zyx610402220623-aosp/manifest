@@ -1,0 +1,11 @@
+Autosubmit+1: Xin Li <delphij@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Xin Li <delphij@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Code-Review+1: Praneeth Bajjuri <praneeth@ti.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 27 Aug 2018 17:02:38 +0000
+Reviewed-on: https://android-review.googlesource.com/733528
+Project: platform/manifest
+Branch: refs/heads/master
