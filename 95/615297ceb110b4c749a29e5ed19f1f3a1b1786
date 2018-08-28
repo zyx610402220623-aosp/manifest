@@ -1,0 +1,10 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Logan Chien <loganchien@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Hsin-Yi Chen <hsinyichen@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 28 Aug 2018 01:49:11 +0000
+Reviewed-on: https://android-review.googlesource.com/738181
+Project: platform/manifest
+Branch: refs/heads/clang-tools
