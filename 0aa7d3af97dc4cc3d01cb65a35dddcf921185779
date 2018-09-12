@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0652d8ac_3124937c",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 388,
+      "author": {
+        "id": 1062926
+      },
+      "writtenOn": "2018-09-12T20:17:05Z",
+      "side": 1,
+      "message": "Trailing white space?",
+      "range": {
+        "startLine": 388,
+        "startChar": 125,
+        "endLine": 388,
+        "endChar": 127
+      },
+      "revId": "0aa7d3af97dc4cc3d01cb65a35dddcf921185779",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
