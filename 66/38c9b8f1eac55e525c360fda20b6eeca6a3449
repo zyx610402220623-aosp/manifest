@@ -1,0 +1,12 @@
+Autosubmit+1: Justin Yun <justinyun@google.com>
+Code-Review+1: Jae Shin <jaeshin@google.com>
+Code-Review+1: Andrew Hsieh <andrewhsieh@google.com>
+Code-Review+2: Raul Enrique Vielma <raulenrique@google.com>
+PDK-Review+1: Raul Enrique Vielma <raulenrique@google.com>
+Verified+1: Raul Enrique Vielma <raulenrique@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 13 Sep 2018 00:46:25 +0000
+Reviewed-on: https://android-review.googlesource.com/752809
+Project: platform/manifest
+Branch: refs/heads/master
