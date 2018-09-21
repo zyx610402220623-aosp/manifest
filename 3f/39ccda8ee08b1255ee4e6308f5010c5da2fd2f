@@ -1,0 +1,8 @@
+Verified+1: Raul Enrique Vielma <raulenrique@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Raul Enrique Vielma <raulenrique@google.com>
+Submitted-at: Fri, 21 Sep 2018 21:28:46 +0000
+Reviewed-on: https://android-review.googlesource.com/765047
+Project: platform/manifest
+Branch: refs/heads/master-cuttlefish-testing
