@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d2e0b295_a47468e6",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1232209
+      },
+      "writtenOn": "2018-10-08T22:35:45Z",
+      "side": 1,
+      "message": "Commit says .3",
+      "revId": "a9a4729e8e711dd3a981a8782461dad6dc2967bd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
