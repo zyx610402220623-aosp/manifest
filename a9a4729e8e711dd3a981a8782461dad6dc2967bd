@@ -16,6 +16,24 @@
       "revId": "a9a4729e8e711dd3a981a8782461dad6dc2967bd",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae646be3_2158af4b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2018-10-08T22:37:46Z",
+      "side": 1,
+      "message": "It is adding 28.0.3, 28.0.2 was already there. This is just gerrit being \"clever\" about the diff.",
+      "parentUuid": "d2e0b295_a47468e6",
+      "revId": "a9a4729e8e711dd3a981a8782461dad6dc2967bd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
