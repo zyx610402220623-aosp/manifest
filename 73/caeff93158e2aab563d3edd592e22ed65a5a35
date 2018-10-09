@@ -1,0 +1,11 @@
+Autosubmit+1: Howard Chen <howardsoc@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Andrew Hsieh <andrewhsieh@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 09 Oct 2018 10:54:52 +0000
+Reviewed-on: https://android-review.googlesource.com/781395
+Project: platform/manifest
+Branch: refs/heads/master
