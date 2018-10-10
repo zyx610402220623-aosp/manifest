@@ -1,0 +1,10 @@
+Autosubmit+1: Chenbo Feng <fengc@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 10 Oct 2018 22:02:51 +0000
+Reviewed-on: https://android-review.googlesource.com/782058
+Project: platform/manifest
+Branch: refs/heads/master
