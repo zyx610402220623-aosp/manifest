@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d046099c_4157914b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2018-10-10T18:30:38Z",
+      "side": 1,
+      "message": "platform/system/bpfprograms does not exist.",
+      "revId": "39d1540e636053fcb80cd048e501dc3b763657c5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
