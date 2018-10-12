@@ -1,0 +1,9 @@
+Code-Review+2: Baligh Uddin <baligh@google.com>
+Verified+1: Greg Hartman <ghartman@google.com>
+Autosubmit+1: Greg Hartman <ghartman@google.com>
+Presubmit-Ready+1: Greg Hartman <ghartman@google.com>
+Submitted-by: Greg Hartman <ghartman@google.com>
+Submitted-at: Fri, 12 Oct 2018 22:35:03 +0000
+Reviewed-on: https://android-review.googlesource.com/787725
+Project: platform/manifest
+Branch: refs/heads/pie-cuttlefish-testing
