@@ -1,0 +1,9 @@
+Code-Review+2: Vladimir Marko <vmarko@google.com>
+Code-Review+2: Orion Hodson <oth@google.com>
+Verified+1: Orion Hodson <oth@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Orion Hodson <oth@google.com>
+Submitted-at: Fri, 12 Oct 2018 15:43:37 +0000
+Reviewed-on: https://android-review.googlesource.com/788296
+Project: platform/manifest
+Branch: refs/heads/master-art
