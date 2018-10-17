@@ -13,6 +13,7 @@
     <copyfile dest="tools/gradle.properties" src="base/gradle.properties" />
   </project>
 
+<<<<<<< HEAD   (867472 Pin manifest of emu-3.0-release)
   <project name="device/generic/goldfish-opengl" path="device/generic/goldfish-opengl" revision="1c29d492995360e58fd56869c757b8d658470558" />
   <project name="platform/external/angle" path="external/angle" revision="b78a6aed115ad5cdd1a79ea16efbe3659d3c4549" />
   <project name="platform/external/adt-infra" path="external/adt-infra" revision="71c8ab996320821473200bb3df1e75b17e27cd5c" />
@@ -24,6 +25,19 @@
   <project name="platform/external/protobuf" path="external/protobuf" revision="4353bbc88f513a3c8863cc5b30e765dd5530faa1" />
   <project name="platform/external/qemu" path="external/qemu" revision="9533021223efb8c1f7c29efca2ac09802ec99a09">
     <copyfile dest="emu.code-workspace" src="android/vscode/emu.code-workspace" />
+=======
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="master"/>
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
+  <project path="external/deqp" name="platform/external/deqp" revision="master" />
+  <project path="external/googletest" name="platform/external/googletest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+  <project path="external/libyuv" name="platform/external/libyuv" revision="master"/>
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/qemu" name="platform/external/qemu">
+    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
+>>>>>>> BRANCH (ce83ae Add deqp to manifest)
   </project>
   <project name="platform/external/tinyobjloader" path="external/tinyobjloader" revision="d16a940067fbc191364fc1d3e2a2d907209c9320" />
   <project name="platform/external/virglrenderer" path="external/virglrenderer" revision="bd5c36f38d005d34700b33c0cdff5c4dd8ed42c9" />
