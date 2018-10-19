@@ -1,0 +1,12 @@
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Xin Li <delphij@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Alistair Strachan <astrachan@google.com>
+Code-Review+1: Praneeth Bajjuri <praneeth@ti.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 19 Oct 2018 20:11:25 +0000
+Reviewed-on: https://android-review.googlesource.com/792757
+Project: platform/manifest
+Branch: refs/heads/master
