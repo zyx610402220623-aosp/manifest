@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c845a687_8b0dbfa0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1073883
+      },
+      "writtenOn": "2018-10-25T19:21:01Z",
+      "side": 1,
+      "message": "I need this reference to access this library\n\nhttps://cs.corp.google.com/aosp-master/external/perfetto/Android.bp?q\u003dperfetto_config-full\u0026dr\u003dC\u0026l\u003d4576 in tradefed preparers.",
+      "revId": "96115e766d28ff0567eff6f29654c726f9f1930d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
