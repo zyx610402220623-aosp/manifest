@@ -14,6 +14,7 @@
   <project path="external/jetbrains/jdk8u_jaxp" name="platform/external/jetbrains/jdk8u_jaxp" />
   <project path="external/jetbrains/jdk8u_jaxws" name="platform/external/jetbrains/jdk8u_jaxws" />
   <project path="external/jetbrains/jdk8u_jdk" name="platform/external/jetbrains/jdk8u_jdk" />
+  <project path="external/jetbrains/jdk8u_jfx" name="platform/external/jetbrains/jdk8u_jfx" />
   <project path="external/jetbrains/jdk8u_langtools" name="platform/external/jetbrains/jdk8u_langtools" />
   <project path="external/jetbrains/jdk8u_nashorn" name="platform/external/jetbrains/jdk8u_nashorn" />
 
