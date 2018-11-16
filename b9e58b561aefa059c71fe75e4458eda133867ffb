@@ -46,6 +46,30 @@
       "revId": "b9e58b561aefa059c71fe75e4458eda133867ffb",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4935276c_391a09b6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1078623
+      },
+      "writtenOn": "2018-11-16T20:31:57Z",
+      "side": 1,
+      "message": "done by Change Ie600ff2d",
+      "parentUuid": "fecc79a1_e11aff47",
+      "range": {
+        "startLine": 21,
+        "startChar": 45,
+        "endLine": 21,
+        "endChar": 74
+      },
+      "revId": "b9e58b561aefa059c71fe75e4458eda133867ffb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
