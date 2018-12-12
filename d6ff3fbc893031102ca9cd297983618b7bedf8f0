@@ -52,6 +52,24 @@
       "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "16a64042_b2e05994",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1075488
+      },
+      "writtenOn": "2018-12-12T18:21:00Z",
+      "side": 1,
+      "message": "That\u0027s a good point, zxdb does seem rather large when gdb is only around 30MB. If you like, I can file a bug on the zxdb team to reduce the binary size. Not all the libs in the SDK are stubs.",
+      "parentUuid": "c3cd623e_ef3320b9",
+      "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
