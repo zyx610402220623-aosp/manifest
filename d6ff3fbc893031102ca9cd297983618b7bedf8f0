@@ -16,6 +16,24 @@
       "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01bba069_1e9c63cb",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1075488
+      },
+      "writtenOn": "2018-12-12T18:06:37Z",
+      "side": 1,
+      "message": "The only way to target Fuchsia for out of tree (Fuchsia tree that is) builds is to use the SDK. The SDK has a bunch of headers/prebuilts and IPC interfaces that we\u0027ll be using. \n\nBtw, this is also how Chromium does it: https://chromium.googlesource.com/chromium/src/third_party/+/8504fb6213582bc1fb00914c9f770283680faf3d",
+      "parentUuid": "6b30b601_db064668",
+      "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
