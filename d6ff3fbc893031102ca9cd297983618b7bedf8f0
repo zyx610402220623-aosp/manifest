@@ -34,6 +34,24 @@
       "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c3cd623e_ef3320b9",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-12-12T18:08:05Z",
+      "side": 1,
+      "message": "We really need a 120MB zxdb? Are all of the libraries stubs?",
+      "parentUuid": "01bba069_1e9c63cb",
+      "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
