@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b30b601_db064668",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2018-12-12T17:43:41Z",
+      "side": 1,
+      "message": "Do we really need to increase the size of master by 760MB for this? (Our current checkout is ~44GB btw)",
+      "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
