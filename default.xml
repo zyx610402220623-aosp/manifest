@@ -25,6 +25,7 @@
   <project path="external/googletest" name="platform/external/googletest" revision="master" />
   <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
   <project path="external/libyuv" name="platform/external/libyuv" revision="master"/>
+  <project path="external/libunwind" name="platform/external/libunwind" revision="master"/>
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/qemu" name="platform/external/qemu">
     <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
