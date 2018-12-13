@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e03b102_6bc0ad56",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2018-12-13T18:14:11Z",
+      "side": 1,
+      "message": "Previously, this (and a few other projects below) was part of PDK, is the removal intentional?",
+      "range": {
+        "startLine": 384,
+        "startChar": 80,
+        "endLine": 384,
+        "endChar": 91
+      },
+      "revId": "1593f6545256f877499c9baa2ff9e8602873ef0e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
