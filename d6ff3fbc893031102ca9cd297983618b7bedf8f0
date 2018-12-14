@@ -70,6 +70,24 @@
       "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "207defb4_b696783d",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 1075488
+      },
+      "writtenOn": "2018-12-14T00:28:44Z",
+      "side": 1,
+      "message": "Resolved comments in https://android-review.googlesource.com/c/platform/prebuilts/fuchsia_sdk/+/850095/",
+      "parentUuid": "16a64042_b2e05994",
+      "revId": "d6ff3fbc893031102ca9cd297983618b7bedf8f0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
