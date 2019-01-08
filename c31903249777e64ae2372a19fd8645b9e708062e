@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4fe25796_a71592cd",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2019-01-08T03:01:35Z",
+      "side": 1,
+      "message": "For kernels we usually add clone-depth\u003d\"1\".",
+      "revId": "c31903249777e64ae2372a19fd8645b9e708062e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
