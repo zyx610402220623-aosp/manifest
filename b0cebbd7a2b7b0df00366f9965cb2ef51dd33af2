@@ -16,6 +16,24 @@
       "revId": "b0cebbd7a2b7b0df00366f9965cb2ef51dd33af2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "396df9b0_16493424",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 380,
+      "author": {
+        "id": 1062926
+      },
+      "writtenOn": "2019-01-15T00:05:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a62193f3_0bd71d1b",
+      "revId": "b0cebbd7a2b7b0df00366f9965cb2ef51dd33af2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
