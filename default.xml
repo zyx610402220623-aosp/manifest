@@ -378,8 +378,12 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" />
   <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" clone-depth="1" />
+<<<<<<< HEAD   (6d1f93 Remove obsolete device/google/accessory/* am: 4c24e52aec)
   <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" revision="cuttlefish-testing" />
   <project path="external/syslinux" name="platform/external/syslinux" groups="pdk" />
+=======
+  <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" />
+>>>>>>> BRANCH (e02ff7 Remove unused syslinux module)
   <project path="external/syzkaller" name="platform/external/syzkaller" groups="projectarch" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" />
