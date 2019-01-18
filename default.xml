@@ -378,8 +378,12 @@
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" />
+<<<<<<< HEAD   (710957 Remove unused syslinux module)
   <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" clone-depth="1" />
   <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" revision="cuttlefish-testing" />
+=======
+  <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" />
+>>>>>>> BRANCH (f27b5e Remove external/subsampling-scale-image-view)
   <project path="external/syzkaller" name="platform/external/syzkaller" groups="projectarch" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" />
