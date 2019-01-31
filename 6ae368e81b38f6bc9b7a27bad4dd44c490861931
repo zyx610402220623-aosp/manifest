@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "55ed8575_8b94fb1b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1060151
+      },
+      "writtenOn": "2019-01-31T00:53:24Z",
+      "side": 1,
+      "message": "Reword to provide clarification on what this is and why you\u0027re doing it? Ideally people shouldn\u0027t have to go look at the bug.",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 7
+      },
+      "revId": "6ae368e81b38f6bc9b7a27bad4dd44c490861931",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9116dc5e_c2cf87fd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1060151
+      },
+      "writtenOn": "2019-01-31T00:53:24Z",
+      "side": 1,
+      "message": "Even though it\u0027s not added automatically, please add the Change-Id in the commit message manually.",
+      "range": {
+        "startLine": 9,
+        "startChar": 5,
+        "endLine": 9,
+        "endChar": 14
+      },
+      "revId": "6ae368e81b38f6bc9b7a27bad4dd44c490861931",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
