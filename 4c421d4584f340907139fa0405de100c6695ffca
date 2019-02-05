@@ -22,6 +22,30 @@
       "revId": "4c421d4584f340907139fa0405de100c6695ffca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a97e3e88_355fb69e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2019-02-05T00:25:56Z",
+      "side": 1,
+      "message": "Not sure. We want it to be auto merged into the other gerrits, that\u0027s it. It doesn\u0027t need to be part of a binary release of PDK/VTS.",
+      "parentUuid": "4c658dac_0540b454",
+      "range": {
+        "startLine": 507,
+        "startChar": 51,
+        "endLine": 507,
+        "endChar": 52
+      },
+      "revId": "4c421d4584f340907139fa0405de100c6695ffca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
