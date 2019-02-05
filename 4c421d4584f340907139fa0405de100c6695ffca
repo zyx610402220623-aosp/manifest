@@ -70,6 +70,30 @@
       "revId": "4c421d4584f340907139fa0405de100c6695ffca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1274aa5b_ed1b0e2d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2019-02-05T18:07:22Z",
+      "side": 1,
+      "message": "So, we definitely want partner-android replication/merges.\n\nHow is this working for kernel/tests? I can see pg kernel/tests master is automerging from AOSP kernel/tests master, but it doesn\u0027t have the \"pdk\" group tag in either manifest. Interesting!",
+      "parentUuid": "01cc7e65_624f9bdf",
+      "range": {
+        "startLine": 507,
+        "startChar": 51,
+        "endLine": 507,
+        "endChar": 52
+      },
+      "revId": "4c421d4584f340907139fa0405de100c6695ffca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
