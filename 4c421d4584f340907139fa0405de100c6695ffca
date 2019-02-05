@@ -46,6 +46,30 @@
       "revId": "4c421d4584f340907139fa0405de100c6695ffca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01cc7e65_624f9bdf",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2019-02-05T17:08:31Z",
+      "side": 1,
+      "message": "This gets replicated to goog mirror-aosp-master and will automerger downstream from there.\n\nNote, if this is not part of a PDK, then there is no replication set up to partner-android.  So there is no automerger or replication to update kernel/build on partner-android.  Not sure if this is important or not.",
+      "parentUuid": "a97e3e88_355fb69e",
+      "range": {
+        "startLine": 507,
+        "startChar": 51,
+        "endLine": 507,
+        "endChar": 52
+      },
+      "revId": "4c421d4584f340907139fa0405de100c6695ffca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
