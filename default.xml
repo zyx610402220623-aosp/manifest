@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- fake change checking pre-submit rules -->
 <!--
     This branch is a master side branch and is configured to have all project
     specific rules. When updating this manifest file, please also update the
