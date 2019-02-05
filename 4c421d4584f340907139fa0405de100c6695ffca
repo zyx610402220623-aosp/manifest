@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4c658dac_0540b454",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2019-02-05T00:15:01Z",
+      "side": 1,
+      "message": "Should this belong to a group?",
+      "range": {
+        "startLine": 507,
+        "startChar": 51,
+        "endLine": 507,
+        "endChar": 52
+      },
+      "revId": "4c421d4584f340907139fa0405de100c6695ffca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
