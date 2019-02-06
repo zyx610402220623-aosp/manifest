@@ -94,6 +94,30 @@
       "revId": "4c421d4584f340907139fa0405de100c6695ffca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dd5859e2_ebad6fa6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2019-02-06T19:55:45Z",
+      "side": 1,
+      "message": "For kernel/tests on partner-android, there is a mirror-aosp-master replication from aosp.  And then an automerger from mirror-aosp-master to master. Should we set up a similar approach for kernel/build?  kernel/build on partner currently doesn\u0027t have a mirror-aosp-master replication set up.",
+      "parentUuid": "1274aa5b_ed1b0e2d",
+      "range": {
+        "startLine": 507,
+        "startChar": 51,
+        "endLine": 507,
+        "endChar": 52
+      },
+      "revId": "4c421d4584f340907139fa0405de100c6695ffca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
