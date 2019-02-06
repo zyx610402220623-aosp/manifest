@@ -118,6 +118,30 @@
       "revId": "4c421d4584f340907139fa0405de100c6695ffca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a8e0808_8d152d9e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 507,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2019-02-06T19:59:16Z",
+      "side": 1,
+      "message": "I think that works for us. That way, we can just abandon this change. I will file a bug for it.",
+      "parentUuid": "dd5859e2_ebad6fa6",
+      "range": {
+        "startLine": 507,
+        "startChar": 51,
+        "endLine": 507,
+        "endChar": 52
+      },
+      "revId": "4c421d4584f340907139fa0405de100c6695ffca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
