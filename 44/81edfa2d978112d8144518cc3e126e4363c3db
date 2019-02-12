@@ -1,0 +1,12 @@
+Verified+1: Alexander Smundak <asmundak@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Alexander Smundak <asmundak@google.com>
+Code-Review+2: Dan Willemsen <dwillemsen@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 12 Feb 2019 15:20:02 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/900267
+Project: platform/manifest
+Branch: refs/heads/master
