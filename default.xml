@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (c8064f Merge empty history for sparse-5241043-L39000000263342600)
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
@@ -694,4 +695,55 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+=======
+  <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+  <default remote="aosp" revision="sparse-5311355-L30200000267145149" sync-j="8" />
+  
+  <project name="platform/build" path="build/make" revision="7d1079d4b7853819c0b8332d10a48c8815810de3" />
+  
+  
+  <project clone-depth="1" groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts" revision="26e4d98bcfb017370bf9cfb984325409ba30b3d1" />
+  <project clone-depth="1" groups="pdk" name="platform/external/flatbuffers" path="external/flatbuffers" revision="11fdb723a7bc8d6d8771b1d131388344ca162ce0" />
+  <project clone-depth="1" groups="pdk" name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces" revision="bfaef85a184707a4992e1a8e952a63dfb99c7f76" />
+  <project clone-depth="1" groups="pdk" name="platform/external/doclava" path="external/doclava" revision="ec7a9ad9e984407c09dee8d5011b982f5649bf68" />
+  <project clone-depth="1" groups="pdk" name="platform/external/dokka" path="external/dokka" revision="96f147b944e8fe7507d307addff0ec49c5f3db88" />
+  <project clone-depth="1" groups="pdk" name="platform/external/jdiff" path="external/jdiff" revision="bdc36c779d94048c854e6358638523d548c9f4f8" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/external" path="prebuilts/androidx/external" revision="56121ca7ea04c33228d83ce43b3d7eef3be1dc48" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/internal" path="prebuilts/androidx/internal" revision="4d2372b5fbe2b6dd08288ddbd4eac8da00823944" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/exoplayer" path="prebuilts/androidx/exoplayer" revision="8de993f32decdf1eb35e82df1448b929bbddd951" />
+  
+  
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="7de5d4001767b7929fae914e088a724af9597c1a" />
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/ktlint" path="prebuilts/ktlint" revision="6550cab4ef65480db60b7b0d9973a8f354b10cf8" />
+  <project groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" revision="ca7136cda967b7bca05b6b188d6ed6d7515271cb" />
+  
+  
+  <project clone-depth="1" groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="afe3fb20dcf268221a612255f2155bc654f71e45" />
+  
+  
+  <project clone-depth="1" name="platform/prebuilts/fullsdk/platforms/android-28" path="prebuilts/fullsdk-darwin/platforms/android-28" revision="4d3b9933013818fdb154a6ecd226426680879a0b">
+    <linkfile dest="prebuilts/fullsdk-linux/platforms/android-28" src="." />
+  </project>
+  <project clone-depth="1" name="platform/prebuilts/fullsdk/sources/android-28" path="prebuilts/fullsdk-darwin/sources/android-28" revision="b8042fc9b036db0a6692ca853428fc6ab1e60892">
+    <linkfile dest="prebuilts/fullsdk-linux/sources/android-28" src="." />
+  </project>
+  
+  
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/build-tools/28.0.2" path="prebuilts/fullsdk-darwin/build-tools/28.0.2" revision="38b401e7b6d9cced88999a308fa8ad1990786bc6" />
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/build-tools/28.0.3" path="prebuilts/fullsdk-darwin/build-tools/28.0.3" revision="c2d3aa071e8156f1e1c01a606e924f7b2f259dfc" />
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/platform-tools" path="prebuilts/fullsdk-darwin/platform-tools" revision="2bf6a315766501889923832064367be6c163f411" />
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/tools" path="prebuilts/fullsdk-darwin/tools" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" />
+  
+  
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/build-tools/28.0.2" path="prebuilts/fullsdk-linux/build-tools/28.0.2" revision="1dadba57507906a06d36b7c40c4e0dbf925484af" />
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/build-tools/28.0.3" path="prebuilts/fullsdk-linux/build-tools/28.0.3" revision="52f6ca4404ee1cee36f02594c9f15acf41c2f17b" />
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/platform-tools" path="prebuilts/fullsdk-linux/platform-tools" revision="3a6903d2cdd95ac04b7b79a07272447b694fe0c8" />
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/tools" path="prebuilts/fullsdk-linux/tools" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="aaa1e4d6fea9f97b32fe1bd97615b65b1c661f6e" />
+  
+  
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" revision="4c1c3711a4f89597322797a69fccb1e695303a8e" />
+  
+  <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
+>>>>>>> BRANCH (a69d95 Pin manifest of sparse-5311355-L30200000267145149)
 </manifest>
