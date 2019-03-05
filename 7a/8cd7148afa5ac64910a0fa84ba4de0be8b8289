@@ -1,0 +1,11 @@
+Autosubmit+1: Bill Yi <byi@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 05 Mar 2019 00:12:20 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/916326
+Project: platform/manifest
+Branch: refs/heads/master
