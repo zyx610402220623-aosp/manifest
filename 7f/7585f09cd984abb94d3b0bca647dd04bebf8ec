@@ -1,0 +1,10 @@
+Autosubmit+1: Colin Cross <ccross@android.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 25 Mar 2019 17:53:33 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/932407
+Project: platform/manifest
+Branch: refs/heads/master
