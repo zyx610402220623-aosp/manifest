@@ -1,0 +1,8 @@
+Autosubmit+1: Dan Albert <danalbert@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Elliott Hughes <enh@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 25 Mar 2019 18:03:26 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/932192
+Project: platform/manifest
+Branch: refs/heads/master-ndk
