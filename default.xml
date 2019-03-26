@@ -2,6 +2,7 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (cec961 Merge empty history for sparse-5392445-L60700000284074971)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
@@ -12,12 +13,36 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  <default remote="aosp" revision="sparse-5395263-L98300000286509475" sync-j="4" />
+  <project name="platform/build" path="build" revision="d797fd4194bf23b2c1f9a3d272728d2b54ca3e27" />
+  <project name="platform/tools/buildSrc" path="tools/buildSrc" revision="f732c8f3aee7a0909e1d0a6e8d9f8e02fb783133">
+    <copyfile dest="tools/build.gradle" src="base/build.gradle" />
+    <copyfile dest="tools/settings.gradle" src="base/settings.gradle" />
+    <copyfile dest="tools/gradlew" src="base/gradlew" />
+    <copyfile dest="tools/gradlew.bat" src="base/gradlew.bat" />
+    <copyfile dest="tools/gradle.properties" src="base/gradle.properties" />
+>>>>>>> BRANCH (e95798 Pin manifest of sparse-5395263-L98300000286509475)
   </project>
+<<<<<<< HEAD   (cec961 Merge empty history for sparse-5392445-L60700000284074971)
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" revision="a427e814f07d071b4a3c31976a7701b4f80546b5">
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+=======
+  <project name="device/generic/goldfish-opengl" path="device/generic/goldfish-opengl" revision="3560e3917b0b09601464e304e0df4d0c6b880b7e" />
+  <project name="platform/external/angle" path="external/angle" revision="b78a6aed115ad5cdd1a79ea16efbe3659d3c4549" />
+  <project name="platform/external/adt-infra" path="external/adt-infra" revision="454055bdbe59ceee18a40e6b65e03fab88f0132a" />
+  <project name="platform/external/astc-codec" path="external/astc-codec" revision="9e8a46ebd61488e1b8be0df15e19c90e0395d7a9" />
+  <project name="platform/external/deqp" path="external/deqp" revision="3fb5cd25cfae1fcc7b4cf891a5b95c083bb1508b" />
+  <project name="platform/external/googletest" path="external/googletest" revision="4f8f53b33af285b1ec4698641918730808dc8ef0" />
+  <project name="platform/external/google-benchmark" path="external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+  <project name="platform/external/libyuv" path="external/libyuv" revision="2adb42ad9593dddaf231085eb25903a19072de2d" />
+  <project name="platform/external/protobuf" path="external/protobuf" revision="4353bbc88f513a3c8863cc5b30e765dd5530faa1" />
+  <project name="platform/external/qemu" path="external/qemu" revision="c938df96b918955a61337d256365e70524ae12b0">
+    <copyfile dest="emu.code-workspace" src="android/vscode/emu.code-workspace" />
+>>>>>>> BRANCH (e95798 Pin manifest of sparse-5395263-L98300000286509475)
   </project>
   <project groups="pdk" name="platform/art" path="art" revision="f0e3a368c80b7d32e2f85ffa948751525a9f903b" />
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
