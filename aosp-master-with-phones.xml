@@ -14,21 +14,21 @@
   <!-- pull in the standard AOSP projects. -->
   <include name="default.xml" />
 
-  <project path="vendor/google_devices/blueline" name="platform/vendor/aosp/google_devices/blueline" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/crosshatch" name="platform/vendor/aosp/google_devices/crosshatch" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/marlin" name="platform/vendor/aosp/google_devices/marlin" groups="vendor" remote="goog" />
+  <project path="vendor/google_devices/blueline" name="platform/vendor/aosp/google_devices/blueline" groups="vendor" remote="goog" revision="refs/changes/14/6987114" />
+  <project path="vendor/google_devices/crosshatch" name="platform/vendor/aosp/google_devices/crosshatch" groups="vendor" remote="goog" revision="refs/changes/80/6986780" />
+  <project path="vendor/google_devices/marlin" name="platform/vendor/aosp/google_devices/marlin" groups="vendor" remote="goog" revision="refs/changes/15/6987115" />
   <project path="vendor/google_devices/muskie" name="platform/vendor/aosp/google_devices/muskie" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/sailfish" name="platform/vendor/aosp/google_devices/sailfish" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/taimen" name="platform/vendor/aosp/google_devices/taimen" groups="vendor" remote="goog" />
+  <project path="vendor/google_devices/sailfish" name="platform/vendor/aosp/google_devices/sailfish" groups="vendor" remote="goog" revision="refs/changes/96/6987096" />
+  <project path="vendor/google_devices/taimen" name="platform/vendor/aosp/google_devices/taimen" groups="vendor" remote="goog" revision="refs/changes/26/6987226" />
   <project path="vendor/google_devices/walleye" name="platform/vendor/aosp/google_devices/walleye" groups="vendor" remote="goog" />
   <project path="vendor/google/security" name="platform/vendor/google/security" groups="vendor" remote="goog" />
   <project path="vendor/google/tools" name="platform/vendor/google/tools" groups="vendor" remote="goog" />
   <project path="vendor/linaro/hikey960" name="platform/vendor/aosp/linaro/hikey960" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/blueline" name="platform/vendor/aosp/qcom/blueline" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/crosshatch" name="platform/vendor/aosp/qcom/crosshatch" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/marlin" name="platform/vendor/aosp/qcom/marlin" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/sailfish" name="platform/vendor/aosp/qcom/sailfish" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/taimen" name="platform/vendor/aosp/qcom/taimen" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/walleye" name="platform/vendor/aosp/qcom/walleye" groups="vendor" remote="goog" />
+  <project path="vendor/qcom/blueline" name="platform/vendor/aosp/qcom/blueline" groups="vendor" remote="goog" revision="refs/changes/27/6987227" />
+  <project path="vendor/qcom/crosshatch" name="platform/vendor/aosp/qcom/crosshatch" groups="vendor" remote="goog" revision="refs/changes/84/6986584" />
+  <project path="vendor/qcom/marlin" name="platform/vendor/aosp/qcom/marlin" groups="vendor" remote="goog" revision="refs/changes/21/6986821" />
+  <project path="vendor/qcom/sailfish" name="platform/vendor/aosp/qcom/sailfish" groups="vendor" remote="goog" revision="refs/changes/98/6987098" />
+  <project path="vendor/qcom/taimen" name="platform/vendor/aosp/qcom/taimen" groups="vendor" remote="goog" revision="refs/changes/99/6987099" />
+  <project path="vendor/qcom/walleye" name="platform/vendor/aosp/qcom/walleye" groups="vendor" remote="goog" revision="refs/changes/81/6986281" />
 
 </manifest>
