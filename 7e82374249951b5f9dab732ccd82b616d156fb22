@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "67562499_3d19f288",
+        "filename": "/MERGE_LIST",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1483125
+      },
+      "writtenOn": "2019-04-16T23:13:37Z",
+      "side": 1,
+      "message": "Resolver",
+      "revId": "7e82374249951b5f9dab732ccd82b616d156fb22",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
