@@ -1,0 +1,9 @@
+Code-Review+2: Nate Fischer <ntfschr@google.com>
+Code-Review+2: Aurimas Liutikas <aurimas@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Anna Malova <amalova@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 17 Apr 2019 11:33:15 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/944960
+Project: platform/manifest
+Branch: refs/heads/androidx-master-dev
