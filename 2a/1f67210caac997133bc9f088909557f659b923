@@ -1,0 +1,7 @@
+Code-Review+2: Courtney Goeltzenleuchter <courtneygo@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Cody Northrop <cnorthrop@google.com>
+Submitted-at: Fri, 19 Apr 2019 16:38:21 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/948536
+Project: platform/manifest
+Branch: refs/heads/master-ndk
