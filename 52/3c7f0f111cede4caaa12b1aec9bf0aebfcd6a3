@@ -1,0 +1,9 @@
+Verified+1: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Aurimas Liutikas <aurimas@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Inna Palant <ipalant@google.com>
+Submitted-at: Tue, 23 Apr 2019 23:01:11 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/949889
+Project: platform/manifest
+Branch: refs/heads/metalava-master
