@@ -1,0 +1,7 @@
+Code-Review+2: Raman Tenneti <rtenneti@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Ian Kasprzak <iankaz@google.com>
+Submitted-at: Thu, 25 Apr 2019 20:13:57 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/951708
+Project: platform/manifest
+Branch: refs/heads/master-ndk
