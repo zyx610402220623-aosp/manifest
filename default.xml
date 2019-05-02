@@ -10,6 +10,7 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote  name="github" fetch="https://github.com/" />
   <default revision="master"
            remote="aosp"
            sync-j="4" />
@@ -17,15 +18,10 @@
   <!-- Core LLVM toolchain components -->
   <project path="bionic" name="platform/bionic" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
-  <project path="toolchain/llvm" name="toolchain/llvm" />
   <project path="toolchain/llvm_android" name="toolchain/llvm_android" />
-  <project path="toolchain/clang" name="toolchain/clang" />
-  <project path="toolchain/lld" name="toolchain/lld" />
-  <project path="toolchain/compiler-rt" name="toolchain/compiler-rt" />
-  <project path="toolchain/libcxx" name="toolchain/libcxx" />
-  <project path="toolchain/libcxxabi" name="toolchain/libcxxabi" />
-  <project path="toolchain/openmp_llvm" name="toolchain/openmp_llvm" />
-  <project path="toolchain/clang-tools-extra" name="toolchain/clang-tools-extra" />
+  <project path="toolchain/llvm-project" name="llvm/llvm-project"
+    remote="github" clone-depth="1"
+    revision="de7a0a152648d1a74cf4319920b1848aa00d1ca3"/>
 
   <!-- Android/ChromeOS shared toolchain-utils -->
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" revision="master" />
