@@ -22,6 +22,30 @@
       "revId": "6fdf2a5fa8e094af3ec7918c6333cbb02b4cc659",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "29dac4d2_e64e9fa8",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2019-05-09T00:36:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c0d89931_79c77bed",
+      "range": {
+        "startLine": 23,
+        "startChar": 95,
+        "endLine": 23,
+        "endChar": 124
+      },
+      "revId": "6fdf2a5fa8e094af3ec7918c6333cbb02b4cc659",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
