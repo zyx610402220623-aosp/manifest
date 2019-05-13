@@ -253,6 +253,7 @@
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" />
+  <project path="external/minigbm" name="platform/external/minigbm" groups="pdk" revision="pie-cuttlefish-testing" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mmc-utils" name="platform/external/mmc-utils" groups="pdk" />
@@ -361,7 +362,7 @@
   <project path="external/strace" name="platform/external/strace" groups="pdk" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk" />
   <project path="external/subsampling-scale-image-view" name="platform/external/subsampling-scale-image-view" clone-depth="1" />
-  <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" />
+  <project path="external/swiftshader" name="platform/external/swiftshader" groups="pdk" revision="cuttlefish-testing" />
   <project path="external/syslinux" name="platform/external/syslinux" groups="pdk" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk" />
@@ -384,6 +385,7 @@
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot,pdk-fs" />
+  <project path="external/virglrenderer" name="platform/external/virglrenderer" groups="pdk" revision="cuttlefish-testing" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/vogar" name="platform/external/vogar" groups="pdk" />
   <project path="external/volley" name="platform/external/volley" groups="pdk" />
