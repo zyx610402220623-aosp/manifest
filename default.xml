@@ -32,7 +32,7 @@
   <project path="developers/build" name="platform/developers/build" groups="developers" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
-  <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
+  <project path="festdevelopment" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" />
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -115,7 +115,7 @@
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" revision="pie-cts-dev" />
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" />
   <project path="external/devlib" name="platform/external/devlib" groups="pdk" />
-  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
+  <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" revision="pie-cts-dev" />
   <project path="external/dhcpcd-6.8.2" name="platform/external/dhcpcd-6.8.2" groups="pdk" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" />
   <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" />
