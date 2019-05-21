@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2db18216_8a67f482",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1500195
+      },
+      "writtenOn": "2019-05-21T18:21:31Z",
+      "side": 1,
+      "message": "Fuck you",
+      "revId": "1c12efb0c8614a8ea6ff1b64cad12a26f1e9b0f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
