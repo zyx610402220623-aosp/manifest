@@ -1,0 +1,13 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Stephen Hines <srhines@google.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Code-Review+1: Pirama Arumuga Nainar <pirama@google.com>
+Code-Review+1: Jean-Luc Brouillet <jeanluc@google.com>
+Code-Review+1: Miao Wang <miaowang@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 21 May 2019 14:11:19 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/829162
+Project: platform/manifest
+Branch: refs/heads/master
