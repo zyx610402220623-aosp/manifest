@@ -16,6 +16,24 @@
       "revId": "93f604801c06ca76a26f9aab668ade57b6364eb0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e9c1d6c_73163bba",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2019-05-30T17:08:11Z",
+      "side": 0,
+      "message": "Good catch. Added it back.",
+      "parentUuid": "85ffb8c2_3704d5a4",
+      "revId": "93f604801c06ca76a26f9aab668ade57b6364eb0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
