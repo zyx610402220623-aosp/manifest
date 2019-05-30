@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "85ffb8c2_3704d5a4",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1137668
+      },
+      "writtenOn": "2019-05-30T17:05:10Z",
+      "side": 0,
+      "message": "I think I remember hearing that build/make is actually required because the build server expects it or something like that.\n\nhttps://android.googlesource.com/platform/manifest/+/322fd7822a6556f526eba9340d557e6212a2e2a1 says it\u0027s needed for b/121323149",
+      "revId": "93f604801c06ca76a26f9aab668ade57b6364eb0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
