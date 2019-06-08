@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "339eb510_fab256cc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1269249
+      },
+      "writtenOn": "2019-06-08T06:45:48Z",
+      "side": 1,
+      "message": "\"Test: upload dummy cl and verify presubmit hooks run in the log\"\n\nAssuming that\u0027s actually a good way to test this it would be good to record that here?",
+      "revId": "e79308aeedf5dee11a9a8fad1ce1d8b02afa8e25",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
