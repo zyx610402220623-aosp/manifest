@@ -14,26 +14,26 @@
   <!-- pull in the standard AOSP projects. -->
   <include name="default.xml" />
 
-  <project path="vendor/google_devices/blueline" name="platform/vendor/aosp/google_devices/blueline" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/bonito" name="platform/vendor/aosp/google_devices/bonito" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/crosshatch" name="platform/vendor/aosp/google_devices/crosshatch" groups="vendor" remote="goog" />
+  <project path="vendor/google_devices/blueline" name="platform/vendor/aosp/google_devices/blueline" groups="vendor" remote="goog" revision="6c889241436337a342a15fddace16fbcbec7ed9f" />
+  <project path="vendor/google_devices/bonito" name="platform/vendor/aosp/google_devices/bonito" groups="vendor" remote="goog" revision="bed192b6c85fc17a78422269366f77d39f0bd1af" />
+  <project path="vendor/google_devices/crosshatch" name="platform/vendor/aosp/google_devices/crosshatch" groups="vendor" remote="goog" revision="473f79d2e58537486c473fcf377220151853771d" />
   <project path="vendor/google_devices/marlin" name="platform/vendor/aosp/google_devices/marlin" groups="vendor" remote="goog" />
   <project path="vendor/google_devices/muskie" name="platform/vendor/aosp/google_devices/muskie" groups="vendor" remote="goog" />
   <project path="vendor/google_devices/sailfish" name="platform/vendor/aosp/google_devices/sailfish" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/sargo" name="platform/vendor/aosp/google_devices/sargo" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/taimen" name="platform/vendor/aosp/google_devices/taimen" groups="vendor" remote="goog" />
-  <project path="vendor/google_devices/walleye" name="platform/vendor/aosp/google_devices/walleye" groups="vendor" remote="goog" />
+  <project path="vendor/google_devices/sargo" name="platform/vendor/aosp/google_devices/sargo" groups="vendor" remote="goog" revision="5f1338c351478cdb60c7c4f08a5bf29d6055adae" />
+  <project path="vendor/google_devices/taimen" name="platform/vendor/aosp/google_devices/taimen" groups="vendor" remote="goog" revision="65b06680bf34143e84aff8ba0e36ce6c287f4f1b" />
+  <project path="vendor/google_devices/walleye" name="platform/vendor/aosp/google_devices/walleye" groups="vendor" remote="goog" revision="59ea7ec05fa63826d30f163dac99bbdf96779a9f" />
   <project path="vendor/google/security" name="platform/vendor/google/security" groups="vendor" remote="goog" />
   <project path="vendor/google/tools" name="platform/vendor/google/tools" groups="vendor" remote="goog" />
   <project path="vendor/linaro/hikey960" name="platform/vendor/aosp/linaro/hikey960" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/bonito" name="platform/vendor/aosp/qcom/bonito" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/blueline" name="platform/vendor/aosp/qcom/blueline" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/crosshatch" name="platform/vendor/aosp/qcom/crosshatch" groups="vendor" remote="goog" />
+  <project path="vendor/qcom/bonito" name="platform/vendor/aosp/qcom/bonito" groups="vendor" remote="goog" revision="3834f939839ecdf8d30d9c02bc26b3a4439b1b9f" />
+  <project path="vendor/qcom/blueline" name="platform/vendor/aosp/qcom/blueline" groups="vendor" remote="goog" revision="926d3c9c6caa5e0297aabd279334350f870d474b" />
+  <project path="vendor/qcom/crosshatch" name="platform/vendor/aosp/qcom/crosshatch" groups="vendor" remote="goog" revision="9fcd1f8d8d863b706b5970d8605b296a386789f7" />
   <project path="vendor/qcom/marlin" name="platform/vendor/aosp/qcom/marlin" groups="vendor" remote="goog" />
   <project path="vendor/qcom/sailfish" name="platform/vendor/aosp/qcom/sailfish" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/sargo" name="platform/vendor/aosp/qcom/sargo" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/taimen" name="platform/vendor/aosp/qcom/taimen" groups="vendor" remote="goog" />
-  <project path="vendor/qcom/walleye" name="platform/vendor/aosp/qcom/walleye" groups="vendor" remote="goog" />
+  <project path="vendor/qcom/sargo" name="platform/vendor/aosp/qcom/sargo" groups="vendor" remote="goog" revision="9173e64ef0d25523c657022c1c3eed7359b88669" />
+  <project path="vendor/qcom/taimen" name="platform/vendor/aosp/qcom/taimen" groups="vendor" remote="goog" revision="1249ffa5f6d581e679b882ee273a2400b3082b00" />
+  <project path="vendor/qcom/walleye" name="platform/vendor/aosp/qcom/walleye" groups="vendor" remote="goog" revision="012b4caad87eefe5137824e5cff5fde809231469" />
   # Test change
   <project path="device/google/wahoo-kernel_for_lab" name="device/google/wahoo-kernel" revision="d66951577cbc6b2f72d38d06ca2662858a3660c7" groups="device,wahoo,pdk" remote="goog" clone-depth="1" />
 
