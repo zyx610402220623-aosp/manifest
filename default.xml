@@ -29,6 +29,7 @@
   <project clone-depth="1" name="platform/prebuilts/fullsdk/sources/android-28" path="prebuilts/fullsdk-darwin/sources/android-28" revision="b8042fc9b036db0a6692ca853428fc6ab1e60892">
     <linkfile dest="prebuilts/fullsdk-linux/sources/android-28" src="." />
   </project>
+<<<<<<< HEAD   (db66cd Pin manifest of androidx-media-release)
   
   
   <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/build-tools/28.0.3" path="prebuilts/fullsdk-darwin/build-tools/28.0.3" revision="c2d3aa071e8156f1e1c01a606e924f7b2f259dfc" />
@@ -46,3 +47,57 @@
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 </manifest>
+=======
+  <!-- SDK dependencies (darwin) -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/build-tools/28.0.3"
+    name="platform/prebuilts/fullsdk-darwin/build-tools/28.0.3"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/platform-tools"
+    name="platform/prebuilts/fullsdk-darwin/platform-tools"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/tools"
+    name="platform/prebuilts/fullsdk-darwin/tools"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <!-- SDK dependencies (linux) -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools/28.0.3"
+    name="platform/prebuilts/fullsdk-linux/build-tools/28.0.3"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/jdk/jdk8"
+    name="platform/prebuilts/jdk/jdk8"
+    revision="master"
+    groups="pdk"
+    clone-depth="1" />
+  <!-- END dependencies -->
+  <!-- BEGIN target project -->
+  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+  <!-- END target project -->
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+</manifest>
+>>>>>>> BRANCH (fc4e03 Remove unused manifest entry)
