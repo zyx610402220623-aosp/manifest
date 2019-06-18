@@ -1,0 +1,11 @@
+Verified+1: Inna Palant <ipalant@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Code-Review+1: jplemieux <jplemieux@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Autosubmit+1: Colin Cross <ccross@android.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 18 Jun 2019 01:23:32 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/942697
+Project: platform/manifest
+Branch: refs/heads/master
