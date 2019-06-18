@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "21646f70_fed10f16",
+        "filename": "GLOBAL-PREUPLOAD.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2019-06-18T18:10:32Z",
+      "side": 1,
+      "message": "${BUILD_OS}",
+      "range": {
+        "startLine": 13,
+        "startChar": 43,
+        "endLine": 13,
+        "endChar": 48
+      },
+      "revId": "766648ce186e5c6bac8bdb829d6c0ad39d58e8fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
