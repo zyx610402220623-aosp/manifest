@@ -1,0 +1,9 @@
+Code-Review+2: Bill Yi <byi@google.com>
+Code-Review+1: Ady Abraham <adyabr@google.com>
+Autosubmit+1: Idries Hamadi <idries@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 19 Jun 2019 00:49:45 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/985745
+Project: platform/manifest
+Branch: refs/heads/android-games-sdk
