@@ -1,0 +1,9 @@
+Verified+1: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Alex Cheung <alexcheung@google.com>
+Code-Review+1: Jeffrey Vander Stoep <jeffv@google.com>
+Submitted-by: Inna Palant <ipalant@google.com>
+Submitted-at: Thu, 20 Jun 2019 20:18:39 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/986805
+Project: platform/manifest
+Branch: refs/heads/master-plus-rust
