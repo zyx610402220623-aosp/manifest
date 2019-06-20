@@ -22,6 +22,30 @@
       "revId": "6981c99717f0d6654179f37aaf218feba6b5737a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4471bf0b_9886d524",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2019-06-20T19:51:23Z",
+      "side": 0,
+      "message": "Ok, I see what\u0027s happening here. You needed a starting point, so you just used llvm-toolchain. I think this LGTM.",
+      "parentUuid": "a5b93bf1_8bfa4e86",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 41
+      },
+      "revId": "6981c99717f0d6654179f37aaf218feba6b5737a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }

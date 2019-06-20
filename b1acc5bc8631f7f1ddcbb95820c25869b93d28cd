@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "caa87e60_d5272b3f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2019-06-20T19:51:23Z",
+      "side": 1,
+      "message": "Trailing whitespace (here and below)",
+      "range": {
+        "startLine": 8,
+        "startChar": 22,
+        "endLine": 8,
+        "endChar": 23
+      },
+      "revId": "b1acc5bc8631f7f1ddcbb95820c25869b93d28cd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
