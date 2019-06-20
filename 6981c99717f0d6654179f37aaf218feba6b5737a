@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a5b93bf1_8bfa4e86",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2019-06-20T19:43:11Z",
+      "side": 0,
+      "message": "Perhaps I\u0027m missing something here...\n\nrust-toolchain is not intended to replace llvm-toolchain. It\u0027s a separate toolchain. I just want to make sure that we\u0027re not breaking llvm-toolchain.",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 41
+      },
+      "revId": "6981c99717f0d6654179f37aaf218feba6b5737a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
