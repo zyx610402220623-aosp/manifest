@@ -1,0 +1,10 @@
+Autosubmit+1: Jeffrey Vander Stoep <jeffv@google.com>
+Code-Review+2: Dan Willemsen <dwillemsen@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 21 Jun 2019 16:53:28 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/987243
+Project: platform/manifest
+Branch: refs/heads/master
