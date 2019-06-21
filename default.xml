@@ -34,19 +34,36 @@
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-28" />
   </project>
   <project
+    path="prebuilts/fullsdk-darwin/platforms/android-29"
+    name="platform/prebuilts/fullsdk/platforms/android-29"
+    revision="master"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-29" />
+  </project>
+  <project
     path="prebuilts/fullsdk-darwin/sources/android-28"
     name="platform/prebuilts/fullsdk/sources/android-28"
     clone-depth="1">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-28" />
   </project>
+  <project
+    path="prebuilts/fullsdk-darwin/sources/android-29"
+    name="platform/prebuilts/fullsdk/sources/android-29"
+    revision="master"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-29" />
+  </project>
   <!-- SDK dependencies (darwin) -->
   <!-- Config: shallow + master revision -->
   <project
+<<<<<<< HEAD   (7708d5 DO NOT MERGE ANYWHERE Create manifest for androidx-vectordra)
     path="prebuilts/fullsdk-darwin/build-tools/28.0.2"
     name="platform/prebuilts/fullsdk-darwin/build-tools/28.0.2"
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
+=======
+>>>>>>> BRANCH (43f9bb Update manifest to use androidx-master-dev jdk8 branch.)
     path="prebuilts/fullsdk-darwin/build-tools/28.0.3"
     name="platform/prebuilts/fullsdk-darwin/build-tools/28.0.3"
     clone-depth="1"
@@ -64,11 +81,14 @@
   <!-- SDK dependencies (linux) -->
   <!-- Config: shallow + master revision -->
   <project
+<<<<<<< HEAD   (7708d5 DO NOT MERGE ANYWHERE Create manifest for androidx-vectordra)
     path="prebuilts/fullsdk-linux/build-tools/28.0.2"
     name="platform/prebuilts/fullsdk-linux/build-tools/28.0.2"
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
+=======
+>>>>>>> BRANCH (43f9bb Update manifest to use androidx-master-dev jdk8 branch.)
     path="prebuilts/fullsdk-linux/build-tools/28.0.3"
     name="platform/prebuilts/fullsdk-linux/build-tools/28.0.3"
     clone-depth="1"
@@ -86,6 +106,10 @@
   <project
     path="prebuilts/jdk/jdk8"
     name="platform/prebuilts/jdk/jdk8"
+<<<<<<< HEAD   (7708d5 DO NOT MERGE ANYWHERE Create manifest for androidx-vectordra)
+=======
+    revision="androidx-master-dev"
+>>>>>>> BRANCH (43f9bb Update manifest to use androidx-master-dev jdk8 branch.)
     groups="pdk"
     clone-depth="1" />
   <!-- END dependencies -->
