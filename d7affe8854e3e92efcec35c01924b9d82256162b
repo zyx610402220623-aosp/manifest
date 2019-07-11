@@ -16,6 +16,24 @@
       "revId": "d7affe8854e3e92efcec35c01924b9d82256162b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f11d23e1_a32259e0",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1137668
+      },
+      "writtenOn": "2019-07-11T17:24:07Z",
+      "side": 1,
+      "message": "oh I see presumably this is https://android-review.googlesource.com/c/platform/tools/external/gradle/+/1014258/1#message-b258336b8a37dfa3f9769973d77123a6b7bc6763",
+      "parentUuid": "29857c14_de6f0d2f",
+      "revId": "d7affe8854e3e92efcec35c01924b9d82256162b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
