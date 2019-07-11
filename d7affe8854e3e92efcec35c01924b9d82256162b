@@ -34,6 +34,24 @@
       "revId": "d7affe8854e3e92efcec35c01924b9d82256162b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aecde851_bc8180e6",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2019-07-11T17:47:08Z",
+      "side": 1,
+      "message": "Treehugger does validate manifest changes. They added that support a little over a year ago.",
+      "parentUuid": "f11d23e1_a32259e0",
+      "revId": "d7affe8854e3e92efcec35c01924b9d82256162b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
