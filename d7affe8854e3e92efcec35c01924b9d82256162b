@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "29857c14_de6f0d2f",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1137668
+      },
+      "writtenOn": "2019-07-11T17:22:53Z",
+      "side": 1,
+      "message": "I don\u0027t believe that Treehugger validates manifest changes (at least, it used to be the case that it didn\u0027t), and when I tried gradle 5.5 I ran into some errors. Did this work for you?",
+      "revId": "d7affe8854e3e92efcec35c01924b9d82256162b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
