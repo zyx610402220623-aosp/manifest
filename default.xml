@@ -3,6 +3,8 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote  name="goog"
+           fetch="sso://googleplex-android/" />
   <default revision="androidx-master-dev"
            remote="aosp"
            sync-j="8" />
@@ -101,6 +103,21 @@
     revision="androidx-master-dev"
     groups="pdk"
     clone-depth="1" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    remote="goog"
+    revision="lldb-3.2-release"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r17"
+    remote="goog"
+    revision="mirror-aosp-master"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+
   <!-- END dependencies -->
   <!-- BEGIN target project -->
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
