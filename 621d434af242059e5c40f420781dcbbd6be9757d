@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b53d136_d79c3c35",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2019-07-18T22:13:53Z",
+      "side": 1,
+      "message": "really??? do i even want to know? :-)",
+      "revId": "621d434af242059e5c40f420781dcbbd6be9757d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
