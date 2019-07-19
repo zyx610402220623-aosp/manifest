@@ -16,6 +16,24 @@
       "revId": "621d434af242059e5c40f420781dcbbd6be9757d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c89e4cc_a1ab341e",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2019-07-19T20:11:22Z",
+      "side": 1,
+      "message": "This seems to be for libext2_uuid, which is a convenient but less than ideal source for libuuid.",
+      "parentUuid": "4b53d136_d79c3c35",
+      "revId": "621d434af242059e5c40f420781dcbbd6be9757d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
