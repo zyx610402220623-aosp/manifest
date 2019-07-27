@@ -1,0 +1,7 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Andreas Gampe <agampe@google.com>
+Submitted-by: Andreas Gampe <agampe@google.com>
+Submitted-at: Sat, 27 Jul 2019 16:50:23 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1092709
+Project: platform/manifest
+Branch: refs/heads/master-art
