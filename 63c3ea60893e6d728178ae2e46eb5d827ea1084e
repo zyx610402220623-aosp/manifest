@@ -16,6 +16,24 @@
       "revId": "63c3ea60893e6d728178ae2e46eb5d827ea1084e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "320c84eb_af6f1969",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2019-07-30T16:07:39Z",
+      "side": 1,
+      "message": "Looks like they\u0027re leftovers from when we were building the vndk header-* tools here: https://android.googlesource.com/platform/manifest/+/686970db0e5e3215fb31968fe414755320725c10\n\nI\u0027ll try removing them in a change once this branch goes green again.",
+      "parentUuid": "2dd626c2_e9e4d171",
+      "revId": "63c3ea60893e6d728178ae2e46eb5d827ea1084e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
