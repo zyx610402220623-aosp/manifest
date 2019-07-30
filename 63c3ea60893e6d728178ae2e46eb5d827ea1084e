@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2dd626c2_e9e4d171",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2019-07-30T16:04:03Z",
+      "side": 1,
+      "message": "If external/clang was this only needed for the symlink, can this be removed?\n\nMaybe not, since I see a lot of llvm-related projects here.  Why are they needed anyway?",
+      "revId": "63c3ea60893e6d728178ae2e46eb5d827ea1084e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
