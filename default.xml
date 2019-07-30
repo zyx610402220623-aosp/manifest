@@ -19,10 +19,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" />
-  <project path="build/soong" name="platform/build/soong" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  <project path="build/soong" name="platform/build/soong" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
 
