@@ -1,0 +1,8 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Autosubmit+1: Steven Moreland <smoreland@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 31 Jul 2019 20:42:53 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1093776
+Project: platform/manifest
+Branch: refs/heads/build-tools
