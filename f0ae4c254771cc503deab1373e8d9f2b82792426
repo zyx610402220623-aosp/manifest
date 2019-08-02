@@ -46,6 +46,30 @@
       "revId": "f0ae4c254771cc503deab1373e8d9f2b82792426",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c2b1ec82_2619b595",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1103203
+      },
+      "writtenOn": "2019-08-02T12:25:49Z",
+      "side": 1,
+      "message": "Huh, I thought I did, but looks like it didn\u0027t save. Sorry about that.",
+      "parentUuid": "dbb750da_a20740b3",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 27
+      },
+      "revId": "f0ae4c254771cc503deab1373e8d9f2b82792426",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
