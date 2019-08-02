@@ -1,0 +1,8 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Roland Levillain <rpl@google.com>
+Autosubmit+1: Tobias Thierer <tobiast@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 02 Aug 2019 12:23:39 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1095729
+Project: platform/manifest
+Branch: refs/heads/master-art
