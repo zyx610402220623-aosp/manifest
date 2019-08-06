@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2a652353_24feedfb",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2019-08-06T12:45:47Z",
+      "side": 1,
+      "message": "Why were those specific groups used?",
+      "revId": "757fc7d60d64ea3559379811975a7d8ebdfa2681",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
