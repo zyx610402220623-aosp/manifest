@@ -16,6 +16,24 @@
       "revId": "757fc7d60d64ea3559379811975a7d8ebdfa2681",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "84face44_ed2ed7f7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1463094
+      },
+      "writtenOn": "2019-08-06T13:17:43Z",
+      "side": 1,
+      "message": "Copied from the groups of frameworks/base since there\u0027s a test there that depends on this project. (see aosp/1092177).\nI\u0027m open to changing it if you have suggestions.",
+      "parentUuid": "2a652353_24feedfb",
+      "revId": "757fc7d60d64ea3559379811975a7d8ebdfa2681",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
