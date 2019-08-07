@@ -42,9 +42,8 @@
   <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" />
 
-  <!-- Python prebuilts -->
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <!-- Python -->
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" revision="95637f40c7d76ba52d6fdc9b6327ec3dcb6ccb0f" />
 
   <!-- lldb libs -->
   <project path="external/libedit" name="platform/external/libedit" />
