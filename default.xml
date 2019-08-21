@@ -56,6 +56,18 @@
     clone-depth="1">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-29" />
   </project>
+   <project
+    path="prebuilts/ndk/r20"
+    name="platform/prebuilts/ndk/r20"
+    revision="master"
+    groups="pdk"
+    clone-depth="1" />
+  <project
+    path="prebuilts/cmake"
+    name="platform/prebuilts/cmake"
+    revision="master"
+    groups="pdk"
+    clone-depth="1" />
   <!-- SDK dependencies (darwin) -->
   <!-- Config: shallow + master revision -->
   <project
