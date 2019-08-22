@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e1d6058b_7abaa956",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 1137668
+      },
+      "writtenOn": "2019-08-22T19:14:01Z",
+      "side": 1,
+      "message": "Can we change the filepath of these two projects so that they don\u0027t match and so that it can be possible to check out both at once? Like lines 80 and 106",
+      "revId": "c2b60d0c11e89fe12610a0e3b2692c982493dc71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
