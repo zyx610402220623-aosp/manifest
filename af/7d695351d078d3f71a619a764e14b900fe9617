@@ -1,0 +1,9 @@
+Autosubmit+1: Jeffrey Vander Stoep <jeffv@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Dan Willemsen <dwillemsen@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 23 Aug 2019 12:35:49 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1102148
+Project: platform/manifest
+Branch: refs/heads/master
