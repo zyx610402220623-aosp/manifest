@@ -1,0 +1,7 @@
+Code-Review+2: Jeff Gaston <jeffrygaston@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Andrea Falcone <asfalcone@google.com>
+Submitted-at: Fri, 23 Aug 2019 14:56:39 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1106397
+Project: platform/manifest
+Branch: refs/heads/androidx-master-dev
