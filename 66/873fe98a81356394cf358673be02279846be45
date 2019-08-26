@@ -1,0 +1,8 @@
+Verified+1: Alexander Smundak <asmundak@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Colin Cross <ccross@android.com>
+Submitted-by: Alexander Smundak <asmundak@google.com>
+Submitted-at: Mon, 26 Aug 2019 20:08:08 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1109329
+Project: platform/manifest
+Branch: refs/heads/openjdk
