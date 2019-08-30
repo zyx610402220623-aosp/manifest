@@ -795,6 +795,21 @@
   <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" />
 
+<<<<<<< HEAD   (390569 Add App Compat C-Suite project to manifest am: 4843960ef5)
+=======
+  <!-- Python prebuilts -->
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" clone-depth="1" />
+
+  <!-- lldb libs -->
+  <project path="external/libedit" name="platform/external/libedit" />
+
+  <!-- Prebuilts (for ease of updating) -->
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" />
+  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" />
+
+>>>>>>> CHANGE (905fb5 [Toolchain] Add libedit to manifests)
   <!-- NDK headers/libraries -->
   <project path="toolchain/prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" />
 
