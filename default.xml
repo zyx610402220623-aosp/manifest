@@ -45,6 +45,9 @@
   <!-- Python -->
   <project path="external/python/cpython3" name="platform/external/python/cpython3" revision="95637f40c7d76ba52d6fdc9b6327ec3dcb6ccb0f" />
 
+  <!-- lldb libs -->
+  <project path="external/libedit" name="platform/external/libedit" />
+
   <!-- Prebuilts (for ease of updating) -->
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" />
