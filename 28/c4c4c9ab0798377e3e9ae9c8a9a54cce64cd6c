@@ -1,0 +1,9 @@
+Code-Review+2: Bill Yi <byi@google.com>
+Code-Review+1: Will Osborn <willosborn@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Will Osborn <willosborn@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 04 Sep 2019 09:20:04 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1112101
+Project: platform/manifest
+Branch: refs/heads/android-games-sdk
