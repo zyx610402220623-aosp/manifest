@@ -1,0 +1,8 @@
+Autosubmit+1: Xin Li <delphij@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 06 Sep 2019 17:51:29 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1115491
+Project: platform/manifest
+Branch: refs/heads/master-plus-llvm
