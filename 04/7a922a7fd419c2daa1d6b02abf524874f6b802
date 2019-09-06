@@ -1,0 +1,8 @@
+Autosubmit+1: Florian Mayer <fmayer@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Nicolas Geoffray <ngeoffray@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 06 Sep 2019 11:13:16 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1116031
+Project: platform/manifest
+Branch: refs/heads/master-art
