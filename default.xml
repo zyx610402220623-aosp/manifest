@@ -54,7 +54,12 @@
   </project>
    <project
     path="prebuilts/fullsdk-darwin/ndk"
+<<<<<<< HEAD   (da6d85 DO NOT MERGE ANYWHERE Create manifest for androidx-camerax-r)
     name="platform/prebuilts/ndk"
+=======
+    name="toolchain/prebuilts/ndk/r20"
+    revision="master"
+>>>>>>> BRANCH (b1dde5 Use toolchain/prebuilts for ndk)
     groups="pdk"
     clone-depth="1">
     <linkfile src="." dest="prebuilts/fullsdk-linux/ndk" />
