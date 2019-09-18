@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "11790117_c7ad21b1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1087625
+      },
+      "writtenOn": "2019-09-18T20:34:20Z",
+      "side": 1,
+      "message": "You dropped the \"python prebuilts\" comment here.",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 1
+      },
+      "revId": "9e451df4c211a98e04cb413a6740a3d46131818b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb805d0e_4d715b55",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1087625
+      },
+      "writtenOn": "2019-09-18T20:34:20Z",
+      "side": 1,
+      "message": "ditto.",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 1
+      },
+      "revId": "9e451df4c211a98e04cb413a6740a3d46131818b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
