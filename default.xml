@@ -10,10 +10,17 @@
   <project path="build/make" name="platform/build" />
   <!-- External dependencies -->
   <!-- Config: shallow + same revision -->
+<<<<<<< HEAD   (73979a DO NOT MERGE ANYWHERE Create manifest for androidx-autofill-)
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" clone-depth="1"  />
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" groups="pdk" clone-depth="1"  />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" clone-depth="1"  />
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1"  />
+=======
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" clone-depth="1" revision="master" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" groups="pdk" clone-depth="1" revision="3d3b20aefaac1a80e60d1cb9d8fb1be5449eaa59" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1" revision="master" />
+>>>>>>> BRANCH (cefb08 [WebView Support Library] roll boundary interfaces to 3d3b20)
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" groups="pdk" clone-depth="1" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" groups="pdk" clone-depth="1" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" groups="pdk" clone-depth="1" />
