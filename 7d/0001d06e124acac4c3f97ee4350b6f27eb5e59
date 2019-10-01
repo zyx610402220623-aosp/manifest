@@ -1,0 +1,8 @@
+Autosubmit+1: Steve Muckle <smuckle@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Guang Zhu <guangzhu@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 01 Oct 2019 00:52:08 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1131352
+Project: platform/manifest
+Branch: refs/heads/android10-tests-dev
