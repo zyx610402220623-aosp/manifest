@@ -1,0 +1,10 @@
+Autosubmit+1: Tristan Muntsinger <muntsinger@google.com>
+Code-Review+1: Praneeth Bajjuri <praneeth@ti.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 01 Oct 2019 14:57:20 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1131296
+Project: platform/manifest
+Branch: refs/heads/master
