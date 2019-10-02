@@ -46,6 +46,30 @@
       "revId": "8418892535e27fd31392c0a41edb0918cc21821c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4aa02ace_6848c3e0",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2019-10-02T21:30:13Z",
+      "side": 1,
+      "message": "That doesn\u0027t/won\u0027t work for things like the master-plus-llvm branch that would need 2 potentially conflicting copies. If divergence becomes a concern, then we could branch/pin a different revision elsewhere, but I don\u0027t think that pinning the revisions right now is a good thing.",
+      "parentUuid": "5f8377a1_eddca056",
+      "range": {
+        "startLine": 46,
+        "startChar": 106,
+        "endLine": 46,
+        "endChar": 157
+      },
+      "revId": "8418892535e27fd31392c0a41edb0918cc21821c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
