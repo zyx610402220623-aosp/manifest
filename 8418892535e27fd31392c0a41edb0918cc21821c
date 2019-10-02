@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a8bf6de2_cfbb841e",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2019-10-02T21:20:13Z",
+      "side": 1,
+      "message": "Why are there specific revisions listed for these projects? I am a bit worried that we will have a problem updating in the future.",
+      "range": {
+        "startLine": 46,
+        "startChar": 106,
+        "endLine": 46,
+        "endChar": 157
+      },
+      "revId": "8418892535e27fd31392c0a41edb0918cc21821c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
