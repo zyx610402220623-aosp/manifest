@@ -22,6 +22,30 @@
       "revId": "8418892535e27fd31392c0a41edb0918cc21821c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5f8377a1_eddca056",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1087625
+      },
+      "writtenOn": "2019-10-02T21:26:22Z",
+      "side": 1,
+      "message": "IIRC, Haibo\u0027s plan is to eventually create an llvm specific branch for these prebuilts.",
+      "parentUuid": "a8bf6de2_cfbb841e",
+      "range": {
+        "startLine": 46,
+        "startChar": 106,
+        "endLine": 46,
+        "endChar": 157
+      },
+      "revId": "8418892535e27fd31392c0a41edb0918cc21821c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
