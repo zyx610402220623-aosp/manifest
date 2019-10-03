@@ -1,0 +1,8 @@
+Autosubmit+1: Yifan Hong <elsk@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Ross Yeh <rossyeh@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 03 Oct 2019 23:18:35 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1129100
+Project: platform/manifest
+Branch: refs/heads/android10-tests-dev
