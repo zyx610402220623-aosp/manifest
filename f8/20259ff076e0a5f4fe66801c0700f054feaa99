@@ -1,0 +1,10 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Code-Review+1: Yu Wu <yuwu@google.com>
+Code-Review+1: Kun Niu <kunniu@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Thomas Joseph Avila <tavila@google.com>
+Submitted-at: Thu, 03 Oct 2019 17:10:35 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1100358
+Project: platform/manifest
+Branch: refs/heads/master
