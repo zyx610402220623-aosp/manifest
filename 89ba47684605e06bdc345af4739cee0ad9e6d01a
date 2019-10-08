@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5753ff71_d5843f74",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 626,
+      "author": {
+        "id": 1121198
+      },
+      "writtenOn": "2019-10-08T18:13:31Z",
+      "side": 1,
+      "message": "Inna do you know if this is correct? I just copied it from the other platform/modules projects but I\u0027m not sure what it means.",
+      "range": {
+        "startLine": 626,
+        "startChar": 118,
+        "endLine": 626,
+        "endChar": 134
+      },
+      "revId": "89ba47684605e06bdc345af4739cee0ad9e6d01a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
