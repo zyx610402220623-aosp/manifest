@@ -1,0 +1,8 @@
+Autosubmit+1: Xin Li <delphij@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 10 Oct 2019 18:23:26 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1138815
+Project: platform/manifest
+Branch: refs/heads/android10-tests-dev
