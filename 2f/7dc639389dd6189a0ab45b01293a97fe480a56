@@ -1,0 +1,8 @@
+Autosubmit+1: Aurimas Liutikas <aurimas@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Jeff Gaston <jeffrygaston@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 14 Oct 2019 17:52:53 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1142115
+Project: platform/manifest
+Branch: refs/heads/androidx-master-dev
