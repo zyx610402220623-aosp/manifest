@@ -1,0 +1,7 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Bill Yi <byi@google.com>
+Submitted-by: Bill Yi <byi@google.com>
+Submitted-at: Wed, 16 Oct 2019 18:51:30 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1144896
+Project: platform/manifest
+Branch: refs/heads/android10-release
