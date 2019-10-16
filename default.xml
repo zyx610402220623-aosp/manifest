@@ -8,7 +8,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <!-- BEGIN open-source projects -->
   <project path="external/clang" name="platform/external/clang" />
+  <project path="external/gala" name="platform/external/gala" />
   <project path="external/libedit" name="platform/external/libedit" />
   <project path="external/lldb" name="platform/external/lldb" />
   <project path="external/lldb-utils" name="platform/external/lldb-utils" />
@@ -23,27 +25,35 @@
   <project path="prebuilts/clang/host/windows-x86"
     name="platform/prebuilts/clang/host/windows-x86" clone-depth="1"
     revision="master"
-    groups="notdefault,platform-cygwin_nt-6.1,platform-cygwin_nt-6.2,platform-cygwin_nt-6.3,platform-cygwin_nt-10.0"
     />
-  <project path="prebuilts/clang/linux-x86/host/3.6"
-    name="platform/prebuilts/clang/linux-x86/host/3.6" clone-depth="1"
+  <project path="prebuilts/clang/host/linux-x86"
+    name="platform/prebuilts/clang/host/linux-x86" clone-depth="1"
     revision="master"
     groups="notdefault,platform-linux" />
 
   <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" revision="master" groups="notdefault,platform-darwin" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="master" groups="notdefault,platform-linux" />
-  <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" revision="master" groups="notdefault,platform-cygwin_nt-6.1,platform-cygwin_nt-6.2,platform-cygwin_nt-6.3,platform-cygwin_nt-10.0" />
+  <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" clone-depth="1" revision="master" groups="notdefault,platform-linux" />
+  <project path="prebuilts/google-breakpad/darwin-x86" name="platform/prebuilts/google-breakpad/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/google-breakpad/linux-x86" name="platform/prebuilts/google-breakpad/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/google-breakpad/windows-x86" name="platform/prebuilts/google-breakpad/windows-x86" clone-depth="1" />
   <project path="prebuilts/libedit/darwin-x86" name="platform/prebuilts/libedit/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
   <project path="prebuilts/libedit/linux-x86" name="platform/prebuilts/libedit/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/libglog/darwin-x86" name="platform/prebuilts/libglog/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/libglog/linux-x86" name="platform/prebuilts/libglog/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/libglog/windows-x86" name="platform/prebuilts/libglog/windows-x86" clone-depth="1" />
+  <project path="prebuilts/libprotobuf/darwin-x86" name="platform/prebuilts/libprotobuf/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/libprotobuf/linux-x86" name="platform/prebuilts/libprotobuf/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/libprotobuf/windows-x86" name="platform/prebuilts/libprotobuf/windows-x86" clone-depth="1" />
   <project path="prebuilts/ndk" name="toolchain/prebuilts/ndk/r17" clone-depth="1" revision="master" groups="notdefault,platform-linux" />
   <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
-  <project path="prebuilts/ninja/windows-x86" name="platform/prebuilts/ninja/windows-x86" clone-depth="1" groups="notdefault,platform-cygwin_nt-6.1,platform-cygwin_nt-6.2,platform-cygwin_nt-6.3,platform-cygwin_nt-10.0" />
+  <project path="prebuilts/ninja/windows-x86" name="platform/prebuilts/ninja/windows-x86" clone-depth="1" />
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
-  <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" groups="notdefault,platform-cygwin_nt-6.1,platform-cygwin_nt-6.2,platform-cygwin_nt-6.3,platform-cygwin_nt-10.0" />
+  <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" />
   <project path="prebuilts/swig/darwin-x86" name="platform/prebuilts/swig/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
   <project path="prebuilts/swig/linux-x86" name="platform/prebuilts/swig/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
-  <project path="prebuilts/swig/windows-x86" name="platform/prebuilts/swig/windows-x86" clone-depth="1" groups="notdefault,platform-cygwin_nt-6.1,platform-cygwin_nt-6.2,platform-cygwin_nt-6.3,platform-cygwin_nt-10.0" />
-
+  <project path="prebuilts/swig/windows-x86" name="platform/prebuilts/swig/windows-x86" clone-depth="1" />
+  <!-- END open-source projects -->
 </manifest>
