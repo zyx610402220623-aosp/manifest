@@ -1,0 +1,11 @@
+Code-Review+2: Maciej Żenczykowski <maze@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Verified+1: Maciej Żenczykowski <maze@google.com>
+Autosubmit+1: Maciej Żenczykowski <maze@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 16 Oct 2019 21:26:07 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1139977
+Project: platform/manifest
+Branch: refs/heads/master
