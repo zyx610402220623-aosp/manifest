@@ -123,8 +123,8 @@
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
-    path="prebuilts/jdk/jdk8"
-    name="platform/prebuilts/jdk/jdk8"
+    path="prebuilts/jdk/jdk11"
+    name="platform/prebuilts/jdk/jdk11"
     revision="androidx-master-dev"
     groups="pdk"
     clone-depth="1" />
