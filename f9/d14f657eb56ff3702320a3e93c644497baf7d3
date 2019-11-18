@@ -1,0 +1,10 @@
+Code-Review+1: Przemyslaw Szczepaniak <pszczepaniak@google.com>
+Code-Review+2: Ross Yeh <rossyeh@google.com>
+Verified+1: Viet Dang <vddang@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Autosubmit+1: Robert Chou <robertchou@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 18 Nov 2019 04:52:39 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1164440
+Project: platform/manifest
+Branch: refs/heads/android10-tests-dev
