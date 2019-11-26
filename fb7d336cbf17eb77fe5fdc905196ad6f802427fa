@@ -22,6 +22,30 @@
       "revId": "fb7d336cbf17eb77fe5fdc905196ad6f802427fa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c2717068_3f184151",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 707,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2019-11-26T13:53:15Z",
+      "side": 1,
+      "message": "It\u0027s magic that pushes it to the Platform Development Kit which gets pushed to partners:\n\nhttps://g3doc.corp.google.com/company/teams/android-build-team/setup_pdk.md?cl\u003dhead",
+      "parentUuid": "00c0e7b0_8b9eb176",
+      "range": {
+        "startLine": 707,
+        "startChar": 84,
+        "endLine": 707,
+        "endChar": 96
+      },
+      "revId": "fb7d336cbf17eb77fe5fdc905196ad6f802427fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
