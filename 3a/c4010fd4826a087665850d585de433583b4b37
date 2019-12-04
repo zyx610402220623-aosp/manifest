@@ -1,0 +1,11 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Code-Review+1: Elliott Hughes <enh@google.com>
+Code-Review+1: Suren Baghdasaryan <surenb@google.com>
+Submitted-by: Thomas Joseph Avila <tavila@google.com>
+Submitted-at: Wed, 04 Dec 2019 19:50:03 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1170068
+Project: platform/manifest
+Branch: refs/heads/master
