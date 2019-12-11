@@ -1,0 +1,8 @@
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Alistair Delva <adelva@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 11 Dec 2019 17:35:11 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1186655
+Project: platform/manifest
+Branch: refs/heads/crosvm-master
