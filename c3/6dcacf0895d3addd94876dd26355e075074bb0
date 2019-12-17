@@ -1,0 +1,9 @@
+Verified+1: Alexander Smundak <asmundak@google.com>
+Autosubmit+1: Alexander Smundak <asmundak@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Dan Willemsen <dwillemsen@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 17 Dec 2019 02:21:03 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1191216
+Project: platform/manifest
+Branch: refs/heads/build-tools
