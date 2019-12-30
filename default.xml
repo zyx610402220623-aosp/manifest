@@ -26,7 +26,7 @@
   <project groups="pdk" name="platform/bionic" path="bionic"  />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"  />
   <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd"  />
-  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts"  />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision=="android10-qpr1-release"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik"  />
   <project groups="developers,pdk" name="platform/developers/build" path="developers/build"  />
   <project groups="developers" name="platform/developers/demos" path="developers/demos"  />
@@ -196,6 +196,8 @@
   <project groups="pdk" name="platform/external/libevent" path="external/libevent"  />
   <project groups="pdk" name="platform/external/libexif" path="external/libexif"  />
   <project groups="pdk" name="platform/external/libffi" path="external/libffi"  />
+  <!-- TODO(142924771): create the project on qt-gsi -->
+  <project groups="pdk" name="platform/external/libgav1" path="external/libgav1" revision="android10-qpr1-release" />
   <project groups="pdk" name="platform/external/libgsm" path="external/libgsm"  />
   <project groups="pdk" name="platform/external/libhevc" path="external/libhevc"  />
   <project groups="pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo"  />
@@ -254,9 +256,7 @@
   <project groups="pdk" name="platform/external/nfacct" path="external/nfacct"  />
   <project groups="pdk" name="platform/external/nist-pkits" path="external/nist-pkits"  />
   <project groups="pdk" name="platform/external/nist-sip" path="external/nist-sip"  />
-  <project groups="pixel" name="platform/external/nos/host/android" path="external/nos/host/android"  />
   <project groups="pixel" name="platform/external/nos/host/generic" path="external/nos/host/generic"  />
-  <project groups="pixel" name="platform/external/nos/test/system-test-harness" path="external/nos/test/system-test-harness"  />
   <project groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts"  />
   <project groups="pdk" name="platform/external/oauth" path="external/oauth"  />
   <project groups="pdk" name="platform/external/objenesis" path="external/objenesis"  />
