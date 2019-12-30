@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5cc5f449_dcc6ca31",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 699,
+      "author": {
+        "id": 1061057
+      },
+      "writtenOn": "2019-12-30T09:00:06Z",
+      "side": 1,
+      "message": "Also point these to android10-qpr1-release?",
+      "range": {
+        "startLine": 691,
+        "startChar": 2,
+        "endLine": 699,
+        "endChar": 100
+      },
+      "revId": "c7855c0ff7b8d757989b4e04c121139d026af81f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
