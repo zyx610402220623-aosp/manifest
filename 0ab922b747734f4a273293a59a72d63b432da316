@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "27647084_b6b8ac24",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 635,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-01-06T13:34:24Z",
+      "side": 1,
+      "message": "These are the same as prebuilts/module_sdk/art (https://r.android.com/1175226).",
+      "range": {
+        "startLine": 635,
+        "startChar": 92,
+        "endLine": 635,
+        "endChar": 120
+      },
+      "revId": "0ab922b747734f4a273293a59a72d63b432da316",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
