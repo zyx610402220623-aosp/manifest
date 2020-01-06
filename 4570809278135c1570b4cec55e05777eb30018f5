@@ -46,6 +46,30 @@
       "revId": "4570809278135c1570b4cec55e05777eb30018f5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1542649d_cccf2e72",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-01-06T15:25:55Z",
+      "side": 1,
+      "message": "Sure, but I think the spirit of the \"Test:\" stanza is about local reproduction of the test assessment.",
+      "parentUuid": "01e8d810_488da576",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "4570809278135c1570b4cec55e05777eb30018f5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
