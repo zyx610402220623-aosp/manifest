@@ -22,6 +22,30 @@
       "revId": "4570809278135c1570b4cec55e05777eb30018f5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "01e8d810_488da576",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-01-06T15:19:04Z",
+      "side": 1,
+      "message": "True, but there are several builds in the presubmits so it\u0027s covered anyway.",
+      "parentUuid": "d1a535e2_6fb01563",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "4570809278135c1570b4cec55e05777eb30018f5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
