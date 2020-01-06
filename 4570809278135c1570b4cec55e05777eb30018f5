@@ -94,6 +94,30 @@
       "revId": "4570809278135c1570b4cec55e05777eb30018f5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0f28338a_6dc5ad1a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-01-06T16:41:41Z",
+      "side": 1,
+      "message": "\u003e I\u0027ve gathered the implication is that the author has run the \"Test:\" tests locally. Since I opted to save myself the effort of a local build that\u0027s anyway covered by presubmits, I don\u0027t want to purport that. Maybe I should just say \"Test: presubmits\" here?\n\nYeah, I agree. And we sometimes actually use:\n\n  Test: Rely on Treehugger\n\n…\n\n\u003e (In the longer run when presubmits actually do have good coverage these \"Test\" tags are just adding toil and should probably become optional.)\n\nAgreed. :)",
+      "parentUuid": "b9209f00_07208290",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "4570809278135c1570b4cec55e05777eb30018f5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
