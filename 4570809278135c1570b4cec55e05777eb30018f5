@@ -118,6 +118,30 @@
       "revId": "4570809278135c1570b4cec55e05777eb30018f5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4b424408_e6e6cf57",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-01-06T16:49:36Z",
+      "side": 1,
+      "message": "All right, I\u0027ve clarified the commit message.",
+      "parentUuid": "0f28338a_6dc5ad1a",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "4570809278135c1570b4cec55e05777eb30018f5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
