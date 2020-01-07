@@ -22,6 +22,30 @@
       "revId": "8271332aa5c4014b58c4672cfa9c118772a3605e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "08034485_fb839a11",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-01-07T13:30:55Z",
+      "side": 1,
+      "message": "Good idea; I added the actual command in PS2.",
+      "parentUuid": "f236b633_543cc872",
+      "range": {
+        "startLine": 9,
+        "startChar": 21,
+        "endLine": 9,
+        "endChar": 45
+      },
+      "revId": "8271332aa5c4014b58c4672cfa9c118772a3605e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
