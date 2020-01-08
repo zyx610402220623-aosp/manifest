@@ -16,6 +16,24 @@
       "revId": "3da62afe97a2fc905e576a0616615707ab470dfd",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "60893fe3_c954360e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-01-08T13:15:13Z",
+      "side": 1,
+      "message": "Maybe you could use \u0027Exempt-From-Owner-Approval:\u0027 here? (I think it\u0027s fair as PS2 was approved.) Or is that not enough?",
+      "parentUuid": "a7a74890_066d73cb",
+      "revId": "3da62afe97a2fc905e576a0616615707ab470dfd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
