@@ -52,6 +52,24 @@
       "revId": "3da62afe97a2fc905e576a0616615707ab470dfd",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ab94af7b_8193ad2f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-01-10T16:28:49Z",
+      "side": 1,
+      "message": "Ping. I\u0027d hope new approvals would be straightforward since there only have been rebases and a trivial conflict resolution since PS2.",
+      "parentUuid": "579a86e6_9655bf32",
+      "revId": "3da62afe97a2fc905e576a0616615707ab470dfd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
