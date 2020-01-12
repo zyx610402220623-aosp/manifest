@@ -1,0 +1,14 @@
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Code-Review+1: Martin Stjernholm <mast@google.com>
+Code-Review+1: Orion Hodson <oth@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Roland Levillain <rpl@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Sun, 12 Jan 2020 20:45:45 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1201852
+Project: platform/manifest
+Branch: refs/heads/master
