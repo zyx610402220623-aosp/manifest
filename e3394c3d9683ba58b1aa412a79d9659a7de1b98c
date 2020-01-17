@@ -16,6 +16,24 @@
       "revId": "e3394c3d9683ba58b1aa412a79d9659a7de1b98c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "290c6714_c7d3791a",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-01-17T16:56:58Z",
+      "side": 1,
+      "message": "I think we\u0027ve historically avoided that, as it\u0027s very hard to track and maintain. It\u0027d be great if we had better tooling around manifest management…",
+      "parentUuid": "a9fa446e_afefb8a2",
+      "revId": "e3394c3d9683ba58b1aa412a79d9659a7de1b98c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
