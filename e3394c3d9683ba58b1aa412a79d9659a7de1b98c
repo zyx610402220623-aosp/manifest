@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a9fa446e_afefb8a2",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-01-17T16:48:50Z",
+      "side": 1,
+      "message": "Does it make sense to partition the project list a bit, so we keep the dependencies pulled in for different reasons apart? In particular those required directly for the build vs indirect ones like this.",
+      "revId": "e3394c3d9683ba58b1aa412a79d9659a7de1b98c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
