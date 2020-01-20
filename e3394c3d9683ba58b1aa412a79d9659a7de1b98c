@@ -52,6 +52,24 @@
       "revId": "e3394c3d9683ba58b1aa412a79d9659a7de1b98c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae86ca9f_6787bc21",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-01-20T10:58:19Z",
+      "side": 1,
+      "message": "Once we curate the manifest, I\u0027d like that we actually start partitioning it:\n- Git projects for code in the ART apex\n- Git projects required for testing\n- Git projects that have prebuilts for our binary dependencies.",
+      "parentUuid": "09363036_de211b63",
+      "revId": "e3394c3d9683ba58b1aa412a79d9659a7de1b98c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
