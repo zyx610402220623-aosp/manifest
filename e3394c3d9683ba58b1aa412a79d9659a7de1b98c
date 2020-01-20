@@ -70,6 +70,24 @@
       "revId": "e3394c3d9683ba58b1aa412a79d9659a7de1b98c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0b957e4_7ea983d2",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-01-20T16:50:59Z",
+      "side": 1,
+      "message": "A nice property of the current master-art manifest is that it\u0027s (almost) a subset of the master manifest, which makes it easier to track changes w.r.t. master (using `diff`). I\u0027d like to keep this for now. Mind you, I\u0027m happy to annotate/partition the master-art manifest once we have an unbundled branch.\n\nI mentioned the added project in the commit message in PS4 to make tracking manifest changes using version control a bit easier.",
+      "parentUuid": "ae86ca9f_6787bc21",
+      "revId": "e3394c3d9683ba58b1aa412a79d9659a7de1b98c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
