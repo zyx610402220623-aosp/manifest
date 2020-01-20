@@ -1,0 +1,10 @@
+Verified+1: Roland Levillain <rpl@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Martin Stjernholm <mast@google.com>
+Code-Review+2: Orion Hodson <oth@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Roland Levillain <rpl@google.com>
+Submitted-at: Mon, 20 Jan 2020 16:51:10 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1172170
+Project: platform/manifest
+Branch: refs/heads/master-art
