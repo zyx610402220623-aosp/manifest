@@ -1,0 +1,14 @@
+Verified+1: Erwin Jansen <jansene@google.com>
+Autosubmit+1: Erwin Jansen <jansene@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Open-Source-Licensing+2: Erwin Jansen <jansene@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Lint+2: Erwin Jansen <jansene@google.com>
+Code-Review+2: Erwin Jansen <jansene@google.com>
+Code-Review+2: Lingfeng Yang <lfy@google.com>
+Presubmit-Verified-1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Erwin Jansen <jansene@google.com>
+Submitted-at: Tue, 21 Jan 2020 19:25:49 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1212348
+Project: platform/manifest
+Branch: refs/heads/emu-master-dev
