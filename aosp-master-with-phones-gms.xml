@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--
+    This branch is a master side branch and is configured to have all project
+    specific rules. When updating this manifest file, please also update the
+    project rule in google3 to ensure new projects get testing.
+    See go/side-branch-testing for details.
+-->
+
+  <remote  name="goog_master"
+           fetch="https://googleplex-android.googlesource.com/"
+           revision="master" />
+
+  <!-- pull in the standard AOSP-with-phones projects. -->
+  <include name="aosp-master-with-phones.xml" />
+
+  <project path="vendor/google/gms" name="platform/vendor/google/gms" groups="vendor" remote="goog_master" clone-depth="1" />
+</manifest>
