@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b8eebb5c_368d9647",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2020-01-30T17:57:02Z",
+      "side": 0,
+      "message": "The gcc from x86_64-linux-glibc2.17-4.8 has also been removed, FWIW.",
+      "revId": "6318d70ad7f26078205f64f6f7d1524f12bc4a05",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
