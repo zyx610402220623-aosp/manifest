@@ -1,0 +1,10 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Verified+1: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Submitted-by: Thomas Joseph Avila <tavila@google.com>
+Submitted-at: Fri, 31 Jan 2020 21:47:28 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1222951
+Project: platform/manifest
+Branch: refs/heads/android-games-sdk
