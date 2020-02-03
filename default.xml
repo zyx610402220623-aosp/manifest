@@ -6,6 +6,13 @@
   <default revision="android-games-sdk-release"
            remote="aosp"
            sync-j="4" />
+<<<<<<< HEAD   (3a6db2 DO NOT MERGE ANYWHERE Create manifest for android-games-sdk-)
+=======
+
+  <!-- platform/build is required by Coastguard -->
+  <project path="build"                              name="platform/build" revision="android-games-sdk"/>
+
+>>>>>>> BRANCH (bea5c0 Add platform/build to manifest. It is needed by Coastguard.)
   <!-- The SDK repository itself + external code dependencies -->
   <project path="gamesdk"                             name="platform/frameworks/opt/gamesdk"/>
   <project path="external/protobuf"                  name="platform/external/protobuf"/>
