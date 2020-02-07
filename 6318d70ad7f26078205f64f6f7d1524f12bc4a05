@@ -16,6 +16,24 @@
       "revId": "6318d70ad7f26078205f64f6f7d1524f12bc4a05",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "913b9050_bb040f64",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2020-02-07T19:48:09Z",
+      "side": 0,
+      "message": "Let me remove this as well",
+      "parentUuid": "b8eebb5c_368d9647",
+      "revId": "6318d70ad7f26078205f64f6f7d1524f12bc4a05",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
