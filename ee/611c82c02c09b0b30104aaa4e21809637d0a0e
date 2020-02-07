@@ -1,0 +1,17 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Open-Source-Licensing+2: Erwin Jansen <jansene@google.com>
+Verified+1: Erwin Jansen <jansene@google.com>
+Code-Review+1: Nick Desaulniers <ndesaulniers@google.com>
+Code-Review+2: Lingfeng Yang <lfy@google.com>
+Code-Review+2: Akash Agrawal <akagrawal@google.com>
+Code-Review+1: Jeremy Joslin <jjoslin@google.com>
+Code-Review+2: Erwin Jansen <jansene@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Lint+2: Erwin Jansen <jansene@google.com>
+Autosubmit+1: Erwin Jansen <jansene@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 07 Feb 2020 21:21:59 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1222820
+Project: platform/manifest
+Branch: refs/heads/emu-master-dev
