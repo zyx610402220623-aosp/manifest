@@ -4,8 +4,20 @@
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="android-games-sdk-release" sync-j="4" />
 
+<<<<<<< HEAD   (9a2f66 Pin manifest of android-games-sdk-release)
   
   <project name="platform/build" path="build" revision="7fe7bce1b88412b1657c27bff5d772189c2bd777" />
+=======
+  <!-- platform/build is required by Coastguard -->
+  <project path="build"                              name="platform/build" revision="android-games-sdk"/>
+
+  <!-- The SDK repository itself + external code dependencies -->
+  <project path="gamesdk"                             name="platform/frameworks/opt/gamesdk"/>
+  <project path="external/protobuf"                  name="platform/external/protobuf"/>
+  <project path="external/nanopb-c"                  name="platform/external/nanopb-c"/>
+  <project path="external/modp_b64"                  name="platform/external/modp_b64"/>
+  <project path="external/googletest"                name="platform/external/googletest"/>
+>>>>>>> BRANCH (bea5c0 Add platform/build to manifest. It is needed by Coastguard.)
 
   
   <project name="platform/frameworks/opt/gamesdk" path="gamesdk" revision="ed98457a7b4bf0762153ade906185afbfa4707bc" />
