@@ -22,6 +22,30 @@
       "revId": "0d05ed00c6da538f6128ec253a7125bb8ce36cd7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9fa2577b_dcb9247f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-02-10T21:35:24Z",
+      "side": 1,
+      "message": "Note: I\u0027ve submitted the CL to unblock other teams.",
+      "parentUuid": "d084c8f6_a7cc4a4a",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 5
+      },
+      "revId": "0d05ed00c6da538f6128ec253a7125bb8ce36cd7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
