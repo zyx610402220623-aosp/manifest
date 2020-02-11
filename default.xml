@@ -2,9 +2,17 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (00c046 Merge empty history for sparse-6140868-L16300000458985862)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6140868-L41500000459044442" sync-j="4" />
+>>>>>>> BRANCH (e6fff8 Pin manifest of sparse-6140868-L41500000459044442)
 
+<<<<<<< HEAD   (00c046 Merge empty history for sparse-6140868-L16300000458985862)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
+=======
+  <project groups="pdk" name="platform/build" path="build/make" revision="feea86134ba6e9f33b0d66c0a64ed297a5a07b7a">
+>>>>>>> BRANCH (e6fff8 Pin manifest of sparse-6140868-L41500000459044442)
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
@@ -19,6 +27,7 @@
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
+<<<<<<< HEAD   (00c046 Merge empty history for sparse-6140868-L16300000458985862)
   <project groups="pdk" name="platform/art" path="art" revision="f0e3a368c80b7d32e2f85ffa948751525a9f903b" />
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" />
@@ -39,6 +48,30 @@
   <project groups="pdk" name="device/generic/mips" path="device/generic/mips" revision="bf27f9bcb56e483310507f78f0a4b93d3f5499c5" />
   <project groups="pdk" name="device/generic/mips64" path="device/generic/mips64" revision="34300f7753b7a9fa2f7ba16bdc1f1fb8625dd4e4" />
   <project groups="pdk" name="device/generic/mini-emulator-arm64" path="device/generic/mini-emulator-arm64" revision="77d394326f7fc17831ee7702cb8b750fe0b21443" />
+=======
+  <project groups="pdk" name="platform/art" path="art" revision="7c6516953f145150beabb4806162a4add14d5f1e" />
+  <project groups="pdk" name="platform/bionic" path="bionic" revision="5f38431b1d1ca07f89dd69ab4779ee74745035a7" />
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="43348a6282417651e424456445622918c92d132a" />
+  <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd" revision="4d3571743e30ae6d17ed4c3dd2662cc8fba4fbcd" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="5a3dccd620c2771746afb05fe45b8d129602105f" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="dd2c0538809551f60d457c5884bd1f5c8ded8cf7" />
+  <project name="platform/developers/build" path="developers/build" revision="6f1bbd6b9589818154d555f216e800223ce5d063" />
+  <project name="platform/developers/demos" path="developers/demos" revision="7bd7834eee082f32ae8eaab9bf014d77c6cf521a" />
+  <project name="platform/developers/samples/android" path="developers/samples/android" revision="a8c6307fae854e21a66498aa3c1badd717ea375f" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="5f77445e103600c403ee0c1f2ffba7dda1950ed7" />
+  <project groups="device,fugu,broadcom_pdk,pdk" name="device/asus/fugu" path="device/asus/fugu" revision="f47fef246d21d36d7181959cf57b78a14b72510f" />
+  <project clone-depth="1" groups="device,fugu,broadcom_pdk,pdk" name="device/asus/fugu-kernel" path="device/asus/fugu-kernel" revision="b6ff67b07fbba0f87936c36792c40b7a2049bc28" />
+  <project groups="pdk-cw-fs,pdk" name="device/common" path="device/common" revision="699af187e87bab62db3e8c5189a7fb407da4a0eb" />
+  <project groups="pdk" name="device/generic/arm64" path="device/generic/arm64" revision="392eec3cb4c64721cd5b76fa36535954b5d45309" />
+  <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="5bcf3068f787ec850de0e142d2b1b7cb6aacf42d" />
+  <project groups="pdk" name="device/generic/car" path="device/generic/car" revision="61954fc76e86178de3af93c2e5346195fa8b8740" />
+  <project groups="pdk" name="device/generic/common" path="device/generic/common" revision="55560af5e6c28061eaa0e7697225168e006d7743" />
+  <project groups="pdk" name="device/generic/goldfish" path="device/generic/goldfish" revision="c2e4b09ac2d23a866ca389f7152e4e8cd07e9ff9" />
+  <project groups="pdk" name="device/generic/goldfish-opengl" path="device/generic/goldfish-opengl" revision="e877c8a2a0b1e2a092db0d89d7f4620aef561b7f" />
+  <project groups="pdk" name="device/generic/mips" path="device/generic/mips" revision="f907c2d4fa2e4d8a72776524821d62ba34b574e2" />
+  <project groups="pdk" name="device/generic/mips64" path="device/generic/mips64" revision="555f4394915228b3c56e6e278f7b8cadee054e30" />
+  <project groups="pdk" name="device/generic/mini-emulator-arm64" path="device/generic/mini-emulator-arm64" revision="4d6074c8558dfe4a4f5cf8b2b531013f17f190ed" />
+>>>>>>> BRANCH (e6fff8 Pin manifest of sparse-6140868-L41500000459044442)
   <project groups="pdk" name="device/generic/mini-emulator-armv7-a-neon" path="device/generic/mini-emulator-armv7-a-neon" revision="258706fc0ddcf2c9be48967f4766ec90efb736a5" />
   <project groups="pdk" name="device/generic/mini-emulator-mips" path="device/generic/mini-emulator-mips" revision="544e69736cff911c286a5d1d300dac228e23a73f" />
   <project groups="pdk" name="device/generic/mini-emulator-mips64" path="device/generic/mini-emulator-mips64" revision="b1c36d0847fe6366527efd38fdb29d757ea887ee" />
