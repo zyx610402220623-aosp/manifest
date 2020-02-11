@@ -70,6 +70,30 @@
       "revId": "0d05ed00c6da538f6128ec253a7125bb8ce36cd7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "57882a3f_a0173638",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-02-11T19:01:17Z",
+      "side": 1,
+      "message": "\u003e We are probably missing some presubmit coverage here though; I\u0027ll have look at this.\n\nI propose an extension of the presubmit coverage in cl/294473813.",
+      "parentUuid": "6801367d_735e9096",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 5
+      },
+      "revId": "0d05ed00c6da538f6128ec253a7125bb8ce36cd7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
