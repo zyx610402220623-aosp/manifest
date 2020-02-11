@@ -46,6 +46,30 @@
       "revId": "0d05ed00c6da538f6128ec253a7125bb8ce36cd7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6801367d_735e9096",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-02-11T09:41:10Z",
+      "side": 1,
+      "message": "\u003e Test: stanza for confirming the affected build is fixed?\n\nTechnically, the master-art host builds were never broken; only the presubmits of CL https://android-review.googlesource.com/c/platform/external/gwp_asan/+/1229805/ 😉\n\nThe builds that got broken are the Bionic ones on internal master-art-host, after the previous CL was submitted – this should be fixed by ag/10296074. We are probably missing some presubmit coverage here though; I\u0027ll have look at this.\n\n\u003e Note: I\u0027ve submitted the CL to unblock other teams.\n\nThanks Nicolas!",
+      "parentUuid": "9fa2577b_dcb9247f",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 5
+      },
+      "revId": "0d05ed00c6da538f6128ec253a7125bb8ce36cd7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
