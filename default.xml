@@ -2,7 +2,11 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (d8f9de Merge empty history for sparse-6197655-L22200000459058279)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6196810-L69500000467926786" sync-j="4" />
+>>>>>>> BRANCH (fcbcda Pin manifest of sparse-6196810-L69500000467926786)
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -652,9 +656,15 @@
   <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="2b70000c0d1631eccb216e2d9aa2552765261506" />
   <project name="platform/system/tpm" path="system/tpm" revision="c3818d334421805f04822f4dceb8db193ab74f14" />
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" revision="e5d1deba6185ba59da0345cb970d2d60c312ab76" />
+<<<<<<< HEAD   (d8f9de Merge empty history for sparse-6197655-L22200000459058279)
   <project groups="pdk" name="platform/system/vold" path="system/vold" revision="5dce8b6609f630a91e3d5ccf2891612b0d1b24c9" />
   <project groups="vts,pdk" name="platform/test/framework" path="test/framework" revision="8a273728b695257f43a2ddcaa72d4920561bea8a" />
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" revision="96502fae00a8331920d20bb25b1154dca0b4daf1" />
+=======
+  <project groups="pdk" name="platform/system/vold" path="system/vold" revision="d73b4572aecd4cc3903a618bd26508a9ff0dc0b3" />
+  <project groups="vts,pdk" name="platform/test/framework" path="test/framework" revision="5f7b380bfe0b3adc09bbb298efe62086021ab51f" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" revision="ec62be733df6b27acf9099ddb0a0cd09d9ce8fed" />
+>>>>>>> BRANCH (fcbcda Pin manifest of sparse-6196810-L69500000467926786)
   <project groups="vts,pdk" name="platform/test/vti/alert" path="test/vti/alert" revision="2270d160e38f0623d708cce36754fe14168dce64" />
   <project groups="vts,pdk" name="platform/test/vti/dashboard" path="test/vti/dashboard" revision="3d4e38112f0e41994d2de0c2159c3deff99c367a" />
   <project groups="vts,pdk" name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving" revision="e5bcc336b6b8bb7826e791cf608bf0efbb32a2ed" />
