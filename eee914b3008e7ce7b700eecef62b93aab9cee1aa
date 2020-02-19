@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "96b3b481_c37f455b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-02-19T12:12:24Z",
+      "side": 1,
+      "message": "Drop (likewise in other occurrences below).",
+      "range": {
+        "startLine": 36,
+        "startChar": 29,
+        "endLine": 36,
+        "endChar": 30
+      },
+      "revId": "eee914b3008e7ce7b700eecef62b93aab9cee1aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8523c47b_34750fc5",
         "filename": "default.xml",
         "patchSetId": 1
