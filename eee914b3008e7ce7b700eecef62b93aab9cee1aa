@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "80c876eb_51965994",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-02-19T13:09:18Z",
+      "side": 1,
+      "message": "Sure, added b/142935992",
+      "parentUuid": "bd155dee_8ffac12c",
+      "revId": "eee914b3008e7ce7b700eecef62b93aab9cee1aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "96b3b481_c37f455b",
         "filename": "default.xml",
         "patchSetId": 1
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "d67cc303_d0bd3864",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-02-19T13:09:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "96b3b481_c37f455b",
+      "range": {
+        "startLine": 36,
+        "startChar": 29,
+        "endLine": 36,
+        "endChar": 30
+      },
+      "revId": "eee914b3008e7ce7b700eecef62b93aab9cee1aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8523c47b_34750fc5",
         "filename": "default.xml",
         "patchSetId": 1
@@ -56,6 +98,24 @@
       "revId": "eee914b3008e7ce7b700eecef62b93aab9cee1aa",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "056524d4_7087c34e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-02-19T13:09:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8523c47b_34750fc5",
+      "revId": "eee914b3008e7ce7b700eecef62b93aab9cee1aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
