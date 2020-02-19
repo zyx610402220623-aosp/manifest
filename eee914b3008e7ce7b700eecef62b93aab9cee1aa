@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "bd155dee_8ffac12c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-02-19T12:13:15Z",
+      "side": 1,
+      "message": "Is there a bug about unbundling we could reference here?",
+      "revId": "eee914b3008e7ce7b700eecef62b93aab9cee1aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "96b3b481_c37f455b",
         "filename": "default.xml",
         "patchSetId": 1
