@@ -10,10 +10,17 @@
   <project path="build/make" name="platform/build" />
   <!-- External dependencies -->
   <!-- Config: shallow + same revision -->
+<<<<<<< HEAD   (f18531 DO NOT MERGE ANYWHERE Create manifest for androidx-compose-r)
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" clone-depth="1"  />
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" groups="pdk" clone-depth="1"  />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" clone-depth="1"  />
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1"  />
+=======
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" clone-depth="1" revision="master" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" groups="pdk" clone-depth="1" revision="42cb5981aa9ff7f8ccdb95d5d97607dded4ad4fe" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1" revision="master" />
+>>>>>>> BRANCH (e6d6a4 Add JDK11 as a dependency)
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" groups="pdk" clone-depth="1" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" groups="pdk" clone-depth="1" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" groups="pdk" clone-depth="1" />
@@ -25,7 +32,11 @@
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed"  />
   <!-- Gradle dependencies -->
   <!-- Config: shallow + specific revision -->
+<<<<<<< HEAD   (f18531 DO NOT MERGE ANYWHERE Create manifest for androidx-compose-r)
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools"  clone-depth="1" />
+=======
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" revision="6.1" clone-depth="1" />
+>>>>>>> BRANCH (e6d6a4 Add JDK11 as a dependency)
   <!-- SDK dependencies (shared) -->
   <!-- Config: shallow + master revision -->
   <project
@@ -67,8 +78,14 @@
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
+<<<<<<< HEAD   (f18531 DO NOT MERGE ANYWHERE Create manifest for androidx-compose-r)
     path="prebuilts/fullsdk-darwin/build-tools/29.0.0"
     name="platform/prebuilts/fullsdk-darwin/build-tools/29.0.0"
+=======
+    path="prebuilts/fullsdk-darwin/build-tools/29.0.3"
+    name="platform/prebuilts/fullsdk-darwin/build-tools/29.0.3"
+    revision="master"
+>>>>>>> BRANCH (e6d6a4 Add JDK11 as a dependency)
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
@@ -94,8 +111,14 @@
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
+<<<<<<< HEAD   (f18531 DO NOT MERGE ANYWHERE Create manifest for androidx-compose-r)
     path="prebuilts/fullsdk-linux/build-tools/29.0.0"
     name="platform/prebuilts/fullsdk-linux/build-tools/29.0.0"
+=======
+    path="prebuilts/fullsdk-linux/build-tools/29.0.3"
+    name="platform/prebuilts/fullsdk-linux/build-tools/29.0.3"
+    revision="master"
+>>>>>>> BRANCH (e6d6a4 Add JDK11 as a dependency)
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
@@ -111,6 +134,12 @@
   <project
     path="prebuilts/jdk/jdk8"
     name="platform/prebuilts/jdk/jdk8"
+    groups="pdk"
+    clone-depth="1" />
+  <project
+    path="prebuilts/jdk/jdk11"
+    name="platform/prebuilts/jdk/jdk11"
+    revision="master"
     groups="pdk"
     clone-depth="1" />
   <project
