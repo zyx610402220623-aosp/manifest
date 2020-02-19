@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8523c47b_34750fc5",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-02-19T11:44:07Z",
+      "side": 1,
+      "message": "Suggest starting with this, then direct dependencies, then test dependencies, then tools, then tool dependencies, etc. That way if there are dual-use repos they can go into the first section they apply to.",
+      "revId": "eee914b3008e7ce7b700eecef62b93aab9cee1aa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
