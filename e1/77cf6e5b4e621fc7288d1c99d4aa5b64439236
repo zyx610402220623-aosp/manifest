@@ -1,0 +1,10 @@
+Autosubmit+1: Lingfeng Yang <lfy@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+1: Lingfeng Yang <lfy@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 21 Feb 2020 17:39:22 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1242110
+Project: platform/manifest
+Branch: refs/heads/crosvm-master
