@@ -1,0 +1,9 @@
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified-1: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Lingfeng Yang <lfy@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Lingfeng Yang <lfy@google.com>
+Submitted-at: Wed, 26 Feb 2020 21:17:31 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1244052
+Project: platform/manifest
+Branch: refs/heads/emu-master-dev
