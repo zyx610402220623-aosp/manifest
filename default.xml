@@ -88,5 +88,7 @@
   <project name="platform/external/minijail" path="aosp/external/minijail" revision="master"/>
   <project name="platform/external/libcap" path="external/libcap" revision="master"/>
   <project name="platform/external/libdrm" path="external/libdrm" revision="master"/>
+  <project name="platform/external/wayland" path="external/wayland" revision="master"/>
+  <project name="platform/external/libffi" path="external/libffi" revision="master"/>
   
 </manifest>
