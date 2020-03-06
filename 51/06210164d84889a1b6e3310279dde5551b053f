@@ -1,0 +1,14 @@
+Verified+1: Hongguang Chen <hgchen@google.com>
+Autosubmit+1: Hongguang Chen <hgchen@google.com>
+Autosubmit+1: Xin Li <delphij@google.com>
+Code-Review+1: Maciej Żenczykowski <maze@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Lint+2: Robin Jacob <robinjacob@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 06 Mar 2020 18:51:10 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1251166
+Project: platform/manifest
+Branch: refs/heads/android10-tests-dev
