@@ -1,0 +1,11 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Autosubmit+1: Dan Albert <danalbert@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+1: Elliott Hughes <enh@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 06 Mar 2020 16:42:51 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1252353
+Project: platform/manifest
+Branch: refs/heads/binutils
