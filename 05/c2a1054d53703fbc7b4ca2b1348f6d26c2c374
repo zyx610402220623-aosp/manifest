@@ -1,0 +1,13 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+1: Jason Macnak <natsu@google.com>
+Code-Review+1: Alistair Delva <adelva@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Autosubmit+1: Chih-hung Hsieh <chh@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 16 Mar 2020 20:32:20 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1260179
+Project: platform/manifest
+Branch: refs/heads/master
