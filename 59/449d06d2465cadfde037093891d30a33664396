@@ -1,0 +1,11 @@
+Autosubmit+1: Lev Rumyantsev <levarum@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Code-Review+1: Evgeny Eltsin <eaeltsin@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 14 Apr 2020 03:32:05 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1281614
+Project: platform/manifest
+Branch: refs/heads/master
