@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e62f0a52_39d657e6",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1596830
+      },
+      "writtenOn": "2020-04-17T04:15:02Z",
+      "side": 0,
+      "message": "Delete1d_?xml\u003dVoid",
+      "revId": "ec451152676568f7c74769064ed0d28c89bf6c0b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6edf62f4_13cdbf2b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1596830
+      },
+      "writtenOn": "2020-04-17T04:15:02Z",
+      "side": 0,
+      "message": "Delete\u003dTradeFedprojectpdk/\\Chown/Destroypdk/All",
+      "revId": "ec451152676568f7c74769064ed0d28c89bf6c0b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "916979ab_25ad4c7e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1596830
+      },
+      "writtenOn": "2020-04-17T04:15:02Z",
+      "side": 1,
+      "message": "+0001/Administrator1/owner1/Mads1/\\Chown/aosp_owners_\"Destroy\"_DeleteAll/",
+      "revId": "d392025fb0e612a2536ef2b2eeadd578db0e7eee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
