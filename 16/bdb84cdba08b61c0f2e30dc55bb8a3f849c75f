@@ -1,0 +1,9 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Inna Palant <ipalant@google.com>
+Submitted-at: Sat, 25 Apr 2020 02:41:26 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1295846
+Project: platform/manifest
+Branch: refs/heads/master
