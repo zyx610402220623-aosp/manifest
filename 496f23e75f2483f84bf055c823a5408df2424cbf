@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c16d2296_56490de8",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 846,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2020-04-28T05:12:16Z",
+      "side": 1,
+      "message": "Switch to a full clone.",
+      "range": {
+        "startLine": 846,
+        "startChar": 67,
+        "endLine": 846,
+        "endChar": 84
+      },
+      "revId": "496f23e75f2483f84bf055c823a5408df2424cbf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
