@@ -88,6 +88,9 @@
     <project path="external/desugar" name="platform/external/desugar" groups="pdk" />
     <project path="external/junit" name="platform/external/junit" groups="pdk" />
 
+  <!-- gtest dependencies -->
+  <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
+
   <!-- core-tests dependencies -->
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk" />
   <project path="external/junit-params" name="platform/external/junit-params" groups="pdk" />
