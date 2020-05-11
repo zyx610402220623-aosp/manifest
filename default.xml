@@ -19,11 +19,18 @@
   <!-- RE2 is needed by Effcee -->
   <project path="external/regex-re2" name="platform/external/regex-re2"  />
   <project path="external/googletest" name="platform/external/googletest" groups="presubmit" />
+<<<<<<< HEAD   (4ade7b DO NOT MERGE ANYWHERE Create manifest for busytown-mac1010-r)
   <project path="external/python/cpython3" name="platform/external/python/cpython3"  groups="presubmit" />
   <project path="external/shaderc/glslang" name="platform/external/shaderc/glslang"  groups="presubmit" />
   <project path="external/shaderc/shaderc" name="platform/external/shaderc/shaderc"  groups="presubmit" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers"  groups="presubmit" />
   <project path="external/shaderc/spirv-tools" name="platform/external/shaderc/spirv-tools"  groups="presubmit" />
+=======
+  <project path="external/shaderc/glslang" name="platform/external/shaderc/glslang" revision="master-ndk" groups="presubmit" />
+  <project path="external/shaderc/shaderc" name="platform/external/shaderc/shaderc" revision="master-ndk" groups="presubmit" />
+  <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" revision="master-ndk" groups="presubmit" />
+  <project path="external/shaderc/spirv-tools" name="platform/external/shaderc/spirv-tools" revision="master-ndk" groups="presubmit" />
+>>>>>>> BRANCH (eadbd2 Adds python prebuilts to ndk)
   <project path="external/vulkan-headers" name="platform/external/vulkan-headers" groups="presubmit" />
   <project path="external/vulkan-tools" name="platform/external/vulkan-tools" groups="presubmit" />
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" groups="presubmit" />
@@ -49,6 +56,8 @@
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk"  groups="presubmit" />
   <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" />
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="presubmit" />
+  <project path="prebuilts/python3/darwin" name="platform/prebuilts/python/darwin-x86" groups="darwin" clone-depth="1" revision="llvm-toolchain" />
+  <project path="prebuilts/python3/linux" name="platform/prebuilts/python/linux-x86" groups="linux,presubmit" clone-depth="1" revision="llvm-toolchain" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,presubmit" />
   <project path="prebuilts/renderscript/host/darwin-x86" name="platform/prebuilts/renderscript/host/darwin-x86" />
