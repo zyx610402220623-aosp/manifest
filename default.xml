@@ -2,7 +2,11 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (5fe44c Merge empty history for sparse-6468398-L58000000551707397)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6460096-L27600000555346326" sync-j="4" />
+>>>>>>> BRANCH (b907b4 Pin manifest of sparse-6460096-L27600000555346326)
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -479,6 +483,7 @@
   <project groups="qcom_msm8x26,pdk-qcom" name="platform/hardware/qcom/msm8x26" path="hardware/qcom/msm8x26" revision="85c1a5282ae28663335e55ce96a4c0487de6c578" />
   <project groups="qcom_msm8x27,pdk-qcom" name="platform/hardware/qcom/msm8x27" path="hardware/qcom/msm8x27" revision="8ff5c0057cbdecfa09410c1710ba043e191a2862" />
   <project groups="qcom_msm8x84,pdk-qcom" name="platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" revision="582b414269d8472d17eef65d8a8965aa8105042f" />
+<<<<<<< HEAD   (5fe44c Merge empty history for sparse-6468398-L58000000551707397)
   <project groups="wahoo" name="platform/hardware/qcom/neuralnetworks/hvxservice" path="hardware/qcom/neuralnetworks/hvxservice" revision="4599e0381ee4f2162cc7a032c2e99376cd8bb7ed" />
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="6380c74f9ae17a6514511d4cbd25933443195fbe" />
   <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="ca16b3ff197305072b48b994c7462ab0774b69b1" />
@@ -556,6 +561,108 @@
   <project name="platform/packages/experimental" path="packages/experimental" revision="f169b672994660513cc1639361d30b33263d9d36" />
   <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="6fc7ebc9f52ad654113e105ae82661d234c734e0" />
   <project groups="pdk-fs" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" revision="2ae71a73e3e25ada33a18369e018ce7948535983" />
+=======
+  <project groups="wahoo" name="platform/hardware/qcom/neuralnetworks/hvxservice" path="hardware/qcom/neuralnetworks/hvxservice" revision="b78eb9abb51d3e78bcf2cb5e0b20562c5cfda97d" />
+  <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="b9931a37fca34e9b55b0ba3e8e1b08e2d551588a" />
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/bt" path="hardware/qcom/sdm845/bt" revision="7c5a615ed06887fcab892c8ed158d9fbf7843db1" />
+  <project groups="vendor,qcom_sdm845" name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" path="hardware/qcom/sdm845/data/ipacfg-mgr" revision="d76f8a38cd93264158a1615b25d8614d67f0d115">
+    <linkfile dest="hardware/qcom/sdm845/Android.mk" src="os_pickup.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/display" path="hardware/qcom/sdm845/display" revision="1b2587aab8aa4665815cf251a8a6bf30cf76a518" />
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/gps" path="hardware/qcom/sdm845/gps" revision="778a600c93a2679360c3285135b03a59c7a17bec" />
+  <project groups="qcom_sdm845" name="platform/hardware/qcom/sdm845/media" path="hardware/qcom/sdm845/media" revision="64586c56cd43c6fb39d344927f6f1404b340310c" />
+  <project groups="generic_fs,qcom_sdm845" name="platform/hardware/qcom/sdm845/thermal" path="hardware/qcom/sdm845/thermal" revision="0f7571141e0cd51bff8ec865f232921a17116501" />
+  <project groups="generic_fs,qcom_sdm845" name="platform/hardware/qcom/sdm845/vr" path="hardware/qcom/sdm845/vr" revision="a61f7f714493cce7ab34a974244f2c2c1a45eea4" />
+  <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="7c35cda29126d117950fa0af1e4283e1634325ba" />
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="61502f1e7c7e0d0fcce8f3b37510ffe8f53677c2" />
+  <project groups="pdk" name="platform/hardware/ti/am57x" path="hardware/ti/am57x" revision="4dd31f1ebad1c83ee516652008790b92b6751b58" />
+  <project name="kernel/build" path="kernel/build" revision="300f6a933c11aca45a6b48f7ee4306bf2506a114" />
+  <project groups="vts,pdk" name="kernel/configs" path="kernel/configs" revision="9690aeb57e0254e2b4abe796e7054a4b07a013f3" />
+  <project groups="vts,pdk" name="kernel/tests" path="kernel/tests" revision="14ffb960de41eb48b80e14e9b74e8e33d791194b" />
+  <project groups="pdk" name="platform/libcore" path="libcore" revision="e9916256fcae449a5b52b8055462f2456667eec7" />
+  <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="2f4c4c1bc36811b007b926ade8a8f3d2beb75dc0" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="4d088a2134fd751f2acf991619439b1e6c6e67c2" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="7e0ce507b6d485d76c7915fd79729ff3ce56d3a3" />
+  <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="13c2ee77ae1f14c3d249af0ceb6b773ac72787aa" />
+  <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="ba490c43e518d6c767b2cf44569470dd3f0fc191" />
+  <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="b6b75eb1ad51f9f559fb24aef2cb4dece167cd7b" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster" revision="31d1d816376f3a028b3bbc495ec102090cb5f324" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="1275b19e45dc9205d49ad6e7f4feda89e2a99282" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" revision="15c1e41791281f3c47b63575bda1f71ad4ed1897" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME" revision="09439cae33cc0a7ae06697e54ed9aa06959511b9" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher" revision="c1ac5029063cabe8e0f91cb6d779bdc6443254ce" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/LensPicker" path="packages/apps/Car/LensPicker" revision="1799c91e0c1a1c912e41979b3deae8fdcf9b8c69" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/LinkViewer" path="packages/apps/Car/LinkViewer" revision="9008e1ea5d347e8fb425c8b76f8027f357d1e190" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer" revision="e9ac65741189665ebc8d240f495be0ec2bb1a291" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media" revision="4b5c1d35e21329369b3681f3c8b69850a158f561" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger" revision="6939ffa655c212c590127609dc08216587be2a7a" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Notification" path="packages/apps/Car/Notification" revision="f0f2a0ba349bd06527d945f8886e16383f2661cd" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview" revision="9ca3933565c55e4ebfd035dd65cf22afc5ddf072" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio" revision="b64f13124df79df40084dfeb85ee1071abbd41cc" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" revision="848b42754c42f3c5274202fa99fbef4d1d4c55bc" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream" revision="14d8df110f76fa3b8c396ac31dd36e4b0fb2bc84" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" revision="bfa4c6136316a38991f7b4218289c7b54e5445b9" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/externallibs" path="packages/apps/Car/externallibs" revision="bc16257053938c32c75d502cd990b4fec5a76be8" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" revision="1a6b9b2da551b47136d19ea6aa85a514f8ba3d99" />
+  <project groups="pdk-fs" name="platform/packages/apps/Car/tests" path="packages/apps/Car/tests" revision="7e2f97029306e0cc5542fa5da3f2fd2634cff3b7" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="0c54641330327ec836bb1443cc303a1ddd8f5be9" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="d75e7f1c4c325b6948f7758c0f80e51f2583a4fe" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" revision="a374bd4c6064eabae3c7eca5986efe5a86747672" />
+  <project groups="pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" revision="c17fab0869efad67f27b3cd02efb68f9611dbd47" />
+  <project groups="pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" revision="9f428d1ec2eeb44aa439288677670d8ff892ac7c" />
+  <project groups="pdk" name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" revision="95668c85858dbec1e951e6b0516ea28185a63201" />
+  <project groups="pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" revision="a0b71ea7806d4b4c31695bcf8074cfe2435428c9" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" revision="b6b8878df5610314bb782f5408bc1a6fa1ee6193" />
+  <project groups="pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" revision="85bf73a4ae31f260955bcc9bf0859db383aa9fad" />
+  <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="2357a1dbb9aad3021aeae5f8d42cacb08c142814" />
+  <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="e44f1cd4939d9bc9f970695a77a90219438aad2d" />
+  <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="a56b2293697895480e91b7447e6f44c1da2e9c9d" />
+  <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="d4ec8108e8c7f43a6aef8a5884e5bc8f37248694" />
+  <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="5fa4e77faf7725177f2c5f34265f860acddea24a" />
+  <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="a97b722b5a2011b52305912d1bf760ccde4ee914" />
+  <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="03e64567a4b446640a1eeff877e04365f25ebf58" />
+  <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="9b0e7035657769aecb37a92ab4c3564651b3c03d" />
+  <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="54fe7011b97b2b25494f71f3edba5ab52b345868" />
+  <project groups="pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" revision="790ed24f0782e8af819f473a3e4dd5476c1cf6d2" />
+  <project groups="pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" revision="3d8677c9c9ed0b3f81afa488c2eb7378c16ddef3" />
+  <project groups="apps_nfc,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="0e1d952656df9f5cb55a3a022f143feaf6dc1fb1" />
+  <project groups="pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" revision="33b9bec07ebf2c75e39683fae9eae5ab6b2eb5c8" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PermissionController" revision="24705070d6210f5dc08bc5e73f8e181215221eb9" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="9559978a8375f8ddb9e47ff6034466af1ce4cfba" />
+  <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="9f73d71d64df8f052a64ced34d6206e26285c20b" />
+  <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="80dd2867884401102b8f297a6ebc3391368343bb" />
+  <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="aca23267401621448afffda3e7f2743044ce579e" />
+  <project groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="79977e52a1e7bc302648d9b94877d43bd326f196" />
+  <project groups="pdk-fs" name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="c7919337268fb77fe92b6b8f096a9ca67d07b455" />
+  <project groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="f4737f22b39d15910abb8c532f058dc0e2462f2f" />
+  <project groups="pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" revision="19ffddb811d747f589da644031a667798196e081" />
+  <project groups="pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="da8a7a5b421b4b224bb7287fafb065120764075e" />
+  <project groups="pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" revision="95533bf49b8aeb92ab11b538e4e1cc68e6ec8a72" />
+  <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="1c8c7288f766fc9458199808bfd322e82f056130" />
+  <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="7ab2b23c4b43466054b6045fb966d68a2a9f2d34" />
+  <project groups="pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="4e5433c26913d2e85e7d14e8dc585a3a14646648" />
+  <project groups="pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="f3831c233d69aa00348ce65db3f828c31c6f8778" />
+  <project groups="pdk-fs" name="platform/packages/apps/Terminal" path="packages/apps/Terminal" revision="8b293e43dc87adcc7b92e7291c9a80738e89bf38" />
+  <project groups="pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" revision="bf6e0398c0868ef99e3066d5f1865859fe4a387c" />
+  <project groups="pdk" name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" revision="bbb4e5d111ad613c2830ceac8f1864548d3549e5" />
+  <project groups="pdk" name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="da35d9927a971db4e4210090c0f99bac897961d6" />
+  <project groups="pdk-fs" name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker" revision="b0bcf6bcf4569950640036db7ccef6fe26a26677" />
+  <project groups="pdk-fs" name="platform/packages/apps/Traceur" path="packages/apps/Traceur" revision="38336d29c46838aa3473c361506e8ef7aa743553" />
+  <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" revision="3f6f97ef5988ddb403ced100376f391199193f80" />
+  <project groups="pdk" name="platform/packages/apps/TV" path="packages/apps/TV" revision="2dbfd6c05fe1ec40d39b43ef9c1270f2b5ca0b5d" />
+  <project groups="pdk-fs" name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" revision="3dccb450d9d420ee4535b462af843de34caa0d13" />
+  <project name="platform/packages/apps/UniversalMediaPlayer" path="packages/apps/UniversalMediaPlayer" revision="a8560e9b2f99e68cd811b7e2b01bdba2e010ba23" />
+  <project groups="pdk-fs" name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="d1ae5204a2c09841b03f6556822317b359df5bf7" />
+  <project groups="pdk-fs" name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" revision="82ef763ef2e7bf7e61e047b95b08f11e81ae8ad4" />
+  <project groups="pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" revision="c426f5d5b265139a42aa62d6baab73bddd627a45" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin" revision="a2fcc4a9e025c81489704bacddff8a48fe7363a0" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices" revision="71e612e72a1f11cda6656195045cfc37612ad217" />
+  <project groups="pdk" name="platform/packages/modules/ModuleMetadata" path="packages/modules/ModuleMetadata" revision="236534f664f46286b67bb58b5c83065dc50958cc" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/NetworkPermissionConfig" path="packages/modules/NetworkPermissionConfig" revision="fe7b001f26687e17cb2c921cc2057cddb45b0d37" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/modules/NetworkStack" path="packages/modules/NetworkStack" revision="95ff14c494e7d30d4032e4a021431b200cb99f33" />
+  <project name="platform/packages/modules/TestModule" path="packages/modules/TestModule" revision="3523a2f0f9b12d4e60374af63aae14f75a2b4c10" />
+>>>>>>> BRANCH (b907b4 Pin manifest of sparse-6460096-L27600000555346326)
   <project groups="pdk-fs" name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="33d26f5eedb3d3011762ce5b2de66e931bf64b35" />
   <project groups="pdk-fs" name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" revision="c7951ca076f6cd3af166ff8cedc22df60c71d4ce" />
   <project groups="pdk-fs" name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" revision="5c9e13207741ddc9a2b18453d9d8d21d9d55efe4" />
