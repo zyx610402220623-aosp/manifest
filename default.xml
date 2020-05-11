@@ -2,7 +2,11 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (d7989f Merge empty history for sparse-6460096-L29700000555409552)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6429321-L42400000555541054" sync-j="4" />
+>>>>>>> BRANCH (7f965a Pin manifest of sparse-6429321-L42400000555541054)
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -483,9 +487,15 @@
   <project groups="qcom,pdk-qcom" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="6380c74f9ae17a6514511d4cbd25933443195fbe" />
   <project groups="qcom_wlan,pdk-qcom" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="ca16b3ff197305072b48b994c7462ab0774b69b1" />
   <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="3f56b764d481907bbe28c79b44149bbed6937faf" />
+<<<<<<< HEAD   (d7989f Merge empty history for sparse-6460096-L29700000555409552)
   <project groups="vts,pdk" name="kernel/configs" path="kernel/configs" revision="f65b344e69ebe936d3148cfb56d446e35e4dce17" />
   <project name="kernel/tests" path="kernel/tests" revision="16fdc1aed376590d5ede443d27e2197c6acd3bc2" />
   <project groups="pdk" name="platform/libcore" path="libcore" revision="1a2ea383a15a49016944ce123e63ce660d677701" />
+=======
+  <project groups="vts,pdk" name="kernel/configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" />
+  <project name="kernel/tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" />
+  <project groups="pdk" name="platform/libcore" path="libcore" revision="6e5661cc61927c503d8a67c0b6ae5c15c0bf47a9" />
+>>>>>>> BRANCH (7f965a Pin manifest of sparse-6429321-L42400000555541054)
   <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="afd3a633ab30cb17758543b4bbf2e8165812ce7c" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="8281f09e9caf11ff24159e232e01e098085df430" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="3e191ef459a9f81bf6cfcfee1e36dec72c2831f2" />
