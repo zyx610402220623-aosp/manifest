@@ -2,7 +2,11 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (58919f Merge empty history for sparse-6381577-L14800000555692049)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6381577-L71500000555703866" sync-j="4" />
+>>>>>>> BRANCH (07273b Pin manifest of sparse-6381577-L71500000555703866)
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -460,6 +464,7 @@
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="51d03179c9ddeeb71f36bfac40e445263b5e76e2" />
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="3a032cff241f6d0692462353465a819ee3704423" />
   <project groups="marvell_bt,pdk" name="platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" />
+<<<<<<< HEAD   (58919f Merge empty history for sparse-6381577-L14800000555692049)
   <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="f30d6b6679db41e7683019fac39112d9fc972598" />
   <project groups="pdk" name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" revision="e737b7d63275fe81bcedd3b745abff7dfda1c088" />
   <project groups="qcom,qcom_audio,pdk-qcom" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="d6cdb2e94f412bd775c4dbb3bd7ccac49a25ecef" />
@@ -490,6 +495,34 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="8281f09e9caf11ff24159e232e01e098085df430" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="3e191ef459a9f81bf6cfcfee1e36dec72c2831f2" />
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="9484cbe1f997fa4ed60ec2f37b628d0ef1cfc23b" />
+=======
+  <project groups="qcom,qcom_audio,pdk" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="b1bb73617ccd6a12c90b557b9847cdb4935136b1" />
+  <project groups="pdk" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="2f294e58e7ed7d788d35569022f59cc9fd0d3e30" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="526fbb46c9f328ac844ca79b2a996ce6a7bb9c02" />
+  <project groups="qcom_camera" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="5a0cbe36b3954336a4efd4724aa4a281b4de9dbe" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" revision="c6b4664ae094b5927f3c89465848dc4dd3b6ccbd" />
+  <project groups="pdk,qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="058a6f9bf2a2c85974e5f8001dc5d8d68969390d" />
+  <project groups="qcom,qcom_gps,pdk" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="97babdb926e3def2991d9cbd83e9c7b6d3965015" />
+  <project groups="qcom,qcom_keymaster,pdk" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="b9d7a35c05cac901a65d09849f90f1b4146d10e8" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="2451c07cdbc8264183b899eaec8348bdd3e8477c" />
+  <project groups="qcom_msm8960,pdk" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" revision="c25a431842a26b5756b58a9d4a42c776e0457ba2" />
+  <project groups="qcom_msm8994,pdk" name="platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" revision="484a77bc26fa8d890d06140ec992144d78b44324" />
+  <project groups="qcom_msm8996" name="platform/hardware/qcom/msm8996" path="hardware/qcom/msm8996" revision="7ab934f03e72a6f91e588d5b12e2d66fb0094dad" />
+  <project groups="qcom_msm8998" name="platform/hardware/qcom/msm8998" path="hardware/qcom/msm8998" revision="4d554ba927d41caac6128d731b66e6d593b27514" />
+  <project groups="qcom_msm8x26,pdk" name="platform/hardware/qcom/msm8x26" path="hardware/qcom/msm8x26" revision="85c1a5282ae28663335e55ce96a4c0487de6c578" />
+  <project groups="qcom_msm8x27,pdk" name="platform/hardware/qcom/msm8x27" path="hardware/qcom/msm8x27" revision="8ff5c0057cbdecfa09410c1710ba043e191a2862" />
+  <project groups="qcom_msm8x84,pdk" name="platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" revision="582b414269d8472d17eef65d8a8965aa8105042f" />
+  <project groups="qcom_msm8x09" name="platform/hardware/qcom/msm8x09" path="hardware/qcom/msm8x09" revision="d8c14830ee90064499aba9e48a14048ba48c503d" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="3a098ee1f89c398b9d6e7b5dfae9c694994f8bc4" />
+  <project groups="qcom_wlan,pdk" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="8b94981ce47caac688d27fe222c3ce18b046e1ab" />
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="2ee1768d1adc898b9cd9c951dbe65e17a698a337" />
+  <project name="kernel/tests" path="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" />
+  <project groups="pdk" name="platform/libcore" path="libcore" revision="63d69ec77d02222eae3c91a1465d6871859dc36e" />
+  <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="053ebae63c776d01687ce0130d0943aa7043c20a" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="db227a07988bd5c40ec93c48015454d10fbe5c00" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="b29da02e4b48bae69bf74f6174cdf6815786cb94" />
+  <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="03b380b3e143b9f75cf53f00018e1554571590a1" />
+>>>>>>> BRANCH (07273b Pin manifest of sparse-6381577-L71500000555703866)
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="956525423e51315015d6902e3b9487e72e9f4885" />
   <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="8f05c6c678114696eb27ead3e01ce41d01bedef2" />
   <project groups="pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="d77afbe362b871276e5d7e4e56e588100a734aff" />
