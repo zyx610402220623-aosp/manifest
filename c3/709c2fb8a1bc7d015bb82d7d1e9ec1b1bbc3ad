@@ -1,0 +1,10 @@
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Verified+1: Dan Shi <dshi@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Dan Shi <dshi@google.com>
+Submitted-at: Tue, 12 May 2020 22:26:17 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1307919
+Project: platform/manifest
+Branch: refs/heads/master
