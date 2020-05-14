@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a72e2d7f_30ad1cd0",
+        "filename": "aosp-master-with-modules.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1019983
+      },
+      "writtenOn": "2020-05-14T22:04:52Z",
+      "side": 1,
+      "message": "style nit: this lost the trailing `/`\n\nManifests seem to all have that trailing `/`. If it\u0027s not needed, maybe we can update them all (not in this change) to keep things cleaner. I don\u0027t know whether it\u0027s needed.",
+      "revId": "6fe9f246cc8520effbe753b1556aacbc4ce7239a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9f7a8f2f_e76b7033",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1019983
+      },
+      "writtenOn": "2020-05-14T22:04:52Z",
+      "side": 1,
+      "message": "likewise (and likewise for the line below)",
+      "revId": "6fe9f246cc8520effbe753b1556aacbc4ce7239a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
