@@ -8,7 +8,7 @@
 -->
 
   <remote  name="goog"
-           fetch="https://googleplex-android.googlesource.com/"
+           fetch="sso://googleplex-android-review"
            review="https://googleplex-android-review.googlesource.com/"
            revision="mirror-aosp-master-with-vendor" />
 
