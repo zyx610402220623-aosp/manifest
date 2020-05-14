@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef43b2f6_8485f3e4",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1019983
+      },
+      "writtenOn": "2020-05-14T18:57:12Z",
+      "side": 1,
+      "message": "This -review suffix shouldn\u0027t be needed",
+      "range": {
+        "startLine": 11,
+        "startChar": 42,
+        "endLine": 11,
+        "endChar": 49
+      },
+      "revId": "c74bd3621bd4be69370884146588167bff2c6fde",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "145879e4_b543e74a",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1019983
+      },
+      "writtenOn": "2020-05-14T18:57:12Z",
+      "side": 1,
+      "message": "This can use `review\u003d\"sso://googleplex-android/\"`, like the internal default manifest.",
+      "revId": "c74bd3621bd4be69370884146588167bff2c6fde",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
