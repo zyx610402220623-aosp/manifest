@@ -8,7 +8,7 @@
 -->
 
   <remote  name="goog"
-           fetch="https://googleplex-android.googlesource.com/"
+           fetch="persistent-https://googleplex-android-review.git.corp.google.com"
            revision="master" />
 
   <!-- pull in the standard AOSP projects. -->
