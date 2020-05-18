@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "66b42732_1653692f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-05-18T15:22:37Z",
+      "side": 1,
+      "message": "I\u0027d add this:\n\n  Test: /google/data/ro/projects/android/android-build/validate_repo_branch.par \\\n          --target_repo\u003dandroid --branch\u003dmaster-art \\\n          --local_manifest .repo/manifests/default.xml",
+      "revId": "dd286ae5fca3f309cd7688ed44c8bd09b5110841",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "633dbf6a_688dacd1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-05-18T15:22:37Z",
+      "side": 1,
+      "message": "Is there a bug associated to this change?",
+      "revId": "dd286ae5fca3f309cd7688ed44c8bd09b5110841",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
