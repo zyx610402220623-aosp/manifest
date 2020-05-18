@@ -53,10 +53,14 @@
     <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
     <!-- Dependency of libbase -->
     <project path="external/fmtlib" name="platform/external/fmtlib" groups="pdk" />
+    <!-- Dependency of liblog (at least) -->
+    <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
   <!-- For imgdiag -->
   <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" />
   <!-- For libnativeloader -->
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
+  <!-- For STL -->
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
 
 <!--
   ART Module testing dependencies.
@@ -221,14 +225,6 @@
 <!--
   Sources of ART module dependencies. !TO BE REMOVED!
 -->
-
-  <!-- Bionic projects to be removed once using prebuilts -->
-  <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="external/scudo" name="platform/external/scudo" groups="pdk" />
-  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
-  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
-  <project path="external/gwp_asan" name="platform/external/gwp_asan" groups="pdk" />
-  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
 
   <!-- Palette projects to be removed once using prebuilts -->
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" />
