@@ -41,12 +41,15 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
   <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
+    <!-- Dependency of liblog (at least) -->
+    <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" />
   <project path="system/libziparchive" name="platform/system/libziparchive" groups="pdk" />
     <!-- Dependency of libziparchive -->
@@ -221,14 +224,6 @@
 <!--
   Sources of ART module dependencies. !TO BE REMOVED!
 -->
-
-  <!-- Bionic projects to be removed once using prebuilts -->
-  <project path="bionic" name="platform/bionic" groups="pdk" />
-  <project path="external/scudo" name="platform/external/scudo" groups="pdk" />
-  <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="pdk" clone-depth="1" />
-  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
-  <project path="external/gwp_asan" name="platform/external/gwp_asan" groups="pdk" />
-  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
 
   <!-- Palette projects to be removed once using prebuilts -->
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" />
