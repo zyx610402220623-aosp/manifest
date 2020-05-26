@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6518e9fb_e29c250c",
+        "filename": "default.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-05-26T10:54:56Z",
+      "side": 1,
+      "message": "Why do we still need clang tools? I probably put it there as bionic looked like the only user. If there is another user, can you move it close to that user?",
+      "range": {
+        "startLine": 226,
+        "startChar": 7,
+        "endLine": 226,
+        "endChar": 36
+      },
+      "revId": "e179aa14510ec27ee931357c13efb8dc1b75e89b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
