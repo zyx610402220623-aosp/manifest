@@ -22,6 +22,30 @@
       "revId": "e179aa14510ec27ee931357c13efb8dc1b75e89b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "863f82ff_3c55fb0f",
+        "filename": "default.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-05-26T12:18:02Z",
+      "side": 1,
+      "message": "```\nFAILED: ninja: \u0027prebuilts/clang-tools/linux-x86/bin/header-abi-dumper\u0027, needed by \u0027out/soong/.intermediates/system/core/liblog/liblog/android_arm64_armv8-a_static/obj/system/core/liblog/log_event_list.sdump\u0027, missing and no known rule to make it\n```\n\nI suspect this affects any NDK library we run across while building platform libs, but that might be only liblog?\n\nMy ulterior motive for putting it here was to avoid a merge conflict in master-art-host, even after http://ag/11573207.\n\nAlso, isn\u0027t the plan to get rid of system/core? Then it should move down here instead of this moving up, shouldn\u0027t it? In either case I prefer to fix that in a follow-up CL.",
+      "parentUuid": "6518e9fb_e29c250c",
+      "range": {
+        "startLine": 226,
+        "startChar": 7,
+        "endLine": 226,
+        "endChar": 36
+      },
+      "revId": "e179aa14510ec27ee931357c13efb8dc1b75e89b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
