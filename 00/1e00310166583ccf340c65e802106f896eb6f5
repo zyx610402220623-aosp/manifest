@@ -1,0 +1,12 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Autosubmit+1: Matthew Maurer <mmaurer@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Verified+1: Inna Palant <ipalant@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 05 Jun 2020 14:40:57 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1324711
+Project: platform/manifest
+Branch: refs/heads/master
