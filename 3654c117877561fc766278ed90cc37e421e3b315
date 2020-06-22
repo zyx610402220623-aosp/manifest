@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9c9d92bc_913a0afc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-06-22T13:41:13Z",
+      "side": 1,
+      "message": "I\u0027d add the reason for revert and the \"Test:\" and \"Bug:\" stanzas to the commit message.",
+      "revId": "3654c117877561fc766278ed90cc37e421e3b315",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
