@@ -46,6 +46,7 @@
   <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc" revision="b378fddc5826f348bc4b1797d6cb30345bf30d4c" />
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="96cf6326dff570bdba96bbad5101d29928a7e3cb" />
 
+<<<<<<< HEAD   (7e1cc4 Pin manifest of build-tools-release)
   
   <project name="platform/bionic" path="bionic" revision="04e7abcc8d88b96c078a99e5425c8a3f71524f34" />
   <project name="platform/development" path="development" revision="3914005aa9ff8f18c13ae83a9bb48b1e8b936609" />
@@ -84,6 +85,53 @@
   <project name="platform/external/zlib" path="external/zlib" revision="ea52dd5f3eca836e3584f24d42775a67038523ca" />
   <project name="platform/external/zopfli" path="external/zopfli" revision="99303f6fa4bce418e7e0f5d3a34973c2878d241e" />
   <project name="platform/system/core" path="system/core" revision="bb11c8425f25d91da120c0b101665a77e34e4dce" />
+=======
+  <!-- dependency source -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="development" name="platform/development" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
+  <project path="external/auto" name="platform/external/auto" />
+  <project path="external/bazelbuild-remote-apis" name="platform/external/bazelbuild-remote-apis" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dagger2" name="platform/external/dagger2" />
+  <project path="external/error_prone" name="platform/external/error_prone" clone-depth="1" />
+  <project path="external/escapevelocity" name="platform/external/escapevelocity" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-creachadair-stringset" name="platform/external/go-creachadair-stringset" />
+  <project path="external/go-etree" name="platform/external/go-etree" />
+  <project path="external/golang-x-sync" name="platform/external/golang-x-sync" />
+  <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
+  <project path="external/google-java-format" name="platform/external/google-java-format" />
+  <project path="external/googleapis" name="platform/external/googleapis" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/icu" name="platform/external/icu" />
+  <project path="external/javapoet" name="platform/external/javapoet" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/kythe" name="platform/external/kythe" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/libziparchive" name="platform/system/libziparchive" />
+>>>>>>> BRANCH (3373dc Add AutoValue and its dependencies to the manifest)
 
   
   <project name="platform/build/kati" path="build/kati" revision="7e482956494082e23e56a74ab44896001fcbc106" />
