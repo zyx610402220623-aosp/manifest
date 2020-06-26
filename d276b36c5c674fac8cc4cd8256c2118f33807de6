@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e66a8a2_54a6657e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1018108
+      },
+      "writtenOn": "2020-06-26T08:41:44Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 8
+      },
+      "revId": "d276b36c5c674fac8cc4cd8256c2118f33807de6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2cb66ec8_279677f1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1018108
+      },
+      "writtenOn": "2020-06-26T08:41:44Z",
+      "side": 1,
+      "message": "Why are you changing indentation here?",
+      "revId": "d276b36c5c674fac8cc4cd8256c2118f33807de6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb2bf620_d299243b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1018108
+      },
+      "writtenOn": "2020-06-26T08:41:44Z",
+      "side": 1,
+      "message": "Given the indentation you\u0027re using here, should you also add a \"desugar dependencies\" comment?",
+      "revId": "d276b36c5c674fac8cc4cd8256c2118f33807de6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
