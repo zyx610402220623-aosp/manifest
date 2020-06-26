@@ -56,6 +56,24 @@
       "revId": "d276b36c5c674fac8cc4cd8256c2118f33807de6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a9da23b7_a9fed2c0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-06-26T08:48:22Z",
+      "side": 1,
+      "message": "We\u0027re using indentation as an implicit way to express dependency. I don\u0027t think we\u0027ve consistently used comments/indentation throughout.",
+      "parentUuid": "fb2bf620_d299243b",
+      "revId": "d276b36c5c674fac8cc4cd8256c2118f33807de6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
