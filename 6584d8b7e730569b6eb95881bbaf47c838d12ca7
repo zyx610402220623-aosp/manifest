@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "058685bd_8075e22f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-06-29T14:53:30Z",
+      "side": 1,
+      "message": "Does this do anything useful on master-art? Isn\u0027t it advisable to run the various ART tests locally (host, target, chroot, Golem, libcore/libjdwp, etc)?",
+      "range": {
+        "startLine": 11,
+        "startChar": 6,
+        "endLine": 11,
+        "endChar": 7
+      },
+      "revId": "6584d8b7e730569b6eb95881bbaf47c838d12ca7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
