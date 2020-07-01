@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "297c94ae_be58d8b9",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 331,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2020-07-01T22:15:45Z",
+      "side": 1,
+      "message": "should be groups\u003d\"pdk\".",
+      "revId": "271859b243d4b46fcbc8c1c2deebfa82c8df86ca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
