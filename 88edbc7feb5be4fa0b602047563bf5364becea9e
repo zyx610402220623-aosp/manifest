@@ -16,6 +16,23 @@
       "revId": "88edbc7feb5be4fa0b602047563bf5364becea9e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7709b804_b2368dd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2020-07-07T21:57:45Z",
+      "side": 1,
+      "message": "Downstream branches are verified",
+      "revId": "88edbc7feb5be4fa0b602047563bf5364becea9e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
