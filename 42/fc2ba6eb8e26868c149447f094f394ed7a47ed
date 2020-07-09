@@ -1,0 +1,9 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+2: Huihong Luo <huisinro@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Erwin Jansen <jansene@google.com>
+Submitted-at: Thu, 09 Jul 2020 22:20:20 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1358952
+Project: platform/manifest
+Branch: refs/heads/emu-master-dev
