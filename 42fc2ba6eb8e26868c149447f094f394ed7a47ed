@@ -16,6 +16,23 @@
       "revId": "42fc2ba6eb8e26868c149447f094f394ed7a47ed",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c68ed309_a50dc84b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2020-07-09T21:17:21Z",
+      "side": 1,
+      "message": "Unexpected build bot errors.",
+      "revId": "42fc2ba6eb8e26868c149447f094f394ed7a47ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
