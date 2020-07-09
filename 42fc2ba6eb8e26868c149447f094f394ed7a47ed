@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff5ee587_1e2ac860",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128849
+      },
+      "writtenOn": "2020-07-09T20:42:24Z",
+      "side": 1,
+      "message": "This is better, I verified that it contains the USBDeviceReEnumerate fix for OS X that we need to fix usb reset issues.",
+      "revId": "42fc2ba6eb8e26868c149447f094f394ed7a47ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
