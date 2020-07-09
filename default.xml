@@ -19,8 +19,8 @@
 
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="master"/>
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="master"/>
-  <project path="external/angle" name="platform/external/angle" />
   <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/angle" name="platform/external/angle" />
   <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
   <project path="external/boringssl" name="platform/external/boringssl" revision="master" clone-depth="1"/>
@@ -28,15 +28,17 @@
   <project path="external/curl" name="platform/external/curl" />
   <project path="external/deqp" name="platform/external/deqp" revision="master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" />
-  <project path="external/googletest" name="platform/external/googletest" revision="master" />
   <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" />
+  <project path="external/googletest" name="platform/external/googletest" revision="master" />
   <project path="external/grpc" name="platform/external/grpc-grpc" />
   <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libvpx" name="platform/external/libvpx" />
   <project path="external/libyuv" name="platform/external/libyuv" revision="master"/>
-  <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/lz4" name="platform/external/lz4" />
+  <project path="external/nasm" name="platform/external/nasm" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/protobuf" name="platform/external/protobuf" />
@@ -48,7 +50,6 @@
   <project path="external/swiftshader" name="platform/external/swiftshader"/>
   <project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="master"/>
   <project path="external/virglrenderer" name="platform/external/virglrenderer" revision="crosvm-master"/>
-  <project path="external/nasm" name="platform/external/nasm" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="frameworks/native" name="platform/frameworks/native" revision="lollipop-release" />
@@ -61,7 +62,6 @@
   <project path="prebuilts/android-emulator-build/protobuf" name="platform/prebuilts/android-emulator-build/protobuf" clone-depth="1" />
   <project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" clone-depth="1" />
   <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" />
-
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" revision="master" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="master" />
   <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" clone-depth="1" revision="master" />
