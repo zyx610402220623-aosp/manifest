@@ -1,0 +1,10 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+2: Aurimas Liutikas <aurimas@google.com>
+Code-Review+1: Alexander Dorokhine <adorokhine@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Andrea Falcone <asfalcone@google.com>
+Submitted-at: Mon, 13 Jul 2020 15:23:13 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1360258
+Project: platform/manifest
+Branch: refs/heads/androidx-master-dev
