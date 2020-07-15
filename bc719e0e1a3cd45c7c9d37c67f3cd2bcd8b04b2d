@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4ecc0c5c_38c0497b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-07-15T16:33:07Z",
+      "side": 1,
+      "message": "I don\u0027t have acls for +2, you\u0027ll have to request that.",
+      "revId": "bc719e0e1a3cd45c7c9d37c67f3cd2bcd8b04b2d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
