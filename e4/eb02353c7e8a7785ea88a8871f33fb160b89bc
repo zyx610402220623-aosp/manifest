@@ -1,0 +1,12 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+1: Tony Mak <tonymak@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Elliott Hughes <enh@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 17 Jul 2020 23:44:21 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1365098
+Project: platform/manifest
+Branch: refs/heads/master
