@@ -86,6 +86,23 @@
       "revId": "e4eb02353c7e8a7785ea88a8871f33fb160b89bc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7021f566_729d2b05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-07-17T20:54:24Z",
+      "side": 1,
+      "message": "victory! (tonymak: this wasn\u0027t my doing --- tavila performed some magic behind the scenes to get us here.)\n\n+tavila to actually approve the manifest change...",
+      "revId": "e4eb02353c7e8a7785ea88a8871f33fb160b89bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
