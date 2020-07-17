@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "710da1df_cabc42ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019983
+      },
+      "writtenOn": "2020-07-17T23:45:31Z",
+      "side": 1,
+      "message": "Does this need a rebase? (It has a \"merge conflict\" chip in the top-left.)",
+      "revId": "d122b5f57df2f402ddacb23e896f0fa29120141f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
