@@ -68,6 +68,24 @@
       "revId": "e4eb02353c7e8a7785ea88a8871f33fb160b89bc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b5c442ee_1dfd1173",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-07-17T15:25:04Z",
+      "side": 1,
+      "message": "i talked to ipalant and apparently there is no automerger until a project is added to the manifest. so https://googleplex-android-review.git.corp.google.com/c/platform/external/marisa-trie/+/12179778 is a manual cherrypick to internal.",
+      "parentUuid": "d8b2f13c_0a288d66",
+      "revId": "e4eb02353c7e8a7785ea88a8871f33fb160b89bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
