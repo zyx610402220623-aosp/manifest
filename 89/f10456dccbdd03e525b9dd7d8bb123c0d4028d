@@ -1,0 +1,10 @@
+Code-Review+2: Xin Li <delphij@google.com>
+Code-Review+1: Jonathan Nieder <jrn@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Sat, 18 Jul 2020 07:46:11 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1311854
+Project: platform/manifest
+Branch: refs/heads/master
