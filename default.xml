@@ -28,7 +28,7 @@
   <project path="external/curl" name="platform/external/curl" />
   <project path="external/deqp" name="platform/external/deqp" revision="master" />
   <project path="external/ffmpeg" name="platform/external/ffmpeg" />
-  <project path="external/googletest" name="platform/external/googletest" revision="master" />
+  <project path="external/googletest" name="platform/external/googletest" revision="de13bdb524c9d888b24a56490742227d9aabad12" />
   <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" />
   <project path="external/grpc" name="platform/external/grpc-grpc" />
