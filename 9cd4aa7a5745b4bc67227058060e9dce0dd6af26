@@ -16,6 +16,24 @@
       "revId": "9cd4aa7a5745b4bc67227058060e9dce0dd6af26",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3bf1acca_f51d1360",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1019983
+      },
+      "writtenOn": "2020-07-21T22:58:54Z",
+      "side": 1,
+      "message": "Appears to be b/161840045. I\u0027ll follow along there.",
+      "parentUuid": "d440d80b_19bbd1fa",
+      "revId": "9cd4aa7a5745b4bc67227058060e9dce0dd6af26",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
