@@ -51,6 +51,24 @@
       "revId": "d605476f35ac2f5c4af5ac420ec417ad05b2e8f2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c7c7ffc6_506573d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-07-22T17:46:22Z",
+      "side": 1,
+      "message": "only ipalant/tavila can +2 manifest changes.",
+      "parentUuid": "7c945613_11557a03",
+      "revId": "d605476f35ac2f5c4af5ac420ec417ad05b2e8f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
