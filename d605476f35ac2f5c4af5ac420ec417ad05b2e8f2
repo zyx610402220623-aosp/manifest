@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2bd228e_f29ac19a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060750
+      },
+      "writtenOn": "2020-07-22T14:57:01Z",
+      "side": 1,
+      "message": "It is failing pre-submit because of:\n    FatalSyncError: Failed to fetch project platform/external/marisa-trie\n\nThat seems unrelated to this CL.\n",
+      "revId": "d605476f35ac2f5c4af5ac420ec417ad05b2e8f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
