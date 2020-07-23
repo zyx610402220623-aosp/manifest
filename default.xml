@@ -595,6 +595,7 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
   </project>
+<<<<<<< HEAD   (5238e2 add kernel/prebuilt projects for GKI kernels)
   <project path="hardware/qcom/sm8150/display" name="platform/hardware/qcom/sm8150/display" groups="qcom_sm8150" />
   <project path="hardware/qcom/sm8150/gps" name="platform/hardware/qcom/sm8150/gps" groups="qcom_sm8150" />
   <project path="hardware/qcom/sm8150/media" name="platform/hardware/qcom/sm8150/media" groups="qcom_sm8150" />
@@ -776,6 +777,21 @@
   <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs">
     <linkfile src="current/androidx-README.md" dest="frameworks/support/README.md" />
+=======
+  <project
+    path="prebuilts/fullsdk-darwin/ndk"
+    name="toolchain/prebuilts/ndk-darwin/r21"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-darwin">
+  </project>
+  <project
+    path="prebuilts/fullsdk-linux/ndk"
+    name="toolchain/prebuilts/ndk/r21"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-linux">
+>>>>>>> CHANGE (a92bce Use the separate prebuilt for Darwin ndk)
   </project>
   <project path="system/apex" name="platform/system/apex" groups="pdk" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
