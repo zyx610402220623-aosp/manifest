@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "60a65dc5_b13e93b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-07-23T20:34:36Z",
+      "side": 1,
+      "message": "We need equivalent changes to androidx-platform-dev and androidx-studio-integration branches in goog.",
+      "revId": "a92bced0cc05dc53b104a458e83f3fd4a34df81d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
