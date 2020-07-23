@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4e0c3678_5848ee16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2020-07-23T18:20:47Z",
+      "side": 1,
+      "message": "Oops, my bad.  The kythe corpus needs to run in master-plus-llvm branch, which already has this project.  Will abandon this change.",
+      "revId": "9ce828a50015015bc827cead563840d25bc6f061",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
