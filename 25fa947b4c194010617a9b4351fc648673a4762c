@@ -16,6 +16,23 @@
       "revId": "25fa947b4c194010617a9b4351fc648673a4762c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7856fe2e_ce48a7dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1396522
+      },
+      "writtenOn": "2020-07-24T03:12:52Z",
+      "side": 1,
+      "message": "Infra error, try it again.",
+      "revId": "25fa947b4c194010617a9b4351fc648673a4762c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
