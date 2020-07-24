@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de3c0c0d_d7c94079",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1208973
+      },
+      "writtenOn": "2020-07-24T15:56:54Z",
+      "side": 1,
+      "message": "Resolving the merge conflict lost the reviews.  Could I get them again?",
+      "revId": "575f631b8d356e2f667b918df5cca3eaf41479a0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
