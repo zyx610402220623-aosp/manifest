@@ -1,0 +1,10 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+1: Pirama Arumuga Nainar <pirama@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 24 Jul 2020 18:47:50 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1371254
+Project: platform/manifest
+Branch: refs/heads/master-plus-llvm
