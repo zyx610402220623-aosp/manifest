@@ -16,6 +16,24 @@
       "revId": "e589012d21d09188484fec012afa49148b1f0621",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d412dd5c_9a9f643a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2020-07-27T14:05:58Z",
+      "side": 1,
+      "message": "I have created the branches and re-started presubmit",
+      "parentUuid": "a537533d_c1994038",
+      "revId": "e589012d21d09188484fec012afa49148b1f0621",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
