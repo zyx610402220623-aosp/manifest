@@ -2,6 +2,7 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (ecbca7 Merge empty history for sparse-6547930-L06700000650220878)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
@@ -12,6 +13,35 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  <default remote="aosp" revision="sparse-6717799-L57700000650513879" sync-j="8" />
+  
+  <project name="platform/build" path="build/make" revision="57288bbb159ad1081aef7c8af8cebf3d3bef5e03" />
+  
+  
+  <project clone-depth="1" groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts" revision="dd21d4f758da708827b9693323392a967095510c" />
+  <project clone-depth="1" groups="pdk" name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces" revision="42cb5981aa9ff7f8ccdb95d5d97607dded4ad4fe" />
+  <project clone-depth="1" groups="pdk" name="platform/external/doclava" path="external/doclava" revision="3088dc1e0453f95ca7c3d5748c52e42272e091a3" />
+  <project clone-depth="1" groups="pdk" name="platform/external/dokka" path="external/dokka" revision="688a5863a49d9590ff66d46478b8726b8164dcb7" />
+  <project groups="pdk" name="platform/external/icing" path="external/icing" revision="58f8d97d16c43972d82562c5c77a713a04ba300e" />
+  <project clone-depth="1" groups="pdk" name="platform/external/icu" path="external/icu" revision="52a61ed58d8e24b99de309cf57aa3065acd81f26" />
+  <project clone-depth="1" groups="pdk" name="platform/external/protobuf" path="external/protobuf" revision="de9c2f12740c1ea37b7c771a145a0ccfc37f46c5" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/external" path="prebuilts/androidx/external" revision="77a7b1b2215ac4a3278cceb65d83d244e66fd671" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/internal" path="prebuilts/androidx/internal" revision="f4965cedb08db2627fcefb397b88c8abf562b8ae" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/exoplayer" path="prebuilts/androidx/exoplayer" revision="8759893b15627e09a76140ae550f478c782d3387" />
+  
+  
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="2e69c77cd636a442ea9f13c5b256cb0ae773efaf" />
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/ktlint" path="prebuilts/ktlint" revision="fddd5e7beee2d5aba454e8a0fe38700a6aae7d8a" />
+  <project groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" revision="802e0d6b7179dc19198e5b276cb5c3ebdbf2cdba" />
+  
+  
+  <project clone-depth="1" groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="369706f22011f58355fd237d1fe33f5ab61a0639" />
+  
+  
+  <project clone-depth="1" name="platform/prebuilts/fullsdk/platforms/android-29" path="prebuilts/fullsdk-darwin/platforms/android-29" revision="50e91e4827cdd58e191c942d33db0cc61362cdf6">
+    <linkfile dest="prebuilts/fullsdk-linux/platforms/android-29" src="." />
+>>>>>>> BRANCH (b4c7fe Pin manifest of sparse-6717799-L57700000650513879)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
