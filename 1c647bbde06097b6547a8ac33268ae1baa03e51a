@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "00d8421c_65808677",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1208973
+      },
+      "writtenOn": "2020-07-29T23:00:00Z",
+      "side": 1,
+      "message": "The failure should be unrelated, so try again.",
+      "revId": "1c647bbde06097b6547a8ac33268ae1baa03e51a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
