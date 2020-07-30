@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1de11c5e_4849cab1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1396522
+      },
+      "writtenOn": "2020-07-30T00:21:04Z",
+      "side": 1,
+      "message": "Hmm, don\u0027t know when I lose CR+2 again, can only +1 for now.",
+      "revId": "c2043c4aeee129e53d3d4f22c5e834f1da2099e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
