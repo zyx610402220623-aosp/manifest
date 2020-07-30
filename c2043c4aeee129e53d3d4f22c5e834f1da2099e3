@@ -16,6 +16,24 @@
       "revId": "c2043c4aeee129e53d3d4f22c5e834f1da2099e3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4f06c577_76aae2ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1141809
+      },
+      "writtenOn": "2020-07-30T00:39:06Z",
+      "side": 1,
+      "message": "Hmm I wonder if I can stamp it as a workaround.",
+      "parentUuid": "1de11c5e_4849cab1",
+      "revId": "c2043c4aeee129e53d3d4f22c5e834f1da2099e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
