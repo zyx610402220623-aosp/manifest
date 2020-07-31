@@ -16,6 +16,23 @@
       "revId": "4b0a6a7dc41c57098458c5f48680d11c39055666",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0fdad8f2_05ad8217",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1208973
+      },
+      "writtenOn": "2020-07-31T17:48:22Z",
+      "side": 1,
+      "message": "Friendly ping for review.",
+      "revId": "4b0a6a7dc41c57098458c5f48680d11c39055666",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
