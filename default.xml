@@ -46,6 +46,7 @@
   <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc" revision="3c83a576c9ecce8515e60a32330cb382efcb3301" />
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="130d1a164aa163e3d4167785f27701f8951904cf" />
 
+<<<<<<< HEAD   (f7d04f Pin manifest of build-tools-release)
   
   <project name="platform/bionic" path="bionic" revision="70a8c5118fd06494bf1ee068cb59a3a2d02333b5" />
   <project name="platform/development" path="development" revision="99739a19239fe347eea5d418617841ea3c2e962a" />
@@ -94,6 +95,57 @@
   <project name="platform/system/core" path="system/core" revision="be21f26d293c379fc023a5694705da7f80970aec" />
   <project name="platform/system/libbase" path="system/libbase" revision="892c8e63d70f7083f1c1865b803299253c199b22" />
   <project name="platform/system/libziparchive" path="system/libziparchive" revision="9a4e51c0cfd56fa5e6e14e7e77a8dc9fd2050037" />
+=======
+  <!-- dependency source -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="development" name="platform/development" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
+  <project path="external/auto" name="platform/external/auto" />
+  <project path="external/bazelbuild-remote-apis" name="platform/external/bazelbuild-remote-apis" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dagger2" name="platform/external/dagger2" />
+  <project path="external/error_prone" name="platform/external/error_prone" clone-depth="1" />
+  <project path="external/escapevelocity" name="platform/external/escapevelocity" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" />
+  <project path="external/go-creachadair-shell" name="platform/external/go-creachadair-shell" />
+  <project path="external/go-creachadair-stringset" name="platform/external/go-creachadair-stringset" />
+  <project path="external/go-etree" name="platform/external/go-etree" />
+  <project path="external/go-subcommands" name="platform/external/go-subcommands" />
+  <project path="external/golang-x-sync" name="platform/external/golang-x-sync" />
+  <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
+  <project path="external/google-java-format" name="platform/external/google-java-format" />
+  <project path="external/googleapis" name="platform/external/googleapis" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/icu" name="platform/external/icu" />
+  <project path="external/javapoet" name="platform/external/javapoet" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/kythe" name="platform/external/kythe" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" />
+  <project path="system/libziparchive" name="platform/system/libziparchive" />
+>>>>>>> BRANCH (efac88 Add system/libhwbinder to build-tools manifest)
 
   
   <project name="platform/build/kati" path="build/kati" revision="5fab8cf71b02d5c5c620730b245a4a0a753af46c" />
