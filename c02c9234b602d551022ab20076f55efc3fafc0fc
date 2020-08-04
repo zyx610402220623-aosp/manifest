@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5eb17af8_9b1476cb",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 901,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2020-08-04T19:38:59Z",
+      "side": 1,
+      "message": "IIUC, the size of .git is small for reasonably small source-code-only projects.  How much do we save with clone-depth\u003d1 here?  If not significant, it may not be worth the hassle to set clone-depth here.",
+      "range": {
+        "startLine": 901,
+        "startChar": 68,
+        "endLine": 901,
+        "endChar": 82
+      },
+      "revId": "c02c9234b602d551022ab20076f55efc3fafc0fc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
