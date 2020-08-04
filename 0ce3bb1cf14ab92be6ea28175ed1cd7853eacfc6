@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f7a708ba_201198bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2020-08-04T20:37:40Z",
+      "side": 1,
+      "message": "Thanks Haibo!",
+      "revId": "0ce3bb1cf14ab92be6ea28175ed1cd7853eacfc6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
