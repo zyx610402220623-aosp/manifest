@@ -898,9 +898,10 @@
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" />
 
   <!-- Dependencies for lldb -->
-  <project path="external/libedit" name="platform/external/libedit" />
-  <project path="external/swig" name="platform/external/swig" />
-  <project path="toolchain/xz" name="toolchain/xz" />
+  <project path="external/libedit" name="platform/external/libedit" clone-depth="1" />
+  <project path="external/swig" name="platform/external/swig" clone-depth="1" />
+  <project path="toolchain/xz" name="toolchain/xz" clone-depth="1" />
+  <project path="external/libxml2" name="platform/external/libxml2" clone-depth="1" />
 
   <!-- Python prebuilts -->
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="llvm-toolchain" />
