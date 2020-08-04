@@ -1,0 +1,31 @@
+{
+  "comments": [
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004202237",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1376937?revision\u003d4",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "5276597a_da766a63",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1550585
+      },
+      "writtenOn": "2020-08-04T15:50:34Z",
+      "side": 1,
+      "message": "Unrecognized finding :\nthird-party\n",
+      "range": {
+        "startLine": 7,
+        "startChar": 31,
+        "endLine": 7,
+        "endChar": 42
+      },
+      "revId": "69f1137f59e0584afbaca2aead149c9df8adbd21",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
