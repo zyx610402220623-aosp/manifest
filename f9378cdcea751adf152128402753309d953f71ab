@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4069a7c6_6df043fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2020-08-08T01:27:22Z",
+      "side": 1,
+      "message": "I wonder why this isn\u0027t caught by presubmit.",
+      "revId": "f9378cdcea751adf152128402753309d953f71ab",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
