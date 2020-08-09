@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b2541e87_3b928e6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1744281
+      },
+      "writtenOn": "2020-08-09T12:24:15Z",
+      "side": 1,
+      "message": "adb reboot bootloader",
+      "revId": "8b03ecce88edc7bfe01aa1b0088a33b00730e429",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
