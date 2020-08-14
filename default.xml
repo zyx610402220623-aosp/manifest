@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
-  <default remote="aosp" revision="androidx-vectordrawable-release" sync-j="8" />
+  <default remote="aosp" revision="sparse-6743124-L02100000664477331" sync-j="8" />
   
   <project name="platform/build" path="build/make" revision="7d870c163df42a5090c2ac76b0e19635b41f5ecb" />
   
@@ -47,7 +47,7 @@
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="ca7461f83a34e8978c68b61ad9a619b2b9b933a0" />
   
   
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" revision="7dd586f38acf77f604d007d04de8312fc30e2d59" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" revision="cc7f9951704207839e9c8c4c3c10b448dec2208d" />
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 </manifest>
