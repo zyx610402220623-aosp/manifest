@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9582dedb_bbb0517c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2020-08-16T18:23:07Z",
+      "side": 1,
+      "message": "This was originally added for wear, but there are no active wear targets, so we don\u0027t need it any more.",
+      "revId": "4bdd073077e197c1674e718098dab2ed2982623d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
