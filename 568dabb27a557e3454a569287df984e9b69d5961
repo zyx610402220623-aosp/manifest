@@ -51,6 +51,24 @@
       "revId": "568dabb27a557e3454a569287df984e9b69d5961",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d6cd6f4_719b466a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2020-08-18T21:10:41Z",
+      "side": 1,
+      "message": "And from the build_test failures, it looks like there\u0027s some vendor code that needs to just be switched over to the existing python/python3.\n\nAll the references I see are to the linux-x86 project, so we may be able to remove the darwin project to start with.",
+      "parentUuid": "428154c4_73161ea3",
+      "revId": "568dabb27a557e3454a569287df984e9b69d5961",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
