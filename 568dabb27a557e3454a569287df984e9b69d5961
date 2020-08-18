@@ -33,6 +33,24 @@
       "revId": "568dabb27a557e3454a569287df984e9b69d5961",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "428154c4_73161ea3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2020-08-18T21:07:20Z",
+      "side": 1,
+      "message": "Last I checked, the security team had scripts that were using this still (as they had installed modules into this python installation 😞). It\u0027s been on my todo list to remove them and switch to actual built python dependencies, but that hasn\u0027t happened yet:\n\n  external/selinux/prebuilts/bin/...\n  https://cs.android.com/search?q\u003d-file:prebuilts%2Fpython%20prebuilts%2Fpython%20-file:repo.prop%20-file:manifest%20-file:git\u0026ss\u003dandroid%2Fplatform%2Fsuperproject",
+      "parentUuid": "6b124ea9_2fdb3425",
+      "revId": "568dabb27a557e3454a569287df984e9b69d5961",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
     }
   ]
 }
