@@ -87,6 +87,24 @@
       "revId": "568dabb27a557e3454a569287df984e9b69d5961",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6b72b0d9_effd6bf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2020-08-19T07:03:07Z",
+      "side": 1,
+      "message": "Please don\u0027t break selinux development tools. I doubt there are any plans to migrate them off of 2.7 :(",
+      "parentUuid": "2b39859e_3c8303f0",
+      "revId": "568dabb27a557e3454a569287df984e9b69d5961",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
