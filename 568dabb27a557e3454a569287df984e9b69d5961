@@ -105,6 +105,24 @@
       "revId": "568dabb27a557e3454a569287df984e9b69d5961",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f94e42eb_463b57c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2020-08-19T11:42:32Z",
+      "side": 1,
+      "message": "All the selinux tools hardcode the linux version, so they\u0027re not affected by this latest patchset just removing the darwin version.\n\nThat being said, they really need to migrate off of this python prebuilt and onto the real python support in the tree -- which means they need to import their dependencies through go/android3p and either switch to building the tool first, or setting up a build and checking in prebuilts specifically for these tools.\n\nSeparately, staying on Python2 long term is unlikely to be feasible -- it\u0027s quickly losing support in distributions and libraries. It looks like there\u0027s a python3 version of these tools on github? https://github.com/SELinuxProject/setools/blob/master/seinfo",
+      "parentUuid": "6b72b0d9_effd6bf0",
+      "revId": "568dabb27a557e3454a569287df984e9b69d5961",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
