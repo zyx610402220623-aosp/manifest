@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6ea14bde_a8ade33f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2020-08-24T11:12:49Z",
+      "side": 1,
+      "message": "This is an interesting question, but it\u0027d be fine here to move to a bug for discussion first. The separate doc has issues / tax too. AFAIK the majority of changes to these trimmed manifest are issue targeted edits rather than cherry-picks.",
+      "parentUuid": "9a4f93a1_1130f60e",
+      "range": {
+        "startLine": 53,
+        "startChar": 9,
+        "endLine": 54,
+        "endChar": 75
+      },
+      "revId": "97338d3275a3b7e070b590e951a824a58905af15",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "97db83ee_3507ebe7",
         "filename": "default.xml",
         "patchSetId": 1
@@ -36,6 +60,24 @@
       "writtenOn": "2020-08-21T18:29:37Z",
       "side": 1,
       "message": "Btw, given the explanation above it should move below this, shouldn\u0027t it?",
+      "revId": "97338d3275a3b7e070b590e951a824a58905af15",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd080de7_b2495437",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2020-08-24T11:12:49Z",
+      "side": 1,
+      "message": "This seems like a good idea and perhaps calling out that libnetd_client is in the system/netd repo.",
+      "parentUuid": "97db83ee_3507ebe7",
       "revId": "97338d3275a3b7e070b590e951a824a58905af15",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
