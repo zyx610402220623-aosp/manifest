@@ -1,6 +1,6 @@
 <manifest>
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
-  <default remote="aosp" revision="androidx-work-release" sync-j="8" />
+  <default remote="aosp" revision="sparse-6686510-L92900000674753273" sync-j="8" />
   
   <project name="platform/build" path="build/make" revision="730246cfdc38e5877d37ab3ee90d9afe6a3d236c" />
   
@@ -61,7 +61,7 @@
   <project clone-depth="1" groups="pdk" name="platform/frameworks/support-golden" path="golden" revision="3c63edf175f3d9c2c975fa01d17e55093dd2a9b0" />
   
   
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" revision="ffc3d7f1d1e311a9b3bf7731301d62fbf23ffc33" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" revision="74dead49d8b76ebb2c41183c02cbd6b1ad5e72fe" />
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 </manifest>
