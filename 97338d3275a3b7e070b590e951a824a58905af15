@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "a6681d35_f294715a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-08-24T12:35:39Z",
+      "side": 1,
+      "message": "Ok, that makes sense. Thanks.",
+      "parentUuid": "2c77ecfb_470844a5",
+      "range": {
+        "startLine": 53,
+        "startChar": 9,
+        "endLine": 54,
+        "endChar": 75
+      },
+      "revId": "97338d3275a3b7e070b590e951a824a58905af15",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "97db83ee_3507ebe7",
         "filename": "default.xml",
         "patchSetId": 1
