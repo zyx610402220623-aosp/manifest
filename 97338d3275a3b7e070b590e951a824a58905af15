@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "2c77ecfb_470844a5",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-08-24T11:27:54Z",
+      "side": 1,
+      "message": "I agree that documenting every dependency here is overkill, in particular as most of them can be inferred from the build system rules (for which we also have some tooling, and will have even more in the future).\n\nThis case however is peculiar, as this dependency is not explicit at all; it took me some time to track it down. I don\u0027t see any other good location to write it down.",
+      "parentUuid": "6ea14bde_a8ade33f",
+      "range": {
+        "startLine": 53,
+        "startChar": 9,
+        "endLine": 54,
+        "endChar": 75
+      },
+      "revId": "97338d3275a3b7e070b590e951a824a58905af15",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "97db83ee_3507ebe7",
         "filename": "default.xml",
         "patchSetId": 1
@@ -81,6 +105,24 @@
       "revId": "97338d3275a3b7e070b590e951a824a58905af15",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a70b0504_ab58dab6",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-08-24T11:27:54Z",
+      "side": 1,
+      "message": "Good suggestions; done in PS2.",
+      "parentUuid": "fd080de7_b2495437",
+      "revId": "97338d3275a3b7e070b590e951a824a58905af15",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
