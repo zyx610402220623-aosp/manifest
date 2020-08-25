@@ -22,6 +22,30 @@
       "revId": "2727f6129f76eea36336ffdc24d34f3bd6b2011b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f5db0937_790e7803",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-08-25T11:13:38Z",
+      "side": 1,
+      "message": "Right, it should be go/rbe/dev/x/android/dev_guide (I copied it before http://cl/328218079).",
+      "parentUuid": "c6dcfc84_1ec6a3d1",
+      "range": {
+        "startLine": 9,
+        "startChar": 21,
+        "endLine": 9,
+        "endChar": 47
+      },
+      "revId": "2727f6129f76eea36336ffdc24d34f3bd6b2011b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
