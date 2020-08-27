@@ -16,6 +16,24 @@
       "revId": "dc5adc59b2f8a93b19e0a8bf313d87f04a2b1a88",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7be8bb87_0c9399de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1354330
+      },
+      "writtenOn": "2020-08-27T22:22:04Z",
+      "side": 1,
+      "message": "ag/12319080 I think we\u0027re all set for androidx-platform-dev?",
+      "parentUuid": "4fba7d49_fae02797",
+      "revId": "dc5adc59b2f8a93b19e0a8bf313d87f04a2b1a88",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
