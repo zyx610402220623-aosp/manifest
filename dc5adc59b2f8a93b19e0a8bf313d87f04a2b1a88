@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4fba7d49_fae02797",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-08-27T22:20:50Z",
+      "side": 1,
+      "message": "We\u0027ll want similar CLs for androidx-platform-dev and androidx-studio-integration in goog.",
+      "revId": "dc5adc59b2f8a93b19e0a8bf313d87f04a2b1a88",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
