@@ -34,6 +34,24 @@
       "revId": "dc5adc59b2f8a93b19e0a8bf313d87f04a2b1a88",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e6da34f_a996be76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-08-27T22:23:47Z",
+      "side": 1,
+      "message": "+1. Then just androidx-studio-integration left.",
+      "parentUuid": "7be8bb87_0c9399de",
+      "revId": "dc5adc59b2f8a93b19e0a8bf313d87f04a2b1a88",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
