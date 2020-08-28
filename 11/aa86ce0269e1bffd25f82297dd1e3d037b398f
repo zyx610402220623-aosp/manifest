@@ -1,0 +1,13 @@
+Lint+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Code-Review+1: Nicolas Geoffray <ngeoffray@google.com>
+Code-Review+2: Baligh Uddin <baligh@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+PDK-Review+1: Baligh Uddin <baligh@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Martin Stjernholm <mast@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-prod-ayeaye@system.gserviceaccount.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 28 Aug 2020 17:01:26 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1354642
+Project: platform/manifest
+Branch: refs/heads/master
