@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c05a7b71_bc468c4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1755521
+      },
+      "writtenOn": "2020-08-30T01:49:14Z",
+      "side": 1,
+      "message": "\u003e Patch Set 2: Code-Review+2\n\u003e \n\u003e Auto Code-Review +2 from release submitter.\n\n",
+      "revId": "36fb093653c6f7e603adf6d3ce0e0e9a1e1ed906",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
