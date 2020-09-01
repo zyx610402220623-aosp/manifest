@@ -25,7 +25,6 @@
   <project groups="pdk" name="platform/art" path="art"  />
   <project groups="pdk" name="platform/bionic" path="bionic"  />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery"  />
-  <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd"  />
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="android10-qpr3-release"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik"  />
   <project groups="developers,pdk" name="platform/developers/build" path="developers/build"  />
@@ -214,7 +213,6 @@
   <project groups="pdk" name="platform/external/libphonenumber" path="external/libphonenumber"  />
   <project groups="pdk" name="platform/external/libpng" path="external/libpng"  />
   <project groups="pdk" name="platform/external/libprotobuf-mutator" path="external/libprotobuf-mutator"  />
-  <project groups="pdk" name="platform/external/libsrtp2" path="external/libsrtp2"  />
   <project groups="pdk" name="platform/external/libtextclassifier" path="external/libtextclassifier"  />
   <project groups="pdk" name="platform/external/libunwind" path="external/libunwind"  />
   <project groups="pdk" name="platform/external/libunwind_llvm" path="external/libunwind_llvm"  />
@@ -223,7 +221,6 @@
   <project groups="pdk" name="platform/external/libutf" path="external/libutf"  />
   <project groups="pdk" name="platform/external/libvpx" path="external/libvpx"  />
   <project groups="pdk" name="platform/external/libvterm" path="external/libvterm"  />
-  <project groups="pdk" name="platform/external/libwebsockets" path="external/libwebsockets" />
   <project groups="pdk" name="platform/external/libxaac" path="external/libxaac"  />
   <project groups="pdk" name="platform/external/libxcam" path="external/libxcam"  />
   <project groups="pdk" name="platform/external/libxkbcommon" path="external/libxkbcommon"  />
