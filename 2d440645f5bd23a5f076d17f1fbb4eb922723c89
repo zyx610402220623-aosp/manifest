@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "efbba006_a7084b2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-09-02T22:40:46Z",
+      "side": 1,
+      "message": "Note https://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/12512936 has to land before this change due to a merge conflict.",
+      "revId": "2d440645f5bd23a5f076d17f1fbb4eb922723c89",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
