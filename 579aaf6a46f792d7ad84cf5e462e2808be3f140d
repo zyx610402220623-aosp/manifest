@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8daebb93_1c927962",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1757783
+      },
+      "writtenOn": "2020-09-04T21:58:08Z",
+      "side": 1,
+      "message": "am the only authorized sandy someone is changing against my will",
+      "revId": "579aaf6a46f792d7ad84cf5e462e2808be3f140d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
