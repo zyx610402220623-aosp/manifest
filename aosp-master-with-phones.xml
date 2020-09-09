@@ -10,7 +10,7 @@
   <remote  name="goog"
            fetch="sso://googleplex-android.googlesource.com/"
            review="sso://googleplex-android.googlesource.com/"
-           revision="mirror-aosp-master-with-vendor" />
+           revision="stage-aosp-master-with-vendor" />
 
   <!-- pull in the standard AOSP projects. -->
   <include name="default.xml" />
