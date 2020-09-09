@@ -16,6 +16,23 @@
       "revId": "2d440645f5bd23a5f076d17f1fbb4eb922723c89",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ab11a02_237e936d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-09-09T22:01:28Z",
+      "side": 1,
+      "message": "Created https://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/12549996 CP to resolve stage-aosp-master merge conflict.",
+      "revId": "2d440645f5bd23a5f076d17f1fbb4eb922723c89",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
