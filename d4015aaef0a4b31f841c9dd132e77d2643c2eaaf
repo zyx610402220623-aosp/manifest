@@ -1,0 +1,517 @@
+{
+  "comments": [
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "411f58b4_1c94bfa7",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 18,
+        "startChar": 168,
+        "endLine": 18,
+        "endChar": 174
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "b05e8eaf_ba18edf8",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 19,
+        "startChar": 164,
+        "endLine": 19,
+        "endChar": 170
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "34a70477_2974e63a",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 20,
+        "startChar": 162,
+        "endLine": 20,
+        "endChar": 168
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "bea5a39f_f18f1ee6",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 21,
+        "startChar": 172,
+        "endLine": 21,
+        "endChar": 178
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "f9a2cff3_fe04c787",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 22,
+        "startChar": 162,
+        "endLine": 22,
+        "endChar": 168
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "2c29b965_2b8b1f64",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 23,
+        "startChar": 164,
+        "endLine": 23,
+        "endChar": 170
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "66e415cd_3c81157d",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 24,
+        "startChar": 162,
+        "endLine": 24,
+        "endChar": 168
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "f5a69333_6578a0db",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 25,
+        "startChar": 166,
+        "endLine": 25,
+        "endChar": 172
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "c94bc8db_967e2966",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 26,
+        "startChar": 164,
+        "endLine": 26,
+        "endChar": 170
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "662e6718_e1f555ed",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 27,
+        "startChar": 166,
+        "endLine": 27,
+        "endChar": 172
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "8fd90d1d_637738b6",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 32,
+        "startChar": 144,
+        "endLine": 32,
+        "endChar": 150
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "1e907628_ecefd24c",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 33,
+        "startChar": 148,
+        "endLine": 33,
+        "endChar": 154
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "9daa1b3c_866f50be",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 34,
+        "startChar": 142,
+        "endLine": 34,
+        "endChar": 148
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "13c68106_8cc8cacd",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 35,
+        "startChar": 152,
+        "endLine": 35,
+        "endChar": 158
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "13615d01_d9f11434",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 36,
+        "startChar": 142,
+        "endLine": 36,
+        "endChar": 148
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "4e9d63e5_c7fae525",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 37,
+        "startChar": 142,
+        "endLine": 37,
+        "endChar": 148
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "5791192b_8a931b37",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 38,
+        "startChar": 146,
+        "endLine": 38,
+        "endChar": 152
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "a7736dc3_f0835470",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 39,
+        "startChar": 144,
+        "endLine": 39,
+        "endChar": 150
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    },
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000004830523",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1422608?revision\u003d2",
+      "fixSuggestions": [],
+      "key": {
+        "uuid": "cc01242e_2b229f1e",
+        "filename": "aosp-master-with-phones.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2020-09-09T04:29:57Z",
+      "side": 1,
+      "message": "Prefer to use inclusive terms like \u0027primary/secondary\u0027 or \u0027manager/worker\u0027; see https://source.android.com/setup/contribute/respectful-code for more details.",
+      "range": {
+        "startLine": 40,
+        "startChar": 146,
+        "endLine": 40,
+        "endChar": 152
+      },
+      "revId": "d4015aaef0a4b31f841c9dd132e77d2643c2eaaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
