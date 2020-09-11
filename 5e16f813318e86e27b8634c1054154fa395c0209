@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b06636f_97dfcce3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-09-11T17:18:22Z",
+      "side": 1,
+      "message": "Presubmit now passes. Could I get an approval?",
+      "revId": "5e16f813318e86e27b8634c1054154fa395c0209",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
