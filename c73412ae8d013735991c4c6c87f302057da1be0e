@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4d817128_e0e82218",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2020-09-15T18:51:48Z",
+      "side": 1,
+      "message": "(Note that it\u0027s intentional to not have the project in automerger path, we can\u0027t use the -release branch for CTS specific changes and they would be cherry-picked to internal if needed)",
+      "revId": "c73412ae8d013735991c4c6c87f302057da1be0e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
