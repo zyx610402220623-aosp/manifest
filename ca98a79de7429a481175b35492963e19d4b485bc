@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5b8b8978_63163a0f",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 790,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2020-09-17T02:52:13Z",
+      "side": 1,
+      "message": "Can we keep the projects sorted?",
+      "range": {
+        "startLine": 790,
+        "startChar": 67,
+        "endLine": 790,
+        "endChar": 68
+      },
+      "revId": "ca98a79de7429a481175b35492963e19d4b485bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
