@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a346f6fa_ce17481f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2020-09-17T00:07:50Z",
+      "side": 1,
+      "message": "Can we keep the orders like typical dev branch manifest?\npath, name, groups",
+      "range": {
+        "startLine": 11,
+        "startChar": 63,
+        "endLine": 11,
+        "endChar": 64
+      },
+      "revId": "013bfb092955c9b8a3ac2eea8cc7e01433f7e708",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": true
+    }
+  ]
+}
