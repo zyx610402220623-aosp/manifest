@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8f545de9_6c3c9e82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2020-09-22T17:24:12Z",
+      "side": 1,
+      "message": "Note, that doing this will mean that androidx upgrading gradle will sometimes break you",
+      "revId": "acc85a41763dc97f0b96afd6c622b90c8db0795f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
