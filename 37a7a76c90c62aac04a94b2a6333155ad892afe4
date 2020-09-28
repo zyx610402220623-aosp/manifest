@@ -16,6 +16,23 @@
       "revId": "37a7a76c90c62aac04a94b2a6333155ad892afe4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fc676b57_e350f103",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2020-09-28T23:12:31Z",
+      "side": 1,
+      "message": "You may also need to update the automerge config since the platform/external/openssh is skipped in the main merge chain.",
+      "revId": "37a7a76c90c62aac04a94b2a6333155ad892afe4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
