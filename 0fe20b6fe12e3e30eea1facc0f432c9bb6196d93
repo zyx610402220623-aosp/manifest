@@ -16,6 +16,24 @@
       "revId": "0fe20b6fe12e3e30eea1facc0f432c9bb6196d93",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "69c68ad7_bdedb847",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042638
+      },
+      "writtenOn": "2020-09-29T00:14:11Z",
+      "side": 1,
+      "message": "I think it\u0027s safer to revert unless you can guarantee full-eng will build. But verifying that will likely take a lot of time.",
+      "parentUuid": "077e9270_ad4d7566",
+      "revId": "0fe20b6fe12e3e30eea1facc0f432c9bb6196d93",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
     }
   ]
 }
