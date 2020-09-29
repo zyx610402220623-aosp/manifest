@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "077e9270_ad4d7566",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2020-09-29T00:03:40Z",
+      "side": 1,
+      "message": "Can we fix forward? aosp/1441652",
+      "revId": "0fe20b6fe12e3e30eea1facc0f432c9bb6196d93",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
