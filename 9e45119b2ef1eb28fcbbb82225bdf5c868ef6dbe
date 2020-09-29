@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9056b056_d2e6921e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2020-09-29T19:02:16Z",
+      "side": 1,
+      "message": "I don\u0027t remember why this was pinned in the first place. Presumably to avoid some bug that\u0027s now fixed? Can we just unpin it?",
+      "revId": "9e45119b2ef1eb28fcbbb82225bdf5c868ef6dbe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
