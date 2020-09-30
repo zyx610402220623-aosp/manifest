@@ -1,0 +1,9 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-ayeaye@system.gserviceaccount.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <android-build-ayeaye@system.gserviceaccount.com>
+Code-Review+2: Dan Albert <danalbert@google.com>
+Submitted-by: Haibo Huang <hhb@google.com>
+Submitted-at: Wed, 30 Sep 2020 19:14:55 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1441672
+Project: platform/manifest
+Branch: refs/heads/master-ndk
