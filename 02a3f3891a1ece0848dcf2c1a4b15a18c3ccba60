@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "06cbf1b1_134365eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-09-30T17:31:05Z",
+      "side": 1,
+      "message": "I expect some merge conflicts from this downstream as the automerger path is reestablished. I\u0027ll submit early LON time to deal with the fallout.",
+      "revId": "02a3f3891a1ece0848dcf2c1a4b15a18c3ccba60",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
