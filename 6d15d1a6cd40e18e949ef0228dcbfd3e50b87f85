@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "798a3e47_c4dfe393",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1413436
+      },
+      "writtenOn": "2020-10-07T14:48:22Z",
+      "side": 1,
+      "message": "I\u0027m trying to replace linker.config.txt with json format in source code and convert this into protobuf. However, presubmit fails due to missing linkerconfig project in master-art.\nDetails can be found from aosp/1450475\n\nCan you please check if it is ok to re-include linkerconfig in the manifest?",
+      "revId": "6d15d1a6cd40e18e949ef0228dcbfd3e50b87f85",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
