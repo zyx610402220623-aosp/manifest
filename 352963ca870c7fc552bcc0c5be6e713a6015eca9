@@ -16,6 +16,23 @@
       "message": "Downstream branches have been created/verified",
       "revId": "352963ca870c7fc552bcc0c5be6e713a6015eca9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39e72acd_986e7efb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1687194
+      },
+      "writtenOn": "2020-10-08T23:52:36Z",
+      "side": 1,
+      "message": "ipalant@, can you do pdk review here?",
+      "revId": "352963ca870c7fc552bcc0c5be6e713a6015eca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
