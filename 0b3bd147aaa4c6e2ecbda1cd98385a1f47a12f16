@@ -33,6 +33,23 @@
       "message": "+Tom +Xin - for manifest review and PDK review.",
       "revId": "0b3bd147aaa4c6e2ecbda1cd98385a1f47a12f16",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "002f72a0_726e2929",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2020-10-08T16:16:57Z",
+      "side": 1,
+      "message": "For PDK, the project is missing on keystone-{qcom,mtk,slsi}, but the change looks otherwise fine.",
+      "revId": "0b3bd147aaa4c6e2ecbda1cd98385a1f47a12f16",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
