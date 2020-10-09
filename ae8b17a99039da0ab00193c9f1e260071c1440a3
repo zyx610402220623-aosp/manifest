@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a39a6eb7_9ffc907c",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-10-09T08:50:00Z",
+      "side": 1,
+      "message": "Nit-picking, but should be added here instead.",
+      "revId": "ae8b17a99039da0ab00193c9f1e260071c1440a3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
