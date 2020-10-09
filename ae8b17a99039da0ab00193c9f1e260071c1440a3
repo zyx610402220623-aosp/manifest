@@ -16,6 +16,24 @@
       "message": "Nit-picking, but should be added here instead.",
       "revId": "ae8b17a99039da0ab00193c9f1e260071c1440a3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b229a9e_02934552",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2020-10-09T08:57:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a39a6eb7_9ffc907c",
+      "revId": "ae8b17a99039da0ab00193c9f1e260071c1440a3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
