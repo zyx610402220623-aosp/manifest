@@ -68,6 +68,24 @@
       "parentUuid": "eeb27a66_61330a87",
       "revId": "352963ca870c7fc552bcc0c5be6e713a6015eca9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6c74b31_8bc65441",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1726181
+      },
+      "writtenOn": "2020-10-09T02:38:14Z",
+      "side": 1,
+      "message": "Looks like the presubmit also passed here now.",
+      "parentUuid": "2070252d_74968127",
+      "revId": "352963ca870c7fc552bcc0c5be6e713a6015eca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
