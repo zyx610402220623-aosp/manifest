@@ -1,0 +1,9 @@
+Open-Source-Licensing+1: Lint 🤖 <android-build-ayeaye@system.gserviceaccount.com>
+Presubmit-Ready+1: Orion Hodson <oth@google.com>
+Code-Review+2: Nicolas Geoffray <ngeoffray@google.com>
+Bypass-Presubmit+1: Orion Hodson <oth@google.com>
+Submitted-by: Orion Hodson <oth@google.com>
+Submitted-at: Fri, 09 Oct 2020 09:02:36 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1454858
+Project: platform/manifest
+Branch: refs/heads/master-art
