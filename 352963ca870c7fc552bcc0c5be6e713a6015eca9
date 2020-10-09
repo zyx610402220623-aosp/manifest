@@ -50,6 +50,24 @@
       "message": "Will run PDK review after CL pass presubmit",
       "revId": "352963ca870c7fc552bcc0c5be6e713a6015eca9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2070252d_74968127",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1726181
+      },
+      "writtenOn": "2020-10-09T01:26:35Z",
+      "side": 1,
+      "message": "FWIW the presubmit already succeeded on the other CL so hopefully it succeeds here too. I\u0027m not sure why the presubmit is taking so long though...\n\nhttps://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/12792335",
+      "parentUuid": "eeb27a66_61330a87",
+      "revId": "352963ca870c7fc552bcc0c5be6e713a6015eca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
