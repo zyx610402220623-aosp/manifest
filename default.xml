@@ -715,6 +715,7 @@
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="dbb25e22e559de4e265ea6c2a4284485a027931a">
     <linkfile dest="frameworks/support.md" src="current/androidx-README.md" />
   </project>
+<<<<<<< HEAD   (c9cec7 Pin manifest of android11-tests-release)
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="7416ba5e7ebc71db2ec5ffdc9fe15915394ef0e2" />
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" revision="b9ced6ce55c4aaac9381f6b087039a169b232d95" />
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v28" path="prebuilts/vndk/v28" revision="9a2274ff0be55a3427e2049c0fa8f1f25e4369e2" />
@@ -817,6 +818,110 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="5a8973324dcafc892eb3ca3b430b4975e6440d52" />
   <project groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="27cb7a1ecd0a12317f9c61889d9a37c8e7899e54" />
   <project groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="7604cba862bdaafc113d162e4a5093fce2d8cbd4" />
+=======
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
+  <project path="prebuilts/vndk/v27" name="platform/prebuilts/vndk/v27" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/vndk/v28" name="platform/prebuilts/vndk/v28" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" />
+  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/apex" name="platform/system/apex" groups="pdk" />
+  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
+  <project path="system/bpfprogs" name="platform/system/bpfprogs" groups="pdk" />
+  <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
+  <project path="system/chre" name="platform/system/chre" groups="pdk" />
+  <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
+  <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
+  <project path="system/core" name="platform/system/core" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/extras" name="platform/system/extras" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
+  <project path="system/gsid" name="platform/system/gsid" groups="pdk" />
+  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" />
+  <project path="system/incremental_delivery" name="platform/system/incremental_delivery" groups="pdk" />
+  <project path="system/iorap" name="platform/system/iorap" groups="pdk" />
+  <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" />
+  <project path="system/libfmq" name="platform/system/libfmq" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
+  <project path="system/libufdt" name="platform/system/libufdt" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/libvintf" name="platform/system/libvintf" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
+  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/memory/libion" name="platform/system/memory/libion" groups="pdk" />
+  <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" />
+  <project path="system/memory/libmemtrack" name="platform/system/memory/libmemtrack" groups="pdk" />
+  <project path="system/memory/libmemunreachable" name="platform/system/memory/libmemunreachable" groups="pdk" />
+  <project path="system/memory/lmkd" name="platform/system/memory/lmkd" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/nfc" name="platform/system/nfc" groups="pdk" />
+  <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
+  <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" revision="android11-tests-dev" groups="pdk" />
+  <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
+  <project path="system/teeui" name="platform/system/teeui" groups="pdk" />
+  <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" />
+  <project path="system/timezone" name="platform/system/timezone" groups="pdk" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
+  <project path="system/tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="pdk" />
+  <project path="system/tools/sysprop" name="platform/system/tools/sysprop" groups="pdk" />
+  <project path="system/tools/xsdc" name="platform/system/tools/xsdc" groups="pdk" />
+  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="test/framework" name="platform/test/framework" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/mlts/benchmark" name="platform/test/mlts/benchmark" revision="android11-tests-dev" groups="pdk" />
+  <project path="test/mlts/models" name="platform/test/mlts/models" groups="pdk" />
+  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" />
+  <project path="test/mts" name="platform/test/mts" />
+  <project path="test/suite_harness" name="platform/test/suite_harness" revision="android11-tests-dev" groups="cts,pdk-cw-fs,pdk-fs" />
+  <project path="test/vti/dashboard" name="platform/test/vti/dashboard" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/vti/fuzz_test_serving" name="platform/test/vti/fuzz_test_serving" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/vti/test_serving" name="platform/test/vti/test_serving" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/vts" name="platform/test/vts" revision="android11-tests-dev" groups="vts,pdk" />
+  <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="android11-tests-dev" groups="vts,pdk" />
+  <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="android11-tests-dev" groups="vts,pdk" />
+  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="android11-tests-dev" groups="vts,pdk" />
+  <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" revision="android11-tests-dev" groups="vts,projectarch,pdk" />
+  <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" revision="android11-tests-dev" groups="vts,pdk" />
+  <project path="toolchain/benchmark" name="toolchain/benchmark" />
+  <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" />
+  <project path="tools/acloud" name="platform/tools/acloud" revision="android11-tests-dev" groups="tools,vts,projectarch,pdk,tradefed" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" />
+  <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
+  <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" />
+  <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" />
+  <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
+  <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
+  <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" />
+  <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" />
+  <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" />
+  <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" />
+  <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" />
+  <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
+  <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
+  <project path="tools/loganalysis" name="platform/tools/loganalysis" revision="android11-tests-dev" groups="nopresubmit,pdk,tradefed" />
+  <project path="tools/metalava" name="platform/tools/metalava" groups="pdk,tools" />
+  <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
+  <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs,pdk" />
+  <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
+  <project path="tools/security" name="platform/tools/security" groups="pdk,tools" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
+  <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
+  <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" />
+  <project path="tools/tradefederation/core" name="platform/tools/tradefederation" revision="android11-tests-dev" groups="pdk,tradefed" />
+  <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
+  <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
+  <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+>>>>>>> BRANCH (da8a3b Sync libufdt project from android11-tests-dev branch)
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
