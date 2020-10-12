@@ -22,6 +22,30 @@
       },
       "revId": "56087a0417b655c19ae360ed68352795f15be016",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf5aa1f0_97f71790",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-10-12T14:49:50Z",
+      "side": 1,
+      "message": "I think Gerrit was already creating links for these patterns before (or maybe just the SHA1 portion), but I\u0027m not entirely sure.",
+      "parentUuid": "f6c53bee_cd5d6bb2",
+      "range": {
+        "startLine": 9,
+        "startChar": 13,
+        "endLine": 9,
+        "endChar": 60
+      },
+      "revId": "56087a0417b655c19ae360ed68352795f15be016",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
