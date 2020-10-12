@@ -16,6 +16,23 @@
       "message": "PTAL",
       "revId": "7e88bca9bd1a97e8762fe0e3480011e48932d934",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fde2fc62_2099e979",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2020-10-12T18:42:27Z",
+      "side": 1,
+      "message": "Downstream branches are verified",
+      "revId": "7e88bca9bd1a97e8762fe0e3480011e48932d934",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
