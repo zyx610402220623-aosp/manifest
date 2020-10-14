@@ -34,6 +34,24 @@
       "parentUuid": "098e2758_93b5a6b4",
       "revId": "8d35dafff16807f3442fc6f16b4c9e22c758c442",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e032dc4d_a8ae6eed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1726181
+      },
+      "writtenOn": "2020-10-14T11:41:12Z",
+      "side": 1,
+      "message": "In particular,\n\nThis code review wouldn\u0027t even be possible before (we couldn\u0027t create manifest reviews). But now it is possible.\n\nYou can\u0027t +2 this, but you should be able to +2 most other reviews now",
+      "parentUuid": "19775300_5cf1b6f3",
+      "revId": "8d35dafff16807f3442fc6f16b4c9e22c758c442",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
