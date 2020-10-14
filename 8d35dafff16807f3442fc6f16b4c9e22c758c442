@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "098e2758_93b5a6b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1066075
+      },
+      "writtenOn": "2020-10-14T10:40:20Z",
+      "side": 1,
+      "message": "It appears that I still can\u0027t +2 this?",
+      "revId": "8d35dafff16807f3442fc6f16b4c9e22c758c442",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
