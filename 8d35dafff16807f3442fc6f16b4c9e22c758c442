@@ -16,6 +16,24 @@
       "message": "It appears that I still can\u0027t +2 this?",
       "revId": "8d35dafff16807f3442fc6f16b4c9e22c758c442",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19775300_5cf1b6f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1514900
+      },
+      "writtenOn": "2020-10-14T10:56:20Z",
+      "side": 1,
+      "message": "WAI. This is a change to the AOSP manifest.",
+      "parentUuid": "098e2758_93b5a6b4",
+      "revId": "8d35dafff16807f3442fc6f16b4c9e22c758c442",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
