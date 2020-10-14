@@ -16,6 +16,24 @@
       "message": "Adding Inna for PDK review, thanks!",
       "revId": "ccbc79423bc5f73e66c8925926a474f5d9a72e92",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10d3b2be_e7b98f24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1726181
+      },
+      "writtenOn": "2020-10-14T22:33:00Z",
+      "side": 1,
+      "message": "FWIW, nothing has changed since the previous presubmit-verified +1, except that I had to rebase because of a merge conflict. So I am running the presubmit again just to double check.",
+      "parentUuid": "8ede3c65_18b011f2",
+      "revId": "ccbc79423bc5f73e66c8925926a474f5d9a72e92",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
