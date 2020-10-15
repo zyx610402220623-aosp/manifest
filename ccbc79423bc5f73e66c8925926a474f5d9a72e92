@@ -51,6 +51,24 @@
       "message": "Adding tavila@ as well because Patrice said you also have PDK approval powers",
       "revId": "ccbc79423bc5f73e66c8925926a474f5d9a72e92",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a53c43bc_168fc8e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1726181
+      },
+      "writtenOn": "2020-10-15T01:58:08Z",
+      "side": 1,
+      "message": "The presubmit has been running for 3.5 hours :-(",
+      "parentUuid": "10d3b2be_e7b98f24",
+      "revId": "ccbc79423bc5f73e66c8925926a474f5d9a72e92",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
