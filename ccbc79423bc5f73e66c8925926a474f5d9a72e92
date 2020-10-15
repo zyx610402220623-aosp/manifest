@@ -34,6 +34,23 @@
       "parentUuid": "8ede3c65_18b011f2",
       "revId": "ccbc79423bc5f73e66c8925926a474f5d9a72e92",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "031b00e3_b1dacf9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1726181
+      },
+      "writtenOn": "2020-10-15T00:43:41Z",
+      "side": 1,
+      "message": "Adding tavila@ as well because Patrice said you also have PDK approval powers",
+      "revId": "ccbc79423bc5f73e66c8925926a474f5d9a72e92",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
