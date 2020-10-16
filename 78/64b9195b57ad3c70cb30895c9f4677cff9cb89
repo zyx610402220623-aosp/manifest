@@ -1,0 +1,14 @@
+Presubmit-Verified-1: Treehugger Robot <treehugger-gerrit@google.com>
+Bypass-Presubmit+1: Baligh Uddin <baligh@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Code-Review+1: Martin Stjernholm <mast@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Open-Source-Licensing+1: Lint 🤖 <android-build-ayeaye@system.gserviceaccount.com>
+Verified+1: Baligh Uddin <baligh@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Lint+1: Lint 🤖 <android-build-ayeaye@system.gserviceaccount.com>
+Submitted-by: Baligh Uddin <baligh@google.com>
+Submitted-at: Fri, 16 Oct 2020 15:49:41 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1455537
+Project: platform/manifest
+Branch: refs/heads/master
