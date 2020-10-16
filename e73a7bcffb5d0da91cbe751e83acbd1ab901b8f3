@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d9696e1_220281f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2020-10-16T15:48:29Z",
+      "side": 1,
+      "message": "Moving forward with submit to unblock this effort.  The failure is due to how TH tests downstream branches and is recorded in https://b.corp.google.com/issues/163786882#comment31",
+      "revId": "e73a7bcffb5d0da91cbe751e83acbd1ab901b8f3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
