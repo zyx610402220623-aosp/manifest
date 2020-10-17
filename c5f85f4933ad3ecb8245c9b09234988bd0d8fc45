@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5bd1d97_515c0c02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1685112
+      },
+      "writtenOn": "2020-10-17T09:10:13Z",
+      "side": 1,
+      "message": "I love crystal",
+      "revId": "c5f85f4933ad3ecb8245c9b09234988bd0d8fc45",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
