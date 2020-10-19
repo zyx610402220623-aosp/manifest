@@ -22,6 +22,30 @@
       },
       "revId": "42861dbcec57123cf320531c73513ae673334f6d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d34ed3ee_1309adb6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2020-10-19T18:06:40Z",
+      "side": 1,
+      "message": "Right; I thought at first that this issue was a regression caused by the integration of cpu_features v0.6.0 (https://android-review.googlesource.com/c/platform/external/cpu_features/+/1460885), but it was actually already present before that chnage. I think it\u0027s fine, as we can use AOSP master to build (and test) cpu_features.",
+      "parentUuid": "37d86332_a1db8376",
+      "range": {
+        "startLine": 9,
+        "startChar": 40,
+        "endLine": 9,
+        "endChar": 66
+      },
+      "revId": "42861dbcec57123cf320531c73513ae673334f6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
