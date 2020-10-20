@@ -16,6 +16,24 @@
       "message": "Just a reminder to do the same change in git_master-art-host.",
       "revId": "8938eb1453905d1d8a78d5a4e0cf9f32d92b25ef",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cccf1d13_a64f3ebc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2020-10-20T14:36:30Z",
+      "side": 1,
+      "message": "Of course :)",
+      "parentUuid": "2e05e2c8_2bc4c658",
+      "revId": "8938eb1453905d1d8a78d5a4e0cf9f32d92b25ef",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
