@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3eefb656_a50e39a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1380243
+      },
+      "writtenOn": "2020-10-20T08:33:38Z",
+      "side": 1,
+      "message": "Trying to submit a manifest change after this one, I get a bunch of errors blocking upload. I\u0027m unable to include the error fully here, because I\u0027m blocked from adding the comment because of the same banned words, but with them removed:\n\nremote: ERROR: commit 0f8ebeb: blocked keyword(s) found in: default.xml (Line: 64) (found: CENSORED, CENSORED, CENSORED)\nremote: ERROR: commit 0f8ebeb: blocked keyword(s) found in: default.xml (Line: 65) (found: CENSORED, CENSORED, CENSORED)\nremote: ERROR: commit 0f8ebeb: blocked keyword(s) found in: default.xml (Line: 66) (found: CENSORED, CENSORED, CENSORED)\nremote: ERROR: commit 0f8ebeb: blocked keyword(s) found in: default.xml (Line: 73) (found: CENSORED, CENSORED, CENSORED)\nremote: ERROR: commit 0f8ebeb: blocked keyword(s) found in: default.xml (Line: 74) (found: CENSORED, CENSORED, CENSORED)\nremote: ERROR: commit 0f8ebeb: blocked keyword(s) found in: default.xml (Line: 75) (found: CENSORED, CENSORED, CENSORED)\n\nhttps://r.android.com/1466485 doesn\u0027t seem to have helped. Is this a known issue?",
+      "revId": "9540b1e0cc37ad09f28ec89fd8b8ccddd818d329",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
