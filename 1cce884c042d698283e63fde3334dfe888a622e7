@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f441f9cb_05dfe4ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1380243
+      },
+      "writtenOn": "2020-10-20T08:36:20Z",
+      "side": 1,
+      "message": "I\u0027m unable to rebase this on top of master because of banned words in the most recent master commit.",
+      "revId": "1cce884c042d698283e63fde3334dfe888a622e7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
