@@ -16,6 +16,23 @@
       "message": "blocked on ag/12877555",
       "revId": "5d57a73d2764f9407a5a55c2b130f661e4105433",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed33723e_26b37948",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2020-10-21T14:35:38Z",
+      "side": 1,
+      "message": "Downstream branches are verified",
+      "revId": "5d57a73d2764f9407a5a55c2b130f661e4105433",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
