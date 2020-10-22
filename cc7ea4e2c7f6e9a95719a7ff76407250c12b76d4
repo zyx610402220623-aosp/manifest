@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddc2b4a1_eef4d099",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1520332
+      },
+      "writtenOn": "2020-10-22T12:45:41Z",
+      "side": 1,
+      "message": "This is attached to aosp/1469422, but I\u0027m not sure how to set up a submit-together",
+      "revId": "cc7ea4e2c7f6e9a95719a7ff76407250c12b76d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
