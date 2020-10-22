@@ -1,0 +1,11 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Autosubmit+1: Owen Gray <owengray@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+1: Andrea Falcone <asfalcone@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 22 Oct 2020 15:25:41 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1470328
+Project: platform/manifest
+Branch: refs/heads/dackka-main-dev
