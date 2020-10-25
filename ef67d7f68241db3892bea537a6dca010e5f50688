@@ -16,6 +16,23 @@
       "message": "1472724: Pin manifest of pie-vts-release | https://android-review.googlesource.com/c/platform/manifest/+/1472724",
       "revId": "ef67d7f68241db3892bea537a6dca010e5f50688",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "720870bf_cc8620e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1787958
+      },
+      "writtenOn": "2020-10-25T04:07:04Z",
+      "side": 1,
+      "message": "1472724: Pin manifest of pie-vts-release | https://android-review.googlesource.com/c/platform/manifest/+/1472724",
+      "revId": "ef67d7f68241db3892bea537a6dca010e5f50688",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
