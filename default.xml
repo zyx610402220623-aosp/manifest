@@ -12,6 +12,7 @@
     <copyfile dest="tools/gradle.properties" src="base/gradle.properties" />
   </project>
 
+<<<<<<< HEAD   (71437c Pin manifest of emu-30-release)
   <project name="device/generic/goldfish-opengl" path="device/generic/goldfish-opengl" revision="410a9799d68d5e4722f975fa5146792dd6c3557b" />
   <project name="device/generic/vulkan-cereal" path="device/generic/vulkan-cereal" revision="ea978cef5a41c292dd9bd0ce9bf08648e76ca030" />
   <project name="platform/external/angle" path="external/angle" revision="7699511ed2a33470dc1de45f0706822cb31bd82d" />
@@ -38,6 +39,35 @@
   <project name="platform/external/protobuf" path="external/protobuf" revision="ca15ad7fb89a626c0d2a98240b11a2523727f9be" />
   <project name="platform/external/qemu" path="external/qemu" revision="4b1ca6336c2d010813bcd85351098b7c4d0a0126">
     <copyfile dest="emu.code-workspace" src="android/vscode/emu.code-workspace" />
+=======
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="master"/>
+  <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="master"/>
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" />
+  <project path="external/boringssl" name="platform/external/boringssl" revision="master" clone-depth="1"/>
+  <project path="external/cares" name="platform/external/c-ares" />
+  <project path="external/curl" name="platform/external/curl" />
+  <project path="external/deqp" name="platform/external/deqp" revision="master" />
+  <project path="external/ffmpeg" name="platform/external/ffmpeg" />
+  <project path="external/googletest" name="platform/external/googletest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" />
+  <project path="external/grpc" name="platform/external/grpc-grpc" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libvpx" name="platform/external/libvpx" />
+  <project path="external/libyuv" name="platform/external/libyuv" revision="master"/>
+  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/lz4" name="platform/external/lz4" />
+  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/pixman" name="platform/external/pixman" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/perfetto" name="platform/external/perfetto" revision="88c194fccd3bfdcff22b4dfd0987230a433b5e96"/>
+  <project path="external/qemu" name="platform/external/qemu">
+    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
+>>>>>>> BRANCH (b365d6 Add perfetto to manifest (at a particular revision to guard )
   </project>
   <project name="platform/external/qt" path="external/qt" revision="989b587a7ee85e4afde01b866aae3457bc9122c7" />
   <project name="platform/external/sdl2" path="external/sdl2" revision="a3ceb7dc2b5ec536915c83bf7b547002786fd8be" />
