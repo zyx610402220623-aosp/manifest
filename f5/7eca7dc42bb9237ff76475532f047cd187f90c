@@ -1,0 +1,9 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+2: Roland Levillain <rpl@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Submitted-by: Orion Hodson <oth@google.com>
+Submitted-at: Mon, 26 Oct 2020 11:49:16 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1473976
+Project: platform/manifest
+Branch: refs/heads/master-art
