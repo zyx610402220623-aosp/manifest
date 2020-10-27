@@ -1,0 +1,11 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Autosubmit+1: Rupert Shuttleworth <ruperts@google.com>
+Code-Review+1: Jingwen Chen <jingwen@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Tue, 27 Oct 2020 05:43:35 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1473676
+Project: platform/manifest
+Branch: refs/heads/master
