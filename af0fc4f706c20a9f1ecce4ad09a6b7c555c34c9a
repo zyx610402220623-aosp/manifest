@@ -34,6 +34,24 @@
       "parentUuid": "d19f77f1_8656ba88",
       "revId": "af0fc4f706c20a9f1ecce4ad09a6b7c555c34c9a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fe9e328_8e9b3512",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1110304
+      },
+      "writtenOn": "2020-10-28T19:37:07Z",
+      "side": 1,
+      "message": "you don\u0027t need to touch external/abseil-cpp if you just use a different name in the copy you added in external/webrtc/.\nIIUC the problem with removing it from the manifest is that the change will propagate to a different branch where the project is in use. If that\u0027s the case, deleting the manifest will have the same effect.",
+      "parentUuid": "2fca15d2_7d7695d4",
+      "revId": "af0fc4f706c20a9f1ecce4ad09a6b7c555c34c9a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
