@@ -70,6 +70,24 @@
       "parentUuid": "6fe9e328_8e9b3512",
       "revId": "af0fc4f706c20a9f1ecce4ad09a6b7c555c34c9a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d911797a_9887e1e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1047003
+      },
+      "writtenOn": "2020-10-28T20:47:46Z",
+      "side": 1,
+      "message": "Jorge, Dan,\nThanks.\nWill rename the abseil modules in webrtc and not touch external/abseil-cpp for now.",
+      "parentUuid": "53fbe4c4_a0466027",
+      "revId": "af0fc4f706c20a9f1ecce4ad09a6b7c555c34c9a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
