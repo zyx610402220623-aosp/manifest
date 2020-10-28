@@ -52,6 +52,24 @@
       "parentUuid": "2fca15d2_7d7695d4",
       "revId": "af0fc4f706c20a9f1ecce4ad09a6b7c555c34c9a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53fbe4c4_a0466027",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2020-10-28T20:20:03Z",
+      "side": 1,
+      "message": "The manifest doesn\u0027t automerge into aosp-clang-tools, so this change would function, but we expected more host tools to start using this, which isn\u0027t under visibility/allowlist restrictions, since we don\u0027t have the same issues on the host as we do on the device.\n\nBut yes, you should also be using unique module names.",
+      "parentUuid": "6fe9e328_8e9b3512",
+      "revId": "af0fc4f706c20a9f1ecce4ad09a6b7c555c34c9a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
