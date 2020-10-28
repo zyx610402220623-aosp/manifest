@@ -1,0 +1,11 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Verified+1: Xusong Wang <xusongw@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Autosubmit+1: Xusong Wang <xusongw@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 28 Oct 2020 01:24:41 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1477495
+Project: platform/manifest
+Branch: refs/heads/android10-tests-dev
