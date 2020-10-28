@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d19f77f1_8656ba88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2020-10-28T16:57:33Z",
+      "side": 1,
+      "message": "+asmundak,dwillemsen --- i don\u0027t think we can do exactly this because this will remove it from the manifest where it is used. i think it\u0027s probably easiest to just leave this in master but for asmundak@ to add the missing `visibility:` so we get no new host-only users?",
+      "revId": "af0fc4f706c20a9f1ecce4ad09a6b7c555c34c9a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
