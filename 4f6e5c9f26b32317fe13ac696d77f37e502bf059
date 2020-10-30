@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca94b56d_3125b3e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2020-10-30T22:11:46Z",
+      "side": 1,
+      "message": "I suspect this change might have broken certain AOSP builds. My local aosp_blueline build fails in Soong:\n\n    error: frameworks/base/services/core/Android.bp:75:1: \"services.core.unboosted\" depends on undefined module \"framework-tethering.stubs.module_lib\"\n    14:58:48 soong bootstrap failed with: exit status 1\n\nThe aosp-master-plus-llvm build started failing today as of ab/6941870. I see the same error in  https://android-build.googleplex.com/builds/submitted/6941870/aosp_blueline-userdebug/latest/view/logs/build_error.log.\n",
+      "revId": "4f6e5c9f26b32317fe13ac696d77f37e502bf059",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
