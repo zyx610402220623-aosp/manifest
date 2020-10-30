@@ -34,6 +34,24 @@
       "parentUuid": "ca94b56d_3125b3e0",
       "revId": "4f6e5c9f26b32317fe13ac696d77f37e502bf059",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bedf765b_526449a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2020-10-30T22:23:13Z",
+      "side": 1,
+      "message": "Nevermind. I see that it\u0027s already being fixed here: https://android-review.googlesource.com/c/platform/manifest/+/1482656. Thanks.",
+      "parentUuid": "d426ff66_54e503e7",
+      "revId": "4f6e5c9f26b32317fe13ac696d77f37e502bf059",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
