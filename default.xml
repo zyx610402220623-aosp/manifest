@@ -2,9 +2,17 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (336d7a Merge empty history for sparse-6923561-L54900000733046130)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6887559-L74400000734449727" sync-j="4" />
+>>>>>>> BRANCH (be2514 Pin manifest of sparse-6887559-L74400000734449727)
 
+<<<<<<< HEAD   (336d7a Merge empty history for sparse-6923561-L54900000733046130)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
+=======
+  <project groups="pdk" name="platform/build" path="build/make" revision="07d8fda2c92ffb9cf72944c3f5840e0c75dea270">
+>>>>>>> BRANCH (be2514 Pin manifest of sparse-6887559-L74400000734449727)
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
@@ -23,7 +31,11 @@
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" />
   <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd" revision="6a7d9427bac3349bd04e0d3358be8f8cc484bdb6" />
+<<<<<<< HEAD   (336d7a Merge empty history for sparse-6923561-L54900000733046130)
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="e49ef5281dd690d4ea99c07898d0ce1544484f93" />
+=======
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="74ccddd91a21cd1a11e9f6b0e4987c01d9dddc69" />
+>>>>>>> BRANCH (be2514 Pin manifest of sparse-6887559-L74400000734449727)
   <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="505f6343e3c46240f08af010d7d6c534406618fe" />
   <project groups="developers" name="platform/developers/build" path="developers/build" revision="9c12ab29f282290541b7541b4fbc06dfc07d59f8" />
   <project groups="developers" name="platform/developers/demos" path="developers/demos" revision="03814c35b8ee0a1284c667556260124d97466b28" />
@@ -108,7 +120,11 @@
   <project groups="pdk" name="platform/external/cros/system_api" path="external/cros/system_api" revision="b48922224f13c7323a389cc8b2585d43dc1ba724" />
   <project groups="pdk" name="platform/external/curl" path="external/curl" revision="f9aa749e85ca94eff17a8887c973daa9fbb01aca" />
   <project groups="pdk" name="platform/external/dagger2" path="external/dagger2" revision="85384573a25f9b7c61e582dfbb8ea7025fbb18fd" />
+<<<<<<< HEAD   (336d7a Merge empty history for sparse-6923561-L54900000733046130)
   <project groups="pdk-fs" name="platform/external/deqp" path="external/deqp" revision="85d1e564942f53f193aa54833d871aa4aa5b24be" />
+=======
+  <project groups="pdk-fs" name="platform/external/deqp" path="external/deqp" revision="dfe1d2ace6c7d7980700fafa0265528c3a9636ba" />
+>>>>>>> BRANCH (be2514 Pin manifest of sparse-6887559-L74400000734449727)
   <project groups="pdk" name="platform/external/desugar" path="external/desugar" revision="ea702acc8ed28a3c2a5e256dce796efe70c9cdd6" />
   <project groups="pdk" name="platform/external/devlib" path="external/devlib" revision="4a86c6af2d3691a6bceea47da0ab1bee9594ac92" />
   <project groups="pdk" name="platform/external/dexmaker" path="external/dexmaker" revision="41739f1fc403c235dcfba6bceb766103d649f8ce" />
@@ -281,7 +297,7 @@
   <project groups="pdk" name="platform/external/pcre" path="external/pcre" revision="98ab71ee53a87339c1807bf06813024ef559f750" />
   <project groups="pdk" name="platform/external/pdfium" path="external/pdfium" revision="2cfeff38ccc550e920192518c24c55f4c53e7a7d" />
   <project groups="pdk" name="platform/external/perf_data_converter" path="external/perf_data_converter" revision="77162c97e59b1e6b3895a97b3b9dfbe45422ad3f" />
-  <project groups="pdk" name="platform/external/perfetto" path="external/perfetto" revision="f33903d03a446fd2ccdf4c8ee169ca9420cb6d17" />
+  <project groups="pdk" name="platform/external/perfetto" path="external/perfetto" revision="974a228c45fcee3399722f209f0bc2019670d503" />
   <project groups="pdk" name="platform/external/piex" path="external/piex" revision="051d4a355b3e2eb0c16ee31e587bd118b525f14f" />
   <project groups="pdk" name="platform/external/ply" path="external/ply" revision="995abb2baf8625feb3d1e3cb1d89b70de0c15205" />
   <project groups="pdk" name="platform/external/ppp" path="external/ppp" revision="90da8c8f15db2c82aece6e4085aaf9c116d481f2" />
@@ -343,7 +359,11 @@
   <project groups="pdk" name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" revision="492abb45bbdfc0c5b9ffd00f16e53ab628305da9" />
   <project groups="pdk" name="platform/external/shflags" path="external/shflags" revision="c4876e01829b8cf110ee33267bb1bad1f8ebb51d" />
   <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" revision="e4fd8b26455d5cbeaff4e99c499ec28d7dec77a2" />
+<<<<<<< HEAD   (336d7a Merge empty history for sparse-6923561-L54900000733046130)
   <project clone-depth="1" groups="cts" name="platform/external/skqp" path="external/skqp" revision="815594dd4242cd4477aa5550a38eb95dbbc5cf71" />
+=======
+  <project clone-depth="1" groups="cts" name="platform/external/skqp" path="external/skqp" revision="6612397cf73efb86a65daed31e0c830fc334322f" />
+>>>>>>> BRANCH (be2514 Pin manifest of sparse-6887559-L74400000734449727)
   <project groups="pdk" name="platform/external/sl4a" path="external/sl4a" revision="91f381cfd5007945e9fcfac3eebf1eb64b2c0a69" />
   <project groups="pdk" name="platform/external/slf4j" path="external/slf4j" revision="68ddaf4a5536543bea6e2cb05ccd1c3d26798be1" />
   <project groups="pdk" name="platform/external/smali" path="external/smali" revision="843d030c02f32f2a0dfa2e69e1dd1492ab3e3eab" />
@@ -589,7 +609,11 @@
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" revision="b435a054b5aa8e7d9ef7de1a7d6196abafc70789" />
   <project clone-depth="1" groups="pdk,darwin" name="platform/prebuilts/clang/host/darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="f3014761c955345d6e05491608e73228d014afb7" />
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" revision="c9cc9e7d29b8970d8ddb734c88fb62d01e0b7279" />
+<<<<<<< HEAD   (336d7a Merge empty history for sparse-6923561-L54900000733046130)
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="c8f29c1f07ad32278f9225ce05642af726356e12" />
+=======
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp" revision="b1b7b6d286aa3560531d1ea3c2742671cea4bf72" />
+>>>>>>> BRANCH (be2514 Pin manifest of sparse-6887559-L74400000734449727)
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" revision="2916ba4863817eebecc7c514526288690328fff7" />
   <project clone-depth="1" groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="70fde86e7caf7e78acd1150d6d3bf3bb1ebad43a" />
   <project clone-depth="1" groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="34a11c4960d003f338bb1ce8e5f5b8ffc3fcac62" />
@@ -652,9 +676,15 @@
   <project groups="pdk" name="platform/system/tools/hidl" path="system/tools/hidl" revision="2b70000c0d1631eccb216e2d9aa2552765261506" />
   <project name="platform/system/tpm" path="system/tpm" revision="c3818d334421805f04822f4dceb8db193ab74f14" />
   <project groups="pdk" name="platform/system/update_engine" path="system/update_engine" revision="e5d1deba6185ba59da0345cb970d2d60c312ab76" />
+<<<<<<< HEAD   (336d7a Merge empty history for sparse-6923561-L54900000733046130)
   <project groups="pdk" name="platform/system/vold" path="system/vold" revision="5dce8b6609f630a91e3d5ccf2891612b0d1b24c9" />
   <project groups="vts,pdk" name="platform/test/framework" path="test/framework" revision="8a273728b695257f43a2ddcaa72d4920561bea8a" />
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" revision="96502fae00a8331920d20bb25b1154dca0b4daf1" />
+=======
+  <project groups="pdk" name="platform/system/vold" path="system/vold" revision="d73b4572aecd4cc3903a618bd26508a9ff0dc0b3" />
+  <project groups="vts,pdk" name="platform/test/framework" path="test/framework" revision="5f7b380bfe0b3adc09bbb298efe62086021ab51f" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" revision="c30dc864cd16e624151d3e7ff03fcecb60fe8de0" />
+>>>>>>> BRANCH (be2514 Pin manifest of sparse-6887559-L74400000734449727)
   <project groups="vts,pdk" name="platform/test/vti/alert" path="test/vti/alert" revision="2270d160e38f0623d708cce36754fe14168dce64" />
   <project groups="vts,pdk" name="platform/test/vti/dashboard" path="test/vti/dashboard" revision="3d4e38112f0e41994d2de0c2159c3deff99c367a" />
   <project groups="vts,pdk" name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving" revision="e5bcc336b6b8bb7826e791cf608bf0efbb32a2ed" />
