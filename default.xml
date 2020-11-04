@@ -1,10 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (14849e Merge empty history for sparse-6902913-L55000000735443668)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6902900-L74200000735464575" sync-j="4" />
+>>>>>>> BRANCH (46c54f Pin manifest of sparse-6902900-L74200000735464575)
 
+<<<<<<< HEAD   (14849e Merge empty history for sparse-6902913-L55000000735443668)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
+=======
+  <project groups="pdk" name="platform/build" path="build/make" revision="3f2fb76f1cad943df006df3020b9f6b8e8e9e279">
+>>>>>>> BRANCH (46c54f Pin manifest of sparse-6902900-L74200000735464575)
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
@@ -19,6 +26,7 @@
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
+<<<<<<< HEAD   (14849e Merge empty history for sparse-6902913-L55000000735443668)
   <project groups="pdk" name="platform/art" path="art" revision="f0e3a368c80b7d32e2f85ffa948751525a9f903b" />
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" />
@@ -31,6 +39,22 @@
   <project groups="developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="60ec2abfed7a1f94e2dac78eb6c5faf8b17f8dd5" />
   <project groups="pdk-cw-fs,pdk" name="device/common" path="device/common" revision="68a1c1b00e3e58a10040b74dbfd6853b54ab18c2" />
   <project groups="pdk" name="device/generic/arm64" path="device/generic/arm64" revision="3fd397464154b05b19137618625989ac1d0fdecd" />
+=======
+  <project groups="pdk" name="platform/art" path="art" revision="38a95a9cd6cf4829f7b6d3362e83e49a053b731e" />
+  <project groups="pdk" name="platform/bionic" path="bionic" revision="5a5fad0d5bdec2ca2051a290cfe066f1ff5d7aa5" />
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="435a2031d62e868aae928ec3c4090ea3bbea3397" />
+  <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd" revision="62e92e525d70a5e2f4f4ece1f8df1a9b6324cf7d" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="1bfe2584fbc2a0cf5fd736ef22cdd9b7fddd680c" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="02fc806bbb3ce8d96049ed83a55d5969e1c506a1" />
+  <project groups="developers" name="platform/developers/build" path="developers/build" revision="ea26741e652520a5cbcda8a608939f8ca3980afc" />
+  <project groups="developers" name="platform/developers/demos" path="developers/demos" revision="0c26d2e66f1a4da8eda2c23e41a5045a0695fe06" />
+  <project groups="developers" name="platform/developers/samples/android" path="developers/samples/android" revision="8cb79f3787bd82f2bfa7b55323cfd5c7969e923d" />
+  <project groups="developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="c4167ea685b16da5d77d1b13cd454ab93ca1d5b8" />
+  <project groups="device,fugu,broadcom_pdk,pdk" name="device/asus/fugu" path="device/asus/fugu" revision="e4baba9e1137defa72f9add3dfe2c306f6f59ecc" />
+  <project clone-depth="1" groups="device,fugu,broadcom_pdk,pdk" name="device/asus/fugu-kernel" path="device/asus/fugu-kernel" revision="c488c7e1dc88194c546c436eda6f7f24dc1b08be" />
+  <project groups="pdk-cw-fs,pdk" name="device/common" path="device/common" revision="f87323bed1150074fee5a0ad64d76aaed0c58f00" />
+  <project groups="pdk" name="device/generic/arm64" path="device/generic/arm64" revision="392eec3cb4c64721cd5b76fa36535954b5d45309" />
+>>>>>>> BRANCH (46c54f Pin manifest of sparse-6902900-L74200000735464575)
   <project groups="pdk" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="9e96e041bf3c9d5b57b11f921c6339e076478a7a" />
   <project groups="pdk" name="device/generic/car" path="device/generic/car" revision="2ea88da2fdedc033640fee59d826b192c0429346" />
   <project groups="pdk" name="device/generic/common" path="device/generic/common" revision="10d08c39b3ee29347217f9e842824617b95e20c5" />
@@ -460,6 +484,7 @@
   <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="51d03179c9ddeeb71f36bfac40e445263b5e76e2" />
   <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="3a032cff241f6d0692462353465a819ee3704423" />
   <project groups="marvell_bt,pdk" name="platform/hardware/marvell/bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" />
+<<<<<<< HEAD   (14849e Merge empty history for sparse-6902913-L55000000735443668)
   <project groups="pdk" name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="f30d6b6679db41e7683019fac39112d9fc972598" />
   <project groups="pdk" name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" revision="e737b7d63275fe81bcedd3b745abff7dfda1c088" />
   <project groups="qcom,qcom_audio,pdk-qcom" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="d6cdb2e94f412bd775c4dbb3bd7ccac49a25ecef" />
@@ -490,6 +515,34 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="8281f09e9caf11ff24159e232e01e098085df430" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="3e191ef459a9f81bf6cfcfee1e36dec72c2831f2" />
   <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="9484cbe1f997fa4ed60ec2f37b628d0ef1cfc23b" />
+=======
+  <project groups="qcom,qcom_audio,pdk" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="b1bb73617ccd6a12c90b557b9847cdb4935136b1" />
+  <project groups="pdk" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="2f294e58e7ed7d788d35569022f59cc9fd0d3e30" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="526fbb46c9f328ac844ca79b2a996ce6a7bb9c02" />
+  <project groups="qcom_camera" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="5a0cbe36b3954336a4efd4724aa4a281b4de9dbe" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/data/ipacfg-mgr" path="hardware/qcom/data/ipacfg-mgr" revision="c6b4664ae094b5927f3c89465848dc4dd3b6ccbd" />
+  <project groups="pdk,qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="058a6f9bf2a2c85974e5f8001dc5d8d68969390d" />
+  <project groups="qcom,qcom_gps,pdk" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="97babdb926e3def2991d9cbd83e9c7b6d3965015" />
+  <project groups="qcom,qcom_keymaster,pdk" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="b9d7a35c05cac901a65d09849f90f1b4146d10e8" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="2451c07cdbc8264183b899eaec8348bdd3e8477c" />
+  <project groups="qcom_msm8960,pdk" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" revision="c25a431842a26b5756b58a9d4a42c776e0457ba2" />
+  <project groups="qcom_msm8994,pdk" name="platform/hardware/qcom/msm8994" path="hardware/qcom/msm8994" revision="484a77bc26fa8d890d06140ec992144d78b44324" />
+  <project groups="qcom_msm8996" name="platform/hardware/qcom/msm8996" path="hardware/qcom/msm8996" revision="7ab934f03e72a6f91e588d5b12e2d66fb0094dad" />
+  <project groups="qcom_msm8998" name="platform/hardware/qcom/msm8998" path="hardware/qcom/msm8998" revision="4d554ba927d41caac6128d731b66e6d593b27514" />
+  <project groups="qcom_msm8x26,pdk" name="platform/hardware/qcom/msm8x26" path="hardware/qcom/msm8x26" revision="85c1a5282ae28663335e55ce96a4c0487de6c578" />
+  <project groups="qcom_msm8x27,pdk" name="platform/hardware/qcom/msm8x27" path="hardware/qcom/msm8x27" revision="8ff5c0057cbdecfa09410c1710ba043e191a2862" />
+  <project groups="qcom_msm8x84,pdk" name="platform/hardware/qcom/msm8x84" path="hardware/qcom/msm8x84" revision="582b414269d8472d17eef65d8a8965aa8105042f" />
+  <project groups="qcom_msm8x09" name="platform/hardware/qcom/msm8x09" path="hardware/qcom/msm8x09" revision="d8c14830ee90064499aba9e48a14048ba48c503d" />
+  <project groups="qcom,pdk" name="platform/hardware/qcom/power" path="hardware/qcom/power" revision="3a098ee1f89c398b9d6e7b5dfae9c694994f8bc4" />
+  <project groups="qcom_wlan,pdk" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="8b94981ce47caac688d27fe222c3ce18b046e1ab" />
+  <project groups="pdk" name="platform/hardware/ril" path="hardware/ril" revision="2ee1768d1adc898b9cd9c951dbe65e17a698a337" />
+  <project name="kernel/tests" path="kernel/tests" revision="fa4729e5d6aeba19cc9ea0b3cbd4eb085865beda" />
+  <project groups="pdk" name="platform/libcore" path="libcore" revision="d51b340d80b8419e43de8a097eac7f941e256e5b" />
+  <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="053ebae63c776d01687ce0130d0943aa7043c20a" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="db227a07988bd5c40ec93c48015454d10fbe5c00" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" revision="b29da02e4b48bae69bf74f6174cdf6815786cb94" />
+  <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="03b380b3e143b9f75cf53f00018e1554571590a1" />
+>>>>>>> BRANCH (46c54f Pin manifest of sparse-6902900-L74200000735464575)
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="956525423e51315015d6902e3b9487e72e9f4885" />
   <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="8f05c6c678114696eb27ead3e01ce41d01bedef2" />
   <project groups="pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" revision="d77afbe362b871276e5d7e4e56e588100a734aff" />
@@ -688,9 +741,15 @@
   <project groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" revision="233b8010f7f5e3c544b47c68ffae781860156945" />
   <project groups="notdefault,tools" name="platform/tools/studio/cloud" path="tools/studio/cloud" revision="58f06e77e051fff3903adabca7acdaa9dd12ec2d" />
   <project groups="notdefault,tools" name="platform/tools/swt" path="tools/swt" revision="8996e71047a2bd11efee46ef14e02435ab5fa07a" />
+<<<<<<< HEAD   (14849e Merge empty history for sparse-6902913-L55000000735443668)
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="241b580aec1347a287cf939fe63aa4f32af2ee8e" />
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="29b565f92e3fdafa2851d6682e0353a0cae08856" />
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="d5cb37813e7e126241766f004d93765b6473af2a" />
+=======
+  <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="91b8da9d0822fc0610deadc9d6e9e0a9482e3e14" />
+  <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="ccba9fddd0057fa159599f7616b8300900ebded8" />
+  <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="8dd3029197cdaa6d9e867d4c645b489a6f9f52b6" />
+>>>>>>> BRANCH (46c54f Pin manifest of sparse-6902900-L74200000735464575)
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
