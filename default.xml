@@ -123,6 +123,8 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
+  <project path="external/testng" name="platform/external/testng" groups="pdk" />
+    <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
 
   <!-- jvmti tests dependencies -->
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools" />
@@ -168,6 +170,7 @@
   </project>
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" groups="pdk" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,tradefed" clone-depth="1" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
   <!-- Only used in internal -->
