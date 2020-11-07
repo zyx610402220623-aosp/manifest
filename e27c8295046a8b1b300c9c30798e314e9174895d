@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23b49236_373e4aee",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1796197
+      },
+      "writtenOn": "2020-11-07T23:53:44Z",
+      "side": 1,
+      "message": "mm",
+      "revId": "e27c8295046a8b1b300c9c30798e314e9174895d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "941a4440_35cc985f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1796197
+      },
+      "writtenOn": "2020-11-07T23:53:44Z",
+      "side": 1,
+      "message": "how was it for a bit of time with your family are you going with us to do the way I can handle me know if it doesn\u0027t matter to me I don\u0027t take a joke corrective action",
+      "revId": "e27c8295046a8b1b300c9c30798e314e9174895d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
