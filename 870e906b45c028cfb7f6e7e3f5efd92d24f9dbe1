@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6015cef5_0e257ee4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1082465
+      },
+      "writtenOn": "2020-11-11T22:17:31Z",
+      "side": 1,
+      "message": "Hi Inna, this is a new place for the host gpu passthrough library for Cuttlefish virtual devices. This needs Code-Review and PDK-Review.",
+      "revId": "870e906b45c028cfb7f6e7e3f5efd92d24f9dbe1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
