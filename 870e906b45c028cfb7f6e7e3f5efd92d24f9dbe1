@@ -69,6 +69,24 @@
       "message": "I have created all downstream branches",
       "revId": "870e906b45c028cfb7f6e7e3f5efd92d24f9dbe1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26a8dff7_406eef0f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1082465
+      },
+      "writtenOn": "2020-11-11T22:28:03Z",
+      "side": 1,
+      "message": "awesome, thanks!",
+      "parentUuid": "ea02c58c_6639133e",
+      "revId": "870e906b45c028cfb7f6e7e3f5efd92d24f9dbe1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
