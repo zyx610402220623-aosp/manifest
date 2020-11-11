@@ -16,6 +16,24 @@
       "message": "Hi Inna, this is a new place for the host gpu passthrough library for Cuttlefish virtual devices. This needs Code-Review and PDK-Review.",
       "revId": "870e906b45c028cfb7f6e7e3f5efd92d24f9dbe1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9fd8ba3_327b56e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1082465
+      },
+      "writtenOn": "2020-11-11T22:22:23Z",
+      "side": 1,
+      "message": "I\u0027m also getting\n\n```\nBadManifestErrorInSync: Failed to get SHA1 for project path: device/generic/vulkan-cereal. Revision rvc-qpr-dev-plus-aosp is invalid .\n,\n error: Failed to get SHA1 for project path: device/generic/vulkan-cereal. Revision rvc-qpr-dev-plus-aosp is invalid .\n```\n\nand it looks like this downstream branch isn\u0027t created. If I use go/abss to create rvc-qpr-dev-plus-aosp, is that the right method?",
+      "parentUuid": "6015cef5_0e257ee4",
+      "revId": "870e906b45c028cfb7f6e7e3f5efd92d24f9dbe1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
