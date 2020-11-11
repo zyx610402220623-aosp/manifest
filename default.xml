@@ -2,7 +2,11 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (698524 Merge empty history for sparse-6961312-L87300000740635977)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-6934908-L32300000740776367" sync-j="4" />
+>>>>>>> BRANCH (3a360d Pin manifest of sparse-6934908-L32300000740776367)
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -19,6 +23,7 @@
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
+<<<<<<< HEAD   (698524 Merge empty history for sparse-6961312-L87300000740635977)
   <project groups="pdk" name="platform/art" path="art" revision="f0e3a368c80b7d32e2f85ffa948751525a9f903b" />
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" />
@@ -26,6 +31,15 @@
   <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="e49ef5281dd690d4ea99c07898d0ce1544484f93" />
   <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="505f6343e3c46240f08af010d7d6c534406618fe" />
   <project groups="developers" name="platform/developers/build" path="developers/build" revision="9c12ab29f282290541b7541b4fbc06dfc07d59f8" />
+=======
+  <project groups="pdk" name="platform/art" path="art" revision="a3b75aea04f875da146c3ef71912e95f5ee903ac" />
+  <project groups="pdk" name="platform/bionic" path="bionic" revision="ef74de79024e81400cfbb7965032232f38b7d594" />
+  <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="1ed404b31fa668bdb6569fc7ba4e8009a0938ee6" />
+  <project groups="pdk" name="platform/compatibility/cdd" path="compatibility/cdd" revision="fc4898fc9d25ec04fafb62269410d7de39306f98" />
+  <project groups="cts,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="371b0c563a997d1b8545dc9205d1cd1bb155c591" />
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" revision="06f521f22319b3ba697e31594b005320fd4c0f06" />
+  <project groups="developers,pdk" name="platform/developers/build" path="developers/build" revision="a7ee4f92c8928f6e9b1e9cfa8235ab0a3490a0d4" />
+>>>>>>> BRANCH (3a360d Pin manifest of sparse-6934908-L32300000740776367)
   <project groups="developers" name="platform/developers/demos" path="developers/demos" revision="03814c35b8ee0a1284c667556260124d97466b28" />
   <project groups="developers" name="platform/developers/samples/android" path="developers/samples/android" revision="c49d02ccc3e5ebd5f05a4fc077bd9ebf3d291870" />
   <project groups="developers,pdk-cw-fs,pdk-fs" name="platform/development" path="development" revision="60ec2abfed7a1f94e2dac78eb6c5faf8b17f8dd5" />
