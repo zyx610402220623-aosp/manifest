@@ -33,6 +33,23 @@
       "message": "Inna, is this CL okay?\n",
       "revId": "56081264e72e2b44d480a1083407d06ad6b9d0ec",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4cf3d42_3b6725cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2020-11-11T19:53:33Z",
+      "side": 1,
+      "message": "Downstream branches have been created",
+      "revId": "56081264e72e2b44d480a1083407d06ad6b9d0ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
