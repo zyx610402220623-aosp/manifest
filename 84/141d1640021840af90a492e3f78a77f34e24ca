@@ -1,0 +1,10 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+1: Dan Harms <danharms@google.com>
+Code-Review+2: Xin Li <delphij@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Submitted-by: Xin Li <delphij@google.com>
+Submitted-at: Thu, 12 Nov 2020 01:10:56 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1496700
+Project: platform/manifest
+Branch: refs/heads/ub-automotive-master
