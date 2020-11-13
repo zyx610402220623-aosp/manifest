@@ -1,0 +1,10 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Autosubmit+1: Aurimas Liutikas <aurimas@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+2: Jeff Gaston <jeffrygaston@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Fri, 13 Nov 2020 05:07:13 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1497298
+Project: platform/manifest
+Branch: refs/heads/metalava-master
