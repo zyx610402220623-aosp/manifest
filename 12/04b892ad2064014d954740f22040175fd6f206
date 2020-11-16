@@ -1,0 +1,16 @@
+Autosubmit+1: Justin Yun <justinyun@google.com>
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+1: Inseob Kim <inseob@google.com>
+Code-Review+1: Jiyong Park <jiyong@google.com>
+Code-Review+1: Hung-ying Tyan <tyanh@google.com>
+Code-Review+1: Jooyung Han <jooyung@google.com>
+Code-Review+1: SzuWei Lin <szuweilin@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 16 Nov 2020 23:29:54 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1498465
+Project: platform/manifest
+Branch: refs/heads/master
