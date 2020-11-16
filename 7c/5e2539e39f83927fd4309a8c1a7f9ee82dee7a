@@ -1,0 +1,11 @@
+Code-Review+2: Inna Palant <ipalant@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Autosubmit+1: Ivan Lozano <ivanlozano@google.com>
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 16 Nov 2020 18:17:07 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1496286
+Project: platform/manifest
+Branch: refs/heads/master
