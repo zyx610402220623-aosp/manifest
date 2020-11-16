@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a22af124_28d013d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1082465
+      },
+      "writtenOn": "2020-11-16T20:04:31Z",
+      "side": 1,
+      "message": "Hi Inna, is this good to merge now?",
+      "revId": "7d6a9c4c5e8fb649f2ee781028dc1f5a2eb54613",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
