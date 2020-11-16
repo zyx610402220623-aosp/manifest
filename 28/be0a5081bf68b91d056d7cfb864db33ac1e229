@@ -1,0 +1,13 @@
+Code-Review+1: Jeffrey Huang <jeffreyhuang@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Autosubmit+1: Baligh Uddin <baligh@google.com>
+Verified+1: Baligh Uddin <baligh@google.com>
+PDK-Review+1: Baligh Uddin <baligh@google.com>
+Presubmit-Verified+1: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Mon, 16 Nov 2020 22:02:39 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1499044
+Project: platform/manifest
+Branch: refs/heads/master
