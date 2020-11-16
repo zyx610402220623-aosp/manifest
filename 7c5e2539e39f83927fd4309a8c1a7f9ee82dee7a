@@ -16,6 +16,23 @@
       "message": "Friendly ping for review, thanks!",
       "revId": "7c5e2539e39f83927fd4309a8c1a7f9ee82dee7a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a647da7e_94ecc706",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2020-11-16T17:59:20Z",
+      "side": 1,
+      "message": "Downstream branches are verified",
+      "revId": "7c5e2539e39f83927fd4309a8c1a7f9ee82dee7a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
