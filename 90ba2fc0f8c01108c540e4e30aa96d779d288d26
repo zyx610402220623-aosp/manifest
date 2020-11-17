@@ -16,6 +16,24 @@
       "message": "Downstream branches are verified",
       "revId": "90ba2fc0f8c01108c540e4e30aa96d779d288d26",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "147f5a27_3fcb57de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1082465
+      },
+      "writtenOn": "2020-11-17T02:54:52Z",
+      "side": 1,
+      "message": "Thanks Inna!",
+      "parentUuid": "72f126e5_dff01723",
+      "revId": "90ba2fc0f8c01108c540e4e30aa96d779d288d26",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
