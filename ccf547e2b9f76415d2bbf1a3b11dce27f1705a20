@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "176fec9e_23664575",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2020-11-17T10:35:16Z",
+      "side": 1,
+      "message": "Is this intended to be indented?",
+      "revId": "ccf547e2b9f76415d2bbf1a3b11dce27f1705a20",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
