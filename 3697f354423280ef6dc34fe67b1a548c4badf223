@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a75334b_76147e46",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1082465
+      },
+      "writtenOn": "2020-11-17T18:27:35Z",
+      "side": 1,
+      "message": "Should be safe to reland; was a git packfile offload issue that was fixed in the backend: https://buganizer.corp.google.com/issues/173507374#comment19",
+      "revId": "3697f354423280ef6dc34fe67b1a548c4badf223",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
