@@ -16,6 +16,47 @@
       "message": "Is this intended to be indented?",
       "revId": "ccf547e2b9f76415d2bbf1a3b11dce27f1705a20",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85a8582c_e1e162a2",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-11-17T12:50:59Z",
+      "side": 1,
+      "message": "Yes, it\u0027s used in this file to indicate that it\u0027s a dependency of the project above rather than of ART directly.",
+      "parentUuid": "176fec9e_23664575",
+      "revId": "ccf547e2b9f76415d2bbf1a3b11dce27f1705a20",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "938b072a_45eddd21",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-11-17T12:50:59Z",
+      "side": 1,
+      "message": "This was necessary for prebuilts/cmdline-tools/tools/bin/lint that was used by something in core-tests, but now when I try building (from scratch) I don\u0027t hit that issue any more.",
+      "range": {
+        "startLine": 173,
+        "startChar": 2,
+        "endLine": 173,
+        "endChar": 116
+      },
+      "revId": "ccf547e2b9f76415d2bbf1a3b11dce27f1705a20",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
