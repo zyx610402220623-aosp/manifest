@@ -34,6 +34,24 @@
       "parentUuid": "8160dcfe_e8be5b08",
       "revId": "9c77935f72f926bac0f2c3f7ac2c090faf1e1485",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e1e324b_29477779",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-11-17T14:14:36Z",
+      "side": 1,
+      "message": "Good question. Yes, armv8 etc has flattening enabled so they don\u0027t depend on apexer at all: https://cs.android.com/android/platform/superproject/+/master:device/generic/art/BoardConfigCommon.mk;l\u003d26;drc\u003d3f590b6b44ea9733a0c6c9d73c1fe6f40d0b3ad2 I get the same error there if I set OVERRIDE_TARGET_FLATTEN_APEX\u003dfalse.",
+      "parentUuid": "6e2e1270_86b47532",
+      "revId": "9c77935f72f926bac0f2c3f7ac2c090faf1e1485",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
