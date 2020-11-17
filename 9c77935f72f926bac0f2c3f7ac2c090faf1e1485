@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8160dcfe_e8be5b08",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-11-17T13:57:34Z",
+      "side": 1,
+      "message": "I think this adds fragility that\u0027s worse than the extra baggage in the manifest.",
+      "revId": "9c77935f72f926bac0f2c3f7ac2c090faf1e1485",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
