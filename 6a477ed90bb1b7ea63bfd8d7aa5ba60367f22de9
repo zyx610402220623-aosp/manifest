@@ -33,6 +33,41 @@
       "message": "The TH error on git_master-art I think is a false alarm (b/163556846), but the visibility error on aosp-master-art seems legitimate and unrelated.",
       "revId": "6a477ed90bb1b7ea63bfd8d7aa5ba60367f22de9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "548b568d_2625125a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2020-11-20T18:59:08Z",
+      "side": 1,
+      "message": "Removed from topic and trying again.",
+      "revId": "6a477ed90bb1b7ea63bfd8d7aa5ba60367f22de9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34ffaf22_dce45ed7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2020-11-20T18:59:08Z",
+      "side": 1,
+      "message": "Based on the bug it seems as though this might need removing from the topic and submitting first.",
+      "parentUuid": "defdbf7d_23aef477",
+      "revId": "6a477ed90bb1b7ea63bfd8d7aa5ba60367f22de9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
