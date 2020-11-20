@@ -85,6 +85,24 @@
       "message": "I can\u0027t submit this apparently as I don\u0027t have permission.",
       "revId": "6a477ed90bb1b7ea63bfd8d7aa5ba60367f22de9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52733cff_628dc8bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-11-20T19:26:46Z",
+      "side": 1,
+      "message": "Apparently I do now. Earlier I\u0027ve sometimes successfully used an Autosubmit vote as a workaround, but that might have been on aosp-master.",
+      "parentUuid": "21e56427_2335e7cd",
+      "revId": "6a477ed90bb1b7ea63bfd8d7aa5ba60367f22de9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
