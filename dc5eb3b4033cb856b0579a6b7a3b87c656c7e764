@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3365d727_87e8eed5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2020-11-20T10:32:12Z",
+      "side": 1,
+      "message": "This also needs to go into the manifests for aosp/llvm-toolchain-testing, as well as for aosp/master-plus-llvm or we will have build breaks.",
+      "revId": "dc5eb3b4033cb856b0579a6b7a3b87c656c7e764",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
