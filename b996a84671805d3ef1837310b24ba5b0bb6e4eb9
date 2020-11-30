@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a56e9161_2611e3b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2020-11-30T22:37:38Z",
+      "side": 1,
+      "message": "FYI, gerrit reports a merge conflict.",
+      "revId": "b996a84671805d3ef1837310b24ba5b0bb6e4eb9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
