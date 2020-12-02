@@ -39,6 +39,30 @@
       },
       "revId": "1e9ab3cb2f98ed8a9387e87ff2e9876270846052",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b417337_80a57655",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-12-02T14:29:49Z",
+      "side": 1,
+      "message": "Hmm, maybe. You tried that in https://r.android.com/1512505 - I\u0027ll keep an eye on aosp_art_module in the presubmit, if it goes through we can go with your CL instead.",
+      "parentUuid": "c819b77e_524eb7b7",
+      "range": {
+        "startLine": 168,
+        "startChar": 89,
+        "endLine": 168,
+        "endChar": 130
+      },
+      "revId": "1e9ab3cb2f98ed8a9387e87ff2e9876270846052",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
