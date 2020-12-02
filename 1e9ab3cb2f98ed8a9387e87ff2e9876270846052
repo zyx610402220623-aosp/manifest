@@ -16,6 +16,29 @@
       "message": "I was wrong on https://r.android.com/1512503.",
       "revId": "1e9ab3cb2f98ed8a9387e87ff2e9876270846052",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c819b77e_524eb7b7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 168,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2020-12-02T14:24:24Z",
+      "side": 1,
+      "message": "AFAICT, we don\u0027t need to pin soong which was your concern.",
+      "range": {
+        "startLine": 168,
+        "startChar": 89,
+        "endLine": 168,
+        "endChar": 130
+      },
+      "revId": "1e9ab3cb2f98ed8a9387e87ff2e9876270846052",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
