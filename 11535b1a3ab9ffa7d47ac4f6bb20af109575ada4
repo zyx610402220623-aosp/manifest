@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea51b6db_def1b49a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-12-02T12:51:46Z",
+      "side": 1,
+      "message": "If I\u0027m reading the topic correctly it should be enough to pin this. Pinning build/soong will become a problem quickly, so it\u0027d be good to avoid that.",
+      "revId": "11535b1a3ab9ffa7d47ac4f6bb20af109575ada4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
