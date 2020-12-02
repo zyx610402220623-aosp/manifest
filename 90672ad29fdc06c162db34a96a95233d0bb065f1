@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cbaa2e9_77653a68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2020-12-02T15:00:12Z",
+      "side": 1,
+      "message": "This passes presubmit, so let\u0027s go with it instead of https://r.android.com/1512504 to keep Soong unpinned. Thanks, Orion.",
+      "revId": "90672ad29fdc06c162db34a96a95233d0bb065f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
