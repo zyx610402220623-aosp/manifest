@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "770b1086_ee760f5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2020-12-03T22:50:16Z",
+      "side": 1,
+      "message": "+Tom to also make sure the PDK downstream is setup.",
+      "revId": "d5d8bf6dcf5329ea282537a909db7837ade62ef8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
