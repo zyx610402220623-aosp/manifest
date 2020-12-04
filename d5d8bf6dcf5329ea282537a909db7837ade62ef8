@@ -16,6 +16,23 @@
       "message": "+Tom to also make sure the PDK downstream is setup.",
       "revId": "d5d8bf6dcf5329ea282537a909db7837ade62ef8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d77b767_caecb9b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2020-12-04T02:22:08Z",
+      "side": 1,
+      "message": "Setting up PDK downstream now.",
+      "revId": "d5d8bf6dcf5329ea282537a909db7837ade62ef8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
