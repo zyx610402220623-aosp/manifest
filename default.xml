@@ -56,4 +56,5 @@
   <project path="tools/loganalysis" name="platform/tools/loganalysis" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" />
+  <project path="tools/asuite" name="platform/tools/asuite" />
 </manifest>
