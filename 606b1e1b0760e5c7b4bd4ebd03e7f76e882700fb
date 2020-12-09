@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5b9d25d_69e4621f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2020-12-09T22:01:30Z",
+      "side": 1,
+      "message": "Applied to my local tree and it didn\u0027t break anything.",
+      "revId": "606b1e1b0760e5c7b4bd4ebd03e7f76e882700fb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
