@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8cc2da1a_c37d5979",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1308044
+      },
+      "writtenOn": "2020-12-11T07:44:52Z",
+      "side": 1,
+      "message": "I think you don\u0027t need this, Julien already have one.",
+      "revId": "d89f3a5570bcd4e3ec289b5e7af2cc0a9c76642a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
