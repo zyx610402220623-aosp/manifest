@@ -1,0 +1,11 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+2: Alan Viverette <alanv@google.com>
+Autosubmit+1: Laís Minchillo <laisminchillo@google.com>
+Presubmit-Ready+1: Treehugger Robot <treehugger-gerrit@google.com>
+Bypass-Presubmit+1: Laís Minchillo <laisminchillo@google.com>
+Submitted-by: Laís Minchillo <laisminchillo@google.com>
+Submitted-at: Thu, 17 Dec 2020 11:09:17 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1528549
+Project: platform/manifest
+Branch: refs/heads/androidx-main
