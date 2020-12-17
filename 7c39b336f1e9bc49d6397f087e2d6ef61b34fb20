@@ -84,6 +84,23 @@
       "message": "Saw some tests failing on something related to androidx.core, I\u0027ll try presubmit again in case it was a flake or something that team already fixed.",
       "revId": "7c39b336f1e9bc49d6397f087e2d6ef61b34fb20",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ec7921c_f60e6baa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1344364
+      },
+      "writtenOn": "2020-12-17T11:07:04Z",
+      "side": 1,
+      "message": "+1 Bypass-Presubmit as per Sam\u0027s suggestion because of infra errors and none of the errors seen in any of the runs seem to be related to my change.",
+      "revId": "7c39b336f1e9bc49d6397f087e2d6ef61b34fb20",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
