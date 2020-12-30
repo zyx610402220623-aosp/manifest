@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74066ebe_3842b017",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1040213
+      },
+      "writtenOn": "2020-12-30T23:12:38Z",
+      "side": 1,
+      "message": "Thomas, we are removing external/webrtc_legacy now that the internal framework code no longer needs it. Essentially reverts the following commit:\n\nhttps://android-review.googlesource.com/c/platform/manifest/+/1358633\n",
+      "revId": "8be3d1fffb000428166bb9a7c4af33434c77df88",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
