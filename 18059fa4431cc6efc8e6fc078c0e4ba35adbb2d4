@@ -34,6 +34,24 @@
       "parentUuid": "4a3a0ae2_c4602b2e",
       "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9d12ff4_5bf52628",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2021-01-06T17:57:06Z",
+      "side": 1,
+      "message": "Ah so you want to find the art apex version - I thought there was some kind of native way of finding that out, adding Nikita to the conversation.",
+      "parentUuid": "65d00045_0dfc6677",
+      "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
