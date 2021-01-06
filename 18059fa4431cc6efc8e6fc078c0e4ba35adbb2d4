@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a3a0ae2_c4602b2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2021-01-06T17:14:39Z",
+      "side": 1,
+      "message": "Do we really need to read the apex xml file? AFAIU this is only for knowing if we\u0027re the system apex, and I thought we discussed this was actually not needed? (as a factory apex may still have to recompile if the boot image hasn\u0027t been preopted for space reason).",
+      "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
