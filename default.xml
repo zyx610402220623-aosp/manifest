@@ -62,6 +62,8 @@
     <project path="system/bpf" name="platform/system/bpf" groups="pdk" />
   <!-- For libnativeloader -->
   <project path="system/libsysprop" name="platform/system/libsysprop" groups="pdk" />
+  <!-- For odrefresh -->
+  <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
 
 <!--
   ART Module testing dependencies.
