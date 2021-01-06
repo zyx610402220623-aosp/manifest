@@ -16,6 +16,24 @@
       "message": "Do we really need to read the apex xml file? AFAIU this is only for knowing if we\u0027re the system apex, and I thought we discussed this was actually not needed? (as a factory apex may still have to recompile if the boot image hasn\u0027t been preopted for space reason).",
       "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65d00045_0dfc6677",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2021-01-06T17:53:10Z",
+      "side": 1,
+      "message": "One of the feature requests is that we don\u0027t repeatedly try recompilation on every boot if we failed. However, that mechanism needs to be suppressed if the APEX updates so really we\u0027d like to get and keep some metadata for this purpose, such as:\n\n\u003cboot number\u003e, \u003cart apex version\u003e, \u003ccompilation outcome\u003e\n\nThe art apex version comes from the apex-info-list.xml file. Options:\n\n1) Use a small xml library to parse that file.\n2) Extract the info with regexps / string munging.\n3) Write a minimal xml parser that suffices only for this use case (fun exercise, been there in home projects :-)).\n4) Don\u0027t use version info, but use some other file metadata that we have permission to access.\n\nThe decision to compile in the first instance, say a factory apex without boot extensions on /system, it\u0027s still helpful to know if it\u0027s a factory apex since we will need to check for existing extensions in this case.",
+      "parentUuid": "4a3a0ae2_c4602b2e",
+      "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
