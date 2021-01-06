@@ -70,6 +70,24 @@
       "parentUuid": "a9d12ff4_5bf52628",
       "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58dc4153_d2b6e7a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2021-01-06T19:01:03Z",
+      "side": 1,
+      "message": "Thanks, I\u0027d seen binder, but that\u0027s a non-starter. I wasn\u0027t aware we have and xsd generated reader. It\u0027s probably a headache for unbundling, but what isn\u0027t :-)",
+      "parentUuid": "0bf77f92_bda4491c",
+      "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
