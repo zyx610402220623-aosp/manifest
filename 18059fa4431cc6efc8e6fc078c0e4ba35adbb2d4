@@ -106,6 +106,24 @@
       "parentUuid": "58dc4153_d2b6e7a1",
       "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18c0aece_ec5bf6b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2021-01-07T11:54:20Z",
+      "side": 1,
+      "message": "Using the xsd is definitely more convenient and it\u0027s easy to make an argument that this is best practice.\n\nThe rub is using the xsd generator increases the size of our on device signing binary in the ART APEX from 130kB to 490kB. That\u0027s hefty delta both in the factory apex and in the updates pushed. This seems largely due to the size delta between libxml2 (7MB) and libtinyxml2 (430kB). I\u0027ll follow up with xsdc (sundongahn@) to see if we can do better on size here.",
+      "parentUuid": "0f89cdc2_e316d819",
+      "revId": "18059fa4431cc6efc8e6fc078c0e4ba35adbb2d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
