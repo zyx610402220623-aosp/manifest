@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "119b6892_f6491748",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-01-11T12:28:48Z",
+      "side": 1,
+      "message": "There\u0027ll be one for git_master-art-host as well, right?",
+      "revId": "97d986db4146d62a89e5c84ffdf556e03b1d324d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
