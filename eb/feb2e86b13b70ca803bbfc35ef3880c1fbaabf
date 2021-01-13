@@ -1,0 +1,12 @@
+Autosubmit+1: Dan Albert <danalbert@google.com>
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+1: Matthias Maennich <maennich@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Presubmit-Verified+2: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Wed, 13 Jan 2021 20:44:23 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1549094
+Project: platform/manifest
+Branch: refs/heads/master
