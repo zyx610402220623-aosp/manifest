@@ -16,6 +16,23 @@
       "message": "Hi Xin,\n\nI see that you approved aosp/1336972 which was for rustfmt. This is for aidl-format. Could you take a look?",
       "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94c84d29_5bb3fbcf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-01-21T05:09:22Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
