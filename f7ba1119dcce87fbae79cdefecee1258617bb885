@@ -67,6 +67,23 @@
       "message": "Hi Xin, I am sorry, but could you help me to submit this? I don\u0027t seem to have \u0027submit\u0027 permission here and it looks like the warning from test (which I am sure isn\u0027t related with this change) is preventing the autosubmit. Could you submit this for me?",
       "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a9e41cc_e6c043f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1099348
+      },
+      "writtenOn": "2021-01-21T17:02:13Z",
+      "side": 1,
+      "message": "Hey Jiyong - can you file a tracking bug to move aidl-format into ayeaye (presubmit) and out of repo hooks?",
+      "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
