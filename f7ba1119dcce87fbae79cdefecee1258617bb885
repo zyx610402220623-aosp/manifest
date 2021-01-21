@@ -33,6 +33,23 @@
       "message": "Thanks!",
       "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aec5f51d_80e044d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-01-21T07:36:47Z",
+      "side": 1,
+      "message": "The tests were already broken and this change can\u0027t affect the test as this is triggered only when people does the \u0027repo upload\u0027.",
+      "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
