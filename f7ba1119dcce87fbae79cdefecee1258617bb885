@@ -50,6 +50,23 @@
       "message": "The tests were already broken and this change can\u0027t affect the test as this is triggered only when people does the \u0027repo upload\u0027.",
       "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed243738_ec202d8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-01-21T10:54:14Z",
+      "side": 1,
+      "message": "Hi Xin, I am sorry, but could you help me to submit this? I don\u0027t seem to have \u0027submit\u0027 permission here and it looks like the warning from test (which I am sure isn\u0027t related with this change) is preventing the autosubmit. Could you submit this for me?",
+      "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
