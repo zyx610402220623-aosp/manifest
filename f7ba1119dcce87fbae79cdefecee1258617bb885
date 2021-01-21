@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b6f0677_a41a9fd8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-01-21T04:32:16Z",
+      "side": 1,
+      "message": "Hi Xin,\n\nI see that you approved aosp/1336972 which was for rustfmt. This is for aidl-format. Could you take a look?",
+      "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
