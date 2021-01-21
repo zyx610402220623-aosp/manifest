@@ -84,6 +84,24 @@
       "message": "Hey Jiyong - can you file a tracking bug to move aidl-format into ayeaye (presubmit) and out of repo hooks?",
       "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "181834e9_65315ed8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-01-21T23:03:04Z",
+      "side": 1,
+      "message": "Hi.\n\nSure. Filed b/178129927. By the way, could you give me the reason why ayeaye is preferred? Are we deprecating repohook?",
+      "parentUuid": "0a9e41cc_e6c043f0",
+      "revId": "f7ba1119dcce87fbae79cdefecee1258617bb885",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
