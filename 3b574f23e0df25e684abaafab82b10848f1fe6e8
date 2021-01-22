@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6918884_f99e55c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128973
+      },
+      "writtenOn": "2021-01-22T21:05:45Z",
+      "side": 1,
+      "message": "I don\u0027t have permission to manually submit. The test failing was already broken before this change. Please help with submitting.",
+      "revId": "3b574f23e0df25e684abaafab82b10848f1fe6e8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
