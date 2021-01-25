@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96c99f00_6e212992",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-01-25T05:19:02Z",
+      "side": 1,
+      "message": "I can\u0027t submit this. The \u0027submit\u0027 button is grey and says that I don\u0027t have a permission to submit here.\n\nMike, Xin, or Sam, could any of you submit this?",
+      "revId": "7ffd213430d0b414071f5b1e8d19cc73246d7d5c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
