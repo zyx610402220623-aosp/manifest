@@ -33,6 +33,24 @@
       "message": "oh interesting.\n\n+samccone --- here\u0027s an interesting unintended consequence of the new autosubmit restrictions... aosp has been \"with warnings\" for days because some audio host test is failing. but that means that for manifest changes -- where normal people can\u0027t submit and have to rely on autosubmit -- the ability to submit is effectively disabled...",
       "revId": "82aa8df6af9dbf3aa983b31f2da346efaa3b7672",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca8fe493_b0f69b08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1099348
+      },
+      "writtenOn": "2021-01-25T19:28:57Z",
+      "side": 1,
+      "message": "agreed, this is an interesting case. Let me kick off a conversation.",
+      "parentUuid": "a68b7478_b84e82bf",
+      "revId": "82aa8df6af9dbf3aa983b31f2da346efaa3b7672",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
