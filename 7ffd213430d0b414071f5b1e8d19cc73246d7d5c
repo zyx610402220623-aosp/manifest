@@ -33,6 +33,23 @@
       "message": "i don\u0027t have access to Submit either.  do you see Autosubmit+1 ?  maybe that\u0027ll do it.",
       "revId": "7ffd213430d0b414071f5b1e8d19cc73246d7d5c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb946fa8_ad5faacc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-01-25T06:02:42Z",
+      "side": 1,
+      "message": "I can trigger the autosubmit, but it didn\u0027t work. Let me try again.",
+      "revId": "7ffd213430d0b414071f5b1e8d19cc73246d7d5c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
