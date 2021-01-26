@@ -1,0 +1,15 @@
+Presubmit-Ready+1: Treehugger Robot <treehugger-gerrit@google.com>
+Presubmit-Ready+1: Sam Saccone <samccone@google.com>
+Autosubmit+1: David Li <dvdli@google.com>
+Code-Review+2: Sam Saccone <samccone@google.com>
+Code-Review+2: Thomas Joseph Avila <tavila@google.com>
+Code-Review+1: Eric Laurent <elaurent@google.com>
+Bypass-Presubmit+1: Sam Saccone <samccone@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Submitted-by: Sam Saccone <samccone@google.com>
+Submitted-at: Tue, 26 Jan 2021 00:22:12 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1556109
+Project: platform/manifest
+Branch: refs/heads/master
