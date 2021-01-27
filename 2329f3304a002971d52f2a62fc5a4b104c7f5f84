@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "267359c9_6c997a04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2021-01-27T16:48:16Z",
+      "side": 1,
+      "message": "Linter may be showing red because ref wasn\u0027t there at time of linting.\nIn any case, going with BCO.",
+      "revId": "2329f3304a002971d52f2a62fc5a4b104c7f5f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
