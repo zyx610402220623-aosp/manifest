@@ -16,6 +16,24 @@
       "message": "Linter may be showing red because ref wasn\u0027t there at time of linting.\nIn any case, going with BCO.",
       "revId": "2329f3304a002971d52f2a62fc5a4b104c7f5f84",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f284c6ff_60bf0e1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2021-01-27T16:50:29Z",
+      "side": 1,
+      "message": "please remove BCO+1, I have P2 uploaded, just waiting for TH",
+      "parentUuid": "267359c9_6c997a04",
+      "revId": "2329f3304a002971d52f2a62fc5a4b104c7f5f84",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
