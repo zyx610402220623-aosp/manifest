@@ -1,0 +1,10 @@
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Presubmit-Verified+2: Treehugger Robot <treehugger-gerrit@google.com>
+Code-Review+2: Bill Rassieur <rassb@google.com>
+PDK-Review+1: Thomas Joseph Avila <tavila@google.com>
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Submitted-by: Baligh Uddin <baligh@google.com>
+Submitted-at: Thu, 28 Jan 2021 22:33:03 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1562055
+Project: platform/manifest
+Branch: refs/heads/master
