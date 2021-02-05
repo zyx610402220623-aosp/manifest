@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2077ec62_c5ad4d1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061057
+      },
+      "writtenOn": "2021-02-05T02:43:57Z",
+      "side": 1,
+      "message": "Need to create branch first",
+      "revId": "cf6a5e62ab55d7ca234e2cd8ce4d44d5f1d0bc4a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
