@@ -16,6 +16,24 @@
       "message": "Need to create branch first",
       "revId": "cf6a5e62ab55d7ca234e2cd8ce4d44d5f1d0bc4a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffc533d4_4ab4572b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061057
+      },
+      "writtenOn": "2021-02-05T05:24:08Z",
+      "side": 1,
+      "message": "Branch created. Re-triggered presubmit",
+      "parentUuid": "2077ec62_c5ad4d1d",
+      "revId": "cf6a5e62ab55d7ca234e2cd8ce4d44d5f1d0bc4a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
