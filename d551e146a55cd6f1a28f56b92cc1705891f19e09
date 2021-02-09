@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "933dba6e_e8969c8d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2021-02-09T23:41:49Z",
+      "side": 1,
+      "message": "Repo was created in this bug: https://buganizer.corp.google.com/issues/178600786\n\n1) I want it to be in aosp, but I\u0027m not sure if it is there, and I don\u0027t know how to check. Any idea?\n\n2) I\u0027m not sure about the \"groups\" field and didn\u0027t see it mentioned in the how-to post. I would like to put vts tests for the feature here so I added \u0027vts\u0027, and it seems like most of the entries had \u0027pdk\u0027. Any advice here would help.",
+      "revId": "d551e146a55cd6f1a28f56b92cc1705891f19e09",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
