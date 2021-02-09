@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ea835e1_712f5a53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1294681
+      },
+      "writtenOn": "2021-02-09T18:27:47Z",
+      "side": 1,
+      "message": "I can only +1 in this branch, but the change looks good to me.",
+      "revId": "0477cc872db4b5e297713b035fd1a8af44c025c1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
