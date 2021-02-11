@@ -51,6 +51,24 @@
       "message": "At least this project doesn\u0027t have any dependencies in turn, and it\u0027s a host-only lib.",
       "revId": "f9f6ca53c9f392727e6520bdd55b1227e775dd89",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69bf7ea7_a00d0546",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2021-02-11T18:57:59Z",
+      "side": 1,
+      "message": "OK, thanks - let\u0027s get this in, and at some point we\u0027ll have to move hiddenapi out of art/ anyway.",
+      "parentUuid": "ed44bc39_320c3f7c",
+      "revId": "f9f6ca53c9f392727e6520bdd55b1227e775dd89",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
