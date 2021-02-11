@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8828b0d_d0650794",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2021-02-11T12:24:21Z",
+      "side": 1,
+      "message": "Do we need class2NonSdkList for hiddenapi? Could we move class2NonSdkList to the compat-tools project instead?",
+      "revId": "f9f6ca53c9f392727e6520bdd55b1227e775dd89",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
