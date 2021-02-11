@@ -1,0 +1,12 @@
+Open-Source-Licensing+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Code-Review+2: Inna Palant <ipalant@google.com>
+Code-Review+1: Michael Groover <mpgroover@google.com>
+PDK-Review+1: Inna Palant <ipalant@google.com>
+Autosubmit+1: Max Bires <jbires@google.com>
+Presubmit-Verified+2: Treehugger Robot <treehugger-gerrit@google.com>
+Lint+1: Lint 🤖 <ayeaye-gerrit@google.com>
+Submitted-by: Treehugger Robot <treehugger-gerrit@google.com>
+Submitted-at: Thu, 11 Feb 2021 08:15:22 +0000
+Reviewed-on: https://android-review.googlesource.com/c/platform/manifest/+/1579487
+Project: platform/manifest
+Branch: refs/heads/master
