@@ -34,6 +34,23 @@
       "parentUuid": "e8828b0d_d0650794",
       "revId": "f9f6ca53c9f392727e6520bdd55b1227e775dd89",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "acd31959_d623893d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-02-11T14:36:32Z",
+      "side": 1,
+      "message": "At least this project doesn\u0027t have any dependencies in turn, and it\u0027s a host-only lib.",
+      "revId": "f9f6ca53c9f392727e6520bdd55b1227e775dd89",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
