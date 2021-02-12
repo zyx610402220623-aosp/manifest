@@ -419,12 +419,14 @@
   <project path="external/rust/crates/bencher" name="platform/external/rust/crates/bencher" groups="pdk" />
   <project path="external/rust/crates/bindgen" name="platform/external/rust/crates/bindgen" groups="pdk" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="pdk" />
+  <project path="external/rust/crates/byteorder" name="platform/external/rust/crates/byteorder" groups="pdk" />
   <project path="external/rust/crates/bytes" name="platform/external/rust/crates/bytes" groups="pdk" />
   <project path="external/rust/crates/cexpr" name="platform/external/rust/crates/cexpr" groups="pdk" />
   <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="pdk" />
   <project path="external/rust/crates/chrono" name="platform/external/rust/crates/chrono" groups="pdk" />
   <project path="external/rust/crates/clang-sys" name="platform/external/rust/crates/clang-sys" groups="pdk" />
   <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" groups="pdk" />
+  <project path="external/rust/crates/crc32fast" name="platform/external/rust/crates/crc32fast" groups="pdk" />
   <project path="external/rust/crates/codespan-reporting" name="platform/external/rust/crates/codespan-reporting" groups="pdk" />
   <project path="external/rust/crates/derive_arbitrary" name="platform/external/rust/crates/derive_arbitrary" groups="pdk" />
   <project path="external/rust/crates/downcast-rs" name="platform/external/rust/crates/downcast-rs" groups="pdk" />
@@ -541,6 +543,7 @@
   <project path="external/rust/crates/vsock" name="platform/external/rust/crates/vsock" groups="pdk" />
   <project path="external/rust/crates/weak-table" name="platform/external/rust/crates/weak-table" groups="pdk" />
   <project path="external/rust/crates/which" name="platform/external/rust/crates/which" groups="pdk" />
+  <project path="external/rust/crates/zip" name="platform/external/rust/crates/zip" groups="pdk" />
   <project path="external/rust/cxx" name="platform/external/rust/cxx" groups="pdk" />
   <project path="external/scapy" name="platform/external/scapy" groups="pdk-fs" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
