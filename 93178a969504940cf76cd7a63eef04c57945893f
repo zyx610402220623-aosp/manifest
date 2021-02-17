@@ -34,6 +34,24 @@
       "parentUuid": "281475e2_b3dbe307",
       "revId": "93178a969504940cf76cd7a63eef04c57945893f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db866e42_29241ed7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1644679
+      },
+      "writtenOn": "2021-02-17T22:20:01Z",
+      "side": 1,
+      "message": "Looks like it. Weird.",
+      "parentUuid": "fdfc61cb_6908150a",
+      "revId": "93178a969504940cf76cd7a63eef04c57945893f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
