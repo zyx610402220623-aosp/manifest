@@ -16,6 +16,24 @@
       "message": "It looks like I don\u0027t have permissions to submit this CL. Is that expected?",
       "revId": "93178a969504940cf76cd7a63eef04c57945893f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdfc61cb_6908150a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2021-02-17T22:04:51Z",
+      "side": 1,
+      "message": "Are you able to autosubmit?",
+      "parentUuid": "281475e2_b3dbe307",
+      "revId": "93178a969504940cf76cd7a63eef04c57945893f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
