@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99d65216_86515010",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1344584
+      },
+      "writtenOn": "2021-02-18T05:28:17Z",
+      "side": 1,
+      "message": "The presubmit on some branch returns with\nexternal/starlark-go. Revision sc-dev is invalid\nPlease advise",
+      "revId": "f139362c99fbb6be8e048d1397b99a969d2ab5ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
