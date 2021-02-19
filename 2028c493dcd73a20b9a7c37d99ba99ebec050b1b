@@ -16,6 +16,23 @@
       "message": "Hi Jonathan,\n  What do you think of the following change? (almost the same). Thanks.\n\nhttps://android-review.googlesource.com/c/platform/manifest/+/1595401",
       "revId": "2028c493dcd73a20b9a7c37d99ba99ebec050b1b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9356f1a_0920b3c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-02-19T00:55:58Z",
+      "side": 1,
+      "message": "Hi Jonathan,\n  What do you think of change something like the following. We could use the remote\u0027s name to create the directory into which we will checkout superproject. Thanks much.\n\n\u003cremote  name\u003d\"stddev-aosp-superproject\" fetch\u003d\"..\" /\u003e\n\u003csuperproject name\u003d\"platform/superproject\" remote\u003d\"stddev-aosp-superproject\" /\u003e\n",
+      "revId": "2028c493dcd73a20b9a7c37d99ba99ebec050b1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
