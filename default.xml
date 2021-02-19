@@ -16,6 +16,11 @@
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
+<<<<<<< HEAD   (7d4cda Remove system/memory/mm_eventsd from default manifest am: e9)
+=======
+  <superproject name="platform/superproject" remote="aosp"/>
+
+>>>>>>> BRANCH (8bf57a superproject - use different names for superproject's remote)
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
