@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ff0a0f4_00130b25",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-02-19T16:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "36db6f3f_3cd29c55",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 7,
+        "endChar": 3
+      },
+      "revId": "f5035db92141bd57362e3c2cc3d42f3bb188b3a3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d92ba007_198fe4ed",
@@ -37,6 +61,30 @@
       "writtenOn": "2021-02-19T16:01:57Z",
       "side": 1,
       "message": "Please reuse \"aosp\" remote.",
+      "range": {
+        "startLine": 14,
+        "startChar": 53,
+        "endLine": 14,
+        "endChar": 57
+      },
+      "revId": "f5035db92141bd57362e3c2cc3d42f3bb188b3a3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d06acf4b_99f3dd63",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-02-19T16:55:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d92ba007_198fe4ed",
       "range": {
         "startLine": 14,
         "startChar": 53,
