@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec17ba4f_45352515",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-02-19T00:51:16Z",
+      "side": 1,
+      "message": "Hi Jonathan,\n  What do you think of the following change? (almost the same). Thanks.\n\nhttps://android-review.googlesource.com/c/platform/manifest/+/1595401",
+      "revId": "2028c493dcd73a20b9a7c37d99ba99ebec050b1b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
