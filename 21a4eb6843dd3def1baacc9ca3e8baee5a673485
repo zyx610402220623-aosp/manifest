@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03268df0_22e4db36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-02-19T00:48:13Z",
+      "side": 1,
+      "message": "As we had discussed offline, we will have different remote names for superproject for different manifests. We could use that checkout superproject into a folder like the following.\n\n.repo/\n`-- superproject/\n    `-- \u003cremote\u003e-superproject.git/”\n",
+      "revId": "21a4eb6843dd3def1baacc9ca3e8baee5a673485",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
