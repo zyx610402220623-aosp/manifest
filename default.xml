@@ -46,6 +46,7 @@
   <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc" revision="90235ff15eb3641f1946454259650de990750def" />
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="d18c42f200cf687f3df458de796268fe7c7cf5cd" />
 
+<<<<<<< HEAD   (0b542a Pin manifest of build-tools-release)
   
   <project name="platform/bionic" path="bionic" revision="f0f2b798f8cdab1c5147bf1d775d24926dcb6172" />
   <project name="platform/development" path="development" revision="2645eeb51e46c5f008c7d1084230bb4ec9391186" />
@@ -98,7 +99,62 @@
   <project name="platform/system/libziparchive" path="system/libziparchive" revision="41a04ae3d87f98bdb0540fb5d48fd5edb4c80e87" />
   <project name="platform/system/logging" path="system/logging" revision="1b68f3e0051285019f7c5fac3aa3153787bf9aa4" />
   <project name="platform/system/unwinding" path="system/unwinding" revision="cc7f91683ba26ea904266704b53b76fbd75c578f" />
+=======
+  <!-- dependency source -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="development" name="platform/development" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
+  <project path="external/auto" name="platform/external/auto" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+  <project path="external/bazelbuild-remote-apis" name="platform/external/bazelbuild-remote-apis" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/capstone" name="platform/external/capstone" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dagger2" name="platform/external/dagger2" />
+  <project path="external/error_prone" name="platform/external/error_prone" clone-depth="1" />
+  <project path="external/escapevelocity" name="platform/external/escapevelocity" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" />
+  <project path="external/go-creachadair-shell" name="platform/external/go-creachadair-shell" />
+  <project path="external/go-creachadair-stringset" name="platform/external/go-creachadair-stringset" />
+  <project path="external/go-etree" name="platform/external/go-etree" />
+  <project path="external/go-subcommands" name="platform/external/go-subcommands" />
+  <project path="external/golang-x-sync" name="platform/external/golang-x-sync" />
+  <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
+  <project path="external/google-java-format" name="platform/external/google-java-format" />
+  <project path="external/googleapis" name="platform/external/googleapis" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/icu" name="platform/external/icu" />
+  <project path="external/javapoet" name="platform/external/javapoet" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/kythe" name="platform/external/kythe" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" />
+  <project path="system/libziparchive" name="platform/system/libziparchive" />
+  <project path="system/logging" name="platform/system/logging" />
+  <project path="system/unwinding" name="platform/system/unwinding" />
+>>>>>>> BRANCH (9523f6 Add external/bloaty and its dependencies)
 
+<<<<<<< HEAD   (0b542a Pin manifest of build-tools-release)
   
   <project name="platform/build/kati" path="build/kati" revision="4be94c95165808c449496e75d912427ff4b72745" />
   <project name="platform/dalvik" path="dalvik" revision="6548942adec11574803a9ac3955a50c6ee974606" />
@@ -123,3 +179,29 @@
   <project name="toolchain/make" revision="3a78e1257ef0f0f57b12e869fc55bf02b39f9a08" />
   <project name="toolchain/xz" revision="e953aba95e0060876d5969cc9322cf2dbb5e2cf5" />
 </manifest>
+=======
+  <!-- target projects -->
+  <project path="build/kati" name="platform/build/kati" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="external/bc" name="platform/external/bc" />
+  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bloaty" name="platform/external/bloaty" />
+  <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/desugar" name="platform/external/desugar" />
+  <project path="external/flex" name="platform/external/flex" />
+  <project path="external/ninja" name="platform/external/ninja" />
+  <project path="external/nsjail" name="platform/external/nsjail" />
+  <project path="external/one-true-awk" name="platform/external/one-true-awk" />
+  <project path="external/openssl" name="platform/external/openssl" revision="build-tools" />
+  <project path="external/python/cpython2" name="platform/external/python/cpython2" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/toybox" name="platform/external/toybox" />
+  <project path="external/turbine" name="platform/external/turbine" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" />
+  <project name="toolchain/go" />
+  <project name="toolchain/m4" />
+  <project name="toolchain/make" />
+  <project name="toolchain/xz" />
+</manifest>
+>>>>>>> BRANCH (9523f6 Add external/bloaty and its dependencies)
