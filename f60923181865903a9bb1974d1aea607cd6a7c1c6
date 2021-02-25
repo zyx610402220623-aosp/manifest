@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db0f2521_65dbc139",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-02-25T17:08:56Z",
+      "side": 1,
+      "message": "Hi Mathias,\n  Hope you don\u0027t mind, if we could revert this CL as we aren\u0027t ready for all branches yet but we can add it to the list. Thanks very much.",
+      "revId": "f60923181865903a9bb1974d1aea607cd6a7c1c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
