@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd2518c9_450083de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2021-02-26T18:24:14Z",
+      "side": 1,
+      "message": "Downstream branches are verified",
+      "revId": "26c6dc9a619dd4a7868ada4807700f7f5b3a4101",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
