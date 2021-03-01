@@ -8,6 +8,8 @@
            remote="aosp"
            sync-j="4" />
 
+  <superproject name="platform/superproject" remote="aosp"/>
+
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
