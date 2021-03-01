@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55bdb0c5_72ca4dd7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-03-01T04:02:24Z",
+      "side": 1,
+      "message": "Hi Inna,\n  When I run the following command it gives a duplicate entry error. I have commented out prebuilts/clang/host/linux-x86  the only entry. I am not sure if this is right way to fix it or not.\n\nThis change has nothing to do with superproject change. But it is possible superproject is surfacing it. \n\nThis was merged in https://android.googlesource.com/platform/manifest/+/e94fe5138f83c0d7996a40a4270e77ecc5d4f682.\n\n\n$ repo_dev init -u sso://android.git.corp.google.com/platform/manifest  -b master-plus-rust --repo-rev\u003dmain --partial-clone --use-superproject\n\nwarning: \u0027refs/heads/main\u0027 is not signed; falling back to signed release \u0027v2.12.2\u0027\n\nfatal: manifest \u0027default.xml\u0027 not available\nfatal: duplicate path prebuilts/clang/host/linux-x86 in /usr/local/google/home/rtenneti/work/drive2/android/master-plus-rust/.repo/manifests/default.xml",
+      "range": {
+        "startLine": 642,
+        "startChar": 8,
+        "endLine": 642,
+        "endChar": 15
+      },
+      "revId": "910bf9091dbe2d2ad3433c409bb899c1caaee63d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
