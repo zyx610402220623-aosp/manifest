@@ -22,6 +22,30 @@
       },
       "revId": "910bf9091dbe2d2ad3433c409bb899c1caaee63d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03c1843e_880e48f7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 642,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-03-02T04:22:01Z",
+      "side": 1,
+      "message": "I have reverted this change.",
+      "parentUuid": "55bdb0c5_72ca4dd7",
+      "range": {
+        "startLine": 642,
+        "startChar": 8,
+        "endLine": 642,
+        "endChar": 15
+      },
+      "revId": "910bf9091dbe2d2ad3433c409bb899c1caaee63d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
