@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cab0057_d9260aa2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-03-05T18:14:30Z",
+      "side": 1,
+      "message": "Making the changes in aosp. This is same change as ag/13712718 and I have tested --use-superproject option with repo.",
+      "revId": "212beba996a06d6a9dc5fa93efac5de4d9a65e2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
