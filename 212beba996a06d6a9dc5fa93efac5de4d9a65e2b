@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b925b89_a7d2b021",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-03-05T18:56:51Z",
+      "side": 1,
+      "message": "A new version of repo (2.13) is being released. After updating to repo version 2.13, superproject could be used by passing --use-superproject as argument to repo init. It should print the following WARNING message. For superproject to work, this change is needed. \n\nfrom vapier@\n\n\"I\u0027ve created a new release, but not yet pushed it live.  Instead, people have to opt-in to it by passing --repo-rev\u003dmain when running `repo init`.  You can then run `repo selfupdate \u0026\u0026 repo version` to double check your local state.\"\n\n\nI have tested with the following commands.\n\n$ alias repo_dev\u003d\u0027/usr/local/google/home/rtenneti/work/repo/git-repo/repo\u0027\n$ repo_dev init -u sso://android.git.corp.google.com/platform/manifest  -b master-art --repo-rev\u003dmain --partial-clone --use-superproject\n\nwarning: \u0027refs/heads/main\u0027 is not signed; falling back to signed release \u0027v2.13.2\u0027\n\nWARNING: --use-superproject is experimental and not for general use\n/usr/local/google/home/rtenneti/work/drive2/android/master-art/.repo/exp-superproject/925043f706ba64db713e9bf3b55987e2-superproject.git: Performing initial setup for superproject; this might take several minutes.\n/usr/local/google/home/rtenneti/work/drive2/android/master-art/.repo/exp-superproject/925043f706ba64db713e9bf3b55987e2-superproject.git: Initial setup for superproject completed.\n\nYour identity is: Raman Tenneti \u003crtenneti@google.com\u003e\nIf you want to change this, please re-run \u0027repo init\u0027 with --config-name\n\nrepo has been initialized in /usr/local/google/home/rtenneti/work/drive2/android/master-art",
+      "parentUuid": "09f37615_608683f1",
+      "revId": "212beba996a06d6a9dc5fa93efac5de4d9a65e2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "349e8822_02825f48",
@@ -31,6 +49,30 @@
       "writtenOn": "2021-03-05T18:16:50Z",
       "side": 1,
       "message": "You probably want to add:\n\n  Merged-In: I2164e7d42fd76cdbb88a0a8bc4c16a3e76331525\n\nhere.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 52
+      },
+      "revId": "212beba996a06d6a9dc5fa93efac5de4d9a65e2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6235a1b_b7b367e1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-03-05T18:56:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "349e8822_02825f48",
       "range": {
         "startLine": 10,
         "startChar": 0,
