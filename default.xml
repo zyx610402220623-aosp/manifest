@@ -2,6 +2,7 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (ef103b Merge empty history for sparse-7177864-L54200000826719287)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
@@ -12,6 +13,39 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  <default remote="aosp" revision="sparse-7187420-L51000000828164900" sync-j="8" />
+  
+  <project name="platform/build" path="build/make" revision="4ae9bcca7591044e1dab7a56b3cc2e214da71ff9" />
+  <project name="platform/manifest" path="manifest" revision="9ed0ad0cc2f4b333e78c183e9e822ad58be17141" />
+  
+  
+  <project clone-depth="1" groups="pdk" name="platform/external/noto-fonts" path="external/noto-fonts" revision="4fad96e881ec1fa82455a2611f8bd9f0ed3b82cb" />
+  <project clone-depth="1" groups="pdk" name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces" revision="74f5bef964d690681fa623f3c79dc717e3176433" />
+  <project clone-depth="1" groups="pdk" name="platform/external/doclava" path="external/doclava" revision="5b0792f6649b457b94dba2ad38a6c633903de5d2" />
+  <project clone-depth="1" groups="pdk" name="platform/external/dokka" path="external/dokka" revision="a87a3154b3b5136bbb27b2cbb391b0c3f7121ad0" />
+  <project groups="pdk" name="platform/external/icing" path="external/icing" revision="74eb85c3719b8e90b0f6e1dafa4135f7aa622e06" />
+  <project clone-depth="1" groups="pdk" name="platform/external/icu" path="external/icu" revision="ce7af12e33a4a1856cc1bd8668294c28f283f09e" />
+  
+  <project clone-depth="1" groups="pdk" name="platform/external/protobuf" path="external/protobuf" revision="dd228c1de129e67b53d87609131ab84ccd564cff" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/external" path="prebuilts/androidx/external" revision="61430c973bcada45ef54ea5a917ff93946f98c3b" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/internal" path="prebuilts/androidx/internal" revision="c643af4de9bfb37e7104ad65c5965577a865a08c" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/exoplayer" path="prebuilts/androidx/exoplayer" revision="8759893b15627e09a76140ae550f478c782d3387" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/androidx/traceprocessor" path="prebuilts/androidx/traceprocessor" revision="8925a42c05e254204df8375d4fa367b2c3ad9504" />
+  
+  
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="02d5f1b66f3d009442491febd11159deb2bca7e0" />
+  
+  <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/protobuf" path="prebuilts/protobuf" revision="7f770bcfc83d43216b156d29c38a833a51e4c7e6" />
+  <project groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" revision="79df0104caa129194e71f1d5fe6387ed98183299" />
+  
+  
+  <project clone-depth="1" groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" revision="b77572721de91e73e890155b16f316b2f41a912a" />
+  
+  
+  <project clone-depth="1" name="platform/prebuilts/fullsdk/platforms/android-30" path="prebuilts/fullsdk-darwin/platforms/android-30" revision="03d553bc2b9890601943a4e04e02202337eb1af7">
+    <linkfile dest="prebuilts/fullsdk-linux/platforms/android-30" src="." />
+>>>>>>> BRANCH (31b67e Pin manifest of sparse-7187420-L51000000828164900)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
@@ -19,6 +53,7 @@
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
+<<<<<<< HEAD   (ef103b Merge empty history for sparse-7177864-L54200000826719287)
   <project groups="pdk" name="platform/art" path="art" revision="f0e3a368c80b7d32e2f85ffa948751525a9f903b" />
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" />
@@ -692,6 +727,34 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="29b565f92e3fdafa2851d6682e0353a0cae08856" />
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="d5cb37813e7e126241766f004d93765b6473af2a" />
 
+=======
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="toolchain/prebuilts/ndk-darwin/r21" path="prebuilts/fullsdk-darwin/ndk" revision="1c4977f21886e391f7a2105c218fc9de9ac49b31">
+  </project>
+  <project clone-depth="1" groups="notdefault,platform-linux" name="toolchain/prebuilts/ndk/r21" path="prebuilts/fullsdk-linux/ndk" revision="3530c157930d9a9da919f220df5bc81422401a21">
+  </project>
+  
+  
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/build-tools/29.0.3" path="prebuilts/fullsdk-darwin/build-tools/29.0.3" revision="f597735774e931d682fb10e0d0590392f4a69c38" />
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/build-tools/30.0.2" path="prebuilts/fullsdk-darwin/build-tools/30.0.2" revision="9dfe7865934932eb3b53e35155ea9c40697490c2" />
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/platform-tools" path="prebuilts/fullsdk-darwin/platform-tools" revision="b24215e6aa12fa3343911fb53ae2e57af7050f6c" />
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/fullsdk-darwin/tools" path="prebuilts/fullsdk-darwin/tools" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" />
+  <project clone-depth="1" groups="notdefault,platform-darwin" name="platform/prebuilts/cmake/darwin-x86" path="prebuilts/fullsdk-darwin/cmake" revision="0027de2678201f2602c12b3fd113c2b6fc7abcad" />
+  
+  
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/build-tools/29.0.3" path="prebuilts/fullsdk-linux/build-tools/29.0.3" revision="2d89707a7cc994d40bd4c20b3cb42cf5a87e983a" />
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/build-tools/30.0.2" path="prebuilts/fullsdk-linux/build-tools/30.0.2" revision="248a5a13b54057d8ed8e93454e9156c0316040b3" />
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/platform-tools" path="prebuilts/fullsdk-linux/platform-tools" revision="9ef25e9104f03cd329dfd5c62867e6ff33c204dd" />
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/fullsdk-linux/tools" path="prebuilts/fullsdk-linux/tools" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" revision="7b902a0ff98ca5fdfcf7ea6381be641b0450a00d" />
+  <project clone-depth="1" groups="pdk" name="platform/prebuilts/jdk/jdk11" path="prebuilts/jdk/jdk11" revision="a3bdd6dafccaaeaa09fd973754c9eb47beb6f528" />
+  <project clone-depth="1" groups="notdefault,platform-linux" name="platform/prebuilts/cmake/linux-x86" path="prebuilts/fullsdk-linux/cmake" revision="016e06c728b3540924d64ebb811084f523401fec" />
+  
+  <project clone-depth="1" groups="pdk" name="platform/frameworks/support-golden" path="golden" revision="e6e55ce0620d36e56efdfa2ad4ac143a014ba98a" />
+  
+  
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" revision="8b63ed19c782f541d3d123b5e44ce40b1eac9e60" />
+  
+>>>>>>> BRANCH (31b67e Pin manifest of sparse-7187420-L51000000828164900)
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
 </manifest>
