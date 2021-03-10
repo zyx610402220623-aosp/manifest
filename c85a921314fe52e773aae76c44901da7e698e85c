@@ -16,6 +16,24 @@
       "message": "From the failing build, it looks like this repository needs to be propagated to some more downstream branches?",
       "revId": "c85a921314fe52e773aae76c44901da7e698e85c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd02e52d_cb88d33b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2021-03-10T20:00:15Z",
+      "side": 1,
+      "message": "Downstream branches have been created",
+      "parentUuid": "6e025440_fa156fff",
+      "revId": "c85a921314fe52e773aae76c44901da7e698e85c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
