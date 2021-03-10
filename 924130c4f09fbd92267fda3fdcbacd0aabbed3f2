@@ -22,6 +22,30 @@
       },
       "revId": "924130c4f09fbd92267fda3fdcbacd0aabbed3f2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d8fdd6c_7ccbf3e3",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2021-03-10T16:19:56Z",
+      "side": 1,
+      "message": "As long as we make it relatively easy to re-generate the files. Once everything works as expected we can write a script that:\n\n- Patches the manifest\n- Repo syncs everything\n- Compiles the .yy and .ll\n- Checks them in\n\nNone of that exists yet, and it would be nice to do some runs on all our infrastructure while we are developing this.",
+      "parentUuid": "b6855352_61f4bcf0",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 82
+      },
+      "revId": "924130c4f09fbd92267fda3fdcbacd0aabbed3f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
