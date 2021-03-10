@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6855352_61f4bcf0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1076123
+      },
+      "writtenOn": "2021-03-10T01:16:08Z",
+      "side": 1,
+      "message": "After the prebuilts, this won\u0027t be needed, right?",
+      "range": {
+        "startLine": 91,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 82
+      },
+      "revId": "924130c4f09fbd92267fda3fdcbacd0aabbed3f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
