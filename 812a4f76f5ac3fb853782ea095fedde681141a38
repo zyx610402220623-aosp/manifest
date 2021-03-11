@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92672980_e72d439c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1812258
+      },
+      "writtenOn": "2021-03-11T11:05:05Z",
+      "side": 1,
+      "message": "Yes, that was exactly the same issue as we had before. Thanks Inna for fixing it!",
+      "revId": "812a4f76f5ac3fb853782ea095fedde681141a38",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
