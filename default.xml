@@ -53,4 +53,7 @@
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" />
   <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs" />
 
+  <!-- For atoms.proto and stats-log-api-gen -->
+  <project path="frameworks/proto_logging" name="platform/frameworks/proto_logging" groups="pdk" />
+
 </manifest>
