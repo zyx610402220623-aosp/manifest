@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebc7b1e2_adf6349a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1335232
+      },
+      "writtenOn": "2021-03-24T00:04:13Z",
+      "side": 1,
+      "message": "This is the master-art-host version. I think this isn\u0027t actually needed though since we don\u0027t build statsd support for host builds. If I\u0027m wrong let me know, but otherwise I\u0027ll abandon this CL.",
+      "revId": "74ad87c9db5b729d8a27ba2b68b1c449052a19da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
