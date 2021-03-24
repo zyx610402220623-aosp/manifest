@@ -34,6 +34,24 @@
       "parentUuid": "ebc7b1e2_adf6349a",
       "revId": "74ad87c9db5b729d8a27ba2b68b1c449052a19da",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0c1a599_c3d497b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1335232
+      },
+      "writtenOn": "2021-03-24T02:49:25Z",
+      "side": 1,
+      "message": "Oh, that makes sense. Yeah, I was confused because this manifest seemed really different from the master-art one.\n\nI\u0027ll cherry pick to the internal one. I think it\u0027s better to minimize differences between the manifests.",
+      "parentUuid": "1acbdf41_6c090430",
+      "revId": "74ad87c9db5b729d8a27ba2b68b1c449052a19da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
