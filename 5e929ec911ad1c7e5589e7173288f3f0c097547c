@@ -16,6 +16,23 @@
       "message": "I don\u0027t have permission to submit the change, probably because I\u0027m not on the android team. Would you mind submitting it for me?",
       "revId": "5e929ec911ad1c7e5589e7173288f3f0c097547c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c76dd323_22bf29b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1868885
+      },
+      "writtenOn": "2021-03-24T21:53:23Z",
+      "side": 1,
+      "message": "Just following up on this. Would you mind submitting the change for me Inna? Thanks",
+      "revId": "5e929ec911ad1c7e5589e7173288f3f0c097547c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
