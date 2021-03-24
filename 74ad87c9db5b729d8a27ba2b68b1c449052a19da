@@ -16,6 +16,24 @@
       "message": "This is the master-art-host version. I think this isn\u0027t actually needed though since we don\u0027t build statsd support for host builds. If I\u0027m wrong let me know, but otherwise I\u0027ll abandon this CL.",
       "revId": "74ad87c9db5b729d8a27ba2b68b1c449052a19da",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1acbdf41_6c090430",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-03-24T00:16:19Z",
+      "side": 1,
+      "message": "I actually meant git_master-art-host, in the internal Gerrit (I didn\u0027t even know about this one - this manifest looks completely different from everything else).\n\nAnyhow, maybe you\u0027re right. We don\u0027t get any build-time dependencies either, even though it doesn\u0027t end up in the libs?\n\nAnother aspect is if we want to minimise diffs in the manifests - +rpl, do we have a policy about that for git_master-art-host?",
+      "parentUuid": "ebc7b1e2_adf6349a",
+      "revId": "74ad87c9db5b729d8a27ba2b68b1c449052a19da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
