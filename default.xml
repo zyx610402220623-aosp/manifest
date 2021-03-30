@@ -1,4 +1,5 @@
 <manifest>
+<<<<<<< HEAD   (091c41 Pin manifest of androidx-main-release)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="androidx-main-release" sync-j="8" />
   
@@ -30,6 +31,51 @@
   
   <project clone-depth="1" name="platform/prebuilts/fullsdk/platforms/android-30" path="prebuilts/fullsdk-darwin/platforms/android-30" revision="03d553bc2b9890601943a4e04e02202337eb1af7">
     <linkfile dest="prebuilts/fullsdk-linux/platforms/android-30" src="." />
+=======
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="androidx-main"
+           remote="aosp"
+           sync-j="8" />
+
+  <superproject name="platform/superproject" remote="aosp"/>
+
+  <!-- BEGIN dependencies -->
+  <project path="build/make" name="platform/build" />
+  <project path="manifest" name="platform/manifest" />
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" groups="pdk" clone-depth="1" />
+  <project path="external/doclava" name="platform/external/doclava" groups="pdk" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1" revision="master" />
+  <project path="external/icing" name="platform/external/icing" groups="pdk" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" clone-depth="1" revision="master" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" clone-depth="1" revision="androidx-main" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" revision="androidx-main" groups="pdk" clone-depth="1" />
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" groups="pdk-fs" clone-depth="1" revision="master" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" groups="pdk-fs" clone-depth="1" revision="androidx-main" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed" revision="master" />
+  <!-- Gradle dependencies -->
+  <!-- Config: shallow -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" clone-depth="1" />
+  <!-- SDK dependencies (shared) -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms/android-30"
+    name="platform/prebuilts/fullsdk/platforms/android-30"
+    revision="master"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-30" />
+>>>>>>> BRANCH (43e823 androidx-main -  add superproject support)
   </project>
   <project clone-depth="1" name="platform/prebuilts/fullsdk/sources/android-30" path="prebuilts/fullsdk-darwin/sources/android-30" revision="3da604b8524188eb6965fc43d22d6b4bfd7bd6b3">
     <linkfile dest="prebuilts/fullsdk-linux/sources/android-30" src="." />
