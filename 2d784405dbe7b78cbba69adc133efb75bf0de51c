@@ -16,6 +16,24 @@
       "message": "Wait this is the wrong branch. it should be in internal gerrit.\nhttps://googleplex-android-review.git.corp.google.com/q/project:platform/manifest+branch:tradefed",
       "revId": "2d784405dbe7b78cbba69adc133efb75bf0de51c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51a9ebbf_b71732e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1344584
+      },
+      "writtenOn": "2021-04-01T18:24:42Z",
+      "side": 1,
+      "message": "Isn\u0027t AOSP branch automerged to the internal one?\nAnyways, go/ag/14067016",
+      "parentUuid": "5c45865f_58dcc698",
+      "revId": "2d784405dbe7b78cbba69adc133efb75bf0de51c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
