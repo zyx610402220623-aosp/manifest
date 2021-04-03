@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36144505_fc6851f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1710210
+      },
+      "writtenOn": "2021-04-03T06:43:32Z",
+      "side": 1,
+      "message": "\u003e Patch Set 2: Code-Review+2\n\u003e \n\u003e Auto Code-Review +2 from release submitter.\n\u003e \n\u003e By voting Code-Review+2 the following files are now explicitly code-owner approved by android-build-prod (mdb):\n\u003e * default.xml\n\u003e \n\n",
+      "revId": "67499d6fbcad6928bff93b4fbc3ca3eca5f48c55",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
