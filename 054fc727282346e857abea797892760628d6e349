@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecb3c62c_3714c745",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019050
+      },
+      "writtenOn": "2021-04-09T01:33:27Z",
+      "side": 1,
+      "message": "Thanks for doing this, I was going to wait until tomorrow to remove it from the manifest to make sure there were no failures.\n\nAnd thanks for fixing the other references.",
+      "revId": "054fc727282346e857abea797892760628d6e349",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
