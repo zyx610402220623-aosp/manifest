@@ -16,6 +16,23 @@
       "message": "This makes sure we do not have to import any third_party libs directly.",
       "revId": "78d162bc0b877c8acd35a7e01d53fd66a4f2452e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a090cad6_c2eea756",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2021-04-12T19:32:47Z",
+      "side": 1,
+      "message": "Unrelated git error on build bots.",
+      "revId": "78d162bc0b877c8acd35a7e01d53fd66a4f2452e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
