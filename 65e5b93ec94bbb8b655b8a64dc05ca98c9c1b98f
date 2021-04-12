@@ -16,6 +16,24 @@
       "message": "There is no project platform/external/okio",
       "revId": "65e5b93ec94bbb8b655b8a64dc05ca98c9c1b98f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9883736_c4533381",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1286044
+      },
+      "writtenOn": "2021-04-12T15:37:11Z",
+      "side": 1,
+      "message": "Hi Inna, I just prepared this CL in advance. I\u0027m first waiting for ag/14126385 to be merged which imports the library. I\u0027ll update you when that\u0027s done, thanks!",
+      "parentUuid": "064b37e3_71917388",
+      "revId": "65e5b93ec94bbb8b655b8a64dc05ca98c9c1b98f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
