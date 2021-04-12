@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d03a5b99_467a7a3d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2021-04-12T05:45:32Z",
+      "side": 1,
+      "message": "As v31 is not released yet, we may not release the VNDK v31.",
+      "revId": "e92e982026f35090dd694eea934fa98b604eff8b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
