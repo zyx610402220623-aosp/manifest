@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "064b37e3_71917388",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2021-04-12T15:35:28Z",
+      "side": 1,
+      "message": "There is no project platform/external/okio",
+      "revId": "65e5b93ec94bbb8b655b8a64dc05ca98c9c1b98f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
