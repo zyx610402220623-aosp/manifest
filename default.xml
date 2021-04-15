@@ -95,10 +95,10 @@
 
   <!-- Webrtc for the goldfish-webrtc-videobridge -->
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/jsoncpp" name="platform/external/jsoncpp" revision="master" />
-  <project path="external/libaom" name="platform/external/libaom" revision="master" />
-  <project path="external/libopus" name="platform/external/libopus" revision="master" />
-  <project path="external/libsrtp2" name="platform/external/libsrtp2" revision="master" />
-  <project path="external/usrsctp" name="platform/external/usrsctp" revision="master" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/libaom" name="platform/external/libaom" />
+  <project path="external/libopus" name="platform/external/libopus"/>
+  <project path="external/libsrtp2" name="platform/external/libsrtp2" />
+  <project path="external/usrsctp" name="platform/external/usrsctp" />
 
 </manifest>
