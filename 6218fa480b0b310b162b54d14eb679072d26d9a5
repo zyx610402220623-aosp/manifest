@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc25256d_db223fe4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128973
+      },
+      "writtenOn": "2021-04-19T17:13:13Z",
+      "side": 1,
+      "message": "Consider taking these repos and moving them into an (emu-prebuilts) branch.",
+      "revId": "6218fa480b0b310b162b54d14eb679072d26d9a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
