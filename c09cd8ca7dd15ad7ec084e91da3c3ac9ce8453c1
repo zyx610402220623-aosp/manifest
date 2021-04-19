@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5ece83b_833df7df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2021-04-19T17:06:03Z",
+      "side": 1,
+      "message": "This removes all repositories that we are not using. This should help us get close to get the build bots working fast again.\n\n",
+      "revId": "c09cd8ca7dd15ad7ec084e91da3c3ac9ce8453c1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
