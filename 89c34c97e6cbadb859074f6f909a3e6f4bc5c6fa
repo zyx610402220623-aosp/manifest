@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c278602_55dff553",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2021-04-19T22:45:11Z",
+      "side": 1,
+      "message": "Note that presubmit g3_tests are currently broken.",
+      "revId": "89c34c97e6cbadb859074f6f909a3e6f4bc5c6fa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
