@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67938e0a_7d7d23c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2021-04-19T22:58:59Z",
+      "side": 1,
+      "message": "Note that tests are still broken, abseil-cpp is needed by incoming cl.",
+      "revId": "8d878c2b728adc5081ab853190c9d3729bd6db00",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
