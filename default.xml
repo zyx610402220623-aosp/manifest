@@ -46,6 +46,7 @@
   <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc" revision="dddf3315ac6d5c8a1ddc21ab8e027b1966d2116f" />
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="0eab307baf19e811e320d6559da27c218549b060" />
 
+<<<<<<< HEAD   (93fab2 Pin manifest of build-tools-release)
   
   <project name="platform/bionic" path="bionic" revision="59ed95a0e691257f8baf6d8f3d6ec373f947ebad" />
   <project name="platform/development" path="development" revision="1c2f8d7b6d40368e6ed91c7e594c8a524ef504e3" />
@@ -98,7 +99,65 @@
   <project name="platform/system/libziparchive" path="system/libziparchive" revision="c8433344aa27de4da5e3b2b4c87766c508b998e5" />
   <project name="platform/system/logging" path="system/logging" revision="49bcca6d82d44c63e34c37c625931930d268f85d" />
   <project name="platform/system/unwinding" path="system/unwinding" revision="21fd34b69634144b9f17f42e1a269179d5c2d749" />
+=======
+  <!-- dependency source -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="development" name="platform/development" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
+  <project path="external/auto" name="platform/external/auto" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+  <project path="external/bazelbuild-remote-apis" name="platform/external/bazelbuild-remote-apis" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/capstone" name="platform/external/capstone" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dagger2" name="platform/external/dagger2" />
+  <project path="external/error_prone" name="platform/external/error_prone" clone-depth="1" />
+  <project path="external/escapevelocity" name="platform/external/escapevelocity" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" />
+  <project path="external/go-creachadair-shell" name="platform/external/go-creachadair-shell" />
+  <project path="external/go-creachadair-stringset" name="platform/external/go-creachadair-stringset" />
+  <project path="external/go-etree" name="platform/external/go-etree" />
+  <project path="external/go-subcommands" name="platform/external/go-subcommands" />
+  <project path="external/golang-x-sync" name="platform/external/golang-x-sync" />
+  <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
+  <project path="external/google-java-format" name="platform/external/google-java-format" />
+  <project path="external/googleapis" name="platform/external/googleapis" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/icu" name="platform/external/icu" />
+  <project path="external/javapoet" name="platform/external/javapoet" />
+  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/kythe" name="platform/external/kythe" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/lzma" name="platform/external/lzma" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/starlark-go" name="platform/external/starlark-go" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" />
+  <project path="system/libziparchive" name="platform/system/libziparchive" />
+  <project path="system/logging" name="platform/system/logging" />
+  <project path="system/unwinding" name="platform/system/unwinding" />
+  <project path="system/tools/xsdc" name="platform/system/tools/xsdc" />
+>>>>>>> BRANCH (054fc7 Switch jemalloc to jemalloc_new)
 
+<<<<<<< HEAD   (93fab2 Pin manifest of build-tools-release)
   
   <project name="platform/build/kati" path="build/kati" revision="da7f27125c6cd7b5e1a84eba88c4a54500faef48" />
   <project name="platform/dalvik" path="dalvik" revision="672cd0b9f17fafdc061762a7b5443f3941dee5dd" />
@@ -123,3 +182,30 @@
   <project name="toolchain/make" revision="3a78e1257ef0f0f57b12e869fc55bf02b39f9a08" />
   <project name="toolchain/xz" revision="e953aba95e0060876d5969cc9322cf2dbb5e2cf5" />
 </manifest>
+=======
+  <!-- target projects -->
+  <project path="art" name="platform/art" />
+  <project path="build/kati" name="platform/build/kati" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="external/bc" name="platform/external/bc" />
+  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bloaty" name="platform/external/bloaty" />
+  <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/desugar" name="platform/external/desugar" />
+  <project path="external/flex" name="platform/external/flex" />
+  <project path="external/ninja" name="platform/external/ninja" />
+  <project path="external/nsjail" name="platform/external/nsjail" />
+  <project path="external/one-true-awk" name="platform/external/one-true-awk" />
+  <project path="external/openssl" name="platform/external/openssl" revision="build-tools" />
+  <project path="external/python/cpython2" name="platform/external/python/cpython2" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/toybox" name="platform/external/toybox" />
+  <project path="external/turbine" name="platform/external/turbine" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" />
+  <project name="toolchain/go" />
+  <project name="toolchain/m4" />
+  <project name="toolchain/make" />
+  <project name="toolchain/xz" />
+</manifest>
+>>>>>>> BRANCH (054fc7 Switch jemalloc to jemalloc_new)
