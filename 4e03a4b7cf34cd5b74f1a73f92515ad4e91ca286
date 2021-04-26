@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2c35f8b_72c238fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2021-04-26T11:09:20Z",
+      "side": 1,
+      "message": "LGTM, merge conflict though.\n\n+baligh can you stamp please?",
+      "revId": "4e03a4b7cf34cd5b74f1a73f92515ad4e91ca286",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
