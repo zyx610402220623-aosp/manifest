@@ -16,6 +16,24 @@
       "message": "Do you think it\u0027s ok to add all of these in AOSP, even though some modules only exist in internal yet?\n\n(I assume this change will automerge..?)",
       "revId": "aca2268b6e58caefa1551b193fdd3727cd062c2b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7607a4d2_420ea944",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010681
+      },
+      "writtenOn": "2021-04-27T08:33:49Z",
+      "side": 1,
+      "message": "Resolving",
+      "parentUuid": "ecd9c5cd_ea446638",
+      "revId": "aca2268b6e58caefa1551b193fdd3727cd062c2b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
