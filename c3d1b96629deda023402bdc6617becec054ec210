@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa8151f1_61a2d8ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2021-05-05T22:34:41Z",
+      "side": 1,
+      "message": "The git branch exists so the lint error is no longer a problem.",
+      "revId": "c3d1b96629deda023402bdc6617becec054ec210",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
