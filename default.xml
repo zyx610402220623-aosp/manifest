@@ -3,6 +3,7 @@
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="android11-tests-release" sync-j="4" />
 
+<<<<<<< HEAD   (4f7a37 Pin manifest of android11-tests-release)
   <project groups="pdk" name="platform/build" path="build/make" revision="078b852823992b6c1bae8e95817ff90a6d4e58bb" upstream="android11-tests-release">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -11,6 +12,16 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  <project path="build/make" name="platform/build" revision="android11-tests-dev" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+>>>>>>> BRANCH (c3d1b9 Pin platform/build to android11-tests-dev)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="6d9911f96d2f68f893eb138aca22fea244b0c15b" upstream="android11-tests-release" />
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" revision="02d76b9cd64d752d7a8cdd74afaad55db0d67040" upstream="android11-tests-release">
