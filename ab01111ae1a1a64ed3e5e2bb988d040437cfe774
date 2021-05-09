@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50a2dfd6_f53c7b34",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-05-09T23:40:48Z",
+      "side": 1,
+      "message": "This automerges into the internal master-art branch, but not into the internal master-art-host, so please cherry-pick it there.",
+      "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
