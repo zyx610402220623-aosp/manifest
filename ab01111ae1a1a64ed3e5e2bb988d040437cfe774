@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5a412a8_7b67a599",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-05-10T08:55:30Z",
+      "side": 1,
+      "message": "Can you link to a bug that needs this and provide a little more explanation in this commit as to why this is needed in master-art, etc.",
+      "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "50a2dfd6_f53c7b34",
@@ -14,6 +31,23 @@
       "writtenOn": "2021-05-09T23:40:48Z",
       "side": 1,
       "message": "This automerges into the internal master-art branch, but not into the internal master-art-host, so please cherry-pick it there.",
+      "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa6edf64_77c43c3a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2021-05-10T08:55:30Z",
+      "side": 1,
+      "message": "I have a few concerns and questions.\n\nMy main concern is that this will cause issues with the ART sdk/module_exports. They operate under a number of assumptions about which part of the product \"owns\" a module and so is responsible for providing prebuilts and they could be broken as we do not \"own\" the modules in modules-utils.\n\n1. What modules does this bring into master-art?\n2. What in art is going to be using these modules?\n3. How are these modules going to be used? Statically included or dynamic dependencies?\n\nAnother concern is that this repo could drag in other repos and that in order to avoid that we will be forced to continue using SOONG_ALLOW_MISSING_DEPENDENCIES\u003dtrue which is something that the unbundling is working to avoid.\n\nIs the modules-utils repo self contained or does it depend on other repos?\n\nFinally, I think that the \"owners\" of this repo need to be aware that it will be used in master-art and be ok with the restrictions that may place on them.\n\nAnton, I know you have been involved in the creation of this module. Do you have any concerns with it being included in master-art.",
       "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
