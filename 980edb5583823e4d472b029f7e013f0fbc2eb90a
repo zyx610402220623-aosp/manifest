@@ -16,6 +16,24 @@
       "message": "Martin, can you submit this? Neither Chris or I have permission.",
       "revId": "980edb5583823e4d472b029f7e013f0fbc2eb90a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdc12137_84c0cc88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-05-10T17:03:08Z",
+      "side": 1,
+      "message": "Oh, looks like I can! Previously I had to vote Autosubmit+1 and let the bot do it for me.",
+      "parentUuid": "04fb6a47_03dc7b62",
+      "revId": "980edb5583823e4d472b029f7e013f0fbc2eb90a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
