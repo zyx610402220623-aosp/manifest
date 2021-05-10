@@ -38,6 +38,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "d735bb3e_cbd81196",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1047255
+      },
+      "writtenOn": "2021-05-10T16:40:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d89d26f1_adcb4926",
+      "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "50a2dfd6_f53c7b34",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "mainline-modularization owns this repo. Not sure it\u0027s entirely self-contained, but the intention is for it to not depend on frameworks/base. It is the destination to which utilities shared by modules are to be migrated to from frameworks/base",
       "parentUuid": "fa6edf64_77c43c3a",
+      "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73326650_4e6f32ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1047255
+      },
+      "writtenOn": "2021-05-10T16:40:02Z",
+      "side": 1,
+      "message": "1. This brings only the modules-utils package into master-art.\n2. This library is required by the framework-system-server-module-defaults build rules defaults, which is used by the libartservice target.\n3. The defaults use include the framework-annotations target in their `lib` directive.\n\n\u003e Another concern is that this repo could drag in other repos and that in order to avoid that we will be forced to continue using SOONG_ALLOW_MISSING_DEPENDENCIES\u003dtrue which is something that the unbundling is working to avoid.\n\u003e\n\u003e Is the modules-utils repo self contained or does it depend on other repos?\n\nI have not been able to identify any other modules it might depend on.\n\n\u003e Finally, I think that the \"owners\" of this repo need to be aware that it will be used in master-art and be ok with the restrictions that may place on them.\n\nThese were the changes that everyone suggested I make to resolve this issue, so I hope that there aren\u0027t any objections now :-)",
+      "parentUuid": "32b4c734_bf2bfa1f",
       "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
