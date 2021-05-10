@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "d89d26f1_adcb4926",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2021-05-10T09:00:27Z",
+      "side": 1,
+      "message": "b/183133670 is the bug, they\u0027ve been migrating the annotations from frameworks/base to frameworks/libs/modules-utils in order for this CL to be \"add modules-utils\" rather than \"add frameworks/base\"",
+      "parentUuid": "b5a412a8_7b67a599",
+      "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "50a2dfd6_f53c7b34",
@@ -65,6 +83,24 @@
       "writtenOn": "2021-05-10T08:56:14Z",
       "side": 1,
       "message": "CR-1 to make sure it doesn\u0027t get submitted before questions/concerns are addressed and Anton has had a chance to approve it.",
+      "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32b4c734_bf2bfa1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2021-05-10T09:00:27Z",
+      "side": 1,
+      "message": "mainline-modularization owns this repo. Not sure it\u0027s entirely self-contained, but the intention is for it to not depend on frameworks/base. It is the destination to which utilities shared by modules are to be migrated to from frameworks/base",
+      "parentUuid": "fa6edf64_77c43c3a",
       "revId": "ab01111ae1a1a64ed3e5e2bb988d040437cfe774",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
