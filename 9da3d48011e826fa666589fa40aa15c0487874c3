@@ -68,6 +68,23 @@
       "message": "Say something nice... ",
       "revId": "9da3d48011e826fa666589fa40aa15c0487874c3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "946d1b51_40bdf738",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1878016
+      },
+      "writtenOn": "2021-05-18T03:10:56Z",
+      "side": 1,
+      "message": "Say modifié ",
+      "revId": "9da3d48011e826fa666589fa40aa15c0487874c3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
