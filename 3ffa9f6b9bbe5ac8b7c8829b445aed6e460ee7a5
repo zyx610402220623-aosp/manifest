@@ -33,6 +33,24 @@
       "message": "Thanks, but the git project is empty. https://android.googlesource.com/platform/external/rust/crates/flate2/\nWe need to import the external project into there.\n\n(I can\u0027t +2 here)",
       "revId": "3ffa9f6b9bbe5ac8b7c8829b445aed6e460ee7a5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1037f6a5_779c9374",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1208973
+      },
+      "writtenOn": "2021-05-18T01:07:43Z",
+      "side": 1,
+      "message": "Yes, I was assuming Thiébaud will do that (since he was handling the rest of the import).",
+      "parentUuid": "b69b8031_2c2cfb28",
+      "revId": "3ffa9f6b9bbe5ac8b7c8829b445aed6e460ee7a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
