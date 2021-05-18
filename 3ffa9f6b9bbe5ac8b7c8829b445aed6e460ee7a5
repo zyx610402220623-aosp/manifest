@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a5ca738_41dadf33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1208973
+      },
+      "writtenOn": "2021-05-18T00:58:38Z",
+      "side": 1,
+      "message": "Jiyong, Thiébaud, does this work for you?",
+      "revId": "3ffa9f6b9bbe5ac8b7c8829b445aed6e460ee7a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
