@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f92e31b9_ccd63fed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-05-19T01:15:16Z",
+      "side": 1,
+      "message": "This branch has  aosp-master-with-phones.xml and thus could get vendor projects, thus internal bug report URL.",
+      "revId": "316666f514eb55a17b92333f8ad74a5c178372f8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
