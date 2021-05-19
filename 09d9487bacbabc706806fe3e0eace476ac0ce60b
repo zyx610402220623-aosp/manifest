@@ -16,6 +16,24 @@
       "message": "This one\u0027s a public manifest, so it seems okay to file issues with the manifest publicly.\n\nWhere does AndroidX team prefer for issues with the manifest to be filed?",
       "revId": "09d9487bacbabc706806fe3e0eace476ac0ce60b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6147551d_61db1460",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-05-19T01:08:10Z",
+      "side": 1,
+      "message": "+1. I don\u0027t see any vendor specific stuff. \n\nAck",
+      "parentUuid": "0d3578c2_4ae9608a",
+      "revId": "09d9487bacbabc706806fe3e0eace476ac0ce60b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
