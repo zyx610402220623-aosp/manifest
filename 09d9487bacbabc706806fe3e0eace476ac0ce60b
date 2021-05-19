@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d3578c2_4ae9608a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019983
+      },
+      "writtenOn": "2021-05-19T00:42:28Z",
+      "side": 1,
+      "message": "This one\u0027s a public manifest, so it seems okay to file issues with the manifest publicly.\n\nWhere does AndroidX team prefer for issues with the manifest to be filed?",
+      "revId": "09d9487bacbabc706806fe3e0eace476ac0ce60b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
