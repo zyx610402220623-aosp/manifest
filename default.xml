@@ -15,6 +15,7 @@
            sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp"/>
+  <contactinfo bugurl="go/repo-bug" />
 
   <project path="bionic" name="platform/bionic" groups="presubmit" />
   <project path="development" name="platform/development" groups="presubmit" />
