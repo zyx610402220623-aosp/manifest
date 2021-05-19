@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62e9bae7_91bd268c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2021-05-19T01:09:53Z",
+      "side": 1,
+      "message": "This doesn\u0027t have vendor specific stuff. I will assume we can leave bug filing reports as it is, thus abandoning it.",
+      "revId": "7df0bb8624ed2728d1b8c0bdf5543028c1b5864e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
