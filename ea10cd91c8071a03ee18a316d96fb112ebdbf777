@@ -81,6 +81,30 @@
       },
       "revId": "ea10cd91c8071a03ee18a316d96fb112ebdbf777",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aab4a4c6_fc23d3db",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 577,
+      "author": {
+        "id": 1110304
+      },
+      "writtenOn": "2021-05-20T17:58:39Z",
+      "side": 1,
+      "message": "I think we should do that in a different cl if at all",
+      "parentUuid": "6c697206_c4468178",
+      "range": {
+        "startLine": 577,
+        "startChar": 71,
+        "endLine": 577,
+        "endChar": 77
+      },
+      "revId": "ea10cd91c8071a03ee18a316d96fb112ebdbf777",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
