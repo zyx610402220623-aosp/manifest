@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d883702_3f7a5f8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2021-06-15T17:00:13Z",
+      "side": 1,
+      "message": "We also need this in `llvm-toolchain-testing` assuming we\u0027d eventually remove `darwin-x86` from the manifest.",
+      "revId": "ec22e618c2cb0b9656684ddba8d954c80ed1155c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
