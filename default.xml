@@ -15,6 +15,7 @@
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs" />
+  <project path="external/apache-commons-bcel" name="platform/external/apache-commons-bcel" groups="pdk" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
@@ -36,7 +37,9 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
+  <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/testng" name="platform/external/testng" groups="pdk" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk"/>
   <project path="external/vixl" name="platform/external/vixl" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
