@@ -16,6 +16,24 @@
       "message": "I did not know we had an aosp master-art-host.... Roland does it merge into internal master-art-host?",
       "revId": "df56070e88d28cabfa557d8fa3bd29677de26383",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "71a14976_4329ff25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-06-17T21:19:44Z",
+      "side": 1,
+      "message": "I\u0027m fairly sure this branch isn\u0027t used for anything. What\u0027s the reason for picking it?\n\nManifest changes need to go into AOSP master-art (which merges to git_master-art), and then a separate cherry-pick to internal master-art-host.",
+      "parentUuid": "13c94187_348273e4",
+      "revId": "df56070e88d28cabfa557d8fa3bd29677de26383",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
