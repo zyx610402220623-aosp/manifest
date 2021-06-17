@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ce02449_646b9fe4",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2021-06-17T20:36:45Z",
+      "side": 1,
+      "message": "Note, you need equivalent changes to androidx-studio-integration and androidx-platform-dev",
+      "revId": "e199cbe26e103cfe19b73049c2a9e28e06b5f7c1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
