@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35e61aee_d674ae86",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2021-06-23T23:20:37Z",
+      "side": 1,
+      "message": "As I mentioned in the bug, this no longer is useful, so we should just remove it.",
+      "revId": "e6dc7b5dcc034c9f9f26003d274513b712d4b9bf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
