@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "411743a4_58dea1a1",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1047255
+      },
+      "writtenOn": "2021-07-09T20:42:07Z",
+      "side": 1,
+      "message": "Do we want to create a revision or alias specifically for rust-toolchain?",
+      "range": {
+        "startLine": 39,
+        "startChar": 114,
+        "endLine": 39,
+        "endChar": 118
+      },
+      "revId": "d2953987748656cca3ed43438311c522575f7eb8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
