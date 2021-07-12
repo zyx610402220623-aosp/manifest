@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ab78334_22740ee6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2021-07-12T17:52:50Z",
+      "side": 1,
+      "message": "Ping for review/+2/submit since we need these projects for subsequent changes. Thanks.",
+      "revId": "d2953987748656cca3ed43438311c522575f7eb8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "411743a4_58dea1a1",
