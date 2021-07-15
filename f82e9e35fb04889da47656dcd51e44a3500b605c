@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "faa22206_9c0660d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1611820
+      },
+      "writtenOn": "2021-07-15T23:10:11Z",
+      "side": 1,
+      "message": "Hi Inna, thanks for approving my 3p review CLs this afternoon. This new CL adds the five Rust projects into the manifest.",
+      "revId": "f82e9e35fb04889da47656dcd51e44a3500b605c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
