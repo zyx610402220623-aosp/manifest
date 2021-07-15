@@ -16,6 +16,23 @@
       "message": "I can\u0027t +2 here.",
       "revId": "c53065b55b63163b8163bb54691573d731ea94ba",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4f46331_70f76d0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2021-07-15T17:29:20Z",
+      "side": 1,
+      "message": "Downstream branches are verified",
+      "revId": "c53065b55b63163b8163bb54691573d731ea94ba",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
