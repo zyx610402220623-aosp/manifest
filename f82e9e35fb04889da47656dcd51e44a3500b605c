@@ -51,6 +51,23 @@
       "message": "You don\u0027t need internal manifest",
       "revId": "f82e9e35fb04889da47656dcd51e44a3500b605c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59b9b197_0ae52af0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1611820
+      },
+      "writtenOn": "2021-07-16T01:43:15Z",
+      "side": 1,
+      "message": "Build error irrelevant to this change: https://android-build.googleplex.com/builds/pending/P24595711/build_test2/latest/view/logs/build_error.log\n\nWait a day to see if it resolves.",
+      "revId": "f82e9e35fb04889da47656dcd51e44a3500b605c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
