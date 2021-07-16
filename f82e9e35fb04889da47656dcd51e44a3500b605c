@@ -85,6 +85,23 @@
       "message": "Hi Inna could you PTAL? ",
       "revId": "f82e9e35fb04889da47656dcd51e44a3500b605c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4829cc8f_3c8f87bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2021-07-16T21:57:44Z",
+      "side": 1,
+      "message": "Downstream branches are verified",
+      "revId": "f82e9e35fb04889da47656dcd51e44a3500b605c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
