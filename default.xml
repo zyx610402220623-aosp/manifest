@@ -83,14 +83,8 @@
   <!-- SDK dependencies (darwin) -->
   <!-- Config: shallow + master revision -->
   <project
-    path="prebuilts/fullsdk-darwin/build-tools/29.0.3"
-    name="platform/prebuilts/fullsdk-darwin/build-tools/29.0.3"
-    revision="master"
-    clone-depth="1"
-    groups="notdefault,platform-darwin" />
-  <project
-    path="prebuilts/fullsdk-darwin/build-tools/30.0.3"
-    name="platform/prebuilts/fullsdk-darwin/build-tools/30.0.3"
+    path="prebuilts/fullsdk-darwin/build-tools/31.0.0"
+    name="platform/prebuilts/fullsdk-darwin/build-tools/31.0.0"
     revision="master"
     clone-depth="1"
     groups="notdefault,platform-darwin" />
@@ -115,14 +109,8 @@
   <!-- SDK dependencies (linux) -->
   <!-- Config: shallow + master revision -->
   <project
-    path="prebuilts/fullsdk-linux/build-tools/29.0.3"
-    name="platform/prebuilts/fullsdk-linux/build-tools/29.0.3"
-    revision="master"
-    clone-depth="1"
-    groups="notdefault,platform-linux" />
-  <project
-    path="prebuilts/fullsdk-linux/build-tools/30.0.3"
-    name="platform/prebuilts/fullsdk-linux/build-tools/30.0.3"
+    path="prebuilts/fullsdk-linux/build-tools/31.0.0"
+    name="platform/prebuilts/fullsdk-linux/build-tools/31.0.0"
     revision="master"
     clone-depth="1"
     groups="notdefault,platform-linux" />
