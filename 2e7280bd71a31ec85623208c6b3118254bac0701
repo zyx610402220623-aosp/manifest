@@ -67,6 +67,23 @@
       "message": "Gentle ping",
       "revId": "2e7280bd71a31ec85623208c6b3118254bac0701",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f930ed9_18997069",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2021-07-29T19:13:53Z",
+      "side": 1,
+      "message": "Downstream branches has been verified",
+      "revId": "2e7280bd71a31ec85623208c6b3118254bac0701",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
