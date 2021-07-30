@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a5fc0da_baa88627",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1208973
+      },
+      "writtenOn": "2021-07-30T13:58:09Z",
+      "side": 1,
+      "message": "Thanks, Stephen!  aosp/1781892 was already +2ed, though, so I just merged it.",
+      "revId": "c44183bf459cc0145868a7895418dc2ca98841ac",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
