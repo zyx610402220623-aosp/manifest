@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05e30376_cf42dac8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1380243
+      },
+      "writtenOn": "2021-08-03T10:19:34Z",
+      "side": 1,
+      "message": "The presubmit build failure is showing errors from external/adhd/audio_streams/Android.bp, which implies that this change isn\u0027t actually being applied. What\u0027s going on?",
+      "revId": "06a6836e3a9b621142902af2dd0c70a6b97b5ada",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
