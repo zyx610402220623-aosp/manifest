@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9485002_f914f208",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1411450
+      },
+      "writtenOn": "2021-08-06T10:58:01Z",
+      "side": 1,
+      "message": "Bump for owners @tavlia",
+      "revId": "ba93c29802bb62559186c0b2740d1c52f640e348",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
