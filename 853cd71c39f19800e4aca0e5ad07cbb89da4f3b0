@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "336e26df_7f4d7cec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2021-08-11T23:20:59Z",
+      "side": 1,
+      "message": "We need similar changes for downstream goog/androidx-platform-dev and goog/androidx-studio-integration branches.",
+      "revId": "853cd71c39f19800e4aca0e5ad07cbb89da4f3b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
