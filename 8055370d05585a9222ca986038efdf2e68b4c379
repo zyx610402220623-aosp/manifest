@@ -16,6 +16,24 @@
       "message": "did you get rid of the absl dependency?",
       "revId": "8055370d05585a9222ca986038efdf2e68b4c379",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9657c1dd_1e40d1b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1710792
+      },
+      "writtenOn": "2021-08-16T22:41:58Z",
+      "side": 1,
+      "message": "Yes, it\u0027s replaced with std::optional",
+      "parentUuid": "b0a844b8_4c63b508",
+      "revId": "8055370d05585a9222ca986038efdf2e68b4c379",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
