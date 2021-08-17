@@ -69,6 +69,23 @@
       "message": "+tavila/ipalant for +2",
       "revId": "8055370d05585a9222ca986038efdf2e68b4c379",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61f4042a_60e882e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-08-17T16:08:15Z",
+      "side": 1,
+      "message": "_really_ +tavila/ipalant this time...",
+      "revId": "8055370d05585a9222ca986038efdf2e68b4c379",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
