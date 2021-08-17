@@ -86,6 +86,23 @@
       "message": "_really_ +tavila/ipalant this time...",
       "revId": "8055370d05585a9222ca986038efdf2e68b4c379",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d7e92fa0_92c73fb1",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 675,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2021-08-17T21:05:29Z",
+      "side": 1,
+      "message": "to be consistent, you could remove revision\u003d\"master\".  This is not needed since the default revision is master.",
+      "revId": "8055370d05585a9222ca986038efdf2e68b4c379",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
