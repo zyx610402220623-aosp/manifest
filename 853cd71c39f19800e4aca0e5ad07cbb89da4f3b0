@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1ea7076_587564e6",
+        "filename": "default.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2021-08-18T15:14:14Z",
+      "side": 0,
+      "message": "What\u0027s the default if you don\u0027t specify it?",
+      "range": {
+        "startLine": 8,
+        "startChar": 11,
+        "endLine": 8,
+        "endChar": 21
+      },
+      "revId": "853cd71c39f19800e4aca0e5ad07cbb89da4f3b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
