@@ -34,6 +34,24 @@
       "parentUuid": "13c94187_348273e4",
       "revId": "df56070e88d28cabfa557d8fa3bd29677de26383",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f6bc925_012d83fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2021-08-27T14:44:31Z",
+      "side": 1,
+      "message": "\u003e I did not know we had an aosp master-art-host.... Roland does it merge into internal master-art-host?\n\nNo, it does not.\n\n\u003e I\u0027m fairly sure this branch isn\u0027t used for anything.\n\nI can confirm this – I haven\u0027t seen it used for anything. I was planning to remove it at the same time as the internal `master-art-host` branch, but we could do it earlier.",
+      "parentUuid": "71a14976_4329ff25",
+      "revId": "df56070e88d28cabfa557d8fa3bd29677de26383",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
