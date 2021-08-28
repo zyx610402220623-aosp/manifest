@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "839fc750_a5e5a102",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2021-08-28T01:01:25Z",
+      "side": 1,
+      "message": "This way I don\u0027t need to merge updates into these projects.",
+      "revId": "c914c3335a6c9d3d16f4e64e13f5797e8f55e7e7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
