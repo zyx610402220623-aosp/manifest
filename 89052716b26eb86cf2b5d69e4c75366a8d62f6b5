@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "861e907f_2e493e10",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2021-08-30T19:58:21Z",
+      "side": 1,
+      "message": "https://github.com/google/nsjail/commit/83fc152d7c80211fa3c52e21bda5377ecc8410af",
+      "revId": "89052716b26eb86cf2b5d69e4c75366a8d62f6b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2d17546_73317f37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2021-08-30T19:58:21Z",
+      "side": 1,
+      "message": "upstream nsjail change: https://github.com/google/nsjail/commit/83fc152d7c80211fa3c52e21bda5377ecc8410af\n\nupstream golang-x-tools changes: https://github.com/golang/tools/commit/fe37c9e135b934191089b245ac29325091462508",
+      "revId": "89052716b26eb86cf2b5d69e4c75366a8d62f6b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
