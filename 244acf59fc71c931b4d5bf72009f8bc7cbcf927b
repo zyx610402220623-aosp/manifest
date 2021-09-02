@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d19ba88_d9ff1b96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2021-09-02T20:53:09Z",
+      "side": 1,
+      "message": "Gerrit still isn\u0027t granting me permission to submit this.\n\nI\u0027ll try autosubmit.\n",
+      "revId": "244acf59fc71c931b4d5bf72009f8bc7cbcf927b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
