@@ -16,6 +16,24 @@
       "message": "Gerrit still isn\u0027t granting me permission to submit this.\n\nI\u0027ll try autosubmit.\n",
       "revId": "244acf59fc71c931b4d5bf72009f8bc7cbcf927b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b316db5_144cb1fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-09-02T21:28:06Z",
+      "side": 1,
+      "message": "(i don\u0027t think we ever get a submit button on the manifest, no matter what. having to use auto-submit is WAI, aiui.)",
+      "parentUuid": "8d19ba88_d9ff1b96",
+      "revId": "244acf59fc71c931b4d5bf72009f8bc7cbcf927b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
