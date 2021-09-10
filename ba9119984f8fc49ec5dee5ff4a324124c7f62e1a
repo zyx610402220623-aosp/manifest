@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b271f72a_a6f044be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2021-09-10T20:31:28Z",
+      "side": 1,
+      "message": "tavila: any chance we can get +2/submit rights here? There are no downstream branches so the only people we can break are ourselves, and we\u0027re pretty confident we can avoid doing so 😊",
+      "revId": "ba9119984f8fc49ec5dee5ff4a324124c7f62e1a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
