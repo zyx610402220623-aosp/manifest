@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "97fed2b7_6c0207b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2021-09-27T23:18:47Z",
+      "side": 1,
+      "message": "Ping. The kokoro build itself is now using this repository:\n\nhttp://google3/devtools/kokoro/config/prod/ndk/cmake/common.gcl;l\u003d12;rcl\u003d398090884\n",
+      "revId": "312f4a0845e8c133b29352c4a73ae6318906339b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
