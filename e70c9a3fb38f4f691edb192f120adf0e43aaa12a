@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02e170a2_b60d5daf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1126863
+      },
+      "writtenOn": "2021-10-01T18:25:36Z",
+      "side": 1,
+      "message": "SD card",
+      "revId": "e70c9a3fb38f4f691edb192f120adf0e43aaa12a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
