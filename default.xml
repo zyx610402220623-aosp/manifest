@@ -57,7 +57,7 @@
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-31" />
   </project>
   <project
-    path="prebuilts/jdk/jdk11"
+    path="prebuilts/jdk/jdk12"
     name="platform/prebuilts/jdk/jdk11"
     revision="master"
     clone-depth="1" />
