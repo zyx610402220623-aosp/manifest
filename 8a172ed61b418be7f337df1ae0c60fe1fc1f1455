@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab6cc2d4_3de4e053",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1191989
+      },
+      "writtenOn": "2021-10-05T08:33:31Z",
+      "side": 1,
+      "message": "please check the redundant /\u003e",
+      "revId": "8a172ed61b418be7f337df1ae0c60fe1fc1f1455",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
