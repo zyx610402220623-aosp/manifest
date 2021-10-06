@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33d58a99_3d8a8d85",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2021-10-06T22:58:15Z",
+      "side": 1,
+      "message": "This change mirrors http://cl/401083426.\n\nThis manifest is useful for locally reproducing the Kokoro builds. It\u0027s not used by the Kokoro builds themselves.\n",
+      "revId": "b794f961d25bc47e73bdf23eec3ff9d0982d411d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
