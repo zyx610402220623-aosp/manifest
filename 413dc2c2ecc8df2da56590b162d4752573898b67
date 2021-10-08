@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55c54e51_841203b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2021-10-08T19:08:42Z",
+      "side": 1,
+      "message": "Context: this project have a special default revision which is not equal to the branch name, so explicitly specify the revision to ensure we are using the correct one.",
+      "revId": "413dc2c2ecc8df2da56590b162d4752573898b67",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
