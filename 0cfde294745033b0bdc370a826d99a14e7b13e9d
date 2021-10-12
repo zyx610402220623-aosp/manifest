@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "155c8f45_8b56e509",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2021-10-12T23:47:10Z",
+      "side": 1,
+      "message": "Created projects on keystone qcom, samsung-slsi, and partner, as part of pdk review. Created downstream branches as well.",
+      "revId": "0cfde294745033b0bdc370a826d99a14e7b13e9d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
