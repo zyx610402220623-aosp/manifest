@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f23d019_28c953a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2021-10-12T23:47:41Z",
+      "side": 1,
+      "message": "I created downstream branches and new projects on keystone qcom and samsung-slsi.",
+      "revId": "995d9511cc21e8df277a9385f4dd44d02efe23c4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
