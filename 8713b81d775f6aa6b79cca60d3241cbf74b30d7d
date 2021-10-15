@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46acd693_7c14209e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2021-10-15T13:09:37Z",
+      "side": 1,
+      "message": "Suggestion: I usually add something like this for manifest changes:\n\n  Test: Validated with validate_repo_branch.par\n        (see go/mani-verify#using-validate-repo-branchpar):\n        /google/data/ro/projects/android/android-build/validate_repo_branch.par \\\n          --target_repo\u003dandroid --branch\u003dmaster-art \\\n          --local_manifest .repo/manifests/default.xml",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "8713b81d775f6aa6b79cca60d3241cbf74b30d7d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
