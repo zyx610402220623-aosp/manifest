@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "efc4094b_fdf4ebc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2021-10-21T22:20:14Z",
+      "side": 1,
+      "message": "Note that https://android-build.googleplex.com/builds/pending/P26976158/wembley-userdebug/latest/view/logs/build.log actually ended up with a couple lines trying to reference (and failing to) prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-readelf\n\nThe build still claims to succeed, although I wonder if that\u0027s because it\u0027s incremental?  Where should this build get \"readelf\" from?",
+      "revId": "89e1a7ad80b97641435c0c3be2753846d6b219ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
