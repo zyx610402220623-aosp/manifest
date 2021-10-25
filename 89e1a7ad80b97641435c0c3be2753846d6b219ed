@@ -69,6 +69,23 @@
       "parentUuid": "7599122e_6e5764e3",
       "revId": "89e1a7ad80b97641435c0c3be2753846d6b219ed",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bb810ec_ddb81a7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2021-10-25T18:42:57Z",
+      "side": 1,
+      "message": "b/203819972 has been fixed and should not block this.  Thank you for waiting.",
+      "revId": "89e1a7ad80b97641435c0c3be2753846d6b219ed",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
