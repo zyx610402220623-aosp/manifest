@@ -118,6 +118,30 @@
       },
       "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ac30ab8_cae1b41c",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1880318
+      },
+      "writtenOn": "2021-10-26T21:16:36Z",
+      "side": 1,
+      "message": "Thanks for that Ryan and Elliott!\n\nSounds like if we use `master` branch of `platform/prebuilts/ninja/$HOST` here we should get the latest as they are updated, which seems ideal to me. Just let me know if we should change anything or I\u0027ve misunderstood.",
+      "parentUuid": "ea7a7e65_1536599e",
+      "range": {
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 45
+      },
+      "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
