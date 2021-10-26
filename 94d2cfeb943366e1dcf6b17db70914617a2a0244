@@ -70,6 +70,30 @@
       },
       "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "097c3ca0_b6d304f7",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2021-10-26T21:07:14Z",
+      "side": 1,
+      "message": "There\u0027s a somewhat newer ninja in the cmake-master-dev branch of that repository, but the binaries come from the upstream ninja project:\n\nhttps://android.googlesource.com/platform/prebuilts/ninja/linux-x86/+/refs/heads/cmake-master-dev\n\nI\u0027m working on updating the ninja prebuilt to v1.10.2 built on Kokoro:\n\nhttps://android.googlesource.com/platform/external/ninja/+/refs/heads/cmake-master-dev\n\nI have it building, but I\u0027m not quite ready to check in new prebuilts. I\u0027m thinking I would put the new ninja prebuilts into the master branch of platform/prebuilts/ninja/$HOST.",
+      "parentUuid": "cf8dfec6_c57b07de",
+      "range": {
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 45
+      },
+      "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
