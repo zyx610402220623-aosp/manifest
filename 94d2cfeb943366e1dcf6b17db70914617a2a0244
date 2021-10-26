@@ -46,6 +46,30 @@
       },
       "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf8dfec6_c57b07de",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2021-10-26T15:31:39Z",
+      "side": 1,
+      "message": "+rprichard who\u0027s been looking at ninja for the NDK/Studio cmake...",
+      "parentUuid": "33243f3e_804dac6a",
+      "range": {
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 45
+      },
+      "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
