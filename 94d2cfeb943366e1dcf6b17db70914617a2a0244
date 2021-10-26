@@ -22,6 +22,30 @@
       },
       "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33243f3e_804dac6a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1137668
+      },
+      "writtenOn": "2021-10-26T15:29:24Z",
+      "side": 1,
+      "message": "I guess that a newer one would be https://android.googlesource.com/platform/prebuilts/build-tools/+/2d6b9dfc097a35d76b8321a02f9b77ca6e220ff7/linux-x86/bin/ninja\n?\n\n(so a repo of platform/prebuilts/build-tools and a subdir of linux-x86/bin )",
+      "parentUuid": "ad1cefec_c17e2846",
+      "range": {
+        "startLine": 164,
+        "startChar": 0,
+        "endLine": 164,
+        "endChar": 45
+      },
+      "revId": "94d2cfeb943366e1dcf6b17db70914617a2a0244",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
