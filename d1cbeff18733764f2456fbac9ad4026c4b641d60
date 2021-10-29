@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a82eba0_28a82e06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-10-29T12:24:37Z",
+      "side": 1,
+      "message": "This may need a cherry-pick into internal master-art-host - there\u0027s no automerge path there (please ignore AOSP master-art-host - it\u0027s not used).",
+      "revId": "d1cbeff18733764f2456fbac9ad4026c4b641d60",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
