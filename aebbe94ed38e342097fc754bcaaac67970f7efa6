@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc894763_1602e3af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1880318
+      },
+      "writtenOn": "2021-10-29T14:03:49Z",
+      "side": 1,
+      "message": "Bypassing presubmit because `androidx-vitals on git_androidx-studio-integration` is not expected to pass until updates to the manifest have been merged. Manifest changes will be merged at the same time as this PR although they are not in the same topic.",
+      "revId": "aebbe94ed38e342097fc754bcaaac67970f7efa6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
