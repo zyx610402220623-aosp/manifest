@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca6228e8_c425c7b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1902770
+      },
+      "writtenOn": "2021-10-31T23:06:47Z",
+      "side": 1,
+      "message": "\u003e Patch Set 2: Code-Review+2\n\u003e \n\u003e Auto Code-Review +2 from release submitter.\n\u003e \n\u003e By voting Code-Review+2 the following files are now explicitly code-owner approved by \u003cGERRIT_ACCOUNT_1877810\u003e:\n\u003e * default.xml\n\u003e \n\n",
+      "revId": "d167bf5d76e6ece5e17ea795bde83b5ea803e03d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
