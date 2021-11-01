@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60337cfc_f9653fe0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1880318
+      },
+      "writtenOn": "2021-11-01T18:12:59Z",
+      "side": 1,
+      "message": "+1 for bypass presubmit as this won\u0027t change our presubmit being a Darwin only change.",
+      "revId": "346d56b4ef5058882fc53d34092e318d741811b1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
