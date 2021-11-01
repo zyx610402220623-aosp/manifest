@@ -16,6 +16,23 @@
       "message": "Mind taking a look?",
       "revId": "3362e70f9cea238e5a06fa9a22e0aaf4cea315cf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "285ffef5_740956d1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1880318
+      },
+      "writtenOn": "2021-11-01T17:54:53Z",
+      "side": 1,
+      "message": "This is an older branch right? Does it diverge from master-legacy or just totally separate?",
+      "revId": "3362e70f9cea238e5a06fa9a22e0aaf4cea315cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
