@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba923225_7820e814",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1880318
+      },
+      "writtenOn": "2021-11-01T17:20:53Z",
+      "side": 0,
+      "message": "Thanks for fixing!",
+      "revId": "aebbe94ed38e342097fc754bcaaac67970f7efa6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
