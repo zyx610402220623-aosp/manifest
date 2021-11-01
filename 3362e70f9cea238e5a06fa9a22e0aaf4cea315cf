@@ -33,6 +33,24 @@
       "message": "This is an older branch right? Does it diverge from master-legacy or just totally separate?",
       "revId": "3362e70f9cea238e5a06fa9a22e0aaf4cea315cf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67c33408_ef0545af",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1060413
+      },
+      "writtenOn": "2021-11-01T18:05:33Z",
+      "side": 1,
+      "message": "Good question.  It\u0027s currently set to the same commit as main, as eventually worked out at b/202867531.  But the goal is actually to take it 8 months backward to release/11.x (I\u0027ve not done that yet, so that\u0027s another adventure).\n\nI actually am not sure what the intended uses of main vs master-legacy are.\n\nHappy to chat if there\u0027s more questions, I only half know what I\u0027m doing here.",
+      "parentUuid": "285ffef5_740956d1",
+      "revId": "3362e70f9cea238e5a06fa9a22e0aaf4cea315cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
