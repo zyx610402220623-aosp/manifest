@@ -16,6 +16,24 @@
       "message": "Sorry, I can\u0027t +2 here. \n\nBtw, I didn\u0027t know that we\u0027re using libtempfile from external/crosvm. Isn\u0027t there a conflict between two?",
       "revId": "9612cabd17d06ad28f9e20eccd651eb2ade2ded6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29387db7_0f2fb4f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2021-11-02T00:35:37Z",
+      "side": 1,
+      "message": "The crosvm upstream removed it from its git project. https://android-review.googlesource.com/c/platform/external/crosvm/+/1875374",
+      "parentUuid": "f0a7f1cb_05c0e38b",
+      "revId": "9612cabd17d06ad28f9e20eccd651eb2ade2ded6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
