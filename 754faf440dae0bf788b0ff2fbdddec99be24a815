@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dff32408_fca76131",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1877181
+      },
+      "writtenOn": "2021-11-03T00:00:50Z",
+      "side": 1,
+      "message": "From the g3doc if requesting BCO: \"occasionally, you might get requests from non-DroidMonitors for a BCO in order for them to revert/fix a breakage. For that case, please ensure that (1) the breakage bug # is included in the CL description, and (2) the build/test being fixed is included in the CL description\".",
+      "revId": "754faf440dae0bf788b0ff2fbdddec99be24a815",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
