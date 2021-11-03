@@ -69,6 +69,24 @@
       "message": "I still don\u0027t have permission to submit this, so someone else will have to.",
       "revId": "754faf440dae0bf788b0ff2fbdddec99be24a815",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d120109a_56a80859",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1877181
+      },
+      "writtenOn": "2021-11-03T00:42:42Z",
+      "side": 1,
+      "message": "Does not let me submit either, pinged Roshan, Bill, and Inna for approval",
+      "parentUuid": "8ce54d5b_71278d70",
+      "revId": "754faf440dae0bf788b0ff2fbdddec99be24a815",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
