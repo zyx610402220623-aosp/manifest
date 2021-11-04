@@ -35,6 +35,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "042e7113_e030e41d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1880318
+      },
+      "writtenOn": "2021-11-04T19:43:56Z",
+      "side": 1,
+      "message": "For some reason, I only have +1 as an option. Not sure why. Happy to bump up to +2 but not sure how.",
+      "parentUuid": "d1238086_01231520",
+      "revId": "3362e70f9cea238e5a06fa9a22e0aaf4cea315cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "285ffef5_740956d1",
