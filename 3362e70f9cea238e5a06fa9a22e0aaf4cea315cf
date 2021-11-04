@@ -18,6 +18,23 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1238086_01231520",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060413
+      },
+      "writtenOn": "2021-11-04T19:24:02Z",
+      "side": 1,
+      "message": "Fred, are you ready to bump your +1 to +2?",
+      "revId": "3362e70f9cea238e5a06fa9a22e0aaf4cea315cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "285ffef5_740956d1",
