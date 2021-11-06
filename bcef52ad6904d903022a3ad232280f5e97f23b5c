@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fddfcaa_dcd27fab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2021-11-06T15:37:28Z",
+      "side": 1,
+      "message": "Added ag/16206290 for fixing manifest.",
+      "revId": "bcef52ad6904d903022a3ad232280f5e97f23b5c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
