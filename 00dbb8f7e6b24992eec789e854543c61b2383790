@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a27c91a2_d16287fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2021-11-09T20:41:04Z",
+      "side": 1,
+      "message": "Created the project in gob-hosts:\n- partner-android (adjusted access parent to pdk)\n- keystone-qcom\n- keystone-samsung-slsi\n\nSuccessfully ran replicate_for_pdk ",
+      "revId": "00dbb8f7e6b24992eec789e854543c61b2383790",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
