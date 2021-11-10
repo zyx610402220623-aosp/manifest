@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21d3f56d_8f5636f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2021-11-10T17:10:55Z",
+      "side": 1,
+      "message": "- CheckDownstreamBranches checked and remedy\n- Created repo in keystone-qcom and keystone-samsung-slsi\n- Ran replicate_for_pdk",
+      "revId": "f8a1edee7a57bd1ab4848f62729dd5299eb60025",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
