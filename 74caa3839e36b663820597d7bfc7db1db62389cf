@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35d53a6b_d415363b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1078623
+      },
+      "writtenOn": "2021-11-10T23:00:00Z",
+      "side": 1,
+      "message": "should be “Add project platform/packages/modules/Bluetooth”",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 35
+      },
+      "revId": "74caa3839e36b663820597d7bfc7db1db62389cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e8dafde_936b894a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1078623
+      },
+      "writtenOn": "2021-11-10T23:00:00Z",
+      "side": 1,
+      "message": "chris.beams.io/posts/git-commit/#end",
+      "range": {
+        "startLine": 7,
+        "startChar": 35,
+        "endLine": 7,
+        "endChar": 36
+      },
+      "revId": "74caa3839e36b663820597d7bfc7db1db62389cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0215f022_78215e26",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1078623
+      },
+      "writtenOn": "2021-11-10T23:00:00Z",
+      "side": 1,
+      "message": "extraneous space",
+      "range": {
+        "startLine": 70,
+        "startChar": 88,
+        "endLine": 70,
+        "endChar": 89
+      },
+      "revId": "74caa3839e36b663820597d7bfc7db1db62389cf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
