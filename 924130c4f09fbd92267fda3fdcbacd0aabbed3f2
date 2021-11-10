@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "146bbb43_de6fad05",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1078623
+      },
+      "writtenOn": "2021-11-10T23:00:00Z",
+      "side": 1,
+      "message": "extraneous space",
+      "range": {
+        "startLine": 87,
+        "startChar": 54,
+        "endLine": 87,
+        "endChar": 55
+      },
+      "revId": "924130c4f09fbd92267fda3fdcbacd0aabbed3f2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b6855352_61f4bcf0",
         "filename": "default.xml",
         "patchSetId": 1
