@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "487f9b66_66ef1b83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2021-11-11T06:04:07Z",
+      "side": 1,
+      "message": "Is it possible to create the CL in a different build/soong tree/checkout?  build/soong gets lots of changes and this will just increase the frequency of builds in go/ab/aosp-rust-toolchain.\n\nAlternatively, check if we can change postsubmit rules so new builds are not triggered on build/soong canges.",
+      "revId": "ee8e7fe5e422b8118db6b089aca24d4d57b58363",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
