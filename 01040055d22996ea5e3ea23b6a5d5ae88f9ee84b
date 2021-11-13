@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "459e37ce_3e6c6f2c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1831560
+      },
+      "writtenOn": "2021-11-13T03:59:38Z",
+      "side": 1,
+      "message": "openjdk linux builds are failing\nhttps://android-build.googleplex.com/builds/submitted/7906539/linux_openjdk9/latest/view/logs/build.log \n```\ntoolchain/jdk/build/build-openjdk-linux.sh: line 12: /buildbot/src/googleplex-android/openjdk/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/bin/x86_64-linux-ar: No such file or directory\n```\n\n\nversion removed from path so that next time glibc, only manifest would need to be updated (compared to manifest and build scripts this time)\n",
+      "revId": "01040055d22996ea5e3ea23b6a5d5ae88f9ee84b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
