@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a703fce3_7fd46e39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1114194
+      },
+      "writtenOn": "2021-11-15T18:28:59Z",
+      "side": 1,
+      "message": "LGTM (I don\u0027t have +2 here).  See also: aosp/1889918.\n\nIt would be good to move off of x86_64-linux-ar to llvm-ar, too, as that will be needed next for b/203698882.",
+      "revId": "5dc10f38698c0dacc79027b688262293129acce8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
