@@ -16,6 +16,23 @@
       "message": "(I don\u0027t have +2).",
       "revId": "d102ef9929fcc56885c22731c56f84f56535549f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f171710c_c89c7971",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1831560
+      },
+      "writtenOn": "2021-11-17T01:27:20Z",
+      "side": 1,
+      "message": "Roman, could I get OWNERS approval for this manifest change. Thanks\n",
+      "revId": "d102ef9929fcc56885c22731c56f84f56535549f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
