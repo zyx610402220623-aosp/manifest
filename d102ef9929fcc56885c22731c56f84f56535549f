@@ -33,6 +33,23 @@
       "message": "Roman, could I get OWNERS approval for this manifest change. Thanks\n",
       "revId": "d102ef9929fcc56885c22731c56f84f56535549f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91da04c3_4053a82e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2021-11-17T01:31:11Z",
+      "side": 1,
+      "message": "You\u0027ll also need to cherry-pick this to the openjdk branch in internal, as that\u0027s where CI builds from and there is no automerger for the manifest.",
+      "revId": "d102ef9929fcc56885c22731c56f84f56535549f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
