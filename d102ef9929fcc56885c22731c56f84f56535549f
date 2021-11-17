@@ -50,6 +50,23 @@
       "message": "You\u0027ll also need to cherry-pick this to the openjdk branch in internal, as that\u0027s where CI builds from and there is no automerger for the manifest.",
       "revId": "d102ef9929fcc56885c22731c56f84f56535549f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "add4b300_a4892d9f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1831560
+      },
+      "writtenOn": "2021-11-17T02:33:32Z",
+      "side": 1,
+      "message": "find out a way to test everything together locally  (https://yaqs.corp.google.com/eng/q/5834446267744256#a5629499534213120)\nAnd look like we might want aosp/1889918 instead.\n\nwith 2.17 build is failing with \n\n```\nconfigure: Using default toolchain gcc (GNU Compiler Collection)\nconfigure: Will use user supplied compiler CC\u003dx86_64-linux-gcc\nchecking for x86_64-linux-gcc... no\nconfigure: error: User supplied compiler CC\u003dx86_64-linux-gcc could not be found\n```\n\nAnd indeed there is no `x86_64-linux-gcc` file for 2.17\nCompare:\nhttps://source.corp.google.com/android/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8/bin/\nhttps://source.corp.google.com/pi-arc-dev/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8/bin/\n\n",
+      "revId": "d102ef9929fcc56885c22731c56f84f56535549f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
