@@ -60,9 +60,15 @@
   <project name="platform/tools/acloud" path="tools/acloud" revision="e1b5ef4d98551c3b5294ae94bf8476e35507b363" upstream="emu-31-release" />
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="b98983bdd02a7827669a95eb66214e0cc3871e33" upstream="emu-31-release" />
 
+<<<<<<< HEAD   (ecbe54 Pin manifest of emu-31-release)
   
   <project groups="pdk" name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth" revision="2998080683c6b050a277d2dfd7d191073b454152" upstream="emu-31-release" />
   <project groups="pdk" name="platform/external/libchrome" path="external/libchrome" revision="47b4413a7413456640f3c46dd5127a9075af53fc" upstream="emu-31-release" />
+=======
+  <!-- Bring in the root-canal, bluetooth dependencies -->
+  <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth"  groups="pdk" revision="master"/>
+  <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" revision="emu-master-dev"/>
+>>>>>>> BRANCH (7eab38 Remove old Bluetooth directory.)
 
   
   <project groups="pdk" name="platform/external/bison" path="external/bison" revision="6c7da9e1f76d7d62d3387f0863f2b89f068f9be0" upstream="emu-31-release" />
