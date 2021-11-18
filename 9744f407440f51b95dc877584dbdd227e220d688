@@ -16,6 +16,23 @@
       "message": "I prefer aosp/1891532.  They will likely need to pin their manifest there as well, but at least they\u0027re moving to the actual latest release of AOSP\u0027s glibc.",
       "revId": "9744f407440f51b95dc877584dbdd227e220d688",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dc91e8f_bab9f02b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1831560
+      },
+      "writtenOn": "2021-11-18T22:31:46Z",
+      "side": 1,
+      "message": "+1\n(can\u0027t do +2 here)",
+      "revId": "9744f407440f51b95dc877584dbdd227e220d688",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
