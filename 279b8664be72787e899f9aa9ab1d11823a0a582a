@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fb17983_5cf93319",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2021-11-24T00:08:00Z",
+      "side": 1,
+      "message": "Status: I am working on the PDK review. 4 git repos need to be created across 3 gerrit hosts. Will report back when done with that.",
+      "revId": "279b8664be72787e899f9aa9ab1d11823a0a582a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
