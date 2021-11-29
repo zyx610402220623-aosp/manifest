@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b89bd742_b23badbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1715047
+      },
+      "writtenOn": "2021-11-29T15:55:22Z",
+      "side": 1,
+      "message": "Think I need to commit this before the 1.1 commit to avoid breaking the build machine...",
+      "revId": "217186ec5b8e37ed91179999590fffa7dd94368c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
