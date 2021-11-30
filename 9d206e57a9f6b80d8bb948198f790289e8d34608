@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7283287f_ab28bd06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2021-11-30T19:39:32Z",
+      "side": 1,
+      "message": "Can you also give this one Open-Source-Licensing+2 to assert that this doesn\u0027t have any unrecognized licenses, it just mentions license in the commit message?",
+      "revId": "9d206e57a9f6b80d8bb948198f790289e8d34608",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
