@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9eb389a_546c5735",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2021-12-01T18:39:11Z",
+      "side": 1,
+      "message": "Please cherry-pick to git_master-art-host. We don\u0027t have an automerger path there.",
+      "revId": "e645235f0a5280d84734fec72d24e8d1eb20fd63",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
