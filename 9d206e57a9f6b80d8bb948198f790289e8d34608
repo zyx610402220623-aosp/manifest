@@ -51,6 +51,24 @@
       "parentUuid": "128e3d13_f8d9e9bd",
       "revId": "9d206e57a9f6b80d8bb948198f790289e8d34608",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5946328_bbf71917",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2021-12-02T05:16:04Z",
+      "side": 1,
+      "message": "Without system/bpf there is no need for this CL in master-art-host.",
+      "parentUuid": "80372f6d_b4a639df",
+      "revId": "9d206e57a9f6b80d8bb948198f790289e8d34608",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
