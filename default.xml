@@ -46,6 +46,7 @@
   <project clone-depth="1" name="platform/prebuilts/misc" path="prebuilts/misc" revision="d091a2ac9e0a981b4851a6bbe29325e598cf59cc" upstream="build-tools-release" />
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="2be10f2787b2f52397d0fbe4da7315c3c0953973" upstream="build-tools-release" />
 
+<<<<<<< HEAD   (3190fc Pin manifest of build-tools-release)
   
   <project name="platform/bionic" path="bionic" revision="1d0a29d4e45c25ed5c03e68311dd0057d90196af" upstream="build-tools-release" />
   <project name="platform/development" path="development" revision="ca02be8278b1fd0059d604d597de311fe4eb813f" upstream="build-tools-release" />
@@ -102,7 +103,66 @@
   <project name="platform/system/logging" path="system/logging" revision="7bf6535ce73f7fdb96e25231f50cc55ba22394fb" upstream="build-tools-release" />
   <project name="platform/system/unwinding" path="system/unwinding" revision="eae3cd904b2787fca9f03625557b79e1175f2420" upstream="build-tools-release" />
   <project name="platform/system/tools/xsdc" path="system/tools/xsdc" revision="2e1a4f943c4eeaa2e981d794fd9382637816537a" upstream="build-tools-release" />
+=======
+  <!-- dependency source -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="development" name="platform/development" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
+  <project path="external/auto" name="platform/external/auto" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/capstone" name="platform/external/capstone" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dagger2" name="platform/external/dagger2" />
+  <project path="external/error_prone" name="platform/external/error_prone" clone-depth="1" />
+  <project path="external/escapevelocity" name="platform/external/escapevelocity" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" />
+  <project path="external/go-creachadair-shell" name="platform/external/go-creachadair-shell" />
+  <project path="external/go-creachadair-stringset" name="platform/external/go-creachadair-stringset" />
+  <project path="external/go-etree" name="platform/external/go-etree" />
+  <project path="external/go-subcommands" name="platform/external/go-subcommands" />
+  <project path="external/golang-x-sync" name="platform/external/golang-x-sync" />
+  <project path="external/golang-x-sys" name="platform/external/golang-x-sys" />
+  <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
+  <project path="external/google-java-format" name="platform/external/google-java-format" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/icu" name="platform/external/icu" />
+  <project path="external/javapoet" name="platform/external/javapoet" />
+  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/kythe" name="platform/external/kythe" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libnl" name="platform/external/libnl" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/lzma" name="platform/external/lzma" />
+  <project path="external/musl" name="platform/external/musl" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/starlark-go" name="platform/external/starlark-go" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" />
+  <project path="system/libziparchive" name="platform/system/libziparchive" />
+  <project path="system/logging" name="platform/system/logging" />
+  <project path="system/unwinding" name="platform/system/unwinding" />
+  <project path="system/tools/xsdc" name="platform/system/tools/xsdc" />
+>>>>>>> BRANCH (890527 Add golang-x-sys and libnl as new dependencies)
 
+<<<<<<< HEAD   (3190fc Pin manifest of build-tools-release)
   
   <project name="platform/art" path="art" revision="194e3787aae1d41c20d7cbf7c8bb97503657a87d" upstream="build-tools-release" />
   <project name="platform/build/kati" path="build/kati" revision="d80059743b77df0864fa680a6fa622f16d040f3f" upstream="build-tools-release" />
@@ -128,3 +188,30 @@
   <project name="toolchain/make" revision="98b2bd218f82dd5f3ecb054846ae4fdd01a76588" upstream="build-tools-release" />
   <project name="toolchain/xz" revision="e953aba95e0060876d5969cc9322cf2dbb5e2cf5" upstream="build-tools-release" />
 </manifest>
+=======
+  <!-- target projects -->
+  <project path="art" name="platform/art" />
+  <project path="build/kati" name="platform/build/kati" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="external/bc" name="platform/external/bc" />
+  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bloaty" name="platform/external/bloaty" />
+  <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/desugar" name="platform/external/desugar" />
+  <project path="external/flex" name="platform/external/flex" />
+  <project path="external/ninja" name="platform/external/ninja" />
+  <project path="external/nsjail" name="platform/external/nsjail" />
+  <project path="external/one-true-awk" name="platform/external/one-true-awk" />
+  <project path="external/openssl" name="platform/external/openssl" revision="build-tools" />
+  <project path="external/python/cpython2" name="platform/external/python/cpython2" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/toybox" name="platform/external/toybox" />
+  <project path="external/turbine" name="platform/external/turbine" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" />
+  <project name="toolchain/go" />
+  <project name="toolchain/m4" />
+  <project name="toolchain/make" />
+  <project name="toolchain/xz" />
+</manifest>
+>>>>>>> BRANCH (890527 Add golang-x-sys and libnl as new dependencies)
