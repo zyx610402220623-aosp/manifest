@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89135847_6b3da732",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1099348
+      },
+      "writtenOn": "2021-12-06T17:45:23Z",
+      "side": 1,
+      "message": "can you attach the bug for tracing into the CL description ",
+      "revId": "c7ea5b2eac4223bc6f4067b2643443c1fe2eb43f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
