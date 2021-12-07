@@ -162,6 +162,9 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
+  <!-- csuite support -->
+  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" />
+
 <!--
   Build system support.
   None of these projects should be included in the ART apex.
