@@ -50,6 +50,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" />
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" />
   <project path="tools/platform-compat" name="tools/platform-compat" groups="pdk-cw-fs,pdk-fs" />
 
