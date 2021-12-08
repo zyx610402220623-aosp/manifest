@@ -13,6 +13,7 @@
   </project>
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
