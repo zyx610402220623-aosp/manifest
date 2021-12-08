@@ -9,6 +9,7 @@
   <project name="platform/build" path="build" revision="226fea7f7efb44fb2b1d4e72d00489b5e6e913d5" upstream="emu-31-release" />
   <project name="platform/tools/buildSrc" path="tools/buildSrc" revision="804d3c1037c7b023b826271b561dc7da49636d72" upstream="emu-31-release" />
 
+<<<<<<< HEAD   (d55c4d Pin manifest of emu-31-release)
   <project name="device/generic/goldfish-opengl" path="device/generic/goldfish-opengl" revision="04bed5098b0f8bd8fab954bed702d5160df681d9" upstream="emu-31-release" />
   <project name="device/generic/vulkan-cereal" path="device/generic/vulkan-cereal" revision="6ce3399f95f1d5cff4aa19def08cbed30a6b70be" upstream="emu-31-release" />
   <project name="platform/external/adt-infra" path="external/adt-infra" revision="1064a20d304a39ef8c00877ffb2c03011c0a6aa8" upstream="emu-31-release" />
@@ -30,6 +31,29 @@
   <project name="platform/external/perfetto" path="external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078" upstream="emu-31-release" />
   <project name="platform/external/qemu" path="external/qemu" revision="b2cdab6363bfb1f982a63c591aa01fc78d2f8ed2" upstream="emu-31-release">
     <copyfile dest="emu.code-workspace" src="android/vscode/emu.code-workspace" />
+=======
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="master"/>
+  <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="master"/>
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
+  <project path="external/boringssl" name="platform/external/boringssl" revision="master" clone-depth="1"/>
+  <project path="external/cares" name="platform/external/c-ares" />
+  <project path="external/curl" name="platform/external/curl" />
+  <project path="external/deqp" name="platform/external/deqp" revision="master" />
+  <project path="external/googletest" name="platform/external/googletest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" />
+  <project path="external/grpc" name="platform/external/grpc-grpc" />
+  <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libyuv" name="platform/external/libyuv" />
+  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/lz4" name="platform/external/lz4" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/perfetto" name="platform/external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078"/>
+  <project path="external/qemu" name="platform/external/qemu">
+    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
+>>>>>>> BRANCH (df5ea0 Add back ANGLE repository)
   </project>
   <project name="platform/external/tinyobjloader" path="external/tinyobjloader" revision="d16a940067fbc191364fc1d3e2a2d907209c9320" upstream="emu-31-release" />
   <project name="platform/external/virglrenderer" path="external/virglrenderer" revision="f0c2fba5827abb3634b1992855264d7fe990b89d" upstream="emu-31-release" />
@@ -61,9 +85,15 @@
   <project name="platform/tools/acloud" path="tools/acloud" revision="f0ba43e47ef29cea8021228b2016328da9d2bc41" upstream="emu-31-release" />
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="b1188ff5f89887316c81ac10df82afb50430e541" upstream="emu-31-release" />
 
+<<<<<<< HEAD   (d55c4d Pin manifest of emu-31-release)
   
   <project groups="pdk" name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth" revision="858bc65be1d9c169b2d9782fd7bec36f242cde64" upstream="emu-31-release" />
   <project groups="pdk" name="platform/external/libchrome" path="external/libchrome" revision="47b4413a7413456640f3c46dd5127a9075af53fc" upstream="emu-31-release" />
+=======
+  <!-- Bring in the root-canal, bluetooth dependencies -->
+  <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth"  groups="pdk" revision="master"/>
+  <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" revision="emu-master-dev"/>
+>>>>>>> BRANCH (df5ea0 Add back ANGLE repository)
 
   
   <project groups="pdk" name="platform/external/bison" path="external/bison" revision="6c7da9e1f76d7d62d3387f0863f2b89f068f9be0" upstream="emu-31-release" />
