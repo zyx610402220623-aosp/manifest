@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fd8bf91_78673f1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2021-12-08T13:50:19Z",
+      "side": 1,
+      "message": "Actually, could you move this change to the internal `master-art-host` branch? We don\u0027t maintain the AOSP `master-art-host` branch, and there is no merge path between the latter and the former.",
+      "revId": "3d159f9392c90faf7a636f02fb349005525ef384",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
