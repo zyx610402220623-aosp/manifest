@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43d9c1ac_cbee46b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2021-12-08T23:58:29Z",
+      "side": 1,
+      "message": "based on the presubmit failure, it looks like the implementation may need some work to support host-only builds.\n\nAlso, it appears I don\u0027t have CR+2 here anymore.",
+      "revId": "c19d24c06803db362ff5dcc66c80363cafd1fa74",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
