@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2fa8efe_d932b2fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1889741
+      },
+      "writtenOn": "2021-12-08T13:16:36Z",
+      "side": 1,
+      "message": "Roland PTAL.\nmaster-art-host is another manifest than master-art",
+      "revId": "bde17962b9c48c050e70616224c70a6fac339f81",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
