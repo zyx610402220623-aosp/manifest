@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2aee827e_00d6e3f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1317495
+      },
+      "writtenOn": "2021-12-10T12:25:14Z",
+      "side": 1,
+      "message": "chojoyce@chojoyce:~/aosp/manifest$ validate --target_repo\u003dandroid\n--------------------------------------------------\n Validating Repo Branches:\n - Branch...........: current-manifest (Using flag value for branch name)\n - Local Manifest...: ./default.xml\n - Target Repo......: android\n--------------------------------------------------\n\n\n\nBranch validated, all 1098 projects has SHA for branch: current-manifest\n",
+      "revId": "9f2aa05160216228cd9cc2bfb820bcce54b60357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
