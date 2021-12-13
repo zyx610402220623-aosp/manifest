@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5be84b2b_76a7cfdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1014491
+      },
+      "writtenOn": "2021-12-13T18:37:56Z",
+      "side": 1,
+      "message": "I think this will also need to be removed from earlier android*-tests-dev branches.",
+      "revId": "4406997d48a14c285d35617ef49478d37d4de1e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
