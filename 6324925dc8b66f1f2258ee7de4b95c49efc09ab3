@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "575d9b05_bc2abcdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1088076
+      },
+      "writtenOn": "2021-12-13T19:08:39Z",
+      "side": 1,
+      "message": "So android11 code base is in the transition and still contains old VTS modules. ",
+      "revId": "6324925dc8b66f1f2258ee7de4b95c49efc09ab3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
