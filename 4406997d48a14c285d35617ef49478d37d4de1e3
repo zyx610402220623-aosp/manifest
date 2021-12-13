@@ -16,6 +16,24 @@
       "message": "I think this will also need to be removed from earlier android*-tests-dev branches.",
       "revId": "4406997d48a14c285d35617ef49478d37d4de1e3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5712ed20_35f9828b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1088076
+      },
+      "writtenOn": "2021-12-13T18:54:12Z",
+      "side": 1,
+      "message": "CLs uploaded for 11 and 12",
+      "parentUuid": "5be84b2b_76a7cfdd",
+      "revId": "4406997d48a14c285d35617ef49478d37d4de1e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
