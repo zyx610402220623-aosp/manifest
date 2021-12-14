@@ -17,6 +17,9 @@
   <project path="toolchain/rustc" name="toolchain/rustc"/>
   <project path="toolchain/android_rust" name="toolchain/android_rust"/>
 
+  <!-- LLVM Toolchain -->
+  <project path="toolchain/llvm_android" name="toolchain/llvm_android"/>
+
   <!-- Other Toolchains -->
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1"/>
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1"/>
