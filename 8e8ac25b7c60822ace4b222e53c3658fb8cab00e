@@ -46,6 +46,30 @@
       },
       "revId": "8e8ac25b7c60822ace4b222e53c3658fb8cab00e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3aaca69c_b340f3a9",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 414,
+      "author": {
+        "id": 1095291
+      },
+      "writtenOn": "2021-12-15T23:25:37Z",
+      "side": 1,
+      "message": "There may be some tool that uses vts somewhere, but I don\u0027t know what it is.  I\u0027d lean toward removing it and we can add it later if it turns out it is needed.",
+      "parentUuid": "a52b4d34_46a64317",
+      "range": {
+        "startLine": 414,
+        "startChar": 128,
+        "endLine": 414,
+        "endChar": 131
+      },
+      "revId": "8e8ac25b7c60822ace4b222e53c3658fb8cab00e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
