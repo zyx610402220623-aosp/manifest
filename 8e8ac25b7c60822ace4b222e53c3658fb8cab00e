@@ -22,6 +22,30 @@
       },
       "revId": "8e8ac25b7c60822ace4b222e53c3658fb8cab00e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a52b4d34_46a64317",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 414,
+      "author": {
+        "id": 1317495
+      },
+      "writtenOn": "2021-12-15T06:38:19Z",
+      "side": 1,
+      "message": "To be honest, I don\u0027t know. I just follow the google-api-python-client to set the config.\n\nI found the doc go/repo-man#groups didn\u0027t have the group \u0027vts\u0027 in the publish_pdk_config.py? Is it ok to only keep pdk groups?",
+      "parentUuid": "2fe34e59_a6fc20b0",
+      "range": {
+        "startLine": 414,
+        "startChar": 128,
+        "endLine": 414,
+        "endChar": 131
+      },
+      "revId": "8e8ac25b7c60822ace4b222e53c3658fb8cab00e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
