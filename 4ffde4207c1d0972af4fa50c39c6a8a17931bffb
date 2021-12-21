@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c4dfb89_3c9e89a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2021-12-21T18:59:50Z",
+      "side": 1,
+      "message": "The replicate_for_pdk check was successful\n\nblaze run //wireless/android/build_tools/publish_builds:replicate_for_pdk -- --alsologtostderr --host android --cl 1925417",
+      "revId": "4ffde4207c1d0972af4fa50c39c6a8a17931bffb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
