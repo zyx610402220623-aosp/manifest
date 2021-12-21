@@ -16,6 +16,23 @@
       "message": "Ping, can I get a +2?",
       "revId": "201d3f8b8a869b2bb79b86cacb54678e8c279695",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66f084d3_3e1cb10a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2021-12-21T19:19:15Z",
+      "side": 1,
+      "message": "Executed replicate_for_pdk successfully\n\nblaze run //wireless/android/build_tools/publish_builds:replicate_for_pdk -- --alsologtostderr --host android --cl 1922539\n",
+      "revId": "201d3f8b8a869b2bb79b86cacb54678e8c279695",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
