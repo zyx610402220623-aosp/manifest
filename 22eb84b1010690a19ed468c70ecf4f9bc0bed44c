@@ -16,6 +16,24 @@
       "message": "Git commit message should have a blank line between the subject line and body/footer",
       "revId": "22eb84b1010690a19ed468c70ecf4f9bc0bed44c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e5678b2_11dc41ed",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1868610
+      },
+      "writtenOn": "2021-12-29T02:31:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9aa65467_775d0a68",
+      "revId": "22eb84b1010690a19ed468c70ecf4f9bc0bed44c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
