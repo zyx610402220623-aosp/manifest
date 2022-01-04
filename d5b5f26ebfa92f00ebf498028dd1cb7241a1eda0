@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1495b3e9_e77d866b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1889741
+      },
+      "writtenOn": "2022-01-04T11:57:51Z",
+      "side": 1,
+      "message": "Roland PTAL\nIt seems like adding the group\u003dpdk is necessary after all",
+      "revId": "d5b5f26ebfa92f00ebf498028dd1cb7241a1eda0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
