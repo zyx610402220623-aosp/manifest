@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4abb9b3b_ec3c5f72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2022-01-07T23:12:19Z",
+      "side": 1,
+      "message": "Looks like we also need the \"Build-team-review\" vote on this CL.",
+      "revId": "625c9852788ad0da135858852facbd3770842d99",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
