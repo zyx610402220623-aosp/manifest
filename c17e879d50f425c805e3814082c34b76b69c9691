@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "583d0a99_324e8daf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-01-07T18:02:22Z",
+      "side": 1,
+      "message": "Ran replicate_for_pdk with this CL, fixed the missing project problem on partner and keystone gob-hosts.\n\n",
+      "revId": "c17e879d50f425c805e3814082c34b76b69c9691",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
