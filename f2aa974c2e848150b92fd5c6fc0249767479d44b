@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "168c98dc_917e924c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115183
+      },
+      "writtenOn": "2022-01-07T20:52:54Z",
+      "side": 1,
+      "message": "Hi Alex, per the presubmit failures \u0026 CheckDownstreamBranches warning it looks like this change requires several downstream branches to be created - is there a specific process I should follow for that?",
+      "revId": "f2aa974c2e848150b92fd5c6fc0249767479d44b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
