@@ -16,6 +16,24 @@
       "message": "Looks like we also need the \"Build-team-review\" vote on this CL.",
       "revId": "625c9852788ad0da135858852facbd3770842d99",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1e93349_157d32be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2022-01-07T23:26:40Z",
+      "side": 1,
+      "message": "Done,",
+      "parentUuid": "4abb9b3b_ec3c5f72",
+      "revId": "625c9852788ad0da135858852facbd3770842d99",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
