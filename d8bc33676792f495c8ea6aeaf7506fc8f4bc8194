@@ -16,6 +16,24 @@
       "message": "Is there some context for why we need to do this?\n\n(I don\u0027t have +2 ability)",
       "revId": "d8bc33676792f495c8ea6aeaf7506fc8f4bc8194",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2b877bc_061b0802",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1470382
+      },
+      "writtenOn": "2022-01-10T19:13:20Z",
+      "side": 1,
+      "message": "This allows us to put android.jar and other libraries on the classpath of tests and confirm that classgraph changes that Pawel is making are correct.",
+      "parentUuid": "a3a2dc83_40583047",
+      "revId": "d8bc33676792f495c8ea6aeaf7506fc8f4bc8194",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
