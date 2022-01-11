@@ -62,6 +62,23 @@
       "message": "Have you tested `m cpplint-art`?",
       "revId": "57fdfa7e45e6d099a9b7e3095c5a3709c8a0fc6e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3503bb0_36a5564a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2022-01-11T14:20:16Z",
+      "side": 1,
+      "message": "+2 on the assumption that cpplint-art works.\n\nThanks for picking this up.",
+      "revId": "57fdfa7e45e6d099a9b7e3095c5a3709c8a0fc6e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
