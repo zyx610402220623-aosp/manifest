@@ -22,6 +22,46 @@
       },
       "revId": "57fdfa7e45e6d099a9b7e3095c5a3709c8a0fc6e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19989ee4_50fa2eb2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2022-01-11T14:18:27Z",
+      "side": 1,
+      "message": "Did you check `m cpplint-art`?",
+      "range": {
+        "startLine": 9,
+        "startChar": 6,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "57fdfa7e45e6d099a9b7e3095c5a3709c8a0fc6e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24cc88f7_3430874d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2022-01-11T14:18:27Z",
+      "side": 1,
+      "message": "Have you tested `m cpplint-art`?",
+      "revId": "57fdfa7e45e6d099a9b7e3095c5a3709c8a0fc6e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
