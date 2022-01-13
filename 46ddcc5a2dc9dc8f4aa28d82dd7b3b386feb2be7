@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e51a33a9_fd3803c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1209463
+      },
+      "writtenOn": "2022-01-13T00:54:06Z",
+      "side": 1,
+      "message": "Please set Autosubmit vote and CP this fix to aosp/master and sc-v2-dev branches.Thanks",
+      "revId": "46ddcc5a2dc9dc8f4aa28d82dd7b3b386feb2be7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
