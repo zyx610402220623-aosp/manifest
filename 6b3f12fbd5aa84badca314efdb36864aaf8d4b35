@@ -16,6 +16,23 @@
       "message": "Roland PTAL",
       "revId": "6b3f12fbd5aa84badca314efdb36864aaf8d4b35",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eaf0d4b3_29a5dcb3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2022-01-13T12:54:21Z",
+      "side": 1,
+      "message": "I can only give Code-Review+1 here.",
+      "revId": "6b3f12fbd5aa84badca314efdb36864aaf8d4b35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
