@@ -1,0 +1,47 @@
+{
+  "comments": [
+    {
+      "robotId": "ayeaye",
+      "robotRunId": "AR00000000000019382416",
+      "url": "https://android-build.googleplex.com/builds/treetop/android-review/1953516?revision\u003d1",
+      "fixSuggestions": [
+        {
+          "fixId": "9945c041_8f283c3b",
+          "description": "Change to \"default.xml\"",
+          "replacements": [
+            {
+              "path": "default.xml",
+              "range": {
+                "startLine": 69,
+                "startChar": 33,
+                "endLine": 69,
+                "endChar": 44
+              },
+              "replacement": "dependencies"
+            }
+          ]
+        }
+      ],
+      "key": {
+        "uuid": "3e085d4f_ac7a2e66",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1757831
+      },
+      "writtenOn": "2022-01-18T19:45:58Z",
+      "side": 1,
+      "message": "Common typo found: \"depedencies\" -- should it be \"dependencies\"?\nNote: a line containing \"common_typos_disable\" or \"common_typos_enable\" will turn off or on (respectively) the linter for subsequent lines in the file. Alternatively include the token \"NOTYPO\" within a line to skip typo linting that line or include \u0027No-Typo-Check: \u003creason\u003e\u0027in the commit message.",
+      "range": {
+        "startLine": 69,
+        "startChar": 33,
+        "endLine": 69,
+        "endChar": 44
+      },
+      "revId": "1d15792bba2a49158379155b12e0f2400e78d1f1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
