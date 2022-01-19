@@ -50,6 +50,23 @@
       "message": "Hey Sam, we need someone with +2 powers. Can you PTAL? Thanks\n\nFor context, this is part of a project where we are adding continuous testing for an ART compile + launching of said compiled app. This testing would catch compiler errors before users encounter them.",
       "revId": "6b3f12fbd5aa84badca314efdb36864aaf8d4b35",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b51964b8_7cc7ea27",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1889741
+      },
+      "writtenOn": "2022-01-19T13:04:49Z",
+      "side": 1,
+      "message": "Sam friendly ping. This is needed to have continuous testing which would be really useful to catch bugs before rolling them out to users.",
+      "revId": "6b3f12fbd5aa84badca314efdb36864aaf8d4b35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
