@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d09aaf35_dede04aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115183
+      },
+      "writtenOn": "2022-01-20T01:56:22Z",
+      "side": 1,
+      "message": "Per https://android-review.googlesource.com/c/platform/manifest/+/1906953 it sounds like this may not be a real dependency, but based on the presubmit failures I\u0027m seeing a change along these lines seems to be needed",
+      "revId": "26682548350d7a90b9629040a622c5d89ded607e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
