@@ -2,8 +2,14 @@
 <manifest>
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (aae180 Merge empty history for sparse-8101499-L00700000952725903)
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <default remote="aosp" revision="sparse-8101499-L75000000952730741" />
+  <superproject name="platform/superproject" remote="aosp" />
+>>>>>>> BRANCH (ab2409 Pin manifest of sparse-8101499-L75000000952730741)
 
+<<<<<<< HEAD   (aae180 Merge empty history for sparse-8101499-L00700000952725903)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -12,6 +18,46 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  
+  <project name="platform/build" path="build/make" revision="b070076e9587c37927a7718f68b9f9f059f4ca8c" upstream="androidx-navigation-release" />
+
+  
+  
+  <project clone-depth="1" name="platform/external/noto-fonts" path="external/noto-fonts" revision="93d684e438f87b78d39a10cf33f0d3150befe159" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces" revision="e3ae520e2657516bd2bb7eab992e79787ff7315d" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/external/icing" path="external/icing" revision="9b3421a6e16beb67fea2119eaae68656879ef126" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/external/icu" path="external/icu" revision="57134ed0c1c5d11019206a5fb1619ae84cfc472f" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/external/google-benchmark" path="external/google-benchmark" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-navigation-release" />
+  
+  <project clone-depth="1" name="platform/external/protobuf" path="external/protobuf" revision="ddc085907fa4dc6669e91ff4c587f21e049303aa" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/prebuilts/androidx/external" path="prebuilts/androidx/external" revision="665237aa1e46c0bf9ffff53885c5a3102fc54f37" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/prebuilts/androidx/internal" path="prebuilts/androidx/internal" revision="c2fa246b4d76e830a80154f05a99e093d560e22c" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/prebuilts/androidx/exoplayer" path="prebuilts/androidx/exoplayer" revision="bf541a906e4ea6222993fff61418428320518ef0" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/prebuilts/androidx/traceprocessor" path="prebuilts/androidx/traceprocessor" revision="8d3424af681ac8e000661b057c6bce29c67b09bf" upstream="androidx-navigation-release" />
+  
+  <project clone-depth="1" name="platform/external/doclava" path="external/doclava" revision="b4dd7bf225f660d46ec4341d7b659aa7752a186d" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/external/dokka" path="external/dokka" revision="872f6dd85c3388b260593fd0ac75752564b07b9e" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/external/libyuv" path="external/libyuv" revision="cc6610ad280a03592699fd682e97781ddfd715ab" upstream="androidx-navigation-release" />
+
+  
+  
+  <project clone-depth="1" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" revision="38a7744d5da935a7916c2070ff2740f429a3cf16" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="platform/tools/repohooks" path="tools/repohooks" revision="fafa4a661afb6565e2e186f1762dd934af5d24f1" upstream="androidx-navigation-release" />
+  <project clone-depth="1" name="tools/fetch_artifact" path="tools/fetch_artifact" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-navigation-release" />
+  
+  
+  <project clone-depth="1" name="platform/prebuilts/protobuf" path="prebuilts/protobuf" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-navigation-release" />
+
+  
+  
+  <project clone-depth="1" name="platform/tools/external/gradle" path="tools/external/gradle" revision="8d2d6092550bdfb594a72f0bb76c40984af3740e" upstream="androidx-navigation-release" />
+
+  
+  
+  <project clone-depth="1" name="platform/prebuilts/fullsdk/platforms/android-31" path="prebuilts/fullsdk-darwin/platforms/android-31" revision="200e64779106cf6738f7c2cf02c9f23b683b5ac1" upstream="androidx-navigation-release">
+    <linkfile dest="prebuilts/fullsdk-linux/platforms/android-31" src="." />
+>>>>>>> BRANCH (ab2409 Pin manifest of sparse-8101499-L75000000952730741)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
