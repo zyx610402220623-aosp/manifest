@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b624811d_a93742fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2022-01-24T18:35:34Z",
+      "side": 1,
+      "message": "Can we land http://ag/q/topic:crosshatch_removal-sc-qpr1-dev-plus-aosp instead?  This is not broken on AOSP and only affects sc-qpr1-dev-plus-aosp.",
+      "revId": "ab1ef5b2e49590617c5560de00b46bebac779862",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
