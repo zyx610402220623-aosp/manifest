@@ -9,6 +9,7 @@
   <project name="platform/build" path="build" revision="38c65d249f4e3408a11cc4cf2ea202b734fd61fc" upstream="emu-31-release" />
   <project name="platform/tools/buildSrc" path="tools/buildSrc" revision="804d3c1037c7b023b826271b561dc7da49636d72" upstream="emu-31-release" />
 
+<<<<<<< HEAD   (c77bc9 Pin manifest of emu-31-release)
   <project name="device/generic/goldfish-opengl" path="device/generic/goldfish-opengl" revision="c53f7472dada63ce51af0e8683d3f331fcb2af7d" upstream="emu-31-release" />
   <project name="device/generic/vulkan-cereal" path="device/generic/vulkan-cereal" revision="87d75312bc3e38110753a2b2b8e45acc2f5271a2" upstream="emu-31-release" />
   <project name="platform/external/adt-infra" path="external/adt-infra" revision="e43ba3261b2728e690ebc9d6634a59291302c6ea" upstream="emu-31-release" />
@@ -30,6 +31,29 @@
   <project name="platform/external/perfetto" path="external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078" upstream="emu-31-release" />
   <project name="platform/external/qemu" path="external/qemu" revision="e850971fcc8664cbe4b5ca1740d6e39496ca404a" upstream="emu-31-release">
     <copyfile dest="emu.code-workspace" src="android/vscode/emu.code-workspace" />
+=======
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="master"/>
+  <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="master"/>
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
+  <project path="external/boringssl" name="platform/external/boringssl" revision="master" clone-depth="1"/>
+  <project path="external/cares" name="platform/external/c-ares" />
+  <project path="external/curl" name="platform/external/curl" />
+  <project path="external/deqp" name="platform/external/deqp" revision="master" />
+  <project path="external/googletest" name="platform/external/googletest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="db1632fadc79df388a2a7248157c965ee40248a1" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" />
+  <project path="external/grpc" name="platform/external/grpc-grpc" />
+  <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libyuv" name="platform/external/libyuv" />
+  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/lz4" name="platform/external/lz4" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/perfetto" name="platform/external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078"/>
+  <project path="external/qemu" name="platform/external/qemu">
+    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
+>>>>>>> BRANCH (a71df8 Add rapidjson)
   </project>
   <project name="platform/external/tinyobjloader" path="external/tinyobjloader" revision="d16a940067fbc191364fc1d3e2a2d907209c9320" upstream="emu-31-release" />
   <project name="platform/external/virglrenderer" path="external/virglrenderer" revision="f0c2fba5827abb3634b1992855264d7fe990b89d" upstream="emu-31-release" />
@@ -61,9 +85,19 @@
   <project name="platform/tools/acloud" path="tools/acloud" revision="e6277b3e78b283ae31ac7797e74b7a7fb24e9720" upstream="emu-31-release" />
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="4c9aefdb99807e5af1286c2b58bb8d76fd4adf25" upstream="emu-31-release" />
 
+<<<<<<< HEAD   (c77bc9 Pin manifest of emu-31-release)
   
   <project groups="pdk" name="platform/packages/modules/Bluetooth" path="packages/modules/Bluetooth" revision="22c07288219827f9f664a8c9a480e714a2ac5cba" upstream="emu-31-release" />
   <project groups="pdk" name="platform/external/libchrome" path="external/libchrome" revision="47b4413a7413456640f3c46dd5127a9075af53fc" upstream="emu-31-release" />
+=======
+  <!-- Tink security library and dependencies, we use upstream so we automatically get the latest security fixes -->
+  <project path="external/tink" name="platform/external/tink"  revision="upstream-master"/>
+  <project path="external/rapidjson" name="platform/external/rapidjson"  revision="master"/>
+
+  <!-- Bring in the root-canal, bluetooth dependencies -->
+  <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth"  groups="pdk" revision="master"/>
+  <project path="external/libchrome" name="platform/external/libchrome" groups="pdk" revision="emu-master-dev"/>
+>>>>>>> BRANCH (a71df8 Add rapidjson)
 
   
   <project groups="pdk" name="platform/external/bison" path="external/bison" revision="6c7da9e1f76d7d62d3387f0863f2b89f068f9be0" upstream="emu-31-release" />
