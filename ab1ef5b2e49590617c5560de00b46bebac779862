@@ -16,6 +16,23 @@
       "message": "Can we land http://ag/q/topic:crosshatch_removal-sc-qpr1-dev-plus-aosp instead?  This is not broken on AOSP and only affects sc-qpr1-dev-plus-aosp.",
       "revId": "ab1ef5b2e49590617c5560de00b46bebac779862",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64f11a21_36c6d72b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038039
+      },
+      "writtenOn": "2022-01-25T15:09:04Z",
+      "side": 1,
+      "message": "I think fixing forward is the way to go, but FTR - it was / is broken on aosp/master.\n\nAs EMEA build monitor today I\u0027ll try to put together a topic with cherry-picks of the necessary internal changes, but feel free to take over when you wake up.",
+      "revId": "ab1ef5b2e49590617c5560de00b46bebac779862",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
