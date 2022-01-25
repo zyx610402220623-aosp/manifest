@@ -67,6 +67,23 @@
       "message": "Sam friendly ping. This is needed to have continuous testing which would be really useful to catch bugs before rolling them out to users.",
       "revId": "6b3f12fbd5aa84badca314efdb36864aaf8d4b35",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47e35bb6_a6ba07e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2022-01-25T09:58:34Z",
+      "side": 1,
+      "message": "Adding byi@ and rassb@ for ownership approval.",
+      "revId": "6b3f12fbd5aa84badca314efdb36864aaf8d4b35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
