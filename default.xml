@@ -10,7 +10,11 @@
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
+<<<<<<< HEAD   (b91c25 Update with changes from aosp and rust-toolchain)
   <superproject name="platform/superproject" remote="aosp" revision="master-plus-rust" />
+=======
+  <superproject name="platform/superproject" remote="aosp"/>
+>>>>>>> BRANCH (418003 Remove crosshatch projects.)
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -1142,6 +1146,7 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+<<<<<<< HEAD   (b91c25 Update with changes from aosp and rust-toolchain)
 
   <!-- Rust Toolchain Components -->
   <project path="toolchain/rustc" name="toolchain/rustc"/>
@@ -1168,7 +1173,15 @@
 
   <!-- NDK - Needed until in-tree sysroot is available -->
   <project path="toolchain/prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1"/>
+=======
+>>>>>>> BRANCH (418003 Remove crosshatch projects.)
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+
+  <!--
+    Merge marker to make it easier for git to merge AOSP-only manifest
+    changes to a custom manifest.  Please keep this marker here and
+    refrain from making changes on or below it.
+  -->
 </manifest>
