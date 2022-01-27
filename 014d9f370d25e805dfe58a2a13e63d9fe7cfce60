@@ -16,6 +16,23 @@
       "message": "rassb@ for review of manifest changes.",
       "revId": "014d9f370d25e805dfe58a2a13e63d9fe7cfce60",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee7e5753_754f5195",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-01-27T19:20:09Z",
+      "side": 1,
+      "message": "Repo created on keystone-samsung-slsi as part of PDK review.",
+      "revId": "014d9f370d25e805dfe58a2a13e63d9fe7cfce60",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
