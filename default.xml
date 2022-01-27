@@ -13,8 +13,14 @@
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" />
   <project path="external/adt-infra" name="platform/external/adt-infra" />
+<<<<<<< HEAD   (5420de DO NOT MERGE ANYWHERE Create manifest for emu-31-stable-rele)
   <project path="external/astc-codec" name="platform/external/astc-codec"  />
   <project path="external/boringssl" name="platform/external/boringssl"  clone-depth="1"/>
+=======
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
+  <project path="external/boringssl" name="platform/external/boringssl" revision="master" clone-depth="1"/>
+>>>>>>> BRANCH (df5ea0 Add back ANGLE repository)
   <project path="external/cares" name="platform/external/c-ares" />
   <project path="external/curl" name="platform/external/curl" />
   <project path="external/deqp" name="platform/external/deqp"  />
