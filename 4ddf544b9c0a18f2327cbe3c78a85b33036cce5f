@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1634873e_544bb1e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-01-28T00:36:02Z",
+      "side": 1,
+      "message": "no downstream branches needed. Warning on here was kind of bogus.",
+      "revId": "4ddf544b9c0a18f2327cbe3c78a85b33036cce5f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
