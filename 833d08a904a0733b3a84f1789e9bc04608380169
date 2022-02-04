@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "311e70e4_fed0fe00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1568678
+      },
+      "writtenOn": "2022-02-04T13:36:31Z",
+      "side": 1,
+      "message": "This cl should be submitted after platform/external/XNNPACK has been updated, as we talked earlier.",
+      "revId": "833d08a904a0733b3a84f1789e9bc04608380169",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
