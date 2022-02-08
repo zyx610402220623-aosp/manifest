@@ -16,6 +16,23 @@
       "message": "Hi!",
       "revId": "75759b404e25cfb7ed1bb5487b8e192647d05b78",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "81b187c2_4984ea53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-02-08T22:48:52Z",
+      "side": 1,
+      "message": "Downstream branches created for all projects in the list, waiting on presubmit to pass before continuing with a PDK review.",
+      "revId": "75759b404e25cfb7ed1bb5487b8e192647d05b78",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
