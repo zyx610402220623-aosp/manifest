@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c085b56_464ce10f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1130827
+      },
+      "writtenOn": "2022-02-09T06:25:26Z",
+      "side": 1,
+      "message": "I don\u0027t have the permission to +2. Please ask the build team to review.",
+      "revId": "93d34635714c6239d9fb33e0331a5dd3eaa0fda4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
