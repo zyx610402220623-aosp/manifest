@@ -16,6 +16,24 @@
       "message": "Should we be concerned about the ValidateManifest error?",
       "revId": "f3dae49e4ec0230edc278c55f5ec797c0328bc24",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a4292c6_b8b9d2b6",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2022-02-11T17:57:52Z",
+      "side": 1,
+      "message": "Build team marked the bug as fixed, but the repos are not there 😞",
+      "parentUuid": "cb0c94f2_51a49f27",
+      "revId": "f3dae49e4ec0230edc278c55f5ec797c0328bc24",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
