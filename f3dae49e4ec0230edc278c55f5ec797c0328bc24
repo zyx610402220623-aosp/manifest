@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb0c94f2_51a49f27",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1137668
+      },
+      "writtenOn": "2022-02-11T17:55:28Z",
+      "side": 1,
+      "message": "Should we be concerned about the ValidateManifest error?",
+      "revId": "f3dae49e4ec0230edc278c55f5ec797c0328bc24",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
