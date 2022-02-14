@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf90dfc3_bd6531df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-02-14T22:46:58Z",
+      "side": 1,
+      "message": "This change is against branch which is not \u003cmain/master\u003e. No downstream branches required.",
+      "revId": "a577432dc5375ca9bcf02f6480e41316c7a95cca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
