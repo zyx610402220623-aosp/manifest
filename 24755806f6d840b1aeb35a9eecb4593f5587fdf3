@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fdf086e_e992a7b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-02-14T22:45:35Z",
+      "side": 1,
+      "message": "No downstream branches -- the analyzer hit an error but from the command line, no branches needed to be created.",
+      "revId": "24755806f6d840b1aeb35a9eecb4593f5587fdf3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
