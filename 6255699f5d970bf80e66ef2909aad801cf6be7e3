@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19ed45e5_a1c0b06c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2022-02-17T18:54:58Z",
+      "side": 1,
+      "message": "the error with aosp-with-phones is a WAI due to implementation of aosp-with-phones being a manifest hosted on a different host, and with gaps in TH not allowing a crosshost change makes this error impossible to fix.",
+      "revId": "6255699f5d970bf80e66ef2909aad801cf6be7e3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
