@@ -68,6 +68,23 @@
       "message": "Roland, as build monitor do you have +2 here? Thanks!",
       "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c7b195c_5d18d161",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2022-02-18T10:11:46Z",
+      "side": 1,
+      "message": "Thanks Connor for the resolution, btw!",
+      "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
