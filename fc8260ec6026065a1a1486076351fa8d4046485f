@@ -16,6 +16,23 @@
       "message": "Builds have been fixed - no need to revert.",
       "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5e937a2_a3b17403",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2022-02-18T04:41:24Z",
+      "side": 1,
+      "message": "It is failing only for the following target. Another option is to fix forward. This failed at 20:10 PST builds\nhttps://android-build.googleplex.com/builds/submitted/8196909/aosp_bramble-userdebug/latest/view/logs/build_error.log",
+      "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
