@@ -33,6 +33,24 @@
       "message": "It is failing only for the following target. Another option is to fix forward. This failed at 20:10 PST builds\nhttps://android-build.googleplex.com/builds/submitted/8196909/aosp_bramble-userdebug/latest/view/logs/build_error.log",
       "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb2b5dc7_d493df9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2022-02-18T04:43:19Z",
+      "side": 1,
+      "message": "Hi Raman - that error seems related to Bluetooth and not Media.",
+      "tag": "mailMessageId\u003d\u003cCACRFb3yscFYc44_zonPfTCPQCZwFgwNTvFS9-sf\u003dDaXUxce0Sg@mail.gmail.com\u003e",
+      "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
