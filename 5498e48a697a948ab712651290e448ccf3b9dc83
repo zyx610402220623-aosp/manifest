@@ -102,6 +102,23 @@
       "message": "I only have Code-Review+1 powers here.",
       "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6031ab8_91adee32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2022-02-18T10:13:22Z",
+      "side": 1,
+      "message": "Using Build-Cop-Override+1 (will this be enough to submit?).",
+      "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
