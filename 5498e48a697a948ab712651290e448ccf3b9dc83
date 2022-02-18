@@ -119,6 +119,24 @@
       "message": "Using Build-Cop-Override+1 (will this be enough to submit?).",
       "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1c4a2fd_85b88bf2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2022-02-18T10:21:34Z",
+      "side": 1,
+      "message": "Thanks Roland, the magic is working today😎",
+      "parentUuid": "a6031ab8_91adee32",
+      "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
