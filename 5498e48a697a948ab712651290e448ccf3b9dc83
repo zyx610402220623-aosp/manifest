@@ -33,6 +33,24 @@
       "message": "Orion, do you have +2 privilege here?",
       "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de343fa4_a83d18b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1071150
+      },
+      "writtenOn": "2022-02-18T10:06:25Z",
+      "side": 1,
+      "message": "Good morning, no +2 here.",
+      "parentUuid": "bf85fdf4_47e4a09e",
+      "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
