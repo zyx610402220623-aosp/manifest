@@ -85,6 +85,23 @@
       "message": "Thanks Connor for the resolution, btw!",
       "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7352b6f1_d1c4c9aa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2022-02-18T10:12:04Z",
+      "side": 1,
+      "message": "I only have Code-Review+1 powers here.",
+      "revId": "5498e48a697a948ab712651290e448ccf3b9dc83",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
