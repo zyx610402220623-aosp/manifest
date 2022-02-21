@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "866dc58e_e149bb11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132673
+      },
+      "writtenOn": "2022-02-21T00:29:36Z",
+      "side": 1,
+      "message": "Hi Roman and Baligh, could you vote for PDK-Review as well?",
+      "revId": "b349c00b4418a45f408f82a2712b9795417beac7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
