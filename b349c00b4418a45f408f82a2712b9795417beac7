@@ -33,7 +33,23 @@
       "message": "Gentle ping for PDK-review vote.",
       "revId": "b349c00b4418a45f408f82a2712b9795417beac7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "485e5e46_c1462a1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2022-02-23T16:17:21Z",
+      "side": 1,
+      "message": "Given the latency on this turn around, I am pdk+1 and if downstream things break, ABT can handle it.",
+      "revId": "b349c00b4418a45f408f82a2712b9795417beac7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
-  ],
-  "submitRequirementResults": []
+  ]
 }
