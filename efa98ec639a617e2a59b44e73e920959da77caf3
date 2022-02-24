@@ -16,6 +16,23 @@
       "message": "Inna - for some reason DS branch creation / detection is not working.",
       "revId": "efa98ec639a617e2a59b44e73e920959da77caf3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4469ef7a_ffdf33f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2022-02-24T17:56:31Z",
+      "side": 1,
+      "message": "Retry after creation of tm-dev in internal.",
+      "revId": "efa98ec639a617e2a59b44e73e920959da77caf3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
