@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "017b2573_b980c3c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1571059
+      },
+      "writtenOn": "2022-02-24T01:31:28Z",
+      "side": 1,
+      "message": "Also we need this repository for emu-master-dev manifest. Please take a look. ",
+      "revId": "6c765c4e3b924c080bbccec0f7526def79db218a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
