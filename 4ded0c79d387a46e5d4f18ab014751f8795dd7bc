@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "804692c9_b17ec16a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2022-02-25T14:58:38Z",
+      "side": 1,
+      "message": "Revert not needed, I fixed forward by creating the tm-mainline-prod branch.",
+      "revId": "4ded0c79d387a46e5d4f18ab014751f8795dd7bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
