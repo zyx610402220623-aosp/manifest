@@ -16,6 +16,23 @@
       "message": "Revert not needed, I fixed forward by creating the tm-mainline-prod branch.",
       "revId": "4ded0c79d387a46e5d4f18ab014751f8795dd7bc",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f59ac887_db2d5591",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2022-02-25T16:36:14Z",
+      "side": 1,
+      "message": "downstream branch was created so the original CL should work.",
+      "revId": "4ded0c79d387a46e5d4f18ab014751f8795dd7bc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
