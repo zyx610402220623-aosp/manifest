@@ -87,6 +87,23 @@
       "tag": "mailMessageId\u003d\u003cCACRFb3zJ6\u003dvbN7N4fzBL\u003dTm9NYrTJPW_epWE1k-xf6LTE\u003du55A@mail.gmail.com\u003e",
       "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52236d37_24b79f1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-02-25T18:24:34Z",
+      "side": 1,
+      "message": "Removing ABT reviewers since the related issue is fixed.",
+      "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
