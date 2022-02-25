@@ -104,6 +104,23 @@
       "message": "Removing ABT reviewers since the related issue is fixed.",
       "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd7cd7f3_d1c57b4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338311
+      },
+      "writtenOn": "2022-02-25T18:27:35Z",
+      "side": 1,
+      "message": "Should we abandon this change as the underlying issue is fixed?",
+      "revId": "fc8260ec6026065a1a1486076351fa8d4046485f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
