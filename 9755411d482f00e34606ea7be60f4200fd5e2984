@@ -16,6 +16,23 @@
       "message": "I\u0027ll review now.",
       "revId": "9755411d482f00e34606ea7be60f4200fd5e2984",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd4c43b4_5ec27d1e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-03-07T20:10:16Z",
+      "side": 1,
+      "message": "Corresponding git repos created on partner-android and the 3 keystone partner hosts.",
+      "revId": "9755411d482f00e34606ea7be60f4200fd5e2984",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
