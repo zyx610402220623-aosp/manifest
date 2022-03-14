@@ -16,6 +16,24 @@
       "message": "How large it this?",
       "revId": "9ebe84791200e6b2c542ed4c83236bcd2568f952",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86e6835e_f11a15dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060413
+      },
+      "writtenOn": "2022-03-14T17:32:47Z",
+      "side": 1,
+      "message": "Very good question.  build-tools is 500M, build-tools/linux-x86/bin is 100M, nsjail is 300K.  I\u0027ll see if we can pluck out only what we need.  Thanks.",
+      "parentUuid": "87834735_f5dd4cb5",
+      "revId": "9ebe84791200e6b2c542ed4c83236bcd2568f952",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
