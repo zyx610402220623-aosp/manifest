@@ -177,6 +177,12 @@
     revision="master"
     groups="notdefault,platform-linux"
     clone-depth="1" />
+  <project
+    path="prebuilts/linux-build-tools"
+    name="platform/prebuilts/build-tools/linux-x86"
+    revision="androidx-main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
 
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
