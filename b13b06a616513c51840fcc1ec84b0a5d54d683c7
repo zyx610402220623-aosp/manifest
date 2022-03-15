@@ -22,6 +22,30 @@
       },
       "revId": "b13b06a616513c51840fcc1ec84b0a5d54d683c7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b4d41e3_6888a5bd",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1831560
+      },
+      "writtenOn": "2022-03-15T18:50:49Z",
+      "side": 1,
+      "message": "I don\u0027t have strong preferences here, but using branch looks simpler, then creating a new separate AOSP git repository for upstream branch.\n\nAny considerations to be aware of when choosing between options?",
+      "parentUuid": "aa97826c_0ee6eec4",
+      "range": {
+        "startLine": 27,
+        "startChar": 118,
+        "endLine": 27,
+        "endChar": 124
+      },
+      "revId": "b13b06a616513c51840fcc1ec84b0a5d54d683c7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
