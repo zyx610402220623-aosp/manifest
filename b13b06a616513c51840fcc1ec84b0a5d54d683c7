@@ -46,6 +46,30 @@
       },
       "revId": "b13b06a616513c51840fcc1ec84b0a5d54d683c7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bae85808_cbac9dd8",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2022-03-15T18:59:43Z",
+      "side": 1,
+      "message": "Oh, I missed that the name field was the same.",
+      "parentUuid": "9b4d41e3_6888a5bd",
+      "range": {
+        "startLine": 27,
+        "startChar": 118,
+        "endLine": 27,
+        "endChar": 124
+      },
+      "revId": "b13b06a616513c51840fcc1ec84b0a5d54d683c7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
