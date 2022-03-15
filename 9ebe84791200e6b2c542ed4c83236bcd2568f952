@@ -52,6 +52,24 @@
       "parentUuid": "86e6835e_f11a15dd",
       "revId": "9ebe84791200e6b2c542ed4c83236bcd2568f952",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7dc714ef_2905e0be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2022-03-15T16:00:41Z",
+      "side": 1,
+      "message": "We can ask for a branch androidx-main of this project and only keep the bits we care about.",
+      "parentUuid": "76745227_9d454491",
+      "revId": "9ebe84791200e6b2c542ed4c83236bcd2568f952",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
