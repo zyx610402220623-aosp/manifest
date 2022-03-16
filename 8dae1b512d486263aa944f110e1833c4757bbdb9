@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a074e6b2_791e3ce0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2022-03-16T17:31:12Z",
+      "side": 1,
+      "message": "I haven\u0027t had much luck trying to use this (on AOSP master), but that was a long time ago.\n\nI also see on the web page that it\u0027s deprecated and won\u0027t work with the move to submodules (which I\u0027m already using). But if you still think it\u0027s worth enabling here I guess it doesn\u0027t hurt.",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 53
+      },
+      "revId": "8dae1b512d486263aa944f110e1833c4757bbdb9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
