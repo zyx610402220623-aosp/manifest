@@ -22,6 +22,30 @@
       },
       "revId": "8dae1b512d486263aa944f110e1833c4757bbdb9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7835982e_c4d07970",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1884045
+      },
+      "writtenOn": "2022-03-16T17:39:49Z",
+      "side": 1,
+      "message": "It works for me and it was super useful when I was investigating b/224971494.\n\nThe website says, \"there will be a new method in the submodule world to achieve the same results\", meaning this is no alternative so far, so it\u0027s worth enabling it for now.",
+      "parentUuid": "a074e6b2_791e3ce0",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 53
+      },
+      "revId": "8dae1b512d486263aa944f110e1833c4757bbdb9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
