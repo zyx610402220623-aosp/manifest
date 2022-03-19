@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "091a5553_6af38bc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1938820
+      },
+      "writtenOn": "2022-03-19T22:39:08Z",
+      "side": 1,
+      "message": "Sawubona masende",
+      "revId": "933567323e504a46bcde1702de7f50f948c90838",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
