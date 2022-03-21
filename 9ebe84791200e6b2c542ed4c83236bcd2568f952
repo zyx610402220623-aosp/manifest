@@ -70,6 +70,24 @@
       "parentUuid": "76745227_9d454491",
       "revId": "9ebe84791200e6b2c542ed4c83236bcd2568f952",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d9137ad_707b21e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060413
+      },
+      "writtenOn": "2022-03-21T20:47:57Z",
+      "side": 1,
+      "message": "Sounds good.  Requested branch at https://android-build.googleplex.com/selfservice/detail_page?requestId\u003d5217447961067520\n\nAnd granted",
+      "parentUuid": "7dc714ef_2905e0be",
+      "revId": "9ebe84791200e6b2c542ed4c83236bcd2568f952",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
