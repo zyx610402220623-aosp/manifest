@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "435f3a1c_f3ecb491",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2022-03-24T00:15:59Z",
+      "side": 1,
+      "message": "Thanks for adding r24 to the manifest Chris!",
+      "revId": "902b330eabd3d0d9d886fb7334fa27d3171151de",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
