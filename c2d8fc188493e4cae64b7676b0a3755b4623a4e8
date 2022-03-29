@@ -81,6 +81,24 @@
       "parentUuid": "2e5b1607_ada47b6a",
       "revId": "c2d8fc188493e4cae64b7676b0a3755b4623a4e8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d6e145d_bce0cfda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2022-03-29T09:57:00Z",
+      "side": 1,
+      "message": "Oh, interesting, I assumed master-art-host wouldn\u0027t work without the same pinning.\n\nNo, all is fine then.",
+      "parentUuid": "6f21845c_896ebd84",
+      "revId": "c2d8fc188493e4cae64b7676b0a3755b4623a4e8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
