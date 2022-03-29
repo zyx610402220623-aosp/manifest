@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d093238_13ac494e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2022-03-29T08:43:16Z",
+      "side": 1,
+      "message": "https://android-review.googlesource.com/c/platform/prebuilts/build-tools/+/2046951\n\nwhich needs\n\nhttps://android-review.googlesource.com/c/platform/system/tools/aidl/+/2041074",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 15
+      },
+      "revId": "c2d8fc188493e4cae64b7676b0a3755b4623a4e8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
