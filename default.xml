@@ -138,7 +138,7 @@
     groups="notdefault,platform-linux" />
   <project
     path="prebuilts/fullsdk-linux/ndk"
-    name="toolchain/prebuilts/ndk/r23"
+    name="toolchain/prebuilts/ndk/r24"
     revision="master"
     clone-depth="1"
     groups="notdefault,platform-linux" />
