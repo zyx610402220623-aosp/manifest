@@ -10,6 +10,7 @@
   <project path="build/make" name="platform/build" />
   <!-- External dependencies -->
   <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
   <project path="external/icing" name="platform/external/icing" clone-depth="1" />
@@ -21,10 +22,21 @@
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
+
   <!-- Config: shallow + master revision -->
+<<<<<<< HEAD   (45b8a3 DO NOT MERGE ANYWHERE Create manifest for androidx-draganddr)
   <project path="external/doclava" name="platform/external/doclava" clone-depth="1"  />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1"  />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1"  />
+=======
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="master" />
+  <project path="external/doclava" name="platform/external/doclava" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="master" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="master" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="master" />
+
+>>>>>>> BRANCH (323fc6 Fix path for external/ink-stroke-modeler)
   <!-- Tools dependencies -->
   <!-- Config: shallow + master revision -->
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1"  />
@@ -63,13 +75,25 @@
   <!-- SDK dependencies (darwin) -->
   <!-- Config: shallow + master revision -->
   <project
+<<<<<<< HEAD   (45b8a3 DO NOT MERGE ANYWHERE Create manifest for androidx-draganddr)
     path="prebuilts/fullsdk-darwin/build-tools/29.0.3"
     name="platform/prebuilts/fullsdk-darwin/build-tools/29.0.3"
+=======
+    path="prebuilts/fullsdk-darwin/build-tools/30.0.3"
+    name="platform/prebuilts/fullsdk-darwin/build-tools/30.0.3"
+    revision="master"
+>>>>>>> BRANCH (323fc6 Fix path for external/ink-stroke-modeler)
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
+<<<<<<< HEAD   (45b8a3 DO NOT MERGE ANYWHERE Create manifest for androidx-draganddr)
     path="prebuilts/fullsdk-darwin/build-tools/30.0.3"
     name="platform/prebuilts/fullsdk-darwin/build-tools/30.0.3"
+=======
+    path="prebuilts/fullsdk-darwin/build-tools/32.1.0"
+    name="platform/prebuilts/fullsdk-darwin/build-tools/32.1.0"
+    revision="master"
+>>>>>>> BRANCH (323fc6 Fix path for external/ink-stroke-modeler)
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
@@ -105,13 +129,25 @@
   <!-- SDK dependencies (linux) -->
   <!-- Config: shallow + master revision -->
   <project
+<<<<<<< HEAD   (45b8a3 DO NOT MERGE ANYWHERE Create manifest for androidx-draganddr)
     path="prebuilts/fullsdk-linux/build-tools/29.0.3"
     name="platform/prebuilts/fullsdk-linux/build-tools/29.0.3"
+=======
+    path="prebuilts/fullsdk-linux/build-tools/30.0.3"
+    name="platform/prebuilts/fullsdk-linux/build-tools/30.0.3"
+    revision="master"
+>>>>>>> BRANCH (323fc6 Fix path for external/ink-stroke-modeler)
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
+<<<<<<< HEAD   (45b8a3 DO NOT MERGE ANYWHERE Create manifest for androidx-draganddr)
     path="prebuilts/fullsdk-linux/build-tools/30.0.3"
     name="platform/prebuilts/fullsdk-linux/build-tools/30.0.3"
+=======
+    path="prebuilts/fullsdk-linux/build-tools/32.1.0"
+    name="platform/prebuilts/fullsdk-linux/build-tools/32.1.0"
+    revision="master"
+>>>>>>> BRANCH (323fc6 Fix path for external/ink-stroke-modeler)
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
@@ -144,6 +180,22 @@
     clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (45b8a3 DO NOT MERGE ANYWHERE Create manifest for androidx-draganddr)
+=======
+  <project
+    path="prebuilts/fullsdk-linux/kernel-build-tools"
+    name="kernel/prebuilts/build-tools"
+    revision="master"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    revision="androidx-main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+
+>>>>>>> BRANCH (323fc6 Fix path for external/ink-stroke-modeler)
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
   <!-- END dependencies -->
