@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d74c1efe_3d2f5061",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2022-04-12T18:32:45Z",
+      "side": 1,
+      "message": "Do you need to add this project to the automerge list?\nandroid12L_tests_projects",
+      "revId": "11e4889f03ea17e2e6c3e61599a206bc71e77193",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
