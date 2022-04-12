@@ -16,6 +16,24 @@
       "message": "Do you need to add this project to the automerge list?\nandroid12L_tests_projects",
       "revId": "11e4889f03ea17e2e6c3e61599a206bc71e77193",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2da6f37f_ca96a465",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882571
+      },
+      "writtenOn": "2022-04-12T19:49:13Z",
+      "side": 1,
+      "message": "Would it be possible to add similar auto mergers for platform_testing as cts package has? \n\nIf platform_testing will not merge along with cts, android build will break like in b/228880436",
+      "parentUuid": "d74c1efe_3d2f5061",
+      "revId": "11e4889f03ea17e2e6c3e61599a206bc71e77193",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
