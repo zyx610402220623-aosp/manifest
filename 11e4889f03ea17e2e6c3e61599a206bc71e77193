@@ -34,6 +34,24 @@
       "parentUuid": "d74c1efe_3d2f5061",
       "revId": "11e4889f03ea17e2e6c3e61599a206bc71e77193",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae0ef131_fa12eaa6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1882571
+      },
+      "writtenOn": "2022-04-12T22:13:14Z",
+      "side": 1,
+      "message": "Talked offline. On the second thought, the automerger is not needed. Will CP the change instead.",
+      "parentUuid": "2da6f37f_ca96a465",
+      "revId": "11e4889f03ea17e2e6c3e61599a206bc71e77193",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
