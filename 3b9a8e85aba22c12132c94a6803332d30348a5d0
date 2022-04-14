@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "226bd907_0596567f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1933736
+      },
+      "writtenOn": "2022-04-14T22:13:31Z",
+      "side": 1,
+      "message": "Goodbye NDK r23",
+      "revId": "3b9a8e85aba22c12132c94a6803332d30348a5d0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
