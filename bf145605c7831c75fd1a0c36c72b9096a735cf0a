@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f1cad18_a6b86385",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-04-18T18:24:08Z",
+      "side": 1,
+      "message": "Downstream branches created.\n\nCurrent commit is: bf145605c7831c75fd1a0c36c72b9096a735cf0a\nParent first commit is: 0871405359632fff6d17fa69be2d22abaecfb7f8\nIntrinsic bundle revision: master\nAdded and modified projects: [(\u0027platform/external/python/timeout-decorator\u0027, \u0027add\u0027)]\nProjects requiring downstream branches: [\u0027platform/external/python/timeout-decorator\u0027]\nDownstream branches have been created for platform/external/python/timeout-decorator\n        New branches: [\u0027main-glasses-dev\u0027, \u0027master-pepperjack-dev\u0027, \u0027tm-d1-tuscany-dev\u0027]\n        Branches that already exist: [\u0027ble-audio-dev\u0027, \u0027car-apps-dev\u0027, \u0027developers-dev\u0027, \u0027main-communal-dev\u0027, \u0027main-ims-dev\u0027, \u0027main-vf-dev\u0027, \u0027master\u0027, \u0027master-arc-dev\u0027, \u0027master-bds-dev\u0027, \u0027master-build-rbe-testing\u0027, \u0027master-gpl\u0027, \u0027master-layoutlib-native\u0027, \u0027master-plus-camx\u0027, \u0027master-smart-exp3-dev\u0027, \u0027master-staging\u0027, \u0027master-tuscany-dev\u0027, \u0027master-tv-dev\u0027, \u0027master-v4l2-dev\u0027, \u0027mirror-aosp-master-with-vendor\u0027, \u0027platform-for-vendor-blobs\u0027, \u0027platform-for-vendor-blobs-aosp-master\u0027, \u0027rvc-kiwi-dev\u0027, \u0027sc-kiwi-dev\u0027, \u0027sc-mainline-prod\u0027, \u0027sc-v2-dev-plus-aosp\u0027, \u0027stage-aosp-master\u0027, \u0027stage-aosp-master-with-vendor\u0027, \u0027starnix-dev\u0027, \u0027studio-master-dev\u0027, \u0027tm-arc-dev\u0027, \u0027tm-car-dev\u0027, \u0027tm-d1-dev\u0027, \u0027tm-d1-dev-plus-aosp\u0027, \u0027tm-dev\u0027, \u0027tm-dev-plus-aosp\u0027, \u0027tm-dev-plus-camx\u0027, \u0027tm-dev-plus-camx-lite\u0027, \u0027tm-layoutlib-native\u0027, \u0027tm-mainline-prod\u0027, \u0027tm-qpr-dev\u0027, \u0027tm-qpr-dev-plus-aosp\u0027, \u0027tm-tv-amlogic-dev\u0027, \u0027tm-tv-dev\u0027, \u0027tm-tv-gsi-dev\u0027, \u0027tm-tv-mtk-dev\u0027, \u0027tm-wear-dev\u0027, \u0027ub-dreamliner-master\u0027, \u0027ub-gearhead-master\u0027]",
+      "revId": "bf145605c7831c75fd1a0c36c72b9096a735cf0a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
