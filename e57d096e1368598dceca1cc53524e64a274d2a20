@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b88e38f1_36874e7a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2022-04-21T18:03:06Z",
+      "side": 1,
+      "message": "cl/443424792",
+      "parentUuid": "c7cae800_1cb2f59f",
+      "revId": "e57d096e1368598dceca1cc53524e64a274d2a20",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5c47746d_6cb2b00c",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-04-21T17:26:31Z",
       "side": 1,
       "message": "Do we think there\u0027s a risk that someone outside of androidx might add another version to this repo without deleting the existing version (to avoid breaking us, above) and then we end up downloading more build-tools versions than we need?",
+      "revId": "e57d096e1368598dceca1cc53524e64a274d2a20",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54cafb69_0d7a137c",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2022-04-21T18:03:06Z",
+      "side": 1,
+      "message": "cl/443424792",
+      "parentUuid": "5c47746d_6cb2b00c",
       "revId": "e57d096e1368598dceca1cc53524e64a274d2a20",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
