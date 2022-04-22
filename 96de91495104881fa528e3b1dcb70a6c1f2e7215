@@ -69,6 +69,23 @@
       "parentUuid": "5e73bb31_b7c71316",
       "revId": "96de91495104881fa528e3b1dcb70a6c1f2e7215",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3cdd1a7d_aa0755d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-04-22T17:50:09Z",
+      "side": 1,
+      "message": "Run pdk review procedure with below command and clean result:\n\nblaze run //wireless/android/build_tools/publish_builds:replicate_for_pdk -- \\\n  --alsologtostderr \\\n  --host android \\\n  --cl 2070033 \\\n  --bug 229270573\n  \n",
+      "revId": "96de91495104881fa528e3b1dcb70a6c1f2e7215",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
