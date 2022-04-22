@@ -16,6 +16,23 @@
       "message": "What\u0027s the plan here?\n\nIf we add this to the manifest, then move the code to the new repo (system/libcppbor), we\u0027ll also have to simultaneously remove the old repo from the manifest. It seems like it might be cleaner to mirror the code first, then just remove external/libcppbor and add system/libcppbor in one go.",
       "revId": "dff01ff606bc09d664d4e1e9a124dd6575ab24c9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24ef11c5_5e41de43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-04-22T17:45:18Z",
+      "side": 1,
+      "message": "Ran ds_manifest_branches to create the missing downstream branches: New branches: [\u0027tm-d1-tuscany-dev\u0027, \u0027udc-car-dev\u0027]",
+      "revId": "dff01ff606bc09d664d4e1e9a124dd6575ab24c9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
