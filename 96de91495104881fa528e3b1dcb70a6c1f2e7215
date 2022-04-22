@@ -34,6 +34,23 @@
       "parentUuid": "02db0170_99f8333f",
       "revId": "96de91495104881fa528e3b1dcb70a6c1f2e7215",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e73bb31_b7c71316",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-04-22T17:47:07Z",
+      "side": 1,
+      "message": "presubmit passed, our simple rule said its okay to +2.",
+      "revId": "96de91495104881fa528e3b1dcb70a6c1f2e7215",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
