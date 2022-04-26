@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a4ab2d2_c27933d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-04-26T23:05:06Z",
+      "side": 1,
+      "message": "Waiting on Presubmit-Verified before continuing with the PDK-Review.",
+      "revId": "4739cec18938e5c1a4ea50b22f806dd62890f0c5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
