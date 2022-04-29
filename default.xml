@@ -10,6 +10,7 @@
   <project path="build/make" name="platform/build" />
   <!-- External dependencies -->
   <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
   <project path="external/icing" name="platform/external/icing" clone-depth="1" />
@@ -21,15 +22,33 @@
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
+
   <!-- Config: shallow + master revision -->
+<<<<<<< HEAD   (5629e8 DO NOT MERGE ANYWHERE Create manifest for androidx-core-core)
   <project path="external/doclava" name="platform/external/doclava" clone-depth="1"  />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1"  />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1"  />
+=======
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="master" />
+  <project path="external/doclava" name="platform/external/doclava" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="master" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="master" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="master" />
+
+>>>>>>> BRANCH (5aa8be Prepare androidx-main for Tiramisu SDK finalization)
   <!-- Tools dependencies -->
   <!-- Config: shallow + master revision -->
+<<<<<<< HEAD   (5629e8 DO NOT MERGE ANYWHERE Create manifest for androidx-core-core)
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1"  />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1"  />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1"  />
+=======
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="master" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="master" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="master" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="master" />
+>>>>>>> BRANCH (5aa8be Prepare androidx-main for Tiramisu SDK finalization)
   <!-- Config: shallow + same revision -->
   <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
@@ -51,6 +70,20 @@
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-31" />
   </project>
   <project
+    path="prebuilts/fullsdk-darwin/platforms/android-33"
+    name="platform/prebuilts/fullsdk/platforms/android-33"
+    revision="master"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-darwin/sources/android-33"
+    name="platform/prebuilts/fullsdk/sources/android-33"
+    revision="master"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
+  </project>
+  <project
     path="prebuilts/jdk/jdk11"
     name="platform/prebuilts/jdk/jdk11"
     clone-depth="1" />
@@ -63,6 +96,7 @@
   <!-- SDK dependencies (darwin) -->
   <!-- Config: shallow + master revision -->
   <project
+<<<<<<< HEAD   (5629e8 DO NOT MERGE ANYWHERE Create manifest for androidx-core-core)
     path="prebuilts/fullsdk-darwin/build-tools/29.0.3"
     name="platform/prebuilts/fullsdk-darwin/build-tools/29.0.3"
     clone-depth="1"
@@ -70,6 +104,11 @@
   <project
     path="prebuilts/fullsdk-darwin/build-tools/30.0.3"
     name="platform/prebuilts/fullsdk-darwin/build-tools/30.0.3"
+=======
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+    revision="master"
+>>>>>>> BRANCH (5aa8be Prepare androidx-main for Tiramisu SDK finalization)
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
@@ -105,6 +144,7 @@
   <!-- SDK dependencies (linux) -->
   <!-- Config: shallow + master revision -->
   <project
+<<<<<<< HEAD   (5629e8 DO NOT MERGE ANYWHERE Create manifest for androidx-core-core)
     path="prebuilts/fullsdk-linux/build-tools/29.0.3"
     name="platform/prebuilts/fullsdk-linux/build-tools/29.0.3"
     clone-depth="1"
@@ -112,6 +152,11 @@
   <project
     path="prebuilts/fullsdk-linux/build-tools/30.0.3"
     name="platform/prebuilts/fullsdk-linux/build-tools/30.0.3"
+=======
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    revision="master"
+>>>>>>> BRANCH (5aa8be Prepare androidx-main for Tiramisu SDK finalization)
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
@@ -149,6 +194,16 @@
     name="kernel/prebuilts/build-tools"
     groups="notdefault,platform-linux"
     clone-depth="1" />
+<<<<<<< HEAD   (5629e8 DO NOT MERGE ANYWHERE Create manifest for androidx-core-core)
+=======
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    revision="androidx-main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+
+>>>>>>> BRANCH (5aa8be Prepare androidx-main for Tiramisu SDK finalization)
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
   <!-- END dependencies -->
