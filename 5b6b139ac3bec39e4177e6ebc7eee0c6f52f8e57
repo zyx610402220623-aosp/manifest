@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15b82ecc_f4bbbc24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2022-04-29T00:31:29Z",
+      "side": 1,
+      "message": "For more context:\n\nThe current manifest is referencing an upstream branch directly, but there is no presubmit set up to make sure that the upstream change won\u0027t break AOSP emu-master-dev, and when it happens we would be unable to make changes there directly.\n\nCan this be changed to use http://g3doc/company/teams/android-build-team/playbook/AOSP/upstream instead?\n\nIt\u0027s likely that this would also fix superproject updates (b/230761320) as a side effect, but performing merges that went through TreeHugger can help to make sure that these updates won\u0027t cause breakages, so we highly recommend doing it that way.",
+      "revId": "5b6b139ac3bec39e4177e6ebc7eee0c6f52f8e57",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
