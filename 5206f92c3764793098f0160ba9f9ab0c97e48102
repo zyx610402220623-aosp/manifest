@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd5e2c60_52a1a669",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-05-01T07:18:50Z",
+      "side": 1,
+      "message": "Ran the following PDK replication verification for the CL (returned without error):\n\nblaze run //wireless/android/build_tools/publish_builds:replicate_for_pdk -- \\\n  --alsologtostderr \\\n  --host android \\\n  --cl 2061540 \\\n  --bug 225380767",
+      "revId": "5206f92c3764793098f0160ba9f9ab0c97e48102",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
