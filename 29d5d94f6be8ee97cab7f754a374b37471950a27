@@ -16,6 +16,23 @@
       "message": "wtf\n\n```\nCommand failed: \u0027git -c core.longpaths\u003dtrue -c gc.auto\u003d0 worktree add --detach -f -f /buildbot/src/android/androidx-main/tools/repohooks ceb6fb38d93597cae05d9c9ab0c6a0c0270051d5\u0027 from \u0027/buildbot/git/android/platform/tools/repohooks.git\u0027. Error code: 128\nUser-changed manifest\n```",
       "revId": "29d5d94f6be8ee97cab7f754a374b37471950a27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a69f43ad_953031d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044446
+      },
+      "writtenOn": "2022-05-04T19:04:11Z",
+      "side": 1,
+      "message": "```\nerrors.BadManifestErrorInSync: Failed to get SHA1 for project path: prebuilts/fullsdk-darwin/platforms/android-32. Revision androidx-main is invalid .\n\nFailed to get SHA1 for project path: prebuilts/fullsdk-darwin/platforms/android-32. Revision androidx-main is invalid .\nUser-changed manifest\n```\n\nAh, yes, that\u0027s because the project does not exist.",
+      "revId": "29d5d94f6be8ee97cab7f754a374b37471950a27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
