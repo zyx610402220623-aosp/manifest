@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2353852f_62970ff4",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2022-05-04T17:47:12Z",
+      "side": 1,
+      "message": "Please use androidx-main for these (see b/229911554) to make sure that automerger works for these. I am planning to migrate the rest of them to androidx-main next week.",
+      "revId": "b4374fca30115b474ad70ce8863d01ec374745d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
