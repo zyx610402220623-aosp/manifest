@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46247081_b687534d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044446
+      },
+      "writtenOn": "2022-05-04T18:23:14Z",
+      "side": 1,
+      "message": "wtf\n\n```\nCommand failed: \u0027git -c core.longpaths\u003dtrue -c gc.auto\u003d0 worktree add --detach -f -f /buildbot/src/android/androidx-main/tools/repohooks ceb6fb38d93597cae05d9c9ab0c6a0c0270051d5\u0027 from \u0027/buildbot/git/android/platform/tools/repohooks.git\u0027. Error code: 128\nUser-changed manifest\n```",
+      "revId": "29d5d94f6be8ee97cab7f754a374b37471950a27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
