@@ -33,6 +33,24 @@
       "message": "```\nerrors.BadManifestErrorInSync: Failed to get SHA1 for project path: prebuilts/fullsdk-darwin/platforms/android-32. Revision androidx-main is invalid .\n\nFailed to get SHA1 for project path: prebuilts/fullsdk-darwin/platforms/android-32. Revision androidx-main is invalid .\nUser-changed manifest\n```\n\nAh, yes, that\u0027s because the project does not exist.",
       "revId": "29d5d94f6be8ee97cab7f754a374b37471950a27",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd53e45c_22132988",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044446
+      },
+      "writtenOn": "2022-05-09T17:52:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a69f43ad_953031d0",
+      "revId": "29d5d94f6be8ee97cab7f754a374b37471950a27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
