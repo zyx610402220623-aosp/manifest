@@ -16,6 +16,23 @@
       "message": "test comment",
       "revId": "7763ab456a7fa95ac398acf3305cd2e6773d4ec3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78704e65_8934149e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1952721
+      },
+      "writtenOn": "2022-05-24T07:40:12Z",
+      "side": 1,
+      "message": "Hello,\n\nIn order to upload an A2DP codec \"LHDC V5\"(provided by Savitech.co),\nWe need to create a new project folder at platform/external/liblhdcv5/, \nthen we will submit \"LHDC V5\" shared libraries and wrapper source codes into this folder.\n\nPlease instruct us how make a go of it.\nThank you so much!",
+      "revId": "7763ab456a7fa95ac398acf3305cd2e6773d4ec3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
