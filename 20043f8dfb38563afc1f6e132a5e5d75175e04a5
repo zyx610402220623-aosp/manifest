@@ -16,6 +16,23 @@
       "message": "Hello,\n\nAs the LHDC(Low-Latency Hi-Definition Audio Codec) is getting popular in China,\n(provided by Savitech: https://www.savitech.co).\nWe would like to submit the source code module into the android open source project.\n\nIn order to upload the shared libraries and wrapper source codes,\nWe need to a new project folder at platform/external/liblhdcv5/.\n\nCurrently, we do not know how to submit the application.\nCould you please instruct us how to make a go of it.\nThank you so much.",
       "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b2cc864_3190bee9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1952721
+      },
+      "writtenOn": "2022-05-25T02:05:16Z",
+      "side": 1,
+      "message": "Hello, \n\nAs the LHDC(Low-Latency Hi-Definition Audio Codec) is getting popular,\n(provided by Savitech: https://www.savitech.co).\nWe hope we can submit the codec version (named LHDC V5) to the android open source project.\n\nTo upload the codec\u0027s relative source codes, we had also submitted them to several projects. \nBelow roughly describe total components we pushed,\nall commits shared the same Change-Id: I1bb75d17dcab2aea7835bb67abe671345604932e\n\n1. platform/manifest (branch: master)\nIn order to acquire a new project folder named \"platform/external/liblhdcv5\" for LHDC V5 shared library and wrapper.\n\n2. platform/frameworks/base: (branch: android12L-s1-release)\nTo add the LHDC V5 to bluetooth A2DP codec class.\n\n3. platform/packages/apps/Bluetooth: (branch: android12L-s1-release)\nTo add the LHDC V5 to configuration of bluetooth A2DP codecs.\n\n4. platform/packages/apps/Settings: (branch: android12L-s1-release)\nTo add the LHDC V5 to UI supports in bluetooth A2DP codec configuration.\n\n5. platform/system/bt: (branch: android12L-s1-release)\nTo add vendor source codes for LHDC V5.\n\n6. platform/hardware/interfaces: (branch: android12L-s1-release)\nTo make sample rate 192 KHz enabled in the audio path.\n\nPlease instruct us how make a go of it.\nThank you so much.",
+      "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
