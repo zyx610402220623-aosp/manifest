@@ -50,6 +50,23 @@
       "message": "Ran ds_manifest_branches to handle the missing downstream branches\n--------\nNFO: Running command line: blaze-bin/wireless/android/build_tools/utils/ds_manifest_branches --host android --change 2104146 --nodry_run\nINFO: Build completed successfully, 18039 total actions\nCurrent commit is: 20043f8dfb38563afc1f6e132a5e5d75175e04a5\nParent first commit is: f71581483dff9004f2e606f3d87080277eeb98e5\nIntrinsic bundle revision: master\nAdded and modified projects: [(\u0027platform/external/liblhdcv5\u0027, \u0027add\u0027)]\nProjects requiring downstream branches: [\u0027platform/external/liblhdcv5\u0027]\nDownstream branches have been created for platform/external/liblhdcv5\n        New branches: [\u0027SOURCE BRANCH DOES NOT EXIST\u0027]\n        Branches that already exist: [\u0027PLEASE SEE: go/check_downstream_branches\u0027]\n*******\n",
       "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f62a9d38_22e1d34d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-05-25T16:14:30Z",
+      "side": 1,
+      "message": "Blocked: Cannot move forward with review, missing bug ID to track the PDK review.",
+      "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
