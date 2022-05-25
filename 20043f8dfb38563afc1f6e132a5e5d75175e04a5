@@ -67,6 +67,23 @@
       "message": "Blocked: Cannot move forward with review, missing bug ID to track the PDK review.",
       "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38f0851a_2b1e6c56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2022-05-25T16:36:30Z",
+      "side": 1,
+      "message": "Upon discussion we have decided not to add this project to the Android manifest. Thanks.",
+      "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
