@@ -84,6 +84,23 @@
       "message": "Upon discussion we have decided not to add this project to the Android manifest. Thanks.",
       "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6e4291c_ce577d8d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-05-27T17:06:12Z",
+      "side": 1,
+      "message": "removing self from review because project will not be added.",
+      "revId": "20043f8dfb38563afc1f6e132a5e5d75175e04a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
