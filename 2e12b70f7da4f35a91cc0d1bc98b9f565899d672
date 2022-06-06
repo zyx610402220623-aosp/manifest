@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0e35f15_782ce4e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1678423
+      },
+      "writtenOn": "2022-06-06T05:35:06Z",
+      "side": 1,
+      "message": "Hi Inna/Roman,\n\nCan I get the owner votes please? Thanks!",
+      "revId": "2e12b70f7da4f35a91cc0d1bc98b9f565899d672",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
