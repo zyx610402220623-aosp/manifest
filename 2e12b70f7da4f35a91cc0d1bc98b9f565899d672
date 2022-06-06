@@ -16,6 +16,23 @@
       "message": "Hi Inna/Roman,\n\nCan I get the owner votes please? Thanks!",
       "revId": "2e12b70f7da4f35a91cc0d1bc98b9f565899d672",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e5b4c6a_d1110078",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-06-06T13:46:47Z",
+      "side": 1,
+      "message": "Downstream branches created, PDK revew completed.",
+      "revId": "2e12b70f7da4f35a91cc0d1bc98b9f565899d672",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
