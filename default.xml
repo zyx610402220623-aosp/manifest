@@ -24,22 +24,44 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
   <!-- Config: shallow + master revision -->
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
   <project path="external/doclava" name="platform/external/doclava" clone-depth="1"  />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1"  />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1"  />
+=======
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="master" />
+  <project path="external/doclava" name="platform/external/doclava" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="master" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="master" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="master" />
+
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
   <!-- Tools dependencies -->
   <!-- Config: shallow + master revision -->
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1"  />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1"  />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1"  />
+=======
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="master" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="master" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="master" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
   <!-- Config: shallow + same revision -->
   <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
   <!-- Gradle dependencies -->
   <!-- Config: shallow + same revision -->
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
   <!-- SDK dependencies (shared) -->
   <!-- Config: shallow + master revision -->
+=======
+
+  <!-- SDK dependencies -->
+  <!-- Config: shallow + same revision -->
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
   <project
     path="prebuilts/fullsdk-darwin/platforms/android-31"
     name="platform/prebuilts/fullsdk/platforms/android-31"
@@ -53,18 +75,49 @@
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-31" />
   </project>
   <project
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
     path="prebuilts/jdk/jdk11"
     name="platform/prebuilts/jdk/jdk11"
     clone-depth="1" />
   <!-- Config: shallow + same revision -->
   <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests and Doclava. -->
+=======
+    path="prebuilts/fullsdk-darwin/platforms/android-32"
+    name="platform/prebuilts/fullsdk/platforms/android-32"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-32" />
+  </project>
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
   <project
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
     path="prebuilts/jdk/jdk8"
     name="platform/prebuilts/jdk/jdk8"
     clone-depth="1" />
   <!-- SDK dependencies (darwin) -->
   <!-- Config: shallow + master revision -->
+=======
+    path="prebuilts/fullsdk-darwin/sources/android-32"
+    name="platform/prebuilts/fullsdk/sources/android-32"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-32" />
+  </project>
   <project
+    path="prebuilts/fullsdk-darwin/platforms/android-33"
+    name="platform/prebuilts/fullsdk/platforms/android-33"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-darwin/sources/android-33"
+    name="platform/prebuilts/fullsdk/sources/android-33"
+    clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
+  </project>
+
+  <!-- darwin specific -->
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
+  <project
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
     path="prebuilts/fullsdk-darwin/build-tools/30.0.3"
     name="platform/prebuilts/fullsdk-darwin/build-tools/30.0.3"
     clone-depth="1"
@@ -77,6 +130,10 @@
   <project
     path="prebuilts/fullsdk-darwin/ndk"
     name="toolchain/prebuilts/ndk-darwin/r23"
+=======
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
@@ -87,9 +144,42 @@
   <project
     path="prebuilts/fullsdk-darwin/tools"
     name="platform/prebuilts/fullsdk-darwin/tools"
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
+=======
     clone-depth="1"
     groups="notdefault,platform-darwin" />
-  <!-- Config: shallow + explicit revision -->
+
+  <!-- linux specific -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r23"
+    revision="master"
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
   <project
     path="prebuilts/fullsdk-darwin/cmake"
     name="platform/prebuilts/cmake/darwin-x86"
@@ -104,9 +194,13 @@
       clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
   <!-- SDK dependencies (linux) -->
   <!-- Config: shallow + master revision -->
+=======
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
   <project
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
     path="prebuilts/fullsdk-linux/build-tools/30.0.3"
     name="platform/prebuilts/fullsdk-linux/build-tools/30.0.3"
     clone-depth="1"
@@ -118,10 +212,14 @@
     groups="notdefault,platform-linux" />
   <project
     path="prebuilts/fullsdk-linux/ndk"
+=======
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
     name="toolchain/prebuilts/ndk/r23"
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
     path="prebuilts/fullsdk-linux/platform-tools"
     name="platform/prebuilts/fullsdk-linux/platform-tools"
     clone-depth="1"
@@ -133,6 +231,8 @@
     groups="notdefault,platform-linux" />
   <!-- Config: shallow + explicit revision -->
   <project
+=======
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
     path="prebuilts/fullsdk-linux/cmake"
     name="platform/prebuilts/cmake/linux-x86"
     groups="notdefault,platform-linux"
@@ -151,6 +251,24 @@
     name="kernel/prebuilts/build-tools"
     groups="notdefault,platform-linux"
     clone-depth="1" />
+<<<<<<< HEAD   (4816e8 DO NOT MERGE ANYWHERE Create manifest for androidx-wear-comp)
+=======
+  
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/jdk/jdk11"
+    name="platform/prebuilts/jdk/jdk11"
+    revision="master"
+    clone-depth="1" />
+  <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests and Doclava. -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/jdk/jdk8"
+    name="platform/prebuilts/jdk/jdk8"
+    clone-depth="1" />
+  
+>>>>>>> BRANCH (971fcc Move to metalava-main instead of master)
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
   <!-- END dependencies -->
