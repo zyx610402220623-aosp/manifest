@@ -1,9 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (57d5d2 Merge empty history for sparse-8655314-L97000000954993187)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-8698761-L90400000954997447" remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp" />
+>>>>>>> BRANCH (3fbb08 Pin manifest of sparse-8698761-L90400000954997447)
 
+<<<<<<< HEAD   (57d5d2 Merge empty history for sparse-8655314-L97000000954993187)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  <project path="build/make" name="platform/build" revision="3296c121c1c4288b996acfd428bbc0eae34d2a4b" upstream="androidx-lifecycle-release" />
+>>>>>>> BRANCH (3fbb08 Pin manifest of sparse-8698761-L90400000954997447)
 
+<<<<<<< HEAD   (57d5d2 Merge empty history for sparse-8655314-L97000000954993187)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -12,6 +24,49 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-lifecycle-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="4c2365b73089bd3a9e490bd85449222afe8882d1" upstream="androidx-lifecycle-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="3dab83ec54876dd5f1bc3bbdd606a0d0f0e96d98" upstream="androidx-lifecycle-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="23635f5fbee92bf718df6499af4e690497a11189" upstream="androidx-lifecycle-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="413a44d82a1584bbb9d8bbac5aa8cfb4b8c7baf6" upstream="androidx-lifecycle-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-lifecycle-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="b3aa39ca34998ffb5a5eacae8c29ec034e023695" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="8020979f2cf6df773bf3797db746866b30bfaabe" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="4c88062a847eed9b99ad48254878f9f54ae3a64b" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="bff65283d9c2ce3ce06517aff965b7b63ee5ee38" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="0e30d70dcc0fea4bb61b3ea8678717c4cab4493d" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="6915887f97cdbc2c41cd5d11a38849681687ec39" upstream="androidx-lifecycle-release" />
+
+  
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="e4f465dcc1794b0ecd231749e2cee1d383766114" upstream="androidx-lifecycle-release" />
+  <project path="external/doclava" name="platform/external/doclava" clone-depth="1" revision="19592cca7ea59db824ba445478b6fd07bc90bc99" upstream="androidx-lifecycle-release" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="f6131514e5b5842ddb1e1274b4e5759e982845c5" upstream="androidx-lifecycle-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-lifecycle-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="5354e8fb3c22dd60f526d9d4c1f907abfa905f3b" upstream="androidx-lifecycle-release" />
+
+  
+  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="6365d9b966a6056425d13dc7138e4ddf8dacfb12" upstream="androidx-lifecycle-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="8c8424c57e090db566bb490529193460331a4069" upstream="androidx-lifecycle-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-lifecycle-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="d994da788dd54f39830cbae70f16c26921d8e7d2" upstream="androidx-lifecycle-release" />
+  
+  
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="6b278d6917af09743fdb6078ad5ef63983b29b70" upstream="androidx-lifecycle-release" />
+
+  
+  
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="a1e36660613fce48424ce06427736c51debea00b" upstream="androidx-lifecycle-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/platforms/android-31" name="platform/prebuilts/fullsdk/platforms/android-31" revision="200e64779106cf6738f7c2cf02c9f23b683b5ac1" clone-depth="1" upstream="androidx-lifecycle-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-31" />
+>>>>>>> BRANCH (3fbb08 Pin manifest of sparse-8698761-L90400000954997447)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
@@ -694,4 +749,33 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (57d5d2 Merge empty history for sparse-8655314-L97000000954993187)
+=======
+  
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" revision="18279b46d673459160877007fedddfaa0fe1c33d" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/fullsdk-linux/ndk" name="toolchain/prebuilts/ndk/r23" revision="93532f3052c14fbb337ff57d5732128dc7481ee6" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" revision="5fe3a92528f92372ef08f70e0aa853c3431f6405" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="f3e66ec9669aa5b1b963a26d7d494b18fe0f2b93" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="de8c538ee2d06eb72741a5378b61a03ab3c4c6d0" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release" />
+
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="126e9b2cea10f998855a612e5c91ef5c84ee86f3" upstream="androidx-lifecycle-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="2b05755d47c4a2ab5a1aee82f9446c0f4feea7bf" upstream="androidx-lifecycle-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (3fbb08 Pin manifest of sparse-8698761-L90400000954997447)
 </manifest>
