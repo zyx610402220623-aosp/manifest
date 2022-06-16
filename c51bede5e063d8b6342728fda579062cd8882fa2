@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b101f854_c3a3623c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2022-06-16T06:16:55Z",
+      "side": 1,
+      "message": "Retry; the presubmit test should succeed (verified with http://go/forrest-run/L79500000955137413)",
+      "revId": "c51bede5e063d8b6342728fda579062cd8882fa2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
