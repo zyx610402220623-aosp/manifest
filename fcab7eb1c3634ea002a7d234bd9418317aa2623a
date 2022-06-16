@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b1a46f7_985a3581",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1793992
+      },
+      "writtenOn": "2022-06-16T08:10:57Z",
+      "side": 1,
+      "message": "Friendly ping. ag/18756707 was a clean cherry-pick of this CL.",
+      "revId": "fcab7eb1c3634ea002a7d234bd9418317aa2623a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
