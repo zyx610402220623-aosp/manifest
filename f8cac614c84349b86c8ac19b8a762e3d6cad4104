@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f4fc226_d7d65fb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1956215
+      },
+      "writtenOn": "2022-06-20T17:58:46Z",
+      "side": 1,
+      "message": "Andorid 7.0",
+      "revId": "f8cac614c84349b86c8ac19b8a762e3d6cad4104",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
