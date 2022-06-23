@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a78fe33e_589233ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-06-23T14:42:03Z",
+      "side": 1,
+      "message": "Downstream branches created.\n\nRunning PDK Review.",
+      "revId": "b2efd305d97677900163524aaa298617caebe92b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
