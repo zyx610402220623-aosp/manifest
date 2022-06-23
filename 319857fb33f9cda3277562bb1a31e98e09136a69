@@ -16,6 +16,23 @@
       "message": "Add patch2 for resolving merge conflict.",
       "revId": "319857fb33f9cda3277562bb1a31e98e09136a69",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80357f5e_e4441a91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-06-23T14:47:04Z",
+      "side": 1,
+      "message": "Downstream branches created, but not proceeding with the PDK/Code Review since presubmits failed.",
+      "revId": "319857fb33f9cda3277562bb1a31e98e09136a69",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
