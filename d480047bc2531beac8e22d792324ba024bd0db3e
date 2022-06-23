@@ -16,6 +16,23 @@
       "message": "retry with cherry-pick.",
       "revId": "d480047bc2531beac8e22d792324ba024bd0db3e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fc79910_c52739c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2022-06-23T21:27:27Z",
+      "side": 1,
+      "message": "Verified with https://android-build.googleplex.com/builds/abtd/run/L84100000955225670",
+      "revId": "d480047bc2531beac8e22d792324ba024bd0db3e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
