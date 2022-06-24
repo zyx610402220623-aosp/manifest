@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cf0c1c1_a2d7ed1b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1949860
+      },
+      "writtenOn": "2022-06-24T20:40:11Z",
+      "side": 1,
+      "message": "I\u0027ve fixed the presubmit issue in aosp. CL: 2134914: Add mobile-data-download in android_downloader_lib visibility | https://android-review.googlesource.com/c/platform/external/downloader/+/2134914\n\nPlease review this cl at your earliest convenience. ",
+      "revId": "5a54fd8bf66d89004e0b65a8840c313a34c39fcb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
