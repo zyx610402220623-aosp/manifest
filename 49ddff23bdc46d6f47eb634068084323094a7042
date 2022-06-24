@@ -33,6 +33,24 @@
       "message": "There is a merge conflict for the change.\n\nAdding Roman as a reviewer for pdk (probably needed) and downstream branches.\n",
       "revId": "49ddff23bdc46d6f47eb634068084323094a7042",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7041ec76_f112bfd7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1869221
+      },
+      "writtenOn": "2022-06-24T19:46:53Z",
+      "side": 1,
+      "message": "merge conflict is now resolved",
+      "parentUuid": "56ed7f51_4f9e2601",
+      "revId": "49ddff23bdc46d6f47eb634068084323094a7042",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
