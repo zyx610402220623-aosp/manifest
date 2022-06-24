@@ -16,6 +16,23 @@
       "message": "related changes are:\n\nhttps://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/19024101\n\nhttps://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/19024190",
       "revId": "49ddff23bdc46d6f47eb634068084323094a7042",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56ed7f51_4f9e2601",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2022-06-24T19:24:51Z",
+      "side": 1,
+      "message": "There is a merge conflict for the change.\n\nAdding Roman as a reviewer for pdk (probably needed) and downstream branches.\n",
+      "revId": "49ddff23bdc46d6f47eb634068084323094a7042",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
