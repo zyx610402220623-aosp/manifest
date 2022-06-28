@@ -16,6 +16,24 @@
       "message": "What are the conflicts about?",
       "revId": "988abf6952448cf6c5cd64ea62a023151031a0a8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e54e8b40_0e6b9fb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2022-06-28T11:59:26Z",
+      "side": 1,
+      "message": "This is a weird issue that the manifest project should be ignore on automerger.\n\nLet me bypass the false alarm.",
+      "parentUuid": "6b2a728a_54e2915a",
+      "revId": "988abf6952448cf6c5cd64ea62a023151031a0a8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
