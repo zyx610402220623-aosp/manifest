@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df5ca801_e108c294",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1044753
+      },
+      "writtenOn": "2022-06-29T17:32:51Z",
+      "side": 1,
+      "message": "Comment removed by: Roman Yepishev; Reason: Resolved missing manifest branches.",
+      "revId": "69ffc0d64c262cddf6bba4d22d57f625968e8457",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
