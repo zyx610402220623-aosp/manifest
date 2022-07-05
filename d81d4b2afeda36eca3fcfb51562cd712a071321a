@@ -22,6 +22,30 @@
       },
       "revId": "d81d4b2afeda36eca3fcfb51562cd712a071321a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83281da1_29e1d0d3",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1940280
+      },
+      "writtenOn": "2022-07-05T11:47:21Z",
+      "side": 1,
+      "message": "Ah! that was careless.\n\n\u003eOn the other hand, do we really have to update the cmake version?\n\nI wanted to clean up the warnings in our logs because otherwise it\u0027s really hard to figure out what actually causes our builds to fail when they fail.\n\nIn any case I\u0027ll split all these changes out into separate CLs so we can decide on them 1 by 1 and revert them more easily",
+      "parentUuid": "51699493_c015320f",
+      "range": {
+        "startLine": 95,
+        "startChar": 14,
+        "endLine": 95,
+        "endChar": 54
+      },
+      "revId": "d81d4b2afeda36eca3fcfb51562cd712a071321a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
