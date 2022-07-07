@@ -16,6 +16,23 @@
       "message": "Anyone?",
       "revId": "2dd588699c66afbcd9f75f1dcd01b2b50bc373b8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee292f1d_06319af7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-07-07T03:27:52Z",
+      "side": 1,
+      "message": "PDK review and downstream branches are ok.",
+      "revId": "2dd588699c66afbcd9f75f1dcd01b2b50bc373b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
