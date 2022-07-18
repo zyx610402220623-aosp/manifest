@@ -1,8 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (517ddb Merge empty history for sparse-8731839-L50500000955529717)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-8823745-L83800000955527924" remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp" />
+>>>>>>> BRANCH (fa48a3 Pin manifest of sparse-8823745-L83800000955527924)
 
+<<<<<<< HEAD   (517ddb Merge empty history for sparse-8731839-L50500000955529717)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  <project path="build/make" name="platform/build" revision="74f8c26063f861ea2ca2dd152127975347fedc00" upstream="androidx-lifecycle-release" />
+>>>>>>> BRANCH (fa48a3 Pin manifest of sparse-8823745-L83800000955527924)
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -694,4 +705,33 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (517ddb Merge empty history for sparse-8731839-L50500000955529717)
+=======
+  
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" revision="18279b46d673459160877007fedddfaa0fe1c33d" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/fullsdk-linux/ndk" name="toolchain/prebuilts/ndk/r23" revision="93532f3052c14fbb337ff57d5732128dc7481ee6" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" revision="5fe3a92528f92372ef08f70e0aa853c3431f6405" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-lifecycle-release" />
+  
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="f3e66ec9669aa5b1b963a26d7d494b18fe0f2b93" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="de8c538ee2d06eb72741a5378b61a03ab3c4c6d0" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-lifecycle-release" />
+
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="126e9b2cea10f998855a612e5c91ef5c84ee86f3" upstream="androidx-lifecycle-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="4a9c066ce1e1771b4a26b6dcc15577d41493bd32" upstream="androidx-lifecycle-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (fa48a3 Pin manifest of sparse-8823745-L83800000955527924)
 </manifest>
