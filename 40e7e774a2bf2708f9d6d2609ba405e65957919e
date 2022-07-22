@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a32fe17_02e1ac5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1463403
+      },
+      "writtenOn": "2022-07-22T17:54:11Z",
+      "side": 1,
+      "message": "I\u0027m confused by the merge conflicts. Gerrit says the change is up to date.",
+      "revId": "40e7e774a2bf2708f9d6d2609ba405e65957919e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
