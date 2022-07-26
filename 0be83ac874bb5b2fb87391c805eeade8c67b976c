@@ -33,6 +33,24 @@
       "message": "b/229737306 shows:     return code: 1; command: git-clang-format --binary clang-format ...\n\nIs that a clang-format or git-clang-format issue?",
       "revId": "0be83ac874bb5b2fb87391c805eeade8c67b976c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "336bf4f6_150a022d",
+        "filename": "GLOBAL-PREUPLOAD.cfg",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1099348
+      },
+      "writtenOn": "2022-07-26T15:52:58Z",
+      "side": 1,
+      "message": "tested with clang-fmt directly let\u0027s back it out for further investigation with git-clang-fmt",
+      "parentUuid": "8833d631_e80f0cb8",
+      "revId": "0be83ac874bb5b2fb87391c805eeade8c67b976c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
