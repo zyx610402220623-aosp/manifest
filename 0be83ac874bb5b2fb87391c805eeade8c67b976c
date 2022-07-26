@@ -16,6 +16,23 @@
       "message": " .cfg files for repo are not part of presubmit, bypassing",
       "revId": "0be83ac874bb5b2fb87391c805eeade8c67b976c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8833d631_e80f0cb8",
+        "filename": "GLOBAL-PREUPLOAD.cfg",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-07-26T15:29:21Z",
+      "side": 1,
+      "message": "b/229737306 shows:     return code: 1; command: git-clang-format --binary clang-format ...\n\nIs that a clang-format or git-clang-format issue?",
+      "revId": "0be83ac874bb5b2fb87391c805eeade8c67b976c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
