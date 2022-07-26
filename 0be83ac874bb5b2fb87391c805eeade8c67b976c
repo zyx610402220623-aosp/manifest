@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3985dc9_954a0302",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1099348
+      },
+      "writtenOn": "2022-07-26T15:28:26Z",
+      "side": 1,
+      "message": " .cfg files for repo are not part of presubmit, bypassing",
+      "revId": "0be83ac874bb5b2fb87391c805eeade8c67b976c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
