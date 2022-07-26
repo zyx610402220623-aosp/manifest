@@ -51,6 +51,24 @@
       "parentUuid": "8833d631_e80f0cb8",
       "revId": "0be83ac874bb5b2fb87391c805eeade8c67b976c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c878cbf0_4773091d",
+        "filename": "GLOBAL-PREUPLOAD.cfg",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-07-26T15:54:39Z",
+      "side": 1,
+      "message": "Reverting in https://android-review.googlesource.com/c/platform/manifest/+/2165803, so resolving.",
+      "parentUuid": "8833d631_e80f0cb8",
+      "revId": "0be83ac874bb5b2fb87391c805eeade8c67b976c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
