@@ -43,6 +43,7 @@
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="ef165ef717ea151ebad56e65b2c889c07ca79b7c" upstream="androidx-compose-compiler-release" />
 
+<<<<<<< HEAD   (620e72 Pin manifest of androidx-compose-compiler-release)
   
   
   <project path="prebuilts/fullsdk-darwin/platforms/android-31" name="platform/prebuilts/fullsdk/platforms/android-31" clone-depth="1" revision="844e301ba041c4f3818a7c183fddca8d68cec0a9" upstream="androidx-compose-compiler-release">
@@ -58,6 +59,14 @@
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-32" />
   </project>
   <project path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="eed06b698740fd6fc005c66dbca1c9b9b26fe474" upstream="androidx-compose-compiler-release">
+=======
+  <!-- SDK dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms/android-33"
+    name="platform/prebuilts/fullsdk/platforms/android-33"
+    clone-depth="1">
+>>>>>>> BRANCH (b0d080 Remove unused platforms)
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources/android-33" name="platform/prebuilts/fullsdk/sources/android-33" clone-depth="1" revision="f6a7f5e4d4d85ea656535f4696c53610328a0b1a" upstream="androidx-compose-compiler-release">
