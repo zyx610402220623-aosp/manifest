@@ -1,8 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (3da0c5 Merge empty history for sparse-8901089-L82800000955765920)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-8896887-L25500000955754670" remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp" />
+>>>>>>> BRANCH (fa1b0d Pin manifest of sparse-8896887-L25500000955754670)
 
+<<<<<<< HEAD   (3da0c5 Merge empty history for sparse-8901089-L82800000955765920)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  <project path="build/make" name="platform/build" revision="dfc1074d6cf3ea97ab82d8909ca09f073ead6ab1" upstream="androidx-wear-watchface-release" />
+>>>>>>> BRANCH (fa1b0d Pin manifest of sparse-8896887-L25500000955754670)
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -694,4 +705,33 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (3da0c5 Merge empty history for sparse-8901089-L82800000955765920)
+=======
+  
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" revision="18279b46d673459160877007fedddfaa0fe1c33d" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-watchface-release" />
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="93532f3052c14fbb337ff57d5732128dc7481ee6" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-watchface-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" revision="bebf9eb626a4b8077b57ce6f1ee180ce42a07c20" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-watchface-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-watchface-release" />
+  
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="68c8bb4cb8e3e14d0996965f3d6c00a314625840" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-watchface-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-watchface-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="2efb8d57fafb411ee7ed01f726606bfca6a1e1bf" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-watchface-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-watchface-release" />
+
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="a1a2418505f96b4bc4fac8f1a9a6fa5f277cb8f2" upstream="androidx-wear-watchface-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a5882f2571b364d1a435273656bf9aa98c30e611" upstream="androidx-wear-watchface-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (fa1b0d Pin manifest of sparse-8896887-L25500000955754670)
 </manifest>
