@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e7eb389_b32f345e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1583551
+      },
+      "writtenOn": "2022-08-04T16:58:09Z",
+      "side": 1,
+      "message": "Once the manifest change lands, I\u0027ll move the code from platform/build to platform/build/orchestrator.\n\nNothing in the current build system uses the orchestrator, so there should be no concerns around breaking things.",
+      "revId": "f6110606a341a7d1f6f3bdf5ba9f9d1063986ca1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
