@@ -16,6 +16,41 @@
       "message": "galaxy tap a7 lite SM-T220 one ui 4.1 Android12 update ",
       "revId": "0acec82b92aafce6e548b91d82c6938d1d78f186",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "640b2109_6a8f5c34",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961915
+      },
+      "writtenOn": "2022-08-06T11:36:45Z",
+      "side": 1,
+      "message": "\u003e galaxy tap a7 lite SM-T220 one ui 4.1 Android12 update",
+      "parentUuid": "ab7ce54b_abf48da5",
+      "revId": "0acec82b92aafce6e548b91d82c6938d1d78f186",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "900b2caa_4a4e70f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1961915
+      },
+      "writtenOn": "2022-08-06T11:36:45Z",
+      "side": 1,
+      "message": "galaxy tap a7 lite SM-T220 one ui 4.1 Android12 ",
+      "revId": "0acec82b92aafce6e548b91d82c6938d1d78f186",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
