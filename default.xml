@@ -83,6 +83,7 @@
   <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
   <project path="external/google-java-format" name="platform/external/google-java-format" />
   <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/gson" name="platform/external/gson" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/icu" name="platform/external/icu" />
   <project path="external/javapoet" name="platform/external/javapoet" />
