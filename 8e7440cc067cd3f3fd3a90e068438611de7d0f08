@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13d45303_97c0d802",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1390451
+      },
+      "writtenOn": "2022-08-08T12:38:40Z",
+      "side": 1,
+      "message": "This is a CP of ag/19194627 now that we decided that this is going to be built with aosp-tools. See [1] for more info.\n\n[1] https://groups.google.com/a/google.com/g/android-new-project-reviewers/c/kNOwTqgj5GQ",
+      "revId": "8e7440cc067cd3f3fd3a90e068438611de7d0f08",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
