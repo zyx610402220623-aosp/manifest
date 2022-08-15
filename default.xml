@@ -4,6 +4,8 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote  name="chromium"
+           fetch="https://chromium.googlesource.com/" />
   <default revision="emu-master-dev"
            remote="aosp"
            sync-j="4" />
@@ -90,4 +92,8 @@
 
   <!-- flatbuffers for the gfxstream-protocols -->
   <project path="external/flatbuffers" name="platform/external/flatbuffers" revision="master" />
+
+  <!-- Rust crates for RootCanal -->
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" />
+  <project path="third_party/rust_crates" name="chromiumos/third_party/rust_crates" remote="chromium" revision="main" />
 </manifest>
