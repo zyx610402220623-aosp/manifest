@@ -4,6 +4,8 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote  name="chromium"
+           fetch="https://chromium.googlesource.com/" />
   <default revision="emu-master-dev"
            remote="aosp"
            sync-j="4" />
@@ -103,4 +105,8 @@
 
   <!-- Test infrastructure uses these -->
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="master" />
+
+  <!-- Rust compiler and crates for rootcanal -->
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" revision="master" clone-depth="1" />
+  <project path="third_party/rust_crates" name="chromiumos/third_party/rust_crates" remote="chromium" revision="main" clone-depth="1" />
 </manifest>
