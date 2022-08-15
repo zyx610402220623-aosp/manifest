@@ -4,6 +4,8 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote  name="chromium"
+           fetch="https://chromium.googlesource.com/" />
   <default revision="emu-master-dev"
            remote="aosp"
            sync-j="4" />
@@ -51,6 +53,7 @@
   <project path="prebuilts/android-emulator-build/mesa-deps" name="platform/prebuilts/android-emulator-build/mesa-deps" clone-depth="1" />
   <project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" clone-depth="1" />
   <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" />
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" revision="master" />
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="master"/>
 
@@ -90,4 +93,7 @@
 
   <!-- flatbuffers for the gfxstream-protocols -->
   <project path="external/flatbuffers" name="platform/external/flatbuffers" revision="master" />
+
+  <!-- Rust crates for RootCanal -->
+  <project path="third_party/rust_crates" name="chromiumos/third_party/rust_crates" remote="chromium" revision="main" />
 </manifest>
