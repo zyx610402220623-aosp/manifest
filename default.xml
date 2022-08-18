@@ -32,6 +32,7 @@
   <project path="external/qemu" name="platform/external/qemu" revision="3eda6064535085cfb32f5bfd6f300f17bda05860" upstream="emu-32-release">
     <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace" />
   </project>
+<<<<<<< HEAD   (1ab2f4 Pin manifest of emu-32-release)
   <project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="d16a940067fbc191364fc1d3e2a2d907209c9320" upstream="emu-32-release" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" revision="f0c2fba5827abb3634b1992855264d7fe990b89d" upstream="emu-32-release" />
   <project path="external/nasm" name="platform/external/nasm" revision="645e4f02c622ba67eb754000cc00c9db8be31f85" upstream="emu-32-release" />
@@ -48,6 +49,24 @@
   <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" revision="4e6003bd133658b0015817a47a79c9514785d05b" upstream="emu-32-release" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" revision="9ae5a0a94b9e2cca6c6cd46489b9e2675d76f18a" upstream="emu-32-release" />
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="f9fe428e434586ac30770f77a006ca31f5e438f8" upstream="emu-32-release" />
+=======
+  <project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="master"/>
+  <project path="external/virglrenderer" name="platform/external/virglrenderer" revision="crosvm-master"/>
+  <project path="external/nasm" name="platform/external/nasm" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="frameworks/native" name="platform/frameworks/native" revision="lollipop-release" />
+  <project path="hardware/google/aemu" name="platform/hardware/google/aemu"  groups="pdk" revision="master" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/archive" name="platform/prebuilts/android-emulator-build/archive" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/common" name="platform/prebuilts/android-emulator-build/common" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/mesa" name="platform/prebuilts/android-emulator-build/mesa" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/mesa-deps" name="platform/prebuilts/android-emulator-build/mesa-deps" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" revision="studio-main" />
+  <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="master"/>
+>>>>>>> BRANCH (b20041 Make bazel available)
 
 
   
