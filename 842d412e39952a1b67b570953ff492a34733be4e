@@ -16,6 +16,24 @@
       "message": "Does this include a toolchain that supports all our targets (windows/linux/mac)?",
       "revId": "842d412e39952a1b67b570953ff492a34733be4e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "258de2d5_e5473e00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086529
+      },
+      "writtenOn": "2022-08-18T16:50:51Z",
+      "side": 1,
+      "message": "I\u0027m afraid there are only linux-x86 and darwin-x86 toolchains included as prebuilt at the moment (other archs will have to have the toolchain preinstalled), which is why I\u0027m only adding it as an experimental option in aosp/2184936. Then again, I expect this to be only used by internal teams for now, so it might be fine.\nHappy to discuss this in more detail.",
+      "parentUuid": "74b587c1_7f1cbdaf",
+      "revId": "842d412e39952a1b67b570953ff492a34733be4e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
