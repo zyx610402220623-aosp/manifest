@@ -14,7 +14,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="llvm-toolchain"/>
+  <superproject name="platform/superproject" remote="aosp" revision="llvm-r450784"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- Core LLVM toolchain components -->
@@ -52,9 +52,9 @@
   <project path="external/libncurses" name="platform/external/ncurses" />
 
   <!-- Python prebuilts -->
-  <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="llvm-toolchain" />
-  <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" clone-depth="1" revision="llvm-toolchain" />
-  <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" revision="llvm-toolchain" />
+  <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="llvm-r450784" />
+  <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" clone-depth="1" revision="llvm-r450784" />
+  <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" revision="llvm-r450784" />
 
   <!-- Prebuilts (for ease of updating) -->
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" />
