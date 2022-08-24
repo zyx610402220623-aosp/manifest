@@ -16,6 +16,24 @@
       "message": "The project name is incorrect.  Should be platform/external/bazelbuild-kotlin-rules",
       "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80e7ba23_bd96c8b9",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1888650
+      },
+      "writtenOn": "2022-08-24T20:08:45Z",
+      "side": 1,
+      "message": "Oops, I really botched this as I meant for it to look like the above at L.131. Can the path be kept as is (i.e. different from the project name)?",
+      "parentUuid": "a724d480_bb0e350d",
+      "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
