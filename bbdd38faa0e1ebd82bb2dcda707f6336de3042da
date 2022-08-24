@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a724d480_bb0e350d",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2022-08-24T20:04:17Z",
+      "side": 1,
+      "message": "The project name is incorrect.  Should be platform/external/bazelbuild-kotlin-rules",
+      "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
