@@ -34,6 +34,24 @@
       "parentUuid": "a724d480_bb0e350d",
       "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44f7a23b_c62052f7",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2022-08-24T21:09:38Z",
+      "side": 1,
+      "message": "I think you need to change both",
+      "parentUuid": "80e7ba23_bd96c8b9",
+      "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
