@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "628c52c8_9a47b50f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-08-25T18:23:56Z",
+      "side": 1,
+      "message": "Intrinsic bundle revision: master\nAdded and modified projects: [(\u0027device/google/fuchsia\u0027, \u0027add\u0027)]\nProjects requiring downstream branches: [\u0027device/google/fuchsia\u0027]\nDownstream branches have been created for device/google/fuchsia\n        New branches: [\u0027udc-dp-dev\u0027]\n        Branches that already exist: [\u0027developers-dev\u0027, \u0027main-car-apps-dev\u0027, \u0027main-glasses-dev\u0027, \u0027main-ims-dev\u0027, \u0027main-rdo-dev\u0027, \u0027main-redondo-dev\u0027, \u0027main-vf-dev\u0027, \u0027master\u0027, \u0027master-arc-dev\u0027, \u0027master-bds-dev\u0027, \u0027master-build-rbe-testing\u0027, \u0027master-gpl\u0027, \u0027master-layoutlib-native\u0027, \u0027master-pepperjack-dev\u0027, \u0027master-plus-camx\u0027, \u0027master-smart-exp3-dev\u0027, \u0027master-staging\u0027, \u0027master-tuscany-dev\u0027, \u0027master-tv-dev\u0027, \u0027master-v4l2-dev\u0027, \u0027mirror-aosp-master-with-vendor\u0027, \u0027platform-for-vendor-blobs\u0027, \u0027platform-for-vendor-blobs-aosp-master\u0027, \u0027sc-kiwi-dev\u0027, \u0027stage-aosp-master\u0027, \u0027stage-aosp-master-with-vendor\u0027, \u0027starnix-dev\u0027, \u0027studio-master-dev\u0027, \u0027tm-d1-dev-plus-aosp\u0027, \u0027tm-dev-plus-aosp\u0027, \u0027tm-mainline-prod\u0027, \u0027tm-qpr-dev-plus-aosp\u0027, \u0027tm-rubidium-dev\u0027, \u0027ub-dreamliner-master\u0027, \u0027ub-gearhead-master\u0027, \u0027udc-car-dev\u0027, \u0027udc-dev\u0027]\n*******",
+      "revId": "408ddf1547597cdc60ad488a34fe5ad2bb3850cb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
