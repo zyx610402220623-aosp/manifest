@@ -52,6 +52,24 @@
       "parentUuid": "80e7ba23_bd96c8b9",
       "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65180f1d_cd649b3d",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1888650
+      },
+      "writtenOn": "2022-08-25T17:07:00Z",
+      "side": 1,
+      "message": "I\u0027m so sorry for wasting everybody\u0027s time Inna, but I think it\u0027s important that the patterns on l.131 and l.132 match, would I need to go through the whole approval procedure again?",
+      "parentUuid": "44f7a23b_c62052f7",
+      "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
