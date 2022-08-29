@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98e72559_5d4626ea",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1307979
+      },
+      "writtenOn": "2022-08-29T22:39:31Z",
+      "side": 1,
+      "message": "Looks like gson should have been added here after guava instead of at the top. aosp/2200696 is the same change but adds GSON in a different place in the file.",
+      "revId": "d653dc42a6a7ebbc1fe7e50fa4c9c01e5b226186",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
