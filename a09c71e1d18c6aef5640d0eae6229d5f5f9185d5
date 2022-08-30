@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d7f0891_79d376e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1307979
+      },
+      "writtenOn": "2022-08-30T01:53:27Z",
+      "side": 1,
+      "message": "Please also PDK-Review +1, Gerrit doesn\u0027t understand that this CL does not modify the PDK.",
+      "revId": "a09c71e1d18c6aef5640d0eae6229d5f5f9185d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
