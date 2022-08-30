@@ -88,6 +88,24 @@
       "parentUuid": "65180f1d_cd649b3d",
       "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45e4d99c_bb3c3969",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1888650
+      },
+      "writtenOn": "2022-08-30T20:24:51Z",
+      "side": 1,
+      "message": "Discussed offline and we\u0027ll go with the slightly different naming pattern as the project is already created and can\u0027t be deleted.",
+      "parentUuid": "2a1effa8_88fb5761",
+      "revId": "bbdd38faa0e1ebd82bb2dcda707f6336de3042da",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
