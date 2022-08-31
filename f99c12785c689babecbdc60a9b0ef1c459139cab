@@ -16,6 +16,24 @@
       "message": "rassb@, ipalant@: \nPing",
       "revId": "f99c12785c689babecbdc60a9b0ef1c459139cab",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3a07a6a_473ae672",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2022-08-31T18:04:09Z",
+      "side": 1,
+      "message": "Hi. At this moment the change is conflicting and cannot be merged as is. Please rebase it and re-run presubmits.",
+      "parentUuid": "5e28b42a_5b057d75",
+      "revId": "f99c12785c689babecbdc60a9b0ef1c459139cab",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
