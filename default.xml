@@ -31,6 +31,7 @@
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" clone-depth="1" />
+  <project path="external/gson" name="platform/external/guava" />
   <project path="external/guava" name="platform/external/guava" />
   <project path="external/hamcrest" name="platform/external/hamcrest" />
   <project path="external/hsqldb" name="platform/external/hsqldb" />
