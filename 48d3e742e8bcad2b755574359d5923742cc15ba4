@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "223a6c66_b62db8e1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2022-08-31T22:48:31Z",
+      "side": 1,
+      "message": "I don\u0027t think this manifest is used, I think the one in googleplex-android needs updating.",
+      "revId": "48d3e742e8bcad2b755574359d5923742cc15ba4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
