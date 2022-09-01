@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3de898fa_0799d401",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2022-09-01T21:14:14Z",
+      "side": 1,
+      "message": "https://android-review.googlesource.com/c/platform/ndk/+/2201747 fixes the accidental dependency we still had here",
+      "revId": "6c687464a9fbf861e0aa0a281b841064f941fd10",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
