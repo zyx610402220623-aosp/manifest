@@ -21,7 +21,7 @@
   <project path="bionic" name="platform/bionic" />
   <project path="toolchain/binutils" name="toolchain/binutils" />
   <project path="toolchain/llvm-project" name="toolchain/llvm-project"
-           revision="master-legacy" />
+           revision="187ccc66fa5d0b04189cdbd8266fc386e60f48aa" />
   <project path="toolchain/llvm_android" name="toolchain/llvm_android" />
   <project path="toolchain/common" name="toolchain/common" />
 
