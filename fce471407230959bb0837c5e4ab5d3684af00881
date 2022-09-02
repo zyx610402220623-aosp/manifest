@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f77ee38_09ff0cad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2022-09-02T17:57:04Z",
+      "side": 1,
+      "message": "Branch request made in https://android-build.googleplex.com/selfservice/detail_page?requestId\u003d6701934900051968",
+      "revId": "fce471407230959bb0837c5e4ab5d3684af00881",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
