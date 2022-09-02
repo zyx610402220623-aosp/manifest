@@ -1215,7 +1215,7 @@
 
   <project path="toolchain/binutils" name="toolchain/binutils" />
   <project path="toolchain/llvm-project" name="toolchain/llvm-project"
-           revision="master-legacy" />
+           revision="619fd8c2ab505d8f79cbbbe3fd09b02f6640e1b1" />
   <project path="toolchain/llvm_android" name="toolchain/llvm_android" />
   <project path="toolchain/common" name="toolchain/common" />
 
