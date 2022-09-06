@@ -33,6 +33,24 @@
       "message": "The Bug in the description is the link to a feature that uses openssh.\n",
       "revId": "f15a73654f5b8e9f69fc01575e1f4953ddd4c7bf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86052c9a_bcbf5413",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2022-09-06T14:56:11Z",
+      "side": 1,
+      "message": "that\u0027s not the important approval. you\u0027ll need to go through the go/android-3p process to get security approval for your new use case.",
+      "parentUuid": "5e67e80d_d89afafc",
+      "revId": "f15a73654f5b8e9f69fc01575e1f4953ddd4c7bf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
