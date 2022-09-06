@@ -16,6 +16,23 @@
       "message": "PTAL\n\nWe are planning to use openssh in ARC. Since we are not planning to diverge from aosp here, we would like to have the openssh library back in AOSP. We have discussed with adelva@ and we have agreed to be the OWNERS for it as well: https://android-review.googlesource.com/c/platform/external/openssh/+/2077241",
       "revId": "f15a73654f5b8e9f69fc01575e1f4953ddd4c7bf",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1784d48d_a61523c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1256579
+      },
+      "writtenOn": "2022-09-06T13:08:29Z",
+      "side": 1,
+      "message": "The Bug in the description is the link to a feature that uses openssh.\n",
+      "revId": "f15a73654f5b8e9f69fc01575e1f4953ddd4c7bf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
