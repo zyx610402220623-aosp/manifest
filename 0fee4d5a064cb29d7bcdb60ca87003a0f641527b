@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fef6b686_3435710a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1087303
+      },
+      "writtenOn": "2022-09-15T22:55:26Z",
+      "side": 1,
+      "message": "is this a system image prebuilt folder? I thought we cannot check-in system images?",
+      "revId": "0fee4d5a064cb29d7bcdb60ca87003a0f641527b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
