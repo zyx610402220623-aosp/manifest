@@ -16,6 +16,24 @@
       "message": "repo download -b change-2219314 platform/manifest 2219314",
       "revId": "12902516ccd3228daa07c9f05e41839f6553e0a0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1df60abf_07221ff4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1967552
+      },
+      "writtenOn": "2022-09-18T22:15:36Z",
+      "side": 1,
+      "message": "\u003e repo download -b change-2219314 platform/manifest 2219314",
+      "parentUuid": "a8d393f1_ff1193b4",
+      "revId": "12902516ccd3228daa07c9f05e41839f6553e0a0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
