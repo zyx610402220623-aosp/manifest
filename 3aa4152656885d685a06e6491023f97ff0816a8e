@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e468dd30_c1bf37cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1514900
+      },
+      "writtenOn": "2022-09-19T14:30:20Z",
+      "side": 1,
+      "message": "The revert is not necessary - aosp/2219364  is the merged fix forward and the build is fixed.",
+      "revId": "3aa4152656885d685a06e6491023f97ff0816a8e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
