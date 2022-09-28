@@ -1,9 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (4fcaa6 Merge empty history for sparse-9115598-L34100000956603739)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-9115803-L55800000956600927" remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp" />
+>>>>>>> BRANCH (ff95d3 Pin manifest of sparse-9115803-L55800000956600927)
 
+<<<<<<< HEAD   (4fcaa6 Merge empty history for sparse-9115598-L34100000956603739)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  <project path="build/make" name="platform/build" revision="48e879e985a8f83c135c758f9c2bf9a9701ea6c8" upstream="androidx-g3-release" />
+>>>>>>> BRANCH (ff95d3 Pin manifest of sparse-9115803-L55800000956600927)
 
+<<<<<<< HEAD   (4fcaa6 Merge empty history for sparse-9115598-L34100000956603739)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -12,13 +24,62 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-g3-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="d214dd0be465b26a1ccbd219652d7e964c472b45" upstream="androidx-g3-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="f0d4e25aa0ee4d657dd7bbb4030a7608f5590ce8" upstream="androidx-g3-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="4d788c52e029ad9a20c1a53cc3d4098e65f4748e" upstream="androidx-g3-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="adef4777409f9c3b60200fed823c85a8d1b4be45" upstream="androidx-g3-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-g3-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="cebc1e363692806e8e92c4b1c8573bcda18d766f" upstream="androidx-g3-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="acf591fcaabaff534ac935784f718cd4d8ab2c57" upstream="androidx-g3-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="35e71a1bcad55f0bc596a1a62c0905599bb56901" upstream="androidx-g3-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="69aec3927fc819fa31f1fb6dfbc7a8efd4281827" upstream="androidx-g3-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="216f310bb39fa36dab0e0c1166768d06f29c11a2" upstream="androidx-g3-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="e9775fbf2888449bcc2b179e2c5e132a9bc8c860" upstream="androidx-g3-release" />
+
+  
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="b9162f2d1e5e4ef1904d7d1eea0c054b88f68082" upstream="androidx-g3-release" />
+  <project path="external/doclava" name="platform/external/doclava" clone-depth="1" revision="a2de3b9bd1bd5902f37ba53beaf6f0a7a3a9286b" upstream="androidx-g3-release" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="2cd5eac3990da3a18635f5a3f2bab134ca43152d" upstream="androidx-g3-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-g3-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="201eba045ac7df8e282590677c32f7335134aec9" upstream="androidx-g3-release" />
+
+  
+  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="1b9a0f920c2c06c662ce60d94c8baa14392a47ca" upstream="androidx-g3-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="a5b75039a544dafa1e4d4a06685998e27dc51f03" upstream="androidx-g3-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-g3-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="8ab156072748372c508221d440ff4637d606c2ba" upstream="androidx-g3-release" />
+  
+  
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="eceef42093bac88d3ed5079c6f560562052066af" upstream="androidx-g3-release" />
+
+  
+  
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="c6ff0bfa2bad647dba581bb21f5c1b80bb8f4260" upstream="androidx-g3-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="71ceb3933d49f67f18ac666f11810ee37235f943" upstream="androidx-g3-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
+>>>>>>> BRANCH (ff95d3 Pin manifest of sparse-9115803-L55800000956600927)
   </project>
+<<<<<<< HEAD   (4fcaa6 Merge empty history for sparse-9115598-L34100000956603739)
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" revision="a427e814f07d071b4a3c31976a7701b4f80546b5">
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+=======
+  <project path="prebuilts/fullsdk-darwin/sources/android-33" name="platform/prebuilts/fullsdk/sources/android-33" clone-depth="1" revision="f6a7f5e4d4d85ea656535f4696c53610328a0b1a" upstream="androidx-g3-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
+>>>>>>> BRANCH (ff95d3 Pin manifest of sparse-9115803-L55800000956600927)
   </project>
+<<<<<<< HEAD   (4fcaa6 Merge empty history for sparse-9115598-L34100000956603739)
   <project groups="pdk" name="platform/art" path="art" revision="f0e3a368c80b7d32e2f85ffa948751525a9f903b" />
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="896de5423db1ec3824797e11199a08be20b02d1d" />
@@ -691,7 +752,58 @@
   <project groups="pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" revision="241b580aec1347a287cf939fe63aa4f32af2ee8e" />
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="29b565f92e3fdafa2851d6682e0353a0cae08856" />
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="d5cb37813e7e126241766f004d93765b6473af2a" />
+=======
 
+  
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="254f7d48b266f3fa9c1214a7a0ba6928234782b0" upstream="androidx-g3-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="57c7228b2dc494befe7595f537f0ded1fc98363c" upstream="androidx-g3-release" />
+  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-g3-release" />
+
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="cf83540c397d87ac583388bdbba7d293f4fcf7e5" upstream="androidx-g3-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="05ce19ac7c89649c25a7960a9bd69625081d5f8a" upstream="androidx-g3-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-g3-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-g3-release" />
+>>>>>>> BRANCH (ff95d3 Pin manifest of sparse-9115803-L55800000956600927)
+
+<<<<<<< HEAD   (4fcaa6 Merge empty history for sparse-9115598-L34100000956603739)
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+=======
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="9a1b3e229631d81c086ffb3a631fd1da29afd039" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-g3-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="a49dbe44207e06fa59fba9cf7db893b68ce29b96" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-g3-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-g3-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="2041a243288d1bc00dea851d1858edf4faf3eafa" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-g3-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="5b25c69b49b7cc82e397102c1bb2aae7deb45901" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-g3-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-g3-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="5bac82bb677a2ecea8dbbf9ad5e1f5fb652345c8" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-g3-release" />
+  
+  
+  
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="e90658626b1542b37df5f6d29b325eef25e6704b" clone-depth="1" upstream="androidx-g3-release" />
+  
+  
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="6c6e9e6432f81478ef0c852af6c18ad8cf7943a0" upstream="androidx-g3-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="63292993a0abf77dea914497c86767138419002a" upstream="androidx-g3-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="f09e72fc8bee003e78f6494a19f64772ec79be70" upstream="androidx-g3-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (ff95d3 Pin manifest of sparse-9115803-L55800000956600927)
 </manifest>
