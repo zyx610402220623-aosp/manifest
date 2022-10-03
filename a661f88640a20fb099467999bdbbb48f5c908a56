@@ -16,6 +16,23 @@
       "message": "Currently, only empty repos are checked out.",
       "revId": "a661f88640a20fb099467999bdbbb48f5c908a56",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3f4cbac_8076b8a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1678423
+      },
+      "writtenOn": "2022-10-03T16:53:59Z",
+      "side": 1,
+      "message": "Adding rassb@google.com as a reviewer as per: go/android-project-request#repo-manifest.",
+      "revId": "a661f88640a20fb099467999bdbbb48f5c908a56",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
