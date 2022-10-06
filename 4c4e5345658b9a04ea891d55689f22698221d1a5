@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a7842d1_51e3fb20",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-10-06T23:22:48Z",
+      "side": 1,
+      "message": "Bypass presubmit because this seems stuck. There is no presubmit and PR Verified won\u0027t turn on",
+      "revId": "4c4e5345658b9a04ea891d55689f22698221d1a5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
