@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7996f89a_81bacfd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1958315
+      },
+      "writtenOn": "2022-10-10T08:56:40Z",
+      "side": 1,
+      "message": "Hi Jeff,\n\nSorry I\u0027m a bit confused. Is it this default.xml that should be modified for third-party libraries? I\u0027ve submitted http://ag/20111650 by following the steps in http://go/manifest.",
+      "revId": "91e4efd3cc95edc6774aa7f1c07b1a2abe6b0641",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
