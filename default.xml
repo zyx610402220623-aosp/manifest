@@ -10,6 +10,34 @@
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
+  <!-- SDK dependencies pulled from aosp
+   Inspired by https://android.googlesource.com/platform/manifest/+/refs/heads/androidx-main/default.xml.
+   Note that prebuilts/fullsdk/platforms/android* is included under fullsdk-darwin and linked to from fullsdk-linux.
+-->
+  <!-- Config: shallow + same revision -->
+  <project path="prebuilts/fullsdk-darwin/platforms/android-32" name="platform/prebuilts/fullsdk/platforms/android-32"
+      groups="notdefault,car-apps-gradle" remote="aosp" revision="master" clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-32" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/sources/android-32" name="platform/prebuilts/fullsdk/sources/android-32"
+      groups="notdefault,car-apps-gradle" remote="aosp" revision="master" clone-depth="1">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-32" />
+  </project>
+  <!-- darwin specific -->
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools"
+      groups="notdefault,platform-darwin,car-apps-gradle" remote="aosp" revision="master" clone-depth="1" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools"
+      groups="notdefault,platform-darwin,car-apps-gradle" remote="aosp" revision="master" clone-depth="1" />
+  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools"
+      groups="notdefault,platform-darwin,car-apps-gradle" remote="aosp" revision="master" clone-depth="1" />
+  <!-- linux specific -->
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools"
+      groups="notdefault,platform-linux,car-apps-gradle" remote="aosp" revision="master" clone-depth="1" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools"
+      groups="notdefault,platform-linux,car-apps-gradle" remote="aosp" revision="master" clone-depth="1" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools"
+      groups="notdefault,platform-linux,car-apps-gradle" remote="aosp" revision="master" clone-depth="1" />
+
   <project path="external/ukey2" name="platform/external/ukey2" groups="pdk" />
   <project path="frameworks/opt/car/setupwizard" name="platform/frameworks/opt/car/setupwizard" groups="pdk" />
   <project path="packages/apps/Car/Dialer" name="platform/packages/apps/Car/Dialer" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
