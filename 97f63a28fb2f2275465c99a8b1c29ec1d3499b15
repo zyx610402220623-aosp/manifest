@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1274fc1a_d576a6a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1137668
+      },
+      "writtenOn": "2022-10-11T14:25:36Z",
+      "side": 1,
+      "message": "it seems that I\u0027m only allowed to CR+1",
+      "revId": "97f63a28fb2f2275465c99a8b1c29ec1d3499b15",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
