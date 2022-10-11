@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a6fb814_8f7e3a2d",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1060724
+      },
+      "writtenOn": "2022-10-11T21:37:04Z",
+      "side": 1,
+      "message": "Let\u0027s remove this comment altogether (applies to our internal setup but not really here)",
+      "range": {
+        "startLine": 13,
+        "startChar": 1,
+        "endLine": 16,
+        "endChar": 3
+      },
+      "revId": "c08e0a39392e6e857ff8790dd00d7efd15731016",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c1d9f1e_1e587626",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1060724
+      },
+      "writtenOn": "2022-10-11T21:37:04Z",
+      "side": 1,
+      "message": "can be removed for all the sdk as this is the default",
+      "range": {
+        "startLine": 19,
+        "startChar": 42,
+        "endLine": 19,
+        "endChar": 73
+      },
+      "revId": "c08e0a39392e6e857ff8790dd00d7efd15731016",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40ffea20_29d1bb1e",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1060724
+      },
+      "writtenOn": "2022-10-11T21:37:04Z",
+      "side": 1,
+      "message": "we don\u0027t need the car-apps-gradle group anywhere in this file",
+      "range": {
+        "startLine": 19,
+        "startChar": 25,
+        "endLine": 19,
+        "endChar": 40
+      },
+      "revId": "c08e0a39392e6e857ff8790dd00d7efd15731016",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
