@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce5c84bd_0fa17969",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2022-10-17T19:26:06Z",
+      "side": 1,
+      "message": "Let me attempt to use the $AOSP based rust crates.",
+      "revId": "7ea7876a86657171e7da398e0a3dfa3dcfdd270a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
