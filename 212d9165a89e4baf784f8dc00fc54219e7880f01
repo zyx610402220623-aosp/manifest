@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c15e271_b13932b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043473
+      },
+      "writtenOn": "2022-10-17T18:20:25Z",
+      "side": 1,
+      "message": "Bill, Xin, WDYT? Is it better to delete branches (more toil on merge conflicts?) or better to create main16k branches for each new project added to the master manifest?",
+      "revId": "212d9165a89e4baf784f8dc00fc54219e7880f01",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
