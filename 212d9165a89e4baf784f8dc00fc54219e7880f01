@@ -16,6 +16,24 @@
       "message": "Bill, Xin, WDYT? Is it better to delete branches (more toil on merge conflicts?) or better to create main16k branches for each new project added to the master manifest?",
       "revId": "212d9165a89e4baf784f8dc00fc54219e7880f01",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1a5f3cc_6ff4879a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2022-10-17T18:24:00Z",
+      "side": 1,
+      "message": "I think it\u0027s better to create branches which is more a forward fix unless we want the main16k manifest to be static.",
+      "parentUuid": "7c15e271_b13932b9",
+      "revId": "212d9165a89e4baf784f8dc00fc54219e7880f01",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
