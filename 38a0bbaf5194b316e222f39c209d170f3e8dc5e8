@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f221c7f_69bd776f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1957215
+      },
+      "writtenOn": "2022-10-17T22:51:37Z",
+      "side": 1,
+      "message": "Trying to add the external/robolectric git repo to aosp, but it seems it needs several tags added for presubmit to sign off on this CL:\n\nerror messages are of the form:\n\nFailed to get SHA1 for project path: external/robolectric. Revision tm-d1-dev-plus-aosp is invalid .\nUser-changed manifest",
+      "revId": "38a0bbaf5194b316e222f39c209d170f3e8dc5e8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
