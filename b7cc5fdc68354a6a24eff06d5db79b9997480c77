@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83812373_669fc99f",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 794,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2022-10-18T00:52:40Z",
+      "side": 1,
+      "message": "This is already mapped in.",
+      "revId": "b7cc5fdc68354a6a24eff06d5db79b9997480c77",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
