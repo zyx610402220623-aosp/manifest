@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e68997b7_5e1185c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1600736
+      },
+      "writtenOn": "2022-10-19T14:46:42Z",
+      "side": 1,
+      "message": "I don\u0027t have permission to +2, you may need to ask Bill?",
+      "revId": "37b6293396eea58ae332e84e0c36af3099baa7ab",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
