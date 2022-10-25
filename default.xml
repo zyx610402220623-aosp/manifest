@@ -18,6 +18,11 @@
   <project path="build/make" name="platform/build" >
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/bazel" name="platform/build/bazel" groups="pdk" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" />
   <project path="build/blueprint" name="platform/build/blueprint" />
   <project path="build/soong" name="platform/build/soong" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -25,6 +30,9 @@
   </project>
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin,pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
 
   <!-- toolchain linux prebuilts -->
@@ -123,6 +131,7 @@
   <project path="art" name="platform/art" />
   <project path="build/kati" name="platform/build/kati" />
   <project path="dalvik" name="platform/dalvik" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk" />
   <project path="external/bc" name="platform/external/bc" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/bloaty" name="platform/external/bloaty" />
