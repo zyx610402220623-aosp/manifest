@@ -124,5 +124,5 @@
 
   <remote  name="chromium" fetch="https://chromium.googlesource.com/" />
 
-  <project path="external/rust/chromium/crates" name="chromiumos/third_party/rust_crates" remote="chromium" revision="70439c67fa61f074eb50fd2a498ff8ea0999db1c" clone-depth="1" />
+  <project path="external/rust/chromium/crates" name="chromiumos/third_party/rust_crates" remote="chromium" revision="main" clone-depth="1" />
 </manifest>
