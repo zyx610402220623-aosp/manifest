@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36c2a75d_78fdf857",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-10-31T15:13:38Z",
+      "side": 1,
+      "message": "Setting PR+1.\n\nDownstream branches have been created.",
+      "revId": "597294e5d3e585a865aedc1e071d77ffb03b7ef6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
