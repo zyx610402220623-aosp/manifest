@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "108348aa_8638cabb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1060724
+      },
+      "writtenOn": "2022-10-31T18:18:51Z",
+      "side": 1,
+      "message": "nit: Add Android sdk 31",
+      "revId": "1a703572bf664162e159d687392e19adc51cdb7d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
