@@ -16,6 +16,24 @@
       "message": "nit: Add Android sdk 31",
       "revId": "1a703572bf664162e159d687392e19adc51cdb7d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b1934f4_eb8dec97",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1880231
+      },
+      "writtenOn": "2022-10-31T18:20:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "108348aa_8638cabb",
+      "revId": "1a703572bf664162e159d687392e19adc51cdb7d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
