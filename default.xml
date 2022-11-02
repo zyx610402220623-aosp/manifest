@@ -1,12 +1,16 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android13-tests-release" remote="aosp" sync-j="4" />
+  <default revision="sparse-9158713-L12200000957170757" remote="aosp" sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android13-tests-dev" />
   <contactinfo bugurl="go/repo-bug" />
   
+<<<<<<< HEAD   (b8221c Pin manifest of android13-tests-release)
   <project path="build/make" name="platform/build" revision="54eb93e36935c280b6346e363c6ec49df4ebb7e3" groups="pdk" upstream="android13-tests-release">
+=======
+  <project path="build/make" name="platform/build" revision="5deb39b36dc7b67ca023ae16a473d619c5143b87" groups="pdk" upstream="android13-tests-release">
+>>>>>>> BRANCH (266d6c Pin manifest of sparse-9158713-L12200000957170757)
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -30,7 +34,11 @@
   <project path="bionic" name="platform/bionic" revision="5b7ac88e0cb6a69603452f917907c6a5f4ff06e2" groups="pdk" upstream="android13-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="d0ab6ef7da71a0da47bee0b408dc8c1cf625b283" upstream="android13-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="d2d02e13ab5218376a946997a2eee1609af0fd7d" upstream="android13-tests-release" />
+<<<<<<< HEAD   (b8221c Pin manifest of android13-tests-release)
   <project path="cts" name="platform/cts" revision="0290ede76496287c5fc4624af5b7e4b7038f9dcf" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
+=======
+  <project path="cts" name="platform/cts" revision="c0df84579b31bb373377c68f44f7023824577c7f" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
+>>>>>>> BRANCH (266d6c Pin manifest of sparse-9158713-L12200000957170757)
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="63a409550581d053b55cb4ad2e9caba456ad5030" upstream="android13-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="9b775d9249f019055622bfa5549d12de8cac8f5c" upstream="android13-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android13-tests-release" />
