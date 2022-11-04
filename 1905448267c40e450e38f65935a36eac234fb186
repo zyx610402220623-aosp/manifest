@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ad9aa10_fbca4df1",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 526,
+      "author": {
+        "id": 1944405
+      },
+      "writtenOn": "2022-11-04T20:13:03Z",
+      "side": 1,
+      "message": "minor nit - probably mis-positioned and needs to be moved up 1 line. it seems that all projects are sorted alphabetically, \u0027doc\u0027 comes before \u0027dow\u0027.",
+      "range": {
+        "startLine": 526,
+        "startChar": 0,
+        "endLine": 526,
+        "endChar": 127
+      },
+      "revId": "1905448267c40e450e38f65935a36eac234fb186",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
