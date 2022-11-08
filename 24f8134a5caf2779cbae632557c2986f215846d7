@@ -16,6 +16,23 @@
       "message": "From past discusssions, we said they\u0027ll be a pause till requriements are clarified. \n\n@joeo@google.com @baligh@google.com should this addition to the manifest proceed, or should we wait?",
       "revId": "24f8134a5caf2779cbae632557c2986f215846d7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75a83cc1_fecd388d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2022-11-08T19:21:20Z",
+      "side": 1,
+      "message": "I believe there are two issues here getting conflated. While requirements for the EO are unresolved, OSEP Build has committed to meeting the license compliance requirements for Opensource Compliance Eng.\n\nI suspect those requirements are clear enough to proceed.",
+      "revId": "24f8134a5caf2779cbae632557c2986f215846d7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
