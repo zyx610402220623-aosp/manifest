@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1460b2c_3375d83f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060724
+      },
+      "writtenOn": "2022-11-10T22:11:51Z",
+      "side": 1,
+      "message": "@Bill: what do you think about aosp/2296045 in this topic ? Will the change get overridden by the replication from the internal branch which doesn\u0027t have it yet ?",
+      "revId": "c68459f36cbf4f6dd7b96d4efc36f87cb95d1d27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
