@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0350a4c0_de41c77d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-11-16T00:36:02Z",
+      "side": 1,
+      "message": "PDK review is good, created repos on keystone hosts, and check that downstream branches are good to go.",
+      "revId": "9bb7deade187b6e8f23016e29800bf48f40c6f30",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
