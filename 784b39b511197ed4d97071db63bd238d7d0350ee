@@ -16,6 +16,29 @@
       "message": "Thanks!",
       "revId": "784b39b511197ed4d97071db63bd238d7d0350ee",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35b65697_72b7c6a3",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2022-11-18T14:38:23Z",
+      "side": 1,
+      "message": "I don\u0027t really know what `groups\u003d\"pdk\"` does, but it\u0027s probably easier to keep it here and avoid worry, since https://r.android.com/2302391 has it.",
+      "range": {
+        "startLine": 51,
+        "startChar": 67,
+        "endLine": 51,
+        "endChar": 68
+      },
+      "revId": "784b39b511197ed4d97071db63bd238d7d0350ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
