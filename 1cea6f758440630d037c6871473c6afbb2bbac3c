@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16a062cb_391d974b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2022-11-18T16:09:51Z",
+      "side": 1,
+      "message": "Nit: Move this line one line below, in order to preserve this \"locally sorted\" list (the rest of the file needs some sorting, but this could be done in a different CL).",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 197,
+        "endChar": 99
+      },
+      "revId": "1cea6f758440630d037c6871473c6afbb2bbac3c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
