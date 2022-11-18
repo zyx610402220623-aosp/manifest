@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "aaa1c450_7a086fdc",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2022-11-18T14:39:06Z",
+      "side": 1,
+      "message": "Please mention that this is a cherry-pick of https://r.android.com/2302391, for future reference.",
+      "revId": "784b39b511197ed4d97071db63bd238d7d0350ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "166e8be1_2c1bf98c",
