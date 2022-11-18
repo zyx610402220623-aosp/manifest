@@ -22,6 +22,30 @@
       },
       "revId": "b4983e663dd5fc29673339a7d602cd267acadf53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9c7de44_f9b61d30",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1550939
+      },
+      "writtenOn": "2022-11-18T16:00:01Z",
+      "side": 1,
+      "message": "Right! I will fix it with two follow-up CLs.",
+      "parentUuid": "60642da8_fca00588",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 83
+      },
+      "revId": "b4983e663dd5fc29673339a7d602cd267acadf53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
