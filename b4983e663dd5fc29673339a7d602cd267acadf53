@@ -46,6 +46,30 @@
       },
       "revId": "b4983e663dd5fc29673339a7d602cd267acadf53",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6286f5bd_b2bdfcd5",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2022-11-18T16:00:49Z",
+      "side": 1,
+      "message": "Thanks Ulya.",
+      "parentUuid": "a9c7de44_f9b61d30",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 83
+      },
+      "revId": "b4983e663dd5fc29673339a7d602cd267acadf53",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
