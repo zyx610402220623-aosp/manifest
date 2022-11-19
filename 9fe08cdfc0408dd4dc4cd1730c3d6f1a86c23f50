@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89a8850a_62c47773",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2022-11-19T17:32:37Z",
+      "side": 1,
+      "message": "Wanted to at least complete this review for you, despite the merge conflict, since my team had some meetings yesterday afternoon.",
+      "revId": "9fe08cdfc0408dd4dc4cd1730c3d6f1a86c23f50",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
