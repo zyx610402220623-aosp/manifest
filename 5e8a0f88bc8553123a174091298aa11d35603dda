@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7f7a56b_f846bba4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1409599
+      },
+      "writtenOn": "2022-11-23T11:33:08Z",
+      "side": 1,
+      "message": "Created the master branch in the dittosuite repository to reduce exceptions with the integration tools.",
+      "revId": "5e8a0f88bc8553123a174091298aa11d35603dda",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
