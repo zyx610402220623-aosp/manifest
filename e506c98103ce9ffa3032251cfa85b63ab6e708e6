@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd1f7d55_faab3e28",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1226,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2022-11-28T21:33:24Z",
+      "side": 1,
+      "message": "Where would this go in Android? There\u0027s no top-level `trusty/` directory there, would we add it?",
+      "revId": "e506c98103ce9ffa3032251cfa85b63ab6e708e6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
