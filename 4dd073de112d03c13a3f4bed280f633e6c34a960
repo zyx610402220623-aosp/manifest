@@ -57,6 +57,30 @@
       },
       "revId": "4dd073de112d03c13a3f4bed280f633e6c34a960",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a45a3d25_1568eb70",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1087625
+      },
+      "writtenOn": "2022-12-07T04:00:13Z",
+      "side": 0,
+      "message": "This line is removed",
+      "parentUuid": "097bec06_e5cc03e7",
+      "range": {
+        "startLine": 24,
+        "startChar": 21,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "4dd073de112d03c13a3f4bed280f633e6c34a960",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
