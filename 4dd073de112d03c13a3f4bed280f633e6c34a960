@@ -34,6 +34,29 @@
       "parentUuid": "8345a575_fde2e635",
       "revId": "4dd073de112d03c13a3f4bed280f633e6c34a960",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "097bec06_e5cc03e7",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2022-12-07T03:46:11Z",
+      "side": 0,
+      "message": "upstream branches can\u0027t be part of any manifest. Please merge code from upstream to real branch",
+      "range": {
+        "startLine": 24,
+        "startChar": 21,
+        "endLine": 24,
+        "endChar": 37
+      },
+      "revId": "4dd073de112d03c13a3f4bed280f633e6c34a960",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
