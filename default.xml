@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <default revision="master"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
