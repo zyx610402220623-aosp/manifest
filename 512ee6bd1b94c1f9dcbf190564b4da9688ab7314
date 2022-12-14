@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0778280_c82a96cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1078064
+      },
+      "writtenOn": "2022-12-14T12:21:35Z",
+      "side": 1,
+      "message": "Bill, PTAL at this manifest change that cherry-picks a change to internal master.",
+      "revId": "512ee6bd1b94c1f9dcbf190564b4da9688ab7314",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
