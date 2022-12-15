@@ -33,6 +33,23 @@
       "message": "I believe there are two issues here getting conflated. While requirements for the EO are unresolved, OSEP Build has committed to meeting the license compliance requirements for Opensource Compliance Eng.\n\nI suspect those requirements are clear enough to proceed.",
       "revId": "24f8134a5caf2779cbae632557c2986f215846d7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "faec1f70_c8d675be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2022-12-15T21:10:46Z",
+      "side": 1,
+      "message": "Hi Inna \u0026 Amith,\n\nI\u0027ve discussed this with Ibrahim at this point, and I understand what they\u0027re doing.  I\u0027m okay to proceed with this change now, although it will need to be rebased first.\n\nJoe",
+      "revId": "24f8134a5caf2779cbae632557c2986f215846d7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
