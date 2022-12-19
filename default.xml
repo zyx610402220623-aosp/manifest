@@ -8,6 +8,7 @@
   <project path="build/make" name="platform/build" revision="c734a9bd55dc0aa4803b729c79562b317a58cf6d" upstream="build-tools-release">
     <linkfile src="tools" dest="build/tools" />
   </project>
+<<<<<<< HEAD   (b78741 Pin manifest of build-tools-release)
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" revision="553feb2810525398b21d4580318510322206f1ab" upstream="build-tools-release">
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
@@ -15,9 +16,19 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" revision="806228628d9bdec12605ccd50a9ec18fb7d7379b" upstream="build-tools-release" />
   <project path="build/blueprint" name="platform/build/blueprint" revision="a306df5c0cffd1d035504a278d53777059e25858" upstream="build-tools-release" />
   <project path="build/soong" name="platform/build/soong" revision="a0c1993605f2ceb1b15e966e4e27db18f3adf69e" upstream="build-tools-release">
+=======
+  <project path="build/bazel" name="platform/build/bazel" groups="pdk" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" />
+  <project path="build/blueprint" name="platform/build/blueprint" />
+  <project path="build/soong" name="platform/build/soong" >
+>>>>>>> BRANCH (271853 Add ow2-asm to the manifest.)
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+<<<<<<< HEAD   (b78741 Pin manifest of build-tools-release)
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk" revision="881ed62538aecf2892b85a24bd32ad9632ff848e" upstream="build-tools-release" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" revision="e92cde270575db8c35d7987a5d7a5270dddacd5d" upstream="build-tools-release" />
   <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" revision="4cbadb83f390dc466cabd6850719f5941365d0c8" upstream="build-tools-release" />
@@ -25,6 +36,15 @@
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" revision="3f5023c181e39d77c4987743d96b34f4daead74c" upstream="build-tools-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="642fd796ea408d8198a9bc382626b57b8151eaa0" upstream="build-tools-release" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" revision="a781b3a9709106b40ed19dfbbce8b7172d3efae0" upstream="build-tools-release" />
+=======
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk" />
+  <project path="external/golang-protobuf" name="platform/external/golang-protobuf" />
+  <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin,pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
+>>>>>>> BRANCH (271853 Add ow2-asm to the manifest.)
 
   
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="linux" clone-depth="1" revision="aef81c7b1347ab34c301508e114915d047a3e6e7" upstream="build-tools-release" />
@@ -45,17 +65,26 @@
   <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" groups="linux" clone-depth="1" revision="e73772ef061adec71d489d5bbc76009ab18d1b58" upstream="build-tools-release" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="linux" clone-depth="1" revision="dd36f98bddb05149b551a136d63cb32c82d6e908" upstream="build-tools-release" />
 
+<<<<<<< HEAD   (b78741 Pin manifest of build-tools-release)
   
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="30bdbfe90f4ce9d10d3c40e907c7a118f3f57f4b" upstream="build-tools-release" />
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="8184a051caf45db71a133cf5abe680401e2c8335" upstream="build-tools-release" />
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="74e4f1844dfa9b8df9e0fe2ff34a2ecc24d52b07" upstream="build-tools-release" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" clone-depth="1" revision="0ff41a53c757fed33a113405c4183dc41951d9d6" upstream="build-tools-release" />
+=======
+  <!-- toolchain jdk prebuilts -->
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" clone-depth="1" />
+>>>>>>> BRANCH (271853 Add ow2-asm to the manifest.)
 
   
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" revision="d69079b9b55645765a1626ae33cd675a19d394db" upstream="build-tools-release" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" clone-depth="1" revision="89ded93ebe7c2b7fcdd833807dc49d5f3592ffc1" upstream="build-tools-release" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" revision="4aba03f37bc8dd20ecad6ec442beb83408751f02" upstream="build-tools-release" />
 
+<<<<<<< HEAD   (b78741 Pin manifest of build-tools-release)
   
   <project path="bionic" name="platform/bionic" revision="cb90d8d39775a2e416bf793922c1278ae1f5b2e0" upstream="build-tools-release" />
   <project path="development" name="platform/development" revision="dfa7e5e0aa9395e9af192140b0a6f841d572dc2d" upstream="build-tools-release" />
@@ -118,7 +147,72 @@
   <project path="system/unwinding" name="platform/system/unwinding" revision="93df0110e2bb628b44059116d6cc89148450ee3a" upstream="build-tools-release" />
   <project path="system/tools/xsdc" name="platform/system/tools/xsdc" revision="f1d8cdea81faafc548e769719c1ef83fcfa9a30d" upstream="build-tools-release" />
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" revision="88c5da43ce01b42759056ae5930a334a357fe915" upstream="build-tools-release" />
+=======
+  <!-- dependency source -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="development" name="platform/development" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
+  <project path="external/auto" name="platform/external/auto" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/brotli" name="platform/external/brotli" />
+  <project path="external/capstone" name="platform/external/capstone" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dagger2" name="platform/external/dagger2" />
+  <project path="external/error_prone" name="platform/external/error_prone" clone-depth="1" />
+  <project path="external/escapevelocity" name="platform/external/escapevelocity" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" />
+  <project path="external/go-creachadair-shell" name="platform/external/go-creachadair-shell" />
+  <project path="external/go-creachadair-stringset" name="platform/external/go-creachadair-stringset" />
+  <project path="external/go-etree" name="platform/external/go-etree" />
+  <project path="external/go-subcommands" name="platform/external/go-subcommands" />
+  <project path="external/golang-x-sync" name="platform/external/golang-x-sync" />
+  <project path="external/golang-x-sys" name="platform/external/golang-x-sys" />
+  <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
+  <project path="external/google-java-format" name="platform/external/google-java-format" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/gson" name="platform/external/gson" groups="pdk" />
+  <project path="external/icu" name="platform/external/icu" />
+  <project path="external/javapoet" name="platform/external/javapoet" />
+  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/kythe" name="platform/external/kythe" />
+  <project path="external/libcap" name="platform/external/libcap" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libnl" name="platform/external/libnl" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/lzma" name="platform/external/lzma" />
+  <project path="external/musl" name="platform/external/musl" />
+  <project path="external/ow2-asm" name="platform/external/ow2-asm" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/starlark-go" name="platform/external/starlark-go" />
+  <project path="external/tinyxml2" name="platform/external/tinyxml2" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" />
+  <project path="system/libziparchive" name="platform/system/libziparchive" />
+  <project path="system/logging" name="platform/system/logging" />
+  <project path="system/unwinding" name="platform/system/unwinding" />
+  <project path="system/tools/xsdc" name="platform/system/tools/xsdc" />
+  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" />
+>>>>>>> BRANCH (271853 Add ow2-asm to the manifest.)
 
+<<<<<<< HEAD   (b78741 Pin manifest of build-tools-release)
   
   <project path="art" name="platform/art" revision="06078c55447b16f88b1de103e525257c8d203605" upstream="build-tools-release" />
   <project path="build/kati" name="platform/build/kati" revision="a254e9995f0ed5fe33fa3d9270141524fa8d3987" upstream="build-tools-release" />
@@ -146,3 +240,32 @@
   <project name="toolchain/make" revision="7f1b28cb868e94502c5c97dcd9bbe357853f0542" upstream="build-tools-release" />
   <project name="toolchain/xz" revision="e953aba95e0060876d5969cc9322cf2dbb5e2cf5" upstream="build-tools-release" />
 </manifest>
+=======
+  <!-- target projects -->
+  <project path="art" name="platform/art" />
+  <project path="build/kati" name="platform/build/kati" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="external/bc" name="platform/external/bc" />
+  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bloaty" name="platform/external/bloaty" />
+  <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/desugar" name="platform/external/desugar" />
+  <project path="external/flex" name="platform/external/flex" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" />
+  <project path="external/ktfmt" name="platform/external/ktfmt" />
+  <project path="external/ninja" name="platform/external/ninja" />
+  <project path="external/nsjail" name="platform/external/nsjail" />
+  <project path="external/one-true-awk" name="platform/external/one-true-awk" />
+  <project path="external/openssl" name="platform/external/openssl" revision="build-tools" />
+  <project path="external/python/cpython2" name="platform/external/python/cpython2" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/toybox" name="platform/external/toybox" />
+  <project path="external/turbine" name="platform/external/turbine" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" />
+  <project name="toolchain/go" />
+  <project name="toolchain/m4" />
+  <project name="toolchain/make" />
+  <project name="toolchain/xz" />
+</manifest>
+>>>>>>> BRANCH (271853 Add ow2-asm to the manifest.)
