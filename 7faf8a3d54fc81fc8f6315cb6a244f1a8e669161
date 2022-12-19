@@ -16,6 +16,24 @@
       "message": "The build errors say\n\n\u003e Failed to get SHA1 for project path: external/rust/crates/bindgen-cli. Revision master is invalid\n\nIs that a temporary and expected error?",
       "revId": "7faf8a3d54fc81fc8f6315cb6a244f1a8e669161",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db2e98a7_277ddd0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2022-12-19T15:33:34Z",
+      "side": 1,
+      "message": "I don\u0027t know. I\u0027ve reopened b/262005451. If you could +1, I would appreciate it. I don\u0027t think there\u0027s anything wrong with this CL. Perhaps something was misconfigured in the setting up the merge branches.",
+      "parentUuid": "4acaf2f5_45416bbc",
+      "revId": "7faf8a3d54fc81fc8f6315cb6a244f1a8e669161",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
