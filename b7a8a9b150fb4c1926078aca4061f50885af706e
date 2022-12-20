@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "946b19ed_df507fbd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1982030
+      },
+      "writtenOn": "2022-12-20T23:13:38Z",
+      "side": 1,
+      "message": "repo download -b change-1611774 platform/manifest 1611774",
+      "revId": "b7a8a9b150fb4c1926078aca4061f50885af706e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
