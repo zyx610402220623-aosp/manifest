@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac916464_cd41b1dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1982030
+      },
+      "writtenOn": "2022-12-20T23:03:25Z",
+      "side": 1,
+      "message": "2351662: Manifest for main-cuttlefish-vendor-dev branch | https://android-review.googlesource.com/c/platform/manifest/+/2351662",
+      "revId": "ad85abb32105d257d5ba1017652b658e1f87dd06",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
