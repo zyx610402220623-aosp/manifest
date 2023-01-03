@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42c9f92d_f72487b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1110304
+      },
+      "writtenOn": "2023-01-03T22:20:07Z",
+      "side": 1,
+      "message": "Friendly ping.\n\nAlso, the presubmit failures are unrelated to this change, any advise on what to do about them?",
+      "revId": "730e49f77378d96cac6dcdedbe12aa3aafa4e5e8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
