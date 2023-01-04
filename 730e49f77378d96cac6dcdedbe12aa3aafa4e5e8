@@ -16,6 +16,24 @@
       "message": "Friendly ping.\n\nAlso, the presubmit failures are unrelated to this change, any advise on what to do about them?",
       "revId": "730e49f77378d96cac6dcdedbe12aa3aafa4e5e8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb4d2593_8c07764d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-01-04T19:50:59Z",
+      "side": 1,
+      "message": "certainly seems unrelated:\n* the exit 137 in previous attempts is likely b/262629589\n* the bluetooth error in the latest attempt was b/264234030",
+      "parentUuid": "42c9f92d_f72487b9",
+      "revId": "730e49f77378d96cac6dcdedbe12aa3aafa4e5e8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
