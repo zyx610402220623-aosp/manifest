@@ -50,6 +50,24 @@
       "message": "Hi Inna \u0026 Amith,\n\nI\u0027ve discussed this with Ibrahim at this point, and I understand what they\u0027re doing.  I\u0027m okay to proceed with this change now, although it will need to be rebased first.\n\nJoe",
       "revId": "24f8134a5caf2779cbae632557c2986f215846d7",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ba23b8f_c0edd6f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043473
+      },
+      "writtenOn": "2023-01-05T22:27:35Z",
+      "side": 1,
+      "message": "Thanks Joe and Ibrahim. LGTM!",
+      "parentUuid": "faec1f70_c8d675be",
+      "revId": "24f8134a5caf2779cbae632557c2986f215846d7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
