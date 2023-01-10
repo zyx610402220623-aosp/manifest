@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08f5de5f_c7e5f0e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2023-01-10T19:54:42Z",
+      "side": 1,
+      "message": "Downstream branches created, PDK review completed.",
+      "revId": "e5eeea0ac8ef67b33158b1d78217ae8fe086f35b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
