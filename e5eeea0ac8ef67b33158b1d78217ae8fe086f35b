@@ -16,6 +16,23 @@
       "message": "Downstream branches created, PDK review completed.",
       "revId": "e5eeea0ac8ef67b33158b1d78217ae8fe086f35b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12f761ea_20e0ea0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018026
+      },
+      "writtenOn": "2023-01-10T19:55:44Z",
+      "side": 1,
+      "message": "removing personal account",
+      "revId": "e5eeea0ac8ef67b33158b1d78217ae8fe086f35b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
