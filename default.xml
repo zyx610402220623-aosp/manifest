@@ -22,11 +22,19 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="74afaa41077fed06e09d33b562db211d4bed115a" upstream="androidx-compose-compiler-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="6f0ba3398f45dcb9c30b48205bdc8bd5e75aa943" upstream="androidx-compose-compiler-release" />
 
+<<<<<<< HEAD   (b9b810 Pin manifest of androidx-compose-compiler-release)
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="7148838b9147a54116192e05cbe6d53dd0f636ed" upstream="androidx-compose-compiler-release" />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="95f671e6273ad5ecb3e75992403c42c19593d0f8" upstream="androidx-compose-compiler-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-compose-compiler-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="6cdbd25cb345e81684b3709ae1f9bd3538fd08ba" upstream="androidx-compose-compiler-release" />
+=======
+  <!-- Config: shallow + master revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="master" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="master" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="master" />
+>>>>>>> BRANCH (bb07b1 Add android-33-ext4 SDK to prebuilts)
 
   
   
@@ -42,13 +50,37 @@
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="25dc6eccbcefbd35ab5694eef1ea7cbf3f68d090" upstream="androidx-compose-compiler-release" />
 
+<<<<<<< HEAD   (b9b810 Pin manifest of androidx-compose-compiler-release)
   
   
   <project path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="eab987632debec964d3ef7031263a97b84d183f4" upstream="androidx-compose-compiler-release">
+=======
+  <!-- SDK dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms/android-33"
+    name="platform/prebuilts/fullsdk/platforms/android-33"
+    clone-depth="1">
+>>>>>>> BRANCH (bb07b1 Add android-33-ext4 SDK to prebuilts)
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources/android-33" name="platform/prebuilts/fullsdk/sources/android-33" clone-depth="1" revision="f6a7f5e4d4d85ea656535f4696c53610328a0b1a" upstream="androidx-compose-compiler-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
+  </project>
+  <!-- Config: shallow + master revision (default after 33) -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms/android-33-ext4"
+    name="platform/prebuilts/fullsdk/platforms/android-TPS"
+    clone-depth="1"
+    revision="master">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33-ext4" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-darwin/sources/android-33-ext4"
+    name="platform/prebuilts/fullsdk/sources/android-TPS"
+    clone-depth="1"
+    revision="master">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33-ext4" />
   </project>
 
   
@@ -80,6 +112,22 @@
   </project>
   <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="b9bc8db480343c619b67133c48e1112246f4058d" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-compose-compiler-release" />
   
+<<<<<<< HEAD   (b9b810 Pin manifest of androidx-compose-compiler-release)
+=======
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="master"
+    clone-depth="1" />
+  <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests. -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/jdk/jdk8"
+    name="platform/prebuilts/jdk/jdk8"
+    clone-depth="1" />
+>>>>>>> BRANCH (bb07b1 Add android-33-ext4 SDK to prebuilts)
   
   
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" revision="ed0be04ae203d04ffb3114c12c40fca206648d0a" clone-depth="1" upstream="androidx-compose-compiler-release" />
