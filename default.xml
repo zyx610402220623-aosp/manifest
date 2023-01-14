@@ -60,6 +60,12 @@
 
   <!-- libadbconnection_client is a dependency of libadbconnection. -->
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
+  <!-- dependencies of packages/module/adb. -->
+  <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
+  <project path="external/zstd" name="platform/external/zstd" groups="pdk" />
+  <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
+  <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
+  <project path="external/libcap" name="platform/external/libcap" groups="pdk" />
 
   <!-- For dexdiag -->
   <project path="system/memory/libmeminfo" name="platform/system/memory/libmeminfo" groups="pdk" />
@@ -204,6 +210,26 @@
   <project path="prebuilts/cmdline-tools" name="platform/prebuilts/cmdline-tools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux,tradefed" clone-depth="1" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
+  <!-- Transitive dependencies of build system toolchains. Should not be included in ART apex. -->
+  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" groups="pdk" />
+  <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
+  <project path="external/gwp_asan" name="platform/external/gwp_asan" groups="pdk" />
+  <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk" />
+  <project path="external/scudo" name="platform/external/scudo" groups="pdk" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+  <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" groups="pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/abi-dumps/platform" name="platform/prebuilts/abi-dumps/platform" groups="pdk-fs" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/vndk" name="platform/prebuilts/abi-dumps/vndk" groups="pdk-fs" clone-depth="1" />
+  <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" />
+  <project path="system/linkerconfig" name="platform/system/linkerconfig" groups="pdk" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
+  <project path="system/incremental_delivery" name="platform/system/incremental_delivery" groups="pdk" />
+  <project path="test/vts" name="platform/test/vts" groups="vts,pdk" />
   <!-- Only used in internal -->
   <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" />
   <!-- For cpplint etc -->
