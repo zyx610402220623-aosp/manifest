@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b22ee3d_b3222bac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1605027
+      },
+      "writtenOn": "2023-01-17T20:34:11Z",
+      "side": 1,
+      "message": "The presubmit failures are legitimate. Please stayed tuned while I either fix these breakages or reassess this CL.",
+      "revId": "af8c2d1c6df4f8810c3bdcd31609e25ba41d7bc8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
