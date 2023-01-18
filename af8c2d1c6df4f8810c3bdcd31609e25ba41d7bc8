@@ -16,6 +16,52 @@
       "message": "The presubmit failures are legitimate. Please stayed tuned while I either fix these breakages or reassess this CL.",
       "revId": "af8c2d1c6df4f8810c3bdcd31609e25ba41d7bc8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ce8bd11_ffe2c667",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2023-01-18T18:58:18Z",
+      "side": 1,
+      "message": "I\u0027ll let Martin comment, but this manifest does not include some projects like Bionic on purpose, as we rely on prebuilts for these.",
+      "range": {
+        "startLine": 214,
+        "startChar": 17,
+        "endLine": 214,
+        "endChar": 23
+      },
+      "revId": "af8c2d1c6df4f8810c3bdcd31609e25ba41d7bc8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "707c84bb_aa4d9100",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2023-01-18T18:58:18Z",
+      "side": 1,
+      "message": "One of the goals of `master-art` is to avoid the inclusion of `frameworks/base`, which is too big for this lightweight branch.",
+      "range": {
+        "startLine": 223,
+        "startChar": 17,
+        "endLine": 223,
+        "endChar": 32
+      },
+      "revId": "af8c2d1c6df4f8810c3bdcd31609e25ba41d7bc8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
