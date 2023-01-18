@@ -43,6 +43,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cec458ef_d504bd6a",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-01-18T19:13:23Z",
+      "side": 1,
+      "message": "Yes indeed. Instead of this we need to investigate new prebuilts for the dependencies you need. Hopefully one or a few well chosen prebuilts cut away most of this set of transitive dependencies.\n\nI\u0027m happy to help setting up the prebuilts. Let\u0027s discuss what you\u0027re trying to achieve here and what the dependency graph looks like.\n\nFor Bionic specifically we already have prebuilts as Roland said. They\u0027re in prebuilts/runtime/mainline/runtime/sdk/. What do you need for Bionic that isn\u0027t covered there?",
+      "parentUuid": "6ce8bd11_ffe2c667",
+      "range": {
+        "startLine": 214,
+        "startChar": 17,
+        "endLine": 214,
+        "endChar": 23
+      },
+      "revId": "af8c2d1c6df4f8810c3bdcd31609e25ba41d7bc8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "707c84bb_aa4d9100",
         "filename": "default.xml",
         "patchSetId": 1
