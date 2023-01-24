@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "708aa17b_2a59d2de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2023-01-24T18:49:54Z",
+      "side": 1,
+      "message": "Please do not submit until the change that disables rust compilation has gone in.",
+      "revId": "e0af1e1b3c929dd92c454d38946032f102c0491d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
