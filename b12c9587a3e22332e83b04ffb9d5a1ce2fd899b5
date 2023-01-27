@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2fbcd3f_cee6d581",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1687194
+      },
+      "writtenOn": "2023-01-27T14:18:09Z",
+      "side": 1,
+      "message": "I\u0027ve got no +2, but lgtm",
+      "revId": "b12c9587a3e22332e83b04ffb9d5a1ce2fd899b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
