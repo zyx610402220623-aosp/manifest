@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab99598a_31f4f5fd",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2023-01-30T21:41:36Z",
+      "side": 1,
+      "message": "We aren\u0027t building device modules in this branch, why do we need the SDKs?",
+      "revId": "b6dcb8a5b748637d4203da683844a4ca998c609f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
