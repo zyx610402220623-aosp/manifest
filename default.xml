@@ -61,10 +61,14 @@
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" clone-depth="1" />
 
+  <!-- toolchain sdk prebuilts -->
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" clone-depth="1" />
+
   <!-- dependency prebuilts -->
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" clone-depth="1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/platform" name="platform/prebuilts/abi-dumps/platform" clone-depth="1" />
 
   <!-- dependency source -->
   <project path="bionic" name="platform/bionic" />
@@ -72,6 +76,8 @@
   <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
   <project path="external/auto" name="platform/external/auto" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+  <project path="external/bazelbuild-rules_android" name="platform/external/bazelbuild-rules_android" />
+  <project path="external/bazelbuild-kotlin-rules" name="platform/external/bazelbuild-kotlin-rules" />
   <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
   <project path="external/boringssl" name="platform/external/boringssl" />
   <project path="external/brotli" name="platform/external/brotli" />
