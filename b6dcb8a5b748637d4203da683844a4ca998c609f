@@ -52,6 +52,24 @@
       "parentUuid": "482103f6_86b94013",
       "revId": "b6dcb8a5b748637d4203da683844a4ca998c609f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4b2a7fc_2286791f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1124746
+      },
+      "writtenOn": "2023-01-31T22:32:28Z",
+      "side": 1,
+      "message": "ok, I will disable bazel for build-tools for now until we have a better solution.",
+      "parentUuid": "3f74afb3_050a8a95",
+      "revId": "b6dcb8a5b748637d4203da683844a4ca998c609f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
