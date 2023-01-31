@@ -16,6 +16,24 @@
       "message": "We aren\u0027t building device modules in this branch, why do we need the SDKs?",
       "revId": "b6dcb8a5b748637d4203da683844a4ca998c609f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "482103f6_86b94013",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1124746
+      },
+      "writtenOn": "2023-01-31T01:01:50Z",
+      "side": 1,
+      "message": "The reasons is that by default soong will run in mixed build mode, and I am adding some support for DCLA libs where if an apex variant of the DCLA libs is requested soong will ask bazel to build it (by issuing bazel cquery and aquery commands from soong), for example, libbase is a DCLA lib, and when bazel process the cquery and aquery commands it will need to locate the android tool chain, so it gives me error like this:\n\nERROR: /usr/local/google/home/yudiliu/android/aosp-build-tools/out/soong/workspace/system/libbase/BUILD.bazel:19:18: While resolving toolcha\nins for target //system/libbase:libbase: invalid registered toolchain \u0027//prebuilts/sdk:android_default_toolchain\u0027: no such package \u0027prebuilt\ns/sdk\u0027: BUILD file not found in any of the following directories. Add a BUILD file to a directory to mark it as a package.",
+      "parentUuid": "ab99598a_31f4f5fd",
+      "revId": "b6dcb8a5b748637d4203da683844a4ca998c609f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
