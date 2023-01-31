@@ -34,6 +34,24 @@
       "parentUuid": "ab99598a_31f4f5fd",
       "revId": "b6dcb8a5b748637d4203da683844a4ca998c609f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f74afb3_050a8a95",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2023-01-31T18:03:46Z",
+      "side": 1,
+      "message": "Is mixed build mode configured correctly in the build-tools branch?  That branch is only built with the Soong configuration from [`prebuilts/build-tools/build-prebuilts.sh`](https://cs.android.com/android/platform/superproject/+/master:prebuilts/build-tools/build-prebuilts.sh;l\u003d83-97;drc\u003d11f8120c25cc3335f392ee3ebc688dda32b2605a), which doesn\u0027t configure any device targets and so shouldn\u0027t need any android toolchains.",
+      "parentUuid": "482103f6_86b94013",
+      "revId": "b6dcb8a5b748637d4203da683844a4ca998c609f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
