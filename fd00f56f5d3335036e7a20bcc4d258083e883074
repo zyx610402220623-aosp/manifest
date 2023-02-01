@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a057b8b_ed17c47c",
+        "filename": "__exclude_projects.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1413436
+      },
+      "writtenOn": "2023-02-01T16:54:07Z",
+      "side": 1,
+      "message": "Please use either single quote or double quote for the string.",
+      "range": {
+        "startLine": 12,
+        "startChar": 16,
+        "endLine": 12,
+        "endChar": 17
+      },
+      "revId": "fd00f56f5d3335036e7a20bcc4d258083e883074",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
