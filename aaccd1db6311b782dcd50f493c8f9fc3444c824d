@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "050165c0_77931c53",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2023-02-03T02:01:40Z",
+      "side": 1,
+      "message": "python xml writes with single quote. :P",
+      "range": {
+        "startLine": 1,
+        "startChar": 14,
+        "endLine": 1,
+        "endChar": 36
+      },
+      "revId": "aaccd1db6311b782dcd50f493c8f9fc3444c824d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
