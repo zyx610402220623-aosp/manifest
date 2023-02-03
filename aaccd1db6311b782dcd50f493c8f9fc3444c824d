@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "52a77586_e661433d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086523
+      },
+      "writtenOn": "2023-02-03T05:23:26Z",
+      "side": 1,
+      "message": "We will eventually deprecate the use of manifest (long term goal), could you please place the scripts somewhere else and do not keep it in the manifest project?",
+      "revId": "aaccd1db6311b782dcd50f493c8f9fc3444c824d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "050165c0_77931c53",
         "filename": "default.xml",
         "patchSetId": 4
