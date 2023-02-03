@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "164c3816_ac0fe0ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2023-02-03T05:26:17Z",
+      "side": 1,
+      "message": "The script is to generate the manifest file in this manifest project.\nIt is okay to remove the script when the manifest is deprecated.",
+      "parentUuid": "52a77586_e661433d",
+      "revId": "aaccd1db6311b782dcd50f493c8f9fc3444c824d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "050165c0_77931c53",
         "filename": "default.xml",
         "patchSetId": 4
