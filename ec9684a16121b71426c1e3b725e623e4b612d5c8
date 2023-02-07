@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f5cbedf_70da9e53",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2023-02-07T00:35:34Z",
+      "side": 1,
+      "message": "VNDK snapshot v28 is no longer required from the current Android version. Let me remove the snapshot from the tree.",
+      "revId": "ec9684a16121b71426c1e3b725e623e4b612d5c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
