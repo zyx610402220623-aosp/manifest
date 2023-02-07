@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9295215_ae853d26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1307979
+      },
+      "writtenOn": "2023-02-07T00:14:21Z",
+      "side": 1,
+      "message": "Looks OK but I don\u0027t have +2 power here and it needs merge conflict resolution.",
+      "revId": "ad1088f7b7c1adc4fa9804036fcd01f283fb4351",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
