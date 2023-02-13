@@ -33,6 +33,23 @@
       "message": "downstream branches have been created. PDK review continues.",
       "revId": "72b2015be55dd772c14c3bd50f38906d7dca3b71",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2a59963_2fdeca71",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2023-02-13T21:28:05Z",
+      "side": 1,
+      "message": "Reviews passed.",
+      "revId": "72b2015be55dd772c14c3bd50f38906d7dca3b71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
