@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f90c91d_678bf745",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-02-17T17:24:53Z",
+      "side": 1,
+      "message": "Comment removed by: Frank Piva; Reason: old draft",
+      "revId": "da63b9df61e2a5ffe94a742cee459f2d531d34dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b574f94_026c8f28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-02-17T17:24:53Z",
+      "side": 1,
+      "message": "Status of review: see http://b/156513478#comment14.",
+      "revId": "da63b9df61e2a5ffe94a742cee459f2d531d34dc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
