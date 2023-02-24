@@ -6,14 +6,20 @@
   <superproject name="platform/superproject" remote="aosp" />
   <contactinfo bugurl="go/repo-bug" />
 
+<<<<<<< HEAD   (37383a Pin manifest of emu-33-release)
   <project path="build" name="platform/build" revision="40e5cbf3c9f5cc3923ba4c25c230eabd6f9b4b60" upstream="emu-33-release" />
   <project path="build/bazel" name="platform/build/bazel" revision="50ce6c317ffdf75480192c7d3863b5b8558706f1" upstream="emu-33-release">
+=======
+  <project path="build" name="platform/build" />
+  <project path="build/bazel" name="platform/build/bazel">
+>>>>>>> BRANCH (419840 Remove libchrome dependency)
     <linkfile src="toplevel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="toplevel.bazelrc" dest=".bazelrc" />
     <linkfile src="toplevel.bazelversion" dest=".bazelversion" />
   </project>
   <project path="tools/buildSrc" name="platform/tools/buildSrc" revision="e23986ab3742d07a17f001eebf1439420cf6e709" upstream="emu-33-release" />
 
+<<<<<<< HEAD   (37383a Pin manifest of emu-33-release)
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="c83db6825d69cb85dc10723726bff234417f4b73" upstream="emu-33-release" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="734786c5a09c06db23b261d26eb9b892ba81d008" upstream="emu-33-release" />
   <project path="external/adt-infra" name="platform/external/adt-infra" revision="973ca0ca2c54b8ae537fa0a477d9472cfa5e3884" upstream="emu-33-release" />
@@ -36,6 +42,30 @@
   <project path="external/perfetto" name="platform/external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078" upstream="emu-33-release" />
   <project path="external/qemu" name="platform/external/qemu" revision="36e2ed877ed3c3bdeeba8e00bc21bf4eec186093" upstream="emu-33-release">
     <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace" />
+=======
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="master"/>
+  <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="master"/>
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="master" />
+  <project path="external/boringssl" name="platform/external/boringssl" revision="master" clone-depth="1"/>
+  <project path="external/cares" name="platform/external/c-ares" />
+  <project path="external/curl" name="platform/external/curl" />
+  <project path="external/deqp" name="platform/external/deqp" revision="master" />
+  <project path="external/gfxstream-protocols" name="platform/external/gfxstream-protocols" revision="master" />
+  <project path="external/googletest" name="platform/external/googletest" revision="master" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="master" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" />
+  <project path="external/grpc" name="platform/external/grpc-grpc" />
+  <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libyuv" name="platform/external/libyuv" />
+  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/lz4" name="platform/external/lz4" revision="master"/>
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/perfetto" name="platform/external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078"/>
+  <project path="external/qemu" name="platform/external/qemu">
+    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
+>>>>>>> BRANCH (419840 Remove libchrome dependency)
   </project>
   <project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="d16a940067fbc191364fc1d3e2a2d907209c9320" upstream="emu-33-release" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" revision="f0c2fba5827abb3634b1992855264d7fe990b89d" upstream="emu-33-release" />
@@ -54,6 +84,7 @@
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="7a37701858b6c41b55767d872a031f333b27f744" upstream="emu-33-release" />
   <project path="tools/netsim" name="platform/tools/netsim" revision="9151c34582f01b7d4461524fd7070eefacc2444a" upstream="emu-33-release" />
 
+<<<<<<< HEAD   (37383a Pin manifest of emu-33-release)
 
   
   <project path="external/libchrome" name="platform/external/libchrome" revision="47b4413a7413456640f3c46dd5127a9075af53fc" groups="notdefault,platform-linux" upstream="emu-33-release" />
@@ -65,6 +96,15 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="6e0e8727d098c4377092e5ab0b8e769156725d81" groups="notdefault,platform-linux" upstream="emu-33-release" />
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" groups="notdefault,platform-linux" revision="7ef4cb95e1ed4305e99f03a8e8ad28d26134a45b" upstream="emu-33-release" />
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="3665e3a3bd0cd0d93f6247eb596938cea48268be" groups="notdefault,platform-linux" upstream="emu-33-release" />
+=======
+  <!-- Linux only toolchain dependencies -->
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="master" groups="notdefault,platform-linux" />
+  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="master" groups="notdefault,platform-linux" />
+  <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="llvm-toolchain" groups="notdefault,platform-linux" />
+>>>>>>> BRANCH (419840 Remove libchrome dependency)
 
   
   <project path="prebuilts/bazel/windows-x86_64" name="platform/prebuilts/bazel/windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" revision="440ea8d1ada8d6ad09fb55c51bc1e154abfa324f" upstream="emu-33-release" />
@@ -103,6 +143,7 @@
   
   <project path="prebuilts/rust" name="platform/prebuilts/rust" revision="89a32aa2313424e75bd02c6a800cc96782f5da06" clone-depth="1" groups="notdefault,platform-linux,platform-darwin" upstream="emu-33-release" />
 
+<<<<<<< HEAD   (37383a Pin manifest of emu-33-release)
   
   
   <project path="external/rust/crates/aho-corasick" name="platform/external/rust/crates/aho-corasick" revision="a4098f6a210f450f9575a83f8f0cced0d13ed8cc" upstream="emu-33-release" />
@@ -164,6 +205,69 @@
   <project path="external/rust/crates/unicode-width" name="platform/external/rust/crates/unicode-width" revision="2ff1ffe072a0d5d9acbab423b3bd77d687f2700f" upstream="emu-33-release" />
   <project path="external/rust/crates/walkdir" name="platform/external/rust/crates/walkdir" revision="170bb80e2afbfdbc7f4cbc15c699687262e762a0" upstream="emu-33-release" />
   <project path="external/rust/crates/which" name="platform/external/rust/crates/which" revision="7b3816f38c354e37a6c4cdb997c2d263814499db" upstream="emu-33-release" />
+=======
+  <!-- Rust crate dependencies, we use a mix of what chromium has to offer, vs AOSP crates. -->
+  <!-- In general when using rust try to use AOSP crates first by overriding them in you cargo workspace -->
+  <project path="external/rust/crates/aho-corasick" name="platform/external/rust/crates/aho-corasick" revision="master" />
+  <project path="external/rust/crates/atty" name="platform/external/rust/crates/atty" revision="master" />
+  <project path="external/rust/crates/bindgen" name="platform/external/rust/crates/bindgen" revision="master" />
+  <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" revision="master" />
+  <project path="external/rust/crates/bytes" name="platform/external/rust/crates/bytes" revision="master" />
+  <project path="external/rust/crates/cexpr" name="platform/external/rust/crates/cexpr" revision="master" />
+  <project path="external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" revision="master" />
+  <project path="external/rust/crates/clang-sys" name="platform/external/rust/crates/clang-sys" revision="master" />
+  <project path="external/rust/crates/clap_derive" name="platform/external/rust/crates/clap_derive" revision="master" />
+  <project path="external/rust/crates/clap_lex" name="platform/external/rust/crates/clap_lex" revision="master" />
+  <project path="external/rust/crates/clap" name="platform/external/rust/crates/clap" revision="master" />
+  <project path="external/rust/crates/cxx" name="platform/external/rust/cxx" revision="master" />
+  <project path="external/rust/crates/either" name="platform/external/rust/crates/either" revision="master" />
+  <project path="external/rust/crates/env_logger" name="platform/external/rust/crates/env_logger" revision="master" />
+  <project path="external/rust/crates/getrandom" name="platform/external/rust/crates/getrandom" revision="master" />
+  <project path="external/rust/crates/glob" name="platform/external/rust/crates/glob" revision="master" />
+  <project path="external/rust/crates/hashbrown" name="platform/external/rust/crates/hashbrown" revision="master" />
+  <project path="external/rust/crates/heck" name="platform/external/rust/crates/heck" revision="master" />
+  <project path="external/rust/crates/indexmap" name="platform/external/rust/crates/indexmap" revision="master" />
+  <project path="external/rust/crates/lazy_static" name="platform/external/rust/crates/lazy_static" revision="master" />
+  <project path="external/rust/crates/lazycell" name="platform/external/rust/crates/lazycell" revision="master" />
+  <project path="external/rust/crates/libc" name="platform/external/rust/crates/libc" revision="master" />
+  <project path="external/rust/crates/libloading" name="platform/external/rust/crates/libloading" revision="master" />
+  <project path="external/rust/crates/log" name="platform/external/rust/crates/log" revision="master" />
+  <project path="external/rust/crates/memchr" name="platform/external/rust/crates/memchr" revision="master" />
+  <project path="external/rust/crates/minimal-lexical" name="platform/external/rust/crates/minimal-lexical" revision="master" />
+  <project path="external/rust/crates/nom" name="platform/external/rust/crates/nom" revision="master" />
+  <project path="external/rust/crates/num-bigint" name="platform/external/rust/crates/num-bigint" revision="master" />
+  <project path="external/rust/crates/num-derive" name="platform/external/rust/crates/num-derive" revision="master" />
+  <project path="external/rust/crates/num-integer" name="platform/external/rust/crates/num-integer" revision="master" />
+  <project path="external/rust/crates/num-traits" name="platform/external/rust/crates/num-traits" revision="master" />
+  <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" revision="master" />
+  <project path="external/rust/crates/os_str_bytes" name="platform/external/rust/crates/os_str_bytes" revision="master" />
+  <project path="external/rust/crates/paste" name="platform/external/rust/crates/paste" revision="master" />
+  <project path="external/rust/crates/peeking_take_while" name="platform/external/rust/crates/peeking_take_while" revision="master" />
+  <project path="external/rust/crates/pin-utils" name="platform/external/rust/crates/pin-utils" revision="master" />
+  <project path="external/rust/crates/ppv-lite86" name="platform/external/rust/crates/ppv-lite86" revision="master" />
+  <project path="external/rust/crates/proc-macro-error-attr" name="platform/external/rust/crates/proc-macro-error-attr" revision="master" />
+  <project path="external/rust/crates/proc-macro-error" name="platform/external/rust/crates/proc-macro-error" revision="master" />
+  <project path="external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" revision="master" />
+  <project path="external/rust/crates/protobuf" name="platform/external/rust/crates/protobuf" revision="master" />
+  <project path="external/rust/crates/quote" name="platform/external/rust/crates/quote" revision="master" />
+  <project path="external/rust/crates/rand_chacha" name="platform/external/rust/crates/rand_chacha" revision="master" />
+  <project path="external/rust/crates/rand_core" name="platform/external/rust/crates/rand_core" revision="master" />
+  <project path="external/rust/crates/rand" name="platform/external/rust/crates/rand" revision="master" />
+  <project path="external/rust/crates/regex-syntax" name="platform/external/rust/crates/regex-syntax" revision="master" />
+  <project path="external/rust/crates/regex" name="platform/external/rust/crates/regex" revision="master" />
+  <project path="external/rust/crates/rustc-hash" name="platform/external/rust/crates/rustc-hash" revision="master" />
+  <project path="external/rust/crates/same-file" name="platform/external/rust/crates/same-file" revision="master" />
+  <project path="external/rust/crates/shlex" name="platform/external/rust/crates/shlex" revision="master" />
+  <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" revision="master" />
+  <project path="external/rust/crates/termcolor" name="platform/external/rust/crates/termcolor" revision="master" />
+  <project path="external/rust/crates/textwrap" name="platform/external/rust/crates/textwrap" revision="master" />
+  <project path="external/rust/crates/thiserror-impl" name="platform/external/rust/crates/thiserror-impl" revision="master" />
+  <project path="external/rust/crates/thiserror" name="platform/external/rust/crates/thiserror" revision="master" />
+  <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" revision="master" />
+  <project path="external/rust/crates/unicode-width" name="platform/external/rust/crates/unicode-width" revision="master" />
+  <project path="external/rust/crates/walkdir" name="platform/external/rust/crates/walkdir" revision="master" />
+  <project path="external/rust/crates/which" name="platform/external/rust/crates/which" revision="master" />
+>>>>>>> BRANCH (419840 Remove libchrome dependency)
 
   
 </manifest>
