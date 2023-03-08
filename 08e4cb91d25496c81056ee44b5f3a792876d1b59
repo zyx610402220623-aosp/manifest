@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15817b3a_ca285577",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2023-03-08T21:56:31Z",
+      "side": 1,
+      "message": "looks like this is duplicated",
+      "range": {
+        "startLine": 60,
+        "startChar": 1,
+        "endLine": 60,
+        "endChar": 71
+      },
+      "revId": "08e4cb91d25496c81056ee44b5f3a792876d1b59",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
