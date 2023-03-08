@@ -63,6 +63,21 @@
   <project path="prebuilts/fullsdk-darwin/sources/android-33" name="platform/prebuilts/fullsdk/sources/android-33" clone-depth="1" revision="f6a7f5e4d4d85ea656535f4696c53610328a0b1a" upstream="androidx-profileinstaller-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
   </project>
+  <!-- Config: shallow + master revision (default after 33) -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms/android-33-ext4"
+    name="platform/prebuilts/fullsdk/platforms/android-TPS"
+    clone-depth="1"
+    revision="master">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33-ext4" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-darwin/sources/android-33-ext4"
+    name="platform/prebuilts/fullsdk/sources/android-TPS"
+    clone-depth="1"
+    revision="master">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33-ext4" />
+  </project>
 
   
   <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="81969dbb0ce879cbc817b5af99d0b289218a0f8d" upstream="androidx-profileinstaller-release" />
