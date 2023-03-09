@@ -155,6 +155,7 @@
   <project path="external/rust/crates/regex" name="platform/external/rust/crates/regex" revision="master" />
   <project path="external/rust/crates/rustc-hash" name="platform/external/rust/crates/rustc-hash" revision="master" />
   <project path="external/rust/crates/same-file" name="platform/external/rust/crates/same-file" revision="master" />
+  <project path="external/rust/crates/serde_json" name="platform/external/rust/crates/serde_json" revision="master" />
   <project path="external/rust/crates/shlex" name="platform/external/rust/crates/shlex" revision="master" />
   <project path="external/rust/crates/syn" name="platform/external/rust/crates/syn" revision="master" />
   <project path="external/rust/crates/termcolor" name="platform/external/rust/crates/termcolor" revision="master" />
