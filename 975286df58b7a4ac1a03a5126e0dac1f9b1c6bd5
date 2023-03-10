@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85521d93_8353113c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2023-03-10T17:59:08Z",
+      "side": 1,
+      "message": "@jeffv@google.com\n\nCan we put this CL under a same topic with aosp/2478996. I was thinking of adding the topic myself, but wasn\u0027t sure if these should all be under `protobuf-3.2.0`",
+      "revId": "975286df58b7a4ac1a03a5126e0dac1f9b1c6bd5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
