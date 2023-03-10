@@ -16,6 +16,24 @@
       "message": "Can you put aosp/2480426 under the same topic? Thank you 😊",
       "revId": "96cc7dbc55b8342d322e33b4ec5517fd1737de81",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e472bb11_121f422f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1054468
+      },
+      "writtenOn": "2023-03-10T18:05:26Z",
+      "side": 1,
+      "message": "They\u0027re in different branches, so I don\u0027t think that makes sense.",
+      "parentUuid": "d89858fd_bd1f6fc8",
+      "revId": "96cc7dbc55b8342d322e33b4ec5517fd1737de81",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
