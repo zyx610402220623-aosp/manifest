@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (ab992e Merge empty history for sparse-9702589-L75200000959074013)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-9702589-L31900000959084725" remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp" />
+>>>>>>> BRANCH (2fced4 Pin manifest of sparse-9702589-L31900000959084725)
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
 
+<<<<<<< HEAD   (ab992e Merge empty history for sparse-9702589-L75200000959074013)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -12,6 +19,48 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-compose-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="350b5d208f198b4be53f58845277f0f10a9a5f91" upstream="androidx-compose-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="fce165c9d7db4a08432eabfb333ea1da0a04c8e8" upstream="androidx-compose-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="8da9c9fc7672127e8576600b99df41837888e405" upstream="androidx-compose-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="96cd6cb357727234db675849e59a11982ad7c2fd" upstream="androidx-compose-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-compose-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="dc38b1a85953c24690df5cb983b849540ba583ca" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7d02afa62865dec89bf533c31949786f03665b94" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="d8f43b7472ae2e7bcf43dbce25456d82c343b02d" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="f9ee2915ea402483169b37c92413ba259fa25e23" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="8a7da4368cc9b6b255b46fb1d8bac2342c17aff1" upstream="androidx-compose-release" />
+
+  
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="ead6e89b808a89a36def4a3dfe8b9811ed8818bc" upstream="androidx-compose-release" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="ee79b27ae3fead4f9079c11cbdd17b04042781e0" upstream="androidx-compose-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-compose-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="11df8df82fc33b5e74f5a51e8cf083a58b1b2c02" upstream="androidx-compose-release" />
+
+  
+  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="1e91831edfeea5528220e35a06d9e04db38d99f0" upstream="androidx-compose-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="b39e43fc7cc6b459a63eafada5d4b8598e4313ea" upstream="androidx-compose-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-compose-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="69e4522399f2d1e0eb3747c6265a1d30b330564e" upstream="androidx-compose-release" />
+  
+  
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="b062a5112d5ba4a2d57e67349e8ceae89a017bcd" upstream="androidx-compose-release" />
+
+  
+  
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="dc242d313a9d7e4d51b753360c374de23c120c8c" upstream="androidx-compose-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="143926d6ac5049638f676e1eadc48a6413b09910" upstream="androidx-compose-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
+>>>>>>> BRANCH (2fced4 Pin manifest of sparse-9702589-L31900000959084725)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
