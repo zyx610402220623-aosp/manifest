@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd882119_768dec5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-03-15T02:53:00Z",
+      "side": 1,
+      "message": "You\u0027ll also need a cherry-pick of the internal change to tm-qpr-dev-plus-aosp. Also, I don\u0027t have +2 here, so you\u0027ll likely need to contact the interrupt.",
+      "revId": "8c17b5254bbfa0bfd7190721d6f87cf787c78b10",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
