@@ -16,6 +16,23 @@
       "message": "This is just for testing 😎",
       "revId": "c85c1694f5007ad04e7216661b6fc3f388d62bd5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9740f4eb_b3986f5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128729
+      },
+      "writtenOn": "2023-03-21T07:39:40Z",
+      "side": 1,
+      "message": "Hi Hung-ying, \n\nPlease DrNo+1 and CR+2",
+      "revId": "c85c1694f5007ad04e7216661b6fc3f388d62bd5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
