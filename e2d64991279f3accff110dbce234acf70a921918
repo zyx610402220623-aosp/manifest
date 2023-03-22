@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc080002_64ab7fd6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1970076
+      },
+      "writtenOn": "2023-03-22T03:14:59Z",
+      "side": 1,
+      "message": "Bypass presubmit because only comments are removed.",
+      "revId": "e2d64991279f3accff110dbce234acf70a921918",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
