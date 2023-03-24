@@ -16,6 +16,24 @@
       "message": "The build has been broken for a week. I am going to submit this.",
       "revId": "968fc67ae3114d8f0e896aa87406f0307747caf1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67f9d013_a7e579d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-03-24T18:22:39Z",
+      "side": 1,
+      "message": "Thank you, gerrit wouldn\u0027t let me do it myself!",
+      "parentUuid": "5e193e5a_1686f610",
+      "revId": "968fc67ae3114d8f0e896aa87406f0307747caf1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
