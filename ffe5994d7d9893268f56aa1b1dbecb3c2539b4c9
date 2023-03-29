@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f6f9c02_cf746d68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2023-03-29T23:10:24Z",
+      "side": 1,
+      "message": "protobuf-json-mapping repo is empty until aosp/2514115 is checked in.",
+      "revId": "ffe5994d7d9893268f56aa1b1dbecb3c2539b4c9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
