@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3a87faa_9de4838d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2023-03-31T19:14:33Z",
+      "side": 1,
+      "message": "+ipalant for +2 based on https://g3doc.corp.google.com/company/teams/android-build-team/help.md?cl\u003dhead#interrupt",
+      "revId": "68a9d83b19c3d79b9ff0cd9e132b7c7a79c06e0a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
