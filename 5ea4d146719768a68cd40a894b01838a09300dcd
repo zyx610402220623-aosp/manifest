@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e63b5a4_b6636b2e",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2023-03-31T17:51:47Z",
+      "side": 1,
+      "message": "pdk not used by platform/build or platform/build/soong",
+      "range": {
+        "startLine": 49,
+        "startChar": 88,
+        "endLine": 49,
+        "endChar": 100
+      },
+      "revId": "5ea4d146719768a68cd40a894b01838a09300dcd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
