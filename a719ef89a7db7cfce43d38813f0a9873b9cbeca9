@@ -22,6 +22,30 @@
       },
       "revId": "a719ef89a7db7cfce43d38813f0a9873b9cbeca9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e4cd7fb_7f0e8e10",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1954600
+      },
+      "writtenOn": "2023-03-31T17:34:26Z",
+      "side": 1,
+      "message": "Looks like it was used above for boringssl and gflags. So we can use it to specify the group the project belongs to. But if its not needed, we can remove it.",
+      "parentUuid": "178977da_1d5004de",
+      "range": {
+        "startLine": 84,
+        "startChar": 87,
+        "endLine": 84,
+        "endChar": 101
+      },
+      "revId": "a719ef89a7db7cfce43d38813f0a9873b9cbeca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
