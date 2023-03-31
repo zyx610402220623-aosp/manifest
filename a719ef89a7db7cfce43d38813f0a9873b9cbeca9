@@ -46,6 +46,30 @@
       },
       "revId": "a719ef89a7db7cfce43d38813f0a9873b9cbeca9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "010f58d7_f1e30503",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1359095
+      },
+      "writtenOn": "2023-03-31T17:41:43Z",
+      "side": 1,
+      "message": "I think the important thing is it isn\u0027t used for platform/build or platform/build/soong",
+      "parentUuid": "2e4cd7fb_7f0e8e10",
+      "range": {
+        "startLine": 84,
+        "startChar": 87,
+        "endLine": 84,
+        "endChar": 101
+      },
+      "revId": "a719ef89a7db7cfce43d38813f0a9873b9cbeca9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
