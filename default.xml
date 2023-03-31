@@ -111,6 +111,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/spdx-tools" name="platform/external/spdx-tools" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" />
   <project path="external/starlark-go" name="platform/external/starlark-go" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" />
