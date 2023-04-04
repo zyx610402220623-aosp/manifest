@@ -1264,6 +1264,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- third_party_review marker START -->
+  <!-- third_party_review marker END -->
 
   <!--
     Merge marker to make it easier for git to merge AOSP-only manifest
