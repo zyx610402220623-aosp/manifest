@@ -1264,10 +1264,147 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- BEGIN trusty core projects -->
+  <project path="trusty/external/lk" name="trusty/lk/common" groups="trusty" >
+    <copyfile src="makefile" dest="trusty/makefile" />
+  </project>
+  <project path="trusty/external/headers" name="trusty/external/headers" groups="trusty" />
+  <project path="trusty/external/trusty/bootloader" name="trusty/external/trusty" groups="trusty" />
+  <project path="trusty/external/trusty/musl" name="trusty/external/musl" groups="trusty" />
+  <project path="trusty/trusty/user/base" name="trusty/lib" groups="trusty" />
+  <project path="trusty/trusty/kernel" name="trusty/lk/trusty" groups="trusty" />
+  <project path="trusty/trusty/host/common" name="trusty/host/common" groups="trusty">
+    <linkfile src="bazel/WORKSPACE.bazel" dest="trusty/WORKSPACE.bazel" />
+    <linkfile src="bazel/bazelrc" dest="trusty/.bazelrc" />
+  </project>
+  <project path="trusty/trusty/interfaces" name="trusty/interfaces" groups="trusty" />
+  <!-- END trusty core projects -->
 
-  <!--
-    Merge marker to make it easier for git to merge AOSP-only manifest
-    changes to a custom manifest.  Please keep this marker here and
-    refrain from making changes on or below it.
-  -->
+  <!-- BEGIN apps projects  -->
+  <project path="trusty/trusty/user/app/confirmationui" name="trusty/app/confirmationui" groups="trusty" />
+  <project path="trusty/trusty/user/app/sample" name="trusty/app/sample" groups="trusty" />
+  <project path="trusty/trusty/user/app/keymaster" name="trusty/app/keymaster" groups="trusty" />
+  <project path="trusty/trusty/user/app/keymint" name="trusty/app/keymint" groups="trusty" />
+  <project path="trusty/trusty/user/app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
+  <project path="trusty/trusty/user/app/storage" name="trusty/app/storage" groups="trusty" />
+  <project path="trusty/trusty/user/app/avb" name="trusty/app/avb" groups="trusty" />
+  <project path="trusty/trusty/user/app/cast-auth" name="trusty/app/cast-auth" groups="trusty" />
+  <!-- END apps projects -->
+
+  <!-- BEGIN platform projects -->
+  <project path="trusty/development" name="platform/development" groups="trusty" />
+  <!-- Temporarily pinning for atomic upgrade -->
+  <project path="trusty/external/boringssl" name="platform/external/boringssl" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/fmtlib" name="platform/external/fmtlib" groups="trusty" />
+  <project path="trusty/external/freetype" name="platform/external/freetype" groups="trusty" />
+  <project path="trusty/external/googletest" name="platform/external/googletest" groups="trusty" />
+  <project path="trusty/external/libcppbor" name="platform/external/libcppbor" groups="trusty" />
+  <project path="trusty/external/libcxx" name="platform/external/libcxx" revision="main-trusty" groups="trusty" />
+  <project path="trusty/external/libcxxabi" name="platform/external/libcxxabi" groups="trusty" />
+  <project path="trusty/external/nanopb-c" name="platform/external/nanopb-c" groups="trusty" />
+  <project path="trusty/external/open-dice" name="platform/external/open-dice" groups="trusty" />
+  <project path="trusty/external/protobuf" name="platform/external/protobuf" groups="trusty" />
+  <project path="trusty/external/python/jinja" name="platform/external/python/jinja" groups="trusty" />
+  <project path="trusty/external/python/six" name="platform/external/python/six" groups="trusty" />
+  <project path="trusty/external/python/markupsafe" name="platform/external/python/markupsafe" groups="trusty" />
+  <project path="trusty/external/scudo" name="platform/external/scudo" revision="main-trusty" groups="trusty" />
+  <project path="trusty/frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="trusty" />
+  <project path="trusty/frameworks/native" name="platform/frameworks/native" groups="trusty" />
+  <project path="trusty/hardware/libhardware" name="platform/hardware/libhardware" groups="trusty" />
+  <project path="trusty/system/core" name="platform/system/core" groups="trusty" />
+  <project path="trusty/system/gatekeeper" name="platform/system/gatekeeper" groups="trusty" />
+  <project path="trusty/system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
+  <project path="trusty/system/keymaster" name="platform/system/keymaster" groups="trusty" />
+  <project path="trusty/system/keymint" name="platform/system/keymint" groups="trusty" />
+  <project path="trusty/system/libbase" name="platform/system/libbase" groups="trusty" />
+  <project path="trusty/system/teeui" name="platform/system/teeui" groups="trusty" />
+  <!-- END platform projects -->
+
+  <!-- BEGIN trusty device projects -->
+  <project path="trusty/trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" />
+  <project path="trusty/trusty/device/arm/vexpress-a15" name="trusty/device/arm/vexpress-a15" groups="trusty" />
+  <project path="trusty/trusty/device/x86/generic-x86_64" name="trusty/device/x86/generic-x86_64" groups="trusty" />
+  <!-- END trusty device projects -->
+
+  <!-- BEGIN trusty nxp projects -->
+  <project path="trusty/trusty/device/nxp/imx7d" name="trusty/device/nxp/imx7d" groups="trusty" />
+  <project path="trusty/trusty/hardware/nxp" name="trusty/lk/nxp" groups="trusty" />
+  <!-- END trusty nxp projects -->
+
+  <!-- BEGIN trusty vendor projects -->
+  <project path="trusty/trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
+   <!-- Install lk_inc.mk into trusty root -->
+    <copyfile src="lk_inc.mk" dest="trusty/lk_inc.mk" />
+    <!--
+      We need to create .find-ignore for Soong so it ignores all of Trusty.
+      It doesn't matter what's in the file, just that it exists.
+    -->
+    <copyfile src="LICENSE" dest="trusty/.find-ignore" />
+  </project>
+  <!-- END trusty vendor projects -->
+
+  <!-- BEGIN toolchains -->
+  <project path="trusty/prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="trusty" clone-depth="1" />
+  <project path="trusty/prebuilts/clang-tools" name="platform/prebuilts/clang-tools" groups="trusty" clone-depth="1" />
+  <project path="trusty/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="trusty" clone-depth="1" />
+  <project path="trusty/prebuilts/libprotobuf" name="platform/prebuilts/libprotobuf/linux" revision="trusty" groups="trusty" clone-depth="1" />
+  <project path="trusty/prebuilts/misc" name="platform/prebuilts/misc" groups="trusty" clone-depth="1" />
+  <project path="trusty/trusty/prebuilts/aosp" name="trusty/prebuilts/aosp" groups="trusty" clone-depth="1" />
+  <project path="trusty/prebuilts/rust" name="platform/prebuilts/rust" groups="trusty" clone-depth="1" />
+  <project path="trusty/prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="trusty" clone-depth="1" />
+  <project path="trusty/build/bazel" name="platform/build/bazel" groups="trusty" clone-depth="1" >
+    <linkfile src="bazel.BUILD" dest="trusty/BUILD" />
+  </project>
+  <project path="trusty/external/bazel-skylib" name="platform/external/bazel-skylib" groups="trusty" clone-depth="1" />
+  <!-- END toolchains -->
+
+  <!-- BEGIN external rust crates -->
+  <!-- These crates are pinned because their trusty build files live in the trusty tree and need to be manually updated -->
+  <project path="trusty/external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/cfg-if" name="platform/external/rust/crates/cfg-if" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/ciborium" name="platform/external/rust/crates/ciborium" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/ciborium-io" name="platform/external/rust/crates/ciborium-io" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/ciborium-ll" name="platform/external/rust/crates/ciborium-ll" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/const-oid" name="platform/external/rust/crates/const-oid" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/coset" name="platform/external/rust/crates/coset" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/der" name="platform/external/rust/crates/der" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/der_derive" name="platform/external/rust/crates/der_derive" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/enumn" name="platform/external/rust/crates/enumn" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/flagset" name="platform/external/rust/crates/flagset" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/foreign-types" name="platform/external/rust/crates/foreign-types" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/foreign-types-shared" name="platform/external/rust/crates/foreign-types-shared" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/half" name="platform/external/rust/crates/half" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/libc" name="platform/external/rust/crates/libc" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/log" name="platform/external/rust/crates/log" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/pkcs1" name="platform/external/rust/crates/pkcs1" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/pkcs8" name="platform/external/rust/crates/pkcs8" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/proc-macro2" name="platform/external/rust/crates/proc-macro2" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/proc-macro-error" name="platform/external/rust/crates/proc-macro-error" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/proc-macro-error-attr" name="platform/external/rust/crates/proc-macro-error-attr" groups="trusty" revision="trusty-main" />
+  <!-- Updating the protobuf crate will also force us to recreate the autogenerated rust files (keymint) because we are generating them outside of trusty -->
+  <project path="trusty/external/rust/crates/protobuf" name="platform/external/rust/crates/protobuf" groups="trusty"  revision="trusty-main" />
+  <project path="trusty/external/rust/crates/quote" name="platform/external/rust/crates/quote" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/openssl" name="platform/external/rust/crates/openssl" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/openssl-macros" name="platform/external/rust/crates/openssl-macros" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/sec1" name="platform/external/rust/crates/sec1" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/serde" name="platform/external/rust/crates/serde" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/serde_derive" name="platform/external/rust/crates/serde_derive" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/spki" name="platform/external/rust/crates/spki" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/syn" name="platform/external/rust/crates/syn" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/synstructure" name="platform/external/rust/crates/synstructure" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/unicode-xid" name="platform/external/rust/crates/unicode-xid" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/x509-cert" name="platform/external/rust/crates/x509-cert" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/zeroize" name="platform/external/rust/crates/zeroize" groups="trusty" revision="trusty-main" />
+  <project path="trusty/external/rust/crates/zeroize_derive" name="platform/external/rust/crates/zeroize_derive" groups="trusty" revision="trusty-main" />
+  <!-- END external rust crates -->
+
+  <!-- BEGIN aux external projects -->
+  <project path="trusty/external/linux" name="kernel/common" revision="android12-trusty-5.10" groups="trusty" />
+  <project path="trusty/external/qemu" name="trusty/external/qemu" groups="trusty" />
+  <project path="trusty/external/capstone" name="platform/external/capstone" revision="trusty-main" groups="trusty" />
+  <project path="trusty/external/dtc" name="platform/external/dtc" groups="trusty" />
+  <project path="trusty/external/qemu-keycodemapdb" name="trusty/external/qemu-keycodemapdb" revision="trusty-main" groups="trusty" />
+  <project path="trusty/external/arm-trusted-firmware" name="trusty/external/trusted-firmware-a" groups="trusty" />
+  <!-- END aux external projects -->
 </manifest>
