@@ -370,6 +370,8 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/licenseclassifier" name="platform/external/licenseclassifier" groups="pdk" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" />
+  <!-- This should be under external/trusty/lk, but the path is hard-coded in too many places -->
+  <project path="external/lk" name="trusty/lk/common" groups="trusty" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/lmfit" name="platform/external/lmfit" groups="pdk" />
   <project path="external/lottie" name="platform/external/lottie" groups="pdk" />
@@ -486,6 +488,12 @@
   <project path="external/python/timeout-decorator" name="platform/external/python/timeout-decorator" groups="pdk" />
   <project path="external/python/typing" name="platform/external/python/typing" groups="pdk" />
   <project path="external/python/uritemplates" name="platform/external/python/uritemplates" groups="vts,pdk" />
+  <!--
+    keycodemapdb needs to be in the same directory as qemu
+    because the latter refers to the others using relative symlinks
+  -->
+  <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
+  <project path="external/qemu-keycodemapdb" name="trusty/external/qemu-keycodemapdb" revision="trusty-main" groups="trusty" />
   <project path="external/rappor" name="platform/external/rappor" groups="pdk" />
   <project path="external/renderscript-intrinsics-replacement-toolkit" name="platform/external/renderscript-intrinsics-replacement-toolkit" groups="pdk" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk" />
@@ -834,6 +842,10 @@
   <project path="external/tpm2-tss" name="platform/external/tpm2-tss" groups="pdk" />
   <project path="external/trace-cmd" name="platform/external/trace-cmd" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
+  <project path="external/trusty/arm-trusted-firmware" name="trusty/external/trusted-firmware-a" groups="trusty" />
+  <project path="external/trusty/bootloader" name="trusty/external/trusty" groups="trusty" />
+  <project path="external/trusty/headers" name="trusty/external/headers" groups="trusty" />
+  <project path="external/trusty/musl" name="trusty/external/musl" groups="trusty" />
   <project path="external/truth" name="platform/external/truth" groups="pdk" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
@@ -1228,6 +1240,7 @@
   <project path="system/iorap" name="platform/system/iorap" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/keymint" name="platform/system/keymint" groups="pdk" />
+  <project path="system/iot/attestation" name="platform/system/iot/attestation" groups="trusty" />
   <project path="system/libartpalette" name="platform/system/libartpalette" groups="pdk" />
   <project path="system/libbase" name="platform/system/libbase" groups="pdk" />
   <project path="system/libcppbor" name="platform/system/libcppbor" groups="pdk" />
@@ -1318,6 +1331,37 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" />
+  <project path="trusty/device/arm/vexpress-a15" name="trusty/device/arm/vexpress-a15" groups="trusty" />
+  <project path="trusty/device/nxp/imx7d" name="trusty/device/nxp/imx7d" groups="trusty" />
+  <project path="trusty/device/x86/generic-x86_64" name="trusty/device/x86/generic-x86_64" groups="trusty" />
+  <project path="trusty/hardware/nxp" name="trusty/lk/nxp" groups="trusty" />
+  <project path="trusty/host/common" name="trusty/host/common" groups="trusty">
+    <linkfile src="bazel/WORKSPACE.bazel" dest="trusty/WORKSPACE.bazel" />
+    <linkfile src="bazel/bazelrc" dest="trusty/.bazelrc" />
+  </project>
+  <project path="trusty/interfaces" name="trusty/interfaces" groups="trusty" />
+  <project path="trusty/kernel" name="trusty/lk/trusty" groups="trusty" />
+  <!-- TODO project path="trusty/prebuilts/linux" name="trusty/prebuilts/linux" groups="trusty" clone-depth="1" /-->
+  <project path="trusty/user/app/avb" name="trusty/app/avb" groups="trusty" />
+  <project path="trusty/user/app/cast-auth" name="trusty/app/cast-auth" groups="trusty" />
+  <project path="trusty/user/app/confirmationui" name="trusty/app/confirmationui" groups="trusty" />
+  <project path="trusty/user/app/gatekeeper" name="trusty/app/gatekeeper" groups="trusty" />
+  <project path="trusty/user/app/keymaster" name="trusty/app/keymaster" groups="trusty" />
+  <project path="trusty/user/app/keymint" name="trusty/app/keymint" groups="trusty" />
+  <project path="trusty/user/app/sample" name="trusty/app/sample" groups="trusty" />
+  <project path="trusty/user/app/storage" name="trusty/app/storage" groups="trusty" />
+  <project path="trusty/user/base" name="trusty/lib" groups="trusty" />
+  <project path="trusty/vendor/google/aosp" name="trusty/vendor/google/aosp" groups="trusty" >
+    <!-- Install lk_inc.mk into platform root because external/lk/makefile includes it -->
+    <copyfile src="lk_inc.mk" dest="lk_inc.mk" />
+    <!--
+      We need to create .find-ignore for Soong so it ignores all of Trusty.
+      It doesn't matter what's in the file, just that it exists.
+    -->
+    <copyfile src="find-ignore" dest="trusty/.find-ignore" />
+    <copyfile src="find-ignore" dest="external/trusty/.find-ignore" />
+  </project>
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
