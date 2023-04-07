@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01499551_f67e58c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2023-04-07T02:56:06Z",
+      "side": 1,
+      "message": "Hi Frank, can you take a look at manifest changes?\n\nThank you.",
+      "revId": "e7447327ecb7d159768df3545243bbb47047ce7d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
