@@ -33,6 +33,23 @@
       "message": "Sorry, the build failure is because of wrong license tag in Android.bp which submitted. I\u0027m fixing it in https://android-review.git.corp.google.com/c/platform/external/roboto-flex-fonts/+/2526823",
       "revId": "e7447327ecb7d159768df3545243bbb47047ce7d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a382a73_6f180b98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2023-04-07T06:30:23Z",
+      "side": 1,
+      "message": "Hi Frank, the build breakage was resolved and the CL is now ready to review.\n\nThank you.",
+      "revId": "e7447327ecb7d159768df3545243bbb47047ce7d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
