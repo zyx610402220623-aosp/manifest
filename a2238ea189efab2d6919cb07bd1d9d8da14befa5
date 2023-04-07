@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1713f93_69339516",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2023-04-07T06:51:08Z",
+      "side": 1,
+      "message": "I\u0027m not sure if the check failure here is expected or not, but it seems odd that the latest NDK sources conflict like this in master-plus-llvm.\n\n```\nbuild/make/core/base_rules.mk:342: error: toolchain/prebuilts/ndk/r26/sources/android/cpufeatures: MODULE.TARGET.STATIC_LIBRARIES.cpufeatures already defined by prebuilts/ndk.\n```",
+      "revId": "a2238ea189efab2d6919cb07bd1d9d8da14befa5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
