@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b528623_0cae7e8a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2023-04-10T21:09:12Z",
+      "side": 1,
+      "message": "(I do not have +2 here, btw, go/manifest#5-add-reviewers)",
+      "revId": "8bbe92570ad80d2460d19bf6af0379d73d677f04",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "06b699af_8ecf58c5",
