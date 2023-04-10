@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06b699af_8ecf58c5",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2023-04-10T21:08:41Z",
+      "side": 1,
+      "message": "You probably don\u0027t want this. Merge doesn\u0027t work well when you don\u0027t have history.",
+      "range": {
+        "startLine": 10,
+        "startChar": 61,
+        "endLine": 10,
+        "endChar": 76
+      },
+      "revId": "8bbe92570ad80d2460d19bf6af0379d73d677f04",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
