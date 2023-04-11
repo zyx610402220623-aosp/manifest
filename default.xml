@@ -22,11 +22,19 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="3a1552e35658ea89bb207b3b6cf64d4d6b948b27" upstream="androidx-compose-compiler-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="b6b382f30d5b8eda277f140362018e54350297d1" upstream="androidx-compose-compiler-release" />
 
+<<<<<<< HEAD   (11ec53 Pin manifest of androidx-compose-compiler-release)
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="e5df8a5f7ad30419f83d98cd12f7ec185cc59030" upstream="androidx-compose-compiler-release" />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="11b955971c204d004992c8c3e048497c66965470" upstream="androidx-compose-compiler-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-compose-compiler-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="cf5556873d7d46dfa610bdd5aaa903f425978764" upstream="androidx-compose-compiler-release" />
+=======
+  <!-- Config: shallow + master revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="master" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="master" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="master" />
+>>>>>>> BRANCH (148dd2 Migrate platform SDKs to top-level fullsdk project)
 
   
   
@@ -42,6 +50,7 @@
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="f2ec774439bb69c3e3fa25f79ef714ffceb8b06f" upstream="androidx-compose-compiler-release" />
 
+<<<<<<< HEAD   (11ec53 Pin manifest of androidx-compose-compiler-release)
   
   
   <project path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="eab987632debec964d3ef7031263a97b84d183f4" upstream="androidx-compose-compiler-release">
@@ -49,6 +58,22 @@
   </project>
   <project path="prebuilts/fullsdk-darwin/sources/android-33" name="platform/prebuilts/fullsdk/sources/android-33" clone-depth="1" revision="f6a7f5e4d4d85ea656535f4696c53610328a0b1a" upstream="androidx-compose-compiler-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
+=======
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="master">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="master">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
+>>>>>>> BRANCH (148dd2 Migrate platform SDKs to top-level fullsdk project)
   </project>
   
   <project path="prebuilts/fullsdk-darwin/platforms/android-33-ext5" name="platform/prebuilts/fullsdk/platforms/android-TPS" clone-depth="1" revision="9cbda32f59c4025a72c8b79f05ffad98f4150d7e" upstream="androidx-compose-compiler-release">
@@ -87,6 +112,22 @@
   </project>
   <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="71f86469c23b4c3e609c639cea8adfbbb709423c" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-compose-compiler-release" />
   
+<<<<<<< HEAD   (11ec53 Pin manifest of androidx-compose-compiler-release)
+=======
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="master"
+    clone-depth="1" />
+  <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests. -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/jdk/jdk8"
+    name="platform/prebuilts/jdk/jdk8"
+    clone-depth="1" />
+>>>>>>> BRANCH (148dd2 Migrate platform SDKs to top-level fullsdk project)
   
   
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="89aaffd2be34c4954bd11e3f30e30778496cedb2" clone-depth="1" upstream="androidx-compose-compiler-release" />
