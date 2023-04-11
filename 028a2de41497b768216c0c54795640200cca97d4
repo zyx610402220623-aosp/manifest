@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af040be4_004c0295",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1062848
+      },
+      "writtenOn": "2023-04-11T22:00:21Z",
+      "side": 1,
+      "message": "Hi Frank, can you take a look?\n\nI removed Android.bp from the roboto-flex directory, so the build break should not happen again. I wan to merge this first to test the roboto-flex project with TreeHugger.\n\nThank you.",
+      "revId": "028a2de41497b768216c0c54795640200cca97d4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
