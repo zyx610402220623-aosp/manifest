@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a67a702_d1e96295",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 1964400
+      },
+      "writtenOn": "2023-04-12T16:04:42Z",
+      "side": 1,
+      "message": "Hi @hyunjaemoon@google.com\n\nI think this would need more than that\n\n- First, looking at how crates are defined, I think we would also need to also update `external/qemu/android/build/cmake/config.toml.in` to add the time crate\n- Then (and it\u0027s tied to the first point), all crates would need to be in the AOSP repo tree. I remembered that we couldn\u0027t cross reference crates from elsewhere (like Chrome), and that\u0027s why crates were added in AOSP in external/rust/crates\n\n\n@jansene@google.com should be able to confirm",
+      "revId": "2c007ff7a5546fbb5ed1e8f73edd7630ca14e027",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
