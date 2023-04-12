@@ -172,6 +172,7 @@
   <project path="external/rust/crates/textwrap" name="platform/external/rust/crates/textwrap" revision="master" />
   <project path="external/rust/crates/thiserror-impl" name="platform/external/rust/crates/thiserror-impl" revision="master" />
   <project path="external/rust/crates/thiserror" name="platform/external/rust/crates/thiserror" revision="master" />
+  <project path="external/rust/crates/time" name="platform/external/rust/crates/time" revision="master" />
   <project path="external/rust/crates/tokio" name="platform/external/rust/crates/tokio" revision="master" />
   <project path="external/rust/crates/unicode-ident" name="platform/external/rust/crates/unicode-ident" revision="master" />
   <project path="external/rust/crates/unicode-width" name="platform/external/rust/crates/unicode-width" revision="master" />
