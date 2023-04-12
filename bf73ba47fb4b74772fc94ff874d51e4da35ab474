@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1176c9b9_dab2f9bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1229339
+      },
+      "writtenOn": "2023-04-12T20:38:59Z",
+      "side": 1,
+      "message": "The llvm-toolchain version of this change was already approved:\n\nhttps://android-review.git.corp.google.com/c/platform/manifest/+/2528341",
+      "revId": "bf73ba47fb4b74772fc94ff874d51e4da35ab474",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
