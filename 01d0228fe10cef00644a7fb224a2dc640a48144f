@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0611c8e_c47410f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2023-04-12T17:16:16Z",
+      "side": 1,
+      "message": "- Update on `config.toml.in` put under same topic.\n- Checked that chrono crate exists in AOSP repo tree.\n\nhttps://cs.android.com/android/platform/superproject/+/master:external/rust/crates/chrono/",
+      "revId": "01d0228fe10cef00644a7fb224a2dc640a48144f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
