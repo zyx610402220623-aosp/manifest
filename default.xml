@@ -109,6 +109,7 @@
   <!-- In general when using rust try to use AOSP crates first by overriding them in you cargo workspace -->
   <project path="external/rust/crates/aho-corasick" name="platform/external/rust/crates/aho-corasick" revision="master" />
   <project path="external/rust/crates/anyhow" name="platform/external/rust/crates/anyhow" revision="master" />
+  <project path="external/rust/crates/argh" name="platform/external/rust/crates/argh" revision="master" />
   <project path="external/rust/crates/atty" name="platform/external/rust/crates/atty" revision="master" />
   <project path="external/rust/crates/bindgen" name="platform/external/rust/crates/bindgen" revision="master" />
   <project path="external/rust/crates/bitflags" name="platform/external/rust/crates/bitflags" revision="master" />
