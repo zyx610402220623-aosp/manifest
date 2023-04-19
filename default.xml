@@ -1264,6 +1264,7 @@
   <!-- Rust Toolchain Components -->
   <project path="toolchain/rustc" name="toolchain/rustc"/>
   <project path="toolchain/android_rust" name="toolchain/android_rust"/>
+  <project path="toolchain/perl" name="toolchain/perl"/>
   <project path="toolchain/common" name="toolchain/common"/>
 
   <!-- libgcc for device -->
