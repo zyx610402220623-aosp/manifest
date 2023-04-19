@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ced5816_64c8c1e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128973
+      },
+      "writtenOn": "2023-04-19T17:26:32Z",
+      "side": 1,
+      "message": "I have a forward fix: https://android-review.git.corp.google.com/c/platform/manifest/+/2547860",
+      "revId": "19d53310c9e12c87cd59d8103f9cd2cf3240b3a2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
