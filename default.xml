@@ -158,7 +158,6 @@
   <project path="external/rust/crates/num-derive" name="platform/external/rust/crates/num-derive" revision="master" />
   <project path="external/rust/crates/num-integer" name="platform/external/rust/crates/num-integer" revision="master" />
   <project path="external/rust/crates/num-traits" name="platform/external/rust/crates/num-traits" revision="master" />
-  <project path="external/rust/crates/num_cpus" name="platform/external/rust/crates/num_cpus" revision="master" />
   <project path="external/rust/crates/once_cell" name="platform/external/rust/crates/once_cell" revision="master" />
   <project path="external/rust/crates/os_str_bytes" name="platform/external/rust/crates/os_str_bytes" revision="master" />
   <project path="external/rust/crates/paste" name="platform/external/rust/crates/paste" revision="master" />
