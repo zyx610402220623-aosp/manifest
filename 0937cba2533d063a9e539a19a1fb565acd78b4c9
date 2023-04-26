@@ -16,6 +16,23 @@
       "message": "Should fix LUCI.",
       "revId": "0937cba2533d063a9e539a19a1fb565acd78b4c9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d3de6b2_c5fa7c5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1894735
+      },
+      "writtenOn": "2023-04-26T09:33:30Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "0937cba2533d063a9e539a19a1fb565acd78b4c9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
