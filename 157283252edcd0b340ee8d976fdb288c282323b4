@@ -16,6 +16,24 @@
       "message": "Please move this above the marker.",
       "revId": "157283252edcd0b340ee8d976fdb288c282323b4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "727f4a0c_fd3f519e",
+        "filename": "default.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 1278,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-05-04T22:31:35Z",
+      "side": 1,
+      "message": "The plan is to use this manifest in a downstream `main-plus-trusty` branch. Wouldn\u0027t the Trusty-specific projects go below the merge marker then?\n\nSpeaking of: in `main-plus-trusty`, would the marker need to be preserved or deleted?",
+      "parentUuid": "9b1e63a1_3f5c3f9a",
+      "revId": "157283252edcd0b340ee8d976fdb288c282323b4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
