@@ -1,12 +1,20 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (021b5a Pin manifest of android12L-tests-release(release-request-afc)
   <default revision="android12L-tests-release" remote="aosp" sync-j="4" />
+=======
+  <default revision="sparse-10069903-L18900000960616143" remote="aosp" sync-j="4" />
+>>>>>>> BRANCH (01545c Pin manifest of sparse-10069903-L18900000960616143(release-r)
 
   <superproject name="platform/superproject" remote="aosp" revision="android12L-tests-dev" />
   <contactinfo bugurl="go/repo-bug" />
 
+<<<<<<< HEAD   (021b5a Pin manifest of android12L-tests-release(release-request-afc)
   <project path="build/make" name="platform/build" revision="c2221ed8fbed4588934ee136444a1350ec216af3" groups="pdk" upstream="android12L-tests-release">
+=======
+  <project path="build/make" name="platform/build" revision="ac53322c5794b31e227fb5c28d43c32e89f77da8" groups="pdk" upstream="android12L-tests-release">
+>>>>>>> BRANCH (01545c Pin manifest of sparse-10069903-L18900000960616143(release-r)
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -888,7 +896,11 @@
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" revision="8dabea5aafff4e50f58ffcb37167fb6ac10e23b9" upstream="android12L-tests-release" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" revision="59d1d8dfe972e334adf431806035bad88f4a1d09" upstream="android12L-tests-release" />
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" revision="37f5601aba7c4864f41ecde7b63566077f2d7da8" groups="pdk-cw-fs,pdk-fs" upstream="android12L-tests-release" />
+<<<<<<< HEAD   (021b5a Pin manifest of android12L-tests-release(release-request-afc)
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" revision="4e136b892b45e3133700735826720f9d4021b869" groups="pdk" upstream="android12L-tests-release" />
+=======
+  <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" revision="d55202693ee8390eb0f37a528fd0c8e68401b9e9" groups="pdk" upstream="android12L-tests-release" />
+>>>>>>> BRANCH (01545c Pin manifest of sparse-10069903-L18900000960616143(release-r)
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" revision="5e77d601cb762e1d176cb2bdfd0e9211483c861c" upstream="android12L-tests-release" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" revision="7ff85b2842b4e7f7e31cd9b78d872f4e8812fb0d" upstream="android12L-tests-release" />
   <project path="packages/modules/NetworkPermissionConfig" name="platform/packages/modules/NetworkPermissionConfig" groups="pdk-cw-fs,pdk-fs" revision="175cfd363f164db1f4dd5ef20a673f12f6c55303" upstream="android12L-tests-release" />
