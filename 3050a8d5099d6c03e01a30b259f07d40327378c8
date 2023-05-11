@@ -52,6 +52,24 @@
       "parentUuid": "ac5ee4df_ce09a048",
       "revId": "3050a8d5099d6c03e01a30b259f07d40327378c8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da13dea5_9fa012c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2023-05-11T11:44:12Z",
+      "side": 1,
+      "message": "I don\u0027t know where it came from. However, `metalava-master` is different to `metalava-main`, the former tests changes in `aosp/master` the latter is really the development branch for `androidx`. The `androidx-main` manifest contains the following:\n```\n\u003cproject path\u003d\"tools/metalava\" name\u003d\"platform/tools/metalava\" clone-depth\u003d\"1\" revision\u003d\"metalava-main\" /\u003e\n```",
+      "parentUuid": "9677baf4_fa6e35d6",
+      "revId": "3050a8d5099d6c03e01a30b259f07d40327378c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
