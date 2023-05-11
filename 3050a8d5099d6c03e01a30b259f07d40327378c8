@@ -16,6 +16,24 @@
       "message": "Is this branch relevant for anything? I think metalava-main is the branch aurimas and team use?",
       "revId": "3050a8d5099d6c03e01a30b259f07d40327378c8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac5ee4df_ce09a048",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2023-05-11T11:29:49Z",
+      "side": 1,
+      "message": "This is used by the `aosp-metalava-master` continuous build which is what broke https://r.android.com/2583180.",
+      "parentUuid": "6ce20416_c0a34cfb",
+      "revId": "3050a8d5099d6c03e01a30b259f07d40327378c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
