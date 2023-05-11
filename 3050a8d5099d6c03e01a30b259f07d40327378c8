@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ce20416_c0a34cfb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1060959
+      },
+      "writtenOn": "2023-05-11T11:28:31Z",
+      "side": 1,
+      "message": "Is this branch relevant for anything? I think metalava-main is the branch aurimas and team use?",
+      "revId": "3050a8d5099d6c03e01a30b259f07d40327378c8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
