@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3503733b_2118a76e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1903830
+      },
+      "writtenOn": "2023-05-11T19:14:55Z",
+      "side": 1,
+      "message": "Always nice to see dependencies being removed.",
+      "revId": "4d5b1ee2e07660fb80d8a1d6a032ef47e600c26f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
