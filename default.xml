@@ -92,8 +92,12 @@
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
     <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk" />
-  <!-- to get /system/xbin/su -->
+  <!-- to get /system/xbin/su and /system/bin/simpleperf -->
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
+  <!-- simpleperf dependencies -->
+    <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
+    <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
+    <project path="external/OpenCSD" name="platform/external/OpenCSD" groups="pdk" />
 
   <!-- jdwp test location -->
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk" />
