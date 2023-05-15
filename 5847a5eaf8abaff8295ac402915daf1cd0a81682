@@ -22,6 +22,30 @@
       },
       "revId": "5847a5eaf8abaff8295ac402915daf1cd0a81682",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff99c771_025abf2b",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1943701
+      },
+      "writtenOn": "2023-05-15T17:56:39Z",
+      "side": 1,
+      "message": "Wow, I\u0027m pretty sure I copied this line from above, but apparently not 😊",
+      "parentUuid": "164d8f2d_c53f7cd9",
+      "range": {
+        "startLine": 173,
+        "startChar": 102,
+        "endLine": 173,
+        "endChar": 108
+      },
+      "revId": "5847a5eaf8abaff8295ac402915daf1cd0a81682",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
