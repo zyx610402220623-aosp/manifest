@@ -42,11 +42,27 @@
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="9ecad6cd080364066bb9d6fe83a7b3417976e069" upstream="androidx-compose-beta-release" />
 
+<<<<<<< HEAD   (ab425b Pin manifest of androidx-compose-beta-release)
   
   <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="dc79c76051b5d4ec8d32b9981f197847ba95ff50" upstream="androidx-compose-beta-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="df25e4834cf6f2d5a3eac22cf9683fc02515462e" upstream="androidx-compose-beta-release">
+=======
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="master">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="master">
+>>>>>>> BRANCH (148dd2 Migrate platform SDKs to top-level fullsdk project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
