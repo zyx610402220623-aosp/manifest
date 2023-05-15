@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (50e5b3 Merge empty history for sparse-10128874-L22900000960642450)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-9936851-L16100000960659175" remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp" />
+>>>>>>> BRANCH (93910d Pin manifest of sparse-9936851-L16100000960659175(release-re)
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
@@ -694,4 +700,48 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (50e5b3 Merge empty history for sparse-10128874-L22900000960642450)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="2fd6e4198f052587306c2bfccd178d897c33b386" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="f9686e225b43e586b3015d37c2cae01f24c48a69" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-webkit-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-webkit-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="6acfb6cdadcf3442506adef3342663c059ed8b4a" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="765c40d7ee612bed3f8658a803b0a2ef40394628" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="5792ae77738ef53a2234eb6cb01ea32914e846f4" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="9da4be25c035d4986dbef2aa77eabb49cd2a6557" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="d1c6bc6004632485d75145598f8fb69e27d39ca9" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="eb661c960f3e3b10bbf77c63a2e38c4b72a5bb61" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="8110c43fd3a9d1a01f08d8f31a013171a07a13fe" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-webkit-release" />
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="3ce09509b4e898dc07ed237f84924003e83a6ad8" clone-depth="1" upstream="androidx-webkit-release" />
+  
+  
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="6c5f0fe16d6d3c0a50cb3d5cb8e9e27c044987de" upstream="androidx-webkit-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="5f1e4c6cd1bce9c0042e9a8bda44e737c04e6554" upstream="androidx-webkit-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="d82df12cd5087fab0a98a700ac4e0088b6b6165e" upstream="androidx-webkit-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (93910d Pin manifest of sparse-9936851-L16100000960659175(release-re)
 </manifest>
