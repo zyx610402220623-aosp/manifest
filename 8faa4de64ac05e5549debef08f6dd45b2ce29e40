@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ad74735_45faa8e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-05-15T16:14:44Z",
+      "side": 1,
+      "message": "jamesfarrell@, is there a bug ID for this change?\n\nDo you intend to resolve the merge conflict or can this change be abandoned?",
+      "revId": "8faa4de64ac05e5549debef08f6dd45b2ce29e40",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
