@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9771c3a4_cf433a10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2023-05-15T14:29:49Z",
+      "side": 1,
+      "message": "PDK review process has been applied.",
+      "revId": "5280c83f89c2c1ea5bcc01708e964f6e09b5c478",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
