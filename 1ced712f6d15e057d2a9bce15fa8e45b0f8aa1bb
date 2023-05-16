@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4a30df5_6c17b6c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-05-16T23:11:34Z",
+      "side": 1,
+      "message": "ABT status update: see b/230135749#comment114.",
+      "revId": "1ced712f6d15e057d2a9bce15fa8e45b0f8aa1bb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
