@@ -8,7 +8,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" revision="studio-main" remote="aosp"/>
+  <superproject name="platform/superproject" revision="studio-main-without-vendor" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- BEGIN open-source projects -->
