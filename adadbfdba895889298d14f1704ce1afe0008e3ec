@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7394d445_6a829e97",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2023-05-17T14:14:52Z",
+      "side": 1,
+      "message": "Bypassing presubmit as presubmit failures are on branches downstream of `master`. `main` is not currently configured to merge anywhere.",
+      "revId": "adadbfdba895889298d14f1704ce1afe0008e3ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
