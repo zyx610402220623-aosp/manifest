@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c6d826a_370df7be",
+        "filename": "default.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1310923
+      },
+      "writtenOn": "2023-05-17T22:55:36Z",
+      "side": 1,
+      "message": "This should just point studio-main since that is the superproject generated for the studio-main manifest",
+      "range": {
+        "startLine": 11,
+        "startChar": 55,
+        "endLine": 11,
+        "endChar": 81
+      },
+      "revId": "d6b518de84e4e0501b3b3b17cf09277521977c27",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
