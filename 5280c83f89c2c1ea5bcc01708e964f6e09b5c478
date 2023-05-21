@@ -16,6 +16,23 @@
       "message": "PDK review process has been applied.",
       "revId": "5280c83f89c2c1ea5bcc01708e964f6e09b5c478",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "094de220_294378ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1774557
+      },
+      "writtenOn": "2023-05-21T09:33:23Z",
+      "side": 1,
+      "message": "good job.",
+      "revId": "5280c83f89c2c1ea5bcc01708e964f6e09b5c478",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
