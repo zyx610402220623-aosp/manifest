@@ -16,6 +16,23 @@
       "message": "enabling the new repo",
       "revId": "2593c41c9ef07996356f73f3ca9f95a9590f5c93",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00cd0e01_e6230b4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-05-25T16:18:20Z",
+      "side": 1,
+      "message": "Please resolve the merge conflict and presubmit failures.",
+      "revId": "2593c41c9ef07996356f73f3ca9f95a9590f5c93",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
