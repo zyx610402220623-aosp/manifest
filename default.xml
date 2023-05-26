@@ -3,6 +3,7 @@
 
   <remote  name="aosp"
            fetch=".."
+<<<<<<< HEAD   (0998a4 [conflict] Update superproject tag to point to the correct s)
            review="https://android-review.googlesource.com/" />
   <default revision="mirror-goog-studio-main"
            remote="aosp"
@@ -10,6 +11,14 @@
 
   <superproject name="platform/superproject" revision="studio-main" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
+=======
+           review="sso://googleplex-android/" />
+  <default revision="studio-main"
+           remote="goog"
+           sync-c="true" />
+  <manifest-server url="http://android-test:8787" />
+  <superproject name="platform/superproject/base" remote="goog" revision="studio-main-without-vendor"/>
+>>>>>>> BRANCH (f6a276 DO NOT MERGE ANYWHERE - Update studio-main-without-vendor to)
 
   <!-- BEGIN open-source projects -->
   <project path="tools/buildSrc" name="platform/tools/buildSrc">
