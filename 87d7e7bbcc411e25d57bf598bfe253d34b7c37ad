@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fa2c98b_0dab371d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1903830
+      },
+      "writtenOn": "2023-05-31T18:15:58Z",
+      "side": 1,
+      "message": "Adding ipalant for +2.",
+      "revId": "87d7e7bbcc411e25d57bf598bfe253d34b7c37ad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
