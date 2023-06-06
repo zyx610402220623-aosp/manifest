@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c743cee5_cfd747b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1038443
+      },
+      "writtenOn": "2023-06-06T09:57:50Z",
+      "side": 1,
+      "message": "Unfortunately, bringing in llvm as a dependency is a pretty big cost for everyone. I suggest just keeping this for yourself for local development.",
+      "revId": "6159587b5a70eea9c980a63c8f669b9259cdc9e9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
