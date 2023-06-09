@@ -16,6 +16,23 @@
       "message": "I have no +2s here, but I would if I could.",
       "revId": "5cfc1dc9a809a3240b871f15edfc1355574e62ec",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e61ab999_07b84382",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1878380
+      },
+      "writtenOn": "2023-06-09T20:54:47Z",
+      "side": 1,
+      "message": "I will reach out to RelEng oncall for +2s",
+      "revId": "5cfc1dc9a809a3240b871f15edfc1355574e62ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
