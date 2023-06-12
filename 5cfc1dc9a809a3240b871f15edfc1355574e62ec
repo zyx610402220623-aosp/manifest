@@ -33,6 +33,23 @@
       "message": "I will reach out to RelEng oncall for +2s",
       "revId": "5cfc1dc9a809a3240b871f15edfc1355574e62ec",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cccaeae_752dad13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-06-12T16:40:29Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/bazelbuild-rules_go.",
+      "revId": "5cfc1dc9a809a3240b871f15edfc1355574e62ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
