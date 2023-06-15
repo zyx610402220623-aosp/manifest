@@ -16,6 +16,24 @@
       "message": "Looks like presubmit fails trying to resolve branch \u0027main\u0027? There\u0027s no branch \u0027main\u0027 in the mirrored repo, only \u0027master\u0027, but I don\u0027t see a way to point it to a different branch in the manifest itself. Is there a mapping that needs to be updated elswewhere?",
       "revId": "1cebf423e8e44d4c8a82392f4cb22912b32a9dca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bd84c76_d5019ef9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2010495
+      },
+      "writtenOn": "2023-06-15T17:42:22Z",
+      "side": 1,
+      "message": "Looks like the issue was transient.",
+      "parentUuid": "c0ef9f0a_247a3970",
+      "revId": "1cebf423e8e44d4c8a82392f4cb22912b32a9dca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
