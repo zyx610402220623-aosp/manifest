@@ -51,6 +51,24 @@
       "message": "This will subscribe to the \"main\" branch in that submodule, and it seems it doesn\u0027t exist yet.\n\nUsually the right thing to do is creating the branch in the submodule. Alternatively you can specific the branch in this \u003cproject\u003e entry.",
       "revId": "1cebf423e8e44d4c8a82392f4cb22912b32a9dca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9535f171_4e9a3e92",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 429,
+      "author": {
+        "id": 2010495
+      },
+      "writtenOn": "2023-06-15T20:52:51Z",
+      "side": 1,
+      "message": "Looks like it eventually worked with \u0027master\u0027 branch. Should this be something to worry about, or does it work as intended?",
+      "parentUuid": "cee32c6f_9fee91eb",
+      "revId": "1cebf423e8e44d4c8a82392f4cb22912b32a9dca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
