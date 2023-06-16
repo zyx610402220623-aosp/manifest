@@ -8,6 +8,7 @@
   <project path="build/make" name="platform/build" revision="b15e87edf9927155a55ff7fde94082b7a81cce07" upstream="build-tools-release">
     <linkfile src="tools" dest="build/tools" />
   </project>
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
   <project path="build/bazel" name="platform/build/bazel" groups="pdk" revision="608b82f00925c1444475a95483fc7a625e623f19" upstream="build-tools-release">
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
@@ -15,9 +16,19 @@
   <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" revision="51f2a3db85692e3b5ecd63cb25297b329a95af1f" upstream="build-tools-release" />
   <project path="build/blueprint" name="platform/build/blueprint" revision="b8239dad7fa6b13fbc57accd4a42907570021e04" upstream="build-tools-release" />
   <project path="build/soong" name="platform/build/soong" revision="8a54c19d22f7b37695af74c2980d776de660c195" upstream="build-tools-release">
+=======
+  <project path="build/bazel" name="platform/build/bazel" groups="pdk" >
+    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+    <linkfile src="bazel.BUILD" dest="BUILD" />
+  </project>
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="pdk" />
+  <project path="build/blueprint" name="platform/build/blueprint" />
+  <project path="build/soong" name="platform/build/soong" >
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
   <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk" revision="736170fc8e2aef6949137e3cf06933f29b963d7f" upstream="build-tools-release" />
   <project path="external/golang-protobuf" name="platform/external/golang-protobuf" revision="eedb94fe4b150bb423a983671d97ddc56bdb3f7f" upstream="build-tools-release" />
   <project path="packages/modules/common" name="platform/packages/modules/common" groups="pdk-cw-fs,pdk-fs" revision="36a9c8452d994311eb36a735c5541dc9b5cea864" upstream="build-tools-release" />
@@ -26,19 +37,56 @@
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" revision="fa0de46c3a9072eb9bd23a1f0a2c452f1ddac6fc" upstream="build-tools-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="0b08d63c324c2ecd350ec07f9f77ff1409d5c235" upstream="build-tools-release" />
   <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" revision="024347442447004ba94a03453ed5425ab1581b09" upstream="build-tools-release" />
+=======
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="pdk" />
+  <project path="external/golang-protobuf" name="platform/external/golang-protobuf" />
+  <project path="packages/modules/common" name="platform/packages/modules/common" groups="pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/bazel/common" name="platform/prebuilts/bazel/common" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" groups="notdefault,platform-darwin,pdk" clone-depth="1" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="linux,pdk" clone-depth="1" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
+  <project path="prebuilts/remoteexecution-client" name="platform/prebuilts/remoteexecution-client" groups="pdk" clone-depth="1" />
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
 
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
   
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="linux" clone-depth="1" revision="c63a47025c101dcaf6ebb3c57cab8ccb6a9d5135" upstream="build-tools-release" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="f659152fc948d50e8b2c7a5b1f1dd165e6a0c8d1" upstream="build-tools-release" />
   <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux" clone-depth="1" revision="db8dd125ecc777ce51e971d9b3dc6ab2f2c1a869" upstream="build-tools-release" />
+=======
+  <!-- toolchain linux prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="linux" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" />
+  <project path="prebuilts/go/linux-x86" name="platform/prebuilts/go/linux-x86" groups="linux" clone-depth="1" />
 
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
 
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
+=======
+  <!-- toolchain darwin prebuilts -->
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" />
+  <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" />
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
+
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
   
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="59e96409d0489f9a356c3de3e5b37d9043b895f9" upstream="build-tools-release" />
   <project path="prebuilts/go/darwin-x86" name="platform/prebuilts/go/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="f01e2c06ee0acd83183a58b0a9c24ea5b5d53ee9" upstream="build-tools-release" />
+=======
+  <!-- toolchain windows prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="linux" clone-depth="1" />
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
 
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
   
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="linux" clone-depth="1" revision="0b1d9ee2cf605aac49aadca59f211229049a8aba" upstream="build-tools-release" />
+=======
+  <!-- toolchain jdk prebuilts -->
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" />
+  <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" clone-depth="1" />
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
 
   
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="707408d1314783343272ef3bc908fa94e5d47e8b" upstream="build-tools-release" />
@@ -46,11 +94,81 @@
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="74e4f1844dfa9b8df9e0fe2ff34a2ecc24d52b07" upstream="build-tools-release" />
   <project path="prebuilts/jdk/jdk9" name="platform/prebuilts/jdk/jdk9" clone-depth="1" revision="0ff41a53c757fed33a113405c4183dc41951d9d6" upstream="build-tools-release" />
 
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
   
   <project path="prebuilts/clang-tools" name="platform/prebuilts/clang-tools" clone-depth="1" revision="57115430e1bab5d8174b2c53edbc9f7b7aab77e2" upstream="build-tools-release" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" clone-depth="1" revision="dab0c015e03ac6f4e35fbc0b65a3a3bd5221d673" upstream="build-tools-release" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" revision="ba14f51bcf6d43003d2f50aa4162f7c74e92c6c8" upstream="build-tools-release" />
+=======
+  <!-- dependency source -->
+  <project path="bionic" name="platform/bionic" />
+  <project path="development" name="platform/development" />
+  <project path="external/arm-optimized-routines" name="platform/external/arm-optimized-routines" />
+  <project path="external/auto" name="platform/external/auto" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+  <project path="external/bazelbuild-rules_license" name="platform/external/bazelbuild-rules_license" />
+  <project path="external/boringssl" name="platform/external/boringssl" />
+  <project path="external/brotli" name="platform/external/brotli" />
+  <project path="external/capstone" name="platform/external/capstone" />
+  <project path="external/clang" name="platform/external/clang" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" />
+  <project path="external/dagger2" name="platform/external/dagger2" />
+  <project path="external/error_prone" name="platform/external/error_prone" clone-depth="1" />
+  <project path="external/escapevelocity" name="platform/external/escapevelocity" />
+  <project path="external/expat" name="platform/external/expat" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" />
+  <project path="external/go-cmp" name="platform/external/go-cmp" />
+  <project path="external/go-creachadair-shell" name="platform/external/go-creachadair-shell" />
+  <project path="external/go-creachadair-stringset" name="platform/external/go-creachadair-stringset" />
+  <project path="external/go-etree" name="platform/external/go-etree" />
+  <project path="external/go-subcommands" name="platform/external/go-subcommands" />
+  <project path="external/golang-x-sync" name="platform/external/golang-x-sync" />
+  <project path="external/golang-x-sys" name="platform/external/golang-x-sys" />
+  <project path="external/golang-x-tools" name="platform/external/golang-x-tools" />
+  <project path="external/google-java-format" name="platform/external/google-java-format" />
+  <project path="external/googletest" name="platform/external/googletest" />
+  <project path="external/guava" name="platform/external/guava" />
+  <project path="external/gson" name="platform/external/gson" groups="pdk" />
+  <project path="external/icu" name="platform/external/icu" />
+  <project path="external/javapoet" name="platform/external/javapoet" />
+  <project path="external/jemalloc_new" name="platform/external/jemalloc_new" />
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" />
+  <project path="external/jsr305" name="platform/external/jsr305" />
+  <project path="external/kythe" name="platform/external/kythe" />
+  <project path="external/libcap" name="platform/external/libcap" />
+  <project path="external/libcxx" name="platform/external/libcxx" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" />
+  <project path="external/libffi" name="platform/external/libffi" />
+  <project path="external/libnl" name="platform/external/libnl" />
+  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/licenseclassifier" name="platform/external/licenseclassifier" />
+  <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" />
+  <project path="external/llvm" name="platform/external/llvm" />
+  <project path="external/lzma" name="platform/external/lzma" />
+  <project path="external/musl" name="platform/external/musl" />
+  <project path="external/ow2-asm" name="platform/external/ow2-asm" />
+  <project path="external/pcre" name="platform/external/pcre" />
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/safe-iop" name="platform/external/safe-iop" />
+  <project path="external/selinux" name="platform/external/selinux" />
+  <project path="external/spdx-tools" name="platform/external/spdx-tools" />
+  <project path="external/sqlite" name="platform/external/sqlite" />
+  <project path="external/starlark-go" name="platform/external/starlark-go" />
+  <project path="external/tinyxml2" name="platform/external/tinyxml2" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="external/zopfli" name="platform/external/zopfli" />
+  <project path="system/core" name="platform/system/core" />
+  <project path="system/libbase" name="platform/system/libbase" />
+  <project path="system/libhwbinder" name="platform/system/libhwbinder" />
+  <project path="system/libziparchive" name="platform/system/libziparchive" />
+  <project path="system/logging" name="platform/system/logging" />
+  <project path="system/unwinding" name="platform/system/unwinding" />
+  <project path="system/tools/xsdc" name="platform/system/tools/xsdc" />
+  <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" />
+  <project path="system/apex" name="platform/system/apex" groups="pdk" />
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
 
+<<<<<<< HEAD   (628a47 Pin manifest of build-tools-release(release-request-7600110d)
   
   <project path="bionic" name="platform/bionic" revision="cbfcd13acdc54ad86b96402b63722e5a50d42d77" upstream="build-tools-release" />
   <project path="development" name="platform/development" revision="ae8f6a96f026c62dd23b8519bec0d79aa36f4a7a" upstream="build-tools-release" />
@@ -145,3 +263,32 @@
   <project name="toolchain/make" revision="7f1b28cb868e94502c5c97dcd9bbe357853f0542" upstream="build-tools-release" />
   <project name="toolchain/xz" revision="e953aba95e0060876d5969cc9322cf2dbb5e2cf5" upstream="build-tools-release" />
 </manifest>
+=======
+  <!-- target projects -->
+  <project path="art" name="platform/art" />
+  <project path="build/kati" name="platform/build/kati" />
+  <project path="dalvik" name="platform/dalvik" />
+  <project path="external/bc" name="platform/external/bc" />
+  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bloaty" name="platform/external/bloaty" />
+  <project path="external/bzip2" name="platform/external/bzip2" />
+  <project path="external/desugar" name="platform/external/desugar" />
+  <project path="external/flex" name="platform/external/flex" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" />
+  <project path="external/ktfmt" name="platform/external/ktfmt" />
+  <project path="external/ninja" name="platform/external/ninja" />
+  <project path="external/nsjail" name="platform/external/nsjail" />
+  <project path="external/one-true-awk" name="platform/external/one-true-awk" />
+  <project path="external/openssl" name="platform/external/openssl" revision="build-tools" />
+  <project path="external/python/cpython2" name="platform/external/python/cpython2" />
+  <project path="external/python/cpython3" name="platform/external/python/cpython3" />
+  <project path="external/toybox" name="platform/external/toybox" />
+  <project path="external/turbine" name="platform/external/turbine" />
+  <project path="system/tools/aidl" name="platform/system/tools/aidl" />
+  <project path="system/tools/hidl" name="platform/system/tools/hidl" />
+  <project name="toolchain/go" />
+  <project name="toolchain/m4" />
+  <project name="toolchain/make" />
+  <project name="toolchain/xz" />
+</manifest>
+>>>>>>> BRANCH (597b65 Added spdx-tools to build-tools platform/manifest)
