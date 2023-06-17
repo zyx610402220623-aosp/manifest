@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da7552f1_c69b8ff3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1332258
+      },
+      "writtenOn": "2023-06-17T00:28:36Z",
+      "side": 1,
+      "message": "Downstream branches have been created.",
+      "revId": "5c1cd4a08c9bcf28da90f545ee3372792df04001",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
