@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e58b2c2_741b7c2b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2023-06-23T16:26:17Z",
+      "side": 1,
+      "message": "Nit: Can you add something like this here:\n\n```\nTest: Validated with validate_repo_branch.par\n      (see go/mani-verify#using-validate-repo-branchpar):\n      /google/data/ro/projects/android/android-build/validate_repo_branch.par \\\n        --target_repo\u003dandroid --branch\u003dmaster-art \\\n        --local_manifest default.xml\n```\n\n?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 15
+      },
+      "revId": "71e1b42e60678f9c5b5ed21fffe042f828df0ba5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
