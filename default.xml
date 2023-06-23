@@ -19,12 +19,31 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="f52efc295514ba32cd5902788c136c3c54aedee5" upstream="androidx-compose-compiler-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="2c50a2da9c2b8e28b7226485abbc97012671c3ce" upstream="androidx-compose-compiler-release" />
 
+<<<<<<< HEAD   (89d5ac Pin manifest of androidx-compose-compiler-release(release-re)
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="05d620924e3466a6f2a3771dbf6322dd0d6f855e" upstream="androidx-compose-compiler-release" />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="11b955971c204d004992c8c3e048497c66965470" upstream="androidx-compose-compiler-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-compose-compiler-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="d62be67b25455a94db4a1d9ffe7fe515ca69cb3c" upstream="androidx-compose-compiler-release" />
+=======
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
 
+<<<<<<< HEAD   (89d5ac Pin manifest of androidx-compose-compiler-release(release-re)
   
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="911d9e8efc017d43ba864f44929575f2e9ee7b31" upstream="androidx-compose-compiler-release" />
@@ -34,16 +53,44 @@
   
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-compose-compiler-release" />
+=======
+  <!-- Config: shallow + master revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="master" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="master" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="master" />
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
 
   
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="871663dc4f626bf638afdd3c8eb9d2d05cb85c70" upstream="androidx-compose-compiler-release" />
 
+<<<<<<< HEAD   (89d5ac Pin manifest of androidx-compose-compiler-release(release-re)
   
   <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="26548503e428eaba17d2c4ef05b0f488196b5418" upstream="androidx-compose-compiler-release">
+=======
+  <!-- Gradle dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
+
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="master">
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
+<<<<<<< HEAD   (89d5ac Pin manifest of androidx-compose-compiler-release(release-re)
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="df25e4834cf6f2d5a3eac22cf9683fc02515462e" upstream="androidx-compose-compiler-release">
+=======
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="master">
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
@@ -76,6 +123,22 @@
   </project>
   <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="b5f94001c3e4a20b13a217010473e171a73094bb" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-compose-compiler-release" />
   
+<<<<<<< HEAD   (89d5ac Pin manifest of androidx-compose-compiler-release(release-re)
+=======
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="master"
+    clone-depth="1" />
+  <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests. -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/jdk/jdk8"
+    name="platform/prebuilts/jdk/jdk8"
+    clone-depth="1" />
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
   
   
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="903a23b4ea1f96930dcf322f610f24651e283474" clone-depth="1" upstream="androidx-compose-compiler-release" />
