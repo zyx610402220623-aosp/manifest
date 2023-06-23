@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "557e6bce_e2d1f7bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2023-06-23T16:55:21Z",
+      "side": 1,
+      "message": "Minimum required crates for websocket with handshake protocol",
+      "revId": "471ea0fd5c7a92fc1e57e8a5f13a7c0f981c2362",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
