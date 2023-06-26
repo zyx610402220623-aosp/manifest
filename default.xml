@@ -6,6 +6,7 @@
   
   <project path="build/make" name="platform/build" revision="79b62d773df62c9c5fc7843ab712c4372ecb5c94" upstream="androidx-glance-release" />
 
+<<<<<<< HEAD   (e1878e Pin manifest of androidx-glance-release(release-request-f03c)
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-glance-release" />
@@ -21,12 +22,47 @@
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-glance-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="36f6ac644095a12b997da256954c540b88037c45" upstream="androidx-glance-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="7fce554a053b8e5cd546f781a96c2e00d116e2f1" upstream="androidx-glance-release" />
+=======
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
 
+  <!-- Config: shallow + master revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="master" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="master" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="master" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="master" />
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
+
+<<<<<<< HEAD   (e1878e Pin manifest of androidx-glance-release(release-request-f03c)
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="294201955472cd7a5de2c5bc7fc8cda4968f0c5f" upstream="androidx-glance-release" />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="bf05a83fe6392a2ba54198b48a43a41ea8007c69" upstream="androidx-glance-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-glance-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="80009aec4fa61fe503f6a7a0a1f75a2603d1ac7a" upstream="androidx-glance-release" />
+=======
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="master" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="master" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="master" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+  <!-- Config: shallow + same revision -->
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
 
   
   
@@ -38,18 +74,36 @@
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-glance-release" />
 
+<<<<<<< HEAD   (e1878e Pin manifest of androidx-glance-release(release-request-f03c)
   
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="dfcd7b1684909c8e0629635d866058e3049491c4" upstream="androidx-glance-release" />
 
   
   <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="dc79c76051b5d4ec8d32b9981f197847ba95ff50" upstream="androidx-glance-release">
+=======
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="master">
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
+<<<<<<< HEAD   (e1878e Pin manifest of androidx-glance-release(release-request-f03c)
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="df25e4834cf6f2d5a3eac22cf9683fc02515462e" upstream="androidx-glance-release">
+=======
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="master">
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
+<<<<<<< HEAD   (e1878e Pin manifest of androidx-glance-release(release-request-f03c)
   
   <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="8f3787f8d9bce732e3b3633e732f0f020915d294" upstream="androidx-glance-release" />
   <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="f00d428fe031c83ed01496f8d44d1b0d20d043b0" upstream="androidx-glance-release" />
@@ -65,18 +119,89 @@
   
   <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="cca2831d8a00912dd2b04cabc25015aa80803146" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-glance-release" />
   <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="5e0dad3edd2017a81c6ef17164389100af6cf32f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-glance-release">
+=======
+  <!-- darwin specific -->
+  <project
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/platform-tools"
+    name="platform/prebuilts/fullsdk-darwin/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/tools"
+    name="platform/prebuilts/fullsdk-darwin/tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+
+  <!-- linux specific -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r23"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmake"
+    name="platform/prebuilts/cmake/darwin-x86"
+    revision="master"
+    groups="notdefault,platform-darwin"
+    clone-depth="1">
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
   <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="4f30d131a611e91cf02c429333c1b49457298885" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-glance-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (e1878e Pin manifest of androidx-glance-release(release-request-f03c)
   <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="0b37953bbbe43235513ed07da9bd9589db1f444c" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-glance-release" />
   <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="888c8a29f91957faf78b3dc178f2f07565b8e051" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-glance-release">
+=======
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r23"
+    revision="master"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    revision="master"
+    groups="notdefault,platform-linux"
+    clone-depth="1">
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
   <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="4d4150e249a214a07f993bfea02d320a722f8f2a" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-glance-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (e1878e Pin manifest of androidx-glance-release(release-request-f03c)
   <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="58a1c0fe7147dcefb60f22d20f302b4123711b3d" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-glance-release" />
   
   
@@ -90,6 +215,31 @@
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="7df4d2b84b01240b7623e160cddc2e40c60927a1" upstream="androidx-glance-release" />
 
   
+=======
+  <project
+    path="prebuilts/fullsdk-linux/kernel-build-tools"
+    name="kernel/prebuilts/build-tools"
+    revision="master"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+  
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + master revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="master"
+    clone-depth="1" />
+  <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests. -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/jdk/jdk8"
+    name="platform/prebuilts/jdk/jdk8"
+    clone-depth="1" />
+  
+  <!-- Golden images -->
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
+>>>>>>> BRANCH (2f725f Use androidx-main branch for dexter project)
 
   
   <project path="frameworks/support" name="platform/frameworks/support" revision="dd0385832ed68ed98794be5da30d4f281a15413a" upstream="androidx-glance-release" />
