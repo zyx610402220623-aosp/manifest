@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16283ca0_687abb1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2023-06-27T06:09:27Z",
+      "side": 1,
+      "message": "I uploaded a similar change. \nhttps://android-review.git.corp.google.com/c/platform/manifest/+/2638687\n\nBut either one will work.",
+      "revId": "746692ea608237d8ef670c5a5f1eadf08b4bbd62",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
