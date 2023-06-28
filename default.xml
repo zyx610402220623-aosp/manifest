@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (e9263d Merge empty history for sparse-10365594-L35000000961652674)
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-10228296-L18200000961652453" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="10b822036426cd9ea257f47d444746de06883a29" upstream="androidx-fragment-release" />
+>>>>>>> BRANCH (025c55 Pin manifest of sparse-10228296-L18200000961652453(release-r)
 
+<<<<<<< HEAD   (e9263d Merge empty history for sparse-10365594-L35000000961652674)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -12,6 +19,47 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-fragment-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="2f269ce72a0744e3d397bb44e1f673292ca92bab" upstream="androidx-fragment-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="fea49ea4009c30e9041a2fb2510a1400b3d0216e" upstream="androidx-fragment-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="ba6eb5052fc05c53240d01770dade0a58bbe4eb1" upstream="androidx-fragment-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="7fdc89017bb0f3af9ea0ebe37eac0da468d630c4" upstream="androidx-fragment-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-fragment-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="eb7a783c5acdd918466c39ef68720d9f3b288b4c" upstream="androidx-fragment-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="272dfa1fb8b57578975a4c72c818d47f95231718" upstream="androidx-fragment-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="a3ff5044b6941cc424177005bc1253640ae8f762" upstream="androidx-fragment-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="83148557b6843ceb2e55c80e0e46f4f4c6209e3a" upstream="androidx-fragment-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="4284401b10bd250032c8aa13eedcf946937922ae" upstream="androidx-fragment-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="0d1d6f47bd19313204cc628cef39587857661c7c" upstream="androidx-fragment-release" />
+
+  
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="b55be0b1e789a1479a2e8b86d6d4551367213076" upstream="androidx-fragment-release" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="9f2fde82f8e7666a0bc0fbade18444e4d3dd6192" upstream="androidx-fragment-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-fragment-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="7447ad8db319c34111a3d43b64b9485ac1a8115d" upstream="androidx-fragment-release" />
+
+  
+  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="1b049110909615c0cad0d9cd16122952456dcc78" upstream="androidx-fragment-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="8a36ce43066138e9dbe228ca7ac104bf8e4cdbda" upstream="androidx-fragment-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-fragment-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="572741978bc571744f85243d7e7aeb66527ef74e" upstream="androidx-fragment-release" />
+  
+  
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="0b4f0fcf159096a7b6f7bc71165f1bcf5acb70d7" upstream="androidx-fragment-release" />
+
+  
+  
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="81ca44b0b519808a5571248ad783de3d0e633c30" upstream="androidx-fragment-release" />
+
+  
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="dc79c76051b5d4ec8d32b9981f197847ba95ff50" upstream="androidx-fragment-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
+>>>>>>> BRANCH (025c55 Pin manifest of sparse-10228296-L18200000961652453(release-r)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
