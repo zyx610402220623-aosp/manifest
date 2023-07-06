@@ -16,11 +16,15 @@
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
+<<<<<<< HEAD   (6cee9f [automerger skipped] DO NOT MERGE ANYWHERE - Update master t)
   <remote  name="aospsuperproject"
            fetch=".."
            review="https://android-review.googlesource.com/"
            revision="master-plus-llvm" />
   <superproject name="platform/superproject" remote="aospsuperproject"/>
+=======
+  <superproject name="platform/superproject/main" remote="aosp"/>
+>>>>>>> BRANCH (363bb2 DO NOT MERGE ANYWHERE Revert blankspace changes in commit 33)
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
