@@ -10,7 +10,11 @@
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
+<<<<<<< HEAD   (a4973f [automerger skipped] DO NOT MERGE ANYWHERE - Update master t)
   <superproject name="platform/superproject" remote="aosp" revision="master-plus-rust" />
+=======
+  <superproject name="platform/superproject/main" remote="aosp"/>
+>>>>>>> BRANCH (363bb2 DO NOT MERGE ANYWHERE Revert blankspace changes in commit 33)
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
