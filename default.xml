@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
   <default revision="main"
            remote="aosp"
            sync-j="4" />
-
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
+<<<<<<< HEAD   (a4973f [automerger skipped] DO NOT MERGE ANYWHERE - Update master t)
 
   <superproject name="platform/superproject" remote="aosp" revision="master-plus-rust" />
+=======
+  <superproject name="platform/superproject/main" remote="aosp"/>
+>>>>>>> BRANCH (357d7d Add Pixel Fold projects am: cd322d5413)
   <contactinfo bugurl="go/repo-bug" />
-
   <project path="build/make" name="platform/build" groups="pdk" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -1300,6 +1301,7 @@
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
+<<<<<<< HEAD   (a4973f [automerger skipped] DO NOT MERGE ANYWHERE - Update master t)
 
   <!-- Rust Toolchain Components -->
   <project path="toolchain/rustc" name="toolchain/rustc"/>
@@ -1326,6 +1328,16 @@
   <!-- NDK - Needed until in-tree sysroot is available -->
   <project path="toolchain/prebuilts/ndk/r25" name="toolchain/prebuilts/ndk/r25" clone-depth="1"/>
 
+=======
+>>>>>>> BRANCH (357d7d Add Pixel Fold projects am: cd322d5413)
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+<<<<<<< HEAD   (a4973f [automerger skipped] DO NOT MERGE ANYWHERE - Update master t)
 
+=======
+  <!--
+    Merge marker to make it easier for git to merge AOSP-only manifest
+    changes to a custom manifest.  Please keep this marker here and
+    refrain from making changes on or below it.
+  -->
+>>>>>>> BRANCH (357d7d Add Pixel Fold projects am: cd322d5413)
 </manifest>
