@@ -74,9 +74,6 @@
   <project path="device/google/bramble" name="device/google/bramble" groups="device,bramble" />
   <project path="device/google/bramble-sepolicy" name="device/google/bramble-sepolicy" groups="device,bramble" />
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,pdk" />
-  <project path="device/google/coral" name="device/google/coral" groups="device,coral,generic_fs" />
-  <project path="device/google/coral-kernel" name="device/google/coral-kernel" groups="device,coral,generic_fs" clone-depth="1" />
-  <project path="device/google/coral-sepolicy" name="device/google/coral-sepolicy" groups="device,coral,generic_fs" />
   <project path="device/google/felix" name="device/google/felix" groups="device,felix" />
   <project path="device/google/felix-sepolicy" name="device/google/felix-sepolicy" groups="device,felix" />
   <project path="device/google/felix-kernel" name="device/google/felix-kernel" groups="device,felix" clone-depth="1" />
@@ -918,7 +915,6 @@
   <project path="hardware/google/trusty" name="platform/hardware/google/trusty" groups="pdk" />
   <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" />
-  <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk" />
