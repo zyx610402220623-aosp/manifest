@@ -70,6 +70,24 @@
       "parentUuid": "7132b8d2_f7dbd297",
       "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7841f04f_4018141e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-07-24T18:29:00Z",
+      "side": 1,
+      "message": "\u003e Okay and \"project\" here means the empty repository that was created for the crate import?\n\nYep\n\n\u003e My intention is to import googletest so we can depend on it in the AOSP main branch. I hope I\u0027m on the right track for that? 😊\n\nYep, once you get a review from the android build interrupt",
+      "parentUuid": "abe76a12_ec23c8dc",
+      "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
