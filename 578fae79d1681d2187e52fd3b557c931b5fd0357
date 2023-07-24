@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a4b12f2_9577ee2c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1943701
+      },
+      "writtenOn": "2023-07-24T10:12:13Z",
+      "side": 1,
+      "message": "Hmm, many builds fail with\n\n    errors.BadManifestErrorInSync: Failed to get SHA1 for project path: \n    external/rust/crates/googletest. Revision aosp-main-future is invalid .\n\nFrom http://b/271172185 and http://b/262005451, I get the impression that this happens sometimes if the new branches haven\u0027t propagated? It\u0027s unclear to me if I need to do something here of if it will resolve itself?",
+      "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
