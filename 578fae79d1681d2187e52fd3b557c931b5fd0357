@@ -16,6 +16,24 @@
       "message": "Hmm, many builds fail with\n\n    errors.BadManifestErrorInSync: Failed to get SHA1 for project path: \n    external/rust/crates/googletest. Revision aosp-main-future is invalid .\n\nFrom http://b/271172185 and http://b/262005451, I get the impression that this happens sometimes if the new branches haven\u0027t propagated? It\u0027s unclear to me if I need to do something here of if it will resolve itself?",
       "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d552edc9_a0f69b78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-07-24T17:34:51Z",
+      "side": 1,
+      "message": "This is also the CheckDownstreamBranches warning. This will be fixed when you get a review from the android build interrupt, though it normally happens at build creation time. It looks like that was only done for branches downstream of git_main though?",
+      "parentUuid": "8a4b12f2_9577ee2c",
+      "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
