@@ -52,6 +52,24 @@
       "parentUuid": "d552edc9_a0f69b78",
       "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abe76a12_ec23c8dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1943701
+      },
+      "writtenOn": "2023-07-24T18:11:22Z",
+      "side": 1,
+      "message": "\u003e This is also the CheckDownstreamBranches warning. This will be fixed when you get a review from the android build interrupt, though it normally happens at build creation time.\n\nOkay and \"project\" here means the empty repository that was created for the crate import?\n\n\u003e It looks like that was only done for branches downstream of git_main though?\n\nMy intention is to import `googletest` so we can depend on it in the AOSP `main` branch. I hope I\u0027m on the right track for that? 😊",
+      "parentUuid": "7132b8d2_f7dbd297",
+      "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
