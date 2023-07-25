@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85101056_e57b9e9f",
+        "filename": "project.config",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2023-07-25T14:38:33Z",
+      "side": 1,
+      "message": "+1 would be okay.\n+2 is for build team to control manifest changes.",
+      "range": {
+        "startLine": 96,
+        "startChar": 26,
+        "endLine": 96,
+        "endChar": 27
+      },
+      "revId": "7bcfe3176deda911fa9e43dd59987c3cd7683aaf",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
