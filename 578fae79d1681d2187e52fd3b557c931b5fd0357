@@ -88,6 +88,24 @@
       "parentUuid": "abe76a12_ec23c8dc",
       "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a9b5b77_5b7509e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1943701
+      },
+      "writtenOn": "2023-07-25T10:58:37Z",
+      "side": 1,
+      "message": "Thanks, I added @pivaf@google.com who should be oncall now.",
+      "parentUuid": "7841f04f_4018141e",
+      "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
