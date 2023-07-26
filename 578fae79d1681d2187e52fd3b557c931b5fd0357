@@ -124,6 +124,24 @@
       "parentUuid": "6a9b5b77_5b7509e6",
       "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24f72827_39be3a33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1943701
+      },
+      "writtenOn": "2023-07-26T07:50:08Z",
+      "side": 1,
+      "message": "Thanks a lot! I rebased the CL and it looks like I can merge it now.",
+      "parentUuid": "5d68c160_39e84624",
+      "revId": "578fae79d1681d2187e52fd3b557c931b5fd0357",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
