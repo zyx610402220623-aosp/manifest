@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64e10ff7_75c788fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-07-28T14:26:52Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/rust/crates/bytemuck.",
+      "revId": "89e08be5f179e673eb03005b9f7a3bb17be5096a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
