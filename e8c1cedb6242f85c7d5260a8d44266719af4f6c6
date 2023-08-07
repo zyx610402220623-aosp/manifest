@@ -33,6 +33,24 @@
       "message": "we switched from building SDK/NDK permutations to build it for only the latest\nI think we can leave only one NDK here",
       "revId": "e8c1cedb6242f85c7d5260a8d44266719af4f6c6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b803f1f_38a30678",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2023-08-07T19:26:48Z",
+      "side": 1,
+      "message": "```\n$ git grep \"SpecificToolchain(\"\nbuild.gradle:                new SpecificToolchain(project, \"21\", \"r19\"),\nbuild.gradle:    def toolchain \u003d new SpecificToolchain(project,\nbuildSrc/src/main/java/com/google/androidgamesdk/SpecificToolchain.kt:class SpecificToolchain(\nbuildSrc/src/main/java/com/google/androidgamesdk/ToolchainEnumerator.kt:                    stl, SpecificToolchain(project, sdk.toString(), ndk)\nbuildSrc/src/test/kotlin/com/google/androidgamesdk/SpecificToolchainTest.kt:        val toolchain \u003d SpecificToolchain(project, \"15\", \"21\")\nbuildSrc/src/test/kotlin/com/google/androidgamesdk/ToolchainEnumeratorTest.kt:                SpecificToolchain(project, \"25\", \"r20\")\nbuildSrc/src/test/kotlin/com/google/androidgamesdk/ToolchainEnumeratorTest.kt:                SpecificToolchain(project, \"25\", \"r20\")\nbuildSrc/src/test/kotlin/com/google/androidgamesdk/ToolchainEnumeratorTest.kt:                SpecificToolchain(project, \"16\", \"r20\")\nbuildSrc/src/test/kotlin/com/google/androidgamesdk/ToolchainEnumeratorTest.kt:                SpecificToolchain(project, \"16\", \"r17\")\n```\n\nbuild.sh also explicitly uses r23. I agree you _should_ be 100% on r25c, but that appears to require more cleanup 😊",
+      "parentUuid": "d46e1b87_da333789",
+      "revId": "e8c1cedb6242f85c7d5260a8d44266719af4f6c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
