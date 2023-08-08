@@ -51,6 +51,23 @@
       "parentUuid": "d46e1b87_da333789",
       "revId": "e8c1cedb6242f85c7d5260a8d44266719af4f6c6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85ae5a05_94253c3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1970910
+      },
+      "writtenOn": "2023-08-08T11:34:23Z",
+      "side": 1,
+      "message": "Further cleanup is needed for removing `SpecificToolChain` and then removing even more NDKs. But thanks for doing this already - this is good to go as it is.",
+      "revId": "e8c1cedb6242f85c7d5260a8d44266719af4f6c6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
