@@ -33,6 +33,24 @@
       "message": "Downstream branches have been created.",
       "revId": "1e448762d5a33de240b476fdd1b3e15db6d02af1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "806d1a48_e342e515",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-08-09T00:45:17Z",
+      "side": 1,
+      "message": "Please resolve merge conflict also.",
+      "parentUuid": "31fb0084_8d7a0c46",
+      "revId": "1e448762d5a33de240b476fdd1b3e15db6d02af1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
