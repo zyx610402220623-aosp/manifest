@@ -51,6 +51,42 @@
       "parentUuid": "31fb0084_8d7a0c46",
       "revId": "1e448762d5a33de240b476fdd1b3e15db6d02af1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98220bf2_330cbcae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-08-09T04:08:41Z",
+      "side": 1,
+      "message": "I realized I wrote a comment on a bug (b/280363549) that only 2 people are on, so here goes a summary: would it make sense to use `RESTRICT AUTOMERGE` to keep these changes only on `main`? Does it make sense to add Trusty retroactively to older dessert branches?",
+      "parentUuid": "742702c0_d16226f1",
+      "revId": "1e448762d5a33de240b476fdd1b3e15db6d02af1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "829e2fb5_171fcaa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-08-09T04:08:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "806d1a48_e342e515",
+      "revId": "1e448762d5a33de240b476fdd1b3e15db6d02af1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
