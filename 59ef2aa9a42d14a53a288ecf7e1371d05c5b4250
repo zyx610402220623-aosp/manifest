@@ -87,6 +87,24 @@
       "parentUuid": "38b5674d_11e8e0b1",
       "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a341bacb_ecb1236f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-08-09T17:50:35Z",
+      "side": 1,
+      "message": "Is there any documentation that you can point me to that supports this claim?\n\nOr is it tribal knowledge that CF is exempted?\n\nEither way I will update our review checklist to note that CF is exempted.",
+      "parentUuid": "0260eaa3_e6eccd78",
+      "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
