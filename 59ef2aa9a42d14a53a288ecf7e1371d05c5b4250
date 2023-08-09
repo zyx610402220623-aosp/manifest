@@ -51,6 +51,24 @@
       "message": "device/* projects are not allowed to have `pdk` in their `groups`.\n\ngo/pdk-review#1-verify-group-for-device-and-vendor-projects",
       "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38b5674d_11e8e0b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1561731
+      },
+      "writtenOn": "2023-08-09T16:49:50Z",
+      "side": 1,
+      "message": "The existing 2 other Cuttlefish projects already have it:\n\n```\n\u003cproject path\u003d\"device/google/cuttlefish\" name\u003d\"device/google/cuttlefish\" groups\u003d\"device,pdk\" /\u003e\n\u003cproject path\u003d\"device/google/cuttlefish_prebuilts\" name\u003d\"device/google/cuttlefish_prebuilts\" groups\u003d\"device,pdk\" clone-depth\u003d\"1\" /\u003e\n```\n\nis this something that should be removed? or Cuttlefish a special case since it is a reference device?",
+      "parentUuid": "6c7bd808_15f06983",
+      "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
