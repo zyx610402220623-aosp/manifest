@@ -141,6 +141,24 @@
       "parentUuid": "61828018_d591323e",
       "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de75cc16_b01eee94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-08-09T18:22:08Z",
+      "side": 1,
+      "message": "ag/24354711 and ag/24355839 are approved.\n\nI\u0027m waiting for presubmit failures to be resolved on ag/24354139 and ag/24356253 before proceeding with PDK-Review.",
+      "parentUuid": "57277809_9820e370",
+      "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
