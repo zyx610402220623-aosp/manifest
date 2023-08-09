@@ -69,6 +69,24 @@
       "parentUuid": "6c7bd808_15f06983",
       "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0260eaa3_e6eccd78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2023-08-09T17:36:11Z",
+      "side": 1,
+      "message": "No, CF needs to be in the PDK. It is exempted from this policy and has been for years.",
+      "parentUuid": "38b5674d_11e8e0b1",
+      "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
