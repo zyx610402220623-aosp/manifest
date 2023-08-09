@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fb2e8d9_5a0a1eea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-08-09T00:06:26Z",
+      "side": 1,
+      "message": "Please fix presubmit errors and merge conflict.",
+      "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
