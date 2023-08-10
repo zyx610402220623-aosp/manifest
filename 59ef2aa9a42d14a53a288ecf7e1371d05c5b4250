@@ -177,6 +177,24 @@
       "parentUuid": "de75cc16_b01eee94",
       "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7401ddf5_5ead2ba7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1561731
+      },
+      "writtenOn": "2023-08-10T16:02:11Z",
+      "side": 1,
+      "message": "Resolving now that cherry-picks are submitted and presubmit is happy.",
+      "parentUuid": "90a33902_2e1438ee",
+      "revId": "59ef2aa9a42d14a53a288ecf7e1371d05c5b4250",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
