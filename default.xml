@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (9686c7 Merge empty history for sparse-10643298-L93000000962539149)
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-10586452-L24400000962569540" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="7037ebf7fce58000bcff640cf69dde4e4cef2677" upstream="androidx-webkit-release" />
+>>>>>>> BRANCH (92b565 Pin manifest of sparse-10586452-L24400000962569540(release-r)
 
+<<<<<<< HEAD   (9686c7 Merge empty history for sparse-10643298-L93000000962539149)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -12,6 +19,47 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-webkit-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="20d8e5175884acf213770cd66641c31c94e0a639" upstream="androidx-webkit-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="56ecfef92482940066a1229c0694ceaafc0a41ac" upstream="androidx-webkit-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="858b739b67c746c4fbb5bac7a6a30fa63ec62aab" upstream="androidx-webkit-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="e62bf69f8b85d606a7dcaa51c8ad1053962b1028" upstream="androidx-webkit-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-webkit-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="1ba0462ec11cf3478396524c8283930c845e5a11" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="2725ec9445e7b3375a023fa8a0ca39e5f65b5520" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="0d4e9af6093431a7fb474ba9a07bbeb190196b82" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="986f4dfaf967aa21309e0ec483682a95f96c60e7" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="4ea02871047d21a7cd729637349fc35d85f40c11" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="b665f4dda0d85e125e3d8a71277502d9ad14adc4" upstream="androidx-webkit-release" />
+
+  
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="b607fd1e970d8cca1b54bf97c6a499e256847d73" upstream="androidx-webkit-release" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="aa96d358329c794d1a8788004905cad1306a66e9" upstream="androidx-webkit-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-webkit-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="bf46e0e8aa1390233b4f03fefc420f30cd16a5b6" upstream="androidx-webkit-release" />
+
+  
+  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="f1e29067b7fd54b266a817d56484954b8452285c" upstream="androidx-webkit-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="ad2c9ea025b18debe1a05551dca4302652c4a8c2" upstream="androidx-webkit-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-webkit-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="a386f642b385643d2eeee82b2beb361c98389c16" upstream="androidx-webkit-release" />
+  
+  
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="401658ea1691b8e80604be22b85fab6cdcb4246d" upstream="androidx-webkit-release" />
+
+  
+  
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="24f2244f2b7036c2b8ff07d5bea03ca59496f9ac" upstream="androidx-webkit-release" />
+
+  
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="3e52dbf55952433b84185ecc9dea7da1d2122f10" upstream="androidx-webkit-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
+>>>>>>> BRANCH (92b565 Pin manifest of sparse-10586452-L24400000962569540(release-r)
   </project>
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
@@ -692,6 +740,57 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="29b565f92e3fdafa2851d6682e0353a0cae08856" />
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="d5cb37813e7e126241766f004d93765b6473af2a" />
 
+<<<<<<< HEAD   (9686c7 Merge empty history for sparse-10643298-L93000000962539149)
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
+=======
+  
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="604597d0bf040ee1d1c198600b68705b49764700" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="128040aed71c7fc0532783fd378c8ac738f04c2f" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-webkit-release" />
+>>>>>>> BRANCH (92b565 Pin manifest of sparse-10586452-L24400000962569540(release-r)
 
+<<<<<<< HEAD   (9686c7 Merge empty history for sparse-10643298-L93000000962539149)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="51986b54464a2630ddfe0bde64ed3b8c7968e7cb" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="f9686e225b43e586b3015d37c2cae01f24c48a69" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-webkit-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-webkit-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="6acfb6cdadcf3442506adef3342663c059ed8b4a" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="765c40d7ee612bed3f8658a803b0a2ef40394628" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="5792ae77738ef53a2234eb6cb01ea32914e846f4" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="9da4be25c035d4986dbef2aa77eabb49cd2a6557" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-webkit-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="d1c6bc6004632485d75145598f8fb69e27d39ca9" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="eb661c960f3e3b10bbf77c63a2e38c4b72a5bb61" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-webkit-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="fcb8240a91f16bfc53bc5018195592a4c83b8323" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-webkit-release" />
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="7df444f5f5639590da3e9b0cd9ed171d963848ca" clone-depth="1" upstream="androidx-webkit-release" />
+  
+  
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="6c5f0fe16d6d3c0a50cb3d5cb8e9e27c044987de" upstream="androidx-webkit-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="eae51984ad02127da663b664b9d61662212a5229" upstream="androidx-webkit-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="6764d8a9e43b88587f15d344c872ffad0c372022" upstream="androidx-webkit-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (92b565 Pin manifest of sparse-10586452-L24400000962569540(release-r)
 </manifest>
