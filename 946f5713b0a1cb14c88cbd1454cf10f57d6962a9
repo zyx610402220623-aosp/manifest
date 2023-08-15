@@ -16,6 +16,23 @@
       "message": "f",
       "revId": "946f5713b0a1cb14c88cbd1454cf10f57d6962a9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d8b40ce_06bcb45a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-08-15T15:22:29Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/liblc3",
+      "revId": "946f5713b0a1cb14c88cbd1454cf10f57d6962a9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
