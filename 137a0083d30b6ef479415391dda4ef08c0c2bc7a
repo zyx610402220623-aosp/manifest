@@ -16,6 +16,23 @@
       "message": "[Pin manifest of androidx-window-extensions-release(release-request-ba5623ff-1224-4b9b-9399-e466fa9277d2-for-aosp-androidx-window-extensions-release-None)](https://android-review.googlesource.com/c/platform/manifest/+/2718694)",
       "revId": "137a0083d30b6ef479415391dda4ef08c0c2bc7a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08f83e1b_c637b763",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2037729
+      },
+      "writtenOn": "2023-08-20T07:58:30Z",
+      "side": 1,
+      "message": "Induk:     39b438c2(Pin tampak dari androidx-jendela-ekstensi-melepaskan(melepaskan-meminta-487d0cd4-5816-4c18-9c36-7c242060e94e-untuk-aosp-androidx-jendela-ekstensi-melepaskan-10552934))\nPengarang:     Android Membangun Penjaga pantai Pekerja\u003candroid-membangun-penjaga pantai-pekerja@google.com\u003e\nAuthorDate:2023-08-20 05:29:09+0000\nMelakukan:     Android Membangun Penjaga pantai Pekerja\u003candroid-membangun-penjaga pantai-pekerja@google.com\u003e\nTanggal Komit:2023-08-20 05:29:09+0000\nPin tampak dari androidx-jendela-ekstensi-melepaskan(melepaskan-meminta-ba5623ff-1224-4b9b-9399-e466fa9277d2-untuk-aosp-androidx-jendela-ekstensi-melepaskan-Tidak ada)\nMengubah-Pengenal:I54c64662ee793676f738f313bb0dca88e0d06d2c",
+      "revId": "137a0083d30b6ef479415391dda4ef08c0c2bc7a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
