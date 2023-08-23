@@ -90,7 +90,12 @@
   <!-- Test infrastructure uses these -->
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images"  />
   <!-- Rust compiler toolchain -->
+<<<<<<< HEAD   (e71307 DO NOT MERGE ANYWHERE Create manifest for emu-34-release)
   <project path="prebuilts/rust" name="platform/prebuilts/rust"  clone-depth="1" />
+=======
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="9dc519d8572c47295a3e4c5dfb717929e04babfe"/>
+
+>>>>>>> BRANCH (16a266 Pin the Rust toolchain to include 1.69.0)
   <!-- Rust toolchain needs a set of dlls from mingw on windows -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"  clone-depth="1" groups="notdefault,platform-windows" />
   <!-- Rust crate dependencies, we use a mix of what chromium has to offer, vs AOSP crates. -->
