@@ -97,8 +97,13 @@
   
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="b02ac4811bd87a15bb5350aa1dc1cdadf834b90b" upstream="emu-34-release" />
 
+<<<<<<< HEAD   (affa86 Pin manifest of emu-34-release(release-request-b4d0cfcc-503c)
   
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="9dc519d8572c47295a3e4c5dfb717929e04babfe" upstream="emu-34-release" />
+=======
+  <!-- Rust compiler toolchain -->
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="9dc519d8572c47295a3e4c5dfb717929e04babfe"/>
+>>>>>>> BRANCH (16a266 Pin the Rust toolchain to include 1.69.0)
 
   
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e5c0fcb284a3a60be094b51ede81cb66459419d9" clone-depth="1" groups="notdefault,platform-windows" upstream="emu-34-release" />
