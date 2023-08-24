@@ -16,6 +16,24 @@
       "message": "Is there a reason to put in in external/bluetooth ?",
       "revId": "3d8c627e832a48e811e47dfaf861378fc1228cca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c943df4_4f14ec9f",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2023-08-24T16:40:34Z",
+      "side": 1,
+      "message": "That\u0027s where it comes from (See https://android.googlesource.com/platform/external/bluetooth/glib/). Not sure if it is worth spending time replicating this branch to a new location. Maybe that is something we could do once we have qemu fully building?",
+      "parentUuid": "588f212d_d1922118",
+      "revId": "3d8c627e832a48e811e47dfaf861378fc1228cca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
