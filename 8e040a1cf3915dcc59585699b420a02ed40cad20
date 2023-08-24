@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7713862d_a585b509",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1087303
+      },
+      "writtenOn": "2023-08-24T21:37:51Z",
+      "side": 1,
+      "message": "Hi team, I am not sure if this is the right way to do it. Do we know anyone from build team that could tell us what would be the best way for it?",
+      "revId": "8e040a1cf3915dcc59585699b420a02ed40cad20",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
