@@ -37,6 +37,7 @@
   <project path="external/qemu" name="platform/external/qemu" revision="f4a313ab3e97587133c2597e6f64eb4b77f9e9e3" upstream="emu-34-release">
     <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace" />
   </project>
+<<<<<<< HEAD   (e7c4a7 Pin manifest of emu-34-release(release-request-2090b375-3092)
   <project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="d16a940067fbc191364fc1d3e2a2d907209c9320" upstream="emu-34-release" />
   <project path="external/virglrenderer" name="platform/external/virglrenderer" revision="f0c2fba5827abb3634b1992855264d7fe990b89d" upstream="emu-34-release" />
   <project path="external/nasm" name="platform/external/nasm" revision="645e4f02c622ba67eb754000cc00c9db8be31f85" upstream="emu-34-release" />
@@ -54,6 +55,26 @@
   <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" revision="658acaaf2c14c05b81f9b27b604e2ffc45dc0ceb" upstream="emu-34-release" />
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="9229e40a2d787c506b9b3647ce6f4657dfde7944" upstream="emu-34-release" />
   <project path="tools/netsim" name="platform/tools/netsim" revision="39f8cf4edad1f3759539786b8ba246b93621a1fe" upstream="emu-34-release" />
+=======
+  <project path="external/glib" name="platform/external/bluetooth/glib" />
+  <project path="external/tinyobjloader" name="platform/external/tinyobjloader" revision="main"/>
+  <project path="external/virglrenderer" name="platform/external/virglrenderer" revision="crosvm-master"/>
+  <project path="external/nasm" name="platform/external/nasm" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/zlib" name="platform/external/zlib" />
+  <project path="frameworks/native" name="platform/frameworks/native" revision="lollipop-release" />
+  <project path="hardware/google/aemu" name="platform/hardware/google/aemu"  groups="pdk" revision="main" />
+  <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream"  groups="pdk" revision="main" />
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/archive" name="platform/prebuilts/android-emulator-build/archive" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/common" name="platform/prebuilts/android-emulator-build/common" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/mesa" name="platform/prebuilts/android-emulator-build/mesa" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/mesa-deps" name="platform/prebuilts/android-emulator-build/mesa-deps" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" />
+  <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="main"/>
+  <project path="tools/netsim" name="platform/tools/netsim" revision="main" />
+>>>>>>> BRANCH (3d8c62 Add glib2 to the repository)
 
   
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" revision="acd99925b5880e97d2dee249d39a93a6e5794f9d" upstream="emu-34-release" />
@@ -97,8 +118,13 @@
   
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="b02ac4811bd87a15bb5350aa1dc1cdadf834b90b" upstream="emu-34-release" />
 
+<<<<<<< HEAD   (e7c4a7 Pin manifest of emu-34-release(release-request-2090b375-3092)
   
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="9dc519d8572c47295a3e4c5dfb717929e04babfe" upstream="emu-34-release" />
+=======
+  <!-- Rust compiler toolchain -->
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="9dc519d8572c47295a3e4c5dfb717929e04babfe"/>
+>>>>>>> BRANCH (3d8c62 Add glib2 to the repository)
 
   
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e5c0fcb284a3a60be094b51ede81cb66459419d9" clone-depth="1" groups="notdefault,platform-windows" upstream="emu-34-release" />
