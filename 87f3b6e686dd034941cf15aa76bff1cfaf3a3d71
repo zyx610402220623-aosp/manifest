@@ -65,6 +65,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd85aefb_d5c1b1f9",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 845,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-08-29T04:51:29Z",
+      "side": 1,
+      "message": "Managed to get rid of it by building qemu with `--disable-capstone`.\n\ndtc is still needed, but qemu builds fine with the AOSP one. Looking into a way to get rid of the new `linkfile`.",
+      "parentUuid": "8f5fe81c_bd1905d1",
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "11d31758_79d0e35b",
