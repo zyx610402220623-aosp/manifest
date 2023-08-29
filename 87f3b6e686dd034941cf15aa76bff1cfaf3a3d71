@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbb02f11_0f38f1f9",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-08-29T02:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1772efe5_6ecf7291",
+      "range": {
+        "startLine": 375,
+        "startChar": 0,
+        "endLine": 375,
+        "endChar": 47
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8f5fe81c_bd1905d1",
@@ -104,6 +128,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ebd997e_716577a9",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 1359,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-08-29T02:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6e45e690_5a31f4f0",
+      "range": {
+        "startLine": 1359,
+        "startChar": 31,
+        "endLine": 1359,
+        "endChar": 42
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "095acb4e_8ba8e523",
@@ -117,6 +165,30 @@
       "writtenOn": "2023-08-29T00:10:32Z",
       "side": 1,
       "message": "This is inside a git repo, so it should just be checked in",
+      "range": {
+        "startLine": 1367,
+        "startChar": 0,
+        "endLine": 1367,
+        "endChar": 77
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb615167_e8d6825b",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 1367,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-08-29T02:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "095acb4e_8ba8e523",
       "range": {
         "startLine": 1367,
         "startChar": 0,
