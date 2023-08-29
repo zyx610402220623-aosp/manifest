@@ -1,0 +1,130 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1772efe5_6ecf7291",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 375,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-08-29T00:10:32Z",
+      "side": 1,
+      "message": "Why is this being added to the platform build tree?",
+      "range": {
+        "startLine": 375,
+        "startChar": 0,
+        "endLine": 375,
+        "endChar": 47
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f5fe81c_bd1905d1",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 845,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-08-29T00:10:32Z",
+      "side": 1,
+      "message": "This is already checked out, it may not be added again (even at a different path), as it will prevent the use of coastguard and other tools.",
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11d31758_79d0e35b",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 847,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-08-29T00:10:32Z",
+      "side": 1,
+      "message": "Adding the linux kernel to the android tree is rather significant (size/etc)",
+      "range": {
+        "startLine": 847,
+        "startChar": 0,
+        "endLine": 847,
+        "endChar": 112
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edcc3a65_fef07c19",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 1213,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-08-29T00:10:32Z",
+      "side": 1,
+      "message": "This should not be in a platform checkout.",
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e45e690_5a31f4f0",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 1359,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-08-29T00:10:32Z",
+      "side": 1,
+      "message": "into the platform root",
+      "range": {
+        "startLine": 1359,
+        "startChar": 31,
+        "endLine": 1359,
+        "endChar": 42
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "095acb4e_8ba8e523",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 1367,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-08-29T00:10:32Z",
+      "side": 1,
+      "message": "This is inside a git repo, so it should just be checked in",
+      "range": {
+        "startLine": 1367,
+        "startChar": 0,
+        "endLine": 1367,
+        "endChar": 77
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
