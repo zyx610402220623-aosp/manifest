@@ -108,6 +108,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d7c66ff8_ab9c5646",
+        "filename": "default.xml",
+        "patchSetId": 23
+      },
+      "lineNbr": 847,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-08-30T04:48:04Z",
+      "side": 1,
+      "message": "One alternative would be prebuilts. The Trusty test builds already produce some (well almost, but that\u0027s an easy fix). We could make a new repository to hold the kernels, e.g. `trusty/prebuilts/linux`. An arm64 Trusty kernel is 33M, we\u0027d need that plus at least an arm32 one. Would that be better than the current approach?",
+      "parentUuid": "11d31758_79d0e35b",
+      "range": {
+        "startLine": 847,
+        "startChar": 0,
+        "endLine": 847,
+        "endChar": 112
+      },
+      "revId": "87f3b6e686dd034941cf15aa76bff1cfaf3a3d71",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "edcc3a65_fef07c19",
         "filename": "default.xml",
         "patchSetId": 23
