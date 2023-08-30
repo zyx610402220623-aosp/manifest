@@ -1,7 +1,16 @@
 <manifest>
 
+<<<<<<< HEAD   (515da6 Pin manifest of android-games-sdk-games-frame-pacing-release)
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="android-games-sdk-games-frame-pacing-release" remote="aosp" sync-j="4" />
+=======
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="main"
+           remote="aosp"
+           sync-j="4" />
+>>>>>>> BRANCH (e8c1ce Remove unused NDKs from the manifest.)
 
   <superproject name="platform/superproject" remote="aosp" revision="android-games-sdk" />
   <contactinfo bugurl="go/repo-bug" />
@@ -9,6 +18,7 @@
   
   <project path="build" name="platform/build" revision="8a72f44a9b0335ae09659096d43a6e7dbe3a43ee" upstream="android-games-sdk-games-frame-pacing-release" />
 
+<<<<<<< HEAD   (515da6 Pin manifest of android-games-sdk-games-frame-pacing-release)
   
   <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="6bd669c3efdee9b9c81e185d81ee21c8366b8b7d" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="external/protobuf" name="platform/external/protobuf" revision="fb6f8da08b60b6beb5bb360d79dd3feda0147da7" upstream="android-games-sdk-games-frame-pacing-release" />
@@ -31,7 +41,50 @@
   <project path="external/ruy" name="platform/external/ruy" revision="4377b97cf0850e0a61caa191586ebe68ccbc2abf" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="external/gemmlowp" name="platform/external/gemmlowp" revision="689c69e88b91e7bff068e33396f74c0a5b17390e" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" revision="c19a0d46b331db3442b4ba44265577dd4661fdc8" upstream="android-games-sdk-games-frame-pacing-release" />
+=======
+  <!-- The SDK repository itself + external code dependencies -->
+  <project path="gamesdk"                             name="platform/frameworks/opt/gamesdk"/>
+  <project path="external/protobuf"                   name="platform/external/protobuf"
+    revision="033678466ea7c060c93a3305bd069c7973870615" />
+  <project path="external/nanopb-c"                   name="platform/external/nanopb-c"/>
+  <project path="external/modp_b64"                   name="platform/external/modp_b64"/>
+  <project path="external/googletest"                 name="platform/external/googletest"/>
+  <project path="external/six"                        name="platform/external/python/six"/>
+  <project path="external/tensorflow"                 name="platform/external/tensorflow"
+    revision="80586fdc64759207f64e6f63e0b107a6b2421357" />
+  <project path="external/cpuinfo"                    name="platform/external/cpuinfo"
+    revision="7c831673275ad137f81749388bed19ef74788903" />
+  <project path="external/pthreadpool"                name="platform/external/pthreadpool"
+    revision="08bcb1538635dbffaf1b5d460fc5132c8b95f532" />
+  <project path="external/FP16"                       name="platform/external/FP16"
+    revision="e22b19eb0cfaa40394d1d70eaa84cdff6a1ef67b" />
+  <project path="external/FXdiv"                      name="platform/external/FXdiv"
+    revision="908fa57b9943d8c70dab270ec7f1ec970a42dff0" />
+  <project path="external/psimd"                      name="platform/external/psimd"
+    revision="98508813e7d9f42eac52b5cc09c87d3b16e5cc08" />
+  <project path="external/abseil-cpp"                 name="platform/external/abseil-cpp"
+    revision="7ba826e50dff1878e6ecc6b9af44097c040c8968" />
+  <project path="external/eigen"                      name="platform/external/eigen"
+    revision="10f298fc4175c1b8537c674f654a070c871960e5" />
+  <project path="external/xnnpack"                    name="platform/external/XNNPACK"
+    revision="b10cef7997988439aeb02330ba9e165022cecdaf" />
+  <project path="external/flatbuffers"                name="platform/external/flatbuffers"
+    revision="b933abb908bb02eb77b2e8cb48b3961b27e77da7" />
+  <project path="external/neon2sse"                   name="platform/external/neon_2_sse"
+    revision="80a68eefdccd99baeea4880baa1b4c25f2618725" />
+  <project path="external/fft2d"                      name="platform/external/fft2d"
+    revision="e6aed768e754af0ed23e656444a58ad533e7f81f" />
+  <project path="external/ruy"                        name="platform/external/ruy"
+    revision="4377b97cf0850e0a61caa191586ebe68ccbc2abf" />
+  <project path="external/gemmlowp"                   name="platform/external/gemmlowp"
+    revision="689c69e88b91e7bff068e33396f74c0a5b17390e" />
+  <project path="external/libtextclassifier"          name="platform/external/libtextclassifier"
+    revision="c19a0d46b331db3442b4ba44265577dd4661fdc8" />
+  <project path="external/StatsD"          name="platform/packages/modules/StatsD"
+      revision="08f2a7cd60f55617cd8ded687e68c6895067040f" />
+>>>>>>> BRANCH (e8c1ce Remove unused NDKs from the manifest.)
 
+<<<<<<< HEAD   (515da6 Pin manifest of android-games-sdk-games-frame-pacing-release)
   
   <project path="prebuilts/ndk/r13" name="toolchain/prebuilts/ndk/r13" revision="287553d4cca07661ab73140619b4372befdb8ab4" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="prebuilts/ndk/r14" name="toolchain/prebuilts/ndk/r14" revision="45a41992d46a71d273036e11b86467a55590ac22" upstream="android-games-sdk-games-frame-pacing-release" />
@@ -43,6 +96,14 @@
   <project path="prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="prebuilts/ndk/r21" name="toolchain/prebuilts/ndk/r21" revision="be518ef4272ce61fd6dad9db73e9be74853b3974" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" upstream="android-games-sdk-games-frame-pacing-release" />
+=======
+  <!-- All the required releases of the Android NDK -->
+  <project path="prebuilts/ndk/r17"                   name="toolchain/prebuilts/ndk/r17" />
+  <project path="prebuilts/ndk/r19"                   name="toolchain/prebuilts/ndk/r19" />
+  <project path="prebuilts/ndk/r20"                   name="toolchain/prebuilts/ndk/r20" />
+  <project path="prebuilts/ndk/r21"                   name="toolchain/prebuilts/ndk/r21" />
+  <project path="prebuilts/ndk/r23"                   name="toolchain/prebuilts/ndk/r23" />
+>>>>>>> BRANCH (e8c1ce Remove unused NDKs from the manifest.)
 
   
   <project path="prebuilts/sdk/build-tools/26.0.1" name="platform/prebuilts/fullsdk-linux/build-tools/26.0.1" revision="d2fc43324433e6d04263fd269ee54b654cdfab04" upstream="android-games-sdk-games-frame-pacing-release" />
