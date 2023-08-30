@@ -22,6 +22,30 @@
       },
       "revId": "8ba949193e164cf32dd74afc37182cd18580b82c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "457d6bbc_b3914785",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1306,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2023-08-30T22:14:00Z",
+      "side": 1,
+      "message": "Oops, good catch 😊",
+      "parentUuid": "3a6e0c27_6b3a883a",
+      "range": {
+        "startLine": 1306,
+        "startChar": 68,
+        "endLine": 1306,
+        "endChar": 69
+      },
+      "revId": "8ba949193e164cf32dd74afc37182cd18580b82c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
