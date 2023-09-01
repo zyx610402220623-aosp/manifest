@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d891057c_fe506891",
+        "filename": "default.xml",
+        "patchSetId": 29
+      },
+      "lineNbr": 1346,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-09-01T01:02:34Z",
+      "side": 1,
+      "message": "This is the new approach, if everyone is in favor then I can go ask for the new repository.",
+      "revId": "37b22a5f0a5d275f2bff7fba9290501e30c1576c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
