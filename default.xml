@@ -22,6 +22,8 @@
 
   <project path="bionic" name="platform/bionic" groups="presubmit" />
   <project path="development" name="platform/development" groups="presubmit" />
+  <!-- ABSL is needed by RE2 -->
+  <project path="external/abseil-cpp" name="platform/external/regex-re2" revision="main" />
   <!-- Effcee is needed by tests in spirv-tools (in shader-tools) -->
   <project path="external/effcee" name="platform/external/effcee" revision="main" />
   <!-- RE2 is needed by Effcee -->
