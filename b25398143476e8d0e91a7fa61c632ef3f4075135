@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f485e026_735e17a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1981275
+      },
+      "writtenOn": "2023-09-08T10:44:01Z",
+      "side": 1,
+      "message": " https://android.googlesource.com/platform/manifest",
+      "revId": "b25398143476e8d0e91a7fa61c632ef3f4075135",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
