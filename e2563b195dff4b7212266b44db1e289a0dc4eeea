@@ -34,6 +34,24 @@
       "parentUuid": "ce8273d9_0f1762ca",
       "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07d8b9c7_948c1e78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-09-11T17:06:13Z",
+      "side": 1,
+      "message": "Not sure how long that will last. We want to avoid drift between the manifests, so please cherry pick there anyway. The manual cherry pick is only necessary for the manifest change - the other one that was formerly in the topic doesn\u0027t need it.",
+      "parentUuid": "8e56fd2f_757afada",
+      "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
