@@ -1,107 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-activity-release" remote="aosp" />
-  <superproject name="platform/superproject" remote="aosp" />
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="androidx-main"
+           remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp"/>
 
-  
-  <project path="build/make" name="platform/build" revision="1e492c6d17fca5db888443c1c97a1866b9f76d8a" upstream="androidx-activity-release" />
+  <!-- BEGIN dependencies -->
+  <project path="build/make" name="platform/build" />
 
-  
-  
-  <project path="external/dexter" name="platform/tools/dexter" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-activity-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="7f5b58cede4a19c17ceb3cc663db5c108b1ac5e7" upstream="androidx-activity-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="fc3a690c616c51076f57a289bd9f0e72c60413b1" upstream="androidx-activity-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="4b34965772d938886fab50b55286fa77a3702aef" upstream="androidx-activity-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="906f74eb39420969f79a402d89abac9e5c5537bb" upstream="androidx-activity-release" />
-  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-activity-release" />
-  
-  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="dfc5c995bdacf03415ccc1269f64cdbd4516b93a" upstream="androidx-activity-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7170c6f6180718be6753be9b2c546d555dc046cd" upstream="androidx-activity-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="33c21dac148a4461a87828d80331c27357bbae5c" upstream="androidx-activity-release" />
-  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="d12a3d94f5818a5f86492e3866a1cd08bf00df61" upstream="androidx-activity-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="bf677a20b7ba38a896f6083e06ca3274201a0662" upstream="androidx-activity-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="450ac8a5937b3a9560846244aa109d8d798475a5" upstream="androidx-activity-release" />
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
 
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="e15bc4e7b97917b03af20046e12e906af30dc3db" upstream="androidx-activity-release" />
-  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="59c10955593510bef06d0a500905171e1cf8ff02" upstream="androidx-activity-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-activity-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="9d959f6afa8eb8a0b42fa1aedbc9da56bc3695b0" upstream="androidx-activity-release" />
+  <!-- Config: shallow + main revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="main" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="main" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="main" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="main" />
 
-  
-  
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="8dccdd5e39fa184974c4eb453b4905aefa53fe88" upstream="androidx-activity-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="50bfc4efee75c7fe5eb449f665aaee0e7b5fe52c" upstream="androidx-activity-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-activity-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="9ed35a70e6661b81d8e81b714c1e965cbec07136" upstream="androidx-activity-release" />
-  
-  
-  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="be01ae529cab191c72e27820f16e40a346690967" upstream="androidx-activity-release" />
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="main" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="main" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="main" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+  <!-- Config: shallow + same revision -->
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
 
-  
-  
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="c1ad87020340dbc2a23fcced41037e26733c4694" upstream="androidx-activity-release" />
+  <!-- Gradle dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
 
-  
-  
-  <project path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="71ceb3933d49f67f18ac666f11810ee37235f943" upstream="androidx-activity-release">
-    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="main">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources/android-33" name="platform/prebuilts/fullsdk/sources/android-33" clone-depth="1" revision="f6a7f5e4d4d85ea656535f4696c53610328a0b1a" upstream="androidx-activity-release">
-    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
-  </project>
-  
-  <project path="prebuilts/fullsdk-darwin/platforms/android-33-ext4" name="platform/prebuilts/fullsdk/platforms/android-TPS" clone-depth="1" revision="71387881d8e9a5d16574d342688c2e5371177cdb" upstream="androidx-activity-release">
-    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33-ext4" />
-  </project>
-  <project path="prebuilts/fullsdk-darwin/sources/android-33-ext4" name="platform/prebuilts/fullsdk/sources/android-TPS" clone-depth="1" revision="948001b336b05dd762b0b578b31beed28a668933" upstream="androidx-activity-release">
-    <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33-ext4" />
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="main">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
-  
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="e4cf83d81e75da4fcc063d7a6085e5528e68e161" upstream="androidx-activity-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="78c148f3151022694933eab50d7e7cb3602b78db" upstream="androidx-activity-release" />
-  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-activity-release" />
+  <!-- darwin specific -->
+  <project
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/platform-tools"
+    name="platform/prebuilts/fullsdk-darwin/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/tools"
+    name="platform/prebuilts/fullsdk-darwin/tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
 
-  
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="3371077de0d28ca3954d10f536be425129ac538a" upstream="androidx-activity-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="fd56dc28c4075ba92789c58f2a4173e8f636d993" upstream="androidx-activity-release" />
-  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-activity-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-activity-release" />
+  <!-- linux specific -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
 
-  
-  
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="9a1b3e229631d81c086ffb3a631fd1da29afd039" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-activity-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="dff88417570824a9e1e6aee8b8a463a2b387d61f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-activity-release">
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r23"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmake"
+    name="platform/prebuilts/cmake/darwin-x86"
+    revision="main"
+    groups="notdefault,platform-darwin"
+    clone-depth="1">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-activity-release">
+  <project
+      path="prebuilts/fullsdk-darwin/ninja"
+      name="platform/prebuilts/ninja/darwin-x86"
+      revision="main"
+      groups="notdefault,platform-darwin"
+      clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="3d960e4402a7c08fdc162636efcd09054c1a9163" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-activity-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="d8f7f83cab17c098c326e9d9ce83116dbd263936" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-activity-release">
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r23"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-activity-release">
+  <project
+    path="prebuilts/fullsdk-linux/ninja"
+    name="platform/prebuilts/ninja/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="ccf82392db3ab1537af8126cc31a4795edf9cddf" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-activity-release" />
   
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="main"
+    clone-depth="1" />
+  <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests. -->
+  <!-- Config: shallow + same revision -->
+  <project
+    path="prebuilts/jdk/jdk8"
+    name="platform/prebuilts/jdk/jdk8"
+    clone-depth="1" />
   
-  
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="5b403fe254d3e0693ec3811a7e2011a1a8abdaf1" clone-depth="1" upstream="androidx-activity-release" />
-  
-  
-  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="852e5afe483a9fd27f9334d7344b29c1aaa9f7e4" upstream="androidx-activity-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="4851876ad6eb213a467ed1fd6335013c69b808ba" upstream="androidx-activity-release" />
+  <!-- Golden images -->
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
 
-  
+  <!-- END dependencies -->
 
-  
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d9209ece034d9fe13346b126d848f6f049144439" upstream="androidx-activity-release" />
-  
+  <!-- BEGIN target project -->
+  <project path="frameworks/support" name="platform/frameworks/support" />
+  <!-- END target project -->
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
