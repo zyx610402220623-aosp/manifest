@@ -16,6 +16,24 @@
       "message": "Please also cherry pick to git_master-art-host in the internal Gerrit. We don\u0027t have a merge path there.",
       "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e56fd2f_757afada",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1018108
+      },
+      "writtenOn": "2023-09-11T15:43:15Z",
+      "side": 1,
+      "message": "It seem that `master-art-host` is fine without it.",
+      "parentUuid": "ce8273d9_0f1762ca",
+      "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
