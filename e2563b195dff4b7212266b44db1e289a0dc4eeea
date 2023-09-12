@@ -122,6 +122,24 @@
       "parentUuid": "07d8b9c7_948c1e78",
       "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd18ff09_5e69be23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-09-12T16:59:11Z",
+      "side": 1,
+      "message": "Oh, so there\u0027s more divergence than I thought. I agree it\u0027s a different matter then. Thanks for checking.",
+      "parentUuid": "4891e3a2_2932c200",
+      "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
