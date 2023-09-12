@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3b843a32_80829c85",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-09-12T13:58:57Z",
+      "side": 1,
+      "message": "Btw, can you please add `Bug: 300072791`?",
+      "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ce8273d9_0f1762ca",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
