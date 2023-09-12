@@ -52,6 +52,23 @@
       "parentUuid": "8e56fd2f_757afada",
       "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8170aaed_981d9672",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-09-12T13:37:57Z",
+      "side": 1,
+      "message": "I think it\u0027s better to override presubmit and submit this, because it still fixes buildbot-build.sh. I\u0027m working on the mainline_modules_sdk build problem.",
+      "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
