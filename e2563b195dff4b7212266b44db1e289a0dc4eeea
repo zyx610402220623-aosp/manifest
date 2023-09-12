@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb8dec8f_81541dbf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1018108
+      },
+      "writtenOn": "2023-09-12T14:00:51Z",
+      "side": 1,
+      "message": "Sorry, too late. The pop-up alerting me to the new comment came just after I already clicked submit.",
+      "parentUuid": "3b843a32_80829c85",
+      "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce8273d9_0f1762ca",
