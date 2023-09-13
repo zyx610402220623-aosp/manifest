@@ -16,6 +16,23 @@
       "message": "Downstream branches have been created for platform/external/rust/crates/unsafe-libyaml.",
       "revId": "2a982ece781a05b07ed1b7efe83c67c4e744bbca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd7ae059_34a4f4e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-09-13T15:14:23Z",
+      "side": 1,
+      "message": "The manifest was manually validated.",
+      "revId": "2a982ece781a05b07ed1b7efe83c67c4e744bbca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
