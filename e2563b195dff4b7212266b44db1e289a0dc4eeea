@@ -140,6 +140,24 @@
       "parentUuid": "4891e3a2_2932c200",
       "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "531e5df6_9a9a2775",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-09-13T12:57:28Z",
+      "side": 1,
+      "message": "I\u0027ve now synced the manifests in ag/24735667 (including this change).",
+      "parentUuid": "dd18ff09_5e69be23",
+      "revId": "e2563b195dff4b7212266b44db1e289a0dc4eeea",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
