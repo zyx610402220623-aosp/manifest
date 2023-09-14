@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "efb4ac3a_4441cd0a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2023-09-14T23:56:04Z",
+      "side": 1,
+      "message": "You\u0027ll also need matching changes in goog/androidx-platform-dev and goog/androidx-studio-integration.",
+      "revId": "621e2b9c3d39ee29534114a7c636399f342083fe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "35ff6255_b969054a",
