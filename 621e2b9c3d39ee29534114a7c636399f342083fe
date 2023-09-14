@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35ff6255_b969054a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2023-09-14T23:55:05Z",
+      "side": 1,
+      "message": "Default is specified above, remove the revision.",
+      "range": {
+        "startLine": 21,
+        "startChar": 82,
+        "endLine": 21,
+        "endChar": 106
+      },
+      "revId": "621e2b9c3d39ee29534114a7c636399f342083fe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
