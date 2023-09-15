@@ -18,6 +18,24 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec4d8c76_7901f4a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1258207
+      },
+      "writtenOn": "2023-09-15T00:02:26Z",
+      "side": 1,
+      "message": "Yup, working on it 👍",
+      "parentUuid": "efb4ac3a_4441cd0a",
+      "revId": "621e2b9c3d39ee29534114a7c636399f342083fe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "35ff6255_b969054a",
@@ -31,6 +49,30 @@
       "writtenOn": "2023-09-14T23:55:05Z",
       "side": 1,
       "message": "Default is specified above, remove the revision.",
+      "range": {
+        "startLine": 21,
+        "startChar": 82,
+        "endLine": 21,
+        "endChar": 106
+      },
+      "revId": "621e2b9c3d39ee29534114a7c636399f342083fe",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b88af5c4_d7fb3157",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1258207
+      },
+      "writtenOn": "2023-09-15T00:02:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35ff6255_b969054a",
       "range": {
         "startLine": 21,
         "startChar": 82,
