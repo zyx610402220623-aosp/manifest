@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b36f649a_29780c76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1043845
+      },
+      "writtenOn": "2023-09-18T19:16:32Z",
+      "side": 1,
+      "message": "go/manifest to figure out who can approve this this week",
+      "revId": "cc9a70910c92ad781b8165de98db15d8fd69c1b9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
