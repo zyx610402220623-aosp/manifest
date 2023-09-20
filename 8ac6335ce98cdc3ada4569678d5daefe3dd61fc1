@@ -16,6 +16,23 @@
       "message": "Downstream branches have been created for platform/external/regex-re2.",
       "revId": "8ac6335ce98cdc3ada4569678d5daefe3dd61fc1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "722c877f_84f5525c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-09-20T13:52:19Z",
+      "side": 1,
+      "message": "Please resolve presubmit failures before PDK-Review can proceed.",
+      "revId": "8ac6335ce98cdc3ada4569678d5daefe3dd61fc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
