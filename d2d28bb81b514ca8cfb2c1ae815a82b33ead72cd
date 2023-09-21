@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ab762c2_103b689e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1955624
+      },
+      "writtenOn": "2023-09-21T20:15:37Z",
+      "side": 1,
+      "message": "Please don\u0027t merge this before waiting the result of change #2759006",
+      "revId": "d2d28bb81b514ca8cfb2c1ae815a82b33ead72cd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
