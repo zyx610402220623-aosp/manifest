@@ -34,6 +34,41 @@
       "parentUuid": "acfc0c00_354e5206",
       "revId": "177ce2ef0aeb9fc0d3f2e75f337f5e130758230c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "019fc35d_812c0860",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-09-26T13:31:41Z",
+      "side": 1,
+      "message": "Please rebase your change to resolve the merge conflict before PDK-Review can proceed.",
+      "revId": "177ce2ef0aeb9fc0d3f2e75f337f5e130758230c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91b40066_41cd5379",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-09-26T13:31:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "24249dac_505f529d",
+      "revId": "177ce2ef0aeb9fc0d3f2e75f337f5e130758230c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
