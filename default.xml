@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (40d906 Merge empty history for sparse-10872166-L07600000963222593)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-10770372-L94100000963222142" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="a83ebce60de76bfa696cba71c79a9d8ba2fd9b62" upstream="androidx-sqlite-release" />
+>>>>>>> BRANCH (e1a171 Pin manifest of sparse-10770372-L94100000963222142(None))
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
