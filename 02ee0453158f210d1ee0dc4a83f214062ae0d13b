@@ -16,6 +16,23 @@
       "message": "PTAL Roland.",
       "revId": "02ee0453158f210d1ee0dc4a83f214062ae0d13b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee8772d1_b70c1629",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2023-09-27T16:51:07Z",
+      "side": 1,
+      "message": "Kudos for spotting this unused dependency, Martin!",
+      "revId": "02ee0453158f210d1ee0dc4a83f214062ae0d13b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
