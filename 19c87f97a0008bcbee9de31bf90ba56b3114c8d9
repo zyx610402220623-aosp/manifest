@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbf538e8_138bc9a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-10-02T21:08:30Z",
+      "side": 1,
+      "message": "Please cherry pick to master-art-host in internal. We don\u0027t have an automerge path there. Thanks.",
+      "revId": "19c87f97a0008bcbee9de31bf90ba56b3114c8d9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
