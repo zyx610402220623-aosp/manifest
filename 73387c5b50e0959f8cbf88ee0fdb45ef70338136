@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbc4e8b4_16cf90de",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1047684
+      },
+      "writtenOn": "2023-10-02T09:07:32Z",
+      "side": 1,
+      "message": "jsr305 has been included here.",
+      "range": {
+        "startLine": 257,
+        "startChar": 17,
+        "endLine": 257,
+        "endChar": 35
+      },
+      "revId": "73387c5b50e0959f8cbf88ee0fdb45ef70338136",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
