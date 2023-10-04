@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03b93b02_7fe5b600",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2023-10-04T17:02:52Z",
+      "side": 1,
+      "message": "Can you remove blueport?",
+      "range": {
+        "startLine": 81,
+        "startChar": 113,
+        "endLine": 81,
+        "endChar": 121
+      },
+      "revId": "7669a622addc2bb69706e2976edc67c2711dc4d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
