@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61447c83_3ef7681c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2023-10-05T16:42:12Z",
+      "side": 1,
+      "message": "These projects don\u0027t exist yet, we\u0027ll need go/android-build-request to create them and to mirror the sources into toolchain/jdk/jdk21.",
+      "revId": "c355e662434b047a8851d394fa1f35b3ca243496",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
