@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b69bbf75_eb1681a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2023-10-05T19:39:46Z",
+      "side": 1,
+      "message": "Looks like  the library as is will compile in our environment and is geared to only work with android.bp",
+      "revId": "bb542b352cb5be294f57b2574331bceb1d66aed4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
