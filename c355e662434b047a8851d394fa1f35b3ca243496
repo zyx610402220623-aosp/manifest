@@ -16,6 +16,24 @@
       "message": "These projects don\u0027t exist yet, we\u0027ll need go/android-build-request to create them and to mirror the sources into toolchain/jdk/jdk21.",
       "revId": "c355e662434b047a8851d394fa1f35b3ca243496",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9314cb57_7d7cf017",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1863710
+      },
+      "writtenOn": "2023-10-12T12:29:14Z",
+      "side": 1,
+      "message": "These have now been created:\nhttps://android-review.git.corp.google.com/admin/repos/platform/toolchain/jdk/jdk21,general\nhttps://android-review.git.corp.google.com/admin/repos/platform/prebuilts/jdk/jdk21,general",
+      "parentUuid": "61447c83_3ef7681c",
+      "revId": "c355e662434b047a8851d394fa1f35b3ca243496",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
