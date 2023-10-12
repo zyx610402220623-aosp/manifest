@@ -16,6 +16,24 @@
       "message": "Please cherry pick to master-art-host in internal - we don\u0027t have a merge path there.",
       "revId": "fbe64fe62717765b8c02a247b48124dafffdac1f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92132ad5_998e82f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2023-10-12T15:00:49Z",
+      "side": 1,
+      "message": "Yi has uploaded a chery-pick here: ag/25027517. 🙂",
+      "parentUuid": "a168d6b6_366462cc",
+      "revId": "fbe64fe62717765b8c02a247b48124dafffdac1f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
