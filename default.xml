@@ -20,12 +20,38 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="c0134a589712b150a1862a4e75f795bdeb796d8c" upstream="androidx-window-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="7810581d2f78b428ba68bd9b03d5a241cbcc9682" upstream="androidx-window-release" />
 
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="55bf5b218e039c1888f1445b9e7f3a566d1db16b" upstream="androidx-window-release" />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="09483a5d11cb748c2ce12fe909eb17ed5182f99a" upstream="androidx-window-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-window-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="1b581527656b7bb33d95a3f2d44ac98414139bd3" upstream="androidx-window-release" />
+=======
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
 
+  <!-- Config: shallow + main revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="main" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="main" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="main" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="main" />
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
+
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="770b8bc7fdc80c6edf2c826cc6a27aab21b85beb" upstream="androidx-window-release" />
@@ -35,19 +61,48 @@
   
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-window-release" />
+=======
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="main" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="main" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="main" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+  <!-- Config: shallow + same revision -->
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
 
   
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="33b93a35d09476a7dfab221a82f2b2d389720ac3" upstream="androidx-window-release" />
 
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   
   <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="2b825851f744faf0d24b32ddebd06230ceaf91df" upstream="androidx-window-release">
+=======
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="main">
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="07f18a1128dbf554c4491925cb2bd342db59ad41" upstream="androidx-window-release">
+=======
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="main">
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   
   <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="3c6be68dea1d1f67468ed82317a7b890c4af969c" upstream="androidx-window-release" />
   <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="e5b13f06b8db804c91e1428f2c4926d65facc35c" upstream="androidx-window-release" />
@@ -63,19 +118,108 @@
   
   <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="46ee61a1ad72a57fe34b62e9bdc0c8a4667a0636" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-window-release" />
   <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="8d4edd2535a0425f11198e39b99041894d317b65" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-window-release">
+=======
+  <!-- darwin specific -->
+  <project
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/platform-tools"
+    name="platform/prebuilts/fullsdk-darwin/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/tools"
+    name="platform/prebuilts/fullsdk-darwin/tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+
+  <!-- linux specific -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r23"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmake"
+    name="platform/prebuilts/cmake/darwin-x86"
+    revision="main"
+    groups="notdefault,platform-darwin"
+    clone-depth="1">
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="01ccb6bedbe99c100b711044be33c8ad2a4bec08" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-window-release">
+=======
+  <project
+      path="prebuilts/fullsdk-darwin/ninja"
+      name="platform/prebuilts/ninja/darwin-x86"
+      revision="main"
+      groups="notdefault,platform-darwin"
+      clone-depth="1" >
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="f39064d196f8f1a1fc806feed8f04c509d14a103" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-window-release" />
   <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="d3cfa28c8fc7df75be3131e5ec95dcbd80aaa009" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-window-release">
+=======
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r23"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1">
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="b40af2571e611334a1cf756d47eafc4824ef6efa" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-window-release">
+=======
+  <project
+    path="prebuilts/fullsdk-linux/ninja"
+    name="platform/prebuilts/ninja/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" >
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
   
+<<<<<<< HEAD   (e2e7af Pin manifest of androidx-window-release(None))
   
   
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="b0d6ee042f3e112cbd8a2332d19c010744321400" clone-depth="1" upstream="androidx-window-release" />
@@ -84,6 +228,18 @@
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="65f97c72afe95944b41c526d0d9adeae3a49abc1" upstream="androidx-window-release" />
 
   
+=======
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="main"
+    clone-depth="1" />
+  
+  <!-- Golden images -->
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
 
   
   <project path="frameworks/support" name="platform/frameworks/support" revision="23d9d408ad9f7b442e76762bc5acc3fe4c2b6fea" upstream="androidx-window-release" />
