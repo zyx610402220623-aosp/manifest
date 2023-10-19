@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33748520_78828513",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1546599
+      },
+      "writtenOn": "2023-10-19T22:02:19Z",
+      "side": 1,
+      "message": "Inna,\nThanks for creating the downstream branches.\nThis is now ready to be reviewed and submitted.\nThanks.",
+      "revId": "e31f24b8dbb617ec0575ab6f761cee5032bf2c49",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
