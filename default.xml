@@ -1336,9 +1336,24 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 
-  <!--
-    Merge marker to make it easier for git to merge AOSP-only manifest
-    changes to a custom manifest.  Please keep this marker here and
-    refrain from making changes on or below it.
-  -->
+  <!-- Python prebuilts -->
+  <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="llvm-toolchain" />
+  <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" clone-depth="1" revision="llvm-toolchain" />
+  <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" revision="llvm-toolchain" />
+
+  <!-- Prebuilts (for ease of updating) -->
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" />
+  <project path="prebuilts/clang/host/darwin-universal" name="platform/prebuilts/clang/host/darwin-universal" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
+  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" clone-depth="1" />
+
+  <!-- NDK headers/libraries -->
+  <project path="toolchain/prebuilts/ndk/r26" name="toolchain/prebuilts/ndk/r26" clone-depth="1" />
+
+  <!-- Repo hooks -->
+  <project path="tools/repohooks" name="platform/tools/repohooks" />
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- riscv64 platform sysroot -->
+  <project path="toolchain/prebuilts/sysroot/platform/riscv64-linux-android" name="toolchain/prebuilts/sysroot/platform/riscv64-linux-android" />
 </manifest>
