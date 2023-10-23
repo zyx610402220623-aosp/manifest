@@ -16,6 +16,24 @@
       "message": "It looks like \"libchromeos-rs\" is only referred by a few package visibility configs.  It\u0027d be great if you could clean those up later :)",
       "revId": "15c7ffd5b1d7e9c797c57cc80f664eef81742f70",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9eaddb6_5d20444d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1944400
+      },
+      "writtenOn": "2023-10-23T23:47:23Z",
+      "side": 1,
+      "message": "will do!",
+      "parentUuid": "441e94a1_3bdeaf27",
+      "revId": "15c7ffd5b1d7e9c797c57cc80f664eef81742f70",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
