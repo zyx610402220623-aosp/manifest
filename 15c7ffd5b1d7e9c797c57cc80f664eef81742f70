@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "441e94a1_3bdeaf27",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042276
+      },
+      "writtenOn": "2023-10-23T23:12:14Z",
+      "side": 1,
+      "message": "It looks like \"libchromeos-rs\" is only referred by a few package visibility configs.  It\u0027d be great if you could clean those up later :)",
+      "revId": "15c7ffd5b1d7e9c797c57cc80f664eef81742f70",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
