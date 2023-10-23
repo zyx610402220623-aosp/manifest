@@ -20,11 +20,30 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="47952e846cdef8d1e2bace73ed33237db09c348d" upstream="androidx-credential-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="4bedc535c71b4d805717aa964feeb0ffefbceed3" upstream="androidx-credential-release" />
 
+<<<<<<< HEAD   (f07bd3 Pin manifest of androidx-credential-release(None))
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="122588e0a521e6cff24402a52d7209cb1e42ba83" upstream="androidx-credential-release" />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="7b150bbe96dcadbd05de199f8bbaaa96db6b4247" upstream="androidx-credential-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-credential-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="3512a5340f2fee4b8e53dfd64a108d43194b508d" upstream="androidx-credential-release" />
+=======
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
 
   
   
@@ -76,6 +95,16 @@
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
   
+<<<<<<< HEAD   (f07bd3 Pin manifest of androidx-credential-release(None))
+=======
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="main"
+    clone-depth="1" />
+>>>>>>> BRANCH (c1f004 Remove jdk8 project)
   
   
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="06f8b748c06a989962d9489585c4b1b5ebf795cc" clone-depth="1" upstream="androidx-credential-release" />
