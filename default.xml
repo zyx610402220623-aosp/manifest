@@ -1,8 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (1c9b67 Merge empty history for sparse-10896336-L56500000963677064)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-10896336-L53100000963679056" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="48c177d7b92ca1fef98823d4d6373e88766479e0" upstream="androidx-hilt-release" />
+>>>>>>> BRANCH (bb1c25 Pin manifest of sparse-10896336-L53100000963679056(None))
 
+<<<<<<< HEAD   (1c9b67 Merge empty history for sparse-10896336-L56500000963677064)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-hilt-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="924528cffb6eef5f0d0a774752d40165342f0828" upstream="androidx-hilt-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="c2d39c55f555958db9f2b6c307df89c03a885293" upstream="androidx-hilt-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="94cedd69198e81b49471bd9513d8184ffd9e572b" upstream="androidx-hilt-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="5364f56cd2b6bef81d364cef78b9a5434e732d94" upstream="androidx-hilt-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-hilt-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="faf50912c8ff37d969db9c9d4b8f1e3139f28a7c" upstream="androidx-hilt-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="d08c997cbabbc880582ee7b96bf1e0360da2df63" upstream="androidx-hilt-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="6afb2a7aa21bd6799ff8ac6520210180c10c8d00" upstream="androidx-hilt-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="5441f83c70ec0aafba19267f25f5adb7bfb480d2" upstream="androidx-hilt-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-hilt-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="95230c7681c24571d4f3570f099aef15c789bce8" upstream="androidx-hilt-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="f7d3ccc7788fc3f77a1f91a8054b78a92f60b9b2" upstream="androidx-hilt-release" />
+>>>>>>> BRANCH (bb1c25 Pin manifest of sparse-10896336-L53100000963679056(None))
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -694,4 +719,47 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (1c9b67 Merge empty history for sparse-10896336-L56500000963677064)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="b58f96ae80f544390fb0da12e687a51d703e2ce3" upstream="androidx-hilt-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="e9bbad7b610acf94a50bca26946d0a344c2f59c8" upstream="androidx-hilt-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-hilt-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-hilt-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="9a1b3e229631d81c086ffb3a631fd1da29afd039" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-hilt-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="e5a97dfb865488e653b4a396f9a9e8a8965bde71" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-hilt-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-hilt-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="715b0430559da48bca7c2eca1a708100cf08a4cf" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-hilt-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="9f76c86a41e613d6dfbfbcefc92a776ed9bfd99b" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-hilt-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-hilt-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="46984d1c4e18500e5f7238efbca1045c3bed5ce4" clone-depth="1" upstream="androidx-hilt-release" />
+  
+  
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="403b1a728e34398c81ae58ae75cee9603223ac74" upstream="androidx-hilt-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="d7c8fe6f9acaedd47350d14821779a021ce527f2" upstream="androidx-hilt-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="6890cba6f3f2c04321edcf422cf2a9807278148b" upstream="androidx-hilt-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (bb1c25 Pin manifest of sparse-10896336-L53100000963679056(None))
 </manifest>
