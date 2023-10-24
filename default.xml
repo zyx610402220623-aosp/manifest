@@ -491,6 +491,14 @@
   <project path="external/python/timeout-decorator" name="platform/external/python/timeout-decorator" groups="pdk" />
   <project path="external/python/typing" name="platform/external/python/typing" groups="pdk" />
   <project path="external/python/uritemplates" name="platform/external/python/uritemplates" groups="vts,pdk" />
+  <!--
+    qemu needs to be in the same directory as capstone, dtc, and qemu-keycodemapdb
+    because the former refers to the others using relative symlinks
+  -->
+  <project path="external/qemu" name="trusty/external/qemu" groups="trusty" />
+  <project path="external/qemu-keycodemapdb" name="trusty/external/qemu-keycodemapdb" revision="d21009b1c9f94b740ea66be8e48a1d8ad8124023" groups="trusty" />
+  <project path="external/qemu-libslirp" name="trusty/external/qemu-libslirp" revision="a88d9ace234a24ce1c17189642ef9104799425e0" groups="trusty" />
+  <project path="external/qemu-meson" name="trusty/external/qemu-meson" revision="12f9f04ba0decfda425dbbf9a501084c153a2d18" groups="trusty" />
   <project path="external/rappor" name="platform/external/rappor" groups="pdk" />
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk" />
   <project path="external/renderscript-intrinsics-replacement-toolkit" name="platform/external/renderscript-intrinsics-replacement-toolkit" groups="pdk" />
