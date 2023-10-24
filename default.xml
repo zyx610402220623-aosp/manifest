@@ -8,6 +8,10 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote  name="android-kvm"
+           fetch="https://android-kvm.googlesource.com/"
+           review="https://android-kvm.googlesource.com/" />
+
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
   <superproject name="platform/superproject/main" remote="aosp"/>
@@ -161,6 +165,7 @@
   <project path="external/bpftool" name="platform/external/bpftool" groups="pdk" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/build" name="kernel/build" revision="5ad8f177bc46b601f797a76f7ca64a3d13dcf267" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
   <project path="external/capstone" name="platform/external/capstone" groups="pdk" />
@@ -367,6 +372,7 @@
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/licenseclassifier" name="platform/external/licenseclassifier" groups="pdk" />
+  <project path="external/linux" name="linux" revision="sebastianene/android14-5.15_qemu_trusty_for_linaro" remote="android-kvm" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" clone-depth="1" />
   <!-- This should be under external/trusty/lk, but the path is hard-coded in too many places -->
   <project path="external/lk" name="trusty/lk/common" groups="trusty" />
@@ -386,6 +392,10 @@
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
   <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/python/mobly" name="platform/external/python/mobly" groups="pdk" />
+  <project path="external/prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1"/>
+  <project path="external/prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1"/>
+  <project path="external/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1"/>
+  <project path="external/prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" clone-depth="1"/>
   <project path="external/mobile-data-download" name="platform/external/mobile-data-download" groups="pdk" />
   <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" groups="pdk" />
   <project path="external/mobly-snippet-lib" name="platform/external/mobly-snippet-lib" groups="pdk" />
