@@ -69,6 +69,24 @@
       "parentUuid": "24249dac_505f529d",
       "revId": "177ce2ef0aeb9fc0d3f2e75f337f5e130758230c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c228c119_44d0fe36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1291337
+      },
+      "writtenOn": "2023-11-01T00:23:32Z",
+      "side": 1,
+      "message": "Done. Sorry about the delay.",
+      "parentUuid": "019fc35d_812c0860",
+      "revId": "177ce2ef0aeb9fc0d3f2e75f337f5e130758230c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
