@@ -1,9 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (ac9b0e Merge empty history for sparse-10971602-L94700030000015962)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-10975623-L59900030000028364" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="45de20f4b086af3252c01b0527c064d9bff72555" upstream="androidx-browser-release" />
+>>>>>>> BRANCH (cf1f82 Pin manifest of sparse-10975623-L59900030000028364(None))
 
+<<<<<<< HEAD   (ac9b0e Merge empty history for sparse-10971602-L94700030000015962)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-browser-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="d0409b99371279739fe49127c7e4873fbce86117" upstream="androidx-browser-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="a902d2ebafeee2ecde1e8833c1bcce6781898685" upstream="androidx-browser-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="b711139763ad93e343d1bcc20d02df758e8247cb" upstream="androidx-browser-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="99aa1158968a9dbd0aecc0ecd76832f7e306c498" upstream="androidx-browser-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-browser-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="faf50912c8ff37d969db9c9d4b8f1e3139f28a7c" upstream="androidx-browser-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="7feee679a5e396d60b1fb6e16428aadfdb097db1" upstream="androidx-browser-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="e82a40b4d07a94c0a52d0f023ecdb0708038ac3c" upstream="androidx-browser-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e988db092247e820c33ae54f3f396d962acee37b" upstream="androidx-browser-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-browser-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="8ada24fcba5e3fe67e5a4faf1bc211c49aea86ee" upstream="androidx-browser-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="2e811d083633819f25ad5e51b9b53cdf31b5f14f" upstream="androidx-browser-release" />
+>>>>>>> BRANCH (cf1f82 Pin manifest of sparse-10975623-L59900030000028364(None))
 
+<<<<<<< HEAD   (ac9b0e Merge empty history for sparse-10971602-L94700030000015962)
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
@@ -12,12 +38,42 @@
     <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
+=======
+  
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="0a18fd26e7d813c142d67667f2f8803105d5ee40" upstream="androidx-browser-release" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="cb94e0ef297976c69c3ec1ac03ab5733949f3743" upstream="androidx-browser-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-browser-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="4a226bf00af8cb2335bf5cb71ab7bc7a94e6074e" upstream="androidx-browser-release" />
+
+  
+  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="8ff9272fb5008f153748397fa6208e10829e79ab" upstream="androidx-browser-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="f78ac3c9dac636ee3f48b0723fac8d7e4801c9e5" upstream="androidx-browser-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-browser-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="2558d127d3da5df4508d10cffe5dcf8549079d07" upstream="androidx-browser-release" />
+  
+  
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="36385654437e0fdddeebff7934834216b97278e4" upstream="androidx-browser-release" />
+
+  
+  
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="6ed97e5d39e8c2fd9b02e485e1037fdd2d04f603" upstream="androidx-browser-release" />
+
+  
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="293b224f4f4723e99a891cdd953e70834767e100" upstream="androidx-browser-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
+>>>>>>> BRANCH (cf1f82 Pin manifest of sparse-10975623-L59900030000028364(None))
   </project>
+<<<<<<< HEAD   (ac9b0e Merge empty history for sparse-10971602-L94700030000015962)
   <project groups="pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" revision="e730f4f2b9d1da39ab1ac3b6375acee2d6cf4069" />
   <project groups="pdk,tradefed" name="platform/build/kati" path="build/kati" revision="17da287661100ee95f6f7b16c86afbdd78243dc5" />
   <project groups="pdk,tradefed" name="platform/build/soong" path="build/soong" revision="a427e814f07d071b4a3c31976a7701b4f80546b5">
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+=======
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="6f4108b17f905d3a32dc363193ce08b6dd781131" upstream="androidx-browser-release">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
+>>>>>>> BRANCH (cf1f82 Pin manifest of sparse-10975623-L59900030000028364(None))
   </project>
   <project groups="pdk" name="platform/art" path="art" revision="f0e3a368c80b7d32e2f85ffa948751525a9f903b" />
   <project groups="pdk" name="platform/bionic" path="bionic" revision="866374163a1164e1113a4d2e9e0453d68a06dfa3" />
@@ -692,6 +748,53 @@
   <project groups="pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="29b565f92e3fdafa2851d6682e0353a0cae08856" />
   <project groups="pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" revision="d5cb37813e7e126241766f004d93765b6473af2a" />
 
+<<<<<<< HEAD   (ac9b0e Merge empty history for sparse-10971602-L94700030000015962)
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
+=======
+  
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="927d9e5fa74cbcd8a294deed3537664d044dc723" upstream="androidx-browser-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="90c0006d42d88490b7f3bfd49f873facefa6d1a1" upstream="androidx-browser-release" />
+  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-browser-release" />
+>>>>>>> BRANCH (cf1f82 Pin manifest of sparse-10975623-L59900030000028364(None))
 
+<<<<<<< HEAD   (ac9b0e Merge empty history for sparse-10971602-L94700030000015962)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="ad7b3929635e70fbcecbe4d39cb8cbff25bc754d" upstream="androidx-browser-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="9c770e9ee607f8b7681eee0356802bcff22edae4" upstream="androidx-browser-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-browser-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-browser-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="9a1b3e229631d81c086ffb3a631fd1da29afd039" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-browser-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="a25a13bda718c80283412c2365091076f478572d" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-browser-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-browser-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-browser-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="9153cb9d0614b8e9557cb6b00407bb4c53fe8e73" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-browser-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-browser-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="4ff9f48bc65ad74560ac1408dc0448c472ea5225" clone-depth="1" upstream="androidx-browser-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="b4b14a8503ab676b4f66646f2251f6f4190dc5ac" upstream="androidx-browser-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="53e9b4dce6b20ef2b7b66fedea0fb463dfbc1ce6" upstream="androidx-browser-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (cf1f82 Pin manifest of sparse-10975623-L59900030000028364(None))
 </manifest>
