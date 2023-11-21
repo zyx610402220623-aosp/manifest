@@ -1,8 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (6e9514 Merge empty history for sparse-10864898-L43500030000391775)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-10864898-L73200030000388632" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="1080d3a1e0024229875a865382b768196594afe3" upstream="androidx-room-release" />
+>>>>>>> BRANCH (000587 Pin manifest of sparse-10864898-L73200030000388632(None))
 
+<<<<<<< HEAD   (6e9514 Merge empty history for sparse-10864898-L43500030000391775)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="74c2cf6b983956ac8e9a23422a4d6a08c0019bf5" upstream="androidx-room-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="09a6ee2eaeec5b59d8095dedea6b9bbe76f5a8ca" upstream="androidx-room-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="9868bede659ca5201b47786dab211804ede20b02" upstream="androidx-room-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="e2c20c6164ef5c77bbeaadee4448b90466bf606c" upstream="androidx-room-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="1d326c6b5fa2b574693a8665714ae38f808c5c4c" upstream="androidx-room-release" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" revision="ac78e79576a6149bfaa941e57013a1f4f0505067" upstream="androidx-room-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="b0584fe7f98d8a2b85efa5817a6f129da88ff569" upstream="androidx-room-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="f5dda93ffdf72e3f9e1aaa51abc3016fac9bf414" upstream="androidx-room-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="9c147acb7800b8d03f96ed9843fd8f5c9472effb" upstream="androidx-room-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="2cba2c45950db2fbf41da1bee3cbb16e452e354f" upstream="androidx-room-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="6f225c0810cdcc3890f5bc8cdad53ec55b8915eb" upstream="androidx-room-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="7fa0b5741fe9b893f629dd583c06efed23e1cf2d" upstream="androidx-room-release" />
+>>>>>>> BRANCH (000587 Pin manifest of sparse-10864898-L73200030000388632(None))
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -694,4 +718,47 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (6e9514 Merge empty history for sparse-10864898-L43500030000391775)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="e2ac37940348a9e4d8e2b35465e1a626e660371a" upstream="androidx-room-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="8e869479cc38970bae71cb430926970a451c28f3" upstream="androidx-room-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-room-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-room-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="9a1b3e229631d81c086ffb3a631fd1da29afd039" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-room-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="e752a58e6300c4abf7a311adf4179003cfdaaad2" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-room-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="0142b8a61f1aa8dfa17a25beaa68087d6b1df99d" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-room-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="4b5b1c59b0a4c90423ede940832cbca1aa3180f5" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-room-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="bd64c7a6836054009f8fe5c798e35e3ca9dbfd68" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-room-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="2dcf33de6f158819f32628f810e9273d1ada8b11" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-room-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="a3b2ad993dedb580c367e19884109b3e27ce684c" clone-depth="1" upstream="androidx-room-release" />
+  
+  
+  <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" clone-depth="1" revision="ad44044c66d164af061069731f9e6499ec4771ff" upstream="androidx-room-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="116f299525f71f49acd5ae3f20b85052581914fa" upstream="androidx-room-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="e00ffb21ff0a3b887fa9857df88cb2f965a0474e" upstream="androidx-room-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (000587 Pin manifest of sparse-10864898-L73200030000388632(None))
 </manifest>
