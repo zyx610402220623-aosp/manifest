@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b33e4770_479f1740",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1863710
+      },
+      "writtenOn": "2023-11-28T19:44:52Z",
+      "side": 1,
+      "message": "PTAL. I am generating the prebuilts (see ab/openjdk) and would like to make them available in AOSP. I have tested locally by updating the default.xml in a tree and doing a sync - I can see the prebuilts there.",
+      "revId": "35d8508f2ed2f29c817f06a642b3e4b491314c41",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
