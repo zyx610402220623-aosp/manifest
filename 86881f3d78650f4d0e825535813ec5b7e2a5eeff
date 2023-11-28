@@ -16,6 +16,23 @@
       "message": "Downstream branches have been created for platform/system/secretkeeper.",
       "revId": "86881f3d78650f4d0e825535813ec5b7e2a5eeff",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad3117fa_b9fd369a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1836235
+      },
+      "writtenOn": "2023-11-28T18:16:46Z",
+      "side": 1,
+      "message": "Thanks for setting up the branches!",
+      "revId": "86881f3d78650f4d0e825535813ec5b7e2a5eeff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
