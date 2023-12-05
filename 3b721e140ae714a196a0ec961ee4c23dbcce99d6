@@ -24,6 +24,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "621a21cb_6793be80",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1065473
+      },
+      "writtenOn": "2023-12-05T16:43:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "df0ac8e3_b4c1266d",
+      "range": {
+        "startLine": 9,
+        "startChar": 5,
+        "endLine": 9,
+        "endChar": 13
+      },
+      "revId": "3b721e140ae714a196a0ec961ee4c23dbcce99d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b8eb9459_1f8856cd",
@@ -37,6 +61,24 @@
       "writtenOn": "2023-12-05T16:23:36Z",
       "side": 1,
       "message": "Please cherry pick to git_master-art-host in internal. There\u0027s no automerge path there.",
+      "revId": "3b721e140ae714a196a0ec961ee4c23dbcce99d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9fe0290_e1f2a581",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1065473
+      },
+      "writtenOn": "2023-12-05T16:43:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b8eb9459_1f8856cd",
       "revId": "3b721e140ae714a196a0ec961ee4c23dbcce99d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
