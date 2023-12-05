@@ -34,6 +34,24 @@
       "parentUuid": "aff47212_45fbea69",
       "revId": "07bcd3b65d41f58cf4baf88bcf2d0e1d03b9bae9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77c6d581_d87b6f11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 45
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2023-12-05T19:45:49Z",
+      "side": 1,
+      "message": "Really, the time for that review was in ag/25403373, this is just making aosp-main consistent with main.\n\nThat being said, yes, I think this should have had more reviews than it ended up having (android3p reviews for inclusion into the trusty manifest did not include approval for inclusion into the main platform manifest)",
+      "parentUuid": "56e5e2a0_bd10b5c8",
+      "revId": "07bcd3b65d41f58cf4baf88bcf2d0e1d03b9bae9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
