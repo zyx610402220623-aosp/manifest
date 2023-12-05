@@ -16,6 +16,24 @@
       "message": "Please briefly mention here why this change is required.",
       "revId": "f8525140d3c33ac6e5f5998661eb97c1f2b2cb76",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23f4d327_e9669400",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1065473
+      },
+      "writtenOn": "2023-12-05T16:43:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "87f05398_0fd005f2",
+      "revId": "f8525140d3c33ac6e5f5998661eb97c1f2b2cb76",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
