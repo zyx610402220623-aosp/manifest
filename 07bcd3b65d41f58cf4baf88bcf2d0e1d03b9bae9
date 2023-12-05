@@ -16,6 +16,24 @@
       "message": "@dwillemsen@google.com, will you please review this change? It adds comments that we usually don\u0027t have in a manifest.",
       "revId": "07bcd3b65d41f58cf4baf88bcf2d0e1d03b9bae9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "56e5e2a0_bd10b5c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 45
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2023-12-05T16:51:22Z",
+      "side": 1,
+      "message": "Unresolved.",
+      "parentUuid": "aff47212_45fbea69",
+      "revId": "07bcd3b65d41f58cf4baf88bcf2d0e1d03b9bae9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
