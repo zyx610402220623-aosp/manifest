@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db4606c6_e52c14e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2065541
+      },
+      "writtenOn": "2023-12-10T22:29:22Z",
+      "side": 1,
+      "message": "https://android.googlesource.com/assets/android-studio-ux-assets/+/78bd3bb0c5799e1f07836480fd87f0705a69ce28",
+      "revId": "528bce924c9ee30d87ce98a5b3b73270f922beb9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
