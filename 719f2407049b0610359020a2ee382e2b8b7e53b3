@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37c62d82_38698a81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2023-12-11T23:59:22Z",
+      "side": 1,
+      "message": "Similar to https://android-review.git.corp.google.com/c/platform/manifest/+/2866694, we needed this manifest CL to not be skipped. 😞 It would be preferable in the future to know when these kinds of CLs come in so that we can make sure our builds don\u0027t break.",
+      "revId": "719f2407049b0610359020a2ee382e2b8b7e53b3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
