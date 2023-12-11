@@ -70,6 +70,24 @@
       "parentUuid": "77c6d581_d87b6f11",
       "revId": "07bcd3b65d41f58cf4baf88bcf2d0e1d03b9bae9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2496e8f_f880c3e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 45
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2023-12-11T23:03:44Z",
+      "side": 1,
+      "message": "Reverted the internal patch, can continue the review there.",
+      "parentUuid": "5e83be15_95f4ab11",
+      "revId": "07bcd3b65d41f58cf4baf88bcf2d0e1d03b9bae9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
