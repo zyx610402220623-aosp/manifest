@@ -16,6 +16,24 @@
       "message": "The presubmit error looks unrelated to me:\n```\nbuild/make/core/product_config.mk:237: TARGET_USES_64_BIT_BINDER has been deprecated. All devices use 64-bit binder by default now. Uses of TARGET_USES_64_BIT_BINDER should be removed..\nTraceback (most recent call last):\n  out/rbc/launcher.rbc:3:1: in \u003ctoplevel\u003e\nError: cannot load //out/rbc/device/google/cuttlefish/vsoc_x86_64_only/auto_md/aosp_cf.rbc: out/rbc/device/google/cuttlefish/vsoc_x86_64_only/auto_md/aosp_cf.rbc:56:21: undefined: __include_stack\nIn file included from build/make/core/config.mk:389:\nIn file included from build/make/core/envsetup.mk:350:\nbuild/make/core/product_config.mk:252: *** product configuration runner failed: 2.\n```",
       "revId": "3877e84bf3fa5c4831a7bc5e474524dba2019db1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "865cd849_9bcd43da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1996085
+      },
+      "writtenOn": "2023-12-12T16:34:51Z",
+      "side": 1,
+      "message": "I\u0027m seeing this too. I opened a bug: b/315974495",
+      "parentUuid": "1fb4f933_3ac924de",
+      "revId": "3877e84bf3fa5c4831a7bc5e474524dba2019db1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
