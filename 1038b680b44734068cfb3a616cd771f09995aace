@@ -33,6 +33,24 @@
       "message": "Please verify presubmit passes before PDK-Review can begin.",
       "revId": "1038b680b44734068cfb3a616cd771f09995aace",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87ce76a7_7c60080f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1996085
+      },
+      "writtenOn": "2023-12-12T20:42:39Z",
+      "side": 1,
+      "message": "Presubmit is now passing (after unrelated b/315974495) was fixed.",
+      "parentUuid": "de3c05c4_f05fa161",
+      "revId": "1038b680b44734068cfb3a616cd771f09995aace",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
