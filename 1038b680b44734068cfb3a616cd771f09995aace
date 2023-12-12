@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "505baad6_fe95f899",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1996085
+      },
+      "writtenOn": "2023-12-12T16:37:13Z",
+      "side": 1,
+      "message": "I opened a bug for the unrelated presubmit failure affecting all manifest CLs right now: b/315974495",
+      "revId": "1038b680b44734068cfb3a616cd771f09995aace",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
