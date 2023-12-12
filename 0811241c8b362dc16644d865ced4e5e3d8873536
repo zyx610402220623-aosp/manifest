@@ -33,6 +33,24 @@
       "message": "Please verify presubmit passes before PDK-Review can begin.",
       "revId": "0811241c8b362dc16644d865ced4e5e3d8873536",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bff842bd_6b3cb2e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1380243
+      },
+      "writtenOn": "2023-12-12T20:47:37Z",
+      "side": 1,
+      "message": "The presubmit failure is unrelated, please review anyway so we don\u0027t have to wait another day of back and forth between timezones, I\u0027ll wait until it\u0027s fixed before submitting.",
+      "parentUuid": "6302503f_9d61c00b",
+      "revId": "0811241c8b362dc16644d865ced4e5e3d8873536",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
