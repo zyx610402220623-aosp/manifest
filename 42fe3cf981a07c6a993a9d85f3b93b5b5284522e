@@ -16,6 +16,23 @@
       "message": "Thank you David, but I will wait with +2 until there are no presubmit failures.",
       "revId": "42fe3cf981a07c6a993a9d85f3b93b5b5284522e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bd89038_7cb3c2de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1065473
+      },
+      "writtenOn": "2023-12-14T14:45:06Z",
+      "side": 1,
+      "message": "Promise not to submit until there are no pre-submit failures :-)\n\n(fixes of those are blocked on Code-Owners in other projects)",
+      "revId": "42fe3cf981a07c6a993a9d85f3b93b5b5284522e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
