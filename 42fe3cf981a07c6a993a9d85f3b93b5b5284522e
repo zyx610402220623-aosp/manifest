@@ -33,6 +33,23 @@
       "message": "Promise not to submit until there are no pre-submit failures :-)\n\n(fixes of those are blocked on Code-Owners in other projects)",
       "revId": "42fe3cf981a07c6a993a9d85f3b93b5b5284522e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e53d55cb_6c51e3d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121678
+      },
+      "writtenOn": "2023-12-14T15:58:39Z",
+      "side": 1,
+      "message": "I can only do Code-Review+1.",
+      "revId": "42fe3cf981a07c6a993a9d85f3b93b5b5284522e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
