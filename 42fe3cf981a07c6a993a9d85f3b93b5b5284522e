@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e69dc52d_503d3f88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121678
+      },
+      "writtenOn": "2023-12-14T14:43:24Z",
+      "side": 1,
+      "message": "Thank you David, but I will wait with +2 until there are no presubmit failures.",
+      "revId": "42fe3cf981a07c6a993a9d85f3b93b5b5284522e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
