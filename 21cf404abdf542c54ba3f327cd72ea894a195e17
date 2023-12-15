@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce302d65_4c8f2b35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1101621
+      },
+      "writtenOn": "2023-12-15T15:45:33Z",
+      "side": 1,
+      "message": "Does the internal manifest automerge from AOSP too, or is a separate change required?",
+      "revId": "21cf404abdf542c54ba3f327cd72ea894a195e17",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
