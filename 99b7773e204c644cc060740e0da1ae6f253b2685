@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b97f3653_5eb00cf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2023-12-15T02:05:25Z",
+      "side": 1,
+      "message": "It looks like some downstream branches depend on the removed external/smali project.",
+      "revId": "99b7773e204c644cc060740e0da1ae6f253b2685",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
