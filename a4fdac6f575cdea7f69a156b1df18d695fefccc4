@@ -51,6 +51,24 @@
       "parentUuid": "84148117_8793b059",
       "revId": "a4fdac6f575cdea7f69a156b1df18d695fefccc4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e235c686_310892fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1047684
+      },
+      "writtenOn": "2023-12-18T17:21:39Z",
+      "side": 1,
+      "message": "go/gob-supermanifest-rerun\n\nIs this related..? It says that it\u0027s one-off internal failure. And after submitting the CL, the admin can force updating the manifest..?",
+      "parentUuid": "eec5cf98_5498ad5a",
+      "revId": "a4fdac6f575cdea7f69a156b1df18d695fefccc4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
