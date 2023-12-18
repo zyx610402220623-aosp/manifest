@@ -16,6 +16,23 @@
       "message": "The last presubmit run shows that it should fix the master-art failure with https://r.android.com/2880048",
       "revId": "a4fdac6f575cdea7f69a156b1df18d695fefccc4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84148117_8793b059",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-12-18T16:29:16Z",
+      "side": 1,
+      "message": "I tried a fresh master-art checkout without and with this, and at least it doesn\u0027t bloat the checkout that much - it\u0027s 64 GB both before and after.\n\nHowever I\u0027m getting this:\n\n```\nrepo superproject branch: master-art url: sso://android.git.corp.google.com/platform/superproject warning: please file a bug using https://bugs.chromium.org/p/gerrit/issues/entry?template\u003dRepo+tool+issue to report missing commit_ids for: [\u0027external/rust/crates/ahash\u0027, \u0027external/rust/crates/aho-corasick\u0027, \u0027external/rust/crates/anyhow\u0027, \u0027external/rust/crates/bitflags\u0027, \u0027external/rust/crates/byteorder\u0027, \u0027external/rust/crates/bytes\u0027, \u0027external/rust/crates/cfg-if\u0027, \u0027external/rust/crates/clap\u0027, \u0027external/rust/crates/clap_derive\u0027, \u0027external/rust/crates/clap_lex\u0027, \u0027external/rust/crates/either\u0027, \u0027external/rust/crates/fastrand\u0027, \u0027external/rust/crates/getrandom\u0027, \u0027external/rust/crates/hashbrown\u0027, \u0027external/rust/crates/heck\u0027, \u0027external/rust/crates/indexmap\u0027, \u0027external/rust/crates/itertools\u0027, \u0027external/rust/crates/itoa\u0027, \u0027external/rust/crates/libc\u0027, \u0027external/rust/crates/log\u0027, \u0027external/rust/crates/memchr\u0027, \u0027external/rust/crates/once_cell\u0027, \u0027external/rust/crates/os_str_bytes\u0027, \u0027external/rust/crates/paste\u0027, \u0027external/rust/crates/proc-macro2\u0027, \u0027external/rust/crates/protobuf\u0027, \u0027external/rust/crates/protobuf-codegen\u0027, \u0027external/rust/crates/protobuf-parse\u0027, \u0027external/rust/crates/protobuf-support\u0027, \u0027external/rust/crates/quote\u0027, \u0027external/rust/crates/regex\u0027, \u0027external/rust/crates/regex-syntax\u0027, \u0027external/rust/crates/remove_dir_all\u0027, \u0027external/rust/crates/ryu\u0027, \u0027external/rust/crates/serde\u0027, \u0027external/rust/crates/serde_derive\u0027, \u0027external/rust/crates/serde_json\u0027, \u0027external/rust/crates/syn\u0027, \u0027external/rust/crates/tempfile\u0027, \u0027external/rust/crates/thiserror\u0027, \u0027external/rust/crates/thiserror-impl\u0027, \u0027external/rust/crates/tinytemplate\u0027, \u0027external/rust/crates/unicode-ident\u0027, \u0027external/rust/crates/unicode-segmentation\u0027, \u0027external/rust/crates/which\u0027, \u0027external/rust/crates/zerocopy\u0027, \u0027external/rust/crates/zerocopy-derive\u0027]\n: warning: Update of revisionId from superproject has failed, repo sync will not use superproject to fetch the source.  Please resync with the --no-use-superproject option to avoid this repo warning.\n```\n\nIs it possible to make this work with superproject so people don\u0027t have to turn it off?",
+      "revId": "a4fdac6f575cdea7f69a156b1df18d695fefccc4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
