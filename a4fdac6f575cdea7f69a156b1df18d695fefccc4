@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "576c23ca_3ccd650d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1047684
+      },
+      "writtenOn": "2023-12-18T15:20:20Z",
+      "side": 1,
+      "message": "The last presubmit run shows that it should fix the master-art failure with https://r.android.com/2880048",
+      "revId": "a4fdac6f575cdea7f69a156b1df18d695fefccc4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
