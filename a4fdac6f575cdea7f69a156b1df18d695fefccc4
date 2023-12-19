@@ -87,6 +87,24 @@
       "parentUuid": "e235c686_310892fb",
       "revId": "a4fdac6f575cdea7f69a156b1df18d695fefccc4",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4ac7422_5294dfe5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2023-12-19T12:25:20Z",
+      "side": 1,
+      "message": "Indeed I don\u0027t see those errors when I sync now after submit, so it appears they\u0027re just a presubmit problem.",
+      "parentUuid": "0bb0adb3_10da0f10",
+      "revId": "a4fdac6f575cdea7f69a156b1df18d695fefccc4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
