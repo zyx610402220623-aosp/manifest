@@ -34,6 +34,24 @@
       "message": "What is \u0027PDK-Review\u0027?  I guess I need +1 for that as well.",
       "revId": "5372fde44c2a0ad33394da2413323c173897b565",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a109e327_2371f4e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2023-12-19T15:59:40Z",
+      "side": 1,
+      "message": "rassb@\u0027s team votes on it after checking PDK setups.",
+      "parentUuid": "7843b0dc_0a809fc7",
+      "revId": "5372fde44c2a0ad33394da2413323c173897b565",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
