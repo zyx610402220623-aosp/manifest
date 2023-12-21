@@ -16,8 +16,14 @@
   </project>
   <project path="tools/buildSrc" name="platform/tools/buildSrc" />
   <project path="external/libslirp" name="trusty/external/qemu-libslirp"/>
+<<<<<<< HEAD   (7d609e DO NOT MERGE ANYWHERE Create manifest for emu-34-2-release)
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" />
+=======
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="main"/>
+  <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="main"/>
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+>>>>>>> BRANCH (57ea68 Bring in abseil-cpp)
   <project path="external/adt-infra" name="platform/external/adt-infra" />
   <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets"  />
   <project path="external/angle" name="platform/external/angle" />
