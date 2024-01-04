@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43ebab00_085d3e4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-01-04T22:47:53Z",
+      "side": 1,
+      "message": "We made a CL like this internally (go/ag/22205867) which was then partially undone to make the Internal manifest match AOSP (go/ag/23270679).\n\nMy goal is to reland this in a way which will not need to be reverted.",
+      "revId": "0a1a3c8111c87c6f634952a94619b74c17043f35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
