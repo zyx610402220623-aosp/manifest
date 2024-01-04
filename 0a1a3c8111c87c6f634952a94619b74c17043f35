@@ -33,6 +33,24 @@
       "message": "I can work on fixing up these various conflicts that presubmit has flagged.  But before doing that, I\u0027d like confirmation that this CL is doing what we\u0027d like in general.\n\nAlso, might we want the \"sysui-studio\" group for clang darwin here in AOSP as well (I think that might resolve most of the conflicts?)?",
       "revId": "0a1a3c8111c87c6f634952a94619b74c17043f35",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f72227d6_4cd29fe2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2024-01-04T23:44:50Z",
+      "side": 1,
+      "message": "My interpretation from the bug linked in ag/23270679 was that we needed that repo to be checked out for some builds on linux too. But I\u0027m not sure we care about that particular build anymore (it\u0027s been disabled for a couple months).\n\n\u003e While our infrastructure likely ignores this\n\nIt in fact does respect this (as shown by the build breakage that ag/23270679 was fixing). This is one of the few things with manifest groups that it does support.",
+      "parentUuid": "43ebab00_085d3e4b",
+      "revId": "0a1a3c8111c87c6f634952a94619b74c17043f35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
