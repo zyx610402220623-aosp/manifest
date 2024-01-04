@@ -16,6 +16,23 @@
       "message": "We made a CL like this internally (go/ag/22205867) which was then partially undone to make the Internal manifest match AOSP (go/ag/23270679).\n\nMy goal is to reland this in a way which will not need to be reverted.",
       "revId": "0a1a3c8111c87c6f634952a94619b74c17043f35",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a4e9fa1_760f7436",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-01-04T23:18:57Z",
+      "side": 1,
+      "message": "I can work on fixing up these various conflicts that presubmit has flagged.  But before doing that, I\u0027d like confirmation that this CL is doing what we\u0027d like in general.\n\nAlso, might we want the \"sysui-studio\" group for clang darwin here in AOSP as well (I think that might resolve most of the conflicts?)?",
+      "revId": "0a1a3c8111c87c6f634952a94619b74c17043f35",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
