@@ -16,6 +16,24 @@
       "message": "(I don\u0027t have +2?)\n\nThis make sense to me, but I wonder whether it would be better to add a low-cost task to the presubmit for prebuilts/external instead. `./gradlew test --dry-run` would resolve all of the classpaths and detect all errors, right?",
       "revId": "047362e7bcfe1f188a1dc3838e4126041f9973d2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14a9027d_6993c562",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2024-01-16T17:46:01Z",
+      "side": 1,
+      "message": "This is for toos/external/gradle, so that androidx-main removing old prebuilts of gradle does not break Dackka. Last upgrade for example required changes to build.gradle.kts, i\u0027d prefer we dont bundle androidx and dackka upgrades of gradle.",
+      "parentUuid": "3b7c9d66_402441a5",
+      "revId": "047362e7bcfe1f188a1dc3838e4126041f9973d2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
