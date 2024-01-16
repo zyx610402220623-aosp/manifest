@@ -38,11 +38,32 @@
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="3d34586bdad0d95835cf5c2c067613ea4cba74e7" upstream="androidx-profileinstaller-release" />
 
+<<<<<<< HEAD   (d4ef3e Pin manifest of androidx-profileinstaller-release(None))
   
   <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="f2015165801a4efb7c919e9bf39e8d5a18fb4d0f" upstream="androidx-profileinstaller-release">
+=======
+  <!-- Gradle dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
+
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="master">
+>>>>>>> BRANCH (148dd2 Migrate platform SDKs to top-level fullsdk project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
+<<<<<<< HEAD   (d4ef3e Pin manifest of androidx-profileinstaller-release(None))
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="bcfbe3a5fc572ea731c08053d83160e677c877da" upstream="androidx-profileinstaller-release">
+=======
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="master">
+>>>>>>> BRANCH (148dd2 Migrate platform SDKs to top-level fullsdk project)
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
