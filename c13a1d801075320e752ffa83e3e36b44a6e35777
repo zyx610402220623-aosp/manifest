@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6638bfc6_280c3deb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1470382
+      },
+      "writtenOn": "2024-01-16T18:23:49Z",
+      "side": 1,
+      "message": "+2 but I can\u0027t even vote code review",
+      "revId": "c13a1d801075320e752ffa83e3e36b44a6e35777",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
