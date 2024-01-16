@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b7c9d66_402441a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1520332
+      },
+      "writtenOn": "2024-01-16T17:44:03Z",
+      "side": 1,
+      "message": "(I don\u0027t have +2?)\n\nThis make sense to me, but I wonder whether it would be better to add a low-cost task to the presubmit for prebuilts/external instead. `./gradlew test --dry-run` would resolve all of the classpaths and detect all errors, right?",
+      "revId": "047362e7bcfe1f188a1dc3838e4126041f9973d2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
