@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95cc0ef3_57a8e9f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2024-01-17T05:24:04Z",
+      "side": 1,
+      "message": "PTAL at the revision very closely... should be easy, but I don\u0027t want to get it wrong. Thanks!",
+      "revId": "27b00a4a181dfff1649830964783393caa6a7160",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
