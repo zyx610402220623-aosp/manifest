@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43b01d79_1bf667d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2024-01-17T17:21:06Z",
+      "side": 1,
+      "message": "This should reduce the load of our mac build bots sigficantly.",
+      "revId": "c45c41448215bfdd393f2367e2b531a51e0c912a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
