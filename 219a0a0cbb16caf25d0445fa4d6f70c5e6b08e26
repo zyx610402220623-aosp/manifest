@@ -16,6 +16,23 @@
       "message": "This will also reduce the load on our M1 build bots as they keep getting triggered for this branch as well..",
       "revId": "219a0a0cbb16caf25d0445fa4d6f70c5e6b08e26",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fbf5e2f_6e38f796",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2024-01-17T01:04:45Z",
+      "side": 1,
+      "message": "This pins to aggressively, let\u0027s only pin what came from main revision.",
+      "revId": "219a0a0cbb16caf25d0445fa4d6f70c5e6b08e26",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
