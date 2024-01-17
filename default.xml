@@ -1,91 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-profileinstaller-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="340327735a599385c98065e4650d05e6ec2ef317" upstream="androidx-profileinstaller-release" />
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="androidx-main"
+           remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp"/>
 
-  
-  
-  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="3fc3bf0e3af194ecc9c684d2e6f187a3a33247e8" upstream="androidx-profileinstaller-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="d89914f9d6858862176dbf691f23d9a3a1107e51" upstream="androidx-profileinstaller-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="57729823f16b5dcaf02c9251ca76bbc9c3badc96" upstream="androidx-profileinstaller-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="efba47e827c236b4182712a41f6d7b1f768acbe8" upstream="androidx-profileinstaller-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-profileinstaller-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="faf50912c8ff37d969db9c9d4b8f1e3139f28a7c" upstream="androidx-profileinstaller-release" />
-  
-  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="d720a2c5a924d95c8f8de98c7cd9386a41d5fc98" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7507ddcd0a3e67c8066c055e35cc8337778cfc95" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="c700e7e059550ac5b75a85cb9e52bc9dc7fe161c" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="7cae85517ce302cf1fded88ac89a42db4ad30458" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="a483c9bd1d57d997b4e531d35eff67b85b9f9c2b" upstream="androidx-profileinstaller-release" />
+  <!-- BEGIN dependencies -->
+  <project path="build/make" name="platform/build" />
 
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="376037047e45a9adcd1b0dfc0cab03211024878a" upstream="androidx-profileinstaller-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-profileinstaller-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="a44cda418717e43b625a03d35dca5cf98261b305" upstream="androidx-profileinstaller-release" />
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
 
-  
-  
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="c65fdf672866b3b271ffcc69592c91f97580a452" upstream="androidx-profileinstaller-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="e6e2eea654a3421811b8eed35725a3f7b4e99574" upstream="androidx-profileinstaller-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-profileinstaller-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="8f3c07bdd4b2954a123d4ccbf89ebc0e96eba727" upstream="androidx-profileinstaller-release" />
-  
-  
-  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-profileinstaller-release" />
+  <!-- Config: shallow + main revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="main" />
+  <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="main" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="main" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="main" />
 
-  
-  
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="3d34586bdad0d95835cf5c2c067613ea4cba74e7" upstream="androidx-profileinstaller-release" />
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="main" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="main" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="main" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+  <!-- Config: shallow + same revision -->
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
 
-  
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="f2015165801a4efb7c919e9bf39e8d5a18fb4d0f" upstream="androidx-profileinstaller-release">
+  <!-- Gradle dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
+
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="main">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="bcfbe3a5fc572ea731c08053d83160e677c877da" upstream="androidx-profileinstaller-release">
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="main">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
-  
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="9baed273b155969b33c8ca3f14f6956cacef8f2b" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="c5fe78ba71264c8b3378460301a7e55930be1dcb" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-profileinstaller-release" />
+  <!-- darwin specific -->
+  <project
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/platform-tools"
+    name="platform/prebuilts/fullsdk-darwin/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/tools"
+    name="platform/prebuilts/fullsdk-darwin/tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
 
-  
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="0ac9b2b31dd2757c346a064ea07415d8a7558268" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="f4e5f07d33389b453635439177ff91681d9c75b3" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-profileinstaller-release" />
+  <!-- linux specific -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
 
-  
-  
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="6f9339fe3d6319e482dd44bb0d44c2d3c1066f9d" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-profileinstaller-release">
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r23"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmake"
+    name="platform/prebuilts/cmake/darwin-x86"
+    revision="main"
+    groups="notdefault,platform-darwin"
+    clone-depth="1">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-profileinstaller-release">
+  <project
+      path="prebuilts/fullsdk-darwin/ninja"
+      name="platform/prebuilts/ninja/darwin-x86"
+      revision="main"
+      groups="notdefault,platform-darwin"
+      clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="1622e087e1b881a0c7c744091d314662d12f0997" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-profileinstaller-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="001ed46e3703c78cbc3838adfe4c14ba279f9ff7" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-profileinstaller-release">
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r23"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-profileinstaller-release">
+  <project
+    path="prebuilts/fullsdk-linux/ninja"
+    name="platform/prebuilts/ninja/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
   
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="main"
+    clone-depth="1" />
   
-  
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="7c239ce0cacd09cf622fdfb9f78a7792abec4a9b" clone-depth="1" upstream="androidx-profileinstaller-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c6165c113de9862b6db98ae57ec175b1eeaf3131" upstream="androidx-profileinstaller-release" />
+  <!-- Golden images -->
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
 
-  
+  <!-- END dependencies -->
 
-  
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d6f57ac8b28c65da145cea254c3c0a812a53159c" upstream="androidx-profileinstaller-release" />
-  
+  <!-- BEGIN target project -->
+  <project path="frameworks/support" name="platform/frameworks/support" />
+  <!-- END target project -->
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
