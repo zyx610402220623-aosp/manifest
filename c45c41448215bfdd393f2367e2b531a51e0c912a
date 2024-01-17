@@ -58,6 +58,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "019d40f7_841a72c7",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2024-01-17T19:07:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2cd07133_24f21a83",
+      "range": {
+        "startLine": 19,
+        "startChar": 97,
+        "endLine": 19,
+        "endChar": 137
+      },
+      "revId": "c45c41448215bfdd393f2367e2b531a51e0c912a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1d0cf96_55b55a2f",
@@ -71,6 +95,30 @@
       "writtenOn": "2024-01-17T18:11:57Z",
       "side": 1,
       "message": "this should be a branch",
+      "range": {
+        "startLine": 20,
+        "startChar": 93,
+        "endLine": 20,
+        "endChar": 133
+      },
+      "revId": "c45c41448215bfdd393f2367e2b531a51e0c912a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8121afb7_62d211a3",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2024-01-17T19:07:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1d0cf96_55b55a2f",
       "range": {
         "startLine": 20,
         "startChar": 93,
