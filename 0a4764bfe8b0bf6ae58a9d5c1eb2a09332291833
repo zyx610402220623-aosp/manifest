@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11605692_10321fd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2024-01-24T01:03:27Z",
+      "side": 1,
+      "message": "Feel free to ignore presubmit failures for Mac/ Linux arm. We do not have sufficient mac bots to process the requests, and we are not shipping linux arm binaries.",
+      "revId": "0a4764bfe8b0bf6ae58a9d5c1eb2a09332291833",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
