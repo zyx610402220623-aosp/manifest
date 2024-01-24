@@ -33,6 +33,23 @@
       "message": "We do not have enough macs to ever get this to complete.",
       "revId": "0e37226dfa898c3177fce45cb15217fee2ba66b8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "966dd00f_792f27ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2024-01-24T01:01:38Z",
+      "side": 1,
+      "message": "We do not have sufficient mac build bots to process the presubmit requests. We are not shipping linux arm, so even if it is broken we can fix it at our leisure.",
+      "revId": "0e37226dfa898c3177fce45cb15217fee2ba66b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
