@@ -25,6 +25,14 @@
   <project path="hardware/google/aemu" name="platform/hardware/google/aemu" revision="main" />
   <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" revision="main" />
   <project path="external/crosvm" name="platform/external/crosvm" revision="main" />
+  <project path="external/minijail" name="platform/external/minijail" revision="main" />
+  <project path="external/minigbm" name="platform/external/minigbm" revision="main" />
+  <project path="external/virglrenderer" name="platform/external/virglrenderer" revision="main" />
+
+  <!-- Activate once emu-dev branches have been created, b/322557461
+  <project path="external/libdrm" name="platform/external/libdrm"  groups="notdefault,platform-linux"/>
+  <project path="external/libpciaccess" name="platform/external/libpciaccess"  groups="notdefault,platform-linux"/>
+  -->
 
   <!-- Android Emulator shared library plugin -->
   <project path="hardware/generic/goldfish" name="platform/hardware/generic/goldfish"/>
