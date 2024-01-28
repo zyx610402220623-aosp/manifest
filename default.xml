@@ -1,11 +1,19 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+<<<<<<< HEAD   (1a7c44 [coastguard skipped] Merge sparse cherrypicks from sparse-11)
   <default revision="android12L-tests-release" remote="aosp" sync-j="4" />
+=======
+  <default revision="sparse-11366970-L97900030001597754" remote="aosp" sync-j="4" />
+>>>>>>> BRANCH (2c4df1 Pin manifest of sparse-11366970-L97900030001597754(None))
 
   <contactinfo bugurl="go/repo-bug" />
 
+<<<<<<< HEAD   (1a7c44 [coastguard skipped] Merge sparse cherrypicks from sparse-11)
   <project path="build/make" name="platform/build" revision="2c9c6ce4936ea5ba75eaaf34a2529f1f3293b619" groups="pdk" upstream="android12L-tests-release">
+=======
+  <project path="build/make" name="platform/build" revision="c5b76981308b0687e20f96086a49485ee40cd921" groups="pdk" upstream="android12L-tests-release">
+>>>>>>> BRANCH (2c4df1 Pin manifest of sparse-11366970-L97900030001597754(None))
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -1092,7 +1100,11 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" revision="97607e3caf0456c25da1b27dadbad5d37fb8c97c" upstream="android12L-tests-release" />
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" revision="28e12eb3de07051b65b56360dc71d3ac26866cbc" upstream="android12L-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="8cabc02acf0745f11cd00758ee8906faa52ee631" upstream="android12L-tests-release" />
+<<<<<<< HEAD   (1a7c44 [coastguard skipped] Merge sparse cherrypicks from sparse-11)
   <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="89878ac37ad5980ddb17686721bda25cbb0392ae" groups="pdk,tradefed" upstream="android12L-tests-release" />
+=======
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="d2dc063882ab34f581b7b0022bde6e9cafdf9d63" groups="pdk,tradefed" upstream="android12L-tests-release" />
+>>>>>>> BRANCH (2c4df1 Pin manifest of sparse-11366970-L97900030001597754(None))
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="f86e669bee8f7347e3be37ddd74f707d685395f1" upstream="android12L-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="cc86c36ffc7d164dc7f20373f072c821f36458c6" upstream="android12L-tests-release" />
 
