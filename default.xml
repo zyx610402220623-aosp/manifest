@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (1511bb Merge empty history for sparse-11297543-L77400030001602474)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-11329317-L87600030001618028" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="bdb0b2639e60b07423fafd548a2f4b11bdae238a" upstream="androidx-wear-tiles-release" />
+>>>>>>> BRANCH (f82f0a Pin manifest of sparse-11329317-L87600030001618028(None))
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
@@ -694,4 +700,44 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (1511bb Merge empty history for sparse-11297543-L77400030001602474)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="8b1f27a30e26fa079bc36b8535c28fdc96dee756" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="7c8ebe954baf44559fc26f0d8b51a7c3a06674ae" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-wear-tiles-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="6f9339fe3d6319e482dd44bb0d44c2d3c1066f9d" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="f248c769e1a2ad8facc62f7ff25bc5504832e622" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="1622e087e1b881a0c7c744091d314662d12f0997" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="618fb83cb1187ebe7840e6f5bb746ae1c720e085" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="440447cc974ab4668c06be8e7371dedcde2e484f" clone-depth="1" upstream="androidx-wear-tiles-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="b99f5b3d457859e0f8033a598329f9c8c96d56f2" upstream="androidx-wear-tiles-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="ad8403a1b6112baf183bbe142aa69681274a571a" upstream="androidx-wear-tiles-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (f82f0a Pin manifest of sparse-11329317-L87600030001618028(None))
 </manifest>
