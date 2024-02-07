@@ -61,6 +61,11 @@
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
+    path="prebuilts/fullsdk-darwin/cmdline-tools"
+    name="platform/prebuilts/fullsdk-darwin/cmdline-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
     path="prebuilts/fullsdk-darwin/platform-tools"
     name="platform/prebuilts/fullsdk-darwin/platform-tools"
     clone-depth="1"
@@ -74,6 +79,11 @@
   <project
     path="prebuilts/fullsdk-linux/build-tools"
     name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmdline-tools"
+    name="platform/prebuilts/fullsdk-linux/cmdline-tools"
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
@@ -137,6 +147,15 @@
     path="prebuilts/jdk/jdk17"
     name="platform/prebuilts/jdk/jdk17"
     clone-depth="1" />
+<<<<<<< HEAD   (840659 DO NOT MERGE ANYWHERE Create manifest for androidx-graphics-)
+=======
+  <project
+    path="prebuilts/jdk/jdk21"
+    name="platform/prebuilts/jdk/jdk21"
+    revision="main"
+    clone-depth="1" />
+  
+>>>>>>> BRANCH (97d32a Add JDK 21 to androidx checkout)
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
   <!-- END dependencies -->
