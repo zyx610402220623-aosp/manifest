@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57107cab_a9ec38a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1535516
+      },
+      "writtenOn": "2024-02-08T23:46:14Z",
+      "side": 1,
+      "message": "I only have CR+1 permissions",
+      "revId": "9c7e5bd44a59810b1bf1ac9e1bc2491dc67a0440",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
