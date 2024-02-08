@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5f6b0f4_02bd778d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2024-02-08T22:15:04Z",
+      "side": 1,
+      "message": "ag/26179436 to first remove from internal manifest.",
+      "revId": "46a82b11d7873ca7aee7daf934654bd6d1be2773",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
