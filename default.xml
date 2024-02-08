@@ -280,6 +280,7 @@
   <project path="external/rust/crates/libfuzzer-sys" name="platform/external/rust/crates/libfuzzer-sys" groups="pdk" />
   <project path="external/rust/crates/libloading" name="platform/external/rust/crates/libloading" groups="pdk" />
   <project path="external/rust/crates/libm" name="platform/external/rust/crates/libm" groups="pdk" />
+  <project path="external/rust/crates/libmemmap2" name="platform/external/rust/crates/libmemmap2" groups="pdk" />
   <project path="external/rust/crates/libsqlite3-sys" name="platform/external/rust/crates/libsqlite3-sys" groups="pdk" />
   <project path="external/rust/crates/libtest-mimic" name="platform/external/rust/crates/libtest-mimic" groups="pdk" />
   <project path="external/rust/crates/libz-sys" name="platform/external/rust/crates/libz-sys" groups="pdk" />
