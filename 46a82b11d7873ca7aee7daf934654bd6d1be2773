@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "74b3b921_1f3f9bd1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-02-08T22:52:24Z",
+      "side": 1,
+      "message": "I think you need a `MergedIn: I97bb6da690031d73b240b00f7f921ae6698eaea4` as well, right? I think you can also reuse that number for the `Change-Id` here too, which makes chasing the history easier.",
+      "revId": "46a82b11d7873ca7aee7daf934654bd6d1be2773",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e5f6b0f4_02bd778d",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
@@ -14,6 +31,23 @@
       "writtenOn": "2024-02-08T22:15:04Z",
       "side": 1,
       "message": "ag/26179436 to first remove from internal manifest.",
+      "revId": "46a82b11d7873ca7aee7daf934654bd6d1be2773",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11f746d9_45ffae91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-02-08T22:52:24Z",
+      "side": 1,
+      "message": "Thanks for handling the cleanup here.",
       "revId": "46a82b11d7873ca7aee7daf934654bd6d1be2773",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
