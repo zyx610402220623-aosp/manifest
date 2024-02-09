@@ -52,15 +52,17 @@
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="main" clone-depth="1" groups="notdefault,platform-linux,platform-darwin"/>¶
   <project path="tools/buildSrc" name="platform/tools/buildSrc" />
 
-   <!-- Rust compiler toolchain -->
+   <!-- Rust compiler toolchain, pinned to (rustc-1.73.0 Build 11110309 am: ed6633c7a9) -->
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="ed6633c7a96144bebd982e15da76295d7d6e2de9"/>
 
   <!-- Linux only toolchain dependencies -->
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="main" groups="notdefault,platform-linux" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="main" groups="notdefault,platform-linux" />
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="llvm-toolchain" groups="notdefault,platform-linux" />
+
+  <!-- Linux & Windows (mingw is needed for rust)  -->
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="main" groups="notdefault,platform-linux,platform-windows" />
 
   <!-- Windows only toolchain dependencies -->
   <project path="prebuilts/bazel/windows-x86_64" name="platform/prebuilts/bazel/windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" />
