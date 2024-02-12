@@ -33,6 +33,24 @@
       "message": "(citation needed: https://android-review.git.corp.google.com/c/platform/external/toybox/+/2958412?tab\u003dchecks)",
       "revId": "3f2d0edf37659f44cc2edc1be0b74d9fee4a5686",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9933d1d_ffb09030",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2024-02-12T20:13:52Z",
+      "side": 1,
+      "message": "/facepalm ... feel free to launder any build-tools manifest changes through me so you can +2 them until this gets sorted!",
+      "parentUuid": "7a65aae9_ffa50cc2",
+      "revId": "3f2d0edf37659f44cc2edc1be0b74d9fee4a5686",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
