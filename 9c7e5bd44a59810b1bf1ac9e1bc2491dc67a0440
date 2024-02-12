@@ -16,6 +16,23 @@
       "message": "I only have CR+1 permissions",
       "revId": "9c7e5bd44a59810b1bf1ac9e1bc2491dc67a0440",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a675322f_b0065cdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000701
+      },
+      "writtenOn": "2024-02-12T20:12:27Z",
+      "side": 1,
+      "message": "hmm, why can\u0027t I +2?",
+      "revId": "9c7e5bd44a59810b1bf1ac9e1bc2491dc67a0440",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
