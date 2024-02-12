@@ -33,6 +33,23 @@
       "message": "hmm, why can\u0027t I +2?",
       "revId": "9c7e5bd44a59810b1bf1ac9e1bc2491dc67a0440",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8f50005_51eae6f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2024-02-12T20:53:39Z",
+      "side": 1,
+      "message": "I as able to approve aosp/2959428 instead.",
+      "revId": "9c7e5bd44a59810b1bf1ac9e1bc2491dc67a0440",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
