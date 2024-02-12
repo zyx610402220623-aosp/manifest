@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a65aae9_ffa50cc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002751
+      },
+      "writtenOn": "2024-02-12T20:11:45Z",
+      "side": 1,
+      "message": "This is already pending at aosp/2954615, but most people can\u0027t give it a +2, and I can +2 here, so might as well submit this one.",
+      "revId": "3f2d0edf37659f44cc2edc1be0b74d9fee4a5686",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
