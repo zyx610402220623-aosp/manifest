@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e45b657_d83af527",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-02-14T00:54:12Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/jetpack-camera-app",
+      "revId": "39756d3200ee0448b38138a95997be178dd175e2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
