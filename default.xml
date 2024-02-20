@@ -13,6 +13,7 @@
   </project>
   <project path="tools/buildSrc" name="platform/tools/buildSrc" revision="effb9f2f8009a899310c2293188f12bebb031df8" upstream="emu-34-2-release" />
 
+<<<<<<< HEAD   (ab9df6 Pin manifest of emu-34-2-release(None))
   <project path="external/libslirp" name="trusty/external/qemu-libslirp" revision="527c0ad35c887a5c514932eb265d92458e1a5433" upstream="emu-34-2-release" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="997ce015f3fcb0648a9e2ae45623ce11880b049f" upstream="emu-34-2-release" />
   <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="664362a37ed3871e5519a26f6f0ab50d408edba8" upstream="emu-34-2-release" />
@@ -40,6 +41,35 @@
   <project path="external/perfetto" name="platform/external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078" upstream="emu-34-2-release" />
   <project path="external/qemu" name="platform/external/qemu" revision="79679e1598180fbbcee6a8a813e12778da2a27da" upstream="emu-34-2-release">
     <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace" />
+=======
+  <project path="external/libslirp" name="trusty/external/qemu-libslirp"/>
+  <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" revision="main"/>
+  <project path="device/generic/vulkan-cereal" name="device/generic/vulkan-cereal" revision="main"/>
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" />
+  <project path="external/adt-infra" name="platform/external/adt-infra" />
+  <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets" revision="main" />
+  <project path="external/angle" name="platform/external/angle" />
+  <project path="external/astc-codec" name="platform/external/astc-codec" revision="main" />
+  <project path="external/boringssl" name="platform/external/boringssl" revision="main" clone-depth="1"/>
+  <project path="external/cares" name="platform/external/c-ares" />
+  <project path="external/curl" name="platform/external/curl" />
+  <project path="external/dtc" name="platform/external/dtc" revision="main" />
+  <project path="external/deqp" name="platform/external/deqp" revision="main" />
+  <project path="external/fmtlib" name="platform/external/fmtlib" revision="main" />
+  <project path="external/gfxstream-protocols" name="platform/external/gfxstream-protocols" revision="main" />
+  <project path="external/googletest" name="platform/external/googletest" revision="main" />
+  <project path="external/google-benchmark" name="platform/external/google-benchmark" revision="main" />
+  <project path="external/google-breakpad" name="platform/external/google-breakpad" />
+  <project path="external/grpc" name="platform/external/grpc-grpc" />
+  <project path="external/libusb" name="platform/external/libusb" />
+  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libxml2" name="platform/external/libxml2" />
+  <project path="external/lz4" name="platform/external/lz4" revision="main"/>
+  <project path="external/protobuf" name="platform/external/protobuf" />
+  <project path="external/perfetto" name="platform/external/perfetto" revision="37518c39e3db120322359090db3d54f6ac100078"/>
+  <project path="external/qemu" name="platform/external/qemu">
+    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
+>>>>>>> BRANCH (ec75a7 Reduce clone depth for system images)
   </project>
   <project path="external/regex-re2" name="platform/external/regex-re2" revision="af2f19a4bfc9c9da49169f460d3a8826de5d6e64" upstream="emu-34-2-release" />
   <project path="external/glib" name="platform/external/bluetooth/glib" revision="40b35718aff3ca737ad174e6a0aa71576eb638ce" upstream="emu-34-2-release" />
@@ -103,8 +133,13 @@
   
   <project path="external/flatbuffers" name="platform/external/flatbuffers" revision="eb52555aba2323b4fa1fc9bea8d64d73d9cf6974" upstream="emu-34-2-release" />
 
+<<<<<<< HEAD   (ab9df6 Pin manifest of emu-34-2-release(None))
   
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="0120af6971833eef7c53993bf35ffa88d1d267e7" upstream="emu-34-2-release" />
+=======
+  <!-- Test infrastructure uses these -->
+  <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="main" clone-depth="1" />
+>>>>>>> BRANCH (ec75a7 Reduce clone depth for system images)
 
   
   <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="ed6633c7a96144bebd982e15da76295d7d6e2de9" upstream="emu-34-2-release" />
