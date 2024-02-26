@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "231a8620_6e88e90a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1949106
+      },
+      "writtenOn": "2024-02-26T16:41:32Z",
+      "side": 1,
+      "message": "@ipalant@google.com Thanks for reviewing Inna! How long does PDK-Review take?",
+      "revId": "09a92f9b9e944fe3899ab559eefc2eaa3bcd8516",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
