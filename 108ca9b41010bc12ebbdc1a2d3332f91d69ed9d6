@@ -88,6 +88,24 @@
       "parentUuid": "4341ac6d_a5e07800",
       "revId": "108ca9b41010bc12ebbdc1a2d3332f91d69ed9d6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c999626b_e5387387",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1039338
+      },
+      "writtenOn": "2024-02-28T18:22:40Z",
+      "side": 1,
+      "message": "Thinking about it we could potentially copy the jars into `prebuilts/sdk`. I think that `prebuilts/tools/common/api-versions` is the legacy location of the jars.",
+      "parentUuid": "0f5c9d07_48a84061",
+      "revId": "108ca9b41010bc12ebbdc1a2d3332f91d69ed9d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
