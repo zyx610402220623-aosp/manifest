@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49794dee_25901672",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2024-02-28T18:07:02Z",
+      "side": 1,
+      "message": "I just checked and this repo using\n```\ngit clone https://android.googlesource.com/platform/prebuilts/tools  --depth\u003d1\n```\nit is 677mb, is there not a smaller repo we can use to get these files?",
+      "revId": "108ca9b41010bc12ebbdc1a2d3332f91d69ed9d6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
