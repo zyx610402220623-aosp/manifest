@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69d2fe11_17bfb803",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2024-03-07T23:50:45Z",
+      "side": 1,
+      "message": "I see we had timeout issues for previous CLs too. I\u0027ve verified that there are same successful builds as in aosp/2938281, so will bypass and merge this CL.",
+      "revId": "e6d2bc9b02fb71b1014cbfa8d504241b06dd99e7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
