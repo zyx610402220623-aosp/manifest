@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2edf1b82_f8764986",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1949106
+      },
+      "writtenOn": "2024-03-07T20:01:03Z",
+      "side": 1,
+      "message": "I fixed all the merge conflicts with internal branches.",
+      "revId": "83a9e6eeebfe33983638c922d71878b681390afa",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
