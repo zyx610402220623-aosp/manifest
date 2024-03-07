@@ -16,6 +16,24 @@
       "message": "Without doing something special, the new shas don\u0027t exist in aosp. I\u0027m not sure what `upstream\u003d\"trunk-release\"` is, though.",
       "revId": "850c824caac7dcb35627129c44d6b30ff327fbca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ef4a8b5_fc6ba7ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1068658
+      },
+      "writtenOn": "2024-03-07T00:59:34Z",
+      "side": 1,
+      "message": "The new shas do exist on the trunk-release branch:\nhttps://googleplex-android.git.corp.google.com/platform/external/skia/+/refs/heads/trunk-release\n\nI think the lint warning is wrong...",
+      "parentUuid": "be218792_5a0fde15",
+      "revId": "850c824caac7dcb35627129c44d6b30ff327fbca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
