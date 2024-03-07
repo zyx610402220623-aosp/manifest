@@ -52,6 +52,24 @@
       "parentUuid": "0ef4a8b5_fc6ba7ac",
       "revId": "850c824caac7dcb35627129c44d6b30ff327fbca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdb1da85_74676c29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1055888
+      },
+      "writtenOn": "2024-03-07T01:34:01Z",
+      "side": 1,
+      "message": "(branches are just pointers to commits, so while you can say that a branch includes or doesn\u0027t include a commit, the commit will exist or not irrespective of any branches.)",
+      "parentUuid": "9e9d4230_a2152c65",
+      "revId": "850c824caac7dcb35627129c44d6b30ff327fbca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
