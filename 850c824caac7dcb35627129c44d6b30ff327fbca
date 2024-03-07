@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be218792_5a0fde15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1055888
+      },
+      "writtenOn": "2024-03-07T00:53:52Z",
+      "side": 1,
+      "message": "Without doing something special, the new shas don\u0027t exist in aosp. I\u0027m not sure what `upstream\u003d\"trunk-release\"` is, though.",
+      "revId": "850c824caac7dcb35627129c44d6b30ff327fbca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
