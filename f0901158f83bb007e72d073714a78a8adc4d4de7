@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9e600a4_b2456ddf",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1055888
+      },
+      "writtenOn": "2024-03-11T21:46:28Z",
+      "side": 1,
+      "message": "udc_release doesn\u0027t existing in aosp AFAICT: https://android.git.corp.google.com/platform/external/skia/+refs",
+      "range": {
+        "startLine": 39,
+        "startChar": 140,
+        "endLine": 39,
+        "endChar": 151
+      },
+      "revId": "f0901158f83bb007e72d073714a78a8adc4d4de7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
