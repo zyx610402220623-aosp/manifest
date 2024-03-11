@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c619bba_ea5748f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1055888
+      },
+      "writtenOn": "2024-03-11T22:12:54Z",
+      "side": 1,
+      "message": "why isn\u0027t freetype also reverted?",
+      "revId": "ad385cdd941e295554e120c6f3d14d36aeffb920",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
