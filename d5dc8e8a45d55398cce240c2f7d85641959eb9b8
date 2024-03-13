@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0de50110_740b41af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1967833
+      },
+      "writtenOn": "2024-03-13T11:18:33Z",
+      "side": 1,
+      "message": "@bohu@google.com, @jansene@google.com I\u0027m not sure how can I resolve the presubmit errors on this one. There are some linker errors on mac, which looks like it\u0027s still trying to compile with the old library but link with the new one. Maybe some build scripts or cmakelists at qemu/android/third_party/libpng (which is not the same as libpng\u0027s cmake, so I cannot replace directly) require updating as well can you please have a look?",
+      "revId": "d5dc8e8a45d55398cce240c2f7d85641959eb9b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
