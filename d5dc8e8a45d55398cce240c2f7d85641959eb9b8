@@ -16,6 +16,23 @@
       "message": "@bohu@google.com, @jansene@google.com I\u0027m not sure how can I resolve the presubmit errors on this one. There are some linker errors on mac, which looks like it\u0027s still trying to compile with the old library but link with the new one. Maybe some build scripts or cmakelists at qemu/android/third_party/libpng (which is not the same as libpng\u0027s cmake, so I cannot replace directly) require updating as well can you please have a look?",
       "revId": "d5dc8e8a45d55398cce240c2f7d85641959eb9b8",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50d492f2_dffdf683",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128973
+      },
+      "writtenOn": "2024-03-13T14:12:47Z",
+      "side": 1,
+      "message": "The symbol is defined in palette_neon_intrinsics.c, so probably need to add it to the src list in https://source.corp.google.com/h/android/platform/superproject/+/emu-master-dev:external/qemu/android/third_party/libpng/CMakeLists.txt;l\u003d8",
+      "revId": "d5dc8e8a45d55398cce240c2f7d85641959eb9b8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
