@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d75fb081_5124588f",
+        "filename": "/MERGE_LIST",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1046923
+      },
+      "writtenOn": "2024-03-15T23:53:03Z",
+      "side": 1,
+      "message": "Out of curiosity, is this generated? If so, what did it?",
+      "revId": "785c7380b8d80df26a6c3aa5eabdc99ba5af5ac1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
