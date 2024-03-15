@@ -16,6 +16,23 @@
       "message": "What do I do about the infra failures? They\u0027re repeatable, but I have no idea how to debug that.",
       "revId": "72ddd35cfcf5196acac2c25771c36bc09a2d87e2",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fe710dc_771ad547",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2024-03-15T22:29:57Z",
+      "side": 1,
+      "message": "aosp/2995536 also failed.  My guess is that presubmit pool is misconfigured for the emu-34-dev branch.",
+      "revId": "72ddd35cfcf5196acac2c25771c36bc09a2d87e2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
