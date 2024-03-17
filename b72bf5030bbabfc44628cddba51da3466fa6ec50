@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b8e7255_646913af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3351350
+      },
+      "writtenOn": "2024-03-17T21:17:58Z",
+      "side": 1,
+      "message": "repo download -b change-1849979 platform/build 1849979",
+      "revId": "b72bf5030bbabfc44628cddba51da3466fa6ec50",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
