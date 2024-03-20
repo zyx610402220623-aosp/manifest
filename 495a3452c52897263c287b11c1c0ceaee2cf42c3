@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b67ce431_cefc055a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2024-03-20T00:03:34Z",
+      "side": 1,
+      "message": "`netsim-dev` is currently broken due to recent changes in `external/rust/cxx`, We will revert this CL, once we resolve the updates.",
+      "revId": "495a3452c52897263c287b11c1c0ceaee2cf42c3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
