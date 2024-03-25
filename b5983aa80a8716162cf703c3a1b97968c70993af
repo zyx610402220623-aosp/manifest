@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bec4acd_ca710cd8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2024-03-25T19:22:22Z",
+      "side": 1,
+      "message": "Not acting on the review since presubmits are failing with build error.",
+      "revId": "b5983aa80a8716162cf703c3a1b97968c70993af",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
