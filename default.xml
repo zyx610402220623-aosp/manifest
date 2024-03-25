@@ -57,7 +57,7 @@
   <project path="prebuilts/android-emulator-build/mesa-deps" name="platform/prebuilts/android-emulator-build/mesa-deps" clone-depth="1" revision="17837fdb1889014fa01cbbbda56afc9b6034815f" upstream="emu-34-release" />
   <project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" clone-depth="1" revision="b06aee625002d0738c5576bbf437b9378229bef0" upstream="emu-34-release" />
   <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1" revision="658acaaf2c14c05b81f9b27b604e2ffc45dc0ceb" upstream="emu-34-release" />
-  <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="ad4b46421a7f3a57b8ca88888cc765fdad70068e" upstream="emu-34-release" />
+  <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="8ab53afbb8b0b9c1c1649a7045b50af91793fc33" upstream="emu-34-release" />
   <project path="tools/netsim" name="platform/tools/netsim" revision="84c1a4c05c8de55071ceb92af170cb06e656732e" upstream="emu-34-release" />
 
   
