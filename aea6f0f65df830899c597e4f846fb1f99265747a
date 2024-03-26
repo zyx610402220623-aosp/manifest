@@ -16,6 +16,24 @@
       "message": "Updates to release branches must go through coastguard.",
       "revId": "aea6f0f65df830899c597e4f846fb1f99265747a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4786e9ca_d4da9bda",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121388
+      },
+      "writtenOn": "2024-03-26T19:47:42Z",
+      "side": 1,
+      "message": "In our situation, the commit was pinned to a specific commit and it was due to a snap. Could you please advise on what\u0027s the best way to update a single branch by only cherry-picking a CL in this case instead of doing a snaps?",
+      "parentUuid": "a113a3a6_1a6fd172",
+      "revId": "aea6f0f65df830899c597e4f846fb1f99265747a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
