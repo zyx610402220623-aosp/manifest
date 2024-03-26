@@ -52,6 +52,24 @@
       "parentUuid": "0030af48_d96109bb",
       "revId": "c6babc71e2db133decdb1ea85bd290dac3406b93",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c936a96_06c4e9b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1442279
+      },
+      "writtenOn": "2024-03-26T16:15:10Z",
+      "side": 1,
+      "message": "Yes it does, so we have seen this error:\n```\nerror: external/kotlinx.serialization/Android.bp:2:11: literal not terminated\n```\n\nAnd it was fixed in aosp/3012873.\n\nAnd it seems to have fixed the `git_aosp-main-future` branch https://android-build.corp.google.com/build_explorer/branch/git_aosp-main-future/?selectionType\u003dSTART_BUILD_WINDOW\u0026startBuildId\u003d11627729\u0026numBuilds\u003d20\u0026buildType\u003ddefault\u0026gridSize\u003d20\u0026activeBuildId\u003d11627729\u0026activeTarget\u003daosp_arm64-next-userdebug. Not familiar with quarterbeck, is there away to get it to take the updated build?",
+      "parentUuid": "6fe7c3b0_609c8b58",
+      "revId": "c6babc71e2db133decdb1ea85bd290dac3406b93",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
