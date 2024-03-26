@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a113a3a6_1a6fd172",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2024-03-26T19:36:31Z",
+      "side": 1,
+      "message": "Updates to release branches must go through coastguard.",
+      "revId": "aea6f0f65df830899c597e4f846fb1f99265747a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
