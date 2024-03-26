@@ -70,6 +70,24 @@
       "parentUuid": "6fe7c3b0_609c8b58",
       "revId": "c6babc71e2db133decdb1ea85bd290dac3406b93",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63e74c0b_8f8df124",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2015558
+      },
+      "writtenOn": "2024-03-26T16:26:32Z",
+      "side": 1,
+      "message": "Thanks for the context. Just compared quarterdeck with the build grid you linked, and indeed the only build failures that show up in quarterdeck are the ones where the build with the fix has not yet been built / is still in progress.\n\nI see this behaviour for both git_aosp-main-future and git_main, so I\u0027m assuming all of these failures should disappear from quarterdeck automatically.\n\nThanks for your help! Abandoning this change.",
+      "parentUuid": "5c936a96_06c4e9b5",
+      "revId": "c6babc71e2db133decdb1ea85bd290dac3406b93",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
