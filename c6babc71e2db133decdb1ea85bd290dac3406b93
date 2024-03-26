@@ -34,6 +34,24 @@
       "parentUuid": "3757dde6_ad5fc4a1",
       "revId": "c6babc71e2db133decdb1ea85bd290dac3406b93",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fe7c3b0_609c8b58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2015558
+      },
+      "writtenOn": "2024-03-26T15:28:18Z",
+      "side": 1,
+      "message": "Per https://android-build.corp.google.com/quarterdeck, looks like currently `git_aosp-main-future` and `git_main` are broken. Does this answer your question?",
+      "parentUuid": "0030af48_d96109bb",
+      "revId": "c6babc71e2db133decdb1ea85bd290dac3406b93",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
