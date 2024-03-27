@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14092325_3d5b2f35",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 999,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2024-03-27T21:51:25Z",
+      "side": 1,
+      "message": "nit, put groups after the revision like other projects?",
+      "range": {
+        "startLine": 999,
+        "startChar": 58,
+        "endLine": 999,
+        "endChar": 70
+      },
+      "revId": "ffead3e1a2c76631e53df55739004fd5c57c97a8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
