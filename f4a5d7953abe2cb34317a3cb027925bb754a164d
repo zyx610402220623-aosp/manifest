@@ -16,6 +16,23 @@
       "message": "I don\u0027t have +2 permissions",
       "revId": "f4a5d7953abe2cb34317a3cb027925bb754a164d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26bcb1d3_9aeafe32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1878380
+      },
+      "writtenOn": "2024-03-28T21:32:28Z",
+      "side": 1,
+      "message": "Roman, since you are mentioned as the current oncall engineer, would you be able to review this CL?",
+      "revId": "f4a5d7953abe2cb34317a3cb027925bb754a164d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
