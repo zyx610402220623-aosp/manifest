@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22d656be_4de6bb6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-04-02T02:16:11Z",
+      "side": 1,
+      "message": "+DanW because I think that this is something we had previously proposed for formatter/linter configs, but was denied. If there\u0027s a specific policy about how the Android tree should handle \"global\" top-level configuration details, it would be great to point to that for future reference.",
+      "revId": "d3791781ca81fa3392a63cb892eea1c52ae0c564",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
