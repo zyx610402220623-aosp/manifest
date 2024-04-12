@@ -34,6 +34,24 @@
       "parentUuid": "965edfb9_b09b93fa",
       "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c16e7a19_6efd416b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 59
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1206463
+      },
+      "writtenOn": "2024-04-12T03:00:26Z",
+      "side": 1,
+      "message": "Thanks for the reply!\n\nSo it\u0027s more like a testing to better verify the shared components and the Trusty manifest(https://android.googlesource.com/trusty/manifest) will still be used for trusty formal release, right?",
+      "parentUuid": "c9c1b663_b1b6ee17",
+      "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
