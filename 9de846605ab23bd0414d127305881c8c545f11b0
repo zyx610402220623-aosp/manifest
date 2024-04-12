@@ -16,6 +16,24 @@
       "message": "Hi Andrei,\n\nMay I know the reason to add the trusty repositories into Android manifest? As I know the trusty project has a standalone manifest to manage all repositories it will use (https://android.googlesource.com/trusty/manifest).\nDo you plan to build the Trusty \"lk.bin\" from the Android project? Or some build target in android would depend on the components from Trusty repo?\n\nThank you!",
       "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9c1b663_b1b6ee17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 59
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-04-12T02:54:55Z",
+      "side": 1,
+      "message": "I\u0027m working on testing components shared between Android and Trusty (like Binder) together in the same CI run, and that requires them to be in the same manifest. It\u0027s more difficult to build the two OSes together from source code across separate manifests.",
+      "parentUuid": "965edfb9_b09b93fa",
+      "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
