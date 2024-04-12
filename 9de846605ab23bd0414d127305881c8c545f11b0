@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "965edfb9_b09b93fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 59
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1206463
+      },
+      "writtenOn": "2024-04-12T01:32:22Z",
+      "side": 1,
+      "message": "Hi Andrei,\n\nMay I know the reason to add the trusty repositories into Android manifest? As I know the trusty project has a standalone manifest to manage all repositories it will use (https://android.googlesource.com/trusty/manifest).\nDo you plan to build the Trusty \"lk.bin\" from the Android project? Or some build target in android would depend on the components from Trusty repo?\n\nThank you!",
+      "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
