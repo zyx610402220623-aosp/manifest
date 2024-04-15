@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c383cdc_339a71c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1943701
+      },
+      "writtenOn": "2024-04-15T11:16:49Z",
+      "side": 1,
+      "message": "Hi Roman, thanks for the review on https://r.android.com/3039312! I just noticed that I made a typo in a directory name, but that should be easy to fix 😊",
+      "revId": "8667a490677b3ed5b608c24dec3db6b5c57f2364",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
