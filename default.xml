@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (5a1d3d Merge empty history for sparse-11710750-L58100030003178929)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-11697536-L17800030003234411" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="ecc346a0a427bbf0c099cae4b41bb04666cd8dc5" upstream="androidx-compose-release" />
+>>>>>>> BRANCH (6969af Pin manifest of sparse-11697536-L17800030003234411(None))
 
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
@@ -694,4 +700,44 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (5a1d3d Merge empty history for sparse-11710750-L58100030003178929)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="988044928be32dd8695f47610056c63a0e0c3385" upstream="androidx-compose-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="9f3dc2accabacf9fe6c1fa697b9f757429a8edd0" upstream="androidx-compose-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-compose-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-compose-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="9a1b3e229631d81c086ffb3a631fd1da29afd039" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-compose-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="479c4545a95bf81ca1be2b53023630b1f403ce8e" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-compose-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-compose-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="a733ad20733223236852428fe46b9c366a407c64" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-compose-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="c70718521cf09deecdfac4191e18fd4aa0c4dc5c" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-compose-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-compose-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="b2a1c829b5699133862f83594fc4bc3e349ac91c" clone-depth="1" upstream="androidx-compose-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="e53b9ea9b967107724b10afe632a2e36925f5a0b" upstream="androidx-compose-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="2f40478df25e4b5bd01bbc7a394b4ecb1046e7d7" upstream="androidx-compose-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (6969af Pin manifest of sparse-11697536-L17800030003234411(None))
 </manifest>
