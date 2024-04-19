@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5267413_2a6bcb59",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-04-19T00:06:51Z",
+      "side": 1,
+      "message": "Do you want to put the `Bug:` lines in here? This is what the last import had:\n\n```\n    These are the leaf dependencies which have gone through 3p review so\n    far. See http://b/328056482 for the full tree of crates to import.\n   \n    Bug: 328410074\n    Bug: 328419425\n    Bug: 328419565\n    Bug: 328419676\n    Bug: 328420133\n    Bug: 328420253\n    Bug: 330678664\n```",
+      "revId": "860ae31dd6502a2355f509278c084249bd8ace15",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "79559db1_1d23fdac",
