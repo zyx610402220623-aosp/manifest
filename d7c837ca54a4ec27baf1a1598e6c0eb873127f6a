@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b9c420b_04291b3b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1956321
+      },
+      "writtenOn": "2024-04-19T22:01:30Z",
+      "side": 1,
+      "message": "@shuohsu@google.com FYI, we need to add the build team as reviewers for the netsim-dev manifest change\n\ngo/manifest#5-add-reviewers",
+      "revId": "d7c837ca54a4ec27baf1a1598e6c0eb873127f6a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
