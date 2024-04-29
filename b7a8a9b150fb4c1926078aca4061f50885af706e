@@ -51,6 +51,23 @@
       "message": "CVE-2020-15250",
       "revId": "b7a8a9b150fb4c1926078aca4061f50885af706e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "604127f0_9a7d1745",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3402972
+      },
+      "writtenOn": "2024-04-29T01:28:57Z",
+      "side": 1,
+      "message": "si",
+      "revId": "b7a8a9b150fb4c1926078aca4061f50885af706e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
