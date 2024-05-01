@@ -22,6 +22,30 @@
       },
       "revId": "650e3b959b8295b5caf94c4043c7410ac696ecfd",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf03b1e2_197f0043",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1468,
+      "author": {
+        "id": 1058860
+      },
+      "writtenOn": "2024-05-01T20:48:01Z",
+      "side": 1,
+      "message": "Let\u0027s also mount the path at toolchain/prebulits/NDK/releases.  In the future, we can just add new NDK releaeses there instead of one git project per version.",
+      "parentUuid": "e833ffeb_a6c3e781",
+      "range": {
+        "startLine": 1468,
+        "startChar": 41,
+        "endLine": 1468,
+        "endChar": 49
+      },
+      "revId": "650e3b959b8295b5caf94c4043c7410ac696ecfd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
