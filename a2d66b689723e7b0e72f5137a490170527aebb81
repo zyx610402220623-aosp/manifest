@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0f1ed0c_5b746e90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-05-06T16:22:15Z",
+      "side": 1,
+      "message": "PDK-Review blocked, see https://b.corp.google.com/issues/335422504#comment14.",
+      "revId": "a2d66b689723e7b0e72f5137a490170527aebb81",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
