@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6090a85_a0b4a3d3",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-05-09T01:11:59Z",
+      "side": 1,
+      "message": "Please fix this WARNING reported by CheckDownstreamBranches: Project name:                   platform/external/rust/android-crates-io\n\n@ipalant@google.com: Can you make sure that this project is replicated to all these downstream branches? It seems like that might have been missed initially, and we want to make sure that this project is treated similarly to any other 3P project in Android platform today.",
+      "range": {
+        "startLine": 0,
+        "startChar": 0,
+        "endLine": 0,
+        "endChar": 0
+      },
+      "revId": "71445910732c82ee090e1172d0abd781661de747",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
