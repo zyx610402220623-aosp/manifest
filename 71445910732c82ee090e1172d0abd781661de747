@@ -22,6 +22,30 @@
       },
       "revId": "71445910732c82ee090e1172d0abd781661de747",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4ffad0f_454b6e65",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2024-05-10T18:27:57Z",
+      "side": 1,
+      "message": "Downstream branches were created and PDK setup was completed. Please rebase the change and run it through presubmit.",
+      "parentUuid": "f6090a85_a0b4a3d3",
+      "range": {
+        "startLine": 0,
+        "startChar": 0,
+        "endLine": 0,
+        "endChar": 0
+      },
+      "revId": "71445910732c82ee090e1172d0abd781661de747",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
