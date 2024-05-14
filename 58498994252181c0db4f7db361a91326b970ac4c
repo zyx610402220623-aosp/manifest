@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b2fcf82_5ee19d52",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1042719
+      },
+      "writtenOn": "2024-05-14T18:14:27Z",
+      "side": 1,
+      "message": "Please fix this ERROR reported by ValidateManifest: Superproject revision (currently \"android-14.0.0_r29\") must be the same as the active branch name (android14-qpr2-release). To fix, set superproject revision to \"android14-qpr2-release\".\n\nAnalyzer Description: Runs the manifest validation check over all changes with manifest files.\nOwner: rassb@google.com\n\nSuperproject revision (currently \"android-14.0.0_r29\") must be the same as the active branch name (android14-qpr2-release). To fix, set superproject revision to \"android14-qpr2-release\".",
+      "range": {
+        "startLine": 0,
+        "startChar": 0,
+        "endLine": 0,
+        "endChar": 0
+      },
+      "revId": "58498994252181c0db4f7db361a91326b970ac4c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
