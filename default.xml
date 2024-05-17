@@ -15,7 +15,7 @@
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
   <project path="external/icing" name="platform/external/icing" clone-depth="1" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" />
-  <project path="external/google-benchmark" name="platform/external/google-benchmark" clone-depth="1" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
   <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
@@ -24,10 +24,17 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
   <!-- Config: shallow + main revision -->
+<<<<<<< HEAD   (f988f7 DO NOT MERGE ANYWHERE Create manifest for androidx-platform-)
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1"  />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1"  />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1"  />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1"  />
+=======
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="main" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="main" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="main" />
+
+>>>>>>> BRANCH (97d32a Add JDK 21 to androidx checkout)
   <!-- Tools dependencies -->
   <!-- Config: shallow + main revision -->
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1"  />
@@ -62,6 +69,11 @@
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
+    path="prebuilts/fullsdk-darwin/cmdline-tools"
+    name="platform/prebuilts/fullsdk-darwin/cmdline-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
     path="prebuilts/fullsdk-darwin/platform-tools"
     name="platform/prebuilts/fullsdk-darwin/platform-tools"
     clone-depth="1"
@@ -75,6 +87,11 @@
   <project
     path="prebuilts/fullsdk-linux/build-tools"
     name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmdline-tools"
+    name="platform/prebuilts/fullsdk-linux/cmdline-tools"
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
@@ -96,7 +113,12 @@
   <!-- Config: shallow + main revision -->
   <project
     path="prebuilts/fullsdk-darwin/ndk-bundle"
+<<<<<<< HEAD   (f988f7 DO NOT MERGE ANYWHERE Create manifest for androidx-platform-)
     name="toolchain/prebuilts/ndk-darwin/r23"
+=======
+    name="toolchain/prebuilts/ndk-darwin/r25"
+    revision="main"
+>>>>>>> BRANCH (97d32a Add JDK 21 to androidx checkout)
     clone-depth="1"
     groups="notdefault,platform-darwin" />
   <project
@@ -115,7 +137,12 @@
   </project>
   <project
     path="prebuilts/fullsdk-linux/ndk-bundle"
+<<<<<<< HEAD   (f988f7 DO NOT MERGE ANYWHERE Create manifest for androidx-platform-)
     name="toolchain/prebuilts/ndk/r23"
+=======
+    name="toolchain/prebuilts/ndk/r25"
+    revision="main"
+>>>>>>> BRANCH (97d32a Add JDK 21 to androidx checkout)
     clone-depth="1"
     groups="notdefault,platform-linux" />
   <project
@@ -132,22 +159,25 @@
     clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (f988f7 DO NOT MERGE ANYWHERE Create manifest for androidx-platform-)
   <project
     path="prebuilts/fullsdk-linux/kernel-build-tools"
     name="kernel/prebuilts/build-tools"
     groups="notdefault,platform-linux"
     clone-depth="1" />
+=======
+  
+>>>>>>> BRANCH (97d32a Add JDK 21 to androidx checkout)
   <!-- JDK dependencies -->
   <!-- Config: shallow + main revision -->
   <project
     path="prebuilts/jdk/jdk17"
     name="platform/prebuilts/jdk/jdk17"
     clone-depth="1" />
-  <!-- This branch of JDK 8 contains only the tools JAR required for Compose tests. -->
-  <!-- Config: shallow + same revision -->
   <project
-    path="prebuilts/jdk/jdk8"
-    name="platform/prebuilts/jdk/jdk8"
+    path="prebuilts/jdk/jdk21"
+    name="platform/prebuilts/jdk/jdk21"
+    revision="main"
     clone-depth="1" />
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
