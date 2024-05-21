@@ -33,6 +33,24 @@
       "message": "Hi, may I ask you to add a \"Bug: NNN\" reference to the commit message that describes the addition of these repositories?",
       "revId": "3cb002f82f66db379ddef43df583e77d1aa947e9",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d73155c8_11916ec2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1392143
+      },
+      "writtenOn": "2024-05-21T18:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5b0af914_71274c70",
+      "revId": "3cb002f82f66db379ddef43df583e77d1aa947e9",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
