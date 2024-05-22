@@ -16,6 +16,23 @@
       "message": "#diff",
       "revId": "3db59a23689d0e5764d3f5f195dd9b69eacd2687",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c4b3b6f_85ba7fc0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3259512
+      },
+      "writtenOn": "2024-05-22T00:48:35Z",
+      "side": 1,
+      "message": "Parent:     81243c32 (Pin manifest of android13-tests-release(None))\nAuthor:     Android Build Coastguard Worker \u003candroid-build-coastguard-worker@google.com\u003e\nAuthorDate: 2024-05-12 20:34:46 +0000\nCommit:     Android Build Coastguard Worker \u003candroid-build-coastguard-worker@google.com\u003e\nCommitDate: 2024-05-12 20:34:49 +0000\nPin manifest of android13-tests-release(None)\nChange-Id: I172bdd1c9e08f0581dce1a9df9d47da652046e09",
+      "revId": "3db59a23689d0e5764d3f5f195dd9b69eacd2687",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
