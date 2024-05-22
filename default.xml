@@ -67,6 +67,16 @@
   <project path="external/grpc" name="platform/external/grpc-grpc" clone-depth="1"/>
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1"/>
   <project path="external/tink" name="platform/external/tink" clone-depth="1"/>
+
+  ,!-- Webrtc and dependencies -->
+  <project path="external/jsoncpp" name="platform/external/jsoncpp" clone-depth="1" revision="main" />¶
+  <project path="external/libaom" name="platform/external/libaom" clone-depth="1"/>¶
+  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" clone-depth="1"/>¶
+  <project path="external/libvpx" name="platform/external/libvpx" clone-depth="1"/>¶
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1"/>¶
+  <project path="external/perfetto" name="platform/external/perfetto" clone-depth="1" revision="main" />¶
+  <project path="external/pffft" name="platform/external/pffft" clone-depth="1"/>¶
+  <project path="external/rnnoise" name="platform/external/rnnoise" clone-depth="1"/>¶
   <project path="external/webrtc" name="platform/external/webrtc" clone-depth="1"/>¶
 
   <!-- Testing -->
