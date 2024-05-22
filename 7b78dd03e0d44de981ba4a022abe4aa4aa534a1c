@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1c720ec_224015df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3259512
+      },
+      "writtenOn": "2024-05-22T00:43:59Z",
+      "side": 1,
+      "message": "Parent:     d0236c78 (Pin manifest of sdk-release(None))\nAuthor:     Android Build Coastguard Worker \u003candroid-build-coastguard-worker@google.com\u003e\nAuthorDate: 2024-05-16 01:28:46 +0000\nCommit:     Android Build Coastguard Worker \u003candroid-build-coastguard-worker@google.com\u003e\nCommitDate: 2024-05-16 01:28:47 +0000\nPin manifest of sdk-release(None)\nChange-Id: I2f2011765ddfe1017ee50705cbf53af0d81cfb38",
+      "revId": "7b78dd03e0d44de981ba4a022abe4aa4aa534a1c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
