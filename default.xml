@@ -13,6 +13,8 @@
 
 
   <!-- Qemu Dependencies -->
+  <project path="external/berkeley-softfloat-3" name="platform/external/berkeley-softfloat-3" revision="main" clone-depth="1" />
+  <project path="external/berkeley-testfloat-3" name="platform/external/berkeley-testfloat-3" revision="main" clone-depth="1" />
   <project path="external/dtc" name="platform/external/dtc" clone-depth="1" />
   <project path="external/glib" name="platform/external/bluetooth/glib" clone-depth="1" />
   <project path="external/libpng" name="platform/external/libpng" clone-depth="1" />
