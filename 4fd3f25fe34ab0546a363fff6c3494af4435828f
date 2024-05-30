@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7782e77c_dae24be0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1647981
+      },
+      "writtenOn": "2024-05-30T13:23:10Z",
+      "side": 1,
+      "message": "Note: to be merged only after jsoup is added to main http://b/334926407",
+      "revId": "4fd3f25fe34ab0546a363fff6c3494af4435828f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
