@@ -121,8 +121,9 @@
   <project path="device/linaro/poplar-kernel" name="device/linaro/poplar-kernel" groups="device,poplar,pdk" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/accompanist" name="platform/external/accompanist" groups="pdk" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" groups="pdk" />
+  <project path="external/accessibility-test-framework" name="platform/external/accessibility-test-framework" groups="pdk" />
+  <project path="external/accompanist" name="platform/external/accompanist" groups="pdk" />
   <project path="external/AFLplusplus" name="platform/external/AFLplusplus" />
   <project path="external/android-key-attestation" name="platform/external/android-key-attestation" groups="pdk" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk" />
@@ -304,6 +305,8 @@
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk" />
+  <project path="external/jsoup" name="platform/external/jsoup" groups="pdk" />
+  <project path="external/jsoup-1p-stubs" name="platform/external/jsoup-1p-stubs" groups="pdk" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk" />
   <project path="external/jsr330" name="platform/external/jsr330" groups="pdk" />
   <project path="external/junit" name="platform/external/junit" groups="pdk" />
