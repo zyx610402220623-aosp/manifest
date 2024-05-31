@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c6b7dad_cc6f0fdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-05-31T22:14:36Z",
+      "side": 1,
+      "message": "I abandoned this a while back, because of all the merge conflicts and not knowing how to quickly fix all the downstream issues.\n\nThis isn\u0027t a massive savings, but it is a pure win for non-Mac hosts.",
+      "revId": "0fd76704d119b4906484fc62fb2c4db7dcead5cd",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
