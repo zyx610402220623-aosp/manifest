@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcef1519_ef2f712c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1953406
+      },
+      "writtenOn": "2024-05-31T10:43:02Z",
+      "side": 1,
+      "message": "Presubmit failures addressed in https://android-review.git.corp.google.com/c/platform/external/OpenCL-CLHPP/+/3110077.\n\nWill resolve once merged.",
+      "revId": "ff859f3e867b41f1db8ab7b3646086dd3344e7b6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
