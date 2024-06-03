@@ -16,6 +16,24 @@
       "message": "Presubmit failures addressed in https://android-review.git.corp.google.com/c/platform/external/OpenCL-CLHPP/+/3110077.\n\nWill resolve once merged.",
       "revId": "ff859f3e867b41f1db8ab7b3646086dd3344e7b6",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2fd3cf2a_90725855",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1953406
+      },
+      "writtenOn": "2024-06-03T11:21:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bcef1519_ef2f712c",
+      "revId": "ff859f3e867b41f1db8ab7b3646086dd3344e7b6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
