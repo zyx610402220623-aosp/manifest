@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4f716f2_2da3b9ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1953406
+      },
+      "writtenOn": "2024-06-04T09:10:41Z",
+      "side": 1,
+      "message": "The build break should have already been resolved by https://android-review.git.corp.google.com/c/platform/external/OpenCL-CLHPP/+/3110077",
+      "revId": "0c08c97182e5e02541276ec5fcea58fe9d3819ee",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
