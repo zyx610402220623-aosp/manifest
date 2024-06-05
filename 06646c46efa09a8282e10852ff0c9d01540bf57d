@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b3ee11f_3f66eed3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1135107
+      },
+      "writtenOn": "2024-06-05T19:45:50Z",
+      "side": 1,
+      "message": "For some reason, after applying this change I\u0027m getting:\n\n`repo superproject branch: main url: sso://android/platform/superproject/main warning: please file a bug using go/repo-bug to report missing commit_ids for: [\u0027prebuilts/cmake\u0027]`",
+      "revId": "06646c46efa09a8282e10852ff0c9d01540bf57d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
