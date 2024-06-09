@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af800cc0_ce894e66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3248681
+      },
+      "writtenOn": "2024-06-09T22:46:12Z",
+      "side": 1,
+      "message": "repo download -b change-3117572 platform/manifest 3117572",
+      "revId": "9350c7fa1a7594c1ceb3fb483cfb944c137e538d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
