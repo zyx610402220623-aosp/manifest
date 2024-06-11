@@ -34,6 +34,24 @@
       "parentUuid": "2220635d_f1cd2af0",
       "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b70ac5bd_485b1654",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-06-11T22:38:01Z",
+      "side": 1,
+      "message": "aosp-master-plus-rust and aosp-master-plus-llvm already include cmake. https://android-review.git.corp.google.com/c/platform/manifest/+/3126073 is where we\u0027re trying to remove the now-duplicate, but this CL has now broken our ability to sync and presubmit.",
+      "parentUuid": "2220635d_f1cd2af0",
+      "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
