@@ -51,6 +51,23 @@
       "parentUuid": "5cb91456_50f4bb92",
       "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24ad47ad_bac0b704",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2024-06-11T19:25:49Z",
+      "side": 1,
+      "message": "Not acting on the review since this fails presubmit tests.",
+      "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
