@@ -16,6 +16,24 @@
       "message": "What do you mean that cmake doesn\u0027t belong in aosp-main? How can we make it work with downstream branches (I didn\u0027t see any that actually used cmake, can you point to an example, just for my curiosity).\n\nWe need it for Linux Binder which is aosp-first.",
       "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85ab1329_5bf21d45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1135107
+      },
+      "writtenOn": "2024-06-11T22:36:32Z",
+      "side": 1,
+      "message": "(marking not resolved)",
+      "parentUuid": "2220635d_f1cd2af0",
+      "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
