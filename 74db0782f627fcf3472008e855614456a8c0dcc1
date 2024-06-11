@@ -70,6 +70,24 @@
       "parentUuid": "b70ac5bd_485b1654",
       "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d78006b5_87dc4643",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-06-11T22:49:42Z",
+      "side": 1,
+      "message": "That CL would help, but we can\u0027t get it submitted (presubmit is failing because I don\u0027t think it can handle the failed starting `repo sync` of a duplicate project). 😞\n\nIt\u0027s unclear to me why this belongs in aosp-main though. Is cmake part of a platform build now? Wouldn\u0027t it make sense to put this in a separate, smaller manifest?",
+      "parentUuid": "db4932bc_10b10b3f",
+      "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
