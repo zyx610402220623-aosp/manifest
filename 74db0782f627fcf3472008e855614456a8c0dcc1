@@ -106,6 +106,24 @@
       "parentUuid": "d78006b5_87dc4643",
       "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "563a4cb3_04d018f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-06-11T23:12:53Z",
+      "side": 1,
+      "message": "Already abandoned, as I\u0027ll get our broken syncs fixed a different way.",
+      "parentUuid": "a13ce959_9b630ddd",
+      "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
