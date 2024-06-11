@@ -33,6 +33,24 @@
       "message": "Adding Chris for the presubmit error.",
       "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa7c8399_90c38b2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-06-11T15:54:33Z",
+      "side": 1,
+      "message": "Is it possible that they\u0027re instantiating the manifest with `-pdk`? The other entry that we didn\u0027t keep is the following:\n\n```\n  \u003cproject path\u003d\"prebuilts/cmake/linux-x86\" name\u003d\"platform/prebuilts/cmake/linux-x86\" groups\u003d\"pdk\" clone-depth\u003d\"1\" /\u003e\n```\n\nAnother bizarre circumstance here is that the linter is now saying there\u0027s a duplicate entry, which I don\u0027t know why it would say that about the updated manifest (since there is no duplicate). @rassb@google.com since he\u0027s listed as the owner of the lint check.",
+      "parentUuid": "5cb91456_50f4bb92",
+      "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
