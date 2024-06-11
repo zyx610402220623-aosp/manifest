@@ -88,6 +88,24 @@
       "parentUuid": "db4932bc_10b10b3f",
       "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a13ce959_9b630ddd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1120458
+      },
+      "writtenOn": "2024-06-11T23:11:10Z",
+      "side": 1,
+      "message": "There are a few issues we need to directly address here:\n1. getting the builds fixed here the fastest way possible (reverts or whatever - go/revert-it). However, I don\u0027t see a bug reference or link in the commit on this for what downstream branches break. Do you have more info?\n2. this was not detected by presubmit (do we have a bug for this?)\n3. repo fix (I\u0027m assuming you are pinging about this?)\n\nBeyond that, soong supports exported to cmake, so it does make to have a version of cmake we can test with. It might take a bit more work to understand the cost tradeoff of maintaining a separate manifest versus size etc, but I suspect you\u0027d be okay with this if it\u0027s not breaking. So, let\u0027s fix that first, and then I think we can revisit any changes to the testing strategy.",
+      "parentUuid": "d78006b5_87dc4643",
+      "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
