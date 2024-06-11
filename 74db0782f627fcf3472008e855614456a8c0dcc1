@@ -52,6 +52,24 @@
       "parentUuid": "2220635d_f1cd2af0",
       "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db4932bc_10b10b3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1135107
+      },
+      "writtenOn": "2024-06-11T22:44:44Z",
+      "side": 1,
+      "message": "Ah, I\u0027m sorry - presubmit nor postsubmit didn\u0027t catch this.\n\nExcept for the revert-first-if-broken policy, wouldn\u0027t aosp/3126073 just fix this problem?",
+      "parentUuid": "b70ac5bd_485b1654",
+      "revId": "74db0782f627fcf3472008e855614456a8c0dcc1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
