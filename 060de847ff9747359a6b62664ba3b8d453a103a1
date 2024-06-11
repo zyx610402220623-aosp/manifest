@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a16617f_6d8ba584",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1903830
+      },
+      "writtenOn": "2024-06-11T15:38:18Z",
+      "side": 1,
+      "message": "Adding ryepishev, the Android Build oncall.\n\nNote that the ValidateManifest check failure seems to be a bug, because this change *removes* the duplicate entry. b/346535127",
+      "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
