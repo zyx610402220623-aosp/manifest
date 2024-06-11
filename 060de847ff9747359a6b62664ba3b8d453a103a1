@@ -68,6 +68,24 @@
       "message": "Not acting on the review since this fails presubmit tests.",
       "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc81c96e_4e5f744e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-06-11T21:12:18Z",
+      "side": 1,
+      "message": "This seems like a buggy application of the CL. I posted a message in internal chat for EngProd, but the linter is complaining of the duplicate lines (one of which is deleted in the final version), and the actual run of the CL is pretending that directory now doesn\u0027t exist at all, which can\u0027t be true unless we\u0027re syncing with groups setting `-pdk` to remove it. I think something is broken with how repo is syncing/testing when there are conflicting repositories possibly. Can we submit this CL, and then upload a revert in case it breaks actual post-submit builds?",
+      "parentUuid": "24ad47ad_bac0b704",
+      "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
