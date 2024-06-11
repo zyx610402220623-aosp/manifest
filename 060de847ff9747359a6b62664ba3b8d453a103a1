@@ -86,6 +86,24 @@
       "parentUuid": "24ad47ad_bac0b704",
       "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86825811_8d138547",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-06-11T21:23:12Z",
+      "side": 1,
+      "message": "I\u0027ll also note that `repo sync` no longer works for this branch already due to changes that force it to fail when it sees this duplicate.",
+      "parentUuid": "dc81c96e_4e5f744e",
+      "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
