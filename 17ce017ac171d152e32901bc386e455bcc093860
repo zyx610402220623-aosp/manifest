@@ -16,6 +16,23 @@
       "message": "This change doesn\u0027t break the two failing presubmit tests, they can be bypassed:\n- presubmit-rustc:aosp-master-plus-rust fails, because it tries to apply this change to build 11946937, not the last one\n- ValidateManifest fails, because of b/346630736",
       "revId": "17ce017ac171d152e32901bc386e455bcc093860",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db940484_909ebf65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1903830
+      },
+      "writtenOn": "2024-06-12T17:31:31Z",
+      "side": 1,
+      "message": "I keep getting merge conflicts by the time the presubmits are finished running. :(",
+      "revId": "17ce017ac171d152e32901bc386e455bcc093860",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
