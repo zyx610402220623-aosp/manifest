@@ -33,6 +33,24 @@
       "message": "I keep getting merge conflicts by the time the presubmits are finished running. :(",
       "revId": "17ce017ac171d152e32901bc386e455bcc093860",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ec44b8a_c11b1968",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1135107
+      },
+      "writtenOn": "2024-06-12T17:34:45Z",
+      "side": 1,
+      "message": "Since you need to bypass presubmit anyway because of presubmit-rustc, how about letting presubmit finish on a given PS (didn\u0027t PS4 fully finish already?), rebase and merge bypassing presbmit?",
+      "parentUuid": "db940484_909ebf65",
+      "revId": "17ce017ac171d152e32901bc386e455bcc093860",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
