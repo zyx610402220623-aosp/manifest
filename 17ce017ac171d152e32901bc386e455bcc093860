@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8ec3eb8_7784a738",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1135107
+      },
+      "writtenOn": "2024-06-12T16:08:49Z",
+      "side": 1,
+      "message": "This change doesn\u0027t break the two failing presubmit tests, they can be bypassed:\n- presubmit-rustc:aosp-master-plus-rust fails, because it tries to apply this change to build 11946937, not the last one\n- ValidateManifest fails, because of b/346630736",
+      "revId": "17ce017ac171d152e32901bc386e455bcc093860",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
