@@ -158,6 +158,24 @@
       "parentUuid": "6a09f5fa_73760b17",
       "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2e3ec88_5cef9ef9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2024-06-12T19:37:20Z",
+      "side": 1,
+      "message": "Okay, I see there are two records now:\n\n  \u003cproject path\u003d\"prebuilts/cmake/linux-x86\" name\u003d\"platform/prebuilts/cmake/linux-x86\" groups\u003d\"pdk\" clone-depth\u003d\"1\" /\u003e\n...\n  \u003cproject path\u003d\"prebuilts/cmake/linux-x86\" name\u003d\"platform/prebuilts/cmake/linux-x86\" clone-depth\u003d\"1\"/\u003e\n\nGiven that it is broken now, stamping CR+2.",
+      "parentUuid": "7ef9e945_c7e44f9d",
+      "revId": "060de847ff9747359a6b62664ba3b8d453a103a1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
