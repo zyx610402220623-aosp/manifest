@@ -16,6 +16,23 @@
       "message": "It\u0027s similar to https://android-review.git.corp.google.com/c/platform/manifest/+/3126073",
       "revId": "4f9755aab9cf2c5120cc2b9c48eb7a65c50bc95f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3451cb0_f562b948",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1074628
+      },
+      "writtenOn": "2024-06-13T03:57:32Z",
+      "side": 1,
+      "message": "This is not something that treehugger can test properly: b/346630736#comment7",
+      "revId": "4f9755aab9cf2c5120cc2b9c48eb7a65c50bc95f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
