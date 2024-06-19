@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9eb9d48c_05480579",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3496691
+      },
+      "writtenOn": "2024-06-19T04:27:45Z",
+      "side": 1,
+      "message": "$ mkdir -p /usr/local/aosp/mirror\n$ cd /usr/local/aosp/mirror\n$ repo init -u https://android.googlesource.com/mirror/manifest --mirror",
+      "revId": "d62eb44bc13f09c3b7d15486f6c4cfc68a9bc77e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
