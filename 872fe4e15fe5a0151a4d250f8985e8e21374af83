@@ -16,6 +16,23 @@
       "message": "A simple revert may not be the right process. \nlibiio addition bug: https://b.corp.google.com/issues/131250198\n\nIt was supposed to be used by ARCVM but it did not work out, used mojo instead.\nIt was considered for Android Auto, but not used at the end (https://b.corp.google.com/issues/144696799#comment3).\n\nIt may be used by Aluminium, it is still in development.",
       "revId": "872fe4e15fe5a0151a4d250f8985e8e21374af83",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "565b1903_ee65ecf9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2024-06-21T14:43:09Z",
+      "side": 1,
+      "message": "you\u0027ll still need to go through the go/android-3p process for this. (not least because we\u0027ll want to start from a clean import.)",
+      "revId": "872fe4e15fe5a0151a4d250f8985e8e21374af83",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
