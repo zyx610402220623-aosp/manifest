@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e3b2708_42355adc",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 765,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-03T21:21:59Z",
+      "side": 1,
+      "message": "Naive question: All the other projects in this CL look like they are in use.  But this doesn\u0027t look like it has had any CL ever added to it.  Did we turn out to not need this project, and if so, can we remove it from manifest?",
+      "revId": "b6407f83763164abe84067648245983d6666df6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
