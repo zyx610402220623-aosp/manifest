@@ -34,6 +34,24 @@
       "parentUuid": "8e3b2708_42355adc",
       "revId": "b6407f83763164abe84067648245983d6666df6d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6de43a41_b0e02b68",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 765,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-03T21:27:04Z",
+      "side": 1,
+      "message": "It\u0027s all good; I\u0027m just looking for dead projects in the manifest to remove.  This is not one of them, so my work here is done.  Thanks for the quick response!",
+      "parentUuid": "366179bd_a850dcae",
+      "revId": "b6407f83763164abe84067648245983d6666df6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
