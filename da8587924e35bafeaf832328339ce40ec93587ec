@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "182273ec_39599d07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-03T22:26:06Z",
+      "side": 1,
+      "message": "If we get agreement we can remove this project, then I\u0027ll start working on landing it downstream and then cherry-picking it back up to here for a clean automerge.",
+      "revId": "da8587924e35bafeaf832328339ce40ec93587ec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
