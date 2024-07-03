@@ -16,6 +16,24 @@
       "message": "Naive question: All the other projects in this CL look like they are in use.  But this doesn\u0027t look like it has had any CL ever added to it.  Did we turn out to not need this project, and if so, can we remove it from manifest?",
       "revId": "b6407f83763164abe84067648245983d6666df6d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "366179bd_a850dcae",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 765,
+      "author": {
+        "id": 1416371
+      },
+      "writtenOn": "2024-07-03T21:25:31Z",
+      "side": 1,
+      "message": "This is still intended to be used, but the build system integration turned out to be more complicated than expected. We should be revisiting it some time this year.\n\nThis repo should also be rather small - `autocxx` is source code only, and not a ton of it.",
+      "parentUuid": "8e3b2708_42355adc",
+      "revId": "b6407f83763164abe84067648245983d6666df6d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
