@@ -16,6 +16,24 @@
       "message": "We added this project over a year ago, and it looks like we haven\u0027t landed a single CL in the project: https://android.googlesource.com/platform/hardware/google/trusty\n\nShould this be removed from the manifest?",
       "revId": "12fb97aaaf23d5e812bf6cd6e799eb50f36e319c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9fd7d8c9_fe511d1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-07-03T21:50:06Z",
+      "side": 1,
+      "message": "Right, we were planning to add stuff there but haven\u0027t yet. It should be safe to remove for now.",
+      "parentUuid": "5ecff5ad_cd1bfdfa",
+      "revId": "12fb97aaaf23d5e812bf6cd6e799eb50f36e319c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
