@@ -52,6 +52,23 @@
       "parentUuid": "c9c1b663_b1b6ee17",
       "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79f9bc54_6be4b2d7",
+        "filename": "default.xml",
+        "patchSetId": 59
+      },
+      "lineNbr": 1381,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-08T17:18:58Z",
+      "side": 1,
+      "message": "It looks like pretty much all the projects added here are in active use.  An exception seems to be `trusty/interfaces`, which doesn\u0027t appear to have any CLs ever added: https://android.googlesource.com/trusty/interfaces\n\nWe\u0027re looking to remove unused projects from the manifest.  Do we still intend to use `trusty/interfaces`, or is this a project we can remove from the manifest?\n\nThanks!",
+      "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
