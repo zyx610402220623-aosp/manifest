@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e45e796a_97403078",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-08T22:08:37Z",
+      "side": 1,
+      "message": "This still needs PDK-Review; is that something you can give Sam?",
+      "revId": "50b6ab1e646718d431c4d2bcea0c8652b5cc27bb",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
