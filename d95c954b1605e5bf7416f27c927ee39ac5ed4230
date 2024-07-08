@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17bfde36_5ff3a664",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003224
+      },
+      "writtenOn": "2024-07-08T17:12:17Z",
+      "side": 1,
+      "message": "hurray!\n\n+ipalant for the pdk stuff...",
+      "revId": "d95c954b1605e5bf7416f27c927ee39ac5ed4230",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
