@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1566eac6_7ac6d767",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-08T17:03:36Z",
+      "side": 1,
+      "message": "I\u0027m slightly confused here, because the most recent CL I can find is https://android-review.git.corp.google.com/c/platform/test/framework/+/1926181 which doesn\u0027t remove the entire Android.mk file.\n\nBut https://android.googlesource.com/platform/test/framework/+/refs/heads/main shows that this project only has a couple dot files and an OWNERS file, and no build files.",
+      "revId": "46a43e267df1e9dc9239279973f8ea93d4bfcab6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
