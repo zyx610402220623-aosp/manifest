@@ -87,6 +87,24 @@
       "parentUuid": "79f9bc54_6be4b2d7",
       "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b693dbdb_c3261826",
+        "filename": "default.xml",
+        "patchSetId": 59
+      },
+      "lineNbr": 1381,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-08T22:03:55Z",
+      "side": 1,
+      "message": "Thanks for the response!  I\u0027ve put up https://android-review.git.corp.google.com/c/platform/manifest/+/3163477 to remove it for now.",
+      "parentUuid": "ed90f77b_1822102c",
+      "revId": "9de846605ab23bd0414d127305881c8c545f11b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
