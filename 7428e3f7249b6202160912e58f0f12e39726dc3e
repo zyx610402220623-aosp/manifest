@@ -16,6 +16,24 @@
       "message": "@natsu@google.com does cuttlefish still use it?",
       "revId": "7428e3f7249b6202160912e58f0f12e39726dc3e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "388258e7_955ea796",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1561731
+      },
+      "writtenOn": "2024-07-08T15:43:37Z",
+      "side": 1,
+      "message": "I do not believe so. Everything should be moved to `hardware/google/gfxstream`.",
+      "parentUuid": "e1c02f4d_f1d0df24",
+      "revId": "7428e3f7249b6202160912e58f0f12e39726dc3e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
