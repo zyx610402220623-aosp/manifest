@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ecc586f_715a5262",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-08T18:56:52Z",
+      "side": 1,
+      "message": "We need to land a conflict resolution in Internal Gerrit first (https://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/28217488) and then we can land this one.",
+      "revId": "27e08a485efc20136ce3f2dc51c7c263d8089f4e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
