@@ -16,6 +16,24 @@
       "message": "Need to land this in Internal Gerrit first to handle merge conflict: https://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/28217121",
       "revId": "8831bee2310bd58570fd428a8b390c80fed6f8ad",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c980d29_892a7575",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-09T15:22:20Z",
+      "side": 1,
+      "message": "This is merged now.",
+      "parentUuid": "a437f721_4342a6d8",
+      "revId": "8831bee2310bd58570fd428a8b390c80fed6f8ad",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
