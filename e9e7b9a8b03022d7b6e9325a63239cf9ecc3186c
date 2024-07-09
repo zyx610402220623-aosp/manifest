@@ -33,6 +33,24 @@
       "message": "The `packages/modules/Profiling` project added in this CL looks to have active development.  But this project, `prebuilts/modules_sdk/Profiling`, doesn\u0027t look to have ever had a single CL in its 6+ months of existence: https://android.googlesource.com/platform/prebuilts/module_sdk/Profiling\n\nWe\u0027re looking to remove dead projects from the git_main manifest.  Is this a dead project we can remove, or is there a plan to start using this project?",
       "revId": "e9e7b9a8b03022d7b6e9325a63239cf9ecc3186c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc2d0e72_a263ed3d",
+        "filename": "default.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1233,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-09T03:00:15Z",
+      "side": 1,
+      "message": "Per discussion, this is not dead.",
+      "parentUuid": "2ea1705d_744558c6",
+      "revId": "e9e7b9a8b03022d7b6e9325a63239cf9ecc3186c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
