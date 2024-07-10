@@ -34,6 +34,24 @@
       "parentUuid": "5ecff5ad_cd1bfdfa",
       "revId": "12fb97aaaf23d5e812bf6cd6e799eb50f36e319c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1006d03d_ec1fc9c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-10T21:32:28Z",
+      "side": 1,
+      "message": "Thanks, I\u0027ve put up go/aog/3166119 for removal.",
+      "parentUuid": "9fd7d8c9_fe511d1c",
+      "revId": "12fb97aaaf23d5e812bf6cd6e799eb50f36e319c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
