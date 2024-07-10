@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d92d5d2f_f76d35a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-10T22:35:45Z",
+      "side": 1,
+      "message": "Need to land go/ag/28257945 and go/ag/28257968 first to resolve downstream conflicts.",
+      "revId": "2f86e62c1fe6e7ef0e11ebec045b5e2624488e33",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
