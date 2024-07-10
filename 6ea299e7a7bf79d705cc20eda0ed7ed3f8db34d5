@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36066b2b_d56af384",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2024-07-10T14:52:43Z",
+      "side": 1,
+      "message": "Not acting on the review since presubmit failed.",
+      "revId": "6ea299e7a7bf79d705cc20eda0ed7ed3f8db34d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
