@@ -16,6 +16,24 @@
       "message": "We need to land a conflict resolution in Internal Gerrit first (https://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/28217489) and then this should be good.",
       "revId": "d8882a88c3f2b7c466f62963ed706c5b5c9ba59d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e74369b_a7c6caac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-10T15:25:20Z",
+      "side": 1,
+      "message": "That\u0027s landed.",
+      "parentUuid": "96da3deb_32d5bcb2",
+      "revId": "d8882a88c3f2b7c466f62963ed706c5b5c9ba59d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
