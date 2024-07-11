@@ -34,6 +34,24 @@
       "parentUuid": "7659a02e_94e6e550",
       "revId": "04586902002a9ed585d8ae506016eebe9d98df9d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cd8f232_d57e20d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-11T18:04:48Z",
+      "side": 1,
+      "message": "go/aog/3167637 for removing the 4.19 prebuilt, and go/aog/3167638 for us to have the discussion about if we can remove the 5.x kernels.",
+      "parentUuid": "a2587319_40bf854d",
+      "revId": "04586902002a9ed585d8ae506016eebe9d98df9d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
