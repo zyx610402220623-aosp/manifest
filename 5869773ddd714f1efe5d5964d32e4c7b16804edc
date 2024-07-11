@@ -48,6 +48,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "219215b0_4e13ae9b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1073,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-11T17:22:50Z",
+      "side": 1,
+      "message": "I\u0027ve put up go/aog/3167397 as a follow-up which does this.",
+      "parentUuid": "28a9eb9a_da7c4bb0",
+      "range": {
+        "startLine": 1073,
+        "startChar": 0,
+        "endLine": 1073,
+        "endChar": 112
+      },
+      "revId": "5869773ddd714f1efe5d5964d32e4c7b16804edc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "78ff2972_58f24f43",
@@ -71,6 +95,30 @@
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8782e9e_17f2c862",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1079,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-11T17:22:50Z",
+      "side": 1,
+      "message": "I\u0027ve put up go/aog/3167397 as a follow-up which does this.",
+      "parentUuid": "78ff2972_58f24f43",
+      "range": {
+        "startLine": 1074,
+        "startChar": 2,
+        "endLine": 1079,
+        "endChar": 114
+      },
+      "revId": "5869773ddd714f1efe5d5964d32e4c7b16804edc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1a3ec4f7_bdcc9ecf",
@@ -84,6 +132,30 @@
       "writtenOn": "2024-07-11T16:30:17Z",
       "side": 1,
       "message": "And this please.",
+      "range": {
+        "startLine": 1086,
+        "startChar": 1,
+        "endLine": 1091,
+        "endChar": 174
+      },
+      "revId": "5869773ddd714f1efe5d5964d32e4c7b16804edc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f90597e6_278e4901",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1091,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-11T17:22:50Z",
+      "side": 1,
+      "message": "I\u0027ve put up go/aog/3167397 as a follow-up which does this.",
+      "parentUuid": "1a3ec4f7_bdcc9ecf",
       "range": {
         "startLine": 1086,
         "startChar": 1,
