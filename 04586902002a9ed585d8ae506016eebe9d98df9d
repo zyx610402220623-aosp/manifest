@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7659a02e_94e6e550",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2024-07-11T17:45:44Z",
+      "side": 1,
+      "message": "This change seems okay for the virtual devices, and for 4.19 IMO probably for all devices, however I\u0027ve asked the kernel team to take a look at this change for wider purposes. Those older prebuilts are not explicitly/fully compatible with a build from main but we can probably still build treble-ized devices at lease Year-3 from main so we may need to keep some of them, I\u0027m not sure.",
+      "revId": "04586902002a9ed585d8ae506016eebe9d98df9d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
