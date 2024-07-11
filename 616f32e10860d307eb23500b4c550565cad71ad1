@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9882b1cc_2257343d",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 726,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-11T16:10:36Z",
+      "side": 1,
+      "message": "It looks like we\u0027ve never added any CLs for these 4.19 kernels (i.e. https://android.googlesource.com/kernel/prebuilts/common-modules/virtual-device/4.19/arm64 ).\n\nWe\u0027re removing \"dead\" projects from the git_main manifest. Is it safe for us to consider the two 4.19 kernel projects \"dead\"?\n\nThanks!",
+      "range": {
+        "startLine": 724,
+        "startChar": 0,
+        "endLine": 726,
+        "endChar": 0
+      },
+      "revId": "616f32e10860d307eb23500b4c550565cad71ad1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
