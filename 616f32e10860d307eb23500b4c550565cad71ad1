@@ -22,6 +22,30 @@
       },
       "revId": "616f32e10860d307eb23500b4c550565cad71ad1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "975e48e8_38329447",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 726,
+      "author": {
+        "id": 1278660
+      },
+      "writtenOn": "2024-07-11T16:14:24Z",
+      "side": 1,
+      "message": "Yes, it is safe. I think we should remove kernels that are not supported in main anymore.",
+      "parentUuid": "9882b1cc_2257343d",
+      "range": {
+        "startLine": 724,
+        "startChar": 0,
+        "endLine": 726,
+        "endChar": 0
+      },
+      "revId": "616f32e10860d307eb23500b4c550565cad71ad1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
