@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "28a9eb9a_da7c4bb0",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1073,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-11T16:34:00Z",
+      "side": 1,
+      "message": "Can we do this (and the others) in follow-up CLs?  This project at least has contents (https://android.googlesource.com/kernel/prebuilts/4.19/arm64/+/refs/heads/main ), so there\u0027s a chance something here or downstream could be relying on it somehow.\n\nGiven that, I\u0027d prefer to have this (and the other non-empty projects) in separate CLs, so if we need to revert them, we don\u0027t also restore completely \"dead\" projects.",
+      "parentUuid": "382a8910_6e72eb40",
+      "range": {
+        "startLine": 1073,
+        "startChar": 0,
+        "endLine": 1073,
+        "endChar": 112
+      },
+      "revId": "5869773ddd714f1efe5d5964d32e4c7b16804edc",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "78ff2972_58f24f43",
         "filename": "default.xml",
         "patchSetId": 1
