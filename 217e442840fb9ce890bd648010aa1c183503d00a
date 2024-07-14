@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a32211d_a4fa98f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3520215
+      },
+      "writtenOn": "2024-07-14T15:29:26Z",
+      "side": 1,
+      "message": "Logo ktm",
+      "revId": "217e442840fb9ce890bd648010aa1c183503d00a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
