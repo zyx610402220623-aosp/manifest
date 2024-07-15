@@ -33,6 +33,23 @@
       "message": "After checking with the team, this seems okay. Thanks Greg!",
       "revId": "6c6527dd319469a9b2fb0bb29231dedd56c8770f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb0427f3_a3690d60",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-15T20:07:49Z",
+      "side": 1,
+      "message": "Thanks!  Adding samccone@ for +2 and PDK-Review.",
+      "revId": "6c6527dd319469a9b2fb0bb29231dedd56c8770f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
