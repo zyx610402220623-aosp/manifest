@@ -50,6 +50,24 @@
       "message": "Thanks!  Adding samccone@ for +2 and PDK-Review.",
       "revId": "6c6527dd319469a9b2fb0bb29231dedd56c8770f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ddda5b3_73e58098",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-15T20:13:30Z",
+      "side": 1,
+      "message": "Confirmed per comments here that this is not an issue.",
+      "parentUuid": "c27e8324_c366866f",
+      "revId": "6c6527dd319469a9b2fb0bb29231dedd56c8770f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
