@@ -16,6 +16,23 @@
       "message": "Note the comments at https://android-review.git.corp.google.com/c/platform/manifest/+/3167397/2#message-7dc208f0addcea4d67c4d6df27585a65318a1fe0\n\nThis might not be okay to land (or maybe we\u0027ll need to keep 5.15 and/or 5.10).  We have this CL here for discussion, although we could also open a bug to discuss if that\u0027s easier.",
       "revId": "6c6527dd319469a9b2fb0bb29231dedd56c8770f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63c5c168_3a55159b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293738
+      },
+      "writtenOn": "2024-07-15T20:03:51Z",
+      "side": 1,
+      "message": "After checking with the team, this seems okay. Thanks Greg!",
+      "revId": "6c6527dd319469a9b2fb0bb29231dedd56c8770f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
