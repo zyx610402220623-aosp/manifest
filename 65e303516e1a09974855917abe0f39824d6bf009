@@ -16,6 +16,23 @@
       "message": "Waiting for the repository to not be empty to mainline the revert",
       "revId": "65e303516e1a09974855917abe0f39824d6bf009",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66c1aa45_c407c1a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-22T17:06:17Z",
+      "side": 1,
+      "message": "As the author of the original CL, I don\u0027t object to this being reverted.\n\nBut if we\u0027re moving things out of the `system/core/trusty` project, can we remove that project from the git_main manifest at around the same time as re-adding this project?",
+      "revId": "65e303516e1a09974855917abe0f39824d6bf009",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
