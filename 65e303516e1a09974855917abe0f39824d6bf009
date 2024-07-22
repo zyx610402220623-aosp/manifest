@@ -33,6 +33,24 @@
       "message": "As the author of the original CL, I don\u0027t object to this being reverted.\n\nBut if we\u0027re moving things out of the `system/core/trusty` project, can we remove that project from the git_main manifest at around the same time as re-adding this project?",
       "revId": "65e303516e1a09974855917abe0f39824d6bf009",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d09e6d84_f2252d7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1856745
+      },
+      "writtenOn": "2024-07-22T17:45:58Z",
+      "side": 1,
+      "message": "system/core/trusty is a subdirectory under the repo platform/system/core",
+      "parentUuid": "66c1aa45_c407c1a8",
+      "revId": "65e303516e1a09974855917abe0f39824d6bf009",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
