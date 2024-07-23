@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d0a1c8d_b059b9cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2024-07-23T16:50:11Z",
+      "side": 1,
+      "message": "Since `netsim-dev` and `emu-master-dev` share the same build configuration, we are following the same footsteps as aosp/3186620",
+      "revId": "da5f32e7b9db2165f9594eed69a3c29468685f09",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
