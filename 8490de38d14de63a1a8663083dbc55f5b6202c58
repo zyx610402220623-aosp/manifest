@@ -16,6 +16,24 @@
       "message": "Not acting on the review as Presubmit failed due to conflict in the downstream branches, you may want to update the downstream branches first and use Merged-In to tell Automerger to skip the current change.",
       "revId": "8490de38d14de63a1a8663083dbc55f5b6202c58",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04b699b4_56b91a05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-07-23T13:27:08Z",
+      "side": 1,
+      "message": "Bump.",
+      "parentUuid": "f65a7cac_760a3a16",
+      "revId": "8490de38d14de63a1a8663083dbc55f5b6202c58",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
