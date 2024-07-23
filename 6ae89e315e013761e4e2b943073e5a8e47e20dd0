@@ -16,6 +16,24 @@
       "message": "Not acting on the review since presubmits failed.",
       "revId": "6ae89e315e013761e4e2b943073e5a8e47e20dd0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "680bb571_f6ffbd8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-07-23T13:27:36Z",
+      "side": 1,
+      "message": "Bump.",
+      "parentUuid": "48e6585c_f70df968",
+      "revId": "6ae89e315e013761e4e2b943073e5a8e47e20dd0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
