@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a950083_e581bf51",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1967833
+      },
+      "writtenOn": "2024-07-24T09:37:59Z",
+      "side": 1,
+      "message": "I don\u0027t have +2 rights and it doesn\u0027t suggest any owners. Also can we add @jpcottin@google.com and @joshuaduong@google.com into the list for this branch as well?",
+      "revId": "0a5a132fe6add37855be52b912426f5e4a69ebf0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
