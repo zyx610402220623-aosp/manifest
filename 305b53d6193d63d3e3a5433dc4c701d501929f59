@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed5f1993_45e89e54",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1967833
+      },
+      "writtenOn": "2024-07-24T12:29:24Z",
+      "side": 1,
+      "message": "@joshuaduong@google.com, this might become redundant after the default revision for the superproject is set to emu-prebuilts. Let me know if it\u0027d be better to just delete the revision tags for them instead.",
+      "revId": "305b53d6193d63d3e3a5433dc4c701d501929f59",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
