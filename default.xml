@@ -15,7 +15,7 @@
        implementations are coming from emu-master-dev
   -->
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" revision="emu-master-dev"/>¶
-  <project path="external/boringssl" name="platform/external/boringssl" revision="main" clone-depth="1"/>¶
+  <project path="external/boringssl" name="platform/external/boringssl" revision="e64d7ae64d9009782ea657da3f14954a43ed132d" clone-depth="1"/>¶
   <project path="external/cares" name="platform/external/c-ares" revision="emu-master-dev"/>
   <project path="external/fmtlib" name="platform/external/fmtlib" revision="main" />¶
   <project path="external/glib" name="platform/external/bluetooth/glib" revision="emu-master-dev" />
