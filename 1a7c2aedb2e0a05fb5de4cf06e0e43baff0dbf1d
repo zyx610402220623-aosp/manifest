@@ -16,6 +16,24 @@
       "message": "This updates the default revision on all the projects. Sending https://android-review.git.corp.google.com/c/platform/manifest/+/3190553/1 instead, which updates the \u003csuperproject /\u003e node.",
       "revId": "1a7c2aedb2e0a05fb5de4cf06e0e43baff0dbf1d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6f2589c_15638518",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1967833
+      },
+      "writtenOn": "2024-07-24T09:31:55Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "3ec66638_7038b2cf",
+      "revId": "1a7c2aedb2e0a05fb5de4cf06e0e43baff0dbf1d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
