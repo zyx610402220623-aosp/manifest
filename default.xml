@@ -61,6 +61,7 @@
   <project name="device/google/cuttlefish" path="device/google/cuttlefish" revision="9c734759ade069092a90c0169ad27bc59ae4cc73" upstream="emu-35-2-release" />
   <project path="tools/netsim" name="platform/tools/netsim" revision="afe22c23d831b4baf80bca311f4f2adca7758295" upstream="emu-35-2-release" />
 
+<<<<<<< HEAD   (784ca5 Pin manifest of emu-35-2-release(None))
   
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" revision="acd99925b5880e97d2dee249d39a93a6e5794f9d" upstream="emu-35-2-release" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="96bbdf7946b61256fa5147a76d5056215bcd69c1" groups="notdefault,platform-linux" upstream="emu-35-2-release" />
@@ -68,19 +69,45 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="e1050c4df6ab5bc849daea2f7269ebf68e44793a" groups="notdefault,platform-linux" upstream="emu-35-2-release" />
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" groups="notdefault,platform-linux" revision="7ef4cb95e1ed4305e99f03a8e8ad28d26134a45b" upstream="emu-35-2-release" />
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="3665e3a3bd0cd0d93f6247eb596938cea48268be" groups="notdefault,platform-linux" upstream="emu-35-2-release" />
+=======
+  <!-- Linux only toolchain dependencies -->
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" revision="5dedfe5cc164ec79ae4f7ac23336727c723f9f38" groups="notdefault,platform-linux" />
+  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" revision="main" groups="notdefault,platform-linux" />
+  <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="3665e3a3bd0cd0d93f6247eb596938cea48268be" groups="notdefault,platform-linux" />
+>>>>>>> BRANCH (d8c008 Pin emu-master-dev manifest before clang-r487747c removal)
 
+<<<<<<< HEAD   (784ca5 Pin manifest of emu-35-2-release(None))
   
   <project path="prebuilts/bazel/windows-x86_64" name="platform/prebuilts/bazel/windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" revision="440ea8d1ada8d6ad09fb55c51bc1e154abfa324f" upstream="emu-35-2-release" />
   <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" clone-depth="1" revision="c878811307fbfd727222bcc5f47cf92b04c30fad" groups="notdefault,platform-windows" upstream="emu-35-2-release" />
   <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" groups="notdefault,platform-windows" revision="050d3148f1f2420653cc69f93fb0861d68874803" upstream="emu-35-2-release" />
   <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" revision="7119932cd3cea23f16db62e683b69c23e415ff09" groups="notdefault,platform-windows" upstream="emu-35-2-release" />
+=======
+  <!-- Windows only toolchain dependencies -->
+  <project path="prebuilts/bazel/windows-x86_64" name="platform/prebuilts/bazel/windows-x86_64" clone-depth="1" groups="notdefault,platform-windows" />
+  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" clone-depth="1" revision="b2f403f1982921d37117ce41197bef863e7217e9" groups="notdefault,platform-windows" />
+  <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" groups="notdefault,platform-windows" />
+  <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" revision="7119932cd3cea23f16db62e683b69c23e415ff09" groups="notdefault,platform-windows" />
+>>>>>>> BRANCH (d8c008 Pin emu-master-dev manifest before clang-r487747c removal)
 
+<<<<<<< HEAD   (784ca5 Pin manifest of emu-35-2-release(None))
   
   <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" clone-depth="1" groups="notdefault,platform-darwin" revision="020c822b27a1bfeb47f83aa2ce664760d394f946" upstream="emu-35-2-release" />
   <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" revision="8e110eda03f1e908cad557286b8a80e961ff910e" upstream="emu-35-2-release" />
   <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" revision="f8a4461c7c527cc4b208e3ca475d4e9d128ef862" upstream="emu-35-2-release" />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" revision="3ecb65c31f63d9488737b1d653a2e1e25af33808" groups="notdefault,platform-darwin" upstream="emu-35-2-release" />
   <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" clone-depth="1" revision="8a7b323c92153acc4390bf71392dec2dbb10f4f5" groups="notdefault,platform-darwin" upstream="emu-35-2-release" />
+=======
+  <!-- Darwin (macos) only toolchain dependencies -->
+  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" revision="a73c5bd596d2e9e2504a332b75b2ab2ed3a5456c" groups="notdefault,platform-darwin" />
+  <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" clone-depth="1" revision="8a7b323c92153acc4390bf71392dec2dbb10f4f5" groups="notdefault,platform-darwin" />
+>>>>>>> BRANCH (d8c008 Pin emu-master-dev manifest before clang-r487747c removal)
 
   
   <project path="prebuilts/studio/jdk" name="platform/prebuilts/studio/jdk" clone-depth="1" revision="19bb0ce48675d57d347262320f70ffb47c4fe899" upstream="emu-35-2-release" />
