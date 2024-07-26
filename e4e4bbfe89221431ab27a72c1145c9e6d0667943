@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f4c9b97_44f81cc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2024-07-26T23:21:45Z",
+      "side": 1,
+      "message": "Will fix forward androidx-studio-integration branch",
+      "revId": "e4e4bbfe89221431ab27a72c1145c9e6d0667943",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
