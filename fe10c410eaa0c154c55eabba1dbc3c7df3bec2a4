@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8804f7ed_8ee7bad2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-07-26T14:15:55Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/flashrom",
+      "revId": "fe10c410eaa0c154c55eabba1dbc3c7df3bec2a4",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
