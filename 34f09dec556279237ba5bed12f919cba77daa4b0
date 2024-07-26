@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86def143_654ffffd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-07-26T11:41:51Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/vboot_reference",
+      "revId": "34f09dec556279237ba5bed12f919cba77daa4b0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
