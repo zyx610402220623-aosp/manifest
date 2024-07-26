@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3933a761_7c402deb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-07-26T14:13:25Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/pciutils",
+      "revId": "b859ec074d022b013fe6743795b4ae9f281e9d21",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
