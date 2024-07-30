@@ -34,6 +34,24 @@
       "parentUuid": "42f60c44_45d97848",
       "revId": "458b038ed84aed48b1aa4f481f1b8def477662af",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "951a735e_d1eb29cb",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1247,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-07-30T19:32:44Z",
+      "side": 1,
+      "message": "No worries.  We\u0027ve just been looking to reduce empty projects to help with other tree usage analysis.  I\u0027ve put up go/aog/3199815 to remove this for now, and we can add this back when we get to this other work.  Thanks!",
+      "parentUuid": "096bbc36_9701eff9",
+      "revId": "458b038ed84aed48b1aa4f481f1b8def477662af",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
