@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "935104c6_3dba4588",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1973455
+      },
+      "writtenOn": "2024-07-30T06:00:54Z",
+      "side": 1,
+      "message": "Please fix this ERROR reported by ValidateManifest: For platform/packages/modules/Scheduling, the project\u0027s revision does not resolve. Missing branch?\n\nAnalyzer Description: Runs the manifest validation check over all changes with manifest files.\nOwner: rassb@google.com\n\nFor platform/packages/modules/Scheduling, the project\u0027s revision does not resolve. Missing branch?",
+      "range": {
+        "startLine": 0,
+        "startChar": 0,
+        "endLine": 0,
+        "endChar": 0
+      },
+      "revId": "ff8c3daa766a4dbda87a1357e8ec996ea02d68b5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
