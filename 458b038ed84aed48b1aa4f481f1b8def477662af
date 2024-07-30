@@ -16,6 +16,24 @@
       "message": "It looks like we haven\u0027t put in any CLs since making this over a year ago: https://android.googlesource.com/platform/tools/lint_checks\n\nI\u0027m looking to remove \"dead\" projects from the manifest, and am wondering if this is still something we plan on using.\n\nThanks!",
       "revId": "458b038ed84aed48b1aa4f481f1b8def477662af",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "096bbc36_9701eff9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1247,
+      "author": {
+        "id": 1535516
+      },
+      "writtenOn": "2024-07-30T00:25:50Z",
+      "side": 1,
+      "message": "Yeah sorry, I never got around to doing this. I still would like to move the `AndroidGlobalLintChecker` module from `frameworks/base` to here so that we can remove its prebuilt, but you can remove it from the manifest for now.",
+      "parentUuid": "42f60c44_45d97848",
+      "revId": "458b038ed84aed48b1aa4f481f1b8def477662af",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
