@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df65c702_704259d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1096713
+      },
+      "writtenOn": "2024-08-02T15:30:44Z",
+      "side": 1,
+      "message": "We\u0027ll need to land (at least) go/ag/28615746 and go/ag/28615747 first to handle auto-merge issues.",
+      "revId": "e3745076e9db87e0a467c7d1059527089207edff",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
