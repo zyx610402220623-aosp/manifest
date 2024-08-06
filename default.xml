@@ -20,11 +20,36 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="beebaabf7d64a3d21759a4a4b16ac365a8996b57" upstream="androidx-emoji2-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="bc3bdab12532b77a84610691e5a505f6b5afcd06" upstream="androidx-emoji2-release" />
 
+<<<<<<< HEAD   (f1cfa7 Pin manifest of androidx-emoji2-release(None))
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="d01481993068be05581cda53e8f0dbeab595aa35" upstream="androidx-emoji2-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-emoji2-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="e8758b91c47704a0aba15af3287bbe9666497857" upstream="androidx-emoji2-release" />
+=======
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
 
+  <!-- Config: shallow + main revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="main" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="main" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="main" />
+>>>>>>> BRANCH (e4e4bb [ndk] Upgrade NDK prebuilts to r27)
+
+<<<<<<< HEAD   (f1cfa7 Pin manifest of androidx-emoji2-release(None))
   
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="7123dc5c5c40080ea870d480e9dc8666efb925ef" upstream="androidx-emoji2-release" />
@@ -34,32 +59,114 @@
   
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-emoji2-release" />
+=======
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="main" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="main" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="main" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+  <!-- Config: shallow + same revision -->
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
+>>>>>>> BRANCH (e4e4bb [ndk] Upgrade NDK prebuilts to r27)
 
   
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="ba37988810ec970206412185aa8873077492d67a" upstream="androidx-emoji2-release" />
 
+<<<<<<< HEAD   (f1cfa7 Pin manifest of androidx-emoji2-release(None))
   
   <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="de9915b1423577a031ccda01d1ef02af12e41790" upstream="androidx-emoji2-release">
+=======
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="main">
+>>>>>>> BRANCH (e4e4bb [ndk] Upgrade NDK prebuilts to r27)
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
+<<<<<<< HEAD   (f1cfa7 Pin manifest of androidx-emoji2-release(None))
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="419914747add8b774d0b18fcbf2b19614a4dfffc" upstream="androidx-emoji2-release">
+=======
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="main">
+>>>>>>> BRANCH (e4e4bb [ndk] Upgrade NDK prebuilts to r27)
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
+<<<<<<< HEAD   (f1cfa7 Pin manifest of androidx-emoji2-release(None))
   
   <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="f742e0474f24aaee563beeed4b43035014126e60" upstream="androidx-emoji2-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-emoji2-release" />
   <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="365fa89b8102b51859c807067e8c0ad2afa8beb3" upstream="androidx-emoji2-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-emoji2-release" />
+=======
+  <!-- darwin specific -->
+  <project
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmdline-tools"
+    name="platform/prebuilts/fullsdk-darwin/cmdline-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/platform-tools"
+    name="platform/prebuilts/fullsdk-darwin/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/tools"
+    name="platform/prebuilts/fullsdk-darwin/tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+>>>>>>> BRANCH (e4e4bb [ndk] Upgrade NDK prebuilts to r27)
 
+<<<<<<< HEAD   (f1cfa7 Pin manifest of androidx-emoji2-release(None))
   
   <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="b2c20975c65ccd76e3b50499e5d15b3bd977ada7" upstream="androidx-emoji2-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-emoji2-release" />
   <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="7b5a429330e429349b6b5ec20da607e44efdcea4" upstream="androidx-emoji2-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-emoji2-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-emoji2-release" />
+=======
+  <!-- linux specific -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmdline-tools"
+    name="platform/prebuilts/fullsdk-linux/cmdline-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
+>>>>>>> BRANCH (e4e4bb [ndk] Upgrade NDK prebuilts to r27)
 
+<<<<<<< HEAD   (f1cfa7 Pin manifest of androidx-emoji2-release(None))
   
   
   <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-emoji2-release" />
@@ -84,6 +191,70 @@
   
   
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c2f7ff54c499437db484e37d831a3f13ab192b98" upstream="androidx-emoji2-release" />
+=======
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r27"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmake"
+    name="platform/prebuilts/cmake/darwin-x86"
+    revision="main"
+    groups="notdefault,platform-darwin"
+    clone-depth="1">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project
+      path="prebuilts/fullsdk-darwin/ninja"
+      name="platform/prebuilts/ninja/darwin-x86"
+      revision="main"
+      groups="notdefault,platform-darwin"
+      clone-depth="1" >
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r27"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project
+    path="prebuilts/fullsdk-linux/ninja"
+    name="platform/prebuilts/ninja/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" >
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="main"
+    clone-depth="1" />
+  <project
+    path="prebuilts/jdk/jdk21"
+    name="platform/prebuilts/jdk/jdk21"
+    revision="main"
+    clone-depth="1" />
+  
+  <!-- Golden images -->
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
+>>>>>>> BRANCH (e4e4bb [ndk] Upgrade NDK prebuilts to r27)
 
   
 
