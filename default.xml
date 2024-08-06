@@ -1,95 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-emoji2-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="7be1a143f03259c57ee203c53fc02c3ff4a4ecc1" upstream="androidx-emoji2-release" />
+  <remote  name="aosp"
+           fetch=".."
+           review="https://android-review.googlesource.com/" />
+  <default revision="androidx-main"
+           remote="aosp" />
+  <superproject name="platform/superproject" remote="aosp"/>
 
-  
-  
-  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="48400757d986c4371c56de29c6326622357a356e" upstream="androidx-emoji2-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="f3acf3a1a1742637b5d8749ff5205ed703425b4e" upstream="androidx-emoji2-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="addf142be81242287ac245b07bd0ed3a13e8162c" upstream="androidx-emoji2-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="9ed9b620ca69fd05415c0d6475756eba551a51d1" upstream="androidx-emoji2-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-emoji2-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-emoji2-release" />
-  
-  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="d2221279eaf8d15651d75d4d6bcb84dc34571b28" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="06638f67dc648476df14253dc4f43c8fed5a2a27" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="26f0184c0dbf95ea270031fefe63eecf5277da8a" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="d146b7545e220871eb9579f4b95a9c9f244eee44" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="beebaabf7d64a3d21759a4a4b16ac365a8996b57" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="bc3bdab12532b77a84610691e5a505f6b5afcd06" upstream="androidx-emoji2-release" />
+  <!-- BEGIN dependencies -->
+  <project path="build/make" name="platform/build" />
 
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="d01481993068be05581cda53e8f0dbeab595aa35" upstream="androidx-emoji2-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-emoji2-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="e8758b91c47704a0aba15af3287bbe9666497857" upstream="androidx-emoji2-release" />
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
 
-  
-  
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="7123dc5c5c40080ea870d480e9dc8666efb925ef" upstream="androidx-emoji2-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="5b5fe4f1dd681d07290c72d04e70c443d4082ae7" upstream="androidx-emoji2-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="68e06b2f70d581ca33ec12d79de9649f83c783ee" upstream="androidx-emoji2-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="e7968cd702329c4282a02173a65719334178384e" upstream="androidx-emoji2-release" />
-  
-  
-  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-emoji2-release" />
+  <!-- Config: shallow + main revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="main" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="main" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="main" />
 
-  
-  
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="ba37988810ec970206412185aa8873077492d67a" upstream="androidx-emoji2-release" />
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="main" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="main" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="main" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+  <!-- Config: shallow + same revision -->
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
 
-  
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="de9915b1423577a031ccda01d1ef02af12e41790" upstream="androidx-emoji2-release">
+  <!-- Gradle dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
+
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="main">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="419914747add8b774d0b18fcbf2b19614a4dfffc" upstream="androidx-emoji2-release">
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="main">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
-  
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="f742e0474f24aaee563beeed4b43035014126e60" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="365fa89b8102b51859c807067e8c0ad2afa8beb3" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-emoji2-release" />
+  <!-- darwin specific -->
+  <project
+    path="prebuilts/fullsdk-darwin/build-tools"
+    name="platform/prebuilts/fullsdk-darwin/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmdline-tools"
+    name="platform/prebuilts/fullsdk-darwin/cmdline-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/platform-tools"
+    name="platform/prebuilts/fullsdk-darwin/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/tools"
+    name="platform/prebuilts/fullsdk-darwin/tools"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
 
-  
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="b2c20975c65ccd76e3b50499e5d15b3bd977ada7" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="7b5a429330e429349b6b5ec20da607e44efdcea4" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-emoji2-release" />
+  <!-- linux specific -->
+  <project
+    path="prebuilts/fullsdk-linux/build-tools"
+    name="platform/prebuilts/fullsdk-linux/build-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmdline-tools"
+    name="platform/prebuilts/fullsdk-linux/cmdline-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/platform-tools"
+    name="platform/prebuilts/fullsdk-linux/platform-tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/tools"
+    name="platform/prebuilts/fullsdk-linux/tools"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-linux"
+    clone-depth="1" />
 
-  
-  
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="1b35a37faf320c994a97066df0c50907b9d1bd82" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-emoji2-release">
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r27"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmake"
+    name="platform/prebuilts/cmake/darwin-x86"
+    revision="main"
+    groups="notdefault,platform-darwin"
+    clone-depth="1">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-emoji2-release">
+  <project
+      path="prebuilts/fullsdk-darwin/ninja"
+      name="platform/prebuilts/ninja/darwin-x86"
+      revision="main"
+      groups="notdefault,platform-darwin"
+      clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="33a6d863a7fbe99684c63510c68600938d4764f0" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-emoji2-release">
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r27"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-emoji2-release">
+  <project
+    path="prebuilts/fullsdk-linux/ninja"
+    name="platform/prebuilts/ninja/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
   
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="main"
+    clone-depth="1" />
+  <project
+    path="prebuilts/jdk/jdk21"
+    name="platform/prebuilts/jdk/jdk21"
+    revision="main"
+    clone-depth="1" />
   
-  
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="da8dc7a46f5de4a6bba77be7c174b47b5eb973ee" clone-depth="1" upstream="androidx-emoji2-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="73ab0f31d66b5acc6d542ed1fbb6a7ca6e1d9a64" clone-depth="1" upstream="androidx-emoji2-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c2f7ff54c499437db484e37d831a3f13ab192b98" upstream="androidx-emoji2-release" />
+  <!-- Golden images -->
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
 
-  
+  <!-- END dependencies -->
 
-  
-  <project path="frameworks/support" name="platform/frameworks/support" revision="f45b48146b36d0a97747dc536f1d3471d769c301" upstream="androidx-emoji2-release" />
-  
+  <!-- BEGIN target project -->
+  <project path="frameworks/support" name="platform/frameworks/support" />
+  <!-- END target project -->
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
