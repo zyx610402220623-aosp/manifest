@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee9b17da_1f650691",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1125918
+      },
+      "writtenOn": "2024-08-06T18:41:51Z",
+      "side": 1,
+      "message": "Looks like we are still explicitly checking for rust toolchains..",
+      "revId": "817fd6b672615d1366a23b60d2dd0733350e2691",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
