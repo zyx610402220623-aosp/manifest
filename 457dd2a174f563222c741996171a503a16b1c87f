@@ -1,5 +1,74 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b72dab25_fee58329",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 3549074
+      },
+      "writtenOn": "2024-08-11T10:26:19Z",
+      "side": 1,
+      "message": "Change-Id",
+      "revId": "457dd2a174f563222c741996171a503a16b1c87f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a689c365_aab96dbd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 3549074
+      },
+      "writtenOn": "2024-08-11T10:26:19Z",
+      "side": 1,
+      "message": "u0027uuid:ccb8d323-1361-45aa-8874-41987a660c46\\u0027",
+      "revId": "457dd2a174f563222c741996171a503a16b1c87f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d63d302_ce68d12d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3549074
+      },
+      "writtenOn": "2024-08-11T10:26:19Z",
+      "side": 1,
+      "message": "Cambio de IMEI @",
+      "revId": "457dd2a174f563222c741996171a503a16b1c87f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa8e0b84_1eaaeb08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3549074
+      },
+      "writtenOn": "2024-08-11T10:26:19Z",
+      "side": 1,
+      "message": "Si",
+      "revId": "457dd2a174f563222c741996171a503a16b1c87f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
