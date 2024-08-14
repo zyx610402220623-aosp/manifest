@@ -16,6 +16,24 @@
       "message": "Roland, does this need to go to internal master-art-host as well? If so, do you prefer that as a cherry-pick once this lands internally or should I make a separate CL?",
       "revId": "2f6f603877466b3e564f1090d3dcd39bbaca1890",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe1634c6_c6c33caa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-08-14T04:02:54Z",
+      "side": 1,
+      "message": "https://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/28793703 added for internal `master-art-host` since I didn\u0027t see evidence of any other automergers (and lots of other manual changes there).",
+      "parentUuid": "52ce1d33_568afff0",
+      "revId": "2f6f603877466b3e564f1090d3dcd39bbaca1890",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
