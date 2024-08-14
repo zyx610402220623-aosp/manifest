@@ -1,8 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (11104f Merge empty history for sparse-12228433-L83800030005785145)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-11980660-L91400030005781662" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="32a35aecbcdb6bee2482b61b47f01cea13589e09" upstream="androidx-wear-compose-release" />
+>>>>>>> BRANCH (463cd8 Pin manifest of sparse-11980660-L91400030005781662(None))
 
+<<<<<<< HEAD   (11104f Merge empty history for sparse-12228433-L83800030005785145)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="9302927a1460eba94a07e6d6e771eeacc3c9906c" upstream="androidx-wear-compose-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="744e21a9732b49ada5a745990aba048b003ab3ca" upstream="androidx-wear-compose-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="d68a79645dfcc1fab4f196cc6a61ff2ccb7262cf" upstream="androidx-wear-compose-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="7b8f59330a153db0daae55b791ed472cb955cedc" upstream="androidx-wear-compose-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-wear-compose-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="415a9bbd9775883ff244d8a432798400e078d915" upstream="androidx-wear-compose-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="f6b5dd967b62dae7e52bb39a4b8f4a09f9fee0b3" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="5f0fb2344f06d9a5029c213b0923e0ec1201d5c2" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="8f76717bd7f5bae8183cbe98d7bb160994d25199" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="a21a8ae5577e588ecfd4e0907f5c893dc75ebb79" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="d22446b3cf09fd4c758c6eff110776ffb00ca6cf" upstream="androidx-wear-compose-release" />
+>>>>>>> BRANCH (463cd8 Pin manifest of sparse-11980660-L91400030005781662(None))
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -694,4 +718,46 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (11104f Merge empty history for sparse-12228433-L83800030005785145)
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="7523eaa2b85d25382c9941ea13d903e1b63a8d8d" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="236e8cdd06c412320fae9050cbd6b5f84a15bc4e" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-wear-compose-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="9c16cc8e08a81c6ab7152269ab68cdab347185a3" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-compose-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-compose-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="e9d5e5c8446a599b20fe03bcb548a5fb7e161b4d" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="001ed46e3703c78cbc3838adfe4c14ba279f9ff7" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-compose-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-compose-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="00d22e1b01e44eee0fa010547d1022fd5b98ceb7" clone-depth="1" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="a312302ee53bf1c942180d3b63c29ffc23d9dfb4" clone-depth="1" upstream="androidx-wear-compose-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="0b6b988ea3cb4d0071d919013762e8061a6a4b15" upstream="androidx-wear-compose-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="cc8f0a2ed90cd87a92f2671cade744ba3a278d46" upstream="androidx-wear-compose-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (463cd8 Pin manifest of sparse-11980660-L91400030005781662(None))
 </manifest>
