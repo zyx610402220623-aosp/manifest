@@ -1,8 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (80696c Merge empty history for sparse-12224686-L10700030005830744)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-12224686-L05500030005830399" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="d589f951e33ce854dd6dec086a30003cfc9308da" upstream="androidx-compose-material3-release" />
+>>>>>>> BRANCH (2eb6ce Pin manifest of sparse-12224686-L05500030005830399(None))
 
+<<<<<<< HEAD   (80696c Merge empty history for sparse-12224686-L10700030005830744)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="e01df8e487fa523f4eaecd2e724f78256b7f8d28" upstream="androidx-compose-material3-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="4970c77c7b09e04309b46f9bae94cd98f55116e3" upstream="androidx-compose-material3-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="d74f9d6832a0d61c821a359c1d54b31c1c7d14e8" upstream="androidx-compose-material3-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="ea06196f237c8cff705a8cf3a3ed1e1e75bef996" upstream="androidx-compose-material3-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-compose-material3-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="d9682e66b5af9b328e2ad04659d3b5942c201beb" upstream="androidx-compose-material3-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="1b0498a0b129cf0ba1d77587f88522f78c4c29da" upstream="androidx-compose-material3-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7a748b222bb92ca9e28d300b32704db9658a05ca" upstream="androidx-compose-material3-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="31b57fc897ce20bb63844f44ecaef6056df3b9a6" upstream="androidx-compose-material3-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-compose-material3-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="f241fdd6d97df9896aa2e743f4338d4a588a273a" upstream="androidx-compose-material3-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="0ddc5a49d9a106b79e69919699f746ba59aea721" upstream="androidx-compose-material3-release" />
+>>>>>>> BRANCH (2eb6ce Pin manifest of sparse-12224686-L05500030005830399(None))
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
