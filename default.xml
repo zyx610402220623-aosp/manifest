@@ -1,8 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (c9ab11 Merge empty history for sparse-12228433-L98400030005837235)
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-11980660-L19100030005875711" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="32a35aecbcdb6bee2482b61b47f01cea13589e09" upstream="androidx-wear-compose-release" />
+>>>>>>> BRANCH (f0d3af Pin manifest of sparse-11980660-L19100030005875711(None))
 
+<<<<<<< HEAD   (c9ab11 Merge empty history for sparse-12228433-L98400030005837235)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="9302927a1460eba94a07e6d6e771eeacc3c9906c" upstream="androidx-wear-compose-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="744e21a9732b49ada5a745990aba048b003ab3ca" upstream="androidx-wear-compose-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="d68a79645dfcc1fab4f196cc6a61ff2ccb7262cf" upstream="androidx-wear-compose-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="7b8f59330a153db0daae55b791ed472cb955cedc" upstream="androidx-wear-compose-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-wear-compose-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="415a9bbd9775883ff244d8a432798400e078d915" upstream="androidx-wear-compose-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="f6b5dd967b62dae7e52bb39a4b8f4a09f9fee0b3" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="5f0fb2344f06d9a5029c213b0923e0ec1201d5c2" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="c1a649b09a00c9ce85db238be2be8e2c6e53051e" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="a21a8ae5577e588ecfd4e0907f5c893dc75ebb79" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="d22446b3cf09fd4c758c6eff110776ffb00ca6cf" upstream="androidx-wear-compose-release" />
+>>>>>>> BRANCH (f0d3af Pin manifest of sparse-11980660-L19100030005875711(None))
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
