@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc5db373_9adb3c9d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-08-16T06:08:37Z",
+      "side": 1,
+      "message": "tradefed",
+      "range": {
+        "startLine": 7,
+        "startChar": 32,
+        "endLine": 7,
+        "endChar": 42
+      },
+      "revId": "374ce6e82414add8a97f15de9eb1056f8f28d800",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de886e01_f94f2813",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-08-16T06:08:37Z",
+      "side": 1,
+      "message": "This is a bit fishy. The broken build is in the internal tree, and that\u0027s the only place where any Rust usage exists for tradefed. I suspect that this change will not merge cleanly there (if it merges at all). I think this change needs to be made to goog/tradefed instead.",
+      "revId": "374ce6e82414add8a97f15de9eb1056f8f28d800",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
