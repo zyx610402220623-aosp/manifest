@@ -46,6 +46,30 @@
       },
       "revId": "b46c1ae69ac1897418410703ee28b5e37f6498d5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b6ee931_8c7e662f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2024-08-23T19:03:01Z",
+      "side": 1,
+      "message": "Yeah for some reason the suggested edit didn\u0027t display as I intended. I think it might have something to do with the end of line not being right or something so it did a char-by-char replace over the last line instead of truncating the line.",
+      "parentUuid": "8c04fd13_83db11ff",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 67
+      },
+      "revId": "b46c1ae69ac1897418410703ee28b5e37f6498d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
