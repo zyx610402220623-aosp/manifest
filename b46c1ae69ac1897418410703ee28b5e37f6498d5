@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4da93160_0387d0af",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1299283
+      },
+      "writtenOn": "2024-08-23T18:48:03Z",
+      "side": 1,
+      "message": "```suggestion\nAdd trusty/[device|user]/desktop to the android manifest\n```",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 67
+      },
+      "revId": "b46c1ae69ac1897418410703ee28b5e37f6498d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
