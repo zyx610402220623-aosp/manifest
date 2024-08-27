@@ -19,12 +19,31 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="8fcc691f0821f7ed0972b29bec583857970af7c3" upstream="androidx-profileinstaller-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="76c98a05e01219e02c6f0b93a53b6ddf07c8276b" upstream="androidx-profileinstaller-release" />
 
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="011692d168c3999e494f882bd644683b968b1d90" upstream="androidx-profileinstaller-release" />
   <project path="external/dokka" name="platform/external/dokka" clone-depth="1" revision="99a9feff9db938e68a7ec7664972df6805543818" upstream="androidx-profileinstaller-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-profileinstaller-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="394ba97463ef8a0361139255ac42e064bdcfc3c4" upstream="androidx-profileinstaller-release" />
+=======
+  <!-- External dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
 
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="914eec6441db4d9a551ddcb674330e6463742caa" upstream="androidx-profileinstaller-release" />
@@ -34,18 +53,59 @@
   
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-profileinstaller-release" />
+=======
+  <!-- Config: shallow + main revision -->
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="main" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="main" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="main" />
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
 
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   
   
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="bf9b46f8a5f2ba223c2024be73a96a47627c114c" upstream="androidx-profileinstaller-release" />
+=======
+  <!-- Tools dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="main" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="main" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="main" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="metalava-main" />
+  <!-- Config: shallow + same revision -->
+  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
 
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   
   
   <project path="prebuilts/fullsdk-darwin/platforms/android-33" name="platform/prebuilts/fullsdk/platforms/android-33" clone-depth="1" revision="47d834cc8b655349769f6e9cca4a939f35475509" upstream="androidx-profileinstaller-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms/android-33" />
+=======
+  <!-- Gradle dependencies -->
+  <!-- Config: shallow + same revision -->
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
+
+  <!-- SDK dependencies -->
+  <project
+    path="prebuilts/fullsdk-darwin/platforms"
+    name="platform/prebuilts/fullsdk/platforms"
+    clone-depth="1"
+    revision="main">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
   </project>
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   <project path="prebuilts/fullsdk-darwin/sources/android-33" name="platform/prebuilts/fullsdk/sources/android-33" clone-depth="1" revision="f6a7f5e4d4d85ea656535f4696c53610328a0b1a" upstream="androidx-profileinstaller-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources/android-33" />
+=======
+  <project
+    path="prebuilts/fullsdk-darwin/sources"
+    name="platform/prebuilts/fullsdk/sources"
+    clone-depth="1"
+    revision="main">
+    <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
   </project>
   
   <project path="prebuilts/fullsdk-darwin/platforms/android-33-ext4" name="platform/prebuilts/fullsdk/platforms/android-TPS" clone-depth="1" revision="71387881d8e9a5d16574d342688c2e5371177cdb" upstream="androidx-profileinstaller-release">
@@ -66,24 +126,87 @@
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-profileinstaller-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-profileinstaller-release" />
 
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   
   
   <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r23" revision="9a1b3e229631d81c086ffb3a631fd1da29afd039" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-profileinstaller-release" />
   <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-profileinstaller-release">
+=======
+  <!-- NDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    name="toolchain/prebuilts/ndk-darwin/r25"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/fullsdk-darwin/cmake"
+    name="platform/prebuilts/cmake/darwin-x86"
+    revision="main"
+    groups="notdefault,platform-darwin"
+    clone-depth="1">
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-profileinstaller-release">
+=======
+  <project
+      path="prebuilts/fullsdk-darwin/ninja"
+      name="platform/prebuilts/ninja/darwin-x86"
+      revision="main"
+      groups="notdefault,platform-darwin"
+      clone-depth="1" >
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r23" revision="4e9629945b4f18df1445b6792b062292a423c9aa" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-profileinstaller-release" />
   <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="001ed46e3703c78cbc3838adfe4c14ba279f9ff7" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-profileinstaller-release">
+=======
+  <project
+    path="prebuilts/fullsdk-linux/ndk-bundle"
+    name="toolchain/prebuilts/ndk/r25"
+    revision="main"
+    clone-depth="1"
+    groups="notdefault,platform-linux" />
+  <project
+    path="prebuilts/fullsdk-linux/cmake"
+    name="platform/prebuilts/cmake/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1">
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-profileinstaller-release">
+=======
+  <project
+    path="prebuilts/fullsdk-linux/ninja"
+    name="platform/prebuilts/ninja/linux-x86"
+    revision="main"
+    groups="notdefault,platform-linux"
+    clone-depth="1" >
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
   <project path="prebuilts/fullsdk-linux/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="1569dcb5d87a8f0134a50c1d9da0f9d11a6ac979" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-profileinstaller-release" />
+=======
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
   
+<<<<<<< HEAD   (8ac8f1 Pin manifest of androidx-profileinstaller-release(None))
+=======
+  <!-- JDK dependencies -->
+  <!-- Config: shallow + main revision -->
+  <project
+    path="prebuilts/jdk/jdk17"
+    name="platform/prebuilts/jdk/jdk17"
+    revision="main"
+    clone-depth="1" />
+>>>>>>> BRANCH (df3067 Remove external/dokka from the checkout)
   
   
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="5d6eadc1a3175ee717c032d3c8bdf4dd40cc59d5" clone-depth="1" upstream="androidx-profileinstaller-release" />
