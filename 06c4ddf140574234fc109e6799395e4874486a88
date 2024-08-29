@@ -16,6 +16,24 @@
       "message": "For the record, since this is to fix something that is untested in presubmit, I am not convinced that a rollback is the appropriate remedy.",
       "revId": "06c4ddf140574234fc109e6799395e4874486a88",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bca639fa_0dce9942",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1971940
+      },
+      "writtenOn": "2024-08-29T23:58:46Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "fb84a60f_0ab5c314",
+      "revId": "06c4ddf140574234fc109e6799395e4874486a88",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
