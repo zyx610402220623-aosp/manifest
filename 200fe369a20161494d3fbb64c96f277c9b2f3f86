@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56ce3c72_7bf034f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1903390
+      },
+      "writtenOn": "2024-08-29T21:10:34Z",
+      "side": 1,
+      "message": "Are there build errors caused by `libva`? If not, is it okay to keep this one? It\u0027s not dependent on either `gmmlib` or `intel-media-driver`, so having `libva` shouldn\u0027t block reverting the other two libraries.",
+      "revId": "200fe369a20161494d3fbb64c96f277c9b2f3f86",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
