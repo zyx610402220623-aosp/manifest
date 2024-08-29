@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69dea475_9a858390",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1903390
+      },
+      "writtenOn": "2024-08-29T18:42:07Z",
+      "side": 1,
+      "message": "I\u0027m pretty sure we\u0027ll also need to revert https://android-review.git.corp.google.com/c/platform/manifest/+/3246780 because `media-driver` depends on `gmmlib`.",
+      "revId": "c7fd2beeb9646a0063961936c4aadd6b65bdfc33",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
