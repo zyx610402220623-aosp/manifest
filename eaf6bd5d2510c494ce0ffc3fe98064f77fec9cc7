@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0deb7671_8c85803b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-09-05T01:51:36Z",
+      "side": 1,
+      "message": "Downstream branches have been created for platform/external/rust/crates/equivalent",
+      "revId": "eaf6bd5d2510c494ce0ffc3fe98064f77fec9cc7",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
