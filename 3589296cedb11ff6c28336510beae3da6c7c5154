@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ba6c4b3_45024455",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1368430
+      },
+      "writtenOn": "2024-09-05T18:15:49Z",
+      "side": 1,
+      "message": "Was AOSP chosen purposefully?\n\nI had a similar question about which manifest to add `platform/system/desktop/ec` to, and was directed to (internal) `main`, rather than AOSP.\n\nhttps://googleplex-android-review.git.corp.google.com/c/platform/manifest/+/28435180/comments/7fe8351e_6aa90da8\n\nI think `main` works for this also, but, admittedly, I\u0027m still learning here and don\u0027t know what the right answer is.",
+      "revId": "3589296cedb11ff6c28336510beae3da6c7c5154",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
