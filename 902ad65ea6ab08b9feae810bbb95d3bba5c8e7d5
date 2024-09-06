@@ -33,6 +33,24 @@
       "message": "PDK-Review in progress",
       "revId": "902ad65ea6ab08b9feae810bbb95d3bba5c8e7d5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6f03f3d_1c366d79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-09-06T23:31:58Z",
+      "side": 1,
+      "message": "PDK-Review is blocked",
+      "parentUuid": "fd5cc51f_a83d1dd1",
+      "revId": "902ad65ea6ab08b9feae810bbb95d3bba5c8e7d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
