@@ -87,6 +87,24 @@
       "message": "Waiting on ACL changes to propagate before completing PDK-Review.",
       "revId": "3589296cedb11ff6c28336510beae3da6c7c5154",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "154279b2_160f58fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-09-06T21:11:27Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "6cb80b91_f2d7c2ff",
+      "revId": "3589296cedb11ff6c28336510beae3da6c7c5154",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
