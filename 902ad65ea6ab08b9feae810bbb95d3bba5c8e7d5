@@ -16,6 +16,23 @@
       "message": "Add Inna for PDK review",
       "revId": "902ad65ea6ab08b9feae810bbb95d3bba5c8e7d5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd5cc51f_a83d1dd1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-09-06T22:38:24Z",
+      "side": 1,
+      "message": "PDK-Review in progress",
+      "revId": "902ad65ea6ab08b9feae810bbb95d3bba5c8e7d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
