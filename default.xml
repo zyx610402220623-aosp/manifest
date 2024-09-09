@@ -87,6 +87,8 @@
   <project path="system/core" name="platform/system/core" groups="pdk" />
     <!-- libutils dependencies -->
     <project path="system/logging" name="platform/system/logging" groups="pdk" />
+    <!-- riscv64 testing on qemu -->
+    <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
     <!-- netd dependencies -->
     <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" />
