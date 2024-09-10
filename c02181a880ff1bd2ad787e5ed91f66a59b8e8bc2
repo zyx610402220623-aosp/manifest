@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa518856_fa129395",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1318142
+      },
+      "writtenOn": "2024-09-10T00:03:37Z",
+      "side": 1,
+      "message": "Instead of reverting this CL, I have sent out cl/672708833 to fix the CI.",
+      "revId": "c02181a880ff1bd2ad787e5ed91f66a59b8e8bc2",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
