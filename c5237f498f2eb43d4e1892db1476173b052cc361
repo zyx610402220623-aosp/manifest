@@ -16,6 +16,24 @@
       "message": "This adds 4.3 GB or 6% to the size of a master-art check-out. Do you think it\u0027s temporary until RISCV becomes a fully supported architecture? If so, maybe it\u0027d be good to add a TODO to clean it up at some point?\n\n+rpl to have a look too.",
       "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6738d1e_15374e24",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1550939
+      },
+      "writtenOn": "2024-09-10T18:35:00Z",
+      "side": 1,
+      "message": "I\u0027m not sure it will go away soon. QEMU-based testing approach is valuable regardless of riscv64 support, so we\u0027ll need QEMU for that. Later on default QEMU proviided by the distribution may be just as good as the one bundled with cuttlefish, but I\u0027d rather err on the side of caution and keep close to the cuttlefish QEMU for at least few years from now - it\u0027s too costly to debug riscv64 issues caused by old QEMU versions.\n\nI added a comment explaining this.",
+      "parentUuid": "4e679751_4502daec",
+      "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
