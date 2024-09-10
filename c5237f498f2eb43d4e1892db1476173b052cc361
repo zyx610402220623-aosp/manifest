@@ -52,6 +52,24 @@
       "parentUuid": "e6738d1e_15374e24",
       "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86cd2680_595e0b7d",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1550939
+      },
+      "writtenOn": "2024-09-10T19:14:22Z",
+      "side": 1,
+      "message": "Even when we have real hardware, QEMU will be useful to test new riscv extensions - it\u0027s a modular arch that is constantly evolving, and it\u0027s unlikely that our hardware will cover every interesting extension. It\u0027s like ARM\u0027s SVE - we\u0027ll need emulators long before we\u0027ll have the hardware.",
+      "parentUuid": "9cb09aff_56480f6a",
+      "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
