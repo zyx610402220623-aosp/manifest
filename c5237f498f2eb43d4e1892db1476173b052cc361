@@ -34,6 +34,24 @@
       "parentUuid": "4e679751_4502daec",
       "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cb09aff_56480f6a",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2024-09-10T19:10:54Z",
+      "side": 1,
+      "message": "All right. Actually I was thinking of real RISCV hardware rather than trusting the test host\u0027s QEMU installation. It\u0027s after all how we test on all other architectures.",
+      "parentUuid": "e6738d1e_15374e24",
+      "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
