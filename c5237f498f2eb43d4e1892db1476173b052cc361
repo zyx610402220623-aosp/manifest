@@ -70,6 +70,24 @@
       "parentUuid": "9cb09aff_56480f6a",
       "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32591fe3_0ad64632",
+        "filename": "default.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1052644
+      },
+      "writtenOn": "2024-09-11T18:29:40Z",
+      "side": 1,
+      "message": "This seems like a reasonable addition, even if it is a bit costly. Hopefully this does not negatively impact LUCI and Golem builds too much.",
+      "parentUuid": "86cd2680_595e0b7d",
+      "revId": "c5237f498f2eb43d4e1892db1476173b052cc361",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
