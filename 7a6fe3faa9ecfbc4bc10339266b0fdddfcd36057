@@ -16,6 +16,23 @@
       "message": "Martin, PTAL. Thanks!",
       "revId": "7a6fe3faa9ecfbc4bc10339266b0fdddfcd36057",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cc71bf9_ed0b0a45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1894735
+      },
+      "writtenOn": "2024-09-13T12:03:35Z",
+      "side": 1,
+      "message": "For the context, there\u0027s a rust CL: https://android-review.git.corp.google.com/c/platform/external/rust/android-crates-io/+/3258252 which needs rustix. There were failures like this one: https://android-build.corp.google.com/build_explorer/artifacts_list/12359148/art-asan/latest/",
+      "revId": "7a6fe3faa9ecfbc4bc10339266b0fdddfcd36057",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
