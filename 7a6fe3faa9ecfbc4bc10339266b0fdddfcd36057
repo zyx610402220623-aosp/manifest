@@ -33,6 +33,23 @@
       "message": "For the context, there\u0027s a rust CL: https://android-review.git.corp.google.com/c/platform/external/rust/android-crates-io/+/3258252 which needs rustix. There were failures like this one: https://android-build.corp.google.com/build_explorer/artifacts_list/12359148/art-asan/latest/",
       "revId": "7a6fe3faa9ecfbc4bc10339266b0fdddfcd36057",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1482f814_6daad6a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1373864
+      },
+      "writtenOn": "2024-09-13T12:49:49Z",
+      "side": 1,
+      "message": "Please also cherry-pick to master-art-host in internal.",
+      "revId": "7a6fe3faa9ecfbc4bc10339266b0fdddfcd36057",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
