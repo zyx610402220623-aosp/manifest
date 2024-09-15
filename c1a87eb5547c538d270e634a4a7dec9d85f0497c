@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d0aa5a8_2aad6de1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3636857
+      },
+      "writtenOn": "2024-09-15T04:46:31Z",
+      "side": 1,
+      "message": "git push origin HEAD:refs/for/aml_art_341810020",
+      "revId": "c1a87eb5547c538d270e634a4a7dec9d85f0497c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
