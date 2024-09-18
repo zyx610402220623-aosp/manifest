@@ -16,6 +16,23 @@
       "message": "http://b/368056995",
       "revId": "b834c34346b20a4d53773b5e2a6aeffbed4c7bec",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f8203d3_ae22d5b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1895570
+      },
+      "writtenOn": "2024-09-18T18:13:39Z",
+      "side": 1,
+      "message": "PDK review is a no-op in this case.",
+      "revId": "b834c34346b20a4d53773b5e2a6aeffbed4c7bec",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
