@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5d3c0ae_5079316e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1809582
+      },
+      "writtenOn": "2024-09-18T16:41:17Z",
+      "side": 1,
+      "message": "Do we need anything else for PDK-Review?",
+      "revId": "b3b7ef878918fa9835b7e90faceb82bbbf953d79",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
