@@ -103,6 +103,12 @@
   
   <project path="external/flatbuffers" name="platform/external/flatbuffers" revision="99a66381bbe5439183a26994031b9b578f88f253" upstream="emu-35-3-release" />
 
+<<<<<<< HEAD   (d3d68c Pin manifest of emu-35-3-release(None))
   
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="dd5fdd791f3894ff0b8fdd0095a7890a2235ed77" clone-depth="1" upstream="emu-35-3-release" />
 </manifest>
+=======
+  <!-- Test infrastructure uses these -->
+  <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="main" clone-depth="1" />
+</manifest>
+>>>>>>> BRANCH (817fd6 Remove rust toolchain)
