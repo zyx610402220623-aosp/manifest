@@ -16,6 +16,23 @@
       "message": "\u003e Uploaded patch set 1.\n\n",
       "revId": "fb0c2bc4ec6f90db08b75ddd6a2d17ae1a23ae9e",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "330ea17f_46a0a3e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3619439
+      },
+      "writtenOn": "2024-09-22T14:52:45Z",
+      "side": 1,
+      "message": "Nice",
+      "revId": "fb0c2bc4ec6f90db08b75ddd6a2d17ae1a23ae9e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
