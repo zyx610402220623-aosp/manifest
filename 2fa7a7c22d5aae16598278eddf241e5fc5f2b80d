@@ -22,6 +22,30 @@
       },
       "revId": "2fa7a7c22d5aae16598278eddf241e5fc5f2b80d",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e7bf52b_df00113f",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 3190653
+      },
+      "writtenOn": "2024-09-23T12:20:32Z",
+      "side": 0,
+      "message": "This jar is still used by vogar to run libcore tests. Shouldn\u0027t vogar be fixed as well?\nhttps://cs.android.com/android/platform/superproject/main/+/main:external/vogar/src/vogar/android/AndroidSdk.java;l\u003d171",
+      "parentUuid": "6b4eb77b_91cce9f2",
+      "range": {
+        "startLine": 197,
+        "startChar": 2,
+        "endLine": 197,
+        "endChar": 81
+      },
+      "revId": "2fa7a7c22d5aae16598278eddf241e5fc5f2b80d",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
