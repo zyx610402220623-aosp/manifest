@@ -16,6 +16,24 @@
       "message": "I am not performing PDK-Review until Presubmit-Verified passes.",
       "revId": "35586f9f21d09a4bb2ace43efe36f28bf61063d5",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93b1dd2d_e74c1933",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1380243
+      },
+      "writtenOn": "2024-09-25T15:58:47Z",
+      "side": 1,
+      "message": "Presubmit is now passing, PTAL.",
+      "parentUuid": "46c4b75f_4cd5ec32",
+      "revId": "35586f9f21d09a4bb2ace43efe36f28bf61063d5",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
