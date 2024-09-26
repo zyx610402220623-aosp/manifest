@@ -16,6 +16,24 @@
       "message": "Can you file a bug for the breakage? Or share the bug number if it is already filed.",
       "revId": "d9b45f5827d0a184f15e175bbd850e6f3b817cca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03fd0763_99e490ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1061057
+      },
+      "writtenOn": "2024-09-26T01:58:20Z",
+      "side": 1,
+      "message": "I mentioned it in b/368346836#comment4. Do you need a separate bug?",
+      "parentUuid": "77e77f8c_772462ce",
+      "revId": "d9b45f5827d0a184f15e175bbd850e6f3b817cca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
