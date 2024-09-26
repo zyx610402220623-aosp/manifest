@@ -34,6 +34,24 @@
       "parentUuid": "77e77f8c_772462ce",
       "revId": "d9b45f5827d0a184f15e175bbd850e6f3b817cca",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd9513c8_5f9d5370",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1121894
+      },
+      "writtenOn": "2024-09-26T03:44:19Z",
+      "side": 1,
+      "message": "For future revert, please make sure to include the bug in the revert reason so we have better traceability.",
+      "parentUuid": "03fd0763_99e490ec",
+      "revId": "d9b45f5827d0a184f15e175bbd850e6f3b817cca",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
