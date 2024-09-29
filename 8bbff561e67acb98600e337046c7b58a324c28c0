@@ -16,6 +16,23 @@
       "message": "Mar.Jar.M.J.091988.abo.rayyan",
       "revId": "8bbff561e67acb98600e337046c7b58a324c28c0",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e92ee40b_766d99c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3596838
+      },
+      "writtenOn": "2024-09-29T22:30:51Z",
+      "side": 1,
+      "message": "marwanjarwan50@gmail.com",
+      "revId": "8bbff561e67acb98600e337046c7b58a324c28c0",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ],
   "submitRequirementResults": [
