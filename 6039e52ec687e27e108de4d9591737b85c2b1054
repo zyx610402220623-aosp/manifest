@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d666e00c_d5ea7615",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-09-30T16:00:34Z",
+      "side": 1,
+      "message": "PDK-Review is waiting for ACLs to propagate.",
+      "revId": "6039e52ec687e27e108de4d9591737b85c2b1054",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
