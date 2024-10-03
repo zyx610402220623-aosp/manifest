@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2c6e249_ea9544a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-10-03T16:08:36Z",
+      "side": 1,
+      "message": "I\u0027m able to grant BCO this week too, so doing that here in case it\u0027s necessary later.",
+      "revId": "0b80a0e4a9a5364644ad1fa180819ae59d79d3e8",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
