@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d530ca8b_b8c8bd3b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3487518
+      },
+      "writtenOn": "2024-10-03T19:59:32Z",
+      "side": 1,
+      "message": "Great that these are already published in AOSP.",
+      "revId": "d410142a8e4fd1d88f73288d04722869cc59dbce",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
