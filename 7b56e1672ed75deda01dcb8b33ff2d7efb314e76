@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5ab44a9_39ae2ba9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3664807
+      },
+      "writtenOn": "2024-10-06T14:59:18Z",
+      "side": 1,
+      "message": "Revert \"Load Unicode extension subtag key map in Zygote\"\n\nThis is an Android Culprit Assistant revert, created as part of a culprit search session (http://go/aca-get/e4d75f5c-7542-4adc-a4c0-75fa72efe8db). It will not be committed, and can be ignored. If you need to commit this revert, please don\u0027t use this - create a new revert of the original topic.\n\nChange-Id: Ia9ea7f2b9ffa8550cd870776905dab0d6974222b\nSigned-off-by: boq-android-culprit-assistant@system.gserviceaccount.com",
+      "revId": "7b56e1672ed75deda01dcb8b33ff2d7efb314e76",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
