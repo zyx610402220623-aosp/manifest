@@ -103,9 +103,44 @@
   
   <project path="external/flatbuffers" name="platform/external/flatbuffers" revision="99a66381bbe5439183a26994031b9b578f88f253" upstream="emu-35-3-release" />
 
+<<<<<<< HEAD   (9e6af5 Pin manifest of emu-35-3-release(None))
   
   <project path="external/mesa3d" name="platform/external/mesa3d" revision="ee20972c503e3e83aa719e357a50d60496cc4568" upstream="emu-35-3-release" />
+||||||| BASE
+  <!-- Test infrastructure uses these -->
+  <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="main" clone-depth="1" />
+=======
+  <!-- mesa3d for the gfxstream -->
+  <project path="external/mesa3d" name="platform/external/mesa3d" revision="main" />
 
+  <!-- Test infrastructure uses these -->
+  <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="main" clone-depth="1" />
+>>>>>>> BRANCH (2a33f6 Add support for repo hooks)
+
+<<<<<<< HEAD   (9e6af5 Pin manifest of emu-35-3-release(None))
   
   <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" revision="dd5fdd791f3894ff0b8fdd0095a7890a2235ed77" clone-depth="1" upstream="emu-35-3-release" />
 </manifest>
+||||||| BASE
+  <!-- Rust compiler toolchain -->
+  <project path="prebuilts/rust" name="platform/prebuilts/rust" clone-depth="1" revision="b56574afd74707ab2f7bc2ce537ccf69aa242a2f"/>
+
+  <!-- Rust toolchain needs a set of dlls from mingw on windows -->
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="main" clone-depth="1" groups="notdefault,platform-windows" />
+
+  <!-- Temporarily disabled See: b/266452325, add this section to a local_manifest if you need rust
+    i.e. add this to $AOSP_ROOT/.repo/local_manfiests/chromium.xml
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+  <remote  name="chromium" fetch="https://chromium.googlesource.com/" />
+  <project path="external/rust/chromium/crates" name="chromiumos/third_party/rust_crates" remote="chromium" revision="70439c67fa61f074eb50fd2a498ff8ea0999db1c" clone-depth="1" />
+  </manifest>
+  -->
+</manifest>
+=======
+  <!-- Repo hooks -->
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="developers,tools" revision="main" />
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" revision="main" />
+</manifest>
+>>>>>>> BRANCH (2a33f6 Add support for repo hooks)
