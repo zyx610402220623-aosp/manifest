@@ -1,8 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
+<<<<<<< HEAD   (ec37aa Merge empty history for sparse-12384728-L49100030006945844)
+||||||| BASE
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="androidx-wear-tiles-release" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="c90b2404970520aef01decf3e323eb9f89f8209d" upstream="androidx-wear-tiles-release" />
+=======
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="sparse-12463751-L78400030006932796" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="41058b6d2adb3cfb8e7a1e1ea2a70583254c9fd4" upstream="androidx-wear-tiles-release" />
+>>>>>>> BRANCH (c260d6 Pin manifest of sparse-12463751-L78400030006932796(None))
 
+<<<<<<< HEAD   (ec37aa Merge empty history for sparse-12384728-L49100030006945844)
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
   <default remote="aosp" revision="sparse-4986261-L13200000208673522" sync-j="4" />
+||||||| BASE
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="032cb4d078ba1d04f507f3c548cf1d1240da41e3" upstream="androidx-wear-tiles-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="f1a4aec7648b15aaa0f258c62d0276e5bfde83e1" upstream="androidx-wear-tiles-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="2063fb5c294291f5b1fdc2f609c6a43193d1a9d1" upstream="androidx-wear-tiles-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="f0263d617c56bf458568e513daa88917099ed4cc" upstream="androidx-wear-tiles-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="a09726102cad3b4ce442b0bf4645b9c44e748dfb" upstream="androidx-wear-tiles-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="47aeaa1f74c53cceec694191137634bf84c7a391" upstream="androidx-wear-tiles-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="e08a5f10418bb3e43f32ca8fbb4f28aedda29a88" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="f8b33587b97f6e620bf864ae9334ea5d79f1f82d" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="08f6fc88ead2acf4ea59b9549c0182b0393a6cb6" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="41d2c86aa4884f71c180cc6277b58440a9c41f0e" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="af8ad4b958c119998da40da7cd6377f45b6f5e60" upstream="androidx-wear-tiles-release" />
+=======
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="032cb4d078ba1d04f507f3c548cf1d1240da41e3" upstream="androidx-wear-tiles-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="f1a4aec7648b15aaa0f258c62d0276e5bfde83e1" upstream="androidx-wear-tiles-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="2063fb5c294291f5b1fdc2f609c6a43193d1a9d1" upstream="androidx-wear-tiles-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="f0263d617c56bf458568e513daa88917099ed4cc" upstream="androidx-wear-tiles-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="a09726102cad3b4ce442b0bf4645b9c44e748dfb" upstream="androidx-wear-tiles-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="47aeaa1f74c53cceec694191137634bf84c7a391" upstream="androidx-wear-tiles-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="e08a5f10418bb3e43f32ca8fbb4f28aedda29a88" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="12b1e71c4686b867172e33bc3aab916c31f05a1a" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="08f6fc88ead2acf4ea59b9549c0182b0393a6cb6" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="41d2c86aa4884f71c180cc6277b58440a9c41f0e" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="af8ad4b958c119998da40da7cd6377f45b6f5e60" upstream="androidx-wear-tiles-release" />
+>>>>>>> BRANCH (c260d6 Pin manifest of sparse-12463751-L78400030006932796(None))
 
   <project groups="pdk" name="platform/build" path="build/make" revision="c4513fd7c04d096845355c728533de8273301e48">
     <copyfile dest="Makefile" src="core/root.mk" />
@@ -694,4 +738,86 @@
 
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks" />
 
+<<<<<<< HEAD   (ec37aa Merge empty history for sparse-12384728-L49100030006945844)
+||||||| BASE
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="f150648f9d6e5aea3c7507260b45b92ff7c862ca" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="b3c91602bacd5838904c3c423f3b43840612dbdb" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-wear-tiles-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="4322e70be62439f89a67011f3558102b9b767c1e" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="f248c769e1a2ad8facc62f7ff25bc5504832e622" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="5b6ac78b880c754fdb81860859c6001cc9faeb55" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="83cef70d9723903a1061ba4126faa9c9fc179f13" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="b00cfad43611b670a3cb5e3990b02ab87d8d2c74" clone-depth="1" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="73ab0f31d66b5acc6d542ed1fbb6a7ca6e1d9a64" clone-depth="1" upstream="androidx-wear-tiles-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c03f278dea3c6c46ec73346418f0fa544dbc3512" upstream="androidx-wear-tiles-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a90014340290143c500c38a4029aea80a9a45c05" upstream="androidx-wear-tiles-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+=======
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="f150648f9d6e5aea3c7507260b45b92ff7c862ca" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="b3c91602bacd5838904c3c423f3b43840612dbdb" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-wear-tiles-release" />
+
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="4322e70be62439f89a67011f3558102b9b767c1e" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="f248c769e1a2ad8facc62f7ff25bc5504832e622" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="5b6ac78b880c754fdb81860859c6001cc9faeb55" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="83cef70d9723903a1061ba4126faa9c9fc179f13" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
+  </project>
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-tiles-release">
+    <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
+  </project>
+  
+  
+  
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="b00cfad43611b670a3cb5e3990b02ab87d8d2c74" clone-depth="1" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="73ab0f31d66b5acc6d542ed1fbb6a7ca6e1d9a64" clone-depth="1" upstream="androidx-wear-tiles-release" />
+  
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c03f278dea3c6c46ec73346418f0fa544dbc3512" upstream="androidx-wear-tiles-release" />
+
+  
+
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="ad37370f6f0f2e720d0aab0ee1aebeec17731e33" upstream="androidx-wear-tiles-release" />
+  
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+>>>>>>> BRANCH (c260d6 Pin manifest of sparse-12463751-L78400030006932796(None))
 </manifest>
