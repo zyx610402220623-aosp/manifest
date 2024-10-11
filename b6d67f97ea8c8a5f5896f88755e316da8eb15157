@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ca0ff05_317fc777",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1146974
+      },
+      "writtenOn": "2024-10-11T00:18:15Z",
+      "side": 1,
+      "message": "You may revert aosp/3303884 only without this CL even they are in the same topic.",
+      "revId": "b6d67f97ea8c8a5f5896f88755e316da8eb15157",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
