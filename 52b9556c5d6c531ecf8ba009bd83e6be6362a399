@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30028d38_88190759",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2024-10-16T21:49:21Z",
+      "side": 1,
+      "message": "Note, you also need do to the same to goog androidx-platform-dev and androidx-studio-integration branches.",
+      "revId": "52b9556c5d6c531ecf8ba009bd83e6be6362a399",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
