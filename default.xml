@@ -60,6 +60,8 @@
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" />
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" />
 
+  <project path="external/perfetto" name="platform/external/perfetto" groups="pdk,sysui-studio" />
+
   <!-- libadbconnection_client is a dependency of libadbconnection. -->
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" />
 
