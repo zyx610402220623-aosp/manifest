@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ab47b05_131a60c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1069528
+      },
+      "writtenOn": "2024-10-30T22:29:38Z",
+      "side": 1,
+      "message": "Status:\nOK downstream branch creation\nFAILING - pdk review\n\nMissingProjectError: Execute the following (or similar) commands to create the missing projects:\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n/google/src/head/depot/google3/wireless/android/build_tools/utils/create_googleplex-android.sh --create_keystone --keystone_partner oppo --bug 369137871 --repo platform/external/kotlin-compose-compiler\n/google/src/head/depot/google3/wireless/android/build_tools/utils/create_googleplex-android.sh --create_keystone --aaos_keystone --keystone_partner vcc --bug 369137871 --repo platform/external/kotlin-compose-compiler\nI1030 15:27:56.930234  724684 client_instance.cc:310] ClientInstance default EndSessions.\nI1030 15:27:56.930258  724684 waiter_thread.cc:2873] [corp] EndSession for client id 1730327163150016012 (server [2002:ab3:f2cb:0:b0:53b:a87d:1e93]:6297)\n\nand I have executed repo creation twice. Will wait and try later in case this is a case of GoB being late as it is sometimes.",
+      "revId": "3ddba21afa3ca9f9c46cf87da2e1a7709037a372",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
