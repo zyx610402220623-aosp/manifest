@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ac7ecbf_7049d3ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2024-10-30T23:26:43Z",
+      "side": 1,
+      "message": "Need this CL to use the latest serde crate for toolchain upgrade.",
+      "revId": "4fc9dc92e09d35fd5e2606d62a14727798a8cf64",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
