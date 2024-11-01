@@ -16,6 +16,24 @@
       "message": "This block seems very dangerous, and is likely to continue to result in more downstream failures for netsim.",
       "revId": "7f1c54917ab1316ecf9712bb2d2d5857b526d385",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "369f62da_4e8a20dd",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2024-11-01T00:32:59Z",
+      "side": 1,
+      "message": "Currently we are not actively using `external/rust/android-crates-io-main`. The purpose of manifesting main is to make incremental changes with locally iterating with the monorepo changes.\n\nAnd we\u0027ve pinned `external/rust/android-crates-io` (which we are actively using in netsim-dev and the build is stable) to proceed with incremental step of pinning.\n\nWe are trying our best to keep up to date with the monorepo, and will be aware of the effects on downstream failures.",
+      "parentUuid": "9dce8206_25fc0b51",
+      "revId": "7f1c54917ab1316ecf9712bb2d2d5857b526d385",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
