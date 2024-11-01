@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce259933_75538b1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1966846
+      },
+      "writtenOn": "2024-11-01T00:36:36Z",
+      "side": 1,
+      "message": "According to go/presubmit-bypass-faq, users can vote BP+1 to bypass presubmit for PV-1.\n\nThe Windows build failure is tracked in b/376544965, which is a different irrelevant issue.",
+      "revId": "7f1c54917ab1316ecf9712bb2d2d5857b526d385",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9dce8206_25fc0b51",
