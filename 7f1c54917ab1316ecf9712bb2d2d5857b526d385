@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9dce8206_25fc0b51",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-11-01T00:24:15Z",
+      "side": 1,
+      "message": "This block seems very dangerous, and is likely to continue to result in more downstream failures for netsim.",
+      "revId": "7f1c54917ab1316ecf9712bb2d2d5857b526d385",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
