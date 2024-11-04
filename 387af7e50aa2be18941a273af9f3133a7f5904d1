@@ -16,6 +16,23 @@
       "message": "Haven\u0027t test this CL for real whether it would fix previous build failure on pdk. I\u0027ll test it later with ABTD when partner gerrit take this CL.",
       "revId": "387af7e50aa2be18941a273af9f3133a7f5904d1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6edc9af0_b618f079",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1958315
+      },
+      "writtenOn": "2024-11-04T17:19:10Z",
+      "side": 1,
+      "message": "There\u0027s merge conflict to resolve",
+      "revId": "387af7e50aa2be18941a273af9f3133a7f5904d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
