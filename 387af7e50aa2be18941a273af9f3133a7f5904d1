@@ -33,6 +33,24 @@
       "message": "There\u0027s merge conflict to resolve",
       "revId": "387af7e50aa2be18941a273af9f3133a7f5904d1",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4205833e_b9f82575",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019013
+      },
+      "writtenOn": "2024-11-05T23:46:14Z",
+      "side": 1,
+      "message": "ag/30245417 is fix for it.",
+      "parentUuid": "6edc9af0_b618f079",
+      "revId": "387af7e50aa2be18941a273af9f3133a7f5904d1",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
