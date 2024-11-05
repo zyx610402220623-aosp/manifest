@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "916cab28_1ce71155",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1807569
+      },
+      "writtenOn": "2024-11-05T21:30:35Z",
+      "side": 1,
+      "message": "Does not break Trusty targets `generic-arm64-test` and `generic-x86_64-test`. LGTM.",
+      "revId": "8aa3938a7b77c5e443e8d1433c2a750c943f6201",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
