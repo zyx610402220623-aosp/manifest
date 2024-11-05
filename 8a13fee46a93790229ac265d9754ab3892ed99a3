@@ -16,6 +16,23 @@
       "message": "Once Per Larsen has signed off on this for Trusty, I will add a reviewer from the build team to approve.",
       "revId": "8a13fee46a93790229ac265d9754ab3892ed99a3",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5d31c54_d2a75b98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1807569
+      },
+      "writtenOn": "2024-11-05T02:02:55Z",
+      "side": 1,
+      "message": "LGTM, would give +2 if I had the permissions to do so. \n\n(Tested by building these trusty targets: generic-arm64-test generic-x86_64-test.)",
+      "revId": "8a13fee46a93790229ac265d9754ab3892ed99a3",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
