@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18f59e8e_d38b84d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019013
+      },
+      "writtenOn": "2024-11-06T15:28:48Z",
+      "side": 1,
+      "message": "Adding @ipaland from go/abt-help#interrupt for +2",
+      "revId": "d4a4a5aaa948c1bd0daf684f8c6c663475f51b3f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
