@@ -16,6 +16,23 @@
       "message": "Adding @ipaland from go/abt-help#interrupt for +2",
       "revId": "d4a4a5aaa948c1bd0daf684f8c6c663475f51b3f",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3731adf5_8b4b90fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019013
+      },
+      "writtenOn": "2024-11-06T23:46:49Z",
+      "side": 1,
+      "message": "Gentle ping for Build team. ag/30245417 is submitted but this is pending.",
+      "revId": "d4a4a5aaa948c1bd0daf684f8c6c663475f51b3f",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
