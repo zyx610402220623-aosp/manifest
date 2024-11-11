@@ -111,10 +111,12 @@
     name="platform/prebuilts/fullsdk-linux/tools"
     clone-depth="1"
     groups="notdefault,platform-linux" />
+
+  <!-- common (linux and darwin)-->
   <project
     path="prebuilts/build-tools"
     name="platform/prebuilts/build-tools"
-    groups="notdefault,platform-linux"
+    groups="notdefault,platform-linux,platform-darwin"
     clone-depth="1" />
 
   <!-- NDK dependencies -->
