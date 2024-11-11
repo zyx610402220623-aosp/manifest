@@ -89,6 +89,11 @@
     name="platform/prebuilts/fullsdk-darwin/tools"
     clone-depth="1"
     groups="notdefault,platform-darwin" />
+  <project
+    path="prebuilts/build-tools"
+    name="platform/prebuilts/build-tools"
+    groups="notdefault,platform-darwin"
+    clone-depth="1" />
 
   <!-- linux specific -->
   <project
