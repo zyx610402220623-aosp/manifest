@@ -114,7 +114,7 @@
   <project
     path="prebuilts/build-tools"
     name="platform/prebuilts/build-tools"
-    groups="notdefault,platform-linux"
+    groups="notdefault,platform-linux, platform-darwin"
     clone-depth="1" />
 
   <!-- NDK dependencies -->
