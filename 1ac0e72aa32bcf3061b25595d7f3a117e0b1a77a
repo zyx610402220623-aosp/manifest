@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bd2abba_ca96109c",
+        "filename": "default.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2024-11-11T16:45:07Z",
+      "side": 1,
+      "message": "Remove groups entry if we use it in both platforms.",
+      "revId": "1ac0e72aa32bcf3061b25595d7f3a117e0b1a77a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
