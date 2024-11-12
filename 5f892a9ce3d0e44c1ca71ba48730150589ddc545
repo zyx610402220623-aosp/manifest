@@ -16,6 +16,41 @@
       "message": "Will submit when Per signs off as well.",
       "revId": "5f892a9ce3d0e44c1ca71ba48730150589ddc545",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "216e722d_abac8c5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1807569
+      },
+      "writtenOn": "2024-11-12T10:42:50Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "f239e79f_85f38b5c",
+      "revId": "5f892a9ce3d0e44c1ca71ba48730150589ddc545",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61d4c094_f398f210",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1807569
+      },
+      "writtenOn": "2024-11-12T10:42:50Z",
+      "side": 1,
+      "message": "LGTM. Built trusty targets `generic-arm64-test` and `generic-x86_64-test`.",
+      "revId": "5f892a9ce3d0e44c1ca71ba48730150589ddc545",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
