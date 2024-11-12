@@ -16,6 +16,24 @@
       "message": "Remove groups entry if we use it in both platforms.",
       "revId": "1ac0e72aa32bcf3061b25595d7f3a117e0b1a77a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e23a168_8fe7c1ce",
+        "filename": "default.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 3250889
+      },
+      "writtenOn": "2024-11-12T08:45:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4bd2abba_ca96109c",
+      "revId": "1ac0e72aa32bcf3061b25595d7f3a117e0b1a77a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
