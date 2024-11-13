@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "879a714b_4d2fd6a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-11-13T23:55:44Z",
+      "side": 1,
+      "message": "http://b/377969922 is still probably going to affect this in presubmit.",
+      "revId": "29947140c7771511d112e606470ca26d0b39631b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
