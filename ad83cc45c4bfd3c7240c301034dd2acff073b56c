@@ -16,6 +16,24 @@
       "message": "I think my patch no longer breaks the build? CR -2 is to submit this patch accidentally.",
       "revId": "ad83cc45c4bfd3c7240c301034dd2acff073b56c",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68b067b7_d8ff1a3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-11-13T01:09:31Z",
+      "side": 1,
+      "message": "Should this change be abandoned?",
+      "parentUuid": "67dca188_89bd5ec0",
+      "revId": "ad83cc45c4bfd3c7240c301034dd2acff073b56c",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
