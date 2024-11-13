@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "187ece44_6026f9bd",
+        "filename": "default.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1086749
+      },
+      "writtenOn": "2024-11-13T20:57:05Z",
+      "side": 1,
+      "message": "we need to land this change in androidx-platform-dev and androidx-studio-integration manifest files first.",
+      "revId": "955fe2fb415cb9f480f0bada5c76884add12f81a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
