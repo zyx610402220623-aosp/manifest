@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "994a741a_a00fce3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-11-13T00:11:27Z",
+      "side": 1,
+      "message": "Downstream branches have been created for:\n- platform/packages/modules/Nfc\n- platform/prebuilts/module_sdk/Nfc",
+      "revId": "da477c146df8aca61f472a3f283172c013d3d93e",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
