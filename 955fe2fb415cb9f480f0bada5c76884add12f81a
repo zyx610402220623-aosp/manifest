@@ -16,6 +16,24 @@
       "message": "we need to land this change in androidx-platform-dev and androidx-studio-integration manifest files first.",
       "revId": "955fe2fb415cb9f480f0bada5c76884add12f81a",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d82c3c91_da66b763",
+        "filename": "default.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 3250889
+      },
+      "writtenOn": "2024-11-13T21:11:48Z",
+      "side": 1,
+      "message": "already in androidx-platform-dev: https://googleplex-android.googlesource.com/platform/manifest/+/refs/heads/androidx-platform-dev/default.xml#33\n\nplease review: ag/30382788",
+      "parentUuid": "187ece44_6026f9bd",
+      "revId": "955fe2fb415cb9f480f0bada5c76884add12f81a",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
