@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a4513c3_fcf8700c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1979146
+      },
+      "writtenOn": "2024-11-13T01:12:03Z",
+      "side": 1,
+      "message": "Please resolve the merge conflict and verify presubmit passes.",
+      "revId": "be2c3cda3f0306a54f486cae8b6568b850e0d9be",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    }
+  ]
+}
