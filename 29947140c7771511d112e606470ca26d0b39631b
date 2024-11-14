@@ -16,6 +16,24 @@
       "message": "http://b/377969922 is still probably going to affect this in presubmit.",
       "revId": "29947140c7771511d112e606470ca26d0b39631b",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e17a57ea_c79db0cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-11-14T01:03:14Z",
+      "side": 1,
+      "message": "It did. 😞 I guess I\u0027ll just leave this CL pending until the bug is fixed, since I don\u0027t want to cause broken incremental builds.",
+      "parentUuid": "879a714b_4d2fd6a1",
+      "revId": "29947140c7771511d112e606470ca26d0b39631b",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }

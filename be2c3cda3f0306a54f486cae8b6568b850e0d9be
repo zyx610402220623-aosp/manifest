@@ -16,6 +16,24 @@
       "message": "Please resolve the merge conflict and verify presubmit passes.",
       "revId": "be2c3cda3f0306a54f486cae8b6568b850e0d9be",
       "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32a5a2fb_cd28cd58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1010056
+      },
+      "writtenOn": "2024-11-14T01:03:14Z",
+      "side": 1,
+      "message": "Merge conflict resolved. I can\u0027t make further progress until http://b/377969922 is resolved though.",
+      "parentUuid": "6a4513c3_fcf8700c",
+      "revId": "be2c3cda3f0306a54f486cae8b6568b850e0d9be",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889"
     }
   ]
 }
